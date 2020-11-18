@@ -20,7 +20,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## Agent App now fully available for both Android & iOS
-### Agent App - Android version 2.5.6
+### Type: Enhancement (Agent App - Android version 2.5.6)
 
 The Agent App is now in GA for both Android and iOS.
 
@@ -42,3 +42,42 @@ In the future the following functionality will added
 - Automotive specific feature support
 
 Please see the [user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-app-agent-app-user-guide.html)for more information.
+
+## Public API Transfer Conversation failure for existing skill 
+### Type: Bug fix (Third Party Bot Connectors - Version 2.24)
+
+When a customer tried to use the Transfer command of Public API with existing skills,  they received the skill not found error in response. 
+This issue has fixed that transfer problem and skills are recognized if exists on the Conversational Cloud platform. 
+
+## Fix SDE fetching logic
+### Type: Bug fix/Improvement (Third Party Bot Connectors version 2.24.6)
+
+The process to fetch SDE by the third Party bot platform experienced some recurring failures due to a race condition. As the SDEs are not always present the moment the Bot platform gets the conversation creation event, it was experienced that during the fetching process, it received errors due to missing SDEs. In addition it was established that the platform unnecessarily retrieves SDEs after a bot restarted. 
+The fix fetches the SDEs retrieval after the first message the bot receives/send. At this time the SDEs are already set. We also now check if the SDEs are already retrieved to prevent unnecessary calls.
+
+## Fix faas Hooks
+### Type: Bug fix/Improvement (Third Party Bot Connectors 2.24.6)
+
+Due to some changes made on calling Functions, the hooks functionality was broken. We updated the hook handling to fix the issue and additionally added tests to ensure the implementation of the hooks is always functioning properly.
+The integration tests are simulating real faas functions calls which makes them more reliable.
+
+## Limit the maximum number of open bot convs to 999 
+### Type: Bug fix (Third Party Bot Connectors Version 2.24.9 Worker 2.24.5 API)
+
+With this Hotfix, LivePerson will now limit the number of open conversations per one bot to 999 max. 
+Any new conversation arriving after hitting the limit will be error escalated with a new error type, as described in the [Developers Center.](https://developers.liveperson.com/third-party-bots-bot-conversation-errors.html#comlivepersonbot-connectors-workererrorpipesconversation-limit-checkermax-conv-limit-reached)
+This behaviour is also documented [here](https://developers.liveperson.com/third-party-bots-getting-started.html) 
+
+This new error can be found inside the Conversation Errors TAB on the Bot View Dashboard, see screenshot below.
+
+![](img/RN-week-of-nov-23-1.png)
+
+## Close/transfer conversations on bot stop not working properly (INT-1499)
+### Type: Bug fix (Third Party Bot Connectors Version 2.24.9 Worker 2.24.5 API)
+
+Currently, if a bot is stopped, the customer has an option to close or transfer all currently connected conversations. However, if one of these conversations fails to close/transfer, the action is aborted. With this fix we will ensure to perform the desired actions on all connected conversations, even if something fails in the meantime.
+
+
+
+
+
