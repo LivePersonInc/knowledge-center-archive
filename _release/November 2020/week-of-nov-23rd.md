@@ -72,7 +72,7 @@ This new error can be found inside the Conversation Errors TAB on the Bot View D
 
 ![](img/RN-week-of-nov-23-1.png)
 
-## Close/transfer conversations on bot stop not working properly (INT-1499)
+## Close/transfer conversations on bot stop not working properly 
 ### Type: Bug fix (Third Party Bot Connectors Version 2.24.9 Worker 2.24.5 API)
 
 Currently, if a bot is stopped, the customer has an option to close or transfer all currently connected conversations. However, if one of these conversations fails to close/transfer, the action is aborted. With this fix we will ensure to perform the desired actions on all connected conversations, even if something fails in the meantime.
