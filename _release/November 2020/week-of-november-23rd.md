@@ -43,24 +43,6 @@ In the future the following functionality will added
 
 Please see the [user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-app-agent-app-user-guide.html)for more information.
 
-## Public API Transfer Conversation failure for existing skill 
-### Type: Bug fix (Third Party Bot Connectors - Version 2.24)
-
-When a customer tried to use the Transfer command of Public API with existing skills,  they received the skill not found error in response. 
-This issue has fixed that transfer problem and skills are recognized if exists on the Conversational Cloud platform. 
-
-## Fix SDE fetching logic
-### Type: Bug fix/Improvement (Third Party Bot Connectors version 2.24.6)
-
-The process to fetch SDE by the third Party bot platform experienced some recurring failures due to a race condition. As the SDEs are not always present the moment the Bot platform gets the conversation creation event, it was experienced that during the fetching process, it received errors due to missing SDEs. In addition it was established that the platform unnecessarily retrieves SDEs after a bot restarted. 
-The fix fetches the SDEs retrieval after the first message the bot receives/send. At this time the SDEs are already set. We also now check if the SDEs are already retrieved to prevent unnecessary calls.
-
-## Fix faas Hooks
-### Type: Bug fix/Improvement (Third Party Bot Connectors 2.24.6)
-
-Due to some changes made on calling Functions, the hooks functionality was broken. We updated the hook handling to fix the issue and additionally added tests to ensure the implementation of the hooks is always functioning properly.
-The integration tests are simulating real faas functions calls which makes them more reliable.
-
 ## Limit the maximum number of open bot convs to 999 
 ### Type: Bug fix (Third Party Bot Connectors Version 2.24.9 Worker 2.24.5 API)
 
