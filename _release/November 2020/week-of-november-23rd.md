@@ -77,7 +77,75 @@ This new error can be found inside the Conversation Errors TAB on the Bot View D
 
 Currently, if a bot is stopped, the customer has an option to close or transfer all currently connected conversations. However, if one of these conversations fails to close/transfer, the action is aborted. With this fix we will ensure to perform the desired actions on all connected conversations, even if something fails in the meantime.
 
+## [Messaging Window] Configuration to collapse message history when loading new conversation
+### Type: Enhancement (Web experiences 10.6)
 
+As part of an effort to improve load times for a new conversation, we have added the ability to hide older messages behind a button. The two most recent conversations will show in the window and each conversation can be displayed by pressing the “Show Previous” button. If the consumer does not have more than two previous conversations, the button will not show. This feature allows for faster loading of the message window while still having older conversations available to the consumer. Transcripts will function as they always have, printing the entire text conversation. 
 
+**Customization:** Brands are able to customize the look and feel of the “Show Previous” button based on the following CSS properties within the Window Customization API:
 
+```.lpc_history-button button {
+}
+```
 
+![](img/week-of-november-23rd-1.png)
+
+{: .notice} 
+**Please note:** This feature requires backend enablement. Please contact your LivePerson representative for more information. 
+
+## [Messaging Window] WCAG 2.1 AA / Accessibility Remediation
+### Type: Enhancement (Web experiences 10.6)
+
+The Web Experiences team is partnering with a website accessibility firm to remediate, validate, and ultimately certify the LivePerson consumer experience as WCAG 2.1 AA compliant.  To reach WCAG 2.1 AA compliance, we will be deploying fixes to the consumer experience over the next few months that will incrementally get us to certification.  
+
+Please note that issues that are remediated and validated under WCAG 2.1 AA compliance only apply for the default engagements, window themes, and out-of-the-box features/taglets within the consumer window. Any Brands that utilize custom windows, taglets, and engagements, should be reviewed and updated by the customer, or their representative, to meet WCAG 2.1 AA compliance. 
+
+## [Messaging Window] Updated input field description for Android
+### Type: Bug fix (Web experiences 10.6)
+
+The input field descriptive text on Android is now consistent with all other Web Messaging descriptive text.
+
+## [Messaging Window] Rich carousel navigation issue
+### Type: Bug fix (Web experiences 10.6)
+
+This bug has been resolved and rich carousels now navigate appropriately when set to right-to-left (RTL).
+
+## [Messaging Window] Text box disappearing on mobile Web Messaging
+### Type: Bug fix (Web experiences 10.6)
+
+On mobile web, scrolling no longer results in the text entry box disappearing. This bug has been resolved. 
+
+## [Messaging Window] iOS mobile web enhancement 
+### Type: Bug fix (Web experiences 10.6)
+
+A bug has been resolved to optimize sending a message on iOS mobile web.
+
+## [Messaging Window] Issue with scroll in the messaging window
+### Type: Bug fix (Web experiences 10.6)
+
+This bug has been resolved and the messaging window now scrolls on iOS mobile web when the keyboard is visible. 
+
+## [Messaging Window] Messaging window spacing 
+### Type: Bug fix (Web experiences 10.6)
+
+The gap has been adjusted between the messaging window and keyboard for mobile Safari and Chrome on iPhone X.
+
+## [Messaging Window] Duplicate timestamps in transcript
+### Type: Bug fix (Web experiences 10.6)
+
+This bug has been resolved and the printed transcript no longer shows duplicate timestamps.
+
+## [Messaging Window] Auto close window disappearing 
+### Type: Bug fix (Web experiences 10.6)
+
+Under auto-close conditions, a minimized window can now be maximized without disappearing.
+
+## [Messaging Window] HTML output
+### Type: Bug fix (Web experiences 10.6)
+
+The word “span” no longer produces an HTML output when used in a message.
+
+## [Messaging Window] Window reappearing on new page
+### Type: Bug fix (Web experiences 10.6)
+
+After ending an authenticated conversation, the window will not appear when the consumer navigates to a new page.
