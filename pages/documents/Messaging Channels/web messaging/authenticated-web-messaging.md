@@ -28,15 +28,10 @@ Authenticated Web Messaging can be offered to consumers are authenticated on you
 ### Authenticated messaging provides the following benefits:
 
 * Always-on, continuous messaging experience for logged-in website visitors
-* Ability to continue a conversation un-interrupted between App Messaging and Web Messaging. This also enables proactive push notifications on a users phone for new incoming messages (using App Messaging push)
+* Ability to continue a conversation un-interrupted between App Messaging and Web Messaging.
 * Conversation history remains, providing consumers easy access to previous conversations and content
 * Strong authentication services enable secure and protected conversations for sensitive topics
 * Fully accessible window in compliance with WCAG 2.0 AA Standard
-
-<br/>
-Watch how Web Messaging can be seamless across web and mobile using authenticated Web Messaging:
-
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/253109875" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## **Authenticated Web Messaging flow:**
 

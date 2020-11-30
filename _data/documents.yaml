@@ -232,8 +232,7 @@
         - pagename: Predefined content best practices
     - subcategoryname: Agent app
       pages:
-        - pagename: iOS user guide
-        - pagename: Android user guide
+        - pagename: Agent app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -375,6 +374,7 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: September what's new    
     - subcategoryname: August what's new    
     - subcategoryname: July what's new
     - subcategoryname: June what's new
@@ -388,7 +388,8 @@
       pages:
         - pagename: November
           level3:
-            - level3name: Week of November 2nd     
+            - level3name: Week of November 2nd 
+            - level3name: Week of November 9th               
         - pagename: October
           level3:
             - level3name: Week of October 5th

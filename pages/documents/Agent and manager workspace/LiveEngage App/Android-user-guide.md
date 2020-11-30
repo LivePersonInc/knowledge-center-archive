@@ -1,59 +1,59 @@
 ---
-pagename: Android user guide
+pagename: Agent app user guide
 categoryName: Agent & manager workspace
-subCategoryName: ''
+subCategoryName: Agent app
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-app-android-user-guide.html
+permalink: agent-manager-workspace-agent-app-agent-app-user-guide.html
 isTutorial: false
 isNew: false
-
+redirect_from:
+  - agent-manager-workspace-agent-app-android-user-guide.html
 
 ---
-The LivePerson Agent app is an Android application that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers.
+The LivePerson Agent app is available for both iOS & Android that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers.
 
 In addition to allowing reps to work remotely, the app also expands opportunities for messaging scenarios. For example, in stores, retail reps can leverage their down time by messaging with customers not in store, utilizing retail reps as agents and giving them the power to increase sales.
 
 ![](img/V1-Android-agent-app-1.png)
 
-## Current Android Agent App status
+## Current Agent App status
 The current Android app supports version 8 and up.
+The current iOS app supports version 12 and up.
 
 ## Supported Capabilities
-The app supports Android phones and is optimized for their screen sizes. Agents can use the app to complete basic conversation with consumers including:
-Accepting new conversations when they are online
-Manage the list of conversations
-Transfer to another skill or to a specific agent
-Close conversations
-Return conversation to the queue
-Agent managers can review conversations of their team, and filter by status or specific agent.
-Managers (Admins) can join conversations to actively participate.
-Live Video Calls 
-Predefined Content 
-Photo sharing.
+The app supports iOS & Android phones and is optimized for their screen sizes. Agents can use the app to complete basic conversation with consumers including:
+* Accepting new conversations when they are online
+* Manage the list of conversations
+* Transfer to another skill or to a specific agent
+* Close conversations
+* Return conversation to the queue
+* Agent managers can review conversations of their team, and filter by status or specific agent.
+* Managers (Admins) can join conversations to actively participate.
+* Live Video Calls 
+* Predefined Content 
+* Photo sharing
 
 ## Future Capabilities
 In the future the following functionality will added:
-- Tablet version
-- Videos & file sharing
-- Structured content
-- Secure forms
-- Multi send back to queue
 - Consumer info
 - SSO
 - Network effect support
 - Automotive specific feature support
 
 ## Provisioning
-This app is available on Google Play. Brands can download it today and any agent can use their regular credentials to login.
-https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging"
+This app is available on Google Play and Apple store. Brands can download it today and any agent can use their regular credentials to login.
+Android: https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging"
+iOS: https://apps.apple.com/us/app/liveperson-agent-app/id1533849048"
 
 ## How to login
 ### Login fields
-Account no: the account ID
+Account no: the account ID (Remember toggle can be used to save for future login)
 Username: usually the agent’s email
 Password: a masked field
+
+![](img/LoginScreen1.png)
 
 {: .notice}
 Changing / retrieving lost password will be carried out by an admin on the web platform.
@@ -64,9 +64,6 @@ Tapping the button performs a log in to the app.
 
 {: .notice}
 SSO login will be included in a future phase of the app.
-
-### App version
-Long tap on the app version allow user to send logs
 
 ### Log in screen errors
 In case of credentials error / server error, an alert is presented.
@@ -90,12 +87,13 @@ While the agent is in the "away" state, agents will not be eligible to receive n
 
 **Links**
 1. Settings - From settings you can enable dark mode and change language of the app.
-2. Feedback - opens a blank email for users to provide LivePerson with feedback on the app.
+2. Submit App Feedback - opens a form to provide LivePerson with feedback on the app
+3. Message us button - Provides user option to contact LivePerson Support.
 
 ### Log out button
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from the LivePerson database.
 
-![](img/V1-Android-agent-app-2.png)
+![](img/AgentPage1.png)
 
 ## Agent flow
 ### Empty state
@@ -133,12 +131,16 @@ Every conversation starts with a new message, originating from the consumer.
 
 ## Messaging the consumer
 ### Text field
-When the agent writes several lines or uses the ‘return’ key, the text field expands according to the text size.
+When the agent writes several lines or uses the ‘return’ key it sends the message.
 
 ### Send icon
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-![](img/V1-Android-agent-app-4a.png)
+![](img/ConversationScreen.png) 
+
+### Attachments Icon
+Tapping the "+" attachment icon brings up the attachments menu. Agents can send predefined content, a secure form, or start a video call.
+ADD attachments.png
 
 ### Conversation message: consumer side
 Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp.
@@ -150,20 +152,22 @@ Below the agent bubble there is an indication for the agent name and a time stam
 ### Auto messages/system messages
 Automatic messages or system messages display in a white color without a bubble centered in the screen.
 
-### Conversation history
-When an agent accepts new conversations, he sees the new message arrive. In addition, if there are previous conversations in the history the last conversations will appear as well. The agent is able to scroll up to reveal the history of additional closed messaging conversations with the consumer.
-
 ## Agent action menu
-### Send back to queue
-Tapping the ‘Send back to queue’ action removes the agent assignment from the conversation and sends it back to the skill queue. The position of the conversation in the queue is determined by LivePerson’s algorithm (currently it is positioned at the end of the queue, but enhancements to the algorithm are in progress).
+Tapping the three vertical dots on the top right brings up the agent action menu.
 
-### End conversation
-In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from web. On web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
+### Return to queue
+Tapping the ‘return to queue’ action removes the agent assignment from the conversation and sends it back to the queue of the appropriate skill. The position of the conversation in the queue is determined by LivePerson’s algorithm (currently it is positioned at the end of the queue, but enhancements to the algorithm are in progress).
+
+### Close conversation
+In case the conversation is no longer relevant and is not needed for future reference, the agent may close the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from web. On web, closed conversations can be reopened when the agent sends a new message. 
 
 ### Inactive conversations
 Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
 
-![](img/V1-Android-agent-app-5.png)
+### Transfer conversations
+Allow agent to transfer a conversation either to another agent or to any agent within a skill.
+
+![](img/Actions1.png)
 
 ## The connections list
 ### Connection list order
@@ -206,6 +210,7 @@ All of the functionality for agent users apply to agent manager as well.
 
 In order for a manager to be able to receive new conversation, he needs to be defined in the web platform with an agent role.
 Below describes the additional set of features available only for users with manager role:
+
 ### The manager connections view - My/All tabs
 When a user with a manager role logs in to the app, the connections list display two tabs: My/All.
 Under the my tab, managers can view open conversation assigned to him or conversations that he is joined to.
@@ -291,3 +296,18 @@ When an agent manager is focused on a conversation in one tab (e.g. all tab) and
 In this state the “cactus” image will be display on right panel with the label “Please select a conversation” under it
 
 The list of agents available are according the agent in the manager agent group.
+
+## Tablet mode
+When opened on a tablet, the app will open in tablet mode. The conversation list will show on the left and conversations will show on the right. If the tablet is rotated to portrait mode the conversation list will automatically hide. Rotate back to landscape mode to reshow it.
+
+![](img/TabletMode.png)
+
+## Multi back to queue
+
+From the conversation list, long tap on any open conversation. A check mark will appear on the right to indicate it has been selected. Tap any additional conversations or tap "Mark all" to select all conversations. Tap "Return to queue" to return these conversations to the queue. Tap the "x" to cancel.
+
+![](img/MultiBackToQueue1.png)
+
+## Structured Content
+
+[Structured Content](https://knowledge.liveperson.com/messaging-channels-rich-conversations-structured-content-for-messaging-user-guide.html)can be viewed in messaging conversations sent from bots or other agents. Current carousel is not yet supported and cards are view only, not interactive.

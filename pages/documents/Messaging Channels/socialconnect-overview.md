@@ -48,7 +48,7 @@ Agents will be able to respond with:
 
 The product will listen to:
 
-* Public Tweets that contain an @mention of a specific brand (e.g. “@Spotify Hey” or any reply to a brand’s tweet)
+* Public Tweets that contain an @mention of a specific brand
 * Private DMs sent to the brand's account
 
 Agents will be able to respond with:
