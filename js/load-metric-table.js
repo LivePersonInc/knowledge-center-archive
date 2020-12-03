@@ -1,5 +1,5 @@
 (function () {
-  var staticUrl = "/_data/reportbuild.json"
+  var staticUrl = "/data/reportbuild.json"
   fetch(staticUrl)
     .then(response => response.json())
     .then(metricData => {
