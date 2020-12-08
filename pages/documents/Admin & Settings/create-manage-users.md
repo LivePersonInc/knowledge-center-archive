@@ -36,8 +36,6 @@ It’s also possible for brands to create profiles - customized permissions sets
 * If your brand is enabled with the messaging feature, set the maximum number of messaging conversation.
 * To define a user with a monitoring role, but who is not required to respond to incoming conversations, define them as an AGENT with AWAY default status. In this case configure in User Details the maximum number of both chats and messages as 0, so they will not receive incoming conversations.
 
-
-
 #### There are two options for this setting:
 
 a) You can set it to inherit it from the account level setting that can be configured through the footnote in the Users tab. Any change to the account level setting will impact all agents defined with setting.
