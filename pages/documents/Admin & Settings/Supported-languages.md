@@ -85,7 +85,7 @@ The [Agent Workspace](https://knowledge.liveperson.com/agent-manager-workspace-a
 
 ## Languages supported in the Mobile SDK 
 
-The Mobile SDK supports 39 languages and dialects:
+The [Mobile SDK](messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html) supports 39 languages and dialects:
 
 * Bulgarian
 * Chinese (Simplified)
