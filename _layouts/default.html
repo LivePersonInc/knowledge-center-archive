@@ -57,7 +57,9 @@
         <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
       </ul>
     </div>
-    {{ content | extlinks }}
+    <div id="post-content" class="post-content">
+      {{ content | extlinks }}
+    </div>
   </div>
     <div id="feedback">
       <div class="feedbacktitle">Missing something?</div>
