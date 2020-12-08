@@ -14,6 +14,9 @@ $(document).ready(function () {
 	}, 2000)
 	capabilitiesSearch();
 	searchFunction();
+	if (url.includes('/data-reporting-reporting-metrics.html')) {
+		loadData()
+	}
 	$(document).ready(function () {
 	scrollToHash();
 	if(checkCookie(window.cookieName) != window.cookieValue){
@@ -55,6 +58,9 @@ function navigateContent(url) {
 			capabilitiesSearch();
 			searchFunction();
 			replaceTitle();
+			if (url.includes('/data-reporting-reporting-metrics.html')) {
+				loadData()
+			}
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
 			//jump to top when page loads if no hash
@@ -82,6 +88,30 @@ function navigateContent(url) {
 		});
 	};
 
+function loadData() {
+	console.log('loading data')
+	var staticUrl = "/data/reportbuild.json"
+	fetch(staticUrl)
+		.then(response => response.json())
+		.then(metricData => {
+			metricData.map((metricitem) => {
+				let { Metric, analysisType, Channel, Description, Dashboard, filteredBy, formulaOptional } = metricitem;
+				jQuery(".metric-table").append(`
+          <tr>
+            <td class="metric">${Metric}</td>
+            <td class="analysis">${analysisType}</td>
+            <td class="channel">${Channel}</td>
+            <td class="description">${Description}</td>
+            <td class="dashboard">${Dashboard}</td>
+            <td class="filtered">${filteredBy}</td>
+            <td class="formula">${formulaOptional}</td>
+          </tr>
+        `);
+			});
+		})
+}
+
+	
 //a function to control a click on internal links
 function linkclick(event, that) {
 	if (event.isTrigger) {
