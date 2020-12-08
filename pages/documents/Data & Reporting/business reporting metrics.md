@@ -7,7 +7,6 @@ subtitle:
 level3: ''
 permalink: data-reporting-reporting-metrics.html
 isTutorial: false
-layout: reporting-metrics
 ---
 The Conversational Cloud uses a large amount of metrics to provide insightful and detailed reporting.
 
