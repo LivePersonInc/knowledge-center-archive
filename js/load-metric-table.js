@@ -1,4 +1,4 @@
-(function () {
+$(document).ready(function () {
   var staticUrl = "/data/reportbuild.json"
   fetch(staticUrl)
     .then(response => response.json())
