@@ -31,7 +31,7 @@ The Performance Optimizer is LivePerson’s first analytical product geared towa
 The Performance Optimizer has a simple graphic interface, requiring no advanced cognitive skills such as complex information processing, data analysis or mathematical skills. This provides users with accurate results, actionable information, and recipes for success.
 For more information, click [here](https://knowledge.liveperson.com/data-reporting-performance-optimizer-performance-optimizer-overview.html)
 
-![](img/PO-whatsnew.png)
+![](img/PO-whatsnew.gif)
 
 ## In 2020, we placed a lot of importance on automations
 
