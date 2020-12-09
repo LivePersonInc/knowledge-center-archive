@@ -67,6 +67,39 @@ In the agent Activity, the COBROWSE chat metrics were exposed:
 | COLLABORATION SESSION TYPE | Collaboration Session Types: Voice,Video, Co Browse |
 | COLLABORATION END REASON | The reason for the collaboration session end: SERVER, VISITOR, AGENT, TIMEOUT|
 
+## PCI Forms usage for messaging
+### Type: Enhancement [Analytics Builder 4.8]
+
+**Available to all customers?** Y (Analytics Builder enabled) 
+The Analytics Builder predefined dashboards: Agent Activity, Business Activity for Messaging and the Performance Dashboard For Messaging were enhanced to allow brands to measure the PCI Secure forms usage and ROI. Brands can now track their daily usage, feature funnel and correlation of the PCI forms vs. performance KPIs such as conversion, revenue, CSAT at brand, skill and agent level.
+
+#### Agent Activity:
+| Metric name | Description | 
+|--------------|-------------|
+| NO. OF SECURE FORM (PCI) SENT (MESSAGING)| Number of secure forms sent by an agent to a consumer during a conversation. |
+| NO. OF SECURE FORM (PCI) SUBMITTED (MESSAGING) | Number of secure forms completed and submitted back to the agent by a consumer during a conversation.|
+| NO. OF SECURE FORM (PCI) VIEWED (MESSAGING) | Number of secure forms viewed by the consumer during a conversation.|
+
+#### Business Activity for Messaging, Performance for Messaging:
+
+**New Metrics:**
+| Metric name | Description | 
+|--------------|------------|
+| NO. OF SECURE FORM (PCI) SENT (MESSAGING) | Number of secure forms sent by an agent to a consumer during a conversation.|
+| NO. OF SECURE FORM (PCI) SUBMITTED (MESSAGING) | Number of secure forms completed and submitted back to the agent by a consumer during a conversation.|
+| NO. OF SECURE FORM (PCI) VIEWED (MESSAGING) | Number of secure forms viewed by the consumer during a conversation|
+
+**New attributes:**
+
+| Attribute name | Description | 
+|--------------|-------------|
+| IS ACTIVE SECURE FORM (PCI)| Indicates whether the secure form has been deleted from the account's configuration. Use this attribute to filter out deleted secure forms |
+| SECURE FORM (PCI) NAME | The name of the Secure Form (PCI)|
+
+#### Limitations:
+In the Agent Activity Dashboard, The filter ‘Conversation Type’  does not apply on the PCI Messaging KPIs.
+In the Business Messaging dashboard, the Goal Type filter does not apply on the new Secure forms usage metrics 
+
 ## CCPLH and CCPOH added out of the box to the Performance messaging dashboard
 ### Type: Enhancement [Analytics Builder 4.8]
 
