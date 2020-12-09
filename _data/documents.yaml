@@ -387,10 +387,14 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:
+        - pagename: December
+          level3:
+            - level3name: Week of December 7th 
+            - level3name: Week of December 14th               
         - pagename: November
           level3:
             - level3name: Week of November 2nd 
-            - level3name: Week of November 9th               
+            - level3name: Week of November 9th         
         - pagename: October
           level3:
             - level3name: Week of October 5th
