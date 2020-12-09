@@ -19,7 +19,7 @@ Watch this two-minute video for the Best of 2020.
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/486867224?autoplay=1&loop=1&autopause=0&muted=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-### This year we launched…
+## This year we launched…
 
 ## The Conversational Cloud
 
@@ -33,7 +33,7 @@ For more information, click [here](https://knowledge.liveperson.com/data-reporti
 
 ![](img/PO-whatsnew.png)
 
-### In 2020, we placed a lot of importance on automations
+## In 2020, we placed a lot of importance on automations
 
 We revamped our Conversation Builder tutorials so that our customers can get started with bots and automations quickly and seamlessly without the need for code.
 Check out all our Conversation Builder tutorials [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)
@@ -54,7 +54,7 @@ Once a bot developer imports a dialog template into a destination bot, it become
 
 ![](img/Dialog_templates_whats_new.gif)
 
-Intent-driven business was also a major focus
+## Intent-driven business was also a major focus
 
 ## Intent discovery and optimization
 
@@ -83,7 +83,7 @@ For the latest release of Proactive Messaging check out the [Release Notes.](htt
 Brands can respond to Instagram DMs, story tags, and comments directly within the Conversational Cloud. It supports structured content including images & quick replies.
 This feature is currently available for Early Adopter clients in the Conversational Cloud.
 
-### Agent and Manager Workspace enhancements
+## Agent and Manager Workspace enhancements
 
 ## Accessibility
 At LivePerson, we believe our products should be accessible to even more diverse populations, which is why  in 2020 we began our journey to Accessibility WCAG 2.1 AA compliance.
@@ -103,7 +103,7 @@ The LivePerson Agent app, available for both iOS and Android, allows agents and 
 
 ![](img/Agent_App-whats-new.gif)
 
-### This month we released the following…
+## This month we released the following…
 
 ## Engagement Enhancements (early access)
 
