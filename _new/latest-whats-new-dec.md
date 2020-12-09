@@ -38,7 +38,7 @@ For more information, click [here](https://knowledge.liveperson.com/data-reporti
 We revamped our Conversation Builder tutorials so that our customers can get started with bots and automations quickly and seamlessly without the need for code.
 Check out all our Conversation Builder tutorials [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)
 
-Conversation Builder dialog editor 2.0
+## Conversation Builder dialog editor 2.0
 The Conversation Builder Dialog Editor 2.0 was updated to a self-guided interface with no need for code. Dialog Editor 2.0 is a one-stop tool for designing and building scalable conversations with dialogs and interactions across multiple channels. Bot developers can easily develop and maintain hundreds of dialogs and interactions using Dialog Editor 2.0. 
 Key improvements include:
 * Self-guided interface for easily creating rules, without the need for coding
@@ -47,4 +47,34 @@ Key improvements include:
 * Improved overall readability of conversation flow
 * Aligned navigation towards the overall Conversational Cloud
 
+## Dialog templates
+Dialog templates were built, allowing bot developers to create reusable, high-quality automations. A dialog template is a set of resources that supports a conversational flow and is defined as a unit that can be “imported” by others. When a bot developer imports a single dialog template, the entire unit of working functionality is imported. This includes not only the main dialog that supports the flow, but also all other necessary resources: other dialogs, domains, integrations, and so on.
 
+Once a bot developer imports a dialog template into a destination bot, it becomes a normal dialog within the bot, and the dialog functions as if it had been created from scratch. Dialog templates are a great way to formalize the import process for a dialog, and ensure that bot developers import all required components supporting a dialog.
+
+![](img/Dialog_templates_whats_new.gif)
+
+Intent-driven business was also a major focus
+
+## Intent discovery and optimization
+
+The Intent Manager was enhanced and the Intent Discovery and Optimization features were launched.
+New self-service intent discovery and optimization features enable brands to tune their Intent taxonomy and deploy improved models within minutes. Brands can now easily mine their conversation data to discover and build new intents from one unified interface. They can also correct misclassified messages and feed those annotations back into their model as new training phrases to improve recognition quality. For more information, click [here.](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-create-and-optimize-intents.html#step-1-understanding-your-existing-model)
+
+![](img/Dialog_templates_whats_new.gif)
+
+## Pre-built domains
+To get you quickly up and running with Intents, LivePerson now provides a set of prebuilt domains that can easily be added to the Intent Builder environment. A “prebuilt domain” is a ready-made, pretrained domain that includes a set of well-defined intents. No prior conversations are needed to get started (unlike the starter pack).
+
+There are two kinds of prebuilt domains:
+1 ) Generic, prebuilt domains for a number of verticals: Telecommunications, Financial Services, Airlines and Insurance.
+2) A cross-vertical, prebuilt domain that is appropriate for all verticals. This includes intents for things like customer account management, customer order management, e-commerce, billing and payment.
+Once you add a prebuilt domain, you can customize it as you see fit. After customization, you’ll need to retrain the domain as you typically do. 
+
+![](img/pre-built-domain-whats-new.gif)
+
+## Messaging Channels 
+Proactive Messaging expanded rapidly, exceeding 5 trillion outbound messages sent in 2020.
+Proactive Messaging allows brands to send consumers outbound messages via SMS, or through richer channels like WhatsApp, to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that direct consumers to web pages or phone calls, Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. This results in higher conversion rates, lower operational costs, and rich conversation experiences that increase consumer satisfaction.
+
+For the latest release of Proactive Messaging check out the [Release Notes.](https://knowledge.liveperson.com/release-notes-2020-october-week-of-october-19th.html) For more information on Proactive Messaging and getting started, see the [user guide.](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-user-guide.html)
