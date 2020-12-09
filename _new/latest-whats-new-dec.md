@@ -17,7 +17,7 @@ This year, LivePerson took groundbreaking steps in helping brands manage convers
 In 2020, over 5 trillion messages were sent through the Conversational Cloud platform.
 Watch this two-minute video for the Best of 2020.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/486867224?autoplay=1&loop=1&autopause=0&muted=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/486867224?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## This year we launched…
 
@@ -60,8 +60,6 @@ Once a bot developer imports a dialog template into a destination bot, it become
 
 The Intent Manager was enhanced and the Intent Discovery and Optimization features were launched.
 New self-service intent discovery and optimization features enable brands to tune their Intent taxonomy and deploy improved models within minutes. Brands can now easily mine their conversation data to discover and build new intents from one unified interface. They can also correct misclassified messages and feed those annotations back into their model as new training phrases to improve recognition quality. For more information, click [here.](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-create-and-optimize-intents.html#step-1-understanding-your-existing-model)
-
-![](img/Dialog_templates_whats_new.gif)
 
 ## Pre-built domains
 To get you quickly up and running with Intents, LivePerson now provides a set of prebuilt domains that can easily be added to the Intent Builder environment. A “prebuilt domain” is a ready-made, pretrained domain that includes a set of well-defined intents. No prior conversations are needed to get started (unlike the starter pack).
