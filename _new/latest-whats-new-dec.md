@@ -78,3 +78,27 @@ Proactive Messaging expanded rapidly, exceeding 5 trillion outbound messages sen
 Proactive Messaging allows brands to send consumers outbound messages via SMS, or through richer channels like WhatsApp, to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that direct consumers to web pages or phone calls, Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. This results in higher conversion rates, lower operational costs, and rich conversation experiences that increase consumer satisfaction.
 
 For the latest release of Proactive Messaging check out the [Release Notes.](https://knowledge.liveperson.com/release-notes-2020-october-week-of-october-19th.html) For more information on Proactive Messaging and getting started, see the [user guide.](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-user-guide.html)
+
+## Instagram
+Brands can respond to Instagram DMs, story tags, and comments directly within the Conversational Cloud. It supports structured content including images & quick replies.
+This feature is currently available for Early Adopter clients in the Conversational Cloud.
+
+### Agent and Manager Workspace enhancements
+
+## Accessibility
+At LivePerson, we believe our products should be accessible to even more diverse populations, which is why  in 2020 we began our journey to Accessibility WCAG 2.1 AA compliance.
+In the upcoming deployments, agents and agent managers will be able to use the following accessibility features on both dark and light themes):
+* Screen reader
+* Keyboard navigation
+* Focus outline
+* Accessible color contrast 
+* Adjustable font size
+* Along with other enhancements that make our products usable by as many people as possible.
+
+This applies for Chat, the Enhanced Agent Workspace, and Manager Workspace.
+
+## Agent app
+The Agent app was launched for Android and improved for iOS.
+The LivePerson Agent app, available for both iOS and Android, allows agents and agent managers to message with consumers on-the-go. This has been extremely helpful during the COVID-19 pandemic, as the more people around the world moved to a remote working model.
+
+![](img/pre-built-domain-whats-new.gif)
