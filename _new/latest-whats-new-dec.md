@@ -101,4 +101,34 @@ This applies for Chat, the Enhanced Agent Workspace, and Manager Workspace.
 The Agent app was launched for Android and improved for iOS.
 The LivePerson Agent app, available for both iOS and Android, allows agents and agent managers to message with consumers on-the-go. This has been extremely helpful during the COVID-19 pandemic, as the more people around the world moved to a remote working model.
 
-![](img/pre-built-domain-whats-new.gif)
+![](img/Agent_App-whats-new.gif)
+
+### This month we released the following…
+
+## Engagement Enhancements (early access)
+
+Three new types of engagements have been introduced in early access: 
+
+### Multi Channel Engagements 
+Enables brands to use website engagements that present multiple channel options (Web Messaging and SMS). Future releases will support combinations with additional channels.
+
+### Web to SMS Engagements
+Enables brands to invite consumers to initiate an SMS conversation from a desktop web experience. When clicked, the consumer is presented with a Web to SMS form. Upon form submission, an SMS is sent to the consumer.
+
+### Type-In Engagements: 
+Provide a more inviting experience to consumers by enabling the consumer to type in and send their first message directly from the engagement.
+
+We also released some updates to Reporting, including:
+Secure Form ( PCI) for messaging Reporting
+Brands using Secure Forms in messaging have greater visibility/transparency in payments and are able to measure the ROI. It also allows users to cross examine with other metrics such as CSAT and Conversions, to see how the feature is performing and impacting customer satisfaction and revenue generation.
+
+## Announcements
+## Realtime Dashboard for Messaging - End of life pushed to March 2021
+
+Please note that the date of the Real-time Dashboard deprecation has been moved from December 2020 to the end of Q1 2021 to provide additional time to allow business monitoring operations to migrate to the new Manager Workspace. 
+
+The Real-time Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Real-time Dashboard. Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click here.
+
+## Advanced Messaging Dashboard
+
+The Advanced Messaging Dashboard was originally built for critical messaging reporting needs that could not be served elsewhere. All of those reporting needs are now being served by either the Analytics Builder Predefined Dashboards or other reporting tools within Conversational Cloud. The Advanced Messaging Dashboard is undergoing a sunset plan: end of support is March 31st 2021 and end of life is planned for April 30th 2021.  
