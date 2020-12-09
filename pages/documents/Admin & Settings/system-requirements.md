@@ -112,6 +112,7 @@ Please refer here: [iOS](https://developers.liveperson.com/mobile-app-messaging-
 ### Android
 
 Android SDK v4.6.1 and below excludes AndroidX support [supports API 21-30]
+
 Android SDK v5.0.0 and above includes AndroidX support  [supports API 21-30]
 
 **The SDK uses the following libraries:**
