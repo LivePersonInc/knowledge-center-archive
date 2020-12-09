@@ -17,7 +17,7 @@ This year, LivePerson took groundbreaking steps in helping brands manage convers
 In 2020, over 5 trillion messages were sent through the Conversational Cloud platform.
 Watch this two-minute video for the Best of 2020.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/486867224?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/486867224?autoplay=1&loop=1&autopause=0&muted=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### This year we launched…
 
