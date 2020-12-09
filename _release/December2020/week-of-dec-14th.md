@@ -103,6 +103,8 @@ In the Business Messaging dashboard, the Goal Type filter does not apply on the 
 ## CCPLH and CCPOH added out of the box to the Performance messaging dashboard
 ### Type: Enhancement [Analytics Builder 4.8]
 
+**Available to all customers?** Y (Analytics Builder enabled) 
+**Channels:** Web Messaging, Mobile App messaging
 The ‘Performance Dashboard for Messaging’ was enhanced to include the CCPLH and CCPOH metrics for measuring Human Agent Efficiency.
 The metrics are calculated based on Closed Conversation divided by Login\Online.
 
@@ -113,9 +115,6 @@ The metrics added by default to the Brand and Agent summary pages in a dedicated
 Login Hours  should only be captured for human non-managers.  Otherwise CCPLH will be artificially low.  
 Online Hours should also be captured for human non-managers only.
 Avg. Agent Load is captured for non-managers, and it includes a filter to only include Human agents.  This is because bots have a default Max Capacity setting of 999, which artificially lowers the Agent Load
-
-**Available to all customers?** Y (Analytics Builder enabled) 
-**Channels:** Web Messaging, Mobile App messaging
 
 ![](img/RN-4.8-1.png)
 ![](img/RN-4.8-2.png)
