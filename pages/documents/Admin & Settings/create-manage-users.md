@@ -72,11 +72,13 @@ Agents who are not assigned to skills can only accept chats originated by engage
 {: .notice}  
 When duplicating a user, the administrator will still need to complete the following fields: login name, email, name, nickname, employee ID and password.
 
-### To enable \\ disable a user
+### To enable/disable a user
 
 1. On the users list, click the user.
 2. Click the enable button.
 3. Click save.
+
+For more information, [click here](troubleshooting-enable-a-user.html). 
 
 ### To delete a user:
 
