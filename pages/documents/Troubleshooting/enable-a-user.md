@@ -18,7 +18,8 @@ This procedure describes how to enable or re-enable a user who has been disabled
 * The user got locked out after attempting password reset too many times
 * The user got locked out after attempting password reset too many times
 
-{: .notice} Only users with administrator permissions can enable another user. 
+{: .notice}
+Only users with administrator permissions can enable another user. 
 
 To enable a disabled user, follow these steps:
 
@@ -27,10 +28,12 @@ To enable a disabled user, follow these steps:
 
 ![](img/enable-users-1.png)
 
+{:start="3"}
 3. Click the Users column, and select the relevant user you wish to enable. The Edit User screen is displayed, showing that the user has been disabled.
 
 ![](img/enable-users-2.png)
 
+{:start="4"}
 4. Click the Enabled button to toggle it on, and click Save. The user is now enabled and you will return to the User Management screen.
 
 ![](img/enable-users-3.png)
