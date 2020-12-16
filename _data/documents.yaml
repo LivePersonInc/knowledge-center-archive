@@ -431,6 +431,7 @@
     - subcategoryname: Status page
     - subcategoryname: Status Dashboard push notifications
     - subcategoryname: 'Login & password'
+    - subcategoryname: Enable a user
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
       pages:
