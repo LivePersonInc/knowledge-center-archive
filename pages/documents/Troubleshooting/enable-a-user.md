@@ -16,10 +16,9 @@ This procedure describes how to enable or re-enable a user who has been disabled
 
 * The user didn’t log in for 90 days or more
 * The user got locked out after attempting password reset too many times
-* The user got locked out after attempting password reset too many times
 
 {: .notice}
-Only users with administrator permissions can enable another user. 
+Only users with administrator permissions can enable another user. Admin users can also reset other users’ passwords. 
 
 To enable a disabled user, follow these steps:
 
