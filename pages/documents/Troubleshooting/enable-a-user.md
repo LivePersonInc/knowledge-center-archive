@@ -25,12 +25,12 @@ To enable a disabled user, follow these steps:
 1. Log in to your Conversational Cloud account. 
 2. Select the Manage users and skills icon on the left hand side. The User Management screen is displayed.
 
-![](img/enable-users-1.png
+![](img/enable-users-1.png)
 
 3. Click the Users column, and select the relevant user you wish to enable. The Edit User screen is displayed, showing that the user has been disabled.
 
-![](img/enable-users-2.png
+![](img/enable-users-2.png)
 
 4. Click the Enabled button to toggle it on, and click Save. The user is now enabled and you will return to the User Management screen.
 
-![](img/enable-users-3.png
+![](img/enable-users-3.png)
