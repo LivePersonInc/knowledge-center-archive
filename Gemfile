@@ -15,4 +15,5 @@ group :jekyll_plugins do
    gem 'nokogiri', '>= 1.10.4'
    gem 'jekyll-last-modified-at'
    gem 'html-proofer'
+   gem 'kontent-jekyll'
 end
