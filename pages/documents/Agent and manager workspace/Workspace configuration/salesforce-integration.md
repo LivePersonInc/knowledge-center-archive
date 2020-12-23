@@ -271,10 +271,13 @@ Now that you’ve configured your app in Salesforce, it’s time to go back to t
 3. Click on the “+” next to the existing widget labels (**Note:** The limit is 5 widgets)
 4. Choose a name for the Widget (you can use “SF.Widget” to have “SF” as the widget’s label).
 5. Choose “Double Widget” size
-6. Enter the following URL: https://<MyDomain>--<PackageNamespace>.visualforce.com/apex/ChatLink
+6. Enter the following URL:
+https://liveengage.XXXX.visual.force.com/apex/ChatLink
+Replace XXXX with your SF instance (for example: “na3”, “ap02”, “eu01” or “cs23” for a sandbox – the farm and instance is the same as the one you see on your domain when using salesforce: “https://eu2.salesforce.com”).
 
 {: .notice}
-**Tip:** From the Customization Settings tab, you can copy the first part of the URL and add to it the “ChatLink” suffix in order to ensure you are using the correct link:
+If your Salesforce org has My Domain feature activated, the URL for the widget should include it same as your regular URL does, and should look like this:
+https://<mydomain>.visualforce.com/apex/ChatLink
 
 {:start="7"}
 
