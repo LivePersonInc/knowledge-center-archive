@@ -274,11 +274,11 @@ Now that you’ve configured your app in Salesforce, it’s time to go back to t
 6. Enter the following URL:
 https://liveengage.XXXX.visual.force.com/apex/ChatLink
 Replace XXXX with your SF instance (for example: “na3”, “ap02”, “eu01” or “cs23” for a sandbox – the farm and instance is the same as the one you see on your domain when using salesforce: “https://eu2.salesforce.com”).
-
+  
 {: .notice}
 If your Salesforce org has My Domain feature activated, the URL for the widget should include it same as your regular URL does, and should look like this:
-"https://<mydomain>.visualforce.com/apex/ChatLink"
-
+https://<mydomain>.visualforce.com / apex / Chatlink
+   
 Tip:
 You can stand on the Customization Settings tab, copy the first part of the URL and add to it the “ChatLink” suffix in order to ensure using the correct link.
 
