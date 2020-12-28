@@ -277,7 +277,7 @@ Replace XXXX with your SF instance (for example: “na3”, “ap02”, “eu01�
   
 {: .notice}
 If your Salesforce org has My Domain feature activated, the URL for the widget should include it same as your regular URL does, and should look like this:
-https://<mydomain>.visualforce.com / apex / Chatlink
+![](/img/salesforce-integration-guide-link.png)
    
 Tip:
 You can stand on the Customization Settings tab, copy the first part of the URL and add to it the “ChatLink” suffix in order to ensure using the correct link.
