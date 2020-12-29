@@ -26,10 +26,11 @@ Private messages will not affect the conversation’s SLA, intensity (active/ina
 To disable this feature, please contact your LivePerson representative. 
 
 {: .notice}
-**Please note:** This feature will be available to customers in phases, beginning rollout on Sunday, May 17th. Please contact your LivePerson representative for more details. 
+**Please note:** This feature will be available to customers in phases. Please contact your LivePerson representative for more details. 
 
 **Limitations**
-* Private messages are not available to bot agents at the moment, only to human agents.
-* Private messages will not show a notification to the agent near the module icon, or on top of the conversation line in the My Connections panel (unlike regular messages).
+* Private Messages are not available to bot agents at the moment, only to human agents.
+* Private Messages are not currently available for [Social Messaging](messaging-channels-social-messaging-social-messaging-overview.html).
+* Private Messages will not show a notification to the agent near the module icon, or on top of the conversation line in the My Connections panel (unlike regular messages).
  
 
