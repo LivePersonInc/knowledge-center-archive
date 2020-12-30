@@ -84,4 +84,19 @@ Then, in the Reporting area, click the Analytics Builder button on the left.
 Available for Conversational Cloud users that have at least one of the Reporting permissions turned ON
 ![](img/AB_permissions_6.png)
 
+## Android version 2.6.0
+### Enhancement [Agent App]
+
+**Available to all customers?** Y
+**Channels:** Web Messaging & Mobile App Messaging
+
+Agent App v2.6.0 now supports SSO as well as many bug fixes.
+To enable, search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app 
+* [Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
+* [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
+
+{: .notice}
+In the future the following functionality will added:
+* Network effect support
+* Automotive specific feature support
 
