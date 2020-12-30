@@ -38,6 +38,10 @@ In general, for every account that has the Analytics Builder feature enabled, Li
 Let’s look at the following example:
 Account 1234567 had 5 user profiles before the update:
 
+![](img/table-AB-permissions-1.png)
+After the change, this account will have two additional profiles:
+![](img/table-AB-permissions-2.png)
+
 ### Can new profiles be created after the change?
 Yes, users can create new profiles, but the reporting permissions will be OFF by default, and can enable the permission for specific users.
 
