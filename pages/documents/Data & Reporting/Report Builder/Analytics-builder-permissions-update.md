@@ -3,7 +3,7 @@ pagename: Analytics Builder Permissions
 categoryName: Data & reporting
 subCategoryName: Analytics Builder
 indicator: both
-subtitle: All the questions you want answered about the Analytics Builder
+subtitle: All the questions you want answered about the Analytics Builder permissions update
 level3: ''
 permalink: data-reporting-analytics-builder-analytics-builder-permissions.html
 isTutorial: false
