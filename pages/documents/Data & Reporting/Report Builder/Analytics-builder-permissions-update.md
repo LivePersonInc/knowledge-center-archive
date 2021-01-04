@@ -38,9 +38,22 @@ In general, for every account that has the Analytics Builder feature enabled, Li
 Let’s look at the following example:
 Account 1234567 had 5 user profiles before the update:
 
-![](img/table-AB-permissions-1.png)
+| # | Profile name | Reporting Permissions | Activity of associated users from Sept 1, 2020 | 
+After rollout of Remediation Process | 
+| --- | --- | --- | --- |--- | 
+| 1 | Administrator | N/A | None of the users associated with this profile accessed Analytics Builder. | No change |
+| 2 | Campaign Manager Sales | View | None of the users associated with the profile accessed Analytics Builder. | View permission will be removed from the ‘Campaign Manager Sales’ profile. View = OFF |
+| 3 | Campaign Manager Retention| View =ON Customize =ON | Users who didn't access Analytics Builder | View permission will be removed from the ‘Campaign Manager Sales’ profile. View=OFF, Customize - OFF |
+| 3A (new) | Campaign Manager Retention_AB | View =ON Customize = ON | Users who accessed Analytics Builder | A New Profile ‘Campaign Manager Retention_AB’ will be created and associated with any user who accessed the Analytics Builder. This profile will be an exact duplicate of the ‘Campaign Manager Retention’ before the change. View = ON Customize =ON |
+| 4 | Agent Manager sales | View =ON | None of the users associated with the profile accessed Analytics Builder | View permission will be removed from the ‘Agent Manager sales’ profile. View = OFF | 
+| 5| Agent Manager Retention | View = ON Customize =ON | Users who didn't access Analytics Builder. | View & Edit permissions will be removed from the ‘Agent Manager Retention profile. View =OFF Customize = OFF |
+| 5a (New)| Agent Manager Retention_AB | View = ON Customize =ON | Users who accessed Analytics Builder. | New Profile ‘Agent Manager Retention_AB’ will be created and associated with any user who accessed the Analytics Builder. This profile will be an exact duplicate of the ‘Agent Manager Retention’ profile before the change.
+View = ON Customize =ON | 
+
 After the change, this account will have two additional profiles:
-![](img/table-AB-permissions-2.png)
+| # | Profile name | Reporting Permissions | Activity of associated users from Sept 1, 2020 | 
+| 6 | Campaign Manager Retention_AB’ | View and Customize | Only users who accessed Analytics Builder | 
+| 7 | Agent Manager Retention_AB’ | View and Customize | Only users who accessed Analytics Builder |
 
 ### Can new profiles be created after the change?
 Yes, users can create new profiles, but the reporting permissions will be OFF by default, and can enable the permission for specific users.
