@@ -278,6 +278,7 @@
         - pagename: Analytics Builder FAQs
         - pagename: "Data availability & latency"
         - pagename: Training tutorials
+        - pagename: Analytics Builder permissions
         - pagename: Moving from BI to Analytics Builder
     - subcategoryname: Engagement attributes
       pages:
