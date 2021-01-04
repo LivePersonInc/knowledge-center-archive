@@ -38,9 +38,8 @@ In general, for every account that has the Analytics Builder feature enabled, Li
 Let’s look at the following example:
 Account 1234567 had 5 user profiles before the update:
 
-| # | Profile name | Reporting Permissions | Activity of associated users from Sept 1, 2020 | 
-After rollout of Remediation Process | 
-| --- | --- | --- | --- |--- | 
+| # | Profile name | Reporting Permissions | Activity of associated users from Sept 1, 2020 | After rollout of Remediation Process | 
+| --- | --- | --- | --- | --- | 
 | 1 | Administrator | N/A | None of the users associated with this profile accessed Analytics Builder. | No change |
 | 2 | Campaign Manager Sales | View | None of the users associated with the profile accessed Analytics Builder. | View permission will be removed from the ‘Campaign Manager Sales’ profile. View = OFF |
 | 3 | Campaign Manager Retention| View =ON Customize =ON | Users who didn't access Analytics Builder | View permission will be removed from the ‘Campaign Manager Sales’ profile. View=OFF, Customize - OFF |
@@ -51,7 +50,9 @@ After rollout of Remediation Process |
 View = ON Customize =ON | 
 
 After the change, this account will have two additional profiles:
+
 | # | Profile name | Reporting Permissions | Activity of associated users from Sept 1, 2020 | 
+| --- | --- | --- | --- | 
 | 6 | Campaign Manager Retention_AB’ | View and Customize | Only users who accessed Analytics Builder | 
 | 7 | Agent Manager Retention_AB’ | View and Customize | Only users who accessed Analytics Builder |
 
