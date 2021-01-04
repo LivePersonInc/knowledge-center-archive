@@ -16,3 +16,5 @@ group :jekyll_plugins do
    gem 'jekyll-last-modified-at'
    gem 'html-proofer'
 end
+
+gem "kontent-jekyll", "~> 1.0"
