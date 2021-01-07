@@ -15,7 +15,7 @@ As we move into the New Year, we are updating access permissions to the Analytic
 
 LivePerson want to ensure that we have an accurate view of active and inactive users, which will allow us to get a clear idea of our customers reporting requirements and ability to plan for scaling in the future. Users who have not accessed the Analytics Builder tool since Sept 1, 2020 will have their permission changed to “off” by default. For anyone currently using the Analytics Builder, permissions will remain unchanged, but there will be a slight change to the profile name (an additional suffix of  _AB will be added).
 
-These changes will come into effect during the week of January 12th 2021 through January 31st.
+These changes will come into effect during the week of January 12th 2021 through January 31st. For more information on the exact date this update witll occur, please contact your account manager.
 
 There is no action required by users, this update will happen automatically and no functionality will be affected during this change. 
 This update will affect all Conversational Cloud accounts where the Analytics Builder feature is enabled.
