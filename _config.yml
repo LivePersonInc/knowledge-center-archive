@@ -73,4 +73,11 @@ plugins:
 kentico:
   project_id: be8baa38-7b19-0054-b22b-084718bea24d
   posts:                                                      
-    type: Product overview    
+    type: product_overview   
+    layout: post
+    date: published
+    tags: post_tags
+  page:
+      layout: page
+  taxonomies:
+   - post_tags
