@@ -75,7 +75,6 @@ kentico:
   posts:                                                      
     type: product_overview   
     layout: post
-    date: published
     tags: post_tags
   page:
       layout: page
