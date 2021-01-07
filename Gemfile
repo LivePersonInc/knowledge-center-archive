@@ -10,7 +10,8 @@ group :jekyll_plugins do
    gem 'autoprefixer-rails'
    gem 'i18n', '>= 0.7'
    gem 'jekyll-assets'
-   gem 'sprockets', '~> 4.00.beta8'
+   gem 'sassc-rails', '~> 2.0.0' #TODO ADDED SASSC RAILS TO RESOLVE ISSUE 
+   gem 'sprockets', '~> 3.7.2' # TODO reverted sprockets to version 3.7.2 from 4.00.beta8 due to ruby version issues 
    gem 'rack', '>= 2.0.6'
    gem 'nokogiri', '>= 1.10.4'
    gem 'jekyll-last-modified-at'
