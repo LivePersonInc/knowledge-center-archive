@@ -74,11 +74,12 @@ In the agent Activity, the COBROWSE chat metrics were exposed:
 The Analytics Builder predefined dashboards: Agent Activity, Business Activity for Messaging and the Performance Dashboard For Messaging were enhanced to allow brands to measure the PCI Secure forms usage and ROI. Brands can now track their daily usage, feature funnel and correlation of the PCI forms vs. performance KPIs such as conversion, revenue, CSAT at brand, skill and agent level.
 
 #### Agent Activity:
+
 | Metric name | Description | 
-|--------------|-------------|
-| NO. OF SECURE FORM (PCI) SENT (MESSAGING)| Number of secure forms sent by an agent to a consumer during a conversation. |
-| NO. OF SECURE FORM (PCI) SUBMITTED (MESSAGING) | Number of secure forms completed and submitted back to the agent by a consumer during a conversation.|
-| NO. OF SECURE FORM (PCI) VIEWED (MESSAGING) | Number of secure forms viewed by the consumer during a conversation.|
+|-------------|-------------|
+| NO. OF SECURE FORM (PCI) SENT (MESSAGING)| Number of secure forms sent by an agent to a consumer during a conversation.|
+| NO. OF SECURE FORM (PCI) SUBMITTED (MESSAGING)| Number of secure forms completed and submitted back to the agent by a consumer during a conversation.|
+| NO. OF SECURE FORM (PCI) VIEWED (MESSAGING)| Number of secure forms viewed by the consumer during a conversation.|
 
 #### Business Activity for Messaging, Performance for Messaging:
 
