@@ -10,14 +10,14 @@ isTutorial: false
 isNew: false
 date: 2020-08-18 14:38:05 +0000
 ---
-## Introduction
+## Apple Business Chat Overview
 
-Apple Business Chat enables brands to help customers resolve issues, schedule appointments, and make purchases or payments all within the Message app.  Brands can leverage the full iMessage framework to provide an integrated messaging experience that is branded, verified, encrypted and delightful. As Apple Business Chat’s premier partner, LivePerson has enabled +120 brands with Business Chat, helping them to easily connect with their customers.
+Apple Business Chat enables brands to help customers resolve issues, schedule appointments, and make purchases or payments all within the Message app.  Brands can leverage the rich features of Apple’s platforms to provide an integrated messaging experience that is branded, verified, encrypted and delightful. LivePerson has enabled hundreds of brands with Business Chat, helping them to easily connect with their customers. Business Chat is supported by Apple devices running on iOS 11.3 and later or macOS 10.13.4 and later.
 
 
 ## Benefits of Apple Business Chat
 
-* **Expand your consumer reach** - As of January 2020, Apple hit **1.5 billion** active devices with ~80% of recent iPhones and iPads running iOS 13+. You can expand into a massive base of iOS users to offer true service and transactional use cases with a ‘Tango’ between automation and Live Agents.
+* **Expand your consumer reach** - As of January 2020, Apple hit **1.5 billion** active devices with ~80% of recent iPhones and iPads running iOS 14+. You can expand into a massive base of iOS users to offer true service and transactional use cases with a ‘Tango’ between automation and human agents. 
 
 * **Easy to connect, always in touch** - Easy to start from a wide range of entry points and continue on the customer’s time across commerce and service flows. 
 
@@ -33,59 +33,12 @@ Apple Business Chat enables brands to help customers resolve issues, schedule ap
 
 ## How conversations start: Entry Points
 
-Consumers can start a conversation with brands through business chat buttons. These  buttons can be enabled in places where customers might want to contact your business. Additionally, brands can also set up Chat Suggest, to further deflect calls and reduce voice support. 
+Consumers can start a conversation with brands through Business Chat buttons. These  buttons can be enabled in places where customers might want to contact your business. Additionally, brands can also set up Chat Suggest to further deflect calls and reduce voice support. 
 
-### Chat Suggest
-<img src="img/abc-davids-chat-suggest.png" style="float:right;width:240px;margin:0 0 10px 20px">
-When your customers tap on any of your registered business phone numbers, a phone sheet appears allowing your customers to choose between voice and messaging.
-
-  **By enabling Chat Suggest, you can:**
-  * Provide the most flexibility and controllability of incoming traffic by allowing brands to quickly throttle the feature’s visibility
-  * Deflect calls before your customers  reach your IVR queue 
-  * Reduce voice support costs by shifting call volume to messaging 
-  * Provide better customer experience with business chat’s built-in features, such as Apple Pay, list pickers, time pickers, and Augmented Reality 
-
-  **Overall setup effort: Low** 
-
-  **Dependencies:** Businesses must either have an existing business chat program OR launch with at least an MVP business chat configuration.
-
-  **Setup:** Once a brand has identified the phone numbers to enable for business chat, they are required to complete a chat suggest form to be sent to Apple. 
-
-  **Note:** Chat Suggest has a 7-10 day ramp up period, which is the timeframe for the feature to propagate across all iOS devices with iOS 13+.
-
-  For more information, [click here](https://register.apple.com/resources/business-chat/BC-ChatSuggestGuide.pdf).
-
-### Business Chat buttons
-<img src="img/abc-tamara-web-button.png" style="float:right;width:240px;margin:0 0 10px 20px">
-Customers can start conversations with  buttons enabled in brand websites, mobile apps and email.
-
-  **Benefits of business chat buttons and banners:**
-  * Ability to only display for iOS devices
-  * Entrypoint that generates the most business chat volume
-
-  **Overall setup effort: Medium** 
-
-  **Dependencies:** For embedded banners, brands must add a DIV tag into the website. As well, businesses must either have an existing business chat program OR launch with at least an MVP business chat configuration.
-
-  **Setup:** Button and banner setup can be completed in the Conversational Cloud console within the Campaign Builder. For more information, click here. 
-
-  **Note:** Apple has defined design requirements for buttons and banners. You can use our engagement tool to create a button icon or banner that you can add to your website.
-
-### QR codes
-<img src="img/abc-brew-qr.png" style="float:right;width:240px;margin:0 0 10px 20px">
-Brands can link QR codes on both digital and offline materials for customers to invoke business chat. 
-
-  **Benefits of QR codes:**
-  * Allow for additional use cases through an offline entrypoint. 
-  * Drive fun, delightful marketing, sales and event campaigns.
-
-  **Overall setup effort: Medium**
-
-  **Dependencies:** Businesses must either have an existing business chat program OR launch with at least an MVP business chat configuration.
-
-  **Setup:** Use a tool like [QR Code Monkey](https://www.qrcode-monkey.com/) to transform your Business Chat URL into a custom QR code. There are many free online tools available. 
-
-  **Note:** You can include group and/or intent ids in the Business Chat URL to make unique QR codes for different purposes. 
+| Entry Point | Description | Requirements | LoE | Traffic |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Chat Suggest | Chat Suggest allows for call interception as a way to help brands reduce call volume. When iPhone users tap on any of your registered phone numbers, an overlay appears allowing your customers to choose between voice and messaging. | Registered phone numbers must be accessible on digital platforms. | Low | Low |
+| Paragraph | Text | Header | Title | Title |
 
 ## Qualifying for a Business Chat Account
 
