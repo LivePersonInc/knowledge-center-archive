@@ -12,7 +12,7 @@ redirect_from:
   - messaging-channels-socialconnect-socialconnect-overview.html
 ---
 ![](img/socialconnect.gif)
-
+ 
 In the emerging world of social media, it’s becoming increasingly costly and difficult for brands to manage their customer engagement at scale. Social Messaging extends LivePerson’s conversational commerce platform into the world of social media making it easier for brands to interact with consumers over Twitter and Facebook through a single platform, the Conversational Cloud.  
 For each new channel, conversations can take place both in public (Twitter Tweet that mention the brand and Facebook Page posts and comments), in private (Twitter DMs and Facebook Messenger), or a mix of public and private message in the same conversation.
 
