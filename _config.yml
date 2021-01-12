@@ -72,12 +72,12 @@ plugins:
 - kontent-jekyll
 kentico:
   project_id: be8baa38-7b19-0054-b22b-084718bea24d
-  posts:                                                      
-    type: product_overview   
-    layout: post
-    date: published
-    tags: post_tags
-  page:
-      layout: page
+  filename_resolver: FilenameResolver
+  pages:
+    page:
+      layout: default
+    product_overview:
+      layout: post
+      name: name
   taxonomies:
    - post_tags

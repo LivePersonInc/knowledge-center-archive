@@ -1,11 +1,19 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+{% assign post = page.item %}
+{% assign elements = post.elements %}
+{% assign system = post.system %}
+{% assign language = system.language %}
 
+{% assign published_date = elements.published.value | stringify_date: "%A, %B %d, %Y" %}
+{% assign other_posts = site.posts | where_exp: 'post', 'post.item.system.language == language' | where_exp: 'post', 'post.item.system.codename != system.codename' %}
+{% assign author = elements.author %}
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">/ {{ page.author }}</span></span>{% endif %}{% if page.tags != null %}/
+        <!-- <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">/ {{ page.author }}</span></span>{% endif %}{% if page.tags != null %}/
             {% assign projectTags = site.data.tags.allowed-tags %}
             {% for tag in page.tags %}
             {% if projectTags contains tag %}
@@ -13,29 +21,16 @@ layout: default
             {% endif %}
             {% endfor %}
             {% endif %}
-
-        </p>
-
-
+        </p> -->
     </header>
 
-    <div class="post-content" itemprop="articleBody">
-
-        {% if page.summary %}
-        <div class="summary">{{page.summary}}</div>
-        {% endif %}
-
-        {{ content }}
+    <div class="post-content" itemprop="articleBody">       
+        <!-- <section>{{ elements }}</section>      -->
+        <section>{{ elements.body.value }}</section>
     </div>
-
-
-
 </article>
-
 {% if site.disqus %}
 {% include disqus.html %}
 {% endif %}
 
 {{site.data.alerts.hr_shaded}}
-
-{% include footer.html %}
