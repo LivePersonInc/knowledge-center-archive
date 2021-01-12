@@ -12,7 +12,7 @@ date: 2020-08-18 14:38:05 +0000
 ---
 
 Once registered for Apple Business Chat, the business will have an option to enable the following entry points: 
-* Business Chat Conversation URL 
+* [Business Chat Conversation URL](messaging-channels-apple-business-chat-entry-points.html#apple-business-chat-conversation-url)
   * When customers click the conversation URL, the system redirects them to the Message app where they can send a message to your business. 
   * The conversation link can be used in email, social media, QR codes, and as website buttons and app engagement.  
 * Chat Suggest
@@ -215,7 +215,7 @@ Because starting a conversation via Business Chat is as easy as tapping a link, 
 
 Instagram stories, for example, are a great way to share links to new or time-sensitive content. This is a great way to promote flash sales, limited- time promotions and giveaways, etc. and to allow customers to message you on Business Chat with any questions and/or to complete transactions via a swipe-up link.  
 
-### Chat Suggest 
+## Chat Suggest 
 
 Brands can reduce phone call volume and voice support cost by enabling Chat Suggest. When your customers tap on any of your registered business phone numbers, an overlay appears allowing your customers to choose between voice and messaging. 
 
@@ -225,7 +225,7 @@ Brands can reduce phone call volume and voice support cost by enabling Chat Sugg
 * Reduce voice support costs by shifting call volume to messaging 
 * Deliver a better customer experience with Business Chat’s built-in features, such as Apple Pay, list pickers, time pickers, and Augmented Reality
 
-#### Anatomy of Chat Suggest
+### Anatomy of Chat Suggest
 
 Below are all of the configurable components of Chat Suggest. You can define each one on the [Chat Suggest form](http://static-assets.fs.liveperson.com/ABC/chat_suggest_form.xlsx). 
 
@@ -236,7 +236,7 @@ Below are all of the configurable components of Chat Suggest. You can define eac
 **3. Call to Action:** Besides the title, the call to action provides your customers additional context or encouragement to message. 
 **4. Phone number:** The phone number is the business phone number that you are enabling for Chat Suggest and are looking to deflect calls from.
 
-#### Thought starters
+### Thought starters
 
 Chat Suggest can help further reduce inbound calls from your customers. Implementation is easy but preparation is key. To maximize the value of Chat Suggest and further reduce call volumes, businesses should be prepared to register all primary support phone numbers. If worried about excessive messaging volume, there are options and recommendations that the LivePerson team and Apple can help you think about. For now, here are some food for thought before launching Chat Suggest: 
 
@@ -246,13 +246,13 @@ Chat Suggest can help further reduce inbound calls from your customers. Implemen
 2. **ABC use cases must be compatible with Chat Suggest.** There are many reasons as to why your customers might want to get in touch with your business. However, not all of these intents will make sense with Chat Suggest. For starters, think about the primary call drivers for your customers and whether or not agents are equipped to solve these intents on Apple Business Chat.  
 3. **Registered phone numbers must be accessible and tappable.** All registered phone numbers should be in E.164 format to trigger Chat Suggest, and are tappable in the brand’s website, apps and other digital platforms. Phone numbers should be tappable in iOS and not an image or in text format. Here’s how you can [create tappable telephone links](https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html). 
 
-#### Setup 
+### Setup 
 
 Ready to enable your business phone numbers for Chat Suggest? Complete this [form](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/Chat+Suggest+Form+_+NEW.xlsx) and return it to your LivePerson account team. There is no limit to the number of phone numbers you want to enable for a single Business Chat account.  
 
 It is important to note, however, there is a 7-10 day propagation period after enabling Chat Suggest. Generally, it takes a week's time for the feature to propagate across all iOS devices with iOS 13+. Because the initial visibility of the entrypoint is very low, your business will mostly see a trickle of volume upon go live and a gradual increase in the next few days. 
 
-#### Optimizing Chat Suggest
+### Optimizing Chat Suggest
 
 While enabling chat suggest is very simple, there are multiple additional factors that impact the success of Chat Suggest. 
 * On your website, are your phone numbers easily accessible to your customers and tappable? 
@@ -260,13 +260,13 @@ While enabling chat suggest is very simple, there are multiple additional factor
 * Can your customers quickly and easily find your phone numbers on a quick Google search?  
 * Leverage a default “[body](https://developer.apple.com/documentation/businesschat/bcchataction/about_intent_group_and_body_values)” parameter
 
-### Maps and Siri Search (Apple native entry points)
+## Maps and Siri Search (Apple native entry points)
 
 Upon go-live, you can enable iOS entry points such as Maps, Siri Search directly from your Apple Register. Doing so will make the Business Chat button available to your customers within the aforementioned Apple applications. 
 
 Traffic generated from these entry points is highly dependent on the user behavior of your customers, as well as their preferred touchpoints.  For example, customers who are frequent users of Maps search to find and/or research a business will most likely benefit from having a Business Chat button on your Maps place card. 
 
-#### Enabling native entry points
+### Enabling native entry points
 
 In order to display a Business Chat button on one of the native entry points, you must be willing to enable this for all (Siri and Maps). For businesses with multiple Maps locations, you can work directly with Apple, should you wish to limit the Business Chat button available by a specific region(s).  
 
