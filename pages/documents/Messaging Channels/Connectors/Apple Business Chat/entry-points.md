@@ -40,7 +40,7 @@ Here’s an example of Business Chat conversation URL with the added parameters:
 
 ## Determine the Apple Business Chat URL
 
-To implement the engagements on LivePerson, you will need your Apple Business Chat conversation URL. This link can be retrieved from your Business Chat account within the [Apple Register portal](http://www.register.apple.com). 
+To implement the engagements on LivePerson, you will need your Apple Business Chat conversation URL. This link can be retrieved from your Business Chat account within the [Apple Register portal](https://register.apple.com/). 
 
 ![](img/apple-business-chat-entry-points-1.png)
 
@@ -138,8 +138,7 @@ Once the campaign is set up, you will need to create a new web engagement. To do
 * Remove the button text and click the **Size and Placement** icon to enter the dimension of the icon image.  
 * To enhance the look and feel of the engagement, click the **Background icon** and set Radius to 0 px and all the colors to transparent
 * Now it’s time to enter the engagement image. Click **Add Element** icon and then **Add image**
-* Enter the URL of the hosted image and to preview the button, click “refresh” 
- * **Note:** If adding an embedded engagement, enter the div ID “lpAbc” and press Enter.  
+* Enter the URL of the hosted image and to preview the button, click “refresh” **Note:** If adding an embedded engagement, enter the div ID “lpAbc” and press Enter.  
 * Select the default window from the Engagement Window library. Please note, **settings** will not apply to Apple Business Chat.
 * From the Entry Point library, select **All entry points** and then **All behaviors** (recommended) 
 
@@ -163,13 +162,13 @@ A few examples of icon buttons and banners that you can add to your website:
 
 * **Track your metrics.** If you don’t have [intentID](https://developer.apple.com/documentation/businesschat/bcchataction/about_intent_group_and_body_values) and/or [groupID](https://developer.apple.com/documentation/businesschat/bcchataction/about_intent_group_and_body_values) in your web engagements, be sure to add them. While optional parameters, they can provide invaluable insights on customer engagement such as traffic source and skill-based reporting, via MCS toolkit.
 * **Design a good engagement.** Below are a few properties to help with your design:
- * **Compelling Design.** Create a call to action that grabs the user's attention. A bright button color that contrasts with the color of the page or an email is an effective strategy.
- * **High Visibility.** Make your CTA noticeable by ensuring that the font and font size command attention.  
- * **Clear Benefit.** Stately clearly the benefit that the user will get. 
- * **Short and Actionable Text.** Use power words in short phrases to compel users to take action. Some effective CTAs include: “discover”, “buy now” 
- * **Sense of Urgency.** A strong sense of urgency such as a limited time offer can drive immediate action from users.  
+  * **Compelling Design.** Create a call to action that grabs the user's attention. A bright button color that contrasts with the color of the page or an email is an effective strategy.
+  * **High Visibility.** Make your CTA noticeable by ensuring that the font and font size command attention.  
+  * **Clear Benefit.** Stately clearly the benefit that the user will get. 
+  * **Short and Actionable Text.** Use power words in short phrases to compel users to take action. Some effective CTAs include: “discover”, “buy now” 
+  * **Sense of Urgency.** A strong sense of urgency such as a limited time offer can drive immediate action from users.  
 * **Provide context and Call to Action.** Adding context and call to action (CTA) to any embedded banner or button is critical to encouraging customers to send a message. Ensure that the CTA is relevant in the context of the webpage.  
- * For example, on a page for billing, the CTA should say **“Message us for help with billing.”** 
+  * For example, on a page for billing, the CTA should say **“Message us for help with billing.”** 
 * **Position matters.** Place your button where people click or tap. Especially if the goal of the engagement.
 * **Add a “body”** a prepopulated message users will send for the first engagement.
 
