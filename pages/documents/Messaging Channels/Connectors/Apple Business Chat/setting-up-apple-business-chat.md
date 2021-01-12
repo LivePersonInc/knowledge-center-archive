@@ -23,8 +23,8 @@ The first step in onboarding your business is to ensure you and your team member
 3. **Register Business profile.** Sign into [Apple Register](https://register.apple.com/) and select ‘Business Chat Accounts’ in the service menu. You must add your business information in required fields to complete your ‘Organization’ profile. 
 4. **Add team members.** To help administrate your Apple profile, it is recommended that you designate ‘Administration’ roles to additional members of your organization and to LivePerson’s Apple Business Chat team: abcregister-lp@liveperson.com. The team will continue and monitor the Business Chat registration process for your organization.  
 5. **Connecting MSP.**  To qualify for a Business Chat account your brand must have an asynchronous messaging platform staffed by live agents during business hours. LivePerson’s Conversational Cloud is an Apple approved MSP that is provided to our brands. Please note, businesses in the EMEA and APAC regions will need to enter a unique URL in the Messaging Service Provider (MSP) section. 
-* **EMEA:** https://lo.apple-gw.liveperson.net/api/v1.0/message
-* **APAC:** https://sy.apple-gw.liveperson.net/api/v1.0/message
+* **EMEA:** [https://lo.apple-gw.liveperson.net/api/v1.0/message](https://lo.apple-gw.liveperson.net/api/v1.0/message)
+* **APAC:** [https://sy.apple-gw.liveperson.net/api/v1.0/message](https://sy.apple-gw.liveperson.net/api/v1.0/message)
 
 ## Next steps
 
