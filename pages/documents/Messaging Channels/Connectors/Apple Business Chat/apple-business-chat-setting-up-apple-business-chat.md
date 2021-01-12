@@ -3,60 +3,70 @@ pagename: 'Setting Up Apple Business Chat'
 categoryName: Messaging channels
 subCategoryName: Apple Business Chat
 indicator: messaging
-subtitle: Registration and setup
+subtitle: 
 level3: ''
 permalink: messaging-channels-apple-business-chat-setting-up-apple-business-chat.html
 isTutorial: false
 isNew: false
 date: 2020-08-18 14:38:05 +0000
 ---
-## Business Chat Readiness
+## Business Chat readiness
 
-To get started with Apple Business Chat, we encourage you to assess if this is the correct solution for your business. The following **business chat readiness review** is a quick questionnaire that you can submit to LivePerson and Apple teams to help you determine if business chat is the right solution for your digital transformation and operational goals. 
+To get started with Apple Business Chat, we encourage you to assess if this is the correct solution for your business. The following [Business Chat Readiness Review](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/BusinessChatReadiness2019.2.pdf) is a quick questionnaire that you can submit to LivePerson and Apple teams to help you determine if Business Chat is the right solution for your digital transformation and operational goals. 
 
-## Business Chat Setup Process
-### Account Registration
-The first step in onboarding your business is to ensure you and your team members have an Apple ID using your organization’s email address. You will need this to create the business chat account and for testing purposes. 
+## Business Chat account registration
 
-1. **Onboarding.** Start in Data Sources of your Conversational Cloud account to complete the onboarding form for Apple Business Chat.  
+The first step in onboarding your business is to ensure you and your team members have an Apple ID using your organization’s email address. You will need this to create the Business Chat account and for testing purposes. 
 
-1. **Create an Apple ID.** You will need an Apple ID using your organization’s email address in order to administer Business Chat and accept Apple’s Terms of Use. You can create your Apple ID [here](https://appleid.apple.com/account#!&page=create).
+1. **Onboarding.** Start in [Data Sources](https://knowledge.liveperson.com/data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) of your Conversational Cloud account to complete the onboarding form for Apple Business Chat.  
+2. **Create an Apple ID.** You will need an Apple ID using your organization’s email address in order to administer Business Chat and accept Apple’s Terms of Use. You can create your Apple ID [here](https://appleid.apple.com/account#!&page=create).
+3. **Register Business profile.** Sign into [Apple Register](https://register.apple.com/) and select ‘Business Chat Accounts’ in the service menu. You must add your business information in required fields to complete your ‘Organization’ profile. 
+4. **Add team members.** To help administrate your Apple profile, it is recommended that you designate ‘Administration’ roles to additional members of your organization and to LivePerson’s Apple Business Chat team: abcregister-lp@liveperson.com. The team will continue and monitor the Business Chat registration process for your organization.  
+5. **Connecting MSP.**  To qualify for a Business Chat account your brand must have an asynchronous messaging platform staffed by live agents during business hours. LivePerson’s Conversational Cloud is an Apple approved MSP that is provided to our brands. Please note, businesses in the EMEA and APAC regions will need to enter a unique URL in the Messaging Service Provider (MSP) section. 
+* **EMEA:** https://lo.apple-gw.liveperson.net/api/v1.0/message
+* **APAC:** https://sy.apple-gw.liveperson.net/api/v1.0/message
 
-1. **Register Business profile.** Sign into [Apple Register](https://register.apple.com/) and select ‘Business Chat Accounts’ in the service menu. You must add your business information in required fields to  complete your ‘Organization’ profile. 
+## Next steps
 
-1. **Add team members.** To help administer your Apple profile, it is recommended that you designate ‘Administration’ roles to additional members of your organization and to LivePerson’s Apple Business Chat team, who will continue and monitor the business chat registration process for your organization.  
+Upon the approval of your business chat account, you will receive an email with a conversational link. Make sure to get in touch with your account team so they can connect your business chat ID with your Conversational Cloud account and activate the connector for you. This is the first step! 
 
-### What's Next
+Now for the fun part -- checkout how to design your ABC experience, determine entry points and pass the brand experience QA. The onboarding process includes an Apple review in different points within the journey. Apple reviews your application and an email notification is sent to you with approval. The purpose of the onboarding form from Data Sources is two-fold. First, it allows us to quickly help you register for a Business Chat Account. Second, it provides us basic information to help you configure an Apple approved MVP experience for Business Chat.  
 
-The onboarding process includes an Apple review in different points within the journey. Apple reviews your application and an email notification is sent to you with approval. 
+{: .notice}
+**Please note:** Business Chat accounts are not available until after the Business Chat service application has been approved by Apple. To learn more about managing your Business Chat Account, please refer to Apple’s [Onboarding Guide](https://register.apple.com/resources/business-chat/BC-OnboardingYourBCA.pdf).
 
-The onboarding form from Data Sources serves to both create a business chat account for your business and to automate the minimum viable experience allowed by Apple.   
+## Design your customer experience
 
-### Note
+In using Business Chat, Apple holds brands to high design standards as they aim to provide users with richness and delight across the Apple ecosystem. Once you have set up your Business Chat account,  we recommend taking the following steps in order to plan and design your customer journey. 
 
-Business Chat accounts are not available until after the Business Chat service application has been approved by Apple.  
+**Define customer intents.** To provide a meaningful and enhanced customer experience, we encourage you to analyze the top reasons why customers contact your business today and consider how those issues are supported on your current channels today. Use these key intents in the routing list picker and build a workflow for resolution in Apple Business Chat. You will need to submit these use cases and the customer journey using this [use case template](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/useCaseTemplate+(4).xlsx).
 
-For more information on onboarding and maintaining the information on your business chat account, please refer to Apple’s [Onboarding Guide](https://register.apple.com/resources/business-chat/BC-OnboardingYourBCA.pdf).
+**Plan entry points.** There are many ways for customers to get in touch with your brand via Business Chat, but it’s important to consider which one might be best for your Business Chat strategy as the effort to implement might vary. See the Entry Point section to learn more about what's available.
 
-## Design your Customer Experience  
+**Consider Authentication.** Think about the use cases you would like to include for Apple Business Chat and assess if authentication will be required for any of them. If yes, what is the method for validating customers? You might want to consider Business Chat features such as [OAuth 2.0](https://developers.liveperson.com/apple-business-chat-templates-apple-auth-template.html), in-app authentication or LivePerson’s [secure forms](https://knowledge.liveperson.com/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html). 
 
-In using business chat, Apple holds brands to high design standards as they aim to provide users with richness and delight across the iOS ecosystem. Once you have set up your business chat account, below are the steps we recommend for planning and designing your customer journey. 
+OAuth 2.0:
+![](img/setting-up-apple-business-chat-1.png)
 
-**Define customer intents.** To provide a meaningful and enhanced customer experience, we encourage you to analyze the top reasons why customers contact your business today and consider how those issues are supported on your current channels today. Use these key intents in the routing list picker and build a workflow for resolution in Apple Business Chat. You will need to submit these use cases and the customer journey using this [use case template](https://static-assets.fs.liveperson.com/ABC/useCaseTemplate.xlsx).
+Secure forms:
+![](img/setting-up-apple-business-chat-2.png)
 
-**Plan entry points.** There are many ways for customers to get in touch with your brand via business chat, but it’s important to consider which one might be best for your business chat strategy as the effort to implement might vary.
+**Consider Payment.** How might a customer make a payment and/or make a purchase in Business Chat? Consider and plan for the end-to-end journey of transactional use cases, from payment collection to reporting. Brands can leverage Apple Pay for the most seamless form of payment.  Other choices include LivePerson’s secure forms for agent-driven transactions, as well as Maven Pay.
 
-**Consider Authentication.** Think about the use cases you would like to include for Apple Business Chat and assess if authentication will be required for any of them. If yes, what is the method for validating customers? You might want to consider business chat features such as OAuth 2.0, in-app authentication or LivePerson’s secure forms. 
+Apple Pay:
+![](img/setting-up-apple-business-chat-3.png)
 
-**Consider Payment.** How might a customer make a payment and/ or make a purchase in business chat? Consider and plan for the end to end journey of transactional use cases, from payment collection to reporting. Existing brands leverage LivePerson’s secure forms for agent- driven transactions, as well as Maven Pay and  Apple Pay for the most seamless form of payment. 
- 
+{: .notice}
+**Please note:** If interested in true conversational commerce via Business Chat, please reach out to your account team to request an Apple Pay demo. 
+
 ## Brand Experience QA 
 
-In order to launch with Business Chat, Apple must QA and approve your overall experience within the channel. Once your business chat configuration is complete and has gone through internal testing, you can go ahead and schedule the QA session with Apple. You will need to identify one or two agents for this session.
+In order to launch with Business Chat, Apple must QA and approve your overall experience within the channel. Once your Business Chat configuration is complete and has gone through internal testing, you can go ahead and schedule the QA session with Apple. You will need to identify one or two agents who will be available to pick up Apple messages during the session. Check out our [Apple QA Primer](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/ABC_abreviated+training.pdf) to help you and your agents prepare for the Brand Experience QA.
  
-During the QA session, a representative from Apple will initiate a conversation with one of your agents and will simulate an actual customer query. They will evaluate the: 
-* Conversation flow 
-* Agent etiquette and 
-* Usage of rich elements.
+During the QA session, a representative from Apple will initiate a conversation with one of your agents and will simulate an actual customer query. They will evaluate: 
+* Conversation flow
+* Agent etiquette
+* Usage of rich elements
 
-The brand normally handles QA with internal resources and provides results to LivePerson. Please review Apple's Conversational Design Guideline with your agents prior to the session.
+QA is typically staffed with ‘real agents’ from the brand side, i.e. same agents that will be supporting the program once it launches. Please review [Apple's Conversational Design Guidelines](https://developer.apple.com/design/human-interface-guidelines/business-chat/customer-interaction/onboarding/) with your agents prior to the session.
+
