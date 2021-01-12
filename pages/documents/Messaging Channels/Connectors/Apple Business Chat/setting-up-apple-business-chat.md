@@ -5,7 +5,7 @@ subCategoryName: Apple Business Chat
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: messaging-channels-apple-business-chat-set-up-guide.html
+permalink: messaging-channels-apple-business-chat-setup-guide.html
 isTutorial: false
 isNew: false
 date: 2020-08-18 14:38:05 +0000
