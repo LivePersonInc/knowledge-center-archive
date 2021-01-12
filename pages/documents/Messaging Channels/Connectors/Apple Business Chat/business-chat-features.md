@@ -1,11 +1,11 @@
 ---
-pagename: Business Chat features
+pagename: Features
 categoryName: Messaging channels
 subCategoryName: Apple Business Chat
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: messaging-channels-apple-business-chat-business-chat-features.html
+permalink: messaging-channels-apple-business-chat-features.html
 isTutorial: false
 isNew: false
 date: 2020-08-18 14:38:05 +0000
