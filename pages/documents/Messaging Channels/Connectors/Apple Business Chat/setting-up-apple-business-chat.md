@@ -39,7 +39,7 @@ Now for the fun part -- checkout how to design your ABC experience, determine en
 
 In using Business Chat, Apple holds brands to high design standards as they aim to provide users with richness and delight across the Apple ecosystem. Once you have set up your Business Chat account,  we recommend taking the following steps in order to plan and design your customer journey. 
 
-**Define customer intents.** To provide a meaningful and enhanced customer experience, we encourage you to analyze the top reasons why customers contact your business today and consider how those issues are supported on your current channels today. Use these key intents in the routing list picker and build a workflow for resolution in Apple Business Chat. You will need to submit these use cases and the customer journey using this [use case template](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/useCaseTemplate+(4).xlsx).
+**Define customer intents.** To provide a meaningful and enhanced customer experience, we encourage you to analyze the top reasons why customers contact your business today and consider how those issues are supported on your current channels today. Use these key intents in the routing list picker and build a workflow for resolution in Apple Business Chat. You will need to submit these use cases and the customer journey using this [use case template](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/useCaseTemplate+(4).xlsx).
 
 **Plan entry points.** There are many ways for customers to get in touch with your brand via Business Chat, but it’s important to consider which one might be best for your Business Chat strategy as the effort to implement might vary. See the Entry Point section to learn more about what's available.
 
