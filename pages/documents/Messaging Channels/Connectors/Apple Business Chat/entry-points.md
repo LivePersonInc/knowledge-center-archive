@@ -22,7 +22,7 @@ Once registered for Apple Business Chat, the business will have an option to ena
 
 The conversation URL consists of a business ID and optional query string parameters that are invaluable to optimizing Business Chat entry points and tracking traffic. 
 
-As an overview, the conversation URL is **https://bcrw.apple.com/urn:biz:<your-business-id>**, replacing **<your-business-id>** with the business ID you received from Apple after registering with Business Chat. 
+As an overview, the conversation URL is ```https://bcrw.apple.com/urn:biz:<your-business-id>```, replacing ```<your-business-id>``` with the business ID you received from Apple after registering with Business Chat. 
  
 For example:
 ![](img/apple-business-chat-entry-points-00.png)
