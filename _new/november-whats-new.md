@@ -110,7 +110,7 @@ For more information, please see the Microsoft announcement [here.](https://tech
 
 ## Advanced Messaging Dashboard
 
-The Advanced Messaging Dashboard was originally built for critical messaging reporting needs that could not be served elsewhere. All of those reporting needs are now being served by either the Analytics Builder Predefined Dashboards or other reporting tools within Conversational Cloud. The Advanced Messaging Dashboard is undergoing a sunset plan, end of life is planned for April 30th 2021.  
+The Advanced Messaging Dashboard was originally built for critical messaging reporting needs that could not be served elsewhere. All of those reporting needs are now being served by either the Analytics Builder Predefined Dashboards or other reporting tools within Conversational Cloud. The Advanced Messaging Dashboard is undergoing a sunset plan, end of life is planned for Q2 2021.  
 
 
 
