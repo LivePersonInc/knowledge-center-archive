@@ -43,7 +43,7 @@ In using Business Chat, Apple holds brands to high design standards as they aim 
 
 **Plan entry points.** There are many ways for customers to get in touch with your brand via Business Chat, but it’s important to consider which one might be best for your Business Chat strategy as the effort to implement might vary. See the Entry Point section to learn more about what's available.
 
-**Consider Authentication.** Think about the use cases you would like to include for Apple Business Chat and assess if authentication will be required for any of them. If yes, what is the method for validating customers? You might want to consider Business Chat features such as [OAuth 2.0](https://developers.liveperson.com/apple-business-chat-templates-apple-auth-template.html), in-app authentication or LivePerson’s [secure forms](https://knowledge.liveperson.com/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html). 
+**Consider Authentication.** Think about the use cases you would like to include for Apple Business Chat and assess if authentication will be required for any of them. If yes, what is the method for validating customers? You might want to consider Business Chat features such as [OAuth 2.0](https://developers.liveperson.com/apple-business-chat-templates-apple-auth-template.html), in-app authentication or LivePerson’s [secure forms](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html). 
 
 OAuth 2.0:
 ![](img/setting-up-apple-business-chat-1.png)
