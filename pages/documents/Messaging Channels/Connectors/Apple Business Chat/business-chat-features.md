@@ -13,7 +13,7 @@ date: 2020-08-18 14:38:05 +0000
 
 ## List Picker
 
-List Picker is a simple Business Chat UI component that makes it easy to display a list of items and have the user make a selection from the list. It is set up in Conversational Cloud using [structured content](https://knowledge.liveperson.com/messaging-channels-rich-conversations-structured-content-for-messaging-user-guide.html)-- which supports a variety of messaging interactions to enable enhanced and clearer communication-- and is able to be sent either by a human or automated agent. Structured content plays a vital role in ich Messaging and allows brands to encourage customer action directly within the conversation. The List Picker serves different purposes and can be configured to be **static** or **dynamic**, depending on the use case. The use of List Pickers is highly recommended in Apple Business Chat configuration to provide customers a quick way to tap to make choices, rather than typing.  It also helps create the level of richness that meets Apple’s standards. 
+List Picker is a simple Business Chat UI component that makes it easy to display a list of items and have the user make a selection from the list. It is set up in Conversational Cloud using [structured content](messaging-channels-rich-conversations-structured-content-for-messaging-user-guide.html)-- which supports a variety of messaging interactions to enable enhanced and clearer communication-- and is able to be sent either by a human or automated agent. Structured content plays a vital role in ich Messaging and allows brands to encourage customer action directly within the conversation. The List Picker serves different purposes and can be configured to be **static** or **dynamic**, depending on the use case. The use of List Pickers is highly recommended in Apple Business Chat configuration to provide customers a quick way to tap to make choices, rather than typing.  It also helps create the level of richness that meets Apple’s standards. 
 
 ### Static List Pickers
 
@@ -74,7 +74,7 @@ The List Picker template consists of elements that the business can define. Belo
 | 2 | subtitle | Subtitle to be displayed under title | No |
 | 3 | imageURL | Image to be placed in the interactive message reply message bubble layout | No |
 
-## Rick Links
+## Rich Links
 
 A rich link is a URL sent to the customer in a chat bubble that includes an image or a video. It is a great way to provide customers with a great visual experience on the Messaging app that is akin to Apple’s standard. When the customer taps on the image or video, it then opens the link of the website. Sending rich links is a minimum requirement by Apple. URLs sent without using rich links are “untrusted,” and display a grey “Tap to Load Preview” bubble for the customer as a warning. Businesses are expected to have both chatbots and human agents send rich links to customers to avoid inline hyperlinks and/or ‘tap-to-load’ preview links which offer a poorer experience. 
 
