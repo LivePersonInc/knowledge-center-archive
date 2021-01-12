@@ -41,10 +41,8 @@
       pages:
         - pagename: Overview
         - pagename: Setting Up Apple Business Chat
-        # - pagename: Business Chat Policies and Best Practices
-        # - pagename: Entry Points and Supported Messaging Features
-        # - pagename: Post-Launch Care and Maintenance
-        # - pagename: Troubleshooting
+        - pagename: Entry Points
+        - pagename: Business Chat features
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google
       pages:
