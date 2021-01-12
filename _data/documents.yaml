@@ -40,9 +40,9 @@
     - subcategoryname: Apple Business Chat
       pages:
         - pagename: Overview
-        - pagename: Setting Up Apple Business Chat
+        - pagename: Setup guide
         - pagename: Entry Points
-        - pagename: Business Chat features
+        - pagename: Features
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google
       pages:
