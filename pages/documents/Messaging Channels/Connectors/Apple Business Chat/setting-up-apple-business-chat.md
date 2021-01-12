@@ -51,7 +51,7 @@ OAuth 2.0:
 Secure forms:
 ![](img/setting-up-apple-business-chat-2.png)
 
-**Consider Payment.** How might a customer make a payment and/or make a purchase in Business Chat? Consider and plan for the end-to-end journey of transactional use cases, from payment collection to reporting. Brands can leverage Apple Pay for the most seamless form of payment.  Other choices include LivePerson’s secure forms for agent-driven transactions, as well as Maven Pay.
+**Consider Payment.** How might a customer make a payment and/or make a purchase in Business Chat? Consider and plan for the end-to-end journey of transactional use cases, from payment collection to reporting. Brands can leverage Apple Pay for the most seamless form of payment.  Other choices include LivePerson’s secure forms for agent-driven transactions.
 
 Apple Pay:
 ![](img/setting-up-apple-business-chat-3.png)
