@@ -14,9 +14,9 @@ date: 2020-08-18 14:38:05 +0000
 Once registered for Apple Business Chat, the business will have an option to enable the following entry points: 
 * [Business Chat Conversation URL](messaging-channels-apple-business-chat-entry-points.html#apple-business-chat-conversation-url)
   * When customers click the conversation URL, the system redirects them to the Message app where they can send a message to your business. 
-  * The conversation link can be used in email, social media, QR codes, and as website buttons and app engagement.  
-* Chat Suggest
-* Maps and Siri 
+  * The conversation link can be used in [email](messaging-channels-apple-business-chat-entry-points.html#email), [social media](messaging-channels-apple-business-chat-entry-points.html#social-media-posts), [QR codes](messaging-channels-apple-business-chat-entry-points.html#qr-code), and as [website buttons and app engagement](messaging-channels-apple-business-chat-entry-points.html#web-engagements).  
+* [Chat Suggest](messaging-channels-apple-business-chat-entry-points.html#chat-suggest)
+* [Maps and Siri](messaging-channels-apple-business-chat-entry-points.html#maps-and-siri-search-apple-native-entry-points)
 
 ## Apple Business Chat Conversation URL
 
@@ -29,7 +29,7 @@ For example:
 
 Add optional query string parameters to the entrypoint by including intent and group IDs. Within Conversation Cloud, the **Intent value** will be mapped to the **customerType SDE**, which is primarily used for [skill routing](contact-center-management-messaging-operations-routing-logic-overview.html) as well as tracking and analyzing volume by entrypoint. The Group value will be mapped against the **customerStatus SDE**. It is recommended to add the entrypoint description as *‘intentId’* and relevant campaign attributes as *‘groupID’*. 
 
-Using LivePerson’s MCS toolkit, both customerType and customerStatus SDEs help businesses analyze performance at the account level, agent level, and conversation level.  
+Using LivePerson’s [MCS toolkit](data-reporting-meaningful-conversation-score-(mcs)-using-the-mcs-toolkit.html), both customerType and customerStatus SDEs help businesses analyze performance at the account level, agent level, and conversation level.  
 
 Here’s an example of Business Chat conversation URL with the added parameters:
 ![](img/apple-business-chat-entry-points-01.png)
@@ -48,7 +48,7 @@ To implement the engagements on LivePerson, you will need your Apple Business Ch
 
 There are two primary methods for routing Business Chat  conversations to ensure they are delivered to the right skills and therefore the right agents.
 * Routing with simple rule logic - **IntentID** and **GroupID** - as mentioned above.
-* List Picker Routing Bot - for more information on how this works, please read this.
+* List Picker Routing Bot - for more information on how this works, please [read this](messaging-channels-apple-business-chat-features.html#static-list-picker-for-skill-routing).
 
 **Routing with Simple rule logic** is most applicable for first time interactions for consumers starting their conversation from a Place Card or Web/App URL.  Routing rules are configured on the backend by LivePerson resources to look for and leverage the **GroupID**, **IntentID** and **BusinessID** variables.
 
