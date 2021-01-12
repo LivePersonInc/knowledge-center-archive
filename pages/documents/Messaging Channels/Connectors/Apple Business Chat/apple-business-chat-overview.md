@@ -1,5 +1,5 @@
 ---
-pagename: 'Apple Business Chat Overview'
+pagename: 'Overview'
 categoryName: Messaging channels
 subCategoryName: Apple Business Chat
 indicator: messaging
@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 date: 2020-08-18 14:38:05 +0000
 ---
-## Apple Business Chat Overview
+## Introduction
 
 Apple Business Chat enables brands to help customers resolve issues, schedule appointments, and make purchases or payments all within the Message app.  Brands can leverage the rich features of Apple’s platforms to provide an integrated messaging experience that is branded, verified, encrypted and delightful. LivePerson has enabled hundreds of brands with Business Chat, helping them to easily connect with their customers. Business Chat is supported by Apple devices running on iOS 11.3 and later or macOS 10.13.4 and later.
 
