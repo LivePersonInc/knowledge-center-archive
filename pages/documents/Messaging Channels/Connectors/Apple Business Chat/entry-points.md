@@ -193,7 +193,8 @@ You can make Business Chat available via email by using the conversation URL wit
 
 Example: 
 
-```<a href="https://bcrw.apple.com/urn:biz:27e9ee9c-5093-4e93-9f2a-398a83xxxx&biz-intent-id=sales&group=vip">
+```
+<a href="https://bcrw.apple.com/urn:biz:27e9ee9c-5093-4e93-9f2a-398a83xxxx&biz-intent-id=sales&group=vip">
 
          <img src="businesschatbutton.png" width=150" height="70">
 
