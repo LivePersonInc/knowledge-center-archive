@@ -227,14 +227,14 @@ Brands can reduce phone call volume and voice support cost by enabling Chat Sugg
 
 ### Anatomy of Chat Suggest
 
-Below are all of the configurable components of Chat Suggest. You can define each one on the [Chat Suggest form](http://static-assets.fs.liveperson.com/ABC/chat_suggest_form.xlsx). 
+Below are all of the configurable components of Chat Suggest. You can define each one on the [Chat Suggest form](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/Chat+Suggest+Form+_+NEW.xlsx). 
 
 ![](img/apple-business-chat-entry-points-7.png)
 
-**1. Name to Display:** You have the ability to associate a name with every phone number you wish to enable. This can be the name of your organization or to provide your customers with more context, the name of the line of business. Below the name is a verification mark that is carried over from your Business Chat account approval. 
-**2. Title:** The title is the immediate power word(s) to encourage your customer to send a message vs call. We recommend utilizing “Live Agents” or “Customer Support” as these titles have shown to drive the most successful deflection rates across brands. **
-**3. Call to Action:** Besides the title, the call to action provides your customers additional context or encouragement to message. 
-**4. Phone number:** The phone number is the business phone number that you are enabling for Chat Suggest and are looking to deflect calls from.
+1. **Name to Display:** You have the ability to associate a name with every phone number you wish to enable. This can be the name of your organization or to provide your customers with more context, the name of the line of business. Below the name is a verification mark that is carried over from your Business Chat account approval. 
+2. **Title:** The title is the immediate power word(s) to encourage your customer to send a message vs call. We recommend utilizing “Live Agents” or “Customer Support” as these titles have shown to drive the most successful deflection rates across brands. **
+3. **Call to Action:** Besides the title, the call to action provides your customers additional context or encouragement to message. 
+4. **Phone number:** The phone number is the business phone number that you are enabling for Chat Suggest and are looking to deflect calls from.
 
 ### Thought starters
 
@@ -272,17 +272,17 @@ In order to display a Business Chat button on one of the native entry points, yo
 
 ![](img/apple-business-chat-entry-points-8.gif)
 
-1. **Spotlight Search**
+**Spotlight Search**
 * No ability to add intentID/ groupID
 
 ![](img/apple-business-chat-entry-points-9.png)
 
-2. **Siri**
+**Siri**
 * No ability to add intentID/ groupID
 
 ![](img/apple-business-chat-entry-points-10.png)
 
-3. **Maps**
+**Maps**
 * intentID defaults to POIs’ address
 
 ![](img/apple-business-chat-entry-points-11.png)
