@@ -61,20 +61,20 @@ This feature will be enabled by default.
 The ability to analyze and track key performance indicators by intent is a key value proposition of the Intent Powered business. Intent Manager 2.0 adds 7 new intent correlated metrics to the Intent Trends dashboard that are aligned to the LivePerson 4E Framework. The release also adds a new configuration panel that enables brands to select which metrics to include in summary cards, charts and graphs, and data tables in the Intent Trends dashboard. By clicking the gear icon in the top right corner you can configure which metrics show where. 
 This enables brands to remove empty/ extraneous information and to tune the Intent Analyzer dashboard for use with specific personas and use cases. 
 
-Intent Trends now includes the following metrics.  New Metrics are highlighted in bold.
+Intent Trends now includes the following metrics:
 
 | Metric | Description | 4E Category|
 |--------|-------------|------------|
 | MCS | [The meaningful connection score](https://knowledge.liveperson.com/data-reporting-meaningful-conversation-score-(mcs)-meaningful-conversation-score-(mcs)-overview.html) for a conversation is an automatic, unbiased method to measure the relationship between consumers and brands | Emotion |
 | CSAT | CSAT score is the average of scaled responses to a post- conversation survey question that asks a customer to rate their satisfaction | Emotion |
 | Avg. Duration | The average duration of a conversation | Efficiency |
-| **NPS | The Net Promoter score associated with a conversation | Emotion |
+| NPS | The Net Promoter score associated with a conversation | Emotion |
 | % of fully automated conversations | Conversations with intents that were fully automated (no agent assignments) | Effectiveness |
 | % of partially automated conversations | Conversations with intents that had both a bot and an agent (TANGO) | Effectiveness / Efficiency |
 | % of agent only conversations | Conversations with intents that had only Human Agent assignments | Effectiveness / Efficiency |
 |Avg # of transfers | The average number of transfers in a conversation by Intent | Efficiency |
 | Average # of consumer Messages | The average number of consumer messages sent in a conversation | Effort |
-| Avg # of Agent/Bot responses | The average number responses sent by agents or bots to the consumer in a conversation | Efficiency |**
+| Avg # of Agent/Bot responses | The average number responses sent by agents or bots to the consumer in a conversation | Efficiency |
 | RCR (coming soon) | The number of repeat customer contacts pers intent | Effectiveness |
 
 ![](img/IM2.0_6.png)
