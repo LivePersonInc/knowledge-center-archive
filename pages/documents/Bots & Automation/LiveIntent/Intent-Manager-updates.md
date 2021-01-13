@@ -26,6 +26,41 @@ Clusters are groupings of messages that share similarities in language. Messages
 
 Brands can combine the power of clustering with Semantic Search and power filters to quickly build new, high-quality intents, which are based on a diverse set of training data that has been extracted from real customer conversations.
 
-The new Intent Directory pop-over enables you to see all the intents and training phrases used in a single place. You can access it by clicking on the orange icon on the bottom right corner of the screen. The Intent Directory and improved integration with Intent Builder makes it easier than ever to correct misclassified messages and tune the overall recognition quality of their ML models without a dependency on specialized data scientists. [Insert Image 2]
+{: .notice}
+Please note this will be released in waves and will be enabled for your account shortly, by default. 
+Please contact your account team if you would like access sooner. 
 
-It is important to note that the Messages table view has moved to the Intent Discovery tab (from the Conversation Details tab). The Intent-detection coverage widget (classified vs unclassified message count). [Insert Image 3]
+## A new Model Tester for Intent Builder
+It’s important to train and test updated domain models before they are activated. Our new model tester enables brands to more easily see how model changes impact the quality of their intent recognition, as they work to optimize their taxonomy. Brands can use an intuitive interface to create a gold test of phrases, and then map them to their expected intents, just like how a quiz has an answer key. 
+
+### It’s simple to use:
+Create a test set by adding the sample phrases that you want to ensure that your model is properly detecting. 
+Match the sample phrases to their intents. For example, the phrase  “I want to cancel my policy” should be mapped to the “cancel policy” intent.
+Once all the phrases are added, click on “Run Test” to generate a score for the current intent model.
+
+Whenever changes are made to the model, you can re-run the test set and review a quality report prior to activating the new model in production.
+
+{: .notice}
+This feature will be enabled by default.
+
+## An Enhanced Intent Trends dashboard with new Customizable Metrics & KPIs
+
+The ability to analyze and track key performance indicators by intent is a key value proposition of the Intent Powered business. Intent Manager 2.0 adds 7 new intent correlated metrics to the Intent Trends dashboard that are aligned to the LivePerson 4E Framework. The release also adds a new configuration panel that enables brands to select which metrics to include in summary cards, charts and graphs, and data tables in the Intent Trends dashboard. By clicking the gear icon in the top right corner you can configure which metrics show where. 
+This enables brands to remove empty/ extraneous information and to tune the Intent Analyzer dashboard for use with specific personas and use cases. 
+
+Intent Trends now includes the following metrics.  New Metrics are highlighted in bold.
+
+| Metric | Description | 4E Category|
+|--------|-------------|------------|
+| MCS | [The meaningful connection score](https://knowledge.liveperson.com/data-reporting-meaningful-conversation-score-(mcs)-meaningful-conversation-score-(mcs)-overview.html) for a conversation is an automatic, unbiased method to measure the relationship between consumers and brands | Emotion |
+| CSAT | CSAT score is the average of scaled responses to a post- conversation survey question that asks a customer to rate their satisfaction | Emotion |
+| Avg. Duration | The average duration of a conversation | Efficiency |
+| **NPS | The Net Promoter score associated with a conversation | Emotion |
+| % of fully automated conversations | Conversations with intents that were fully automated (no agent assignments) | Effectiveness |
+| % of partially automated conversations | Conversations with intents that had both a bot and an agent (TANGO) | Effectiveness / Efficiency |
+| % of agent only conversations | Conversations with intents that had only Human Agent assignments | Effectiveness / Efficiency |
+|Avg # of transfers | The average number of transfers in a conversation by Intent | Efficiency |
+| Average # of consumer Messages | The average number of consumer messages sent in a conversation | Effort |
+| Avg # of Agent/Bot responses | The average number responses sent by agents or bots to the consumer in a conversation | Efficiency |**
+| RCR (coming soon) | The number of repeat customer contacts pers intent | Effectiveness |
+
