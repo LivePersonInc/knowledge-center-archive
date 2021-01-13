@@ -22,9 +22,19 @@ Here are all the new features and exciting enhancements coming to Intent Manager
 Optimizing the coverage and quality of intents is a critical component of Intent Management. Intent Manager 2.0 introduces new language clustering visualizations that help brands discover new topics and trends in their conversational data. 
 
 ###What are clusters?
-Clusters are groupings of messages that share similarities in language. Messages in each cluster share a noun (such as the word “order”), and each cluster contains sub-clusters that have noun-verb combinations such as “place order” or cancel order”. Both clusters and sub-clusters provide an intuitive way to identify common combinations of phrases that consumers are using to express their intent. When used in combination with various search and filter criteria, clusters can be used to identify opportunities to further develop your intent taxonomy and help define ways to optimize your intent model. [Insert Image 1]
+Clusters are groupings of messages that share similarities in language. Messages in each cluster share a noun (such as the word “order”), and each cluster contains sub-clusters that have noun-verb combinations such as “place order” or cancel order”. Both clusters and sub-clusters provide an intuitive way to identify common combinations of phrases that consumers are using to express their intent. When used in combination with various search and filter criteria, clusters can be used to identify opportunities to further develop your intent taxonomy and help define ways to optimize your intent model. 
+
+![](img/IM2.0_1.png)
 
 Brands can combine the power of clustering with Semantic Search and power filters to quickly build new, high-quality intents, which are based on a diverse set of training data that has been extracted from real customer conversations.
+
+The new Intent Directory pop-over enables you to see all the intents and training phrases used in a single place. You can access it by clicking on the orange icon on the bottom right corner of the screen. The Intent Directory and improved integration with Intent Builder makes it easier than ever to correct misclassified messages and tune the overall recognition quality of their ML models without a dependency on specialized data scientists. 
+
+![](img/IM2.0_2.png)
+
+It is important to note that the Messages table view has moved to the Intent Discovery tab (from the Conversation Details tab). The Intent-detection coverage widget (classified vs unclassified message count). 
+
+![](img/IM2.0_3.png)
 
 {: .notice}
 Please note this will be released in waves and will be enabled for your account shortly, by default. 
@@ -42,6 +52,9 @@ Whenever changes are made to the model, you can re-run the test set and review a
 
 {: .notice}
 This feature will be enabled by default.
+
+![](img/IM2.0_4.png)
+![](img/IM2.0_5.png)
 
 ## An Enhanced Intent Trends dashboard with new Customizable Metrics & KPIs
 
@@ -64,8 +77,19 @@ Intent Trends now includes the following metrics.  New Metrics are highlighted i
 | Avg # of Agent/Bot responses | The average number responses sent by agents or bots to the consumer in a conversation | Efficiency |**
 | RCR (coming soon) | The number of repeat customer contacts pers intent | Effectiveness |
 
+![](img/IM2.0_6.png)
+
+### Settings page
+![](img/IM2.0_7.png)
+
 ## Enhanced Conversation Details Panel for Improved Transcript Analysis
 The ability to  analyze and explore conversations by intent is greatly improved in Intent Manager 2.0. Brands can use power filters to search for keywords and phrases in both the agent and consumer portions of the transcript. Brands can easily browse a list of conversations that match their filter criteria with associated metadata and KPIS. The transcript view now supports structured content inside a streamline UI.
+
+### Before
+![](img/IM2.0_8.png)
+
+### After
+![](img/IM2.0_9.png)
 
 ## Its easy to use:
 Simply click on a conversation to populate the transcript view. 
@@ -78,6 +102,8 @@ By conversation you can see all the new metrics including turns in conversation,
 
 ## The Ability to Create and Manage Rule-Based Power Filters
 Building on existing advanced filter functionality brands can now save and manage complex filters that enable them to surface and track specific insights on exact topics. Brands can use regular expressions to instantly mine and query up to 13 months of conversation data that matches specific criteria. This functionality is complementary to ML powered Intents and allows brands to cover analysis use cases that don’t work within the Intent taxonomy.
+
+![](img/IM2.0_10.png)
 
 ### How to add filters
 * To add a filter, click on the Add Filter button on the top left corner. Choose a filter property from the drop down list and add constraints based on your needs. * To save a filter, Click on save
