@@ -104,6 +104,7 @@
        - pagename: Getting started
        - pagename: Create and Optimize Intents      
        - pagename: Dashboard
+       - pagename: Intent Manager updates
    - subcategoryname: Post-conversation surveys
      pages:
        - pagename: Post-Conversation Survey bot
