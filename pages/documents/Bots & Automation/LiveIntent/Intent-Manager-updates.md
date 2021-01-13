@@ -79,4 +79,22 @@ By conversation you can see all the new metrics including turns in conversation,
 ## The Ability to Create and Manage Rule-Based Power Filters
 Building on existing advanced filter functionality brands can now save and manage complex filters that enable them to surface and track specific insights on exact topics. Brands can use regular expressions to instantly mine and query up to 13 months of conversation data that matches specific criteria. This functionality is complementary to ML powered Intents and allows brands to cover analysis use cases that don’t work within the Intent taxonomy.
 
+### How to add filters
+* To add a filter, click on the Add Filter button on the top left corner. Choose a filter property from the drop down list and add constraints based on your needs. * To save a filter, Click on save
+* Once you add and save a filter, you will be able to access previously saved filters and search for specific filters too.
+
+### Filters and REGEX
+An example use case for using a REGEX is if an airline wants to search each time a reservation number comes up. They can search in addition to intents if you want to find all messages.
+For more information on REGEX, click [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/regexp-syntax.html)
+
+## Added Coverage For Existing Starter Packs
+Intent Manager 2.0 includes updates to three of core starter packs to improve coverage and accuracy. 
+* The Telco starter pack now includes 21 intents with typical coverage of 45%
+* The Airlines starter pack now includes 13 intents with typical coverage of 74%
+* The Insurance starter pack now includes 12 intents with typical coverage of  78% 
+If you want to create a new starter starter pack model - please contact your account team.
+For more info on starter pack intents click [here.](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-create-and-optimize-intents.html)
+
+## Visual Overhaul and UX improvements
+Intent Manager 2.0 has updated styles, a new menu structure and usability & accessibility improvements.
 
