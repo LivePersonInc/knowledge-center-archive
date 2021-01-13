@@ -17,7 +17,7 @@ Intent Manager 2.0 introduces a wide set of new self-service features and functi
 
 Here are all the new features and exciting enhancements coming to Intent Manager:
 
-## Topic Clustering for Intent Discovery and Optimization (new)
+## Topic Clustering for Intent Discovery and Optimization 
 
 Optimizing the coverage and quality of intents is a critical component of Intent Management. Intent Manager 2.0 introduces new language clustering visualizations that help brands discover new topics and trends in their conversational data. 
 
