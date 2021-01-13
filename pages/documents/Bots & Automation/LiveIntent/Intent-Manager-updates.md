@@ -21,7 +21,7 @@ Here are all the new features and exciting enhancements coming to Intent Manager
 
 Optimizing the coverage and quality of intents is a critical component of Intent Management. Intent Manager 2.0 introduces new language clustering visualizations that help brands discover new topics and trends in their conversational data. 
 
-###What are clusters?
+### What are clusters?
 Clusters are groupings of messages that share similarities in language. Messages in each cluster share a noun (such as the word “order”), and each cluster contains sub-clusters that have noun-verb combinations such as “place order” or cancel order”. Both clusters and sub-clusters provide an intuitive way to identify common combinations of phrases that consumers are using to express their intent. When used in combination with various search and filter criteria, clusters can be used to identify opportunities to further develop your intent taxonomy and help define ways to optimize your intent model. 
 
 ![](img/IM2.0_1.png)
