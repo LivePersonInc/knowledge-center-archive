@@ -36,7 +36,7 @@ Enabled for all customers by default.
 
 ![](img/RN_Jan18_1.png)
 
-## PVA Platform Support for Microsoft DirectLine Connector (INT-1316)
+## PVA Platform Support for Microsoft DirectLine Connector 
 ### Type: Enhancement [Third-Party Bot Connectors 2.26]
 #### Available to all customers? Yes
 
