@@ -3,7 +3,15 @@
 <head>
     {% include head.html %}
 </head>
+{% assign post = page.item %}
+{% assign elements = post.elements %}
+{% assign system = post.system %}
+{% assign language = system.language %}
 
+{% assign published_date = elements.published.value | stringify_date: "%A, %B %d, %Y" %}
+{% assign other_posts = site.posts | where_exp: 'post', 'post.item.system.language == language' | where_exp: 'post',
+'post.item.system.codename != system.codename' %}
+{% assign author = elements.author %}
 <body>
     <div id="defaultwrapper">
         <div id="defaultheader">
@@ -30,7 +38,7 @@
             <div class="documenttitle">
                 {% include nav-breadcrumbs.html %}
                 <div class="titlecontainer">
-                    <div class='h1'>{{ page.pagename }}</div>
+                    <div class='h1'>{{ elements.title.value }}</div>
                     <div id="subtitle">{{ page.subtitle }}</div>
                     <div id="indicatorrow">
                         <div id="indicators">
