@@ -98,7 +98,7 @@ Agent name is now included in transcript (previously this was a timestamp, agent
 You can also see if it was a routing bot 
 The intent is numbered in order and displayed within the consumer text bubble so when you have multiple intents triggered in a message you can see order of them easily
 
-By conversation you can see all the new metrics including turns in conversation, numbers of transfers, duration, first intents, etc. previously you could only see CSAT and MCS score. 
+By conversations, you can see all the new metrics including turns in conversation, numbers of transfers, duration, first intents, etc. previously you could only see CSAT and MCS score. 
 
 ## The Ability to Create and Manage Rule-Based Power Filters
 Building on existing advanced filter functionality brands can now save and manage complex filters that enable them to surface and track specific insights on exact topics. Brands can use regular expressions to instantly mine and query up to 13 months of conversation data that matches specific criteria. This functionality is complementary to ML powered Intents and allows brands to cover analysis use cases that don’t work within the Intent taxonomy.
