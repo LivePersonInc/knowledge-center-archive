@@ -118,6 +118,7 @@ Intent Manager 2.0 includes updates to three of core starter packs to improve co
 * The Telco starter pack now includes 21 intents with typical coverage of 45%
 * The Airlines starter pack now includes 13 intents with typical coverage of 74%
 * The Insurance starter pack now includes 12 intents with typical coverage of  78% 
+
 If you want to create a new starter starter pack model - please contact your account team.
 For more info on starter pack intents click [here.](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-create-and-optimize-intents.html)
 
