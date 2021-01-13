@@ -64,3 +64,19 @@ Intent Trends now includes the following metrics.  New Metrics are highlighted i
 | Avg # of Agent/Bot responses | The average number responses sent by agents or bots to the consumer in a conversation | Efficiency |**
 | RCR (coming soon) | The number of repeat customer contacts pers intent | Effectiveness |
 
+## Enhanced Conversation Details Panel for Improved Transcript Analysis
+The ability to  analyze and explore conversations by intent is greatly improved in Intent Manager 2.0. Brands can use power filters to search for keywords and phrases in both the agent and consumer portions of the transcript. Brands can easily browse a list of conversations that match their filter criteria with associated metadata and KPIS. The transcript view now supports structured content inside a streamline UI.
+
+## Its easy to use:
+Simply click on a conversation to populate the transcript view. 
+Other updates include:
+Agent name is now included in transcript (previously this was a timestamp, agent, and an icon) 
+You can also see if it was a routing bot 
+The intent is numbered in order and displayed within the consumer text bubble so when you have multiple intents triggered in a message you can see order of them easily
+
+By conversation you can see all the new metrics including turns in conversation, numbers of transfers, duration, first intents, etc. previously you could only see CSAT and MCS score. 
+
+## The Ability to Create and Manage Rule-Based Power Filters
+Building on existing advanced filter functionality brands can now save and manage complex filters that enable them to surface and track specific insights on exact topics. Brands can use regular expressions to instantly mine and query up to 13 months of conversation data that matches specific criteria. This functionality is complementary to ML powered Intents and allows brands to cover analysis use cases that don’t work within the Intent taxonomy.
+
+
