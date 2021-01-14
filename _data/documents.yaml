@@ -396,8 +396,10 @@
       pages:
         - pagename: December
           level3:
+            - level3name: Week of December 28th 
+            - level3name: Week of December 14th   
             - level3name: Week of December 7th 
-            - level3name: Week of December 14th               
+            
         - pagename: November
           level3:
             - level3name: Week of November 2nd 
