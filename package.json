@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.7.1",
     "jquery": ">=3.4.0",
