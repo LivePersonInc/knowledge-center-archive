@@ -8,7 +8,7 @@ level3: ''
 permalink: release-notes-2021-january-week-of-january-18th.html
 isTutorial: false
 isNew: false
-date: '2021-01-18'
+date: '2021-01-13'
 
 ---
 
