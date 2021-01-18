@@ -290,9 +290,9 @@ This feature will send the PCS only if the conversation is ever assigned to a hu
 ## [Back-end messaging server]  Return 403 on connection attempt - when async-messaging features if OFF
 ### Type: Enhancement (UMS 4.0) 
 
-**Available to all customers:** yes (if feature flag is enabled)
-If Common.Async_Messaging flag is turned off in AC, the 403 will be returned to a user trying to connect. Instead of 503 returned in a previous UMS version. 
-How to configure: Available out of the box.
+**Available to all customers:** yes 
+
+This feature requires enablement, please contact your LivePerson representative. 
  
 ## [Back-end messaging server]  Fixing the decryption issue (removing old cached value on warmup)
 ### Type: Bug fix (UMS 4.0) 
