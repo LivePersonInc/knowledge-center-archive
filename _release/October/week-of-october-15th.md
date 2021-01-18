@@ -413,8 +413,6 @@ Prior to using encoded metadata, brands must first
 
 Sign the LP Legal Waiver
 
-Enable the encoded metadata AC feature (contact LP representative) - cannot be enabled before the legal waiver was signed and filed.
-
 Sending and receiving encoded metadata is similar to any metadata transfer, as described in the [Conversation Metadata Guide](https://developers.liveperson.com/messaging-agent-sdk-conversation-metadata-guide.html).
 
 **Sending encoded metadata**  
@@ -444,7 +442,7 @@ To receive encoded metadata, use the [Messaging Agent SDK](https://developers.li
 
 LiveEngage will validate the following points on every request containing the encoded metadata input field:
 
-1. AC feature is ON
+1. Feature is enabled on the backend
 2. Metadata size is limited to 5k
 3. Content is base64 encoded
 4. (In case metadata was sent with a message) a text message is passed along with the metadata
