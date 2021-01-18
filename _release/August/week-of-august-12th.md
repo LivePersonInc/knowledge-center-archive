@@ -685,7 +685,7 @@ In the current system, agents are allowed to subscribe to conversations that are
 
 </div>
 
-A new user privilege needs to be created to allow users to view masked data for both historical and real-time messaging conversations. When an agent or agent manager has this permission enabled, they will be able to see the masked data with the regular expression that matches the one in _messaging.transcript.agent.masking.regexp_ site setting. The default value for this permission is off, and is displayed in the LiveEngage user interface. The AC feature called _Messaging.AgentMasking_ has to be enabled to apply these permissions.
+This feature requires backend enablement. Please contact your LivePerson representative for more information. 
 
 ## Conversation Builder Privileges (back-end chat)
 
