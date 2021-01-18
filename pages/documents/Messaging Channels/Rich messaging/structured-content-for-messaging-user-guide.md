@@ -79,7 +79,7 @@ To build structured content for use on your messaging channels, we recommend wor
 
 ## Configuration
 
-In order to enable the structured content via AC features and site settings, please contact your LivePerson representative.
+In order to enable structured content, please contact your LivePerson representative.
 
 ### Prerequisites
 
