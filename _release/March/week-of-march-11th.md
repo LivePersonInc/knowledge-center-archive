@@ -224,7 +224,7 @@ When setting up a new subscription, the default “Do Not Deliver After” date 
 </table>
 </div>
 
-New privileges that will map to the roles that the LiveEngage user will have when logging in to Conversation Builder with SSO from LiveEngage. This feature is only available for those with the Automation.Conversation_Builder feature flag enabled (in AC features).
+New privileges that will map to the roles that the LiveEngage user will have when logging in to Conversation Builder with SSO from LiveEngage. This feature is enabled on the backend. Please contact your account team for more information. 
 
 **Administrator role(it has an extra privilege):**
 
