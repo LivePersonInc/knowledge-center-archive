@@ -85,7 +85,7 @@ To build structured content for use on web chat, we recommend working with your 
 
 ### Configuration
 
-In order to enable the feature via AC features and site settings, please contact your LivePerson representative.
+This feature requires backend enablement, please contact your LivePerson representative.
 
 {: .notice}
 **Please note:** For Live Chat you cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
