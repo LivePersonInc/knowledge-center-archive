@@ -284,9 +284,8 @@ async-messaging.encryption-account-lookup-for-rollover-enabled  -> ON
 ## [Back-end messaging server]  Send PCS only if conversation is ever assigned to a human agent
 ### Type: New feature (UMS 4.0) 
 
-**Available to all customers:** yes (if both feature flag and AC feature are enabled)
-This feature will send the PCS only if the conversation is ever assigned to a human agent. It is configurable for accounts using the AC feature.
-To configure, please contact your LivePerson account team.
+**Available to all customers:** yes 
+This feature will send the PCS only if the conversation is ever assigned to a human agent. To configure, please contact your LivePerson account team.
 
 ## [Back-end messaging server]  Return 403 on connection attempt - when async-messaging features if OFF
 ### Type: Enhancement (UMS 4.0) 
