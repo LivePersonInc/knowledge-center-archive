@@ -12,7 +12,7 @@ isNew: false
 
 ### Happy New Year!
 
-LivePerson is kicking off 2021 with a number of important updates and exciting new features. Watch this two minute video for the upcoming features for the weeks ahead. 
+LivePerson is kicking off 2021 with a number of important updates and exciting new features. Watch this 1 minute video for the upcoming features being released in January.
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/501828626?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
