@@ -135,20 +135,32 @@ Bot level - allowing to analyze and optimize every Bot
 
 LivePerson have some important updates to the Manager Workspace
 
-**Manager Workspace: Skills level view**
+## Updates to Manager Workspace
+
+#### Manager Workspace: Skills level view
 Currently, when tracking the performance of multiple skills, managers are required to manually filter the workspace skill by skill, in order to view the data they need. A new skill- level table will be added to the workspace, allowing managers track the performance of multiple skills easily. In addition, the new view will allow users to track additional new metrics as "Actionable" and  "Wait time for assignment (50%)".
 
-**Manager Workspace: Conversation Intent Filter** 
-The new conversation intent filter will allow Managers to filter the intent column in the conversation widget
+![](img/Manager-worskpace-whats-new-1.png)
 
-**Manager Workspace: Freeze Global Filters**
-The top pane of the manager workspace will now be "static" and will allow the user to see the global filter when scrolling down.
+#### Manager Workspace: Conversation Intent Filter (Manager Workspace)
+For accounts using the Intent Analyzer tool, the intents column in the Conversation Widget will now become filterable. The column which holds the list of all unique intents detected in the conversations will now also enable filtering of specific intents, allowing for easy and quick discovery of conversations on specific topics as well as issue detection.
 
-**"Online" and "Away" load in load panel of activity summary**
-The load panel will show "online" and "Away" status in the activity summary which will allow managers to more accurately track their agent's workload load.
+Please note: In order to see the intent column filter, Intent Analyzer tool must be enabled and configured in the account.
 
-{: .notice}
-These updates will be automatically enabled for any user that is using the new manager workspace.
+![](img/Manager-worskpace-whats-new-2.png)
+
+#### Manager Workspace: Freeze Global Filters
+The top pane of the manager workspace will now be "static" and will allow the user to see the global filter when scrolling down. Freezing the headers (making them “sticky”) enables users to constantly see what is impacting their workspace and be able to make changes more easily. 
+
+![](img/Manager-worskpace-whats-new-3.png)
+
+#### "Online" and "Away" load in load panel of activity summary
+
+Users of the Manager Workspace need to be able to to understand the actual current load on online agents and away agents (human agents only) as a derivative of the total load. These metrics allow managers to heave better visibility into their actual availability and agent’s load. 
+Online Load - The number of active conversations as a percentage of max concurrent conversations of agents in the online state.
+Away Load - The number of active conversations as a percentage of max concurrent conversations of agents in the Away state.
+
+![](img/Manager-worskpace-whats-new-4.png)
 
 ## Updates to Mobile SDK - Hyperlinks
 The iOS Mobile SDK will now support rendering links as hyperlinks automatically when adding them in 'hiMessage' and 'Welcome Message'.
