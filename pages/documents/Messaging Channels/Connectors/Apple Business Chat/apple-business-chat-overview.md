@@ -6,6 +6,8 @@ indicator: messaging
 subtitle: Overview of Apple Business Chat features and capabilities
 level3: ''
 permalink: messaging-channels-apple-business-chat-apple-business-chat-overview.html
+redirect_from:
+ - messaging-channels-apple-business-chat-overview.html
 isTutorial: false
 isNew: false
 date: 2020-08-18 14:38:05 +0000
