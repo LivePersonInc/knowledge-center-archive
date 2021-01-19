@@ -63,7 +63,10 @@ Updated styles, menu structure and usability & accessibility improvements.
 Check out the [Knowledge Center](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-intent-manager-updates.html) for more information on Intent Manager 2.0.
 
 ## Instagram
+
 LivePerson is excited to launch the Instagram Connector in General Availability.
+
+![](img/Instagram_connector.gif)
 
 The integration with the Instagram API allows brands to respond to consumers at scale through the LivePerson Conversational Cloud platform.
 It enables brands to use automation and rich content in the conversation, and passes context about the consumer’s intent (when available), which can be used for routing, useful info for the human agent, and reporting purposes
@@ -95,6 +98,17 @@ Updates include:
 * **Opportunities panel redesign:** This provides the user the ability to filter by 4E within the Opportunity panel so they can easily focus on specific category metrics. Enhancement also includes color coding 4E metric based on their respective 4E category. 
 * **Addition of In App and Web channels to the Channel Panel:** This enhancements provides users the ability to see App and Web entry points in the Channel Panel by Source, so that these two entry points are no longer categorized into “other”.  
 * **Complete in-depth analysis with data to text diagnostics**: The Diagnostic portion of the Performance Optimizer will provide users tactical diagnostics by metric, previously by 4E category, trending data and target deviations are displayed within headers, and the user is guided to additional Conversational Cloud locations to further complete a root cause analysis.
+
+## Messaging window enhancements
+
+LivePerson are introducing a number of Messaging window enhancements:
+
+![](img/Messaging_window_enhancements.gif)
+
+**Orient Welcome Message Quick Replies:**  It will be possible to orient the Welcome Message quick replies into a vertical list, not only a horizontal scroll. 
+This can be configured in the Welcome Message screen within the Engagement Window Studio.  
+
+**Configure message history in Engagement Window Studio**Brands can now configure collapsing message history in the consumer window. Utilizing this option reduces initial window load time and improves consumer experience for consumers with long message histories. We will be slowly changing the default for all brands to YES in the coming months. This setting can be changed at any time in the Engagement Window Studio.
 
 ## Reporting
 
