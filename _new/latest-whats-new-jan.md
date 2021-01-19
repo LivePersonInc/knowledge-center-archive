@@ -90,7 +90,12 @@ It enables brands to use automation and rich content in the conversation, and pa
 There will be a number of updates to the Performance Optimizer at the end of the month which will increase user experience and reporting capabilities.
 
 Updates include: 
-* **Additional 4E metrics included within 4E framework:** These new metrics have been incorporated into the Performance Optimizer that allow users to further contextualize and optimize their business operation.
+* **Additional 4E metrics included within 4E framework:** These new metrics have been incorporated into the Performance Optimizer that allow users to further contextualize and optimize their business operation. These metrics include:  
+- Human First Response Time After Bot (Minutes)
+- Human First Responses After Bot Count
+- Agent First Response Time Overall (Minutes)
+- Agent First Responses Count
+- Agent Response Time Overall (Minutes)  
 * **Diagnostic Playbooks** added to provide tactical optimization plans for each 4E metric. 
 * **Resource vs Demand Panel:** The Login Hours and Conversation Volume has been replaced by a new panel, "Resource vs. Demand" that displays agent labor hours compared to conversation volume trends to assess whether labor is aligned with conversational volume.  The cumulative volume over time has been removed as this did not provide intended value for the user.
 * **Ability to exclude certain 4E metrics within Configuration tab:** As some brands are unique and may not leverage specific 4E metrics to analyze their operational performance, the Performance Optimizer will provide the ability to disable these metrics so that they are not displayed within the dashboard or calculated into the 4E composite scores. This provides relevant and accurate 4E performance results based on a brand's operation model.
