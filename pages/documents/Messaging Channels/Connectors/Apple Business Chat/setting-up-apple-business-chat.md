@@ -12,7 +12,7 @@ date: 2020-08-18 14:38:05 +0000
 ---
 ## Business Chat readiness
 
-To get started with Apple Business Chat, we encourage you to assess if this is the correct solution for your business. The following [Business Chat Readiness Review](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/BusinessChatReadiness2019.2.pdf) is a quick questionnaire that you can submit to LivePerson and Apple teams to help you determine if Business Chat is the right solution for your digital transformation and operational goals. 
+To get started with Apple Business Chat, we encourage you to assess if this is the correct solution for your business. The following [Business Chat Readiness Review](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/Business+Chat+Readiness+PDF-October+2020.NEW.pdf) is a quick questionnaire that you can submit to LivePerson and Apple teams to help you determine if Business Chat is the right solution for your digital transformation and operational goals. 
 
 ## Business Chat account registration
 
