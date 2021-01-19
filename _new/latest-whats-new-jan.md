@@ -18,19 +18,19 @@ LivePerson is kicking off 2021 with a number of important updates and exciting n
 
 ## Intent Manager 2.0 
 
-![](img/Intent-man-gif.gif)
-
 The vision of the Intent-Driven Business is to fundamentally change how brands understand and act on what their consumers want and need - not through proxies like website click patterns - but in consumers’ own intents. Intent Manager is foundational to this vision enabling brands to Discover, Build, Analyze, and Optimize state of the art ML models for intent classification with intuitive self-service tooling.
 
 Intent Manager 2.0 introduces a wide set of new self-service features and functionality that greatly improve the value and utility of the application making it easier than ever for brands to fully manage their Intents on the LivePerson Platform. 
 
+![](img/Intent-man-gif.gif)
+
 Here are all the new features and exciting enhancements coming to **Intent Manager**.
 
-## 1. Topic Clustering for Intent Discovery and Optimization 
+## Topic Clustering for Intent Discovery and Optimization 
 
 Optimizing the coverage and quality of intents is a critical component of Intent Management. Intent Manager 2.0 introduces new language clustering visualizations that help brands discover new topics and trends in their conversational data. Brands can combine the power of clustering with Semantic Search and power filters to quickly build new, high-quality intents, which are based on a diverse set of training data that has been extracted from real customer conversations. For more information, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-intent-manager-updates.html#topic-clustering-for-intent-discovery-and-optimization)
 
-## 2. A new Model Tester for Intent Builder
+## A new Model Tester for Intent Builder
 It’s important to train and test updated domain models before they are activated. Our new model tester enables brands to more easily see how model changes impact the quality of their intent recognition, as they work to optimize their taxonomy. Brands can use an intuitive interface to create a gold test of phrases, and then map them to their expected intents, just like how a quiz has an answer key. 
 
 It’s simple to use:
@@ -40,16 +40,16 @@ It’s simple to use:
 
 Whenever changes are made to the model, you can re-run the test set and review a quality report prior to activating the new model in production.
 
-## 3. An Enhanced Intent Trends dashboard with new Customizable Metrics & KPIs
+## An Enhanced Intent Trends dashboard with new Customizable Metrics & KPIs
 The ability to analyze and track key performance indicators by intent is a key value proposition of the Intent Powered business. Intent Manager 2.0 adds 7 new intent correlated metrics to the Intent Trends dashboard that are aligned to the LivePerson 4E Framework. The release also adds a new configuration panel that enables brands to select which metrics to include in summary cards, charts and graphs, and data tables in the Intent Trends dashboard. For more information, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-intent-manager-updates.html#an-enhanced-intent-trends-dashboard-with-new-customizable-metrics--kpis)
 
-## 4. Enhanced Conversation Details Panel for Improved Transcript Analysis
+## Enhanced Conversation Details Panel for Improved Transcript Analysis
 The ability to  analyze and explore conversations by intent is greatly improved in Intent Manager 2.0. Brands can use power filters to search for keywords and phrases in both the agent and consumer portions of the transcript. Brands can easily browse a list of conversations that match their filter criteria with associated metadata and KPIS. The transcript view now supports structured content inside a streamline UI.
 
-## 5. The Ability to Create and Manage Rule-Based Power Filters
+## The Ability to Create and Manage Rule-Based Power Filters
 Building on existing advanced filter functionality brands can now save and manage complex filters that enable them to surface and track specific insights on exact topics. Brands can use regular expressions to instantly mine and query up to 13 months of conversation data that matches specific criteria. This functionality is complementary to Machine Learning powered Intents and allows brands to cover analysis use cases that don’t work within the Intent taxonomy.
 
-## 6. Added Coverage For Existing Starter Packs
+## Added Coverage For Existing Starter Packs
 IM 2.0 includes updates to three of core starter packs to improve coverage and accuracy. 
 * The Telco starter pack now includes 21 intents with typical coverage of 45%
 * The Airlines starter pack now includes 13 intents with typical coverage of 74%
@@ -57,7 +57,7 @@ IM 2.0 includes updates to three of core starter packs to improve coverage and a
 
 If you want to create a new starter starter pack model - please contact your account team.
 
-## 7.Visual Overhaul and UX improvements
+## Visual Overhaul and UX improvements
 Updated styles, menu structure and usability & accessibility improvements.
 
 Check out the [Knowledge Center](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-intent-manager-updates.html) for more information on Intent Manager 2.0.
@@ -96,13 +96,20 @@ Updates include:
 - Agent First Response Time Overall (Minutes)
 - Agent First Responses Count
 - Agent Response Time Overall (Minutes)  
-* **Diagnostic Playbooks** added to provide tactical optimization plans for each 4E metric. 
-* **Resource vs Demand Panel:** The Login Hours and Conversation Volume has been replaced by a new panel, "Resource vs. Demand" that displays agent labor hours compared to conversation volume trends to assess whether labor is aligned with conversational volume.  The cumulative volume over time has been removed as this did not provide intended value for the user.
-* **Ability to exclude certain 4E metrics within Configuration tab:** As some brands are unique and may not leverage specific 4E metrics to analyze their operational performance, the Performance Optimizer will provide the ability to disable these metrics so that they are not displayed within the dashboard or calculated into the 4E composite scores. This provides relevant and accurate 4E performance results based on a brand's operation model.
-* **Ability to start tagging Line Of Business (LOBs) by purpose:**  Users will be able to to capture the primary and secondary “Line Of Business Purpose(s)”, so that in the future they can associate the purpose of an LOB(s), assess performance and benchmark my LOBs against LOBs with similar purpose within the same vertical. 
-* **Opportunities panel redesign:** This provides the user the ability to filter by 4E within the Opportunity panel so they can easily focus on specific category metrics. Enhancement also includes color coding 4E metric based on their respective 4E category. 
-* **Addition of In App and Web channels to the Channel Panel:** This enhancements provides users the ability to see App and Web entry points in the Channel Panel by Source, so that these two entry points are no longer categorized into “other”.  
-* **Complete in-depth analysis with data to text diagnostics**: The Diagnostic portion of the Performance Optimizer will provide users tactical diagnostics by metric, previously by 4E category, trending data and target deviations are displayed within headers, and the user is guided to additional Conversational Cloud locations to further complete a root cause analysis.
+
+**Diagnostic Playbooks** added to provide tactical optimization plans for each 4E metric. 
+
+**Resource vs Demand Panel:** The Login Hours and Conversation Volume has been replaced by a new panel, "Resource vs. Demand" that displays agent labor hours compared to conversation volume trends to assess whether labor is aligned with conversational volume.  The cumulative volume over time has been removed as this did not provide intended value for the user.
+
+**Ability to exclude certain 4E metrics within Configuration tab:** As some brands are unique and may not leverage specific 4E metrics to analyze their operational performance, the Performance Optimizer will provide the ability to disable these metrics so that they are not displayed within the dashboard or calculated into the 4E composite scores. This provides relevant and accurate 4E performance results based on a brand's operation model.
+
+**Ability to start tagging Line Of Business (LOBs) by purpose:**  Users will be able to to capture the primary and secondary “Line Of Business Purpose(s)”, so that in the future they can associate the purpose of an LOB(s), assess performance and benchmark my LOBs against LOBs with similar purpose within the same vertical. 
+
+**Opportunities panel redesign:** This provides the user the ability to filter by 4E within the Opportunity panel so they can easily focus on specific category metrics. Enhancement also includes color coding 4E metric based on their respective 4E category. 
+
+**Addition of In App and Web channels to the Channel Panel:** This enhancements provides users the ability to see App and Web entry points in the Channel Panel by Source, so that these two entry points are no longer categorized into “other”.  
+
+**Complete in-depth analysis with data to text diagnostics**: The Diagnostic portion of the Performance Optimizer will provide users tactical diagnostics by metric, previously by 4E category, trending data and target deviations are displayed within headers, and the user is guided to additional Conversational Cloud locations to further complete a root cause analysis.
 
 ## Messaging window enhancements
 
@@ -119,7 +126,7 @@ This can be configured in the Welcome Message screen within the Engagement Windo
 
 LivePerson are excited to introduce the Bot Performance Dashboard
 
-![](img/Analytics_Builder.gif)
+![](img/AB.gif)
 
 The new ’Bot Performance Dashboard’ will allow brands to review and analyze the Bot Performance in messaging over time, and measure the impact of agents' annotations on the Bot Performance for Bots designed by Conversation Builder.
 
@@ -173,7 +180,7 @@ As part of this feature we will create automatic hyperlinks for URL links, SMS, 
 * The URL link will open the link in the separate browser 
 * SMS link will open the Messaging App with the phone number pre-filed in the the "To:"
 * Phone number link will open the native iOS action sheet with option to call the number
-* Facetime/Facetime audio link﻿s opens action sheet with facetime audio, send message and call options.
+* Facetime/Facetime audio links opens action sheet with facetime audio, send message and call options.
 
 ## Developer updates - Functions
 
