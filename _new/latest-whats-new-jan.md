@@ -112,10 +112,24 @@ This can be configured in the Welcome Message screen within the Engagement Windo
 
 ## Reporting
 
-LivePerson are excited to introduce the Automation Predefined Dashboard
-The Automation Predefined Dashboard will allow brands to analyze the performance and success of bots as agents in LivePerson.
+LivePerson are excited to introduce the Bot Performance Dashboard
 
 ![](img/Analytics_Builder.gif)
+
+The new ’Bot Performance Dashboard’ will allow brands to review and analyze the Bot Performance in messaging over time, and measure the impact of agents' annotations on the Bot Performance for Bots designed by Conversation Builder.
+
+The new dashboards will enable brands to track the Bot funnel: Conversations Assigned, Conversations Handled, Intent matched rate and Conversation closed by the Bot. The data will be available by date and hour.
+
+The report will show data at 2 levels:
+* Brand level - allowing to view the Bots quality trend over time and and the annotations impact over time
+* How many conversations are assigned to Bots? How many are transferred? How many are escalated to other skills?
+* What’s the intent match rate? Is it getting better over time?
+* What is the annotation rate over time? What is the ROI of the annotations? 
+
+Bot level - allowing to analyze and optimize every Bot 
+* Does the Intent match rate improve when we are investing the time to annotate ?
+* What is the trend of unmatched dintents ? Has it decreased over time ? 
+* Which Bots annotations are submitted ? Does all Bots improve over time when annotations are done by agents?
 
 ## Updates to Manager Workspace
 
