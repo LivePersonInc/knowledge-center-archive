@@ -39,7 +39,7 @@
         - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Apple Business Chat
       pages:
-        - pagename: Overview
+        - pagename: Apple Business Chat overview
         - pagename: Setup guide
         - pagename: Entry Points
         - pagename: Features
