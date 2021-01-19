@@ -373,6 +373,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: Latest what's new
     - subcategoryname: December what's new
     - subcategoryname: November what's new
     - subcategoryname: September what's new    
