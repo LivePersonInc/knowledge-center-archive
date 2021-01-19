@@ -6,6 +6,8 @@ indicator: messaging
 subtitle: 
 level3: ''
 permalink: messaging-channels-apple-business-chat-setup-guide.html
+redirect_from:
+ - messaging-channels-apple-business-chat-setting-up-apple-business-chat.html
 isTutorial: false
 isNew: false
 date: 2020-08-18 14:38:05 +0000
