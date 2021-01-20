@@ -380,7 +380,6 @@
     - subcategoryname: August what's new    
     - subcategoryname: July what's new
     - subcategoryname: June what's new
-    - subcategoryname: April what's new
 
 - categoryname: Release notes
   image: release-notes
@@ -390,6 +389,7 @@
       pages:
         - pagename: January
           level3:
+            - level3name: Week of January 25th 
             - level3name: Week of January 18th 
     - subcategoryname: 2020
       pages:
