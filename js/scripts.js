@@ -90,16 +90,16 @@ function navigateContent(url) {
 
 function loadData() {
 	console.log('loading data')
-	var staticUrl = "/data/reportbuild.json"
+	var staticUrl = "/data/reportbuilder.json"
 	fetch(staticUrl)
 		.then(response => response.json())
 		.then(metricData => {
 			metricData.map((metricitem) => {
-				let { METRIC, ANALYSIS_TYPER, CHANNEL, DESCRIPTION, DASHBOARD, FILTERED_BY, FORMULA } = metricitem;
+				let { ELEMENT_NAME, ANALYSIS_TYPE, CHANNEL, DESCRIPTION, DASHBOARD, FILTERED_BY, FORMULA } = metricitem;
 				jQuery(".metric-table").append(`
           <tr>
-            <td class="metric">${METRIC}</td>
-            <td class="analysis">${ANALYSIS_TYPER}</td>
+            <td class="metric">${ELEMENT_NAME}</td>
+            <td class="analysis">${ANALYSIS_TYPE}</td>
             <td class="channel">${CHANNEL}</td>
             <td class="description">${DESCRIPTION}</td>
             <td class="dashboard">${DASHBOARD}</td>
