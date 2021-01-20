@@ -23,6 +23,28 @@ To enable the Manager Workspace on your LivePerson Conversational Cloud account,
 
 ![](img/new-manager-workspace-permissions.png)
 
+### Configuration of metrics to display
+
+This new capability allows brands to configure, per widget, which metrics will be displayed in the workspace.
+For example, brands that are not tracking the CSAT metric will now be able to remove it from their view.
+The configuration definition will be done for the entire account (impacts the view of all users of the manager workspace).
+
+Since the configuration operation is done only once or a few times, it is a best practice to turn the permission off to all users once you are done to avoid any future confusion, or to allow it for a really small group of people.
+The configurable widgets are the “Activity Summary”, “Agents” and “Conversations” widgets. 
+
+{: .notice}  
+**Please note:** This feature has a backend dependency. Please contact your LivePerson representative for more information. 
+
+Who can change the configuration?
+A new permission “Configure agent manager workspace” has been added to the agent manager profile. **It is Off by default**. 
+![](img/week-of-may-4th-5.png)
+
+Once it is turned on for the desigered profile, a new configuration icon will become available in the top right corner of the workspace:
+![](img/week-of-may-4th-6.png)
+
+Clicking on it will reveal the configuration window, allowing the user to easily toggle on or off the relevant metric per each configurable widget.
+![](img/week-of-may-4th-7.png)
+
 ### New Agent Workspace
 
 Here you can also control the permissions for the enhanced Agent Workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced Agent Workspace for all managers using the new Manager Workspace. Please note that if the new Manager Workspace is enabled but the enhanced Agent Workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
