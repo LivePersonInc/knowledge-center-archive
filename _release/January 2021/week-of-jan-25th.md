@@ -63,8 +63,6 @@ The enhanced Agent Workspace now displays an indication for expired images (like
 
 ![](img/week-of-january-25th-2.png)
 
-![](img/week-of-january-25th-3.png)
-
 ## [Enhanced Agent Workspace] Agent Widget SDK 'SendFile' command not honoring 'Send files to consumers from custom widgets' permission 
 ### Type: Bug fix (NAW 1.21)
 
