@@ -95,16 +95,16 @@ function loadData() {
 		.then(response => response.json())
 		.then(metricData => {
 			metricData.map((metricitem) => {
-				let { Metric, analysisType, Channel, Description, Dashboard, filteredBy, formulaOptional } = metricitem;
+				let { METRIC, ANALYSIS_TYPER, CHANNEL, DESCRIPTION, DASHBOARD, FILTERED_BY, FORMULA } = metricitem;
 				jQuery(".metric-table").append(`
           <tr>
-            <td class="metric">${Metric}</td>
-            <td class="analysis">${analysisType}</td>
-            <td class="channel">${Channel}</td>
-            <td class="description">${Description}</td>
-            <td class="dashboard">${Dashboard}</td>
-            <td class="filtered">${filteredBy}</td>
-            <td class="formula">${formulaOptional}</td>
+            <td class="metric">${METRIC}</td>
+            <td class="analysis">${ANALYSIS_TYPER}</td>
+            <td class="channel">${CHANNEL}</td>
+            <td class="description">${DESCRIPTION}</td>
+            <td class="dashboard">${DASHBOARD}</td>
+            <td class="filtered">${FILTERED_BY}</td>
+            <td class="formula">${FORMULA}</td>
           </tr>
         `);
 			});
