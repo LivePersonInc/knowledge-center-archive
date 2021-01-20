@@ -111,7 +111,7 @@ Under [routing](contact-center-management-messaging-operations-routing-logic-ove
 
 #### Conversation window opens as
 
-Select how the messaging window will be presented to the consumer, either embedded in the page or in a separate browser window.
+Select how the messaging window will be presented to the consumer, either embedded in the page or in a separate browser window. Note that if the consumer is using third party cookie blockers that the messaging window will open as a separate browser window regardless of this setting.
 
 #### Language
 
