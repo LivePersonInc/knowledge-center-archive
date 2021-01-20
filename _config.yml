@@ -73,6 +73,7 @@ plugins:
 kentico:
   project_id: be8baa38-7b19-0054-b22b-084718bea24d
   filename_resolver: FilenameResolver
+  custom_site_processor: CustomSiteProcessor
   pages:
     page:
       layout: default
