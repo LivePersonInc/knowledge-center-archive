@@ -42,6 +42,7 @@ Once the consumer finishes answering the questions or upon survey timeout, the s
 * The bot will send the questions one by one as configured by the brand
 * Upon each consumer response, the bot will send the next question based on the logic defined
 * The survey questions and answers are based on structured content, quick replies and regular text messages - all fully customizable by the brand
+* The Post-Conversation Survey bot does not affect the conversation’s duration.
 
 ### Skipping the survey
 
