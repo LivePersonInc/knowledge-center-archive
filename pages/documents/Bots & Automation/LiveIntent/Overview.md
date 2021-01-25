@@ -18,6 +18,8 @@ redirect_from:
 
 ### Discover & understand what consumers want with Intent Manager
 
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/497245668?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 The Intent Manager is the suite of tools that allows you to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated. The Intent Manager is made up of the Intent Builder and the LivePerson Intent Analyzer. 
 
 The LivePerson Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. It integrates seamlessly with the Intent Builder to provide a powerful unified system for intent modeling and management.
