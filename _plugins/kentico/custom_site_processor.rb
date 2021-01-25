@@ -44,23 +44,8 @@ class CustomSiteProcessor
   def languages
     @languages ||= @site.config['kentico']['languages']
   end
+  
 
-  def itemsToList(itemCodeNames, linkedContent, currentDepth)
-    if(currentDepth >= 5) 
-      return "";
-    end if
-    result = "<ul>";
-    for itemCodename in itemCodenames
-      title = linkedContent[itemCodename].elements.title.value
-      url = linkedContent[itemCodename].elements.url.value
-      subitems = linkedContent[itemCodename].elements.subitems.value
-      puts(title, url)
-      result += "<li><a href='#/"+ url +"' title='/"+ url +"'>" + title + "</a>"
-        + itemsToList(subitems, linkedContent, currentDepth+1) +"</li>"
-    end
-    result += "</ul>"
-    return result
-  end
 
   def generate_nav_page
     # languages.each do |language|
