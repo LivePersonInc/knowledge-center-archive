@@ -11,9 +11,9 @@ isTutorial: false
 date: '2019-01-15T13:14:02.000+00:00'
 
 ---
-This dashboard provides results of all Post Conversation Surveys that were sent for messaging. The [post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) enables brands to collect feedback from consumers and measure their success after a conversation ended. The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible.
+This dashboard provides results of all Post Conversation Surveys that were sent for messaging. The [post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) enables brands to collect feedback from consumers and measure their success after a conversation ended. The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible, without any impact on the conversation’s duration.
 
-Brands can customize the survey according to their needs, using predefined questions (CSAT, NPS and FCR), customized questions in free text, and can define the logic among the questions. The Post-Conversation Survey bot does not affect the conversation’s duration.
+Brands can customize the survey according to their needs, using predefined questions (CSAT, NPS and FCR), customized questions in free text, and can define the logic among the questions.
 
 Survey results can be analyzed in real time using the [messaging interactions API ](https://developers.liveperson.com/messaging-interactions-api-overview.html)or by historical data in [Analytics Builder.](data-reporting-report-builder-report-builder-overview.html)
 
