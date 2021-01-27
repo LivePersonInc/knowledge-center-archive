@@ -162,5 +162,101 @@ Search for LivePerson Agent App on the Google Play Store or Apple App Store and 
 [Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
 [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
 
+## [Analytics Builder] New Bot Performance Dashboard including Agent Annotation reporting
+### Type: New functionality (Analytics Builder 4.9)
 
+The new Bot Performance Dashboard will allow brands to review and analyze their Bot Performance in messaging over time, and measure the impact of agent annotations on the Bot Performance for bots designed by Conversation Builder.
 
+The new dashboard will enable brands to track the bot funnel, including: Assigned conversations, Handled conversations, Intent matched rate and Conversations closed by the bot. This data will be available by date and hour.
+
+The report will show data at 2 levels:
+* Brand level - enables users to view bot quality trends over time and the impact of annotations over time, including:
+  * How many conversations are assigned to bots? How many are transferred to agents? How many are escalated to other skills?
+  * What’s the intent match rate? Is it improving over time?
+  * What is the annotation rate over time? What is the ROI of the annotations? 
+* Bot level - enables users to analyze and optimize each bot, including: 
+  * Does the Intent match rate improve when we are investing the time to annotate?
+  * What is the trend of unmatched intents? Has it decreased over time? 
+  * Which bot annotations are submitted? Do all bots improve over time when annotations are added by agents?
+
+![](img/week-of-february-1st-12.png)
+
+![](img/week-of-february-1st-13.png)
+
+## [Analytics Builder] Post Conversation Survey scores attributed to bots as well
+### Type: Enhancement (Analytics Builder 4.9)
+
+Before this release, we had the following behavior of the metrics in Survey for Messaging and Performance Dashboard for Messaging:
+
+1. **CSAT SCORE (UNIFIED) metric:** shows data from the old and new post- conversation solutions - apply for bots and humans.
+2. **CSAT(Brand) and CSAT (agent and skill) metrics:** include answers from the new solution only:
+    * CSAT(Agent and Skill) is calculated only for the last human agents - only human
+    * CSAT(Brand) includes BOT and HUMAN 
+
+  Note: FCR, NPS behaves the same.
+  
+With this new release, the attribution will be to the last  human agent assigned (if exists), and to all bots assigned to a conversation. This change will allow measuring satisfaction scores for bots that participated in the conversation. For human agents, sales teams usually want to attribute the sale only to the last human agent and this is going to behave the same as before.
+
+Below is a table with several scenarios that demonstrate the changes:
+
+![](img/week-of-february-1st-14.png)
+
+## [Analytics Builder] Expose the Assignment metrics in the Business Dashboard for Messaging 
+### Type: Enhancement (Analytics Builder 4.9)
+
+The Business Dashboard for Messaging was enhanced to include 2 additional metrics to provide the ability to analyze a campaign funnel with the Assignments metric.
+
+| Metric Name | Description |
+| --- | --- | 
+| ASSIGNMENTS| The number of times a conversation was assigned to an agent. This metric does not count instances when an agent manager or bot joined a conversation. |
+| ASSIGNED CONVERSATIONS | The number of conversations that were assigned to at least one agent during the selected time frame. |
+
+## [Analytics Builder] Conversation ID is available in the Performance Dashboard for Messaging  
+### Type: Enhancement (Analytics Builder 4.9)
+
+The Performance Dashboard for Messaging was enhanced to include the actual conversation ID as displayed in all connections.
+Conversion ID value was added to the datasets: **Agent Messaging Activity, Consumer Messaging Activity and RCR.**
+
+The example below shows the Conversation ID as well as its respective string ID, along with metrics from agent Messaging Activity dataset.
+
+![](img/week-of-february-1st-15.png)
+
+New ‘List of All Conversations’ dataset was added to the dashboard which enables users to add CONVERSATION to the filter or visualization.
+
+![](img/week-of-february-1st-16.png)
+
+Users can also enable **Display Attribute Forms** and choose **DESC**  to see the actual Conversation ID:
+
+![](img/week-of-february-1st-17.png)
+
+![](img/week-of-february-1st-18.png)
+
+These conversations are populated from **Agent Messaging Activity, Consumer Messaging Activity and RCR**, which enables users to see metrics coming from these datasets - pertaining to each CONVERSATION.
+
+## [Analytics Builder] Expose key metrics Numerator and Nominator to the hidden field 
+### Type: Enhancement (Analytics Builder 4.9)
+
+The Performance Dashboard for Messaging was enhanced to expose the numerator and nominator of agent loads, so brands can calculate the agent load in a more accurate way,  knowing the numerator and denominators and not only the final average results.
+
+The metrics will be exposed as hidden fields, which LivePerson CSMs or brands with customization features can unhide and use  in the dashboard.
+
+Exposed metrics:
+* SUM_Of_Agent_Load  - Total sum of all agent load events (sent when agent is logged in, every 60 seconds)
+* NO of Events - No. of reported agent load events (sent when agent is logged in)
+* AGENT FIRST RESPONSE TIME - required for the calculations of AVG. WAIT TIME FOR FIRST AGENT RESPONSE = ([AGENT FIRST RESPONSE TIME] / [TOTAL NO. OF FIRST RESPONSES])
+* RESOLVE DURATION - required for the calculator of  AVG. CONVERSATION DURATION =  ([RESOLVE DURATION] / [CLOSED CONVERSATIONS])
+
+## [Analytics Builder] Skill Active Indicator 
+### Type: Enhancement (Analytics Builder 4.9)
+
+Skill Active Indicator attribute was added to the predefined dashboards to allow brands to select skills in an efficient way by viewing only the skills which are used and not deleted from the system. The Skill Active Indicator attribute was added to the dashboards Messaging Performance Dashboard, Agent Activity, Bot performance, Goal tracker for messaging and for chat, and Network manager.
+
+## [Analytics Builder] Missing columns Question Type and Question Position in Survey Dashboard for Live Chat 
+### Type: Bug fix (Analytics Builder 4.9)
+
+Security filter prevented users with agent manager permission only to see data in  the following two columns: Question Type and Question Position in Survey Dashboard for Live Chat.
+
+## [Analytics Builder] Users with View permission cannot replace the grid granularity to Hour in the Agent Activity Dashboard  
+### Type: Bug fix (Analytics Builder 4.9)
+
+Users with view-only permissions cannot replace the grid granularity with Hourly in the Agent Activity Dashboard (The option of right-clicking on a date in the Agent Activity dashboard, in the grid and selecting ‘Replace with’ hour  was removed). This bug has been resolved.
