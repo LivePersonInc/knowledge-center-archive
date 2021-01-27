@@ -277,6 +277,11 @@ Users now have the ability to disable a 4E metric for LOB(s) from the configurat
 
 ![](img/week-of-february-1st-20.png)
 
+## [Performance Optimizer] Dynamic Capacity and Meaningful Connection Score text change 
+### Type: Enhancements (PO v1.1)
+
+Renaming of Smart Capacity in the AC Panel in the Configuration tab to reflect the rebranding change to “Dynamic Capacity”.
+
 ## [Performance Optimizer] Resource vs. Demand panel 
 ### Type: Enhancements (PO v1.1)
 
@@ -288,7 +293,6 @@ The Volume panel in the Performance Optimizer has been renamed “Resources vs. 
 ### Type: Enhancements (PO v1.1)
 
 In the Opportunities Panel, metrics are now color-coded per their respective 4E category. Users also have the ability to filter the chart by 4E category so that the graph displays one or more of the 4E categories.  
-
 
 ![](img/week-of-february-1st-22.png)
 
