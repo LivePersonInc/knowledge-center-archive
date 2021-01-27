@@ -139,4 +139,28 @@ The current Agent widget configuration hides the status and agent name fields on
 
 When using the All Conversations tab in the enhanced Agent Workspace, users were unable to search skills that have spaces in the name. The input field does not allow spaces to be used at all. For brands with many skills, this makes it very difficult to track data per some of their skills. Now users can type and add a space for filtering of skills. 
 
+## [Agent App] Conversation Rollover support
+### Type (v2.6.2)
+
+The Agent App now supports Conversation Rollover.
+
+In the conversation list the brand name will be visible below the visitor name:
+
+![](img/week-of-february-1st-9.png)
+
+In the conversation view, the brand name will also be visible below the visitor name:
+
+![](img/week-of-february-1st-10.png)
+
+During a conversation transfer, a rollback is possible.
+
+![](img/week-of-february-1st-11.png)
+
+**How to enable:** 
+
+Search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app 
+[Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
+[Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
+
+
 
