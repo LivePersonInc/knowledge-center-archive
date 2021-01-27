@@ -158,9 +158,9 @@ During a conversation transfer, a rollback is possible.
 
 **How to enable:** 
 
-Search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app 
-[Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
-[Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
+Search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app:
+* [Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
+* [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
 
 ## [Analytics Builder] New Bot Performance Dashboard including Agent Annotation reporting
 ### Type: New functionality (Analytics Builder 4.9)
@@ -325,7 +325,7 @@ The following metrics have been incorporated into the 4E framework:
 
 These new metrics are displayed within the Performance Optimizer panels: 
 * Opportunities Panel 
-vLine of Business List 
+* Line of Business List 
 * 4E Summary
 * 4E Detail
 
