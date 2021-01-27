@@ -260,3 +260,72 @@ Security filter prevented users with agent manager permission only to see data i
 ### Type: Bug fix (Analytics Builder 4.9)
 
 Users with view-only permissions cannot replace the grid granularity with Hourly in the Agent Activity Dashboard (The option of right-clicking on a date in the Agent Activity dashboard, in the grid and selecting ‘Replace with’ hour  was removed). This bug has been resolved.
+
+## [Performance Optimizer] LOB Purpose Tagging 
+### Type: New functionality (PO v1.1)
+
+Line of Business Purpose tagging gives brands the ability to capture the primary and secondary “LOB Purpose(s)”.  Future iterations will allow the user to view the LOB purpose against the 4E framework and benchmarking functionality available within the Performance Optimizer. 
+
+**Enablement:** This optional feature is automatically available to all users who configure LOBs. To add an LOB Purpose, the user must select from a drop down list of primary and secondary (if applicable) purposes.  
+
+![](img/week-of-february-1st-19.png)
+
+## [Performance Optimizer] Ability to disable a 4E metric from configuration tab 
+### Type: New functionality (PO v1.1)
+
+Users now have the ability to disable a 4E metric for LOB(s) from the configuration tab in the Performance Optimizer. Should that metric be manually disabled, it will not be displayed in the UI and will not be included in the 4E composite scores. 
+
+![](img/week-of-february-1st-20.png)
+
+## [Performance Optimizer] Resource vs. Demand panel 
+### Type: Enhancements (PO v1.1)
+
+The Volume panel in the Performance Optimizer has been renamed “Resources vs. Demand” panel. Users are now able to see the login hours over time, overlaid against the closed conversations over time. The closed conversations cumulative was removed from the Performance Optimizer as this was deemed not to provide added value. 
+
+![](img/week-of-february-1st-21.png)
+
+## [Performance Optimizer] Opportunities Panel Redesign 
+### Type: Enhancements (PO v1.1)
+
+In the Opportunities Panel, metrics are now color-coded per their respective 4E category. Users also have the ability to filter the chart by 4E category so that the graph displays one or more of the 4E categories.  
+
+
+![](img/week-of-february-1st-22.png)
+
+![](img/week-of-february-1st-23.png)
+
+## [Performance Optimizer] Addition of Web and App Messaging sources 
+### Type: Enhancements (PO v1.1)
+
+The Channels panel differentiates closed conversations for “Web” and “In App” entry points. Previously, these two entry points were contained within the “Other” category. 
+
+## [Performance Optimizer] 4E Summary position change
+### Type: Enhancements (PO v1.1)
+
+The 4E composite score placement has been modified such that “Effort” and “Emotion” are the top metrics, and “Efficiency” and “Effectiveness” are now in the bottom position.  This visualization is consistent with other training materials and product documentation. 
+
+![](img/week-of-february-1st-24.png)
+
+## [Performance Optimizer] Data to Text redesign 
+### Type: Enhancements (PO v1.1)
+
+The new data to text redesign provides Performance Optimizer users with an in-depth analysis for each 4E metric with additional context, tactical optimization plans, and links to diagnostic playbooks. Collapsible headers have been added for each metric that display the actual performance, trend, and icon that describes the metric as “OK”, “Very Good” or “Needs Improvement”. 
+
+![](img/week-of-february-1st-25.png)
+
+## [Performance Optimizer] Additional 4E Metrics 
+### Type: Enhancements (PO v1.1)
+
+The following metrics have been incorporated into the 4E framework: 
+* Human First Response Time After Bot (Minutes)
+* Human First Response After Bot Count
+* Agent First Response Time Overall (Minutes)
+* Agent First Response Count
+* Agent Response Time Overall (Minutes)
+
+These new metrics are displayed within the Performance Optimizer panels: 
+* Opportunities Panel 
+vLine of Business List 
+* 4E Summary
+* 4E Detail
+
