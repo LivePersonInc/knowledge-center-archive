@@ -140,7 +140,7 @@ The current Agent widget configuration hides the status and agent name fields on
 When using the All Conversations tab in the enhanced Agent Workspace, users were unable to search skills that have spaces in the name. The input field does not allow spaces to be used at all. For brands with many skills, this makes it very difficult to track data per some of their skills. Now users can type and add a space for filtering of skills. 
 
 ## [Agent App] Conversation Rollover support
-### Type (v2.6.2)
+### Type: New functionality (v2.6.2)
 
 The Agent App now supports Conversation Rollover.
 
