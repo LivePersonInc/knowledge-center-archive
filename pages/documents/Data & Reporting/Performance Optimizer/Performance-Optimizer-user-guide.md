@@ -127,13 +127,14 @@ The Executive Summary Panel, the first panel represented in the Performance Opti
 
 ![](img/performance-optimizer11.png)
 
-### Volume Panel 
-The Volume panel allows the user to view closed conversations (agent, consumer and auto close) and agent login hours over the date range selected by the user in the filter criteria. By correlating closed conversations with login hours brands can optimize their staffing. 
+### Resource vs. Demand Panel 
+The Resource vs. Demand panel allows the user to view closed conversations (agent, consumer and auto close) and agent login hours over the date range selected by the user in the filter criteria. By correlating closed conversations with login hours brands can optimize their staffing. 
 
 ![](img/performance-optimizer12.png)
 
 ### Channels 
 The Channels panel provides insights into closed conversation volume (agent, consumer and auto close) by all possible entry points, based upon the date range entered. 
+
 This information can be viewed in two ways:
 * The bar chart displays the distribution across entry points
 * The line chart displays your entry point volume over time by each possible entry point
@@ -141,9 +142,15 @@ This information can be viewed in two ways:
 ![](img/performance-optimizer13.png)
 
 ### Opportunities Panel 
-The Opportunities panel is a pareto style graph that ranks your primary and secondary 4E metrics based on the deviation from industry benchmarks or target value, determined by metric configuration (benchmark or numerical target). The metrics are then ranked based on which metric has the greatest deviation. This allows the user to focus on the most impactful 4E metric that will improve performance. The user is also able to click on each individual bar and automatically navigate to that metric in the 4E detail section at the bottom of the dashboard.  
+The Opportunities panel is a pareto style graph that ranks your primary and secondary 4E metrics based on the deviation from industry benchmarks or target value, determined by metric configuration (benchmark or numerical target). The metrics are color coded by their respective 4E category then ranked based on which metric has the greatest deviation. This allows the user to focus on the most impactful 4E metric that will improve performance.   
 
 ![](img/performance-optimizer14.png)
+
+Clicking on the filter drop-down displays a multi-selection option that allows the user to choose the 4E categories to display in the Opportunities graph.
+
+
+
+The user is able to filter by 4E and is also able to click on each individual bar and automatically navigate to that metric in the 4E detail section at the bottom of the dashboard. 
 
 ### Controlled Delivery Panel 
 In this panel, each LOB that was selected in the filter criteria is represented by a blue dot on the double axis chart. The chart compares - for each LOB - the overall 4E scores for efficiency (performing in the best manner with least waste of resources), and effectiveness (the ability to achieve the intended result of resolving the consumer intent). Overall 4E scores are determined by a weighted score of all primary and secondary metrics within the 4E categories for efficiency and effectiveness. Users can quickly assess which LOBs to focus on based on the location of the LOB within the graph. For example, LOBs located in the top right corner of the graph are highly efficient and effective. Conversely, LOBs that are in the bottom left are highly inefficient and ineffective and are recommended to be of priority for the business. 
