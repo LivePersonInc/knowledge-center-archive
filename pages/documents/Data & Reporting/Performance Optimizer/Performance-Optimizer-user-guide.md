@@ -12,11 +12,11 @@ date: '2019-03-27T11:28:04.000+00:00'
 ---
 
 ## How to access Performance Optimizer
-Logging into Performance Optimizer requires feature access by request. (Contact your account manager.)
-
-Only Admin profiles or pre-configured user profiles may log in. To customize profile authorization, contact your account manager.
+Logging in to Performance Optimizer requires feature access by request. Only Admin profiles or pre-configured user profiles may log in. (To log in or to customize profile authorization, contact your account manager).
 
 Once your account is enabled, you can begin by logging in [here](https://va.performance.liveperson.net/login).
+
+**HINT**: You can also log in directly via the Quick Launch menu in Conversational Cloud.
 
 ### Login Page
 You can also log in directly via the Quick Launch menu from Conversational Cloud.
@@ -39,7 +39,9 @@ After login, the Dashboard is displayed.
 
 ## Configuration 
 
-To fully experience the advantages of the Performance Optimizer, LOBs must be configured through selection of skills and groups in the Configuration tab of the Performance Optimizer. If LOBs are not configured, the Performance Portal will display all skills and groups as a singular LOB. There is no limit for the number of LOBs that can be created. Select the Configuration tab on the upper left corner. 
+To fully experience the advantages of the Performance Optimizer, LOBs must be configured through selection of skills and groups in the Configuration tab of the Performance Optimizer. If LOBs are not configured, the Performance Portal will display all skills and groups as a singular LOB. There is no limit for the number of LOBs that can be created. 
+
+Select the Configuration tab in the upper left corner.
  
 ![](img/performance-optimizer5.png)
 
@@ -54,23 +56,51 @@ To fully experience the advantages of the Performance Optimizer, LOBs must be co
 ![](img/performance-optimizer7.png)
 
 {:start="3"}
-3. Click Skills to display a drop-down menu of ALL current Skills defined for the Account ID. Select all the Skills that should be included within the LOB. 
-4. Click Groups to display a drop-down menu of ALL current Groups for the Account ID. Select all Groups that should be included within the LOB.
-5. The Metric Targets area lists metrics that are key drivers for the 4 categories of the 4E Framework. 
- * For each metric: Select Benchmark to compare the brand’s performance with the industry benchmark **OR** Select Number, and then enter a unique brand-specific target value or SLA. This option will visualize the brand’s performance data in reference to this value. 
+3. Click Skills to display a drop-down menu of ALL current Skills defined for the Account ID. Select all the skills that should be included within the LOB.  
+4. Click Groups to display a drop-down menu of ALL current groups for the Account ID. Select all the groups that should be included within the LOB.
+5. Click Primary Purpose to display a drop-down menu of  all Primary Purposes for an LOB. 
 
 {: .notice} 
-By default, Metric Settings are set to industry benchmarks for all metrics. Default target number values are set at the 75th percentile benchmark within the industry vertical. 
+Only one Primary Purpose can be selected for an LOB.
+
+Select one of the following Primary Purposes:
+
+* General Multi-Purpose / Universal Agents (DEFAULT) 
+* Agent Support
+* Backoffice/Administration
+* Collections 
+* Care 
+* Complaints 
+* Retentions
+* Sales
+* Tech Support
 
 {:start="6"}
-6. Click “Create LOB” to display a summary of the newly created LOBs. 
+6. Optionally, you can select a secondary purpose for the LOB by clicking on Secondary Purpose and display the same drop down menu options as before, now defining the Secondary Purpose.  
 
 ![](img/performance-optimizer8.png)
 
 {:start="7"}
-7. Click back to “Dashboard” to view your Performance Optimizer settings with your newly created LOBs. 
+7. The Metric Targets area lists metrics that are key drivers for the 4 categories of the 4E Framework. For each metric:
+
+Select Benchmark to compare the brand’s performance with the industry benchmark
+
+Or: 
+
+Select Number, and then enter a unique brand-specific target value or SLA. This option will visualize the brand’s performance data in reference to this value.
+
+
+{: .notice} 
+* By default, Metric Settings are set to industry benchmarks for all metrics.
+* Default target number values are set at the 75th percentile benchmark within the industry vertical. 
 
 ![](img/performance-optimizer9.png)
+
+{:start="8"}
+8. Click “Create LOB” to display a summary of the newly created LOBs. 
+
+{:start="9"}
+9. Click back to “Dashboard” to view your Performance Optimizer settings with your newly created LOBs. 
 
 ## Filtering Your Performance Optimizer View 
 The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer. 
