@@ -103,11 +103,11 @@ Select Number, and then enter a unique brand-specific target value or SLA. This 
 9. Click back to “Dashboard” to view your Performance Optimizer settings with your newly created LOBs. 
 
 ## Filtering Your Performance Optimizer View 
-The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer. 
+The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer.  
 
 **To filter the dashboard:**
 
-1. On the left hand side of the screen, select your LOB(s), date range (by calendar selection or manual entry) and granularity preferences.   
+1. In the top left part of the screen, select your LOB(s), date range (by calendar selection or manual entry) and granularity preferences.   
 2. Click Update. The data will now be displayed according to your preferences.
 
 
@@ -116,14 +116,14 @@ The Performance Optimizer can be filtered to display only the most relevant data
 ## Performance Optimizer Panels 
 ### Executive Summary Panel
 
-The Executive Summary Panel is the first panel displayed in the Performance Optimizer. It provides a holistic LOB view of the conversational operation which allows users to: 
+The Executive Summary Panel, the first panel represented in the Performance Optimizer, is a holistic LOB view of the conversational operation which allows users to: 
 * **Validate the number of LOBs** selected through filter functionality. 
 * **View actual performance** for the 4E metrics.
-* **View trends** for each 4E metric based on filtered date range and previous timeframe as compared to the entered date range. For example, when selecting 06/01/2020-6/31/2020 (31 days), the numerical trends and trend line reflect the 31 days prior to 06/01/2020-06/31/2020: 05/01/2020-05/31/2020. View trending values such as:
-  * The first numerical value (in blue) indicates the brand’s actual performance for the date range entered. For example, the graphic below shows the brand’s CCPLH (closed conversations per login hour) at 10.83.  
-  * Trend arrows with an upward or downward arrow reflect the date range entered. For example, the arrow reflects the date range of 06/01/2020.
-  * The second value in parenthesis displays the deviation of the 1st date range (06/01/2020-06/31/2020) from the previous period (05/01/2020-05/31/2020). 
-  * The trend line displays the performance based on the entered filter date range and the previous period. 
+* **View trends for each 4E metric** based on **filtered date range** and **previous timeframe as compared to the entered date range**. For example, when selecting 06/01/2020-6/31/2020 (31 days), the numerical trends and trend line reflect the 31 days prior to 06/01/2020-06/31/2020: 05/01/2020-05/31/2020. View trending values such as:
+  * **The first numerical value (in blue) indicates the brand’s actual performance** for the date range entered. For example, the graphic below shows the brand’s CCPLH (closed conversations per login hour) at 10.83.  
+  * **Trend arrows with an upward or downward arrow reflect the date range** entered. For example, the arrow reflects the date range of 06/01/2020.
+  * **The second value in parentheses displays the deviation** of the 1st date range (06/01/2020-06/31/2020) from the previous period (05/01/2020-05/31/2020). 
+  * **The trend line displays the performance** based on the entered filter date range and the previous period.  
 
 ![](img/performance-optimizer11.png)
 
