@@ -59,17 +59,17 @@ Using the Conversation Orchestrator’s workspace, brands receive a self-service
 
 ### Agent Assist
 
-**Recommends knowledge base articles and/or bots for the agent based on conversation context**
+**Recommends knowledge base articles and/or bots to the agent based on conversation context**
 
-[Agent Assist](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) analyzes all available knowledge base articles and bots for the identified intent and recommends the best next actions, such as having a bot join the conversation in real time. Recommendations are made by choosing the highest ranked articles and/or bots by score; scores are based on machine-learned signals about the historical performance.
+[Agent Assist](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html) analyzes all available knowledge base articles and bots for the identified consumer intent and recommends the best next actions, such as having a bot join the conversation in real time. Recommendations are made by choosing the highest ranked articles and bots by score; scores are based on machine-learned signals about the historical performance.
 
 Agents can opt to manually use a knowledge base article to help the user or join a bot to the conversation, where they can monitor the conversation and remove the bot if needed.
 
 * AI-based recommendations for bots that can fulfill customer intent at each turn of the conversation
-* Join bots to conversation, recommended content and knowledge base articles
+* Join bots to conversations and use knowledge base articles
 * Closed loop learning to improve recommendations based on agent feedback
 
-![](/img/conv-ai-3.png)
+<img class="fancyimage" width="600" src="img/conv-ai-3.png">
 
 ### Conversation Builder
 
