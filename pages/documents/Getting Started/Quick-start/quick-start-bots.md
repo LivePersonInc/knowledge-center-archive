@@ -179,7 +179,7 @@ Next, you use Conversation Builder to connect your bot to the bot agent you just
 
 ## Step 5: Expand the capabilities of your bot
 
-* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Learn how to transfer a bot conversation to a live agent.
+* **[Extended Getting Started tutorial](https://developers.liveperson.com/tutorials-guides-getting-started-with-bot-building-overview.html)**: Expand the capabilities of your bot using intents and integrations. Learn how to transfer a bot conversation to a live agent.
 
 * **[Bot templates](https://developers.liveperson.com/conversation-builder-bot-templates-overview.html)**: Reference bots for common use cases, such as Routing, FAQ, Lead Generation and Order Status.
 
@@ -187,7 +187,7 @@ Next, you use Conversation Builder to connect your bot to the bot agent you just
 
 * **[Bot Analytics](https://developers.liveperson.com/bot-analytics-overview.html)**: Visualize and tune the performance of your bot with usage and intent matching metrics.
 
-* **[Video tutorials](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)**: Learn about basic bot building concepts in a set of four videos.
+* **[Video tutorials](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)**: Learn about basic bot building concepts in a series of videos.
 
 ## Additional quick start guides
 
