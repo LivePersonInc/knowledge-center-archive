@@ -185,6 +185,10 @@ The new Manager Workspace offers much greater detail on the shift and will repla
 * **Closed conversations graph** - This graph not be available in the new workspace, only the total number of closed conversations. Users can view the [Real Time Dashboard](/data-reporting-messaging-real-time-data-real-time-data-for-messaging.html) for these details.
 * **CSAT distribution** - This information will be available in the new workspace. The [Analytics Builder](/data-reporting-report-builder-report-builder-overview.html) is available with detailed CSAT reporting for further analysis as needed.
 
+## Messaging agents list for agents using the enhanced Agent Workspace  
+
+Previously, agents using the enhanced Agent Workspace were not able to view the “Messaging agents list” even if they had the "View agents list" permission. Now, agents using the enhanced Agent Workspace will automatically have access to this data through a limited access view of the Manager Workspace. The Manager Workspace icon will be added to the navigation bar for agents with the “View agents list” permission. They will be able to monitor other agents in their group in real time.
+
 ## Managing both chat & messaging agents
 
 For accounts that serve both chat and messaging, some managers may oversee both live chat as well as messaging agents.
