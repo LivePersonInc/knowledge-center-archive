@@ -19,6 +19,9 @@ AI drives an increasing amount of conversations, due to the efficiency and super
 
 AI Annotator provides brands with a straightforward platform to do so, by empowering agents and QA teams to provide valuable feedback with an easy-to-use and efficient interface. This feedback can then be easily reviewed and used to correct the brand’s AI automations. This process of labeling data which is later used to improve an AI model, is called AI Annotation.
 
+{: .notice}
+**Please note:** AI Annotator requires backend enablement. Please contact your LivePerson representative for more information.
+
 ### The annotating agent
 
 By the nature of their work, agents are exposed to hundreds and sometimes thousands of conversations. As a result, they practically become “distinguished experts” in identifying consumers' needs and wants based on text. When agents receive a conversation, they quickly understand the consumers’ intent, and in the event that the intent is not clear, they have the option of asking the consumer to clarify it. Therefore, agents are in an ideal position to identify AI automation issues and suggest a correct solution. Agents can use their expertise to suggest an intent for messages in which bots did not identify the intent. In many cases, the permission to annotate is granted to the more experienced agents. 
