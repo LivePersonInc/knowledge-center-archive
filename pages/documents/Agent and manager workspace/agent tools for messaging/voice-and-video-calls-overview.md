@@ -48,7 +48,7 @@ After accepting, the call is initiated and the consumer’s browser will ask for
 
 During an active call, both agent and consumer are able to end the call at any time. Furthermore, each participant is able to mute the microphone or disable the camera:
 
-![](img/voice-and-video-4.png)
+![](img/VoiceAndVideoCallControls.png)
 
 On mobile devices that have a front and backward facing camera, an additional button is shown to switch to the other camera.
 
@@ -56,7 +56,7 @@ On mobile devices that have a front and backward facing camera, an additional bu
 
 Here is a demonstration of a video call with consumer on the left and agent on the right.
 
-![](img/voice-and-video-calls-demo.gif)
+![](img/VoiceAndVideoDemo.gif)
 
 ## Configuration
 
