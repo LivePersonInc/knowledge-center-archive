@@ -16,7 +16,6 @@ isNew: false
 AI drives an increasing amount of conversations, due to the efficiency and superior customer experience it delivers. In an environment where consumers' needs are constantly changing and the AI automations built by brands are being revised accordingly, it is important to quickly find and correct issues that may impact consumer experience. 
 
 <iframe src="https://player.vimeo.com/video/506110564?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/506110564">AI Annotator</a> from <a href="https://vimeo.com/liveperson">LivePerson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 AI Annotator provides brands with a straightforward platform to do so, by empowering agents and QA teams to provide valuable feedback with an easy-to-use and efficient interface. This feedback can then be easily reviewed and used to correct the brand’s AI automations. This process of labeling data which is later used to improve an AI model, is called AI Annotation.
 
