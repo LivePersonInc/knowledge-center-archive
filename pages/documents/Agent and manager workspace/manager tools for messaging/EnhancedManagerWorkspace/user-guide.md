@@ -90,6 +90,8 @@ The metrics widget provides a high level "health check" of your group’s real-t
 * **LOAD** - The total weight of assigned conversations as a percentage of the maximum concurrent conversations of all agents. **Note**: This metric is not affected by the time filter.
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe.
+* **Online Load** - The number of active conversations as a percentage of max concurrent conversations of agents in Online state.
+* **Away Load** - The number of active conversations as a percentage of max concurrent conversations of agents in Away state.
 
 ![](img/new-manager-workspace-11.png){:class="newagent"}
 
@@ -187,12 +189,65 @@ In addition to the group and time filters at the top of the dashboard, the list 
   * The conversations the agent is currently assigned to.
   * Closed conversations that the agent was the last to handle.
 * **SKILL** - Retrieves conversations which are currently assigned with the filtered skill.
+* **INTENT** - Enables filtering of specific intents, allowing for easy and quick discovery of conversations on specific topics as well as issue detection.
 
 ![](img/new-agent-workspace-21.png){:class="newagent"}
 
 #### Sorting
 
 The list is sortable by "Response time". The list will be sorted by default by “Response time”, so that conversations which are waiting the longest will be placed at the top of the list.
+
+### Skills widget
+
+A new skill-level table has been added to the Manager Workspace, allowing managers to track the performance of multiple skills more easily. The table displays all existing metrics as well as new metrics like "Actionable" and  "Wait time for assignment (50%)".
+
+{: .notice}
+**Please note:** This feature has backend dependencies. For more information please contact your LivePerson representative.
+
+#### Who can view the widget?
+A new permission “View skill level metrics in the manager workspace” has been added under the agent manager role. The permission is Off by default. 
+Note: This permission is visible when the Manager Workspace Skills View Enabled feature is ON (Messaging.ManagerWorkspaceSkillsView)
+
+![](img/week-of-february-1st-1.png)
+
+Once it is turned on for the relevant agent manager profiles, the Manager Workspace layout will be changed for the relevant users so that a new “Skills” widget will be visible (currently it is located between the Agent Widget and the Conversation Widget).
+
+![](img/week-of-february-1st-2.png)
+
+**Definitions**
+
+| New Column name | Tooltip | Visible by default  |
+| ------------- | ------------- | ----- |
+| Open | The number of open conversations | Yes |
+| Overdue  | The number of open conversations which exceeded the SLA | No |
+| Unassigned | The number of conversations in the queue that are waiting for an agent assignment | Yes |
+| Actionable | The number of conversations in the queue that are pending immediate agent response | No |
+| Overdue (unassigned) | The number of conversations in the queue that are waiting for an agent assignment and exceeded the SLA | No |
+| Wait time (50%) | 50% of consumers are currently waiting in the queue for an agent assignment this amount of time or less | No |
+| Wait time (90%) | 90% of consumers are currently waiting in the queue for an agent assignment this amount of time or less | Yes |
+| Assigned | The number of open conversations assigned to agents | Yes |
+| Overdue (assigned) | The number of open conversations assigned to agents which exceeded the SLA | No |
+| Load | The total weight of assigned conversations as a percentage of the maximum concurrent conversations of all agents | Yes |
+| Online | Agents currently in the ONLINE state | Yes |
+| Away | Agents currently in the AWAY state | Yes |
+| Back soon | Agents currently in the BACK SOON state | Yes |
+| Closed | Total number of conversations which were closed within the selected timeframe | Yes |
+| TTFR | Time to first response (TTFR). The average time consumers wait for the first human response in a conversation | Yes |
+| TTFR from first assign | Time to first response (TTFR) from the time of first agent assignment. The average time it took a human agent to respond to the first message a consumer sent in a conversation, from the time the agent was assigned to the conversation. Measured for the first human agent message sent in a new conversation | Yes |
+| TTR | Time to respond (TTR). The average time consumers wait for a human response in a conversation | Yes |
+| TTR from assign | Time to response (TTR) from time of agent assignment. The average time  it took a human agent to send a message to the consumer from the time the agent was assigned to the conversation. | Yes |
+
+**Note:** Brands can control which metrics will be displayed in the widget via the configuration window (some of the metrics are turned off by default as listed in the metrics table above):
+
+![](img/week-of-february-1st-3.png)
+
+#### Which skills will each user see?
+The table displays a full list of all the skills for which the user has permissions, i.e., skills assigned to the agents under the groups the user is managing.
+
+#### How will the group filter impact the Skills list?
+* Metrics which are queue-related (pre agent assignment) will not be impacted by the filter. For example: unassigned, actionable, wait time for assignment etc.
+* Metrics which are attributed to agents, will be impacted. For example: assigned, response time, online agents etc.
+* Filtering the workspace by group, will NOT impact the list of skills (skills population) retrieved. The skills list is impacted only by the user’s permissions. 
 
 ## Limitations
 
