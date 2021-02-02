@@ -1,5 +1,5 @@
 ---
-pagename: Intent Annotator
+pagename: AI Annotator
 categoryName: Bots & automation
 subCategoryName: ''
 indicator: both
