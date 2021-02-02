@@ -51,17 +51,17 @@ You can batch-select the messages that should be added or reclassified to the co
 * In the Versions tab, once training is complete, press “Activate” on the new version. Your model is now updated.
 
 ## Improve the false classifications for a specific intent
-This is useful if a specific intent is misclassifying messages via either false-negatives (not identifying a message’s intent when it should) or false-positives (identifying a message’s intent when it should not).
+### This is useful if a specific intent is misclassifying messages via either false-negatives (not identifying a message’s intent when it should) or false-positives (identifying a message’s intent when it should not).
 
 **a. Determine which intent(s) need improvement.**
 There are 2 methods of approaching this:
 1)  Hide unclassified messages by using the filter to exclude “unclassified” messages, or
 2) Apply a filter for a specific intent, then analyze the various cluster and sub-cluster labels for suspicious patterns. For example, if a filter for the “cancel service” intent is applied, and there are cluster labels with the word “cancel order” in the chart, then there may be some misclassifications.
 
-**b.Scan and reclassify the sub-clusters’ messages**
+**b. Scan and reclassify the sub-clusters’ messages**
 * Preview the messages by clicking on the sub-cluster, followed by the “Create/modify intents with this sub-cluster” button. In the Messages table, visually scan the Intents column for anomalies. If there are any, investigate if the message has been correctly identified.
 
-**.c Train and deploy the new intent model** (same steps as c. above)
+**c. Train and deploy the new intent model** (same steps as c. above)
 * Navigate to the Intent Builder and select the domain of the newly added intent. You should see the new intent you just created. You may want to test some phrases by using the intent tester 
 * Click on “Train” to begin training the intent model with the new intent.
 * In the Versions tab, once training is complete, press “Activate” on the new version. Your model is now updated.
