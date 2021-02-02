@@ -15,7 +15,7 @@ redirect_from:
 ---
 ## Overview
 
-Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) enables brands to better manage their messaging operations by controlling the weight an active and inactive conversation takes up in the overall agent capacity. Brands can now customize Dynamic Capacity's settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once the conversation becomes inactive.
+[Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) enables brands to better manage their messaging operations by controlling the weight an active and inactive conversation takes up in the overall agent capacity. Brands can now customize Dynamic Capacity's settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once the conversation becomes inactive.
 
 ## Calculating the agent load
 
