@@ -250,7 +250,7 @@
             - level3name: Business dashboard for messaging
             - level3name: Agent activity dashboard
             - level3name: Goal tracker report
-            - level3name: Bot performance dashboard 
+            - level3name: Bot performance dashboard for messaging 
         - pagename: Messaging conversation segments
     - subcategoryname: Live chat
       pages:
