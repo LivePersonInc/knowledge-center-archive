@@ -408,9 +408,12 @@ ul.mysidebar.nav > li:first-of-type {
   width: 100% !important;
 }
 @media screen and (max-width: 1440px) {
-    .page-no-right-sidebar #metrics .tablecontainer {
-      width: 100%;
-    }
+  .page-no-right-sidebar #metrics .tablecontainer, .page-no-right-sidebar #post-content > p {
+        width: 100%;
+  }
+      .page-no-right-sidebar #defaultcontent {
+        padding-right: 20px;
+  }
 }
 /* Page without right sidebar - Ends */
 
