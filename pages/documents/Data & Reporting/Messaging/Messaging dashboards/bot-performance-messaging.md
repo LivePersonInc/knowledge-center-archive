@@ -65,7 +65,20 @@ The following table includes new Intent Annotation metrics that can be tracked i
 | SUBMITTED ANNOTATIONS WITH NO INTENT | Agents Annotation | - | Number of annotations that were completed and got submitted as "I don't know" |
 | SUBMITTED ANNOTATIONS WITH NO INTENT RATE | Agents Annotation | SUBMITTED ANNOTATIONS WITH NO INTENT/ NO. OF SUBMITTED ANNOTATIONS | Number of annotations submitted with no intent out of the submitted annotations | 
 
+## Messaging Intents activity
 
+The following table includes new Messaging Intent Activity metrics which can be tracked in the Bot Performance dashboard:
 
-
+| Metric name | Analysis Type | Formula | Description |
+| --- | --- | --- | --- |
+| BOT HANDLED CONVERSATIONS | Bot Productivity | - | The distinct number of conversations where the bot has sent at least one message or transferred to any skill or agent |
+| BOT CLOSED CONVERSATIONS | Bot Productivity | - | Conversations that were closed by the bot |
+| BOT CLOSED CONVERSATIONS RATE | Bot Productivity | BOT CLOSED CONVERSATIONS / BOT HANDLED CONVERSATIONS | The percentage of conversations closed by the bot out of the conversations that were handled by the bot (where the bot has sent at least one message or transferred to any skill or agent) |
+| NO. OF MATCHED INTENTS | Bot Productivity | - | Number of consumer matched intents that the bot managed to match for all intent types, including NLU and pattern types |
+| NO. OF UNMATCHED INTENTS | Bot Productivity | - | Number of consumer intents that the bot did not manage to match (counted only for NLU intent type) |
+| MATCHED INTENT RATE | Bot Productivity | NO. OF MATCHED INTENTS / NO OF ANALYZED INTENTS | The percentage matched intents out of the total analyzed intents |
+| NO. OF MATCHED NLU INTENTS | Bot Productivity | - | Number of consumer intents that the bot managed to match from NLU type (as defined in Conversation Builder) |
+| NO OF ANALYZED INTENTS | Bot Productivity | NO. OF MATCHED NLU INTENTS + NO. OF UNMATCHED INTENTS | Total number of analyzed intents (NO. OF MATCHED INTENTS +NO. OF UNMATCHED INTENTS)|
+| NO OF ANALYZED NLU INTENTS | Bot Productivity | NO. OF MATCHED NLU INTENTS + NO. OF UNMATCHED INTENTS | Total number of analyzed NLU intents (NO. OF MATCHED NLU INTENTS +NO. OF UNMATCHED INTENTS) |
+| MATCHED NLU INTENT RATE | Bot Productivity | NO. OF MATCHED NLU INTENTS / NO OF ANALYZED NLU INTENTS | The percentage of matched NLU intents out of the number of analyzed consumer messages for NLU intents |
 
