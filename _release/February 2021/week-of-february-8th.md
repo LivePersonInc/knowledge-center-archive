@@ -131,3 +131,92 @@ To fix this we created a service responsible for deleting the local cache in sta
 ### Type: Bug fix (iOS SDK 6.2)
 
 A bug was discovered where in the file preview, the input text view is cut off partially on the right side. This bug has been resolved. 
+
+## [Marketplaces] Allow Providers to insert Merchant Brand Names into the Welcome Message 
+### Type: New functionality (WX 10.7)
+
+Provider accounts can now use a wildcard within the welcome messages based on the Merchant account’s configuration to provide a more personalized experience to a Network Manager driven conversation. This enhancement will display the Merchant’s configured Brand Name within the Provider defined welcome message, so that after the consumer starts a conversation with Merchant A, the welcome message is unique to Merchant A.  Given they engage with Merchant B, the welcome message can be specific to Merchant B. This allows consumers to feel confident they are messaging the correct brand, and for individual brands to showcase themselves within the provider messaging experience. 
+
+
+## [Marketplaces] Collapse consumer message history when new conversation starts 
+### Type: New functionality (WX 10.7)
+
+Brands can now configure collapsing message history in the consumer window. Utilizing this option reduces initial window load time and improves consumer experience for consumers with long message histories. We will be slowly changing the default for all brands to collapse history in the coming months. This setting can be changed at any time in the Engagement Window Studio (Under the ![](img/week-of-february-8th-2.png) menu > Look and Feel section).
+
+![](img/week-of-february-8th-3.png)
+
+**Note:** These changes in Engagement Window will be available after the release of LEUI 12.7.
+
+![](img/week-of-february-8th-4.png)
+
+## WCAG 2.1 AA / Accessibility Remediation
+### Type: Enhancement (WX 10.7)
+
+The Web Experiences team is partnering with Deque, a website accessibility firm, to remediate, validate, and ultimately certify the LivePerson consumer experience as WCAG 2.1 AA compliant.  To reach WCAG 2.1 AA compliance, we will be deploying fixes to the consumer experience over the next few months that will incrementally get us to certification.  
+
+Please note that issues that are remediated and validated under WCAG 2.1 AA compliance only apply for the default engagements, window themes, and out-of-the-box features/taglets within the consumer window. Any Brands that utilize custom windows, taglets, and engagements, should be reviewed and updated by the customer, or their representative, to meet WCAG 2.1 AA compliance. 
+
+## [Window] NVDA screen reader announces characters twice
+### Type: Bug fix (WX 10.7)
+
+This bug has been resolved. 
+
+## [Window] Pre-chat survey announces “aria-label” unnecessarily 
+### Type: Bug fix (WX 10.7)
+
+This bug has been resolved. 
+
+## [Window] audio elements must have a captions track
+### Type: Bug fix (WX 10.7)
+
+This bug has been resolved. 
+
+## [Mobile Web Window] Honoring bold and underline within messages 
+### Type: Bug fix (WX 10.7)
+
+When an agent sends a message that includes text that is bold and underlined, the window will now show the message to the consumer as both bold and underlined.
+
+## [Mobile Web Window] Underline links in messages from consumer 
+### Type: Bug fix (WX 10.7)
+
+When a consumer sends a link in the mobile web window, the message will now appear as underlined text, can be clicked and opened, as expected of a link.
+
+## [Mobile Web Window] Text formatting (bold, underline, italicized) does not show in consumer chat window 
+### Type: Bug fix (WX 10.7)
+
+When a consumer sends text in the mobile web window, the message will now appear with the correct formatting.
+
+## [Authenticated Web] Resuming an auth web messaging conversation via the identities function does not work when 3rd party cookies are blocked 
+### Type: Bug fix (WX 10.7)
+
+When a browser blocks the window from opening up to resume an authenticated message, the window will appear in a minimized state on the webpage. When the consumer clicks on the minimized window, the window will open in a separate window as it does normally when cookies are blocked. Brands can configure this behavior within the taglet if this flow is sub-optimal.
+
+## [[Window] Data Masking notification banner not showing in the window
+### Type: Bug fix (WX 10.7)
+
+Fixed an issue where the data masking banner was not displayed on chat or messaging window, note that data masking was and is working as expected. 
+
+## [[Window] Web Messaging window makes duplicate shift-status-skill calls at "shift start" and "shift end" causing traffic spike on UMS
+### Type: Bug fix (WX 10.7)
+
+This bug has been resolved. 
+
+## [[Window] Redundant calls for favicon if in external window
+### Type: Bug fix (WX 10.7)
+
+This bug has been resolved. 
+
+## [CCPattern] Luhn check is missing from cleanCCPatterns taglet 
+### Type: Bug fix (cleanCCPatterns v10.7)
+
+This bug has been resolved. 
+
+## [CCPattern] CleanCCPatterns taglet fails when REGEX contains a percentage symbol  
+### Type: Bug fix (cleanCCPatterns v10.7)
+
+It is now possible to use the % operation in REGEX without errors.
+
+## [Unauthenticated Messaging] Unified.window.allow.first.party.storage now honors consumer clear history 
+### Type: Bug fix (Unauthenticated Messaging v1.10)
+
+When first.party.storage is set to true and a consumer clicks ‘Clear History’ in the action menu, the window will close and their conversation history will be empty when the consumer opens the messaging window again.
