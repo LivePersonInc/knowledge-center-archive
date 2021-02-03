@@ -34,6 +34,7 @@ The app supports iOS & Android phones and is optimized for their screen sizes. A
 * Live Video Calls 
 * Predefined Content 
 * Photo sharing
+* Conversation Rollover
 
 ## Future Capabilities
 In the future the following functionality will added:
