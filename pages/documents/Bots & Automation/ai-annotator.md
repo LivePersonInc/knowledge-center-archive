@@ -26,10 +26,6 @@ AI Annotator provides brands with a straightforward platform to do so, by empowe
 
 By the nature of their work, agents are exposed to hundreds and sometimes thousands of conversations. As a result, they practically become “distinguished experts” in identifying consumers' needs and wants based on text. When agents receive a conversation, they quickly understand the consumers’ intent, and in the event that the intent is not clear, they have the option of asking the consumer to clarify it. Therefore, agents are in an ideal position to identify AI automation issues and suggest a correct solution. Agents can use their expertise to suggest an intent for messages in which bots did not identify the intent. In many cases, the permission to annotate is granted to the more experienced agents. 
 
-### Dedicated annotation teams
-
-teams often consist of former agents who are trained to identify and correct AI automation issues. The main advantage of this approach is that live agents maintain 100% focus on taking conversations. Brands may employ agents and dedicated annotation teams at the same time, to contribute to the annotation effort.
-
 ## Intent Annotations
 
 One common use case occurs when a bot does not recognize the intent behind a consumer’s message. For example, in the event that a consumer says “I would like to activate my service” and the bot does not recognize the intent. This will happen when the training phrases that comprise the brand’s intents are not yielding a high enough confidence level to trigger an intent identification. 
@@ -40,7 +36,7 @@ When an intent is not recognized, a fallback message will be triggered and the c
 
 The brand’s goal would then be to quickly find the consumer intent that has not been identified, and add it to the bot training model as a training phrase. By doing so, the bot will be able to identify the intents behind similar consumer messages in the future, and prevent the conversation from being escalated to a live agent.
 
-Intent Annotations achieve this by providing users who view conversations with the ability to annotate the correct intent. Once the annotation is submitted, the consumer phrase along with the suggested domain and intent will be presented in the “AI Tasks” tab. A user with permissions to view the tab and edit the intent model can add the consumer message into the correct intent. 
+AI Annotator achieves this by providing users who view conversations with the ability to annotate the correct intent. Once the annotation is submitted, the consumer phrase along with the suggested domain and intent will be presented in the “AI Tasks” tab. A user with permissions to view the tab and edit the intent model can add the consumer message into the correct intent. 
 
 ![](img/ai-annotator-12.gif)
 
