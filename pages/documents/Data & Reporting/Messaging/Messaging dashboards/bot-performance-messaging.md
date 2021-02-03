@@ -38,7 +38,7 @@ Which bot annotations are submitted? Do all bots improve over time when annotati
 * Bot Name
 * Skill
 
-## Minimum time frame: Hourly
+**Minimum time frame**: Hourly
 
 ## Brand Level Analysis
 
@@ -47,6 +47,12 @@ Which bot annotations are submitted? Do all bots improve over time when annotati
 ## Bot Level Analysis
 
 ![](img/bot-performance-dashboard-for-messaging2.png)
+
+## Intent Annotation Metrics
+
+The following table includes new Intent Annotation metrics that can be tracked in the Bot Performance dashboard:
+
+
 
 
 
