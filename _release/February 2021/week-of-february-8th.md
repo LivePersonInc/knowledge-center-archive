@@ -112,7 +112,7 @@ New configuration **enableConversationSeparator** will allow brands to control i
 * enableConversationSeparatorTextMessage: enables separator text message when conversation resolved from agent or consumer.
 * enableConversationSeparatorLine: enables a separator line when conversation resolved from agent or consumer.
 
-ee the new configuration in the [Developer Center](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-sdk-attributes-sdk-5-0-and-above.html#conversations)
+See the new configuration in the [Developer Center](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-sdk-attributes-sdk-5-0-and-above.html#conversations)
  
 **Note:** Separator Text and Line won't be displayed if enableConversationSeparator is disable, even if  enableConversationSeparatorTextMessage or enableConversationSeparatorLine are enabled
 
@@ -141,7 +141,7 @@ Provider accounts can now use a wildcard within the welcome messages based on th
 ## [Marketplaces] Collapse consumer message history when new conversation starts 
 ### Type: New functionality (WX 10.7)
 
-Brands can now configure collapsing message history in the consumer window. Utilizing this option reduces initial window load time and improves consumer experience for consumers with long message histories. We will be slowly changing the default for all brands to collapse history in the coming months. This setting can be changed at any time in the Engagement Window Studio (Under the ![](img/week-of-february-8th-2.png) menu > Look and Feel section).
+Brands can now configure collapsing message history in the consumer window. Utilizing this option reduces initial window load time and improves consumer experience for consumers with long message histories. We will be slowly changing the default for all brands to collapse history in the coming months. This setting can be changed at any time in the Engagement Window Studio (Under the menu > Look and Feel section).
 
 ![](img/week-of-february-8th-3.png)
 
