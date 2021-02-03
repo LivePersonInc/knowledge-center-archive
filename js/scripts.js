@@ -16,6 +16,7 @@ $(document).ready(function () {
 	searchFunction();
 	if (url.includes('/data-reporting-reporting-metrics.html')) {
 		loadData()
+		$('#maincontent').addClass('page-no-right-sidebar');
 	}
 	$(document).ready(function () {
 	scrollToHash();
