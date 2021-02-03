@@ -116,6 +116,10 @@ p + ul {
   border-right: 0;
 }
 
+#post-content table tr td.description {
+  text-align: left;
+}
+
 #post-content .tablecontainer table {
   margin-bottom: 0px;
 }
