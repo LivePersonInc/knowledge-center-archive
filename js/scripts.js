@@ -60,7 +60,8 @@ function navigateContent(url) {
 			searchFunction();
 			replaceTitle();
 			if (url.includes('/data-reporting-reporting-metrics.html')) {
-				loadData()
+				loadData();
+				$('#maincontent').addClass('page-no-right-sidebar');
 			}
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
