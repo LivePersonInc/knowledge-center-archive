@@ -138,7 +138,7 @@ A bug was discovered where in the file preview, the input text view is cut off p
 Provider accounts can now use a wildcard within the welcome messages based on the Merchant account’s configuration to provide a more personalized experience to a Network Manager driven conversation. This enhancement will display the Merchant’s configured Brand Name within the Provider defined welcome message, so that after the consumer starts a conversation with Merchant A, the welcome message is unique to Merchant A.  Given they engage with Merchant B, the welcome message can be specific to Merchant B. This allows consumers to feel confident they are messaging the correct brand, and for individual brands to showcase themselves within the provider messaging experience. 
 
 
-## [Marketplaces] Collapse consumer message history when new conversation starts 
+## [Window] Collapse consumer message history when new conversation starts 
 ### Type: New functionality (WX 10.7)
 
 Brands can now configure collapsing message history in the consumer window. Utilizing this option reduces initial window load time and improves consumer experience for consumers with long message histories. We will be slowly changing the default for all brands to collapse history in the coming months. This setting can be changed at any time in the Engagement Window Studio (Under the menu > Look and Feel section).
