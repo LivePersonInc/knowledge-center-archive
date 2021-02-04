@@ -14,6 +14,10 @@ $(document).ready(function () {
 	}, 2000)
 	capabilitiesSearch();
 	searchFunction();
+	if (url.includes('/data-reporting-reporting-metrics.html')) {
+		loadData()
+		$('#maincontent').addClass('page-no-right-sidebar');
+	}
 	$(document).ready(function () {
 	scrollToHash();
 	if(checkCookie(window.cookieName) != window.cookieValue){
@@ -56,6 +60,10 @@ function navigateContent(url) {
 			capabilitiesSearch();
 			searchFunction();
 			replaceTitle();
+			if (url.includes('/data-reporting-reporting-metrics.html')) {
+				loadData();
+				$('#maincontent').addClass('page-no-right-sidebar');
+			}
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
 			//jump to top when page loads if no hash
@@ -83,6 +91,30 @@ function navigateContent(url) {
 		});
 	};
 
+function loadData() {
+	console.log('loading data')
+	var staticUrl = "/data/reportbuilder.json"
+	fetch(staticUrl)
+		.then(response => response.json())
+		.then(metricData => {
+			metricData.map((metricitem) => {
+				let { ELEMENT_NAME, ANALYSIS_TYPE, CHANNEL, DESCRIPTION, DASHBOARD, FILTERED_BY, FORMULA } = metricitem;
+				jQuery(".metric-table").append(`
+          <tr>
+            <td class="metric">${ELEMENT_NAME}</td>
+            <td class="analysis">${ANALYSIS_TYPE}</td>
+            <td class="channel">${CHANNEL}</td>
+            <td class="description">${DESCRIPTION}</td>
+            <td class="dashboard">${DASHBOARD}</td>
+            <td class="filtered">${FILTERED_BY}</td>
+            <td class="formula">${FORMULA}</td>
+          </tr>
+        `);
+			});
+		})
+}
+
+	
 //a function to control a click on internal links
 function linkclick(event, that) {
 	if (event.isTrigger) {

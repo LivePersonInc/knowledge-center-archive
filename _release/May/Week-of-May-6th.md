@@ -68,8 +68,6 @@ You can either access this UI via [https://faas.liveperson.net](https://faas.liv
 
 To get access to this page, you'll need to ask your LivePerson account team to enable the correct permissions for your account. Please contact them to do so. Please see the [Developers Community](https://developers.liveperson.com/function-as-a-service-getting-started.html) for more information.
 
-AC Feature FaaS.FaaS needs to be enabled for the account.
-
 **Screenshots**
 
 ![](/img/FaaS-external-UI.png)

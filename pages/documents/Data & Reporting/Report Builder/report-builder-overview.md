@@ -22,6 +22,8 @@ Brands with a customer success offering can request customized dashboards with s
 
 * Evaluate and optimize agent efficiency
 * Identify opportunities to convert more consumers using funnel dashboards
+* Track and analyze the performance of conversational bots serving as messaging agents
+* Measure the effect of agent annotations on the performance of bots designed by Conversation Builder
 * Plan ahead for staffing needs through skill supply and demand analysis
 * Track every assisted conversion achieved by agents
 * Understand how messaging operations can be optimized and track progress as messaging adoption increases

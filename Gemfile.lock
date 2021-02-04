@@ -141,6 +141,7 @@ GEM
 PLATFORMS
   ruby
   x64-mingw32
+  x86_64-darwin-19
 
 DEPENDENCIES
   autoprefixer-rails
@@ -158,4 +159,4 @@ DEPENDENCIES
   sprockets (~> 4.00.beta8)
 
 BUNDLED WITH
-   2.0.2
+   2.2.2

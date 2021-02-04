@@ -116,6 +116,10 @@ p + ul {
   border-right: 0;
 }
 
+#post-content table tr td.description {
+  text-align: left;
+}
+
 #post-content .tablecontainer table {
   margin-bottom: 0px;
 }
@@ -384,6 +388,34 @@ ul.mysidebar.nav > li:first-of-type {
   align-items: center;
   z-index: 1;
 }
+
+/* Page without right sidebar - Starts */
+.page-no-right-sidebar  {
+
+}
+.page-no-right-sidebar .anchorlist{
+  display: none;
+}
+.page-no-right-sidebar #post-content {
+  width: 100%;
+}
+
+.page-no-right-sidebar #post-content > p {
+  width: 60%;
+}
+
+.page-no-right-sidebar #post-content #metrics, .page-no-right-sidebar #post-content #metrics .metricstable {
+  width: 100% !important;
+}
+@media screen and (max-width: 1440px) {
+  .page-no-right-sidebar #metrics .tablecontainer, .page-no-right-sidebar #post-content > p {
+        width: 100%;
+  }
+      .page-no-right-sidebar #defaultcontent {
+        padding-right: 20px;
+  }
+}
+/* Page without right sidebar - Ends */
 
 .casey {
   /* padding: 20px 43px; */

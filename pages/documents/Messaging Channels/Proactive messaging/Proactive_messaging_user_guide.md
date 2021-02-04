@@ -96,7 +96,7 @@ Users can create a WhatsApp message template and submit it to WhatsApp for appro
 ### Step 2 - Define Recipients
 ![](img/Proactive_userguide6.png)
 
-Users can define recipients by two different methods, uploading the list of recipients via .csv file or typing in the recipient phone numbers and possible message content (if the user would like to have a different message per phone number).
+Users can define recipients by two different methods, uploading the list of recipients via .csv file or typing in the recipient phone numbers and possible message content (if the user would like to have a different message per phone number). Please note that 100K recipients is supported through .csv upload.
 
 #### Requirements:
 
@@ -113,7 +113,7 @@ Users can define recipients by two different methods, uploading the list of reci
 * If there are any syntax errors, users will see the highlighted phone number with the error.
 
 {: .notice}  
-When uploading a .csv file with a list of recipient, if there are any errors, changes will need to be made in the .csv file and re-uploaded. It is not possible to make a manual change inside the tool.
+When uploading a .csv file with a list of recipient (up to 100k recipients), if there are any errors, changes will need to be made in the .csv file and re-uploaded. It is not possible to make a manual change inside the tool.
 
 ### **Examples**:
 #### SMS example
@@ -204,7 +204,7 @@ The following are the known limitations for Proactive Messaging:
 
 1. Number of lines entered into the text area is limited to 100 lines.
 If you choose to manually enter phone numbers rather than use a .csv file upload, there is a limit of 100 numbers that can be added. We suggest using a .csv file upload rather than manually typing out numbers for larger call list volumes.
-2.The CSV file is limited today to 1000 recipients. This will be increased soon to 100,000 recipients.
+2.The CSV file is limited to 100,000 recipients.
 3. When Prioritized is selected as a channel, there is no opt-out text sent for SMS. For example, if brand configures WhatsApp as primary channel and SMS as fallback channel, when brand detects a consumer isn’t eligible for WhatsApp, we will attempt to send the same message to SMS channel, however there is no opt-out text included in the SMS text messaging being sent i.e. ‘To stop receiving messages just reply STOP’.
 4. For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. When the message is over 140 characters, it will go out over 2 messages.
 

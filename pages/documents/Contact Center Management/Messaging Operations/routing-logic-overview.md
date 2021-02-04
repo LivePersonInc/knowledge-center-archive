@@ -42,7 +42,7 @@ LivePerson Consulting Services can configure automatic skill selection; self-ser
 
 ### **Skill selection based on consumer profile**
 
-As part of the authentication flow, the authentication server can provide information on the consumer’s authenticated engagement attributes (SDEs). Engagement attributes are layers of information about a consumer that are recorded throughout their consumer journey. These attributes can be used for skill selection (and will also be presented to the assigned Agent once they receive the incoming conversation); the relationship between attributes and skill can be configured by LivePerson Consulting Services. Read more about [engagement attributes](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) and [authentication](https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html).
+As part of the authentication flow, the authentication server can provide information on the consumer’s authenticated engagement attributes (SDEs). Engagement attributes are layers of information about a consumer that are recorded throughout their consumer journey. These attributes can be used for skill selection (and will also be presented to the assigned Agent once they receive the incoming conversation); the relationship between attributes and skill can be configured by LivePerson Consulting Services. Read more about [engagement attributes](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) and [authentication](https://developers.liveperson.com/essential-resources-getting-started-with-authentication.html).
 
 The following engagement attributes are currently supported for skill selection:
 

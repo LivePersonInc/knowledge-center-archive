@@ -44,6 +44,8 @@ If after submitting the **Forgot password** form, you received the **Request sub
    – Reach out to another **local admin** for help enabling your user.  
    – Contact your LivePerson **account team** for help.  
    – Contact LivePerson Support and ask them to **open a case** for your account team, requesting that they contact you regarding your login problems. Your account manager will validate your request and help you enable your user.
+   
+For details on how to enable a user, [click here](troubleshooting-enable-a-user.html). 
 
 ## The reset password button in the email doesn’t work; it takes me back to the “forgot password” page.
 

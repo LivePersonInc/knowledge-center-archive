@@ -34,6 +34,7 @@ It’s also possible for brands to create profiles - customized permissions sets
 
 * Set the maximum number of chats that the user can accept at any given moment. Consider your agent’s capabilities, the number of agents available, etc.
 * If your brand is enabled with the messaging feature, set the maximum number of messaging conversation.
+* To give a user with the agent profile the status of AWAY by default, configure the maximum number of both chats and messages as "zero" in their User Details.
 
 #### There are two options for this setting:
 
@@ -71,11 +72,13 @@ Agents who are not assigned to skills can only accept chats originated by engage
 {: .notice}  
 When duplicating a user, the administrator will still need to complete the following fields: login name, email, name, nickname, employee ID and password.
 
-### To enable \\ disable a user
+### To enable/disable a user
 
 1. On the users list, click the user.
 2. Click the enable button.
 3. Click save.
+
+For more information, [click here](troubleshooting-enable-a-user.html). 
 
 ### To delete a user:
 

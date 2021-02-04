@@ -61,9 +61,12 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | --- | --- | --- | --- |
 | Chrome |  | Latest available version (N)* , Version N-1 |  |
 | Mozilla Firefox |  | Latest available version (N)* , Version N-1 |  |
-| Internet Explorer | 11x* | 11x* | 11x* |
 | Microsoft Edge | N/A | N/A | Latest available version (N)* , Version N-1 |
 | Safari |  | Not supported |  |
+
+
+{: .notice}  
+**Please note** Microsoft will end its support for Internet Explorer 11 and will move to support the new Microsoft Edge as such LivePerson is discontinuing support for IE11.
 
 {: .notice}  
 **Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
@@ -79,15 +82,19 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 {: .notice}  
 **Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
-
 ## Visitor side: unsupported browsers
 
 We do not support incognito / private browsing in any browser.
 
 Some browsers are not supported at all due to experience or security reasons.  When consumers arrive to your website from certain browsers, the Conversational Cloud will not display any chat buttons or invitations, for example on:
 
-* Internet Explorer 7, 8, 9 and 10
+* Internet Explorer 7, 8, 9, 10, 11
 * Line browsers
+
+{: .notice}  
+**Please note:** Microsoft will end its support for Internet Explorer 11 and will move to support the new Microsoft Edge by Nov 30th 2020 as such LivePerson is discontinuing support for IE11. Please see the Microsoft [announcement.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666)
+
+The recommended browser for the LivePerson messaging workspace is Chrome.
 
 ## Visitor side: Mobile SDK Requirements
 
@@ -100,31 +107,32 @@ The support for new OS releases from Apple and Google (iOS and Android OS) for t
 
 ### Latest releases
 
-Please refer here: https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html
+Please refer here: [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-release-notes-all-releases.html) and [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes-all-release-notes.html)
 
 ### Android
 
-* Android SDK v4.4 \[includes support for API 19-28\] (excludes AndroidX support)
-* Android SDK v5.2 \[includes support for API 19-29\] (uses / requires AndroidX)
-  **Libraries:**
-  1. com.google.android.gms:play-services-maps:16.1.0
-  2. com.squareup.okhttp3:okhttp:3.9.1
-* All releases below SDK v4.4 - Refer to the release notes in the [Developer Center](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
+Android SDK v4.6.1 and below excludes AndroidX support [supports API 21-30]
+
+Android SDK v5.0.0 and above includes AndroidX support  [supports API 21-30]
+
+**The SDK uses the following libraries:**
+* Com.google.android.gms:play-services-maps:16.1.0
+* Com.squareup.okhttp3:okhttp:3.9.1
 
 ### iOS
 
 | SDK version | Swift | Xcode Version | iOS Version |
 | --- | --- | --- | --- |
-| 4.2 - X | 5.1.0 | 11 | iOS 11 - 13 |
-| 3.9.3 - 4.1 | 5.0.1 | 10.2.1 | iOS 10 - 12.4 |
-| 3.7.1 - 3.9.2 | 5.0.0 | 10.2.0 | iOS 10 - 12.4 |
+| 6.1.0 | 5.2.4+ | 12.0 | iOS 12 - 14 |
+| 6.0.1 | 5.2.4+ | 11.5, 11.6 & 11.7 | iOS 11 - 13 |
+| 5.22 | 5.1.3 & 5.2.4 | 11.3, 11.3.1, 11.5, 11.6 & 11.7 | iOS 11 - 13 |
 
-Official support for the iOS version for the latest SDK will be n, n-1 and n-2 as shown in the table above.
-Official support for LivePerson iOS SDK version is only for the current Swift version and previous Swift version.
+The SDK is compiled as a XCFramework and was compiled with Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53) which means it will work with Swift version 5.2.4 and above. For more information on XCFramework, see [Apple documentation.](https://help.apple.com/xcode/mac/11.4/#/dev6f6ac218b)
+
+Official support for the latest iOS SDK versions will be N, N-1 and N-2 as shown in the table above. Official support for LivePerson iOS SDK version is only for the current Swift version (N) and previous Swift version (N-1).
 
 All iOS OS beta releases will be provided approximately 1 month before the actual GA for the purpose of compilation only (no bug fixes or new iOS features supported). Once the GA is released, we will accept requests for new iOS features.
-
-Currently, we only support Cocoapods dependency manager, frameworks are also available in binary format. Excludes official support for Carthage and Swift package manager.
+Currently, we only support Cocoapods dependency manager, frameworks can also be integrated manually using the XCFramework binary format. We do not support integration with Carthage or Swift package manager.
 
 ## LivePerson workspace requirements
 
@@ -136,7 +144,6 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | --- | --- | --- | --- |
 | Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
 | Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
-| Internet Explorer | 11x* | 11x* | 11x* , Edge* |
 | Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
 | Safari | Not supported | Not supported | Not supported |
 

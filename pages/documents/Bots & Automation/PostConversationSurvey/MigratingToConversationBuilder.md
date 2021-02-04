@@ -54,12 +54,12 @@ If you currently use Bot Studio to trigger surveys, you must *manually switch* t
 **To migrate to Conversation Builder**
  
 1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Click the **PCS Connector** tab.
+2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
 3. Click the 3-dot icon beside the agent connector, and select **Migrate to Conversation Builder**.
  
     A confirmation message appears to indicate that the account has been migrated to Conversation Builder. Subsequently, the page is refreshed. You should see each survey bot listed individually with a "Deployed" indicator.
  
-     <img style="width:1000px" src="img/surveyBot_monitoring5.png">
+     <img style="width:800px" src="img/surveyBot_monitoring5.png">
  
 ### Troubleshooting - Refresh the survey bot connector
  
@@ -68,7 +68,7 @@ If you've just migrated from Bot Studio to Conversation Builder, but things don'
 **To refresh the survey bot connector**
  
 1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Click the **PCS Connector** tab.
+2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
 3. Click the 3-dot icon beside the agent connector, and select **Refresh Connector**.
  
 ### Troubleshooting - Roll back to Bot Studio
@@ -78,7 +78,7 @@ Rolling back to Bot Studio reverts your account to triggering surveys from Bot S
 **To roll back to Bot Studio**
  
 1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Click the **PCS Connector** tab.
+2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
 3. Click the 3-dot icon beside the agent connector, and select **Roll back to Bot Studio**.
     
     A confirmation message appears to indicate that the account has been rolled back to Bot Studio. Subsequently, the page is refreshed. You should see an undeployed agent connector.

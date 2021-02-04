@@ -14,12 +14,14 @@ published: true
 redirect_from: ai-bots-automation-maven-maven-assist.html
 ---
 
-## Agent assist
+## Agent Assist
 
-Agent Assist improves productivity by suggesting the next best action (Bots or [Knowledge Base](https://developers.liveperson.com/conversation-builder-knowledge-base.html) articles) to agents in real time, based on consumer’s intent.
+Agent Assist improves productivity by recommending the best next actions ([Knowledge Base](https://developers.liveperson.com/conversation-builder-knowledge-base.html) articles and/or bots) to agents in real time, based on the consumer’s intent.
 
-The Conversation Orchestrator analyzes all available automations for the identified intent and recommends the best one in real time to the agent. Recommendations are done by choosing the highest ranked bot or KB article by score, after calibrating the score using a machine learned signal about the historical performance. Agents can opt to manually use the KB article to help the user, or join the bot to the conversation, monitor, and remove if needed.
+The Conversation Orchestrator analyzes all available articles and bots for the identified intent and recommends the best ones in real time to the agent. Recommendations are made by choosing the highest ranked ones by score, after calibrating the score using a machine-learned signal about the historical performance.
 
-<img class="fancyimage" width="800" src="img/maven-assist-RA.png">
+Agents can opt to manually use a knowledge base article to help the user; or join a bot to the conversation, monitor, and remove the bot if needed.
 
-For more information on implementation, please see the LivePerson [Developer Center](https://developers.liveperson.com/maven-maven-assist-overview.html).
+<img class="fancyimage" width="600" src="img/maven-assist-RA.png">
+
+For more information on implementation, please see the LivePerson [Developer Center](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html).

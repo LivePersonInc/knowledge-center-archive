@@ -28,6 +28,7 @@ The data currently available in the predefined dashboards are as follows:
 * [**Survey dashboard for Messaging**](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)
 Includes information about responses to surveys
 * [**Business dashboard for Messaging**](data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html) Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
+* [**Bot performance dashboard for Messaging**](data-reporting-messaging-messaging-dashboards-bot-performance-dashboard-for-messaging.html) Includes information about the performance of conversational bots serving as messaging agents.
 
 **Chat only dashboards:**
 

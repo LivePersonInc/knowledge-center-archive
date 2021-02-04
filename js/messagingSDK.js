@@ -1,7 +1,7 @@
 //initializing the messagingSDK
 var windowKit = new windowKit({
-  account: 89307955
-  //skillId: 12341234 - optional skill ID
+  account: 89307955,
+  skillId: 1517254714
 });
 //declaring variables
 var userinput =

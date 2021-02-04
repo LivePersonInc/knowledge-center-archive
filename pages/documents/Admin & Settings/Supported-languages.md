@@ -83,6 +83,50 @@ The [Agent Workspace](https://knowledge.liveperson.com/agent-manager-workspace-a
 * Vietnamese
 * Russian
 
+## Languages supported in the Mobile SDK 
+
+The [Mobile SDK](messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html) supports 39 languages and dialects:
+
+* Bulgarian
+* Chinese (Simplified)
+* Chinese (Traditional Hong Kong)
+* Chinese (Traditional Taiwan)
+* Croatian
+* Czech
+* Danish
+* Dutch
+* English (US)
+* English (UK)
+* Estonian
+* Finnish
+* French
+* German
+* Greek
+* Hebrew
+* Hindi
+* Hungarian
+* Italian
+* Japanese
+* Korean
+* Latvian
+* Lithuanian
+* Macedonian
+* Norwegian
+* Polish
+* Portuguese (Brazil)
+* Portuguese (Portugal)
+* Romanian
+* Russian
+* Serbian
+* Slovak
+* Slovenian
+* Spanish
+* Swedish
+* Thai
+* Turkish
+* Ukrainian
+* Vietnamese
+
 ## Languages supported in CoBrowse
 
 [CoBrowse](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) supports the following languages in the Agent Workspace and on the visitor side:

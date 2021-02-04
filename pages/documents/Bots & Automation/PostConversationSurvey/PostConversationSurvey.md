@@ -25,7 +25,7 @@ When you build a survey bot in Conversation Builder, you can use special, predef
 * Customer Satisfaction (CSAT)
 * First Contact Resolution (FCR)
 
-Data on these survey metrics is captured in Conversational Cloud and exposed via the [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) application. You'll find this information in the predefined [Survey Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html), which you can use out-of-the-box or manipulate to create customized reports.
+The Post-Conversation Survey bot does not affect the conversation’s duration. Data on these survey metrics is captured in Conversational Cloud and exposed via the [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) application. You'll find this information in the predefined [Survey Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html), which you can use out-of-the-box or manipulate to create customized reports.
   
 {: .important}
 To use survey bots created in Conversation Builder, you must be on the LivePerson platform, i.e., you log into Conversation Builder via single sign-on through Conversational Cloud. This feature isn't supported on the AWS platform where you log into Conversation Builder directly.<br><br>

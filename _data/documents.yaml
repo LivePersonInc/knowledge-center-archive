@@ -39,12 +39,10 @@
         - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Apple Business Chat
       pages:
-        - pagename: Overview
-        - pagename: Setting Up Apple Business Chat
-        # - pagename: Business Chat Policies and Best Practices
-        # - pagename: Entry Points and Supported Messaging Features
-        # - pagename: Post-Launch Care and Maintenance
-        # - pagename: Troubleshooting
+        - pagename: Apple Business Chat overview
+        - pagename: Setup guide
+        - pagename: Entry Points
+        - pagename: Features
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google
       pages:
@@ -58,8 +56,7 @@
       pages:
         - pagename: Social Messaging overview
         - pagename: Social Messaging user guide
-    - subcategoryname: EmailConnect
-
+    - subcategoryname: Email Connect
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
@@ -87,6 +84,7 @@
    - subcategoryname: Conversational AI
    - subcategoryname: How bots work with LivePerson
    - subcategoryname: Third Party Bot Connectors
+   - subcategoryname: AI Annotators
    - subcategoryname: Conversation Orchestrator
      pages:
        - pagename: Overview
@@ -105,6 +103,7 @@
        - pagename: Getting started
        - pagename: Create and Optimize Intents      
        - pagename: Dashboard
+       - pagename: Intent Manager updates
    - subcategoryname: Post-conversation surveys
      pages:
        - pagename: Post-Conversation Survey bot
@@ -233,8 +232,7 @@
         - pagename: Predefined content best practices
     - subcategoryname: Agent app
       pages:
-        - pagename: iOS user guide
-        - pagename: Android user guide
+        - pagename: Agent app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -252,6 +250,7 @@
             - level3name: Business dashboard for messaging
             - level3name: Agent activity dashboard
             - level3name: Goal tracker report
+            - level3name: Bot performance dashboard for messaging 
         - pagename: Messaging conversation segments
     - subcategoryname: Live chat
       pages:
@@ -280,6 +279,7 @@
         - pagename: Analytics Builder FAQs
         - pagename: "Data availability & latency"
         - pagename: Training tutorials
+        - pagename: Analytics Builder permissions
         - pagename: Moving from BI to Analytics Builder
     - subcategoryname: Engagement attributes
       pages:
@@ -376,17 +376,38 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: December what's new
+    - subcategoryname: November what's new
+    - subcategoryname: September what's new    
     - subcategoryname: August what's new    
     - subcategoryname: July what's new
     - subcategoryname: June what's new
-    - subcategoryname: April what's new
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
     - subcategoryname: Latest Release Notes
+    - subcategoryname: 2021
+      pages:
+        - pagename: February
+          level3:
+            - level3name: Week of February 1st
+        - pagename: January
+          level3:
+            - level3name: Week of January 25th 
+            - level3name: Week of January 18th 
     - subcategoryname: 2020
       pages:
+        - pagename: December
+          level3:
+            - level3name: Week of December 28th 
+            - level3name: Week of December 14th   
+            - level3name: Week of December 7th 
+            
+        - pagename: November
+          level3:
+            - level3name: Week of November 2nd 
+            - level3name: Week of November 9th         
         - pagename: October
           level3:
             - level3name: Week of October 5th
@@ -397,36 +418,6 @@
             - level3name: Week of September 14th
             - level3name: Week of September 21st
             - level3name: Week of September 28th
-        - pagename: August
-          level3:
-            - level3name: Week of August 31st
-            - level3name: Week of August 24th
-            - level3name: Week of August 17th
-            - level3name: Week of August 3rd
-        - pagename: July
-          level3:
-            - level3name: Week of July 13th
-            - level3name: Week of July 20th
-            - level3name: Week of July 27th
-        - pagename: June
-          level3:
-            - level3name: Week of June 1st
-            - level3name: Week of June 8th
-            - level3name: Week of June 15th
-            - level3name: Week of June 29th
-        - pagename: May
-          level3:
-            - level3name: Week of May 4th
-            - level3name: Week of May 11th
-            - level3name: Week of May 18th
-            - level3name: Week of May 25th
-        - pagename: April
-          level3:
-            - level3name: Week of April 1st
-            - level3name: Week of April 6th
-            - level3name: Week of April 13th
-            - level3name: Week of April 20th
-            - level3name: Week of April 27th
 
 - categoryname: Troubleshooting
   image: Troubleshooting
@@ -435,6 +426,7 @@
     - subcategoryname: Status page
     - subcategoryname: Status Dashboard push notifications
     - subcategoryname: 'Login & password'
+    - subcategoryname: Enable a user
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
       pages:

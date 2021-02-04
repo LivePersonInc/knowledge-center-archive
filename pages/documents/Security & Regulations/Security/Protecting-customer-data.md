@@ -80,3 +80,7 @@ The optional IP based restriction access list that is built into the platform en
 
 Note: As the unique Site ID validation is utilized in each request, the configuration is unique per customer account. One customer’s account policy cannot impact upon another customer’s policy.
 These controls are extensively tested by independent third party security experts on a regular basis as part of the LivePerson security vulnerability assessment and penetration testing processes.
+
+## GDPR & Data Privacy Resources
+For information on GDPR & Data Privacy Resources, click [here](https://www.liveperson.com/policies/gdpr-data-privacy/).
+For The EU General Data Protection Regulation (GDPR) Whitepaper, click [here](https://www.liveperson.com/sites/default/files/pdfs/LP-GDPR-White-Paper.pdf)
