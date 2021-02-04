@@ -40,9 +40,9 @@ AI Annotator achieves this by providing users who view conversations with the ab
 
 ![](img/ai-annotator-12.gif)
 
-### Setting up Intent Annotations
+## Setting up Intent Annotations
 
-#### Step 1 - Enable bots to create Intent Annotations
+### Step 1 - Enable bots to create Intent Annotations
 
 In the Conversation Builder Bot Settings, go to “More Settings” for the bot which is expected to open Intent Annotations. Select bots that handle conversations with consumers, using the LivePerson NLU with either NLU V1 or NLU V2. Note that Patterns will not result in Intent Annotations.
 
@@ -56,7 +56,7 @@ Turn on the permission “AI Annotator: handle Intent Annotations” via “Edit
 
 ![](img/ai-annotator-4.png)
 
-#### Step 2 - Provide users with permissions to submit Intent Annotations
+### Step 2 - Provide users with permissions to submit Intent Annotations
 
 To enable users to view the “Intent Annotations” widget to submit Intent Annotations, turn on the permission “AI Annotator: handle Intent Annotations” via “Edit Profile” and click “Save”. This permission is available for the roles: agent,  agent manager, and admin, and is Off by default. The ability to annotate will be added to any user with the permission.
 
@@ -66,7 +66,7 @@ To edit user roles click on the Manage users and skills tab, and make sure the r
 
 ![](img/ai-annotator-6.png)
 
-#### Step 3 - Provide users with permissions to view submitted Intent Annotations
+### Step 3 - Provide users with permissions to view submitted Intent Annotations
 
 To enable users to view, copy, and export the submitted Intent Annotations in the new AI Tasks tab, turn on the permission “AI Annotator: View AI Tasks”  Via “Edit Profile”.
 
@@ -74,15 +74,15 @@ This permission is available for the roles: agent manager and admin, and is Off 
 
 ![](img/ai-annotator-7.png)
 
-#### Expected results 
+### Expected results 
 
 With the configurations above done properly, a user with an “AI Annotator: handle Intent Annotations” permission will be able to see and submit annotations created by bots which were set to open annotations. In addition, users with the permission  “AI Annotator: View AI Tasks”, will be able to review, copy and export submitted annotations.
 
 ![](img/ai-annotator-8.png)
 
-### Using Intent Annotations
+## Using Intent Annotations
 
-#### Identifying conversations with open Intent Annotations
+### Identifying conversations with open Intent Annotations
 
 Conversations with open Intent Annotations will feature a new icon in the shape of a question mark, appearing to the left of the conversation preview avatar. Conversations that have no Intent Annotations, or conversations in which all Intent Annotations have been submitted, will not feature the icon.
 
@@ -92,7 +92,7 @@ All the conversations with Intent Annotations can be easily found by using the f
 
 ![](img/ai-annotator-10.png)
 
-#### Identifying messages with annotations
+### Identifying messages with annotations
 
 A message which has an open Intent Annotation will feature the question mark icon within the transcript area. If the Intent Annotation has not been submitted, the color of the icon will be white. If the Intent Annotation has been submitted, the color of the icon will be green.
 
@@ -100,7 +100,7 @@ A second method of identifying messages with Intent Annotations is by using the 
 
 ![](img/ai-annotator-11.png)
 
-#### Submitting an annotation 
+### Submitting an annotation 
 
 To submit an Intent Annotation, click on the Intent Annotations widget icon. Within the widget, click on the message to reveal the Domain and Intent dropdown lists. The lists are populated with the domains and intents that were defined by the brand. Select the domain from the dropdown list and then select the intent. Click “Submit”. 
 
@@ -108,7 +108,7 @@ To submit an Intent Annotation, click on the Intent Annotations widget icon. Wit
 
 ![](img/ai-annotator-12.gif)
 
-#### Reviewing an Intent Annotation 
+### Reviewing an Intent Annotation 
 
 All submitted Intent Annotations, including the consumer message and the suggested domain and intent, will be available for review in the AI Tasks tab. You may filter for the Intent Annotations according to the time in which they were opened, navigate to the conversation to which it belongs, and copy an individual message to the clipboard. You may also export the list of Intent Annotations as a csv file.
 
@@ -116,7 +116,7 @@ All submitted Intent Annotations, including the consumer message and the suggest
 
 ***Remember:** viewing the AI Tasks tab requires granting a role permission.
 
-#### Adding Intent Annotations to an intent
+### Adding Intent Annotations to an intent
 
 Once the consumer message has been copied to the clipboard, open Intent Builder, paste it into the corresponding intent and update the model. If you are using NLU version 2, click on “Train model”. Once the process is complete, similar consumer messages will be correctly identified by the bot. To import  bulk intents to Intent Builder, please see the following [article](https://developers.liveperson.com/intent-builder-domains.html).
 
