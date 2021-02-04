@@ -48,9 +48,10 @@ function navigateContent(url) {
 			$('.caseyPortrait').attr('src', 'img/closed-casey-header.svg');
 			//add anchor links to all h3 titles. See respective functions below for what they do.
 			if ($titlecontainer.html().indexOf('Welcome' == -1)) {
-				$('#documenttitlecontainer').removeClass('botTitle')
+				$('#documenttitlecontainer').removeClass('documentHome')
 				$('#defaultwrapper').removeClass('botwrapper');
-				$('#resetcontainer').css('display', 'none');
+				$('#maincontent').removeClass('mainHome');
+				$('#defaultcontent').removeClass('homeContent');
 			}
 			anchors.add('h2, h3');
 			// $('#mysidebar div.activeitem').removeClass('activeitem');

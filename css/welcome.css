@@ -1,0 +1,211 @@
+.documentHome {
+    border-bottom: 0 !important;
+    padding-left: 35px;
+}
+
+.welcome-card {
+    flex: 0 499px;
+    padding: 24px;
+    margin-right: 1%;
+    min-height: 180px;
+    max-height: 180px;
+    /* Primary/White */
+    background: #FFFFFF;
+    /* J/Navy Lighter Gray */
+    margin-bottom: 16px;
+    border: 1px solid #8C909C;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.welcome-card:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+}
+
+.header-label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 560px;
+    flex: 2;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #2D2F52;
+    margin-left: 10px;
+}
+
+.success-stories-header {
+    font-size: 24px;
+    line-height: 33px;  
+    max-width: 418px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    color: #ffffff;
+    letter-spacing: 0.008em;
+    margin-top: -40px;
+}
+
+.container-image {
+    margin: 0 0 16px 0;
+}
+
+.card-container {
+    display: flex;
+    margin-top: 18px;
+    padding-right: 48px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+img.card-container {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.welcome-title {
+    color: #090C43;
+    font-weight: bold;
+    margin: 0;
+    max-width: 424px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+}
+
+.welcome-title.parent:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+}
+
+.welcome-content {
+    color: #2D2F52
+}
+
+#success-stories {
+    background-image: url('../img/Group-29.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#success-stories a {
+    text-decoration: none;
+}
+
+#free-trial {
+    background: #090C43;
+    flex: 0 975px;
+    display: flex;
+    margin-top: 40px;
+    padding: 40px 0 40px 40px;
+    border-radius: 8px;
+}
+
+#free-trial-button-welcome {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    justify-content: flex-end;
+}
+
+.free-trial-container {
+    display: flex;
+    padding-right: 48px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#free-trial-content-container {
+    flex: 3;
+}
+
+.create-button {
+    border-radius: 25px;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: inherit;
+}
+
+.create-button:hover {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.free-trial-header {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.free-trial-label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 24px;
+    letter-spacing: 0.01em;
+    color: white;
+}
+
+.homeContent {
+    margin-top: -30px !important; 
+    margin-left: -40px !important;
+}
+
+.mainHome {
+    flex-direction: column !important; 
+    width: 80% !important;
+}
+
+@media screen and (max-width: 1800px) {
+    .welcome-card {
+        flex: 0 430px;
+    }
+
+    #free-trial {
+        flex: 0 830px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .welcome-card {
+        flex: 0 380px;
+    }
+
+    #free-trial {
+        flex: 0 730px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .welcome-card {
+        flex: 0 350px;
+    }
+
+    #free-trial {
+        flex: 0 670px;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .homeContent {
+        margin-left: 20px !important;
+    }
+
+    .welcome-card {
+        flex: 0 300px;
+    }
+
+    #free-trial {
+        flex: 0 570px;
+    }
+}
