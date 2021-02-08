@@ -15,8 +15,8 @@ $(document).ready(function () {
 	capabilitiesSearch();
 	searchFunction();
 	if (url.includes('/data-reporting-reporting-metrics.html')) {
-		loadData()
 		$('#maincontent').addClass('page-no-right-sidebar');
+		loadData()
 	}
 	$(document).ready(function () {
 	scrollToHash();
@@ -61,8 +61,8 @@ function navigateContent(url) {
 			searchFunction();
 			replaceTitle();
 			if (url.includes('/data-reporting-reporting-metrics.html')) {
-				loadData();
 				$('#maincontent').addClass('page-no-right-sidebar');
+				loadData();
 			}
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
