@@ -452,9 +452,10 @@ ul.mysidebar.nav > li:first-of-type {
     flex-wrap: wrap;
 }
 .page-no-right-sidebar div#metrics tr td.description {
-   width: 30% !important;
+    width: 30% !important;
     flex-grow: 1;
-        flex-basis: 30%;
+    flex-basis: 30%;
+    justify-content: flex-start !important;
 }
 .page-no-right-sidebar #post-content table > thead > tr > th {
     width: 10%;
