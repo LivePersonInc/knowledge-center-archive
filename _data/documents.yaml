@@ -50,6 +50,7 @@
         - pagename: Google Business Messages
         - pagename: Distinction between GBM and RCS
     - subcategoryname: WhatsApp Business
+    - subcategoryname: Instagram
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
     - subcategoryname: Social Messaging
