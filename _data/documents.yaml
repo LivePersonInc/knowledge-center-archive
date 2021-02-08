@@ -85,7 +85,7 @@
    - subcategoryname: Conversational AI
    - subcategoryname: How bots work with LivePerson
    - subcategoryname: Third Party Bot Connectors
-   - subcategoryname: AI Annotators
+   - subcategoryname: AI Annotator
    - subcategoryname: Conversation Orchestrator
      pages:
        - pagename: Overview
