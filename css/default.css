@@ -390,9 +390,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 /* Page without right sidebar - Starts */
-.page-no-right-sidebar  {
 
-}
 .page-no-right-sidebar .anchorlist{
   display: none;
 }
@@ -403,10 +401,13 @@ ul.mysidebar.nav > li:first-of-type {
 .page-no-right-sidebar #post-content > p {
   width: 60%;
 }
-
+.page-no-right-sidebar table#datametricstable * {
+  box-sizing: border-box;
+}
 .page-no-right-sidebar #post-content #metrics, .page-no-right-sidebar #post-content #metrics .metricstable {
   width: 100% !important;
 }
+
 @media screen and (max-width: 1440px) {
   .page-no-right-sidebar #metrics .tablecontainer, .page-no-right-sidebar #post-content > p {
         width: 100%;
@@ -414,6 +415,61 @@ ul.mysidebar.nav > li:first-of-type {
       .page-no-right-sidebar #defaultcontent {
         padding-right: 20px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+/* New table design with freezing top thead */
+
+.page-no-right-sidebar div#metrics thead tr {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.page-no-right-sidebar div#metrics thead {
+  display: block;
+}
+
+.page-no-right-sidebar  div#metrics tbody {
+  display:block;
+  height: 60vh;
+  overflow-y: scroll !important;
+  width:100%;
+  }
+
+  .page-no-right-sidebar div#metrics tr {
+    display: flex;
+    flex: 1;
+}
+.page-no-right-sidebar div#metrics tr td {
+    display: flex;
+    width: 10% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 14px 18px;
+    flex-wrap: wrap;
+}
+.page-no-right-sidebar div#metrics tr td.description {
+   width: 30% !important;
+    flex-grow: 1;
+        flex-basis: 30%;
+}
+.page-no-right-sidebar #post-content table > thead > tr > th {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 5px 18px;
+}
+.page-no-right-sidebar #post-content table > thead > tr > th.description {
+    width: 30% !important;
+    flex-basis: 30%;
+    display: flex;
+}
+/* end of table new thead freezing */
 }
 /* Page without right sidebar - Ends */
 
