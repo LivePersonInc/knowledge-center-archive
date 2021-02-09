@@ -325,6 +325,11 @@ A bug was found where in specific scenarios a user logging into a second account
 
 A bug was found causing the title of the All Conversations page of the Agent Workspace to display in all capital letters for the Russian language. This issue has been resolved. 
 
+## [LE UI] Engagement Window Studio preview blank
+### Type: Bug fix (v12.7)
+
+For some APAC accounts, a bug was discovered where some accounts would see an engagement preview as blank and would have to create English engagements as a workaround. This issue has been resolved. 
+
 ## [LE UI] NEW permission for Agent Managers - Not relevant for now
 ### Type: Enhancement 
 
