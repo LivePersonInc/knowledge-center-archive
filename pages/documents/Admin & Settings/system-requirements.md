@@ -96,6 +96,15 @@ Some browsers are not supported at all due to experience or security reasons.  W
 
 The recommended browser for the LivePerson messaging workspace is Chrome.
 
+## Visitor side: unsupported browser extensions
+
+Due to the technical needs of the Conversation Cloud platform on the client-side, some browser extensions can not be supported.
+
+| Extension name | Description | Reason |
+| --- | --- | --- |
+| Bitdefender Anti-tracker | Blocks URLs from loading on a page based on Bitdefenders anti-tracking blacklist | Bitdefenders blocks our critical files from loading on the page |
+| Ghostery – Privacy Ad Blocker | Blocks URLs from loading on a page | Ghostery blocks our critical files from loading on the page |
+
 ## Visitor side: Mobile SDK Requirements
 
 The official support of the LP Mobile SDK version is for the latest version only at any given point of time. This is applicable for both iOS and Android SDK versions.
