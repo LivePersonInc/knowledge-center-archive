@@ -41,10 +41,14 @@ Another advantage that brands will have that the agents would be able to configu
   * Pages with admins in Europe in all chats
   * Any chats with people in Europe
 
-## [Instagram] New connector support
+## [Instagram] New channel support
 ### Type: New Functionality 
 
 The Conversational Cloud will support Instagram as a new third-party messaging channel.  Support for this popular platform will enable brands to engage in messaging on a larger scale  and quickly meet the needs of contact center operations while utilizing the Conversation Cloud capabilities. The new channel name “Instagram” will be displayed under the source engagement attribute in the consumer info section of the Conversational Cloud.
+
+**Limitations:** The Instagram connector is currently in an early adopter phase and requires approval from Facebook. Please reach out to your LivePerson account team in order to start the approval process. You should have a Facebook business page that is connected to an Instagram handle prior to the account setup.
+
+Instagram will be ready for self-service onboarding at the end of the month, but brands can start using the channel once approved. Sign up now using this [form](https://forms.gle/D7ycCEs4i8aTN7yC9). 
 
 ![](img/week-of-february-15th-4.png)
 
