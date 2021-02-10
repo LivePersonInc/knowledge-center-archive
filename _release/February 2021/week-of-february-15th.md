@@ -135,3 +135,18 @@ The Conversational Cloud now supports the Post Conversation Survey for the Insta
 
 {: .notice}
 **Please note:** This feature requires backend enablement, contact your LivePerson representative for more information.
+
+## [Bot Analytics] Download of transcripts is now supported
+### Type: New Functionality 
+
+**Channel:** This enhancement is available for all channels supported by the Conversational Cloud platform.
+
+In Bot Analytics, you can now download transcripts via the Transcripts view.
+![](img/RN-feb-bot-analytics-1.png)
+
+The following are known limitations in this release. These are soon to be resolved:
+
+* If you filter the transcripts using a Phrase Search, this returns only the first 10 results.
+* If you filter the transcripts using a Phrase Search and then download the returned transcripts, this yields an empty CSV file.
+* On the main dashboard, the Intent Match Rate now supports two decimal places. In the next release, this change will also be made to the Overview and Intents views for a bot.
+
