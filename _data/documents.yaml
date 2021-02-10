@@ -393,6 +393,7 @@
       pages:
         - pagename: February
           level3:
+            - level3name: Week of February 15th
             - level3name: Week of February 8th
             - level3name: Week of February 1st
         - pagename: January
