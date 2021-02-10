@@ -434,6 +434,7 @@ ul.mysidebar.nav > li:first-of-type {
   display:block;
   height: 60vh;
   overflow-y: scroll !important;
+  overflow-x: hidden;
   width:100%;
   }
 

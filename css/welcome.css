@@ -208,4 +208,37 @@ img.card-container {
     #free-trial {
         flex: 0 570px;
     }
+    .header-label {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .welcome-card {
+        flex: 0 100%;
+    }
+    .mainHome {
+        width: 100% !important;
+    }
+    .homeContent {
+        margin-left: 0 !important;
+        padding: 0 20px;
+    }
+    div#defaultwrapper {
+        overflow-x: hidden;
+    }
+    div#free-trial {
+        flex-direction: column;
+        align-items: center;
+    }
+    div#free-trial {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex: 0 100%;
+        padding: 40px;
+    }
+    div#defaultcontent div#maincontent .h1 {
+        width: 100%;
+    }
 }
