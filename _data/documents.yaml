@@ -125,7 +125,6 @@
         - pagename: Static load balancing
         - pagename: Private Messages overview
         - pagename: Automatic Messages
-        - pagename: Chat to Messaging overview
           level3:
             - level3name: Automatic Messages overview
             - level3name: Automatic Messages configuration
@@ -149,6 +148,7 @@
     - subcategoryname: Live chat operations
       pages:
         - pagename: Queue prioritization for live chat
+        - pagename: Moving from chat to messaging
         - pagename: Automatic conversation distribution
         - pagename: Automatic messages
         - pagename: Agent groups workload distribution
