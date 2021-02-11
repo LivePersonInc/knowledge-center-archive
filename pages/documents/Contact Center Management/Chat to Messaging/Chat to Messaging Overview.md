@@ -5,7 +5,7 @@ subCategoryName: Messaging operations
 indicator: messaging
 subtitle:
 level3: ''
-permalink: contact-center-management-chat-to-messaging-chat-to-messaging-overview.html
+permalink: contact-center-management-messaging-operations-chat-to-messaging-overview.html
 isTutorial: false
 date: '2021-02-11'
 isNew: false
