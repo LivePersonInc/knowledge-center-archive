@@ -13,6 +13,9 @@ isNew: false
 ---
 
 ## Introduction
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/489386309?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 Today, over 90% of day-to-day conversations happen through digital messaging channels like Web Messaging, SMS, Facebook, and WhatsApp. With messaging, businesses can connect to their consumers through their favorite channels and on their own time. This shift from traditional voice calls and live chat to messaging is transforming the way brands and consumers communicate. LivePerson’s Conversational Cloud was created with messaging in mind, providing a fully outfitted workspace and suite of tools to help you handle, manage, and scale messaging operations. 
 Why do consumers prefer messaging?
 Messaging was created to make consumer’s lives easier, some of the benefits for consumers include: 
