@@ -125,6 +125,7 @@
         - pagename: Static load balancing
         - pagename: Private Messages overview
         - pagename: Automatic Messages
+        - pagename: Chat to Messaging overview
           level3:
             - level3name: Automatic Messages overview
             - level3name: Automatic Messages configuration
