@@ -433,7 +433,7 @@ ul.mysidebar.nav > li:first-of-type {
 .page-no-right-sidebar  div#metrics tbody {
   display:block;
   height: 60vh;
-  overflow-y: scroll !important;
+  overflow-y: overlay !important;
   overflow-x: hidden;
   width:100%;
   }
