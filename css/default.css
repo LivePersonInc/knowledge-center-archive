@@ -405,6 +405,15 @@ ul.mysidebar.nav > li:first-of-type {
 .page-no-right-sidebar #post-content > p {
   width: 60%;
 }
+
+.page-no-right-sidebar #post-content > p {
+  width: 60%;
+}
+
+.page-no-right-sidebar #post-content table tr td:not(:last-child) {
+  border-bottom: 1px solid #dedde252;
+}
+
 .page-no-right-sidebar table#datametricstable * {
   box-sizing: border-box;
 }
