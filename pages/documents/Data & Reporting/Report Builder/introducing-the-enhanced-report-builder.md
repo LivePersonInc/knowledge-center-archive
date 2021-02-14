@@ -75,11 +75,10 @@ Export pdf is limited to 100 pages only
 ![](img/export-to-pdf.png)
 
 ### Personalized view
-Users can now save their own customized personal view of the dossier. A personal view is a lightweight copy of a dossier and includes every change that was made to the dossier including filtering the report period time frame and the offset selector. This updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re select the filters on the dossier.
+Users can save their own customized personal view of the dashboard. A personalized view is a lightweight copy of a dashboard and includes every change that was made to the dashboard including filtering the report period time frame and the offset selector. These updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re-select the filters on the dashboard.
 To create and save a personal view go to the file menu, select ‘Create Personal View’ and change the name to a meaningful name.
-To run a personal view, after launching the Analytics Builder , select ‘My Subscriptions’ where you will see all your personal view subscriptions
-In the personal view subscriptions area, click the name of the personal view to run or edit it.
-For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days.
+To run a personal view, after launching the Analytics Builder , select ‘My Subscriptions’ where you will see all your personal view subscriptions In the personal view subscriptions area, click the name of the personal view to run or edit it.
+For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days. 
 
 ![](img/personalized-view.png)
 
