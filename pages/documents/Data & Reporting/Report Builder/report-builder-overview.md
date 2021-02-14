@@ -63,17 +63,6 @@ The three farms, and their time zones, are as follows:
 * Z3 = Sydney, Australia. The time zone for the Sydney farm is AEST.
 
 
-## Evolution of LivePerson BI
-
-Analytics Builder is a new and improved version of LivePerson BI dashboards (which remains fully accessible to Conversational Cloud users).
-
-With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Analytics Builder goes beyond the capabilities available in BI.
-
-The following considerations should be taken into account when using the Analytics Builder:
-
-1. Unlike the Agent Manager BI dashboards, Analytics Builder presents data in the account’s time zone.
-2. Scheduling is performed by LivePerson administrators.
-
 ### Exporting to PDF
 
 Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
