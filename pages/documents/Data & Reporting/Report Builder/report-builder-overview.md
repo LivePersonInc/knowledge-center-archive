@@ -42,9 +42,8 @@ By splitting conversations into [segments](data-reporting-messaging-messaging-co
 
 
 ## Predefined dashboards
-The Conversational Cloud comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+The Conversational Cloud comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators. See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html)
 
-See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html)
 
 ## Freshness of data
 
