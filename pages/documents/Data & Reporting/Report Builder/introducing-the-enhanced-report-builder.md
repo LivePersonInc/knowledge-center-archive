@@ -84,6 +84,8 @@ For example, you can create a view on the Agent Activity Dashboard for the last 
 ![](img/personalized-view.png)
 
 {: .notice}
-These changes will only impact the predefined dossiers. User copies of previous predefined  dossiers will not be impacted automatically. If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Analytics Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
+These changes will only impact the predefined dossiers. User copies of previous predefined  dossiers will not be impacted automatically. 
+
+If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Analytics Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
 ![](img/pallete.png)
