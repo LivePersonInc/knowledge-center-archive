@@ -48,7 +48,7 @@ The Conversational Cloud comes with a set of predefined dashboards which offer r
 ## Reporting metrics
 
 The predefined dashboards contain a wealth of data reflected in a large number of metrics.  For more information see [Reporting metrics](data-reporting-reporting-metrics.html).
-Certain metrics available in Analytics Builder are updates retroactively. These metrics are either part of the “funnel” (available in the predefined Business dashboard for messaging and the Operational & Staffing dashboard), or specific to Messaging (available in the predefined Messaging Performance dashboard). These metrics are updated for full visit sessions to the website, or closed messaging conversations. 
+Certain metrics available in Analytics Builder are updates retroactively. These metrics are either part of the “funnel” (available in the predefined [Business dashboard for messaging](data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html) and the [Operational & Staffing dashboard](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html), or specific to Messaging (available in the predefined [Messaging Performance dashboard](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html). These metrics are updated for full visit sessions to the website, or closed messaging conversations. 
 
 
 ## Freshness of data
