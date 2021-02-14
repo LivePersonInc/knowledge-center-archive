@@ -20,7 +20,7 @@ Using The Analytics Builder, managers can slice-and-dice their operational and b
 
 By splitting conversations into [segments](data-reporting-messaging-messaging-conversation-segments.html), agent and skill performance is measured at granular levels, which is significant when analyzing complex scenarios in which a single conversation is handled by numerous agents and skills. 
 
-[Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html) and customizable dashboards, visualizations, and grids enable deep-dive into daily and hourly granular levels of the operation’s activities. Additionally, reports can be tailored to specific business needs and analysis types using numerous metrics available in the Conversion Builder. Up to 4 months of data can be viewed at a time, selected from the past 13 months of analyzed data. 
+[Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html) and customizable dashboards, visualizations, and grids enable deep-dive into daily and hourly granular levels of the operation’s activities. Additionally, reports can be tailored to specific business needs and analysis types using numerous [metrics] (data-reporting-reporting-metrics.html) available in the Conversion Builder. Up to 4 months of data can be viewed at a time, selected from the past 13 months of analyzed data. 
 
 Brands with a customer success offering can request the ability to customize metrics and visualizations to their business needs.
 
