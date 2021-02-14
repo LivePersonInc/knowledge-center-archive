@@ -20,6 +20,7 @@ By splitting conversations into [segments](data-reporting-messaging-messaging-co
 
 [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html) and customizable dashboards, visualizations, and grids enable deep-dive into daily and hourly granular levels of the operation’s activities. Additionally, reports can be tailored to specific business needs and analysis types using numerous [metrics](data-reporting-reporting-metrics.html) available in the Conversion Builder. Up to 4 months of data can be viewed at a time, selected from the past 13 months of analyzed data. Brands with a customer success offering can request the ability to customize metrics and visualizations to their business needs.
 
+## Benefits
 **Analytics Builder allows brands to:**
 
 * Monitor operational performance by drilling down to individual agent and bot activity reports, by LOBs, groups or skills 
