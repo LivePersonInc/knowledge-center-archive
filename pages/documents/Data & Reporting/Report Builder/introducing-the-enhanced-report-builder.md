@@ -15,10 +15,10 @@ redirect_from:
 
 The Analytics Builder infrastructure has been upgraded to the latest MicroStrategy (MSTR) version in order to benefit from the performance, scalability and enhanced secure platform.
 
-## What’s new
-### New look and feel
+## Getting started
+### Look and feel
 
-All predefined dossiers have been enriched to include new data visualizations with a bright & modern color scheme.
+All predefined dashboards include diverse data visualizations that offer multiple color schemes.
 
 ![](img/new-look-and-feel.png)
 
