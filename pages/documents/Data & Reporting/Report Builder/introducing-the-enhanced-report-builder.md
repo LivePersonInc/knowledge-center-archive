@@ -65,11 +65,6 @@ New visualization types for creating custom dossiers (histogram, waterfall chart
 
 ## New functionality
 
-### Exporting to PDF
-Users can export dashboards to a PDF file, and include custom visualization formatting and automatic, portrait and landscape layout options. They can use Advanced mode to export each visualization individually on separate pages to include all data. Export pdf is limited to 100 pages.
-
-![](img/export-to-pdf.png)
-
 ### Personalized view
 Users can save their own customized personal view of the dashboard. A personalized view is a lightweight copy of a dashboard and includes every change that was made to the dashboard including filtering the report period time frame and the offset selector. These updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re-select the filters on the dashboard.
 To create and save a personal view go to the file menu, select ‘Create Personal View’ and change the name to a meaningful name.
@@ -84,3 +79,8 @@ These changes will only impact the predefined dossiers. User copies of previous 
 If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Analytics Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
 ![](img/pallete.png)
+
+### Exporting to PDF
+Users can export dashboards to a PDF file, and include custom visualization formatting and automatic, portrait and landscape layout options. They can use Advanced mode to export each visualization individually on separate pages to include all data. Export pdf is limited to 100 pages.
+
+![](img/export-to-pdf.png)
