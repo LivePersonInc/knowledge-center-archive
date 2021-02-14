@@ -46,7 +46,7 @@ The widget displays:
 ### View-only user experience
 For clear presentation for users with view-only permission, the filter panel is on the right, which displays the data in the main focus area.
 
-### Additional data visualizations
+### Data visualizations
 There are various available visualization types (histogram, waterfall chart, box plot) for creating custom dashboards. 
 
 ![](img/additional-data.png)
