@@ -45,6 +45,12 @@ By splitting conversations into [segments](data-reporting-messaging-messaging-co
 The Conversational Cloud comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators. See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html)
 
 
+## Reporting metrics
+
+The predefined dashboards contain a wealth of data reflected in a large number of metrics.  For more information see [Reporting metrics](data-reporting-reporting-metrics.html).
+Certain metrics available in Analytics Builder are updates retroactively. These metrics are either part of the “funnel” (available in the predefined Business dashboard for messaging and the Operational & Staffing dashboard), or specific to Messaging (available in the predefined Messaging Performance dashboard). These metrics are updated for full visit sessions to the website, or closed messaging conversations. 
+
+
 ## Freshness of data
 
 As an offline business intelligence decision support tool, the Analytics Builder is updated periodically with recent activity that took place on your LivePerson Conversational Cloud account. The data refresh process takes place three times a day. The first update runs every morning before 8 AM in the account timezone (according to the data center in which the account is stored), and includes data accumulated up to midnight the same day. For example, on Wednesday at 8 AM, Analytics Builder will show data updated to the Tuesday at 11:59 PM. The following updates run every 8 hours and these updates include data accumulated from up to 6 hours before the start time of this process.
