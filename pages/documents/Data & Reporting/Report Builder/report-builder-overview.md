@@ -63,13 +63,6 @@ The three farms, and their time zones, are as follows:
 * Z3 = Sydney, Australia. The time zone for the Sydney farm is AEST.
 
 
-### Exporting to PDF
-
-Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
-layout ( Automatic, Portalit, Landscape). Advanced mode to export the visualizations individually on separate pages to include all data.
-
-![](img/export-to-pdf.png)
-
 ### Personalized view
 
 Users can now save their own customized personal view of the dossier. A personal view is a lightweight copy of a dossier and includes every change that was made to the dossier including filtering the report period time frame and the offset selector. This updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re select the filters on the dossier.
@@ -84,7 +77,17 @@ For example, you can create a view on the Agent Activity Dashboard for the last 
 ![](img/personalized-view.png)
 
 {: .notice}
-These changes will only impact the predefined dossiers. User copies of previous predefined dossiers will not be impacted automatically.
+These changes will impact only the predefined dashboards. User copies of previous predefined dossiers will not be impacted automatically.
+
+
+### Exporting to PDF
+
+Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
+layout ( Automatic, Portalit, Landscape). Advanced mode to export the visualizations individually on separate pages to include all data.
+
+![](img/export-to-pdf.png)
+
+
 
 ### How to change customized dashboard to the updated look & feel
 If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Analytics Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
