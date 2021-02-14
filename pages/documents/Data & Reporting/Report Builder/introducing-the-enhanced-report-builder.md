@@ -43,7 +43,7 @@ The widget displays:
 
 * Tooltips when hovering over the trend graph to see the date and value.
 
-### View-only users experience
+### View-only user experience
 For clear presentation for users with view-only permission, the filter panel is on the right, which displays the data in the main focus area.
 
 ### Additional data visualizations
