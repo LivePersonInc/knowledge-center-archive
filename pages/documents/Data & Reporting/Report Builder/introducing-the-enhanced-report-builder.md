@@ -28,7 +28,7 @@ Dashboard navigation is performed at the top of each dashboard. There are headin
 
 ![](img/navigation.png)
 
-### New KPI widget
+### KPI widget
 The KPI widget provides a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
 
 ![](img/new-kpi-widget.png)
@@ -43,15 +43,13 @@ The widget displays:
 
 * Tooltips when hovering over the trend graph to see the date and value.
 
-### View only users experience
-Clear presentation for users with ‘view only’ permission, the filter panel has moved from left to the right to allow the data to be in the main focus area.
+### View-only users experience
+For clear presentation for users with view-only permission, the filter panel is on the right, which displays the data in the main focus area.
 
 ### Additional data visualizations
-New visualization types for creating custom dossiers (histogram, waterfall chart, box plot)
+There are various available visualization types (histogram, waterfall chart, box plot) for creating custom dashboards. 
 
 ![](img/additional-data.png)
-
-## New functionality
 
 ### Personalized view
 Users can save their own customized personal view of the dashboard. A personalized view is a lightweight copy of a dashboard and includes every change that was made to the dashboard including filtering the report period time frame and the offset selector. These updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re-select the filters on the dashboard.
