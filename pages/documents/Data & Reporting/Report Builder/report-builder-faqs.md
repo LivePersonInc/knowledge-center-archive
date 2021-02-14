@@ -13,7 +13,7 @@ redirect_from: data-reporting-report-builder-report-builder-faqs.html
 ---
 ### How can I access Analytics Builder?
 
-Analytics Builder can be accessed through the Conversational Cloud UI. From any of the dashboards, click the Analytics Builder icon on the left of the screen.
+From any one of the Conversational Cloud UI dashboards click the Analytics Builder icon on the left side of the screen; or via the Quick Launch menu using the button on the left of Conversational Cloud navigation panel.
 
 ### Can I create my own reports?
 
