@@ -21,7 +21,7 @@ The Analytics Builder's predefined dashboards include diverse data visualization
 ![](img/new-look-and-feel.png)
 
 ### Access
-The Analytics Builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
+The Analytics Builder can be accessed through the Quick Launch menu which is located on the bottom left of the navigation panel.
 
 ### Navigation
 Dashboard navigation is performed at the top of each dashboard. There are headings for each panel inside the sheet for effective use.
