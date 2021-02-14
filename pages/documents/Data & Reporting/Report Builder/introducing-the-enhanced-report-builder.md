@@ -20,26 +20,16 @@ The Analytics Builder's predefined dashboards include diverse data visualization
 
 ![](img/new-look-and-feel.png)
 
-### Terminology
-
-With the new Infrastructure upgrade there are some changes in terminology which are relevant mostly for users who have edit access:
-
-* Dashboard ⇒ Dossier
-
-* Sheet ⇒ Chapter
-
-* Panel ⇒ Page
-
 ### Access
 The Analytics Builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
 ### Navigation
-Dossier navigation has been moved from the bottom of the dashboard to the top. There are also new headings for each panel inside the sheet for effective use.
+Dashboard navigation is performed at the top of each dashboard. There are headings for each panel inside the sheet for effective use.
 
 ![](img/navigation.png)
 
 ### New KPI widget
-The new KPI widget provides a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
+The KPI widget provides a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
 
 ![](img/new-kpi-widget.png)
 
