@@ -22,6 +22,7 @@ By splitting conversations into [segments](data-reporting-messaging-messaging-co
 
 **Analytics Builder allows brands to:**
 
+* Monitor operational performance by drilling down to individual agent and bot activity reports, by LOBs, groups or skills 
 * Evaluate and optimize agent efficiency
 * Identify opportunities to convert more consumers using funnel dashboards
 * Track and analyze the performance of conversational bots serving as messaging agents
@@ -29,8 +30,16 @@ By splitting conversations into [segments](data-reporting-messaging-messaging-co
 * Plan ahead for staffing needs through skill supply and demand analysis
 * Track every assisted conversion achieved by agents
 * Understand how messaging operations can be optimized and track progress as messaging adoption increases
-* Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
-* Schedule reports in order to receive regular updates by email
+* Customize dashboards and visualizations to combine existing KPIs with new ways of measuring success 
+* Measure messaging volume & conversions per campaign, engagement and skill  
+* Measure campaign engagements & conversions based on customer voice metrics from surveys and customer sentiments
+* Identify customer entry & end points on a brand’s website to measure consumer funnel metrics (prospects, exposed, engaged) 
+* Monitor performance against targets and implement operational changes based on reports
+* Analyze service activity impact by tracking trends such as abandonment messaging rates and response times
+* Optimize operations staffing management by tracking daily and hourly skill demand vs. availability 
+* Define custom KPI visualizations to align with the brand goals and ROI 
+* Receive scheduled report updates by email
+
 
 ## Predefined dashboards
 The Conversational Cloud comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
