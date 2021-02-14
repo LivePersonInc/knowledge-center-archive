@@ -398,7 +398,7 @@ ul.mysidebar.nav > li:first-of-type {
   width: 100%;
 }
 
-.page-no-right-sidebar span.metricHighlight {
+.page-no-right-sidebar tbody.metric-table span.metricHighlight {
   background-color: yellow;
 }
 
@@ -406,11 +406,7 @@ ul.mysidebar.nav > li:first-of-type {
   width: 60%;
 }
 
-.page-no-right-sidebar #post-content > p {
-  width: 60%;
-}
-
-.page-no-right-sidebar #post-content table tr td:not(:last-child) {
+.page-no-right-sidebar #post-content #datametricstable tbody.metric-table tr:not(:last-child) {
   border-bottom: 1px solid #dedde252;
 }
 
