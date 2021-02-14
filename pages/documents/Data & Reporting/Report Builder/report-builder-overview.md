@@ -62,10 +62,3 @@ The three farms, and their time zones, are as follows:
 * Z2 = UK. The time zone for the UK farm is GMT (or GMT+1 during Daylight Saving Time).
 * Z3 = Sydney, Australia. The time zone for the Sydney farm is AEST.
 
-
-### Exporting to PDF
-
-Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
-layout ( Automatic, Portalit, Landscape). Advanced mode to export the visualizations individually on separate pages to include all data.
-
-![](img/export-to-pdf.png)
