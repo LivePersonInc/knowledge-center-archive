@@ -14,9 +14,15 @@ redirect_from:
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/344251526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-The Analytics Builder offers brands ready-made dashboards reflecting a wealth of data drawn from their account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through campaigns and enact data-driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in the Analytics Builder.
+Analytics Builder—LivePerson’s primary conversational commerce analytics tool— provides vital business insights that enable data-driven decision-making for optimizing contact center operations and for tracking and increasing revenues. 
 
-Brands with a customer success offering can request customized dashboards with self-defined KPIs and visualizations tailored to their business needs. Access to the Analytics Builder offers the opportunity to view all your prepared dashboards, run or filter them according to your requirements, and export data to excel or PDF.
+Using The Analytics Builder, managers can slice-and-dice their operational and business data according to measurable brand-specific KPIs. They can track historical performance data about individual/groups of agents and bots, conversations, skills, channels, campaigns, queue health and surveys. 
+
+By splitting conversations into segments, agent and skill performance is measured at granular levels, which is significant when analyzing complex scenarios in which a single conversation is handled by numerous agents and skills. 
+
+Predefined and customizable dashboards, visualizations, and grids enable deep-dive into daily and hourly granular levels of the operation’s activities. Additionally, reports can be tailored to specific business needs and analysis types using numerous metrics available in the Conversion Builder. Up to 4 months of data can be viewed at a time, selected from the past 13 months of analyzed data. 
+
+Brands with a customer success offering can request the ability to customize metrics and visualizations to their business needs.
 
 **Analytics Builder allows brands to:**
 
