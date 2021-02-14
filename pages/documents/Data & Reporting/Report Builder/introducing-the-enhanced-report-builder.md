@@ -66,11 +66,7 @@ New visualization types for creating custom dossiers (histogram, waterfall chart
 ## New functionality
 
 ### Exporting to PDF
-Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
-layout ( Automatic, Portalit, Landscape)
-Advanced mode to export the visualizations individually on separate pages to include all data.
-{: .notice}
-Export pdf is limited to 100 pages only
+Users can export dashboards to a PDF file, and include custom visualization formatting and automatic, portrait and landscape layout options. They can use Advanced mode to export each visualization individually on separate pages to include all data. Export pdf is limited to 100 pages.
 
 ![](img/export-to-pdf.png)
 
