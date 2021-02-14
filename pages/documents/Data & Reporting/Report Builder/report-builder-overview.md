@@ -63,23 +63,6 @@ The three farms, and their time zones, are as follows:
 * Z3 = Sydney, Australia. The time zone for the Sydney farm is AEST.
 
 
-### Personalized view
-
-Users can now save their own customized personal view of the dossier. A personal view is a lightweight copy of a dossier and includes every change that was made to the dossier including filtering the report period time frame and the offset selector. This updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re select the filters on the dossier.
-
-To create and save a personal view go to the file menu, select ‘Create Personal View’ and change the name to a meaningful name.
-
-To run a personal view, after launching the Analytics Builder , select ‘My Subscriptions’ where you will see all your personal view subscriptions
-In the personal view subscriptions area, click the name of the personal view to run or edit it.
-
-For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days.
-
-![](img/personalized-view.png)
-
-{: .notice}
-These changes will impact only the predefined dashboards. User copies of previous predefined dossiers will not be impacted automatically.
-
-
 ### Exporting to PDF
 
 Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
