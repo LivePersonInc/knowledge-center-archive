@@ -13,12 +13,10 @@ redirect_from:
   - data-reporting-report-builder-introducing-the-enhanced-report-builder.html
 ---
 
-The Analytics Builder infrastructure has been upgraded to the latest MicroStrategy (MSTR) version in order to benefit from the performance, scalability and enhanced secure platform.
-
 ## Getting started
 ### Look and feel
 
-All predefined dashboards include diverse data visualizations that offer multiple color schemes.
+The Analytics Builder All predefined dashboards include diverse data visualizations that offer multiple color schemes.
 
 ![](img/new-look-and-feel.png)
 
