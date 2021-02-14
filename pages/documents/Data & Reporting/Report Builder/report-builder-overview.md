@@ -86,10 +86,3 @@ Users are able to export dossiers to a formatted PDF file, including visualizati
 layout ( Automatic, Portalit, Landscape). Advanced mode to export the visualizations individually on separate pages to include all data.
 
 ![](img/export-to-pdf.png)
-
-
-
-### How to change customized dashboard to the updated look & feel
-If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Analytics Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
-
-![](img/pallete.png)
