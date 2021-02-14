@@ -283,7 +283,7 @@
         - pagename: "Data availability & latency"
         - pagename: Training tutorials
         - pagename: Analytics Builder permissions
-            - subcategoryname: Engagement attributes
+    - subcategoryname: Engagement attributes
       pages:
         - pagename: "Data sources & engagement attributes overview"
         - pagename: Conversation outcomes
