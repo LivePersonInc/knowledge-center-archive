@@ -16,7 +16,7 @@ redirect_from:
 ## Getting started
 ### Look and feel
 
-The Analytics Builder All predefined dashboards include diverse data visualizations that offer multiple color schemes.
+The Analytics Builder's predefined dashboards include diverse data visualizations in multiple color schemes.
 
 ![](img/new-look-and-feel.png)
 
