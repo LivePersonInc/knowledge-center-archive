@@ -5,7 +5,7 @@ subCategoryName:
 indicator: both
 subtitle: ''
 level3: ''
-permalink: data-reporting-analytics-builder-introducing-the-enhanced-analytics-builder.html
+permalink: data-reporting-analytics-builder-analytics-builder-getting-started.html
 isTutorial: false
 date:
 isNew: false
