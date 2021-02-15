@@ -275,7 +275,7 @@
     - subcategoryname: Analytics Builder
       pages:
         - pagename: Analytics Builder overview
-        - pagename: Introducing the enhanced Analytics Builder
+        - pagename: Analytics Builder getting started
         - pagename: "Analytics Builder user guide (standard)"
         - pagename: "Analytics Builder user guide (customization)"
         - pagename: Predefined dashboards
