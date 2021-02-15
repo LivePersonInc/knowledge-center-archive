@@ -102,7 +102,7 @@ Due to the technical needs of the Conversation Cloud platform on the client-side
 
 | Extension name | Description | Reason |
 | --- | --- | --- |
-| Bitdefender Anti-tracker | Blocks URLs from loading on a page based on Bitdefenders anti-tracking blacklist | Bitdefenders blocks our critical files from loading on the page |
+| Bitdefender Anti-tracker | Blocks URLs from loading on a page based on Bitdefender's anti-tracking blacklist | Bitdefender blocks our critical files from loading on the page |
 | Ghostery – Privacy Ad Blocker | Blocks URLs from loading on a page | Ghostery blocks our critical files from loading on the page |
 
 ## Visitor side: Mobile SDK Requirements
