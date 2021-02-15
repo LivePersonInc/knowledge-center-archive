@@ -1,5 +1,5 @@
 ---
-pagename: Introducing the enhanced Analytics Builder
+pagename: Analytics Builder getting started
 categoryName: Analytics Builder
 subCategoryName:
 indicator: both
