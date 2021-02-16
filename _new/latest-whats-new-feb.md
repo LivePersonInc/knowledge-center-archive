@@ -57,7 +57,7 @@ LivePerson’s Connect to Messaging (C2M) is an IVR deflection solution that let
 
 ![](img/Connect to Messaging 2.0.gif)
 
-### Reporting
+## Reporting
 ## Analytics Builder predefined dashboards
 The Analytics Builder predefined dashboards including the Agent Activity, Business Activity for Messaging and the Performance Dashboard for Messaging have been enhanced to allow brands to measure the Collaboration channels (CoBrowse,Voice and video) usage and ROI. Brands can now track their daily usage and correlation of the feature usage vs. performance KPIs such as conversion, revenue, CSAT at brand, skill and agent level.
 
@@ -72,7 +72,7 @@ Full funnel reporting will be available with a complete set of metrics (Sent, De
 Analytics Builder: Agent Annotations Reporting
 New bot dashboards are available to help brands to track their bot performance over time. The first phase will include specific tracking on Intent annotation.
 
-### Updates to Manager Workspace
+## Updates to Manager Workspace
 ## Quick filters
 Agent Managers spend a lot of time filtering the same agents, skills and teams. This feature will allow managers to save workspace filters and  be able to move between preset filters quickly and easily.
 
