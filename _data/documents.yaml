@@ -56,6 +56,10 @@
       pages:
         - pagename: Social Messaging overview
         - pagename: Social Messaging user guide
+    - subcategoryname: Connect to Messagigng
+      pages:
+        - pagename: Connect to Messaging overview
+        - pagename: Connect to Messaging user guide
     - subcategoryname: Email Connect
     - subcategoryname: Live chat
       pages:
