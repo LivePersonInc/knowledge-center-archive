@@ -84,8 +84,6 @@ Managers looking to better understand the conversations, intents and overall exp
 ## Bot Performance widget
 Today, human agents and bots are treated similarly in the Manager Workspace. They are both treated as the same type of agents without the ability to distinguish between the two. While most of the metrics measured currently are relevant for both human and automated agents, there are differences between these user types with additional bot-centric metrics required. The Bot Performance widget provides "automation centric" metrics that allow easy monitoring and management over the automation that affect the day to day shift.
 
-![](img/whats-new-mw-2.png)
-
 ## Developer updates - Third Party Bot Connectors
 LivePerson has many updates to Third Party Bot Connectors:
 
