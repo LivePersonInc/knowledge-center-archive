@@ -17,7 +17,7 @@ Watch this short video for the upcoming features for the weeks ahead.
 ## The new LivePerson AI Annotator!
 Automate even more conversations by empowering agents to flag bot issues and suggest a solution within seconds, while going about their day to day tasks. AI Annotator provides agents and QA teams who view conversations with the ability to suggest correct intents to messages that the bot did not understand. Once the suggestion is approved by a manager, similar messages will be correctly identified by the bot. This process of labeling data which is later used to improve an AI model, is called AI Annotation. Click [here](https://knowledge.liveperson.com/ai-bots-automation-ai-annotator.html#setting-up-intent-annotations) for more information.
 
-![](img/AI-Annotator-whats-new.gif)
+![](img/ai-annotator-12.gif)
 
 ## Social Messaging 2.0
 Social Messaging extends LivePerson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social media.
@@ -36,7 +36,7 @@ The widget’s main benefits:
 
 Note: Messaging must be enabled on your Conversational Cloud account. Only Facebook and Twitter are supported.
 
-![](img/Social Messaging 2.0.gif)
+![](img/Social-Messaging-2.0-1.png)
 
 ## Instagram Connector
 Instagram allows brands to drastically expand their reach and connect with over 1 billion consumers on their smartphones. This new channel has unique offerings in messaging operations which will enable brands to quickly meet consumer needs while utilizing the Conversational Cloud capabilities.
@@ -81,10 +81,10 @@ Agent Managers spend a lot of time filtering the same agents, skills and teams. 
 ## Transcripts in Conversation Widget
 Managers looking to better understand the conversations, intents and overall experience during their shift can now use the Manager Workspace’s Conversation widget to gain complete visibility into the details of each conversation in real time. Now, with a single click on the relevant conversation, users can open conversation transcripts within the Conversation widget. This means that managers can filter relevant agents, skills, intents and timeframes to quickly scroll through different transcripts, making it very easy for managers to compare situations and identify issues in real time without switching between Manager and Agent Workspaces.
 
-[](img/Manager Workspace Updates.gif)
-
 ## Bot Performance widget
 Today, human agents and bots are treated similarly in the Manager Workspace. They are both treated as the same type of agents without the ability to distinguish between the two. While most of the metrics measured currently are relevant for both human and automated agents, there are differences between these user types with additional bot-centric metrics required. The Bot Performance widget provides "automation centric" metrics that allow easy monitoring and management over the automation that affect the day to day shift.
+
+[](img/whats-new-mw-2.png)
 
 ## Developer updates - Third Party Bot Connectors
 LivePerson has many updates to Third Party Bot Connectors:
