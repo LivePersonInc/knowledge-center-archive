@@ -29,16 +29,13 @@ Social Messaging 2.0 includes the following features:
 * Channel indication: The My Conversations list has been enhanced with a new icon showing the conversation source, so that the agent will be able to identify the channel that the consumer is originating from.
 * New Social Messaging widget: A new core widget is now available for all Social Messaging conversations. 
 The widget’s main benefits:
-View Consumer Profile - View the publicly available social media profile of the consumer you’re interacting with from within Conversational Cloud
-Clear context for the conversation - View the consumer post from within the Conversational Cloud, nested under its parent post, to have clear context of the conversation topic
+**View Consumer Profile** - View the publicly available social media profile of the consumer you’re interacting with from within Conversational Cloud
+**Clear context for the conversation** - View the consumer post from within the Conversational Cloud, nested under its parent post, to have clear context of the conversation topic
+* Reply to specific consumer messages: Agents have the ability to reply to a specific consumer message, to ensure that consumers are getting relevant replies to each of their posts.
+* Public to Private: Quickly transition conversations from public social media to private by simply clicking the “Public to Private” button, which sends a large call to action button for the consumer to select. 
+* Mention consumer in reply: Agents will be able to mention consumers with their Facebook username in their replies, so that consumers will get a notification that they have been mentioned by the brand in the native platform.
 
+Note: Messaging must be enabled on your Conversational Cloud account. Only Facebook and Twitter are supported.
 
-Reply to specific consumer messages: Agents have the ability to reply to a specific consumer message, to ensure that consumers are getting relevant replies to each of their posts.
-
-
-Public to Private: Quickly transition conversations from public social media to private by simply clicking the “Public to Private” button, which sends a large call to action button for the consumer to select. 
-
-
-Mention consumer in reply: Agents will be able to mention consumers with their Facebook username in their replies, so that consumers will get a notification that they have been mentioned by the brand in the native platform.
-
+![](Social Messaging 2.0.gif)
 
