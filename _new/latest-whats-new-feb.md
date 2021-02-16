@@ -17,7 +17,7 @@ Watch this short video for the upcoming features for the weeks ahead.
 ## The new LivePerson AI Annotator!
 Automate even more conversations by empowering agents to flag bot issues and suggest a solution within seconds, while going about their day to day tasks. AI Annotator provides agents and QA teams who view conversations with the ability to suggest correct intents to messages that the bot did not understand. Once the suggestion is approved by a manager, similar messages will be correctly identified by the bot. This process of labeling data which is later used to improve an AI model, is called AI Annotation. Click [here](https://knowledge.liveperson.com/ai-bots-automation-ai-annotator.html#setting-up-intent-annotations) for more information.
 
-![](AI-Annotator.gif)
+![](img/AI-Annotator.gif)
 
 ## Social Messaging 2.0
 Social Messaging extends LivePerson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social media.
@@ -36,7 +36,7 @@ The widget’s main benefits:
 
 Note: Messaging must be enabled on your Conversational Cloud account. Only Facebook and Twitter are supported.
 
-![](Social Messaging 2.0.gif)
+![](img/Social Messaging 2.0.gif)
 
 ## Instagram Connector
 Instagram allows brands to drastically expand their reach and connect with over 1 billion consumers on their smartphones. This new channel has unique offerings in messaging operations which will enable brands to quickly meet consumer needs while utilizing the Conversational Cloud capabilities.
