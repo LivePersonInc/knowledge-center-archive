@@ -12,7 +12,7 @@ group :jekyll_plugins do
    gem 'jekyll-assets'
    gem 'sprockets', '~> 3.7'
    gem 'rack', '>= 2.0.6'
-   gem 'nokogiri', '>= 1.11.1'
+   gem 'nokogiri', '>= 1.10.4'
    gem 'jekyll-last-modified-at'
    gem 'html-proofer'
 end
