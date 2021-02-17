@@ -213,7 +213,7 @@ img.card-container {
     text-align: center;
     justify-content: center;
     flex: 0 100%;
-    padding: 40px;
+    padding: 35px 20px;
   }
   div#defaultcontent div#maincontent .h1 {
     width: 100%;
