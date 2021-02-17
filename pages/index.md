@@ -20,22 +20,27 @@ LivePerson's AI-powered Conversational Cloud helps brands build meaningful relat
     <a class="welcome-card"  href="getting-started-getting-started-with-messaging.html"> 
       <img class="container-image" src="img/ic_get_started.svg"/>
       <h5 class="welcome-title">Set up messaging</h5>
+      <p class="welcome-content">Follow step-by-step guidance to start messaging with consumers </p>
     </a>
     <a  class="welcome-card"  href="/whats-new-latest-whats-new.html"> 
       <img class="container-image" src="img/ic_Whats_new.svg"/>
       <h5 class="welcome-title">Check out What’s New</h5>
+      <p class="welcome-content">See what features will be rolling out in the upcoming weeks </p>
     </a>
       <a  class="welcome-card"  href="/release-notes-latest-release-notes.html"> 
       <img class="container-image" src="img/ic_release notes.svg"/>
       <h5 class="welcome-title">View our latest release notes</h5>
+      <p class="welcome-content">Dive into the latest product updates and enhancements </p>
     </a>
   <a class="welcome-card" target="_blank" href="https://developers.liveperson.com/"> 
       <img class="container-image" src="img/ic_API_SDK.svg"/>
       <h5 class="welcome-title">Explore our Developer Center</h5>
+      <p class="welcome-content">Build on the platform using quick start guides, APIs and SDKs </p>
     </a>
     <a  class="welcome-card" target="_blank" href="/troubleshooting-how-to-contact-support.html"> 
       <img class="container-image" src="img/ic_support.svg"/>
-      <h5 class="welcome-title">Get help from customer support</h5>
+      <h5 class="welcome-title">Get customer support</h5>
+      <p class="welcome-content">Contact our Support team for technical assistance </p>
     </a>
 </div>
 <div class="free-trial-container">
