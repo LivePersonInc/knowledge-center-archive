@@ -15,7 +15,7 @@ redirect_from:
 ---
 The All Conversations tab displays every one of your brand's messaging conversations, both active and closed, in one easy-to-navigate page. This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
 
-![](/img/all-connections-1.png)
+![](/img/all-convos-new.png)
 
 All Conversations allows agent managers and agents to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
