@@ -786,6 +786,14 @@ a.mainlink:hover {
 
 /* Media Queries */
 
+@media screen and (max-width: 767px) {
+  div#free-trial-button-welcome {
+    padding: 40px 0 0 !important;
+  }
+  .free-trial-label {
+    padding: 0 5px !important;
+  }
+}
 @media screen and (max-width: 450px) {
   #homewrapper {
     display: flex;
