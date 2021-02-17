@@ -13,13 +13,13 @@ isNew: false
 
 ## Getting started
 
-Connect To Messaging IVR solution moves voice calls to messaging platforms to create two way conversations.
+Connect To Messaging IVR solution moves voice calls to different messaging channels to create two way conversations within the Conversational Cloud.
 
 ### Connect to Messaging webtool 
 Connect To Messaging can be leveraged using webtools. Connect to Messaging v2.0 API is the latest API that integrates with Conversational Cloud campaigns and engagements for skill-based routing.
 
 ### Permissions
-Only brand administrator and campaign manager profiles have access to the Connect To Messaging webtool after the account has been enabled by the LivePerson account team. 
+Only brand administrator and campaign manager profiles have access to the Connect To Messaging webtool after the account has been enabled by your LivePerson account team. 
 
 ### Enabling C2M
 
