@@ -151,7 +151,7 @@ DEPENDENCIES
   jekyll-gzip
   jekyll-last-modified-at
   jekyll-redirect-from
-  nokogiri (>= 1.10.4)
+  nokogiri (>= 1.11.1)
   rack (>= 2.0.6)
   sprockets (~> 3.7)
 
