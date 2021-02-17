@@ -114,3 +114,21 @@ This capability has been added under the Data Sources page, within the Facebook 
 **Please note:** This feature requires backend enablement. Please contact your LivePerson representative for more information.
 
 ![](img/week-of-february-22nd-12.png)
+
+## [Third Party Bot Connectors] Conversation Tester 
+### Type: Feature 
+
+Brands can simulate a conversation with the bot to check its functionality via this feature. This feature will allow the user to see the bot in action and see how the connector accepts the responses. Brands will be able to identify issues in the bot flow as well as establish preemptively when the responses are misconfigured and will cause issues in the conversation with the consumers. 
+
+The conversation tester gives feedback on the errors and what caused them allowing the Brand to troubleshoot and correct issues using bot response validator. The bot response validator will provide the basic information on what could be the reason for the bot error response with links to documentation on how to fix the issue.
+
+#### How to enable
+When the user will be on the Bot’s Dashboard in Third-Party Bots, in the bottom right corner an orange chat bubble will appear. The user can click to open a chat window with the bot and start testing the flow of the bot.
+
+![](img/RN-third-party-bots-feb-22.png)
+
+##  [Third Party Bot Connectors] IBM Watson endpoints deprecation 
+### Type: Deprecation
+
+Watson has decided to deprecate the old domain watsonplatform.net thus all the bots must be updated to reflect the new urls provided by IBM watson. The retirement for domain is 26 May 2021. We have encouraged everyone to edit the bot configuration as soon as possible to make sure all affected bots will run smoothly after the deprecation. For more information, click [here](https://cloud.ibm.com/docs/watson?topic=watson-endpoint-change)
+
