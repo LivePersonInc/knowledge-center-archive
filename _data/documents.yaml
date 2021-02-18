@@ -202,7 +202,7 @@
 
     - subcategoryname: Manager tools for messaging
       pages:
-        - pagename: New Manager Workspace for messaging
+        - pagename: Manager Workspace for messaging
           level3:
             - level3name: Introducing the new manager tools
             - level3name: Enhanced Manager Workspace user guide
