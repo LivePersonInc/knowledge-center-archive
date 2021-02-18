@@ -26,7 +26,10 @@
 
 div#success-stories {
   justify-content: flex-start;
-  padding-top: 30px !important;
+  padding: 0 !important;
+}
+div#success-stories a {
+  padding: 38px 42px 58px !important;
 }
 
 .header-label {
@@ -99,6 +102,8 @@ img.card-container {
 
 #success-stories a {
   text-decoration: none;
+  height: 100%;
+  width: 100%;
 }
 
 #free-trial {
@@ -136,10 +141,10 @@ img.card-container {
   padding: 20px 33px;
   font-weight: bold;
   color: white;
-  border: 1px solid #FF6900;
+  border: 1px solid #ff6900;
   background-color: inherit;
   font-size: 22px;
-  background: #FF6900;
+  background: #ff6900;
 }
 
 .create-button:hover {
@@ -148,7 +153,7 @@ img.card-container {
 
 .free-trial-header {
   letter-spacing: normal;
-  color: #FF6900;
+  color: #ff6900;
   font-size: 28px;
   line-height: 32px;
   font-weight: bold;
@@ -177,7 +182,7 @@ img.card-container {
 }
 
 .mainHome .h1 {
-  color: #5879DF !important;
+  color: #5879df !important;
   margin-top: 10px !important;
 }
 
@@ -217,5 +222,11 @@ img.card-container {
   }
   div#defaultcontent div#maincontent .h1 {
     width: 100%;
+  }
+  div#success-stories {
+    padding: 0 33px 0 0 !important;
+  }
+  div#success-stories a {
+    padding: 44px 15px 58px !important;
   }
 }
