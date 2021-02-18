@@ -5,12 +5,13 @@ subCategoryName: Agent manager tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-use-cases.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-manager-workspace-for-messaging-use-cases.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 redirect_from:
   - messaging-managers-use-cases.html
+  - agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-use-cases.html
   
 ---
 
