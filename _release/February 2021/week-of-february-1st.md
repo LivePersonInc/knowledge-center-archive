@@ -162,7 +162,7 @@ Search for LivePerson Agent App on the Google Play Store or Apple App Store and 
 * [Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
 * [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
 
-## [Analytics Builder] New Bot Performance Dashboard including Agent Annotation reporting
+## [Analytics Builder] New Bot Performance Dashboard including AI Annotator reporting
 ### Type: New functionality (Analytics Builder 4.9)
 
 The new Bot Performance Dashboard will allow brands to review and analyze their Bot Performance in messaging over time, and measure the impact of agent annotations on the Bot Performance for bots designed by Conversation Builder.

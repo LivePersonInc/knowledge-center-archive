@@ -24,9 +24,9 @@ You can view the status page by clicking on the agent avatar and then click on t
 
 The status page dashboard is easy to use and shows the current status of each service. At the bottom of the dashboard there is a glossary showing the various statuses. In the case of a ‘Service interruption’ for example, you can click on the exclamation mark to view the full details of the incident.
 
-![](img/service_status_dashboard.png)
+![](img/service_status_dashboard.PNG)
 
 Once you enter the status page, there will be a full view of the current statuses and future maintenance activities.
 If you would like to receive an SMS with progress of the case, click on Subscribe.
 
-![](img/service_incident.png)
+![](img/service_incident.PNG)

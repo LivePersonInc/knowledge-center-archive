@@ -15,8 +15,8 @@ $(document).ready(function () {
 	capabilitiesSearch();
 	searchFunction();
 	if (url.includes('/data-reporting-reporting-metrics.html')) {
-		loadData()
 		$('#maincontent').addClass('page-no-right-sidebar');
+		loadData()
 	}
 	$(document).ready(function () {
 	scrollToHash();
@@ -61,8 +61,8 @@ function navigateContent(url) {
 			searchFunction();
 			replaceTitle();
 			if (url.includes('/data-reporting-reporting-metrics.html')) {
-				loadData();
 				$('#maincontent').addClass('page-no-right-sidebar');
+				loadData();
 			}
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
@@ -101,13 +101,13 @@ function loadData() {
 				let { ELEMENT_NAME, ANALYSIS_TYPE, CHANNEL, DESCRIPTION, DASHBOARD, FILTERED_BY, FORMULA } = metricitem;
 				jQuery(".metric-table").append(`
           <tr>
-            <td class="metric">${ELEMENT_NAME}</td>
-            <td class="analysis">${ANALYSIS_TYPE}</td>
-            <td class="channel">${CHANNEL}</td>
-            <td class="description">${DESCRIPTION}</td>
-            <td class="dashboard">${DASHBOARD}</td>
-            <td class="filtered">${FILTERED_BY}</td>
-            <td class="formula">${FORMULA}</td>
+            <td class="metric"><div>${ELEMENT_NAME}</div></td>
+            <td class="analysis"><div>${ANALYSIS_TYPE}</div></td>
+            <td class="channel"><div>${CHANNEL}</div></td>
+            <td class="description"><div>${DESCRIPTION}</div></td>
+            <td class="dashboard"><div>${DASHBOARD}</div></td>
+            <td class="filtered"><div>${FILTERED_BY}</div></td>
+            <td class="formula"><div>${FORMULA}</div></td>
           </tr>
         `);
 			});
