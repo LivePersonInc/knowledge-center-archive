@@ -5,7 +5,7 @@ subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: new-manager-workspace-for-messaging--hiring-agents-for-messaging-success.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging--hiring-agents-for-messaging-success.html
 isTutorial: false
 isNew: false
 date: 2019-04-15 12:17:36 +0000
