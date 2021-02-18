@@ -126,6 +126,12 @@ When using secure forms, bear in mind:
 * Agent workstations utilized for viewing secure forms are in-scope of PCI-DSS certification.
 * LivePerson accounts password and login policy must be enabled and configured according to PCI-DSS requirements.
 
+### Accessing the same form multiple times:
+This option is configurable. If required, brands can define how many times a consumer will be able to reopen the same secure form prior to submitting it.
+This is useful for brands to allow consumers to broswe back and forth different pages (e.g. collecting customer ID) during the conversation while filling out the secure form while keeping it accessible.
+
+In order to configure, please contact your LivePerson account team.
+
 ## Setting up secure forms
 
 Secure forms are configured by LivePerson. To enable this feature, please contact LivePerson customer support or your account team. Your LivePerson account team will work with you to make the necessary adjustments to your account settings and configurations.
