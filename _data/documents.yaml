@@ -210,11 +210,7 @@
             - level3name: Use cases
             - level3name: New agent manager experience
             - level3name: Tutorial
-        - pagename: Other manager tools for messaging
-          level3:
-            - level3name: The messaging agents list
-            - level3name: All Conversations
-        - pagename: Hiring agents for messaging success
+            - level3name: Hiring agents for messaging success
 
     - subcategoryname: Agent tools for live chat
       pages:
