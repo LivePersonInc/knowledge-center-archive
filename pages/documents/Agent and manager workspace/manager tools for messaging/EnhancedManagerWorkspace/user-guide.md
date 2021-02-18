@@ -3,7 +3,7 @@ pagename: Enhanced Manager Workspace user guide
 categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the Agent Workspace '
+subtitle: 
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-manager-workspace-for-messaging-enhanced-manager-workspace-user-guide.html
 isTutorial: false
