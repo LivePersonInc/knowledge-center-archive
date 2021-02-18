@@ -432,7 +432,14 @@ When using secure forms, bear in mind:
   2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 minute variable is configurable.
   3. Both variables can be set to any time limit between 1 and 86400 seconds.
 * The consumer can submit each form only once.
-* Accessing the same form multiple times:
+
+### Accessing the same form multiple times:
+### Web
+On Web, this option is configurable. If required, brands can define how many times a consumer will be able to reopen the same secure form prior to submitting it.
+This is useful for brands to allow consumers to broswe back and forth different pages (e.g. collecting customer ID) during the conversation while filling out the secure form while keeping it accessible.
+
+In order to configure, please contact your LivePerson account team.
+
 * On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
   1. The consumer logs out
   2. The app is closed so its not running in the background
