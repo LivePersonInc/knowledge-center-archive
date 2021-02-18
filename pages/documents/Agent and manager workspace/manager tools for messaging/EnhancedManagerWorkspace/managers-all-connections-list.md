@@ -12,6 +12,7 @@ isNew: false
 redirect_from:
   - agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-all-connections.html
   - agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-all-conversations.html
+  - agent-manager-workspace-manager-tools-for-messaging-other-manager-tools-for-messaging-all-conversations.html
 ---
 
 The All Conversations tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Conversations allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
