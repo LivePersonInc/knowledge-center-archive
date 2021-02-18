@@ -50,6 +50,7 @@
         - pagename: Google Business Messages
         - pagename: Distinction between GBM and RCS
     - subcategoryname: WhatsApp Business
+    - subcategoryname: Instagram
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
     - subcategoryname: Social Messaging
@@ -84,7 +85,7 @@
    - subcategoryname: Conversational AI
    - subcategoryname: How bots work with LivePerson
    - subcategoryname: Third Party Bot Connectors
-   - subcategoryname: AI Annotators
+   - subcategoryname: AI Annotator
    - subcategoryname: Conversation Orchestrator
      pages:
        - pagename: Overview
@@ -101,7 +102,8 @@
        - pagename: The power of an intent-driven contact center
        - pagename: Overview            
        - pagename: Getting started
-       - pagename: Create and Optimize Intents      
+       - pagename: Create and Optimize Intents
+       - pagename: Intent Discovery 
        - pagename: Dashboard
        - pagename: Intent Manager updates
    - subcategoryname: Post-conversation surveys
@@ -146,6 +148,7 @@
     - subcategoryname: Live chat operations
       pages:
         - pagename: Queue prioritization for live chat
+        - pagename: Moving from chat to messaging
         - pagename: Automatic conversation distribution
         - pagename: Automatic messages
         - pagename: Agent groups workload distribution
@@ -272,7 +275,7 @@
     - subcategoryname: Analytics Builder
       pages:
         - pagename: Analytics Builder overview
-        - pagename: Introducing the enhanced Analytics Builder
+        - pagename: Analytics Builder getting started
         - pagename: "Analytics Builder user guide (standard)"
         - pagename: "Analytics Builder user guide (customization)"
         - pagename: Predefined dashboards
@@ -280,7 +283,6 @@
         - pagename: "Data availability & latency"
         - pagename: Training tutorials
         - pagename: Analytics Builder permissions
-        - pagename: Moving from BI to Analytics Builder
     - subcategoryname: Engagement attributes
       pages:
         - pagename: "Data sources & engagement attributes overview"
@@ -376,6 +378,7 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: January what's new
     - subcategoryname: December what's new
     - subcategoryname: November what's new
     - subcategoryname: September what's new    
@@ -391,6 +394,9 @@
       pages:
         - pagename: February
           level3:
+            - level3name: Week of February 22nd
+            - level3name: Week of February 15th
+            - level3name: Week of February 8th
             - level3name: Week of February 1st
         - pagename: January
           level3:

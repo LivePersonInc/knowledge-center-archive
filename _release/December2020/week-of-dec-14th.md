@@ -85,15 +85,15 @@ The Analytics Builder predefined dashboards: Agent Activity, Business Activity f
 
 **New Metrics:**
 | Metric name | Description | 
-|--------------|------------|
+|-------------|-------------|
 | NO. OF SECURE FORM (PCI) SENT (MESSAGING) | Number of secure forms sent by an agent to a consumer during a conversation.|
 | NO. OF SECURE FORM (PCI) SUBMITTED (MESSAGING) | Number of secure forms completed and submitted back to the agent by a consumer during a conversation.|
-| NO. OF SECURE FORM (PCI) VIEWED (MESSAGING) | Number of secure forms viewed by the consumer during a conversation|
+| NO. OF SECURE FORM (PCI) VIEWED (MESSAGING) | Number of secure forms viewed by the consumer during a conversation.|
 
 **New attributes:**
 
 | Attribute name | Description | 
-|--------------|-------------|
+|----------------|-------------|
 | IS ACTIVE SECURE FORM (PCI)| Indicates whether the secure form has been deleted from the account's configuration. Use this attribute to filter out deleted secure forms |
 | SECURE FORM (PCI) NAME | The name of the Secure Form (PCI)|
 

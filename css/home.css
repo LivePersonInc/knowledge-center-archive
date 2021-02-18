@@ -4,7 +4,7 @@
 
 html {
   width: 100%;
-  height: auto
+  height: auto;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
 /*CSS Grid Begins */
 
 @supports (display: grid) {
-
   #homewrapper {
     width: 100%;
     height: 100%;
@@ -25,7 +24,7 @@ body {
   }
 
   #homenav {
-    display:flex;
+    display: flex;
     width: 100%;
     grid-row: 1 / 2;
   }
@@ -141,7 +140,7 @@ body {
   align-items: center;
   font-family: "Roboto Slab", "Roboto", Helvetica, sans-serif;
   font-size: 28px;
-  color: #FF670E;
+  color: #ff670e;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 50px;
@@ -204,7 +203,7 @@ body {
 }
 
 #boxesrow .mainboxwrapper:nth-child(2) .mainbox.closed {
-  background-color: #162036 ;
+  background-color: #162036;
   height: 390px;
   -webkit-transition: height 0.35s ease;
   -moz-transition: height 0.35s ease;
@@ -213,7 +212,7 @@ body {
 }
 
 #boxesrow .mainboxwrapper:nth-child(2) .mainbox.closed:hover {
-  background-color: #162036 ;
+  background-color: #162036;
   height: 370px;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
@@ -222,7 +221,7 @@ body {
 }
 
 #boxesrow .mainboxwrapper:nth-child(3) .mainbox.closed {
-  background-color: #FF670E;
+  background-color: #ff670e;
   height: 390px;
   -webkit-transition: height 0.35s ease;
   -moz-transition: height 0.35s ease;
@@ -231,15 +230,13 @@ body {
 }
 
 #boxesrow .mainboxwrapper:nth-child(3) .mainbox.closed:hover {
-  background-color: #FF670E ;
+  background-color: #ff670e;
   height: 370px;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -o-transition: height 0.5s ease;
   transition: height 0.5s ease;
 }
-
-
 
 #boxesrow .mainboxwrapper:nth-child(1) .mainbox {
   background-color: #5879da;
@@ -250,8 +247,8 @@ body {
   transition: height 0.35s ease;
 }
 
-#boxesrow .mainboxwrapper:nth-child(2) .mainbox  {
-  background-color: #162036 ;
+#boxesrow .mainboxwrapper:nth-child(2) .mainbox {
+  background-color: #162036;
   height: 100px;
   -webkit-transition: height 0.35s ease;
   -moz-transition: height 0.35s ease;
@@ -260,7 +257,7 @@ body {
 }
 
 #boxesrow .mainboxwrapper:nth-child(3) .mainbox {
-  background-color: #FF670E;
+  background-color: #ff670e;
   height: 100px;
   -webkit-transition: height 0.35s ease;
   -moz-transition: height 0.35s ease;
@@ -275,7 +272,6 @@ body {
 .edgeBox .linkbox {
   margin-top: 160px;
 }
-
 
 #boxesrow .mainbox:last-child {
   margin-right: 0;
@@ -330,7 +326,7 @@ body {
 button.open-close {
   width: 36px;
   height: 36px;
-  background-color: #171F36;
+  background-color: #171f36;
   padding: 0;
   border-radius: 100%;
   background-image: url(img/icon-open.svg);
@@ -347,7 +343,7 @@ button.open-close {
 }
 
 .closed button.open-close {
-      transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .closed .linkbox {
@@ -381,7 +377,6 @@ button.open-close {
   margin-left: 15px;
 }
 
-
 a.mainlink {
   color: #272727;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
@@ -399,12 +394,12 @@ a.mainlink:hover {
   align-items: flex-end;
   font-size: 16px;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
-  color: #FF670E;
+  color: #ff670e;
 }
 
 #allarticlesbox {
   padding: 15px 72px;
-  border: 1px #FF670E solid;
+  border: 1px #ff670e solid;
   margin-bottom: 60px;
   text-decoration: none;
   color: inherit;
@@ -543,7 +538,6 @@ a.mainlink:hover {
   text-decoration: none;
   font-style: italic;
   font-weight: 300;
-
 }
 
 #rightcontainer {
@@ -620,7 +614,6 @@ a.mainlink:hover {
 
 #listrow {
   display: flex;
-
 }
 
 .footertitle {
@@ -675,7 +668,6 @@ a.mainlink:hover {
   margin-left: 15px;
 }
 
-
 /* Search Styling Begins */
 
 .algolia-autocomplete {
@@ -706,14 +698,16 @@ a.mainlink:hover {
   font-weight: 300;
 }
 
-#aa-search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+#aa-search-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 16px;
   font-style: italic;
 }
-#aa-search-input::-moz-placeholder { /* Firefox 19+ */
+#aa-search-input::-moz-placeholder {
+  /* Firefox 19+ */
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -721,7 +715,8 @@ a.mainlink:hover {
   font-style: italic;
 }
 
-#aa-search-input:-ms-input-placeholder { /* IE 10+ */
+#aa-search-input:-ms-input-placeholder {
+  /* IE 10+ */
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -729,7 +724,8 @@ a.mainlink:hover {
   font-style: italic;
 }
 
-#aa-search-input:-moz-placeholder { /* Firefox 18- */
+#aa-search-input:-moz-placeholder {
+  /* Firefox 18- */
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -743,11 +739,9 @@ a.mainlink:hover {
 
 .overlayvisible {
   opacity: 0.5;
-  -webkit-transition: opacity .10s ease-in-out;
-  transition: opacity .10s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
 }
-
-
 
 /* Search Styling Ends */
 
@@ -792,6 +786,14 @@ a.mainlink:hover {
 
 /* Media Queries */
 
+@media screen and (max-width: 767px) {
+  div#free-trial-button-welcome {
+    padding: 40px 0 0 !important;
+  }
+  .free-trial-label {
+    padding: 0 5px !important;
+  }
+}
 @media screen and (max-width: 450px) {
   #homewrapper {
     display: flex;
@@ -804,7 +806,7 @@ a.mainlink:hover {
   }
 
   #homebuttons {
-    display:none;
+    display: none;
   }
 
   #hometitle {
