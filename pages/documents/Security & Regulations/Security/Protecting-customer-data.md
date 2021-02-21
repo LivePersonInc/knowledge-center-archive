@@ -65,12 +65,31 @@ Consumer session information and interaction transcripts are stored on LivePerso
 
 LivePerson collects data such as: chat and messaging transcripts, information related to the visitor browsing and activity on the tagged website. For detailed information please see [LivePerson’s Privacy Policy](https://www.liveperson.com/policies/privacy#_Toc465674440).
 
-## Masking and Encryption of Data at Rest
+## Masking of Data at Rest
 Prior to storing data in the storage servers, the Conversational Cloud provides two additional optional layers of protection for data at rest, for customers opting into the capabilities:
 * Selective Data Masking for transcripts: The Conversational Cloud platform provides customers with an optional ability to identify specific sensitive data patterns and remove them from the transcripts prior to storing the transcript. The masking is based on a RegEx mechanism that identifies the sensitive pattern as configured by the customer, and replaces them with asterisks (*). 
 * Download the data-masking data-sheet by clicking [here](http://base.liveperson.net/hc/s-5296924/cmd/kbresource/kb-96372195744679183/!DOWNLOAD?entryid=346624&attachid=40032) In addition, for messaging transcripts. Common Credit card patterns are masked at rest. Additional server side masking patterns can be added by the customer for messaging transcripts.
 
-**Data Encryption:** Chat transcripts and other session variables can be stored encrypted upon client request on the LivePerson storage servers. The encryption is based on AES 192bit encryption, and controlled by the application server,not by the storage platforms. If enabled, each Brand is assigned with a unique encryption key, and, additionally, each session is encrypted with a unique key for that session (for example, 2 chat sessions of the same customer will be encrypted with 2 different keys).
+
+## Encryption of Data at Rest
+### AES-256 GCM Data Encryption
+
+**Description**  
+Conversation’s transcripts and other session variables can be stored encrypted upon client request on the LivePerson storage servers. 
+LiveEngage stores various types of sensitive data in different data storage types for different retention periods.
+Implementing a strong encryption method is crucial for protecting such data from potential unauthorized access and for complying with laws and regulations dictated to us directly or indirectly by our customers.
+The encryption is based on AES 256bit encryption, and controlled by the application server, not by the storage platforms. 
+
+**What’s New?**  
+The new data-at-rest encryption solution is using the existing LP inhouse encryption library, enhanced to use AES 256 GCM encryption using Java8 and support FIPS 140-2.
+Oracle DB was replaced by Hashicorp Vault which is used as the key management service (KMS), Providing full key management. All LP services were updated to use Vault APIs, via the new encryption library, to fetch the keys for encrypt/decrypt operations.
+
+**How do I turn it on?**  
+In case your encryption is turned On - the move to the new encryption is transparent and no actions required on your side. 
+In case your encryption is turned Off (or you not sure if you have the Encryption feature enabled) - please contact your CSM/Support to activate the encryption feature. 
+
+**When will you get it?**  
+We will start rolling out to customers early February 2021. Rollout should be finalized by Mid-March if all goes well.
 
 ## Application Layer     
 Account data can only be accessed through the web-based console or LivePerson API’s.
