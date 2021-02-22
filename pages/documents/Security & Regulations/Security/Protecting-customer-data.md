@@ -85,7 +85,7 @@ The new data-at-rest encryption solution is using the existing LP inhouse encryp
 Oracle DB was replaced by Hashicorp Vault which is used as the key management service (KMS), Providing full key management. All LP services were updated to use Vault APIs, via the new encryption library, to fetch the keys for encrypt/decrypt operations.
 
 **How do I turn it on?**  
-In case your encryption is turned On - the move to the new encryption is transparent and no actions required on your side. 
+In case your encryption is turned On - the move to the new encryption is transparent and no actions required on your side.  
 In case your encryption is turned Off (or you not sure if you have the Encryption feature enabled) - please contact your CSM/Support to activate the encryption feature. 
 
 **When will you get it?**  
