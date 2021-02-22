@@ -89,7 +89,7 @@ In case your encryption is turned On - the move to the new encryption is transpa
 In case your encryption is turned Off (or you not sure if you have the Encryption feature enabled) - please contact your CSM/Support to activate the encryption feature. 
 
 **When will you get it?**  
-We will start rolling out to customers early February 2021. Rollout should be finalized by Mid-March if all goes well.
+We will start rolling out to customers early February 2021. Rollout should be finalized by the end of Q1.
 
 ## Application Layer     
 Account data can only be accessed through the web-based console or LivePerson API’s.
