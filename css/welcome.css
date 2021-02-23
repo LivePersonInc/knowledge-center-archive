@@ -4,7 +4,6 @@
 }
 
 .welcome-card {
-  min-height: 196px;
   background: #ffffff;
   border: 1px solid #dadbe5;
   box-sizing: border-box;
@@ -12,7 +11,7 @@
   text-decoration: none;
   width: 49%;
   flex-grow: 1;
-  padding: 38px 42px 58px !important;
+  padding: 2.375rem 2.625rem !important;
   transition: box-shadow 180ms ease-in-out;
   display: flex;
   flex-direction: column;
@@ -29,7 +28,9 @@ div#success-stories {
   padding: 0 !important;
 }
 div#success-stories a {
-  padding: 38px 42px 58px !important;
+  padding: 2.375rem 2.625rem !important;
+  display: flex;
+  align-items: center;
 }
 
 .header-label {
@@ -46,15 +47,16 @@ div#success-stories a {
 }
 
 .success-stories-header {
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 33px;
   max-width: 418px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 2rem;
   color: #ffffff;
   letter-spacing: 0.008em;
+  margin: 0;
 }
 
 .container-image {
@@ -67,7 +69,11 @@ div#success-stories a {
   width: 100%;
   flex-wrap: wrap;
   gap: 16px;
-  margin-top: 30px;
+  margin-top: 1.875rem;
+}
+
+.card-container * {
+  box-sizing: border-box;
 }
 
 img.card-container {
@@ -80,8 +86,8 @@ img.card-container {
   font-weight: bold;
   margin: 0;
   max-width: 424px;
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 1.375rem;
+  line-height: 2rem;
   letter-spacing: 0.01em;
 }
 
@@ -110,8 +116,8 @@ img.card-container {
   background: #090c43;
   flex: 1;
   display: flex;
-  margin-top: 40px;
-  padding: 40px 0 40px 40px;
+  margin-top: 2.5rem;
+  padding: 2.5rem 0 2.5rem 2.5rem;
   border-radius: 8px;
   width: 100%;
 }
@@ -120,7 +126,7 @@ img.card-container {
   flex: 1;
   display: flex;
   align-items: center;
-  padding-right: 40px;
+  padding-right: 2.5rem;
   justify-content: flex-end;
 }
 
@@ -136,26 +142,29 @@ img.card-container {
 }
 
 .create-button {
-  border-radius: 40px;
   text-align: center;
-  padding: 20px 33px;
-  font-weight: bold;
   color: white;
-  border: 1px solid #ff6900;
+  border: none;
   background-color: inherit;
-  font-size: 22px;
   background: #ff6900;
+  border-radius: 9999px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.25rem;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
 }
 
 .create-button:hover {
-  background: rgb(255 255 255 / 0%);
+  background: #db5a00;
 }
 
 .free-trial-header {
   letter-spacing: normal;
   color: #ff6900;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 1.75rem;
+  line-height: 2rem;
   font-weight: bold;
 }
 
@@ -163,8 +172,8 @@ img.card-container {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   padding-right: 24px;
   letter-spacing: 0.01em;
   color: white;
@@ -172,8 +181,8 @@ img.card-container {
 }
 
 .homeContent {
-  margin-top: -30px !important;
-  margin-left: -40px !important;
+  margin-top: -1.875rem !important;
+  margin-left: -2.5rem !important;
 }
 
 .mainHome {
@@ -183,12 +192,12 @@ img.card-container {
 
 .mainHome .h1 {
   color: #5879df !important;
-  margin-top: 10px !important;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1300px) {
   .homeContent {
-    margin-left: 20px !important;
+    margin-left: 1.25rem !important;
   }
   .header-label {
     width: 100%;
@@ -203,7 +212,7 @@ img.card-container {
   }
   .homeContent {
     margin-left: 0 !important;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
   div#defaultwrapper {
     overflow-x: hidden;
@@ -218,7 +227,7 @@ img.card-container {
     text-align: center;
     justify-content: center;
     flex: 0 100%;
-    padding: 35px 20px;
+    padding: 35px 1.25rem;
   }
   div#defaultcontent div#maincontent .h1 {
     width: 100%;
@@ -226,7 +235,10 @@ img.card-container {
   div#success-stories {
     padding: 0 33px 0 0 !important;
   }
-  div#success-stories a {
-    padding: 44px 15px 58px !important;
+}
+
+@media (min-width: 1180px) and (max-width: 1600px) {
+  .welcome-card {
+    padding: 1.375rem 2.625rem !important;
   }
 }

@@ -1,0 +1,15 @@
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/posix-spawn-0.3.15/ext
+/Users/ihaephrati/.rvm/rubies/ruby-2.5.0/bin/ruby -I /Users/ihaephrati/.rvm/rubies/ruby-2.5.0/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210223-29726-8qb6vo.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR=" clean
+
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.bundle
+
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 posix_spawn_ext.bundle ./.gem.20210223-29726-hje0l6

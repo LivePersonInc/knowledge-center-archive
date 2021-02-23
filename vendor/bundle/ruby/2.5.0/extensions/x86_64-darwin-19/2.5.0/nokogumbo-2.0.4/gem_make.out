@@ -1,0 +1,34 @@
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+/Users/ihaephrati/.rvm/rubies/ruby-2.5.0/bin/ruby -I /Users/ihaephrati/.rvm/rubies/ruby-2.5.0/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210223-29726-1kburgy.rb extconf.rb
+checking for libxml/tree.h in /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-darwin/ext/nokogiri/include/libxml2... yes
+checking for nokogiri.h in /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.11.1-x86_64-darwin/ext/nokogiri... yes
+creating Makefile
+
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+make "DESTDIR=" clean
+
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+make "DESTDIR="
+compiling nokogumbo.c
+compiling ./../../gumbo-parser/src/string_buffer.c
+compiling ./../../gumbo-parser/src/svg_attrs.c
+compiling ./../../gumbo-parser/src/ascii.c
+compiling ./../../gumbo-parser/src/util.c
+compiling ./../../gumbo-parser/src/svg_tags.c
+compiling ./../../gumbo-parser/src/vector.c
+compiling ./../../gumbo-parser/src/attribute.c
+compiling ./../../gumbo-parser/src/token_buffer.c
+compiling ./../../gumbo-parser/src/char_ref.c
+compiling ./../../gumbo-parser/src/utf8.c
+compiling ./../../gumbo-parser/src/error.c
+compiling ./../../gumbo-parser/src/tag.c
+compiling ./../../gumbo-parser/src/parser.c
+compiling ./../../gumbo-parser/src/foreign_attrs.c
+compiling ./../../gumbo-parser/src/tokenizer.c
+compiling ./../../gumbo-parser/src/string_piece.c
+compiling ./../../gumbo-parser/src/tag_lookup.c
+linking shared-object nokogumbo/nokogumbo.bundle
+
+current directory: /Users/ihaephrati/Desktop/code/knowledge-center/vendor/bundle/ruby/2.5.0/gems/nokogumbo-2.0.4/ext/nokogumbo
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nokogumbo.bundle ./.gem.20210223-29726-2vylbb/nokogumbo
