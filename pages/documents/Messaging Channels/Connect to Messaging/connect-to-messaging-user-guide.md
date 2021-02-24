@@ -44,10 +44,7 @@ Users click on the Campaign Builder on the left side navigation -> Click Data So
 
 ### Prerequisites for the C2M 2.0 API
 
-* **Enable channels:** Brands are required to enable at least one or more messaging channels: SMS, WhatsApp or their mobile app to use C2M 2.0 API Service.
- * Steps to enable [SMS Twilio quick start guide](getting-started-quick-start-guides-twilio-sms-quick-start.html)
- * Steps to enable [WhatsApp quick start guide](messaging-channels-whatsapp-business.html)
- * Steps to enable [App Messaging channel]() and review the [App Messaging quick start guide](messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html)
+* **Enable channels:** Brands are required to enable at least one or more messaging channels: [SMS Twilio](getting-started-quick-start-guides-twilio-sms-quick-start.html), [WhatsApp](messaging-channels-whatsapp-business.html) or their [mobile app](messaging-channels-app-messaging-app-messaging-capabilities.html) to use C2M 2.0 API Service.
    * For iOS
     1. Install and and configure the iOS SDK on the brand’s app. See the Installation [Developer Community article](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
     2. Perform the advanced configuration needed to enable C2M on the SDK. See the [Developer Community article](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-advanced-features-proactive-and-ivr-deflection-to-app-messaging.html)
