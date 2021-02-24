@@ -35,12 +35,12 @@ App Messaging is a new channel available for the Connect to Messaging (IVR defle
 
 * **Analytics:** 
  * * **Phase 1 (now available):** Brands will have access to the Connect to Messaging report metrics. Reporting metrics include: 
-  * Number of messages **sent**
-  * Number of messages **failed**
-  * **Retrieving the data:** Brands will have access to the new Reporting 2.0 API which will allow them to retrieve the message status (sent or failed). The reporting 2.0 API is now available. 
+   * Number of messages **sent**
+   * Number of messages **failed**
+   * **Retrieving the data:** Brands will have access to the new Reporting 2.0 API which will allow them to retrieve the message status (sent or failed). The reporting 2.0 API is now available. 
  * **Phase 2 (planned for March 2021):** Brands will have access to more types of message metrics, as well as be able to access them via the Reporting 2.0 API or the new Analytics dashboard:
-  * More metrics will include: Outbound message delivered, read, replied to and outbound message failure reasons. 
-  * The new Analytics Dashboard will be available in March 2021 
+   * More metrics will include: Outbound message delivered, read, replied to and outbound message failure reasons. 
+   * The new Analytics Dashboard will be available in March 2021 
 
 ## Brand prerequesites 
 
