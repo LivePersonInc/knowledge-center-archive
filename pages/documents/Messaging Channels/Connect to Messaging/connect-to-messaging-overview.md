@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: messaging-channels-connect-to-messaging-overview.html
+permalink: messaging-channels-connect-to-messaging-connect-to-messaging-overview.html
 isTutorial: false
 isNew: false
 
