@@ -15,32 +15,32 @@ App Messaging is a new channel available for the Connect to Messaging (IVR defle
 
 ## High-level capabilities
 
-* **Connect to Messaging APIs:** Brands will be able to leverage the Connect to Messaging 2.0 APIs in order to send outbound messages to consumers via App Messaging. Using the Connect to Messaging API capabilities, brands can:
-  * Define the **skill** that the conversation will be routed to once the consumer replies
-  * Define the **recipient/s** using the internal consumers’ IDs (the same internal ID used to authenticate brand’s consumers against their IDP in the In-App authentication flow)
-        * Proactive Messaging supports sending outbound messages to as little as 1 or as many as 100K consumers per campaign   
-  * Define the **outbound message content** (text and emoji only)
-  * Set a **lookback period** to control for how long the proactive or IVR outbound message configuration will be valid for:
-        * Displaying the push message in the notification center
-        * Routing to the configured skill     
+**Connect to Messaging APIs:** Brands will be able to leverage the Connect to Messaging 2.0 APIs in order to send outbound messages to consumers via App Messaging. Using the Connect to Messaging API capabilities, brands can:
+* Define the **skill** that the conversation will be routed to once the consumer replies
+*  * Define the **recipient/s** using the internal consumers’ IDs (the same internal ID used to authenticate brand’s consumers against their IDP in the In-App authentication flow)
+     * Proactive Messaging supports sending outbound messages to as little as 1 or as many as 100K consumers per campaign   
+* Define the **outbound message content** (text and emoji only)
+* Set a **lookback period** to control for how long the proactive or IVR outbound message configuration will be valid for:
+     * Displaying the push message in the notification center
+     * Routing to the configured skill     
 
-* **App Push Notifications:** 
-  * Consumers will receive the outbound message via the app’s push notifications, enabling them to tap on the message and be directed to the messaging interface to start conversing 
-  * Brands can define if the push notifications will be sent when users are logged into the app, as well as logged out of the app. 
+**App Push Notifications:** 
+* Consumers will receive the outbound message via the app’s push notifications, enabling them to tap on the message and be directed to the messaging interface to start conversing 
+* Brands can define if the push notifications will be sent when users are logged into the app, as well as logged out of the app. 
 
-* **App Push Notifications:** Agents and bots have the full details on the Proactive and IVR configurations which triggered the conversation, as well as basic consumer information in the Conserational Cloud workspace: 
-  * **Campaign info** - Campaign name, engagement name and skill, campaign source (e.g proactive messaging, IVR deflection etc).
-  * **Consumer info** - Consumer device OS, device, country, city
-  * **Conversation info** - Conversation start time, ID, and channel source (e.g App Messaging, SMS, WhatsApp, etc.)
+**App Push Notifications:** Agents and bots have the full details on the Proactive and IVR configurations which triggered the conversation, as well as basic consumer information in the Conserational Cloud workspace: 
+* **Campaign info** - Campaign name, engagement name and skill, campaign source (e.g proactive messaging, IVR deflection etc).
+* **Consumer info** - Consumer device OS, device, country, city
+* **Conversation info** - Conversation start time, ID, and channel source (e.g App Messaging, SMS, WhatsApp, etc.)
 
-* **Analytics:** 
-  * **Phase 1 (now available):** Brands will have access to the Connect to Messaging report metrics. Reporting metrics include: 
-   * Number of messages **sent**
-   * Number of messages **failed**
-   * **Retrieving the data:** Brands will have access to the new Reporting 2.0 API which will allow them to retrieve the message status (sent or failed). The reporting 2.0 API is now available. 
-  * **Phase 2 (planned for March 2021):** Brands will have access to more types of message metrics, as well as be able to access them via the Reporting 2.0 API or the new Analytics dashboard:
-   * More metrics will include: Outbound message delivered, read, replied to and outbound message failure reasons. 
-   * The new Analytics Dashboard will be available in March 2021 
+**Analytics:** 
+* **Phase 1 (now available):** Brands will have access to the Connect to Messaging report metrics. Reporting metrics include: 
+  * Number of messages **sent**
+  * Number of messages **failed**
+  * **Retrieving the data:** Brands will have access to the new Reporting 2.0 API which will allow them to retrieve the message status (sent or failed). The reporting 2.0 API is now available. 
+* **Phase 2 (planned for March 2021):** Brands will have access to more types of message metrics, as well as be able to access them via the Reporting 2.0 API or the new Analytics dashboard:
+  * More metrics will include: Outbound message delivered, read, replied to and outbound message failure reasons. 
+  * The new Analytics Dashboard will be available in March 2021 
 
 ## Brand prerequesites 
 
