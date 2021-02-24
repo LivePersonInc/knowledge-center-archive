@@ -17,12 +17,12 @@ App Messaging is a new channel available for the Connect to Messaging (IVR defle
 
 **Connect to Messaging APIs:** Brands will be able to leverage the Connect to Messaging 2.0 APIs in order to send outbound messages to consumers via App Messaging. Using the Connect to Messaging API capabilities, brands can:
 * Define the **skill** that the conversation will be routed to once the consumer replies
-*  * Define the **recipient/s** using the internal consumers’ IDs (the same internal ID used to authenticate brand’s consumers against their IDP in the In-App authentication flow)
-     * Proactive Messaging supports sending outbound messages to as little as 1 or as many as 100K consumers per campaign   
+* Define the **recipient/s** using the internal consumers’ IDs (the same internal ID used to authenticate brand’s consumers against their IDP in the In-App authentication flow)
+   * Proactive Messaging supports sending outbound messages to as little as 1 or as many as 100K consumers per campaign   
 * Define the **outbound message content** (text and emoji only)
 * Set a **lookback period** to control for how long the proactive or IVR outbound message configuration will be valid for:
-     * Displaying the push message in the notification center
-     * Routing to the configured skill     
+   * Displaying the push message in the notification center
+   * Routing to the configured skill     
 
 **App Push Notifications:** 
 * Consumers will receive the outbound message via the app’s push notifications, enabling them to tap on the message and be directed to the messaging interface to start conversing 
