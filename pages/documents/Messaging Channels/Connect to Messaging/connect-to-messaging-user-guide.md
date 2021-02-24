@@ -25,7 +25,7 @@ Only brand administrator and campaign manager profiles have access to the Connec
 
 #### Requesting to enable the C2M Service
 
-Brand campaign managers or administrators can request to enable the service by clicking the contacts us button on the welcome page. The contact us will open a new tab where the user will provide the following information listed in <Onboarding request form>. 
+Brand campaign managers or administrators can request to enable the service by clicking the contacts us button on the welcome page. The contact us will open a new tab where the user will provide the following information listed in the [Onboarding request form](https://docs.google.com/forms/d/e/1FAIpQLScTClhEWoHlQ0gvz3d51RowfBFaA2fjude9WQrI5kECk3KMgA/viewform). 
 
 ![](img/c2m-user-guide-1.png)
 
@@ -36,18 +36,18 @@ Only LPA users with elevated administrator permissions can enable the C2M Servic
 Users click on the Campaign Builder on the left side navigation -> Click Data Sources -> Select the API Tab to view this page.
 
 ![](img/c2m-user-guide-2.png)
-Key-1: liveperson-outbound-user is the system user.
-Key-2: SmartConnect key is created to access the C2M webtool. 
+
+* Key-1: liveperson-outbound-user is the system user
+* Key-2: SmartConnect key is created to access the C2M webtool
 
 ## C2M API
 
 ### Prerequisites for the C2M 2.0 API
 
 * **Enable channels:** Brands are required to enable at least one or more messaging channels: SMS, WhatsApp or their mobile app to use C2M 2.0 API Service.
-  * Steps to enable [SMS Twilio quick start guide](getting-started-quick-start-guides-twilio-sms-quick-start.html)
-  * Steps to enable [WhatsApp quick start guide](messaging-channels-whatsapp-business.html)
-  * Steps to enable [App Messaging channel]()
-   * Review the [App Messaging quick start guide](messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html)
+ * Steps to enable [SMS Twilio quick start guide](getting-started-quick-start-guides-twilio-sms-quick-start.html)
+ * Steps to enable [WhatsApp quick start guide](messaging-channels-whatsapp-business.html)
+ * Steps to enable [App Messaging channel]() and review the [App Messaging quick start guide](messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html)
    * For iOS
     1. Install and and configure the iOS SDK on the brand’s app. See the Installation [Developer Community article](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
     2. Perform the advanced configuration needed to enable C2M on the SDK. See the [Developer Community article](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-advanced-features-proactive-and-ivr-deflection-to-app-messaging.html)
@@ -58,10 +58,18 @@ Key-2: SmartConnect key is created to access the C2M webtool.
     1. To configure the push notification please review and follow this [guide](https://developers.liveperson.com/push-notification-service-overview.html) 
     2. Review the push notification setting needed for [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-push-notifications.html)
     3. Review the push notification setting needed for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-push-notifications.html) 
-* **Enable Skills:** Brands require to have at least one or more skills to do skill based routing through LE campaigns and engagements.
-  * To create skills see this [guide](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)
+   * Install the new widget in Agent Workspace to display the first outbound message. We display max five outbound messages in the last 30 days.
+    1. Follow the steps to [create a new widget](data-reporting-insights-creating-new-widgets.html) in the Agent Workspace.
+    2. Create the widget name: CX-Widget
+    3. Copy the correct link for respective regions:
+     * NA region - [https://connect-to-messaging.z1.fs.liveperson.com/api/cx-widget/login](https://connect-to-messaging.z1.fs.liveperson.com/api/cx-widget/login)
+     * EMEA region - [https://connect-to-messaging.z2.fs.liveperson.com/api/cx-widget/login](https://connect-to-messaging.z2.fs.liveperson.com/api/cx-widget/login)
+     * APAC region - [https://connect-to-messaging.z3.fs.liveperson.com/login](https://connect-to-messaging.z3.fs.liveperson.com/login)
 
 ![](img/c2m-user-guide-2b.png)
+
+* **Enable Skills:** Brands require to have at least one or more skills to do skill based routing through LE campaigns and engagements.
+  * To create skills see this [guide](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)
 
 ### Creating C2M 2.0 API keys
 
@@ -86,28 +94,28 @@ Connect To Messaging  v 2.0 serves as a middleware solution between the brands I
 
 #### Step 1: Eligibility flow
 
-This step is the actual capability check where the API determines whether the consumer can be sent messages over each of the channels (SMS, WhatsApp, App Messaging). Complete details of the API specification can be found [here](https://app.swaggerhub.com/apis/nsavla/Connect_To_Messaging/1.0.4).
+This step is the actual capability check where the API determines whether the consumer can be sent messages over each of the channels (SMS, WhatsApp, App Messaging). Complete details of the API specification can be found [here](https://developers.liveperson.com/connect-to-messaging-api.html).
 
 #### Step 2: Invite flow
 
-This step is the one where the brand initiates a message to the consumer. Conversation gets created once the consumer replies to the message. With the callId generated in the eligibility flow, this API fetches the call context from its database and triggers the message to the consumer. Complete details of the API specification can be found [here](https://app.swaggerhub.com/apis/nsavla/Connect_To_Messaging/1.0.4).
+This step is the one where the brand initiates a message to the consumer. Conversation gets created once the consumer replies to the message. With the callId generated in the eligibility flow, this API fetches the call context from its database and triggers the message to the consumer. Complete details of the API specification can be found [here](https://developers.liveperson.com/connect-to-messaging-api.html).
 
 #### Reporting 2.0 API
 
-Reporting feature presents a complete journey of conversation from beginning to end. The goal of this feature is to stitch pre and post conversation events for full funnel view and publish analytical and raw transactional data to subscribers. Complete details of the API specification can be found here.
+Reporting feature presents a complete journey of conversation from beginning to end. The goal of this feature is to stitch pre and post conversation events for full funnel view and publish analytical and raw transactional data to subscribers. Complete details of the API specification can be found [here](https://developers.liveperson.com/outbound-reporting-api-overview.html).
 
 ## C2M webtool 
 
 The webtool allows users to self-manage API configurations, WhatsApp Message Templates and account settings without having to depend on LivePerson staff. Brands who are on the C2M 2.0 API can access the webtool, only administrators and campaign managers can create and manage API handoffs, WhatsApp templates and skills enablement to do the conversation routing.
 
 Main components of the webtool are:
-* Welcome page
-* Settings
+* [Welcome page](messaging-channels-connect-to-messaging-user-guide.html#welcome-page)
+* [Settings](messaging-channels-connect-to-messaging-user-guide.html#settings)
   * Channels
   * Device Check
   * Routing  
-* API Configurations
-* WhatsApp Message Templates
+* [API Configurations](messaging-channels-connect-to-messaging-user-guide.html#api-configurations-create-and-manage-api-handoff)
+* [WhatsApp Message Templates](messaging-channels-connect-to-messaging-user-guide.html#whatsapp-messaging-templates)
 
 ### Welcome page
 
@@ -117,7 +125,7 @@ Brand users will see the welcome page only once after the service is enabled and
 
 Click the Connect to Messaging button in Quick launch to land onto the Welcome page.
 
-![](img/c2m-user-guide-7.png)
+![](img/c2m-user-guide-7.jpg)
 
 ### Settings
 
