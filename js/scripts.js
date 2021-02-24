@@ -92,7 +92,7 @@ function navigateContent(url) {
 	};
 
 function loadData() {
-	console.log('loading data')
+	console.log('loading data');
 	var staticUrl = "/data/reportbuilder.json"
 	fetch(staticUrl)
 		.then(response => response.json())
@@ -121,7 +121,7 @@ function linkclick(event, that) {
 		console.log('nontrigger');
 		return false;
 	} else if (!event.isTrigger ) {
-		console.log('clickrun');
+		// console.log('clickrun');
 	//prevent the link from actually navigating to the url
 	event.preventDefault();
 	//grab the url to which the link is pointing
@@ -295,71 +295,158 @@ function mobileHamburger() {
 
 //a function which creates and operates the search for the API Metrics and Report Builder Tables
 function searchFunction() {
-	var $title = $('.h1').text();
-	//only run if on the relevant pages
-	if ($title.indexOf('Reporting metrics') > -1) {
-		// Declare variables
-		var input, filter, table, tr, td, i;
-		input = document.getElementById("metricsSearch");
-		td = document.getElementsByTagName("td");
-		//fixing lack of commas and spaces on source data
-		for (i = 0; i < td.length; i++) {
-			td[i].innerText = td[i].innerText.replace(/,(?=[^\s])/g, ", ");
-		}
-		// Loop through all table rows, and hide those who don't match the search query (represented by the "filter" variable) on input. Both functions do the same thing but are called below on the separate pages.
-		function reportDisplay() {
-			table = document.getElementById("datametricstable");
-			tr = table.getElementsByTagName("tr");
-			for (i = 0; i < tr.length; i++) {
-				tdMetric = tr[i].getElementsByTagName("td")[0];
-				tdDashboard = tr[i].getElementsByTagName("td")[4];
-				if (tdMetric || tdDashboard) {
-					if (tdMetric.innerHTML.toUpperCase().indexOf(filter) > -1 || tdDashboard.innerHTML.toUpperCase().indexOf(filter) > -1) {
-						tr[i].style.display = "";
-						$('td').highlight(filter.toString(), {
-							className: 'metricHighlight'
-						});
-					} else {
-						tr[i].style.display = "none";
-					}
-				}
-			}
-		};
-		function metricsDisplay() {
-			//if this is the API metrics page
-			table = document.getElementById("apimetricstable");
-			tr = table.getElementsByTagName("tr");
-			for (i = 0; i < tr.length; i++) {
-				tdMetric = tr[i].getElementsByTagName("td")[0];
-				tdApi = tr[i].getElementsByTagName("td")[2];
-				if (tdMetric || tdApi) {
-					if (tdMetric.innerHTML.toUpperCase().indexOf(filter) > -1 || tdApi.innerHTML.toUpperCase().indexOf(filter) > -1) {
-						tr[i].style.display = "";
-						$('td').highlight(filter.toString(), {
-							className: 'metricHighlight'
-						});
-					} else {
-						tr[i].style.display = "none";
-					}
-				}
-			}
-		};
-		$(input).on('input', function () {
-			//get rid of previous highligthing before we highlight anything new
-			$('td').unhighlight({
-				className: 'metricHighlight'
-			});
-			filter = input.value.toUpperCase();
-			//if this is the report builder page
-			if ($(".metricstable").is("#datametricstable")) {
-				//timeout is important because the table is so large and if it tries to load in parallel to the function, it stalls.
-				setTimeout(reportDisplay, 1000);
-			} else {
-				metricsDisplay();
-			}
-		});
-	};
-};
+    var $title = $(".h1").text();
+	var analytics = [];
+	var channels = [];
+	var filter = "";
+    //only run if on the relevant pages
+    if ($title.indexOf("Reporting metrics") > -1) {
+      // Declare variables
+      var input, table, tr, td, i;
+
+      input = document.getElementById("metricsSearch");
+      td = document.getElementsByTagName("td");
+      //fixing lack of commas and spaces on source data
+      for (i = 0; i < td.length; i++) {
+        td[i].innerText = td[i].innerText.replace(/,(?=[^\s])/g, ", ");
+      }
+      // Loop through all table rows, and hide those who don't match the search query (represented by the "filter" variable) on input. Both functions do the same thing but are called below on the separate pages.
+      function reportDisplay() {
+        var analyticsString = analytics.join().toLowerCase();
+        var channelsString = channels.join();
+        console.log(analytics);
+        console.log(analyticsString);
+        table = document.getElementById("datametricstable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+          tdMetric = tr[i].getElementsByTagName("td")[0];
+          tdDashboard = tr[i].getElementsByTagName("td")[4];
+          if (tdMetric || tdDashboard) {
+            if (
+              (filter == "" ||
+                tdMetric.innerHTML.toUpperCase().indexOf(filter) > -1 ||
+                tdDashboard.innerHTML.toUpperCase().indexOf(filter) > -1) &&
+              (analyticsString == "" ||
+                analyticsString.indexOf(
+                  $(tr[i])
+                    .find(".analysis")
+                    .text()
+                    .replace(/(?:\r\n|\r|\n)/g, "")
+                    .trim()
+                    .toLowerCase()
+                ) > -1) &&
+              (channelsString == "" ||
+                findCommonElement(
+                  $(tr[i])
+                    .find(".channel")
+                    .text()
+                    .replace(/(?:\r\n|\r|\n)/g, "")
+                    .trim()
+                    .split(","),
+                  channels
+                ))
+            ) {
+              tr[i].style.display = "";
+              $("td").highlight(filter.toString(), {
+                className: "metricHighlight",
+              });
+            } else {
+              tr[i].style.display = "none";
+            }
+          } else {
+            tr[i].style.display = "";
+          }
+        }
+      }
+      function metricsDisplay() {
+        //if this is the API metrics page
+        table = document.getElementById("apimetricstable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+          tdMetric = tr[i].getElementsByTagName("td")[0];
+          tdApi = tr[i].getElementsByTagName("td")[2];
+          if (tdMetric || tdApi) {
+            if (
+              tdMetric.innerHTML.toUpperCase().indexOf(filter) > -1 ||
+              tdApi.innerHTML.toUpperCase().indexOf(filter) > -1
+            ) {
+              tr[i].style.display = "";
+              $("td").highlight(filter.toString(), {
+                className: "metricHighlight",
+              });
+            } else {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+      $(input).on("input", function () {
+        //get rid of previous highligthing before we highlight anything new
+        $("td").unhighlight({
+          className: "metricHighlight",
+        });
+        filter = input.value.toUpperCase();
+        //if this is the report builder page
+        filtersRecords();
+      });
+
+      function filtersRecords() {
+        if ($(".metricstable").is("#datametricstable")) {
+          //timeout is important because the table is so large and if it tries to load in parallel to the function, it stalls.
+          setTimeout(reportDisplay, 1000);
+        } else {
+          metricsDisplay();
+        }
+      }
+      // filters
+
+      $("#Analysis-Type-filter").multiselect({
+        onOptionClick: function (element, option) {
+          if (!$(option).prop("checked")) {
+            analytics.splice(analytics.indexOf($(option).val()), 1);
+            filtersRecords();
+          } else {
+            analytics.push($(option).val());
+            console.log(analytics);
+            filtersRecords();
+          }
+        },
+      });
+
+      $("#Chat-filter").multiselect({
+        onOptionClick: function (element, option) {
+          if (!$(option).prop("checked")) {
+            channels.splice(analytics.indexOf($(option).val()), 1);
+            filtersRecords();
+          } else {
+            if ($(option).val() != "Any") {
+              channels.push($(option).val());
+              filtersRecords();
+            }
+          }
+        },
+      });
+    }
+  };
+
+  function findCommonElement(array1, array2) {
+    // Loop for array1
+    for (let i = 0; i < array1.length; i++) {
+      // Loop for array2
+      for (let j = 0; j < array2.length; j++) {
+        // Compare the element of each and
+        // every element from both of the
+        // arrays
+        if (array1[i] === array2[j]) {
+          // Return if common element found
+          return true;
+        }
+      }
+    }
+
+    // Return if no common element exist
+    return false;
+  }
 
 
 //very similar to the search function above, just for the capabilities comparison table

@@ -25,9 +25,49 @@ More information on the Live Chat dashboards can be found [here](https://knowled
 The table below outlines all of the data metrics available in the Analytics Builder, with their definition and location within the different dashboards.
 
 <div id="metrics">
-<input id="metricsSearch" placeholder="Search by Metric or Dashboard" />
-<div class="tablecontainer containerMetrics" style="transform: rotate(360deg) scaleY(-1); margin-top: 20px;">
-<table class="metricstable" id="datametricstable" style="transform: rotate(360deg) scaleY(-1)">
+<div class="flex-filters">
+      <table class="table-filters">
+         <thead>
+            <tr class="filters">
+               <th class="th-filter">
+                <input id="metricsSearch" placeholder="Search by Metric or Dashboard" />
+               </th>
+               <th class="th-filter">
+                  Analysis Type
+                  <select id="Analysis-Type-filter" multiple="multiple"  class="form-control" >
+                     <option>Agent productivity</option>
+                     <option>Agent segments</option>
+                     <option>Agent utilization</option>
+                     <option>Agent status</option>
+                     <option>Agent responsiveness</option>
+                     <option>Campaign conversions</option>
+                     <option>Campaign funnel</option>
+                     <option>Surveys</option>
+                     <option>Queue health</option>
+                     <option>Self-service conversions</option>
+                     <option>Consumer experience</option>
+                     <option>Bot productivity</option>
+                     <option>Control group conversions</option>
+                     <option>Repeat contact rate</option>
+                     <option>Skill segments</option>
+                     <option>Network manager</option>
+                  </select>
+               </th>
+               <th class="th-filter">
+                  Status
+                  <select id="Chat-filter" multiple="multiple"  class="form-control">
+                     <option>Any</option>
+                     <option>Chat</option>
+                     <option>Messaging</option>
+                     <option>Standalone</option>
+                  </select>
+               </th>
+            </tr>
+         </thead>
+      </table>
+      </div>
+<div class="tablecontainer containerMetrics" style="margin-top: 20px;">
+<table class="metricstable" id="datametricstable">
   <thead>
     <tr>
       <th>Metric</th>
