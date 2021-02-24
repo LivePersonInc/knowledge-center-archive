@@ -281,7 +281,7 @@ User Role and Permissions to create and manage WhatsApp Message Templates:
 
 Role | Create | View | Delete | Edit | Publish | Status 
 --- | --- | --- | --- | --- | --- | ---
-Campaign Manager | Yes | Yes | Yes | Yes | | Yes | No |
+Campaign Manager | Yes | Yes | Yes | Yes | Yes | No |
 Admin | Yes | Yes | Yes | Yes | Yes | No |
 LPA user | No | Yes | No | No | No | No |
 Agent | No | No | No | No | No | No |
