@@ -58,6 +58,11 @@
         - pagename: Social Messaging overview
         - pagename: Social Messaging user guide
     - subcategoryname: Email Connect
+    - subcategoryname: Connect to Messaging (IVR deflection)
+      pages: 
+        - pagename: Connect to Messaging overview
+        - pagename: Connect to Messaging user guide
+        - pagename: Connect to App Messaging
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
