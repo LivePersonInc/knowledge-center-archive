@@ -125,6 +125,9 @@ Channel
 **Channel**: This enhancement is available for all channels supported by the Conversational Cloud platform.
 
 In the Model Tester in Intent Builder, you can now import and export the test set used for the domain.
+
+![](img/week-of-march-1st-12.png)
+
 If you’ve defined your “gold set” of test phrases to use in an external CSV file, this enhancement allows you to easily upload it.
 
 ## Intent Builder -  Enhancement to the LivePerson NLU v2 engine
@@ -149,5 +152,24 @@ In this release, LivePerson is taking a few steps to progress toward deprecation
 LivePerson’s NLU v2 engine is a better performing and more scalable solution. It handles a greater volume of requests, and it provides better accuracy and faster response times than the v1 engine.
 
 To progress toward deprecation, in this release, we remove from Intent Builder the ability to create a domain that uses the v1 engine.
+
+![](img/week-of-march-1st-13.png)
+
+Additionally, within the Knowledge Base application, we remove the ability to create:
+* A knowledge base that uses Knowledge Base intents (since knowledge bases of this type use the v1 engine behind the scenes)
+* A knowledge base that uses a domain using the v1 engine.
+
+![](img/week-of-march-1st-14.png)
+
+It is important to note: If you have an existing domain or knowledge base that uses the v1 engine, it remains unaffected by this change. You can continue to update and use it. However, all brands are encouraged to begin leveraging our v2 engine as soon as possible.
+
+*If your language requirement is English, our v2 engine is the better option. Stay tuned for additional language support later this year.
+* If you require a v1 Spanish domain, please contact your LivePerson representative.
+* If you require support now for other languages, use a domain with a third-party NLU engine.
+
+Finally, to align with the above efforts, in this release we also rename our NLU engines:
+* LivePerson v1 is being renamed to LivePerson (Legacy)
+* LivePerson v2 is being renamed LivePerson
+
 
 
