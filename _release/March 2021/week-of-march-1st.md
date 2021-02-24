@@ -79,3 +79,75 @@ The ability to send rich WhatsApp message outbound proactive campaigns with vide
 ![](img/week-of-march-1st-10.png)
 
 ![](img/week-of-march-1st-11.png)
+
+## Support for Instagram and Twitter’s Direct Messages
+### Type: New Functionality (Release 2021_3.0 Conversation Builder)
+
+**Channels:** Instagram & Twitter
+In this release, you can expand your automation footprint on social networks by adding conversational AI on Instagram and Twitter!
+Conversation Builder introduces new support for bots handling conversations with consumers on Instagram and Twitter’s Direct Messages.
+From a bot development perspective, you’ll find that this works a lot like for any other target channel: Simply build the bot, and configure and deploy the agent connector. The integration is seamless.
+As always, brands with a global social presence can support broad language requirements by taking advantage of a third-party provider for NLU.
+This is our MVP version of our support for Twitter; expect more enhancements to come!
+
+## A new Universal Interaction
+### Type: Enhancement (Release 2021_3.0 Conversation Builder)
+
+**Channel:** This enhancement is available for all channels supported by the Conversational Cloud platform.
+
+Is there a cutting-edge interaction in a channel that you want to implement in your bot? Do you want to fast track its usage now, before support for it is added to the Statement and Question interactions in Conversation Builder? Now you can. Conversation Builder introduces a new “universal” interaction to meet this need.
+
+This powerful, new interaction is designed for advanced bot developers, and it opens up many more opportunities to achieve the exact layout and styling that you require. For example, you might want a vertical card layout or perhaps a button question that uses just buttons (images) without button labels (text).
+
+To use this code interaction, add it to your bot, and enter the appropriate JSON code within it. You are limited only by what’s supported by the Conversational Cloud, as the JSON must adhere to the [Conversational Cloud message format.](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html)
+
+To fully test a Universal interaction, use Conversation Builder’s Conversation Tester tool or a Web client.
+
+Note: The Universal interaction isn’t intended to replace the Statement and Question interactions in Conversation Builder. For fast and easy bot development, LivePerson recommends that you always use them whenever they meet your requirements.
+
+## A new “slideout” window option for buttons
+### Type: Enhancement (Release 2021_3.0 Conversation Builder)
+
+**Channel**: This enhancement is available for all channels supported by the Conversational Cloud platform.
+
+Previously, when you were configuring a button in a Structured or Button question, and the button was a link to a Web URL, you could specify whether to open the URL in a new window or the current window. In this release, we add support for a third option: Slideout.
+
+![](img/week-of-march-1st-11.png)
+
+Use the slideout option when you want to provide a window that “slides out” from the conversation window. This produces an attractive and tightly integrated experience for the consumer.
+
+When handling payments in cCommerce solutions in particular, a slideout window is often considered a superior consumer experience over opening a new window. With a slideout window, the consumer can more easily return to the conversation after the transaction is completed. This is especially important to address cases where the consumer wants to ask additional questions after the invoice has been generated.
+
+## Intent Builder - Import and export test sets from Model Tester
+### Type: Enhancement (Release 2021_3.0 Conversation Builder)
+Channel
+
+**Channel**: This enhancement is available for all channels supported by the Conversational Cloud platform.
+
+In the Model Tester in Intent Builder, you can now import and export the test set used for the domain.
+If you’ve defined your “gold set” of test phrases to use in an external CSV file, this enhancement allows you to easily upload it.
+
+## Intent Builder -  Enhancement to the LivePerson NLU v2 engine
+### Type: Enhancement (Release 2021_3.0 Conversation Builder)
+
+**Channel**: This enhancement is available for all channels supported by the Conversational Cloud platform.
+
+During model training and when making predictions, NLU v2 makes use of a set of pre-trained word embeddings. In this release, NLU v2 is expanded to use all available word embeddings. This underlying change yields two, major benefits.
+
+A bias toward words outside of this vocabulary is eliminated since the vocabulary used is significantly larger. Once you retrain your domain, user utterances with out-of-vocabulary words shouldn’t yield unexpected good matches.
+Punctuation no longer degrades the accuracy of predictions. For example, an utterance that previously returned a score of 15.22% due to a period at the end now returns a 94.54%.
+
+Action required: Please retrain your LivePerson NLU v2 domains so that they benefit from this change. No additional tuning is required; simply retrain the domain as is.
+
+## Steps toward deprecation of the LivePerson NLU v1 engine
+### Type: Enhancement (Release 2021_3.0 Conversation Builder, Intent Builder, Knowledge Base)
+
+**Channel**: This enhancement is available for all channels supported by the Conversational Cloud platform.
+
+In this release, LivePerson is taking a few steps to progress toward deprecation of the LivePerson NLU v1 engine, and we seek to encourage brands to leverage our NLU v2 engine as an alternative solution when it meets your language requirements.
+
+LivePerson’s NLU v2 engine is a better performing and more scalable solution. It handles a greater volume of requests, and it provides better accuracy and faster response times than the v1 engine.
+
+To progress toward deprecation, in this release, we remove from Intent Builder the ability to create a domain that uses the v1 engine.
+
+
