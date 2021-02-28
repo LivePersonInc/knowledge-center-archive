@@ -24,24 +24,24 @@ Social Messaging can be accessed via the quick launch menu.
 
 ## Agent experience
 
-Contact center agents will interact with customers as they typically would in the Conversational Cloud with any other messaging channel. Additionally, social specific capabilities will be available via the Social Messaging agent widget.
+Contact center agents will interact with customers as they typically would in the Conversational Cloud with any other messaging channel. Agents will be able to perform all Social Messaging capabilities (replies, consumer mentions, post preview, etc.) within the transcript area. Additionally, further context from the native platform will be available via the Social Messaging widget.
 
 ## Agent workspace transcript
 
-The transcript view will be modified to show a “public” or “private” signifier on each message.  Since social conversations can occur publicly, privately, or both publicly and privately, this designation is required to provide context for the agent to craft an appropriate response to the consumer. Supported rich content that is sent from the consumer or agent will be displayed in the native format.
+The transcript view will be modified to show a “public” or “private” signifier on each message.  Since social conversations can occur publicly, privately, or both publicly and privately, this designation is required to provide context for the agent to craft an appropriate response to the consumer. Agents have the option to easily toggle their responses as either public or private, with the message returning to the state of the last consumer message by default. 
 
-### Message type tags
+### Public vs Private messages
 
-* Public/Post
+* Public post
   * Facebook - A post created by a consumer on the Brand Posts or Community Page
   * Twitter - A tweet that includes the brands @account name in the tweet
-* Public/Comment (Facebook only)
+* Public comment (Facebook only)
   * Facebook - Consumer replies to Brand Posts or to other consumer posts on the brand’s page
   * Twitter - N/A
-* Public/Thread (Twitter only)
-  \** Facebook - N/A
-  \** Twitter - Reply tweets created by consumers to a brand tweet or other consumer tweets that include the brand’s @account
-* Private (Facebook and Twitter)
+* Public thread (Twitter only)
+  * Facebook - N/A
+  * Twitter - Reply tweets created by consumers to a brand tweet or other consumer tweets that include the brand’s @account
+* Private message (Facebook and Twitter)
   * Facebook - Facebook Messenger conversations sent to the brand’s account
   * Twitter - Twitter Direct Messages sent to the brand's account
 
@@ -51,48 +51,59 @@ The transcript view will be modified to show a “public” or “private” sig
 
 The agent widget is split into multiple sections:
 
-### Social Network consumer profile
+### Social Messaging consumer profile
 
 The Consumer Profile provides agents with the user’s channel-specific social network profile details within the Social Widget. The data available to display varies by social network channel.
 
 * Facebook
   * Profile Image
   * Name
-  * Time Zone
-  * Gender
+  * Locale
+  * Time zone
+  * Consumer time
 * Twitter
+  * Image
   * Account Name
-  * Registration Name
-  * Written Location
-  * Date Joined
-  * URL
+  * Bio
   * Number of Tweets
   * Number of Likes
   * Number of Followers
   * Number of accounts following
-  * Biography
 
 {: .sidebyside}  
 ![](img/socialconnect-user-guide-7.png) ![](img/socialconnect-user-guide-8.png)
 
-### Send image
+### View post/Tweet
 
-The “Send Image” button provides agents the ability to send media files (images and gifs) to consumers publicly or privately through the Social Widget. These media files can be located in a URL or on the agent’s desktop, and sent through the Conversational Cloud to the consumer. This capability is configurable by an admin in the Social Messaging Home.
+In the lower part of the Social Messaging widget, agents can view the consumer post from within the Conversational Cloud, nested under its parent post, in order to have a clear context about the consumer topic.
 
-* Agents Select the “Add Image” Button located on the bottom of the Social Widget
-* Agents are taken to the Add Media tool
-* Agents can paste a URL to a media file
-* Agents can upload a media file from their desktop by Drag and Drop method or Browse Files
-* Add Media Tool will display a preview of the media file that will be sent to the consumer
-* Agents can “Cancel” to close the Add Media tool or “Send Image” to send the image to the consumer in the conversation.
+## Social Messaging capabilities
 
-![](img/socialconnect-user-guide-10.png)
+### Private/Public message indicator 
 
-### Add Public to Private button
+Indicators for each consumer message are available, stating whether it was a private message or a public post. The indicator will be displayed below each consumer message, containing the icon of the messaging channel, a “Public/Private” text indication, together with the consumer name, action, and timestamp. This will provide agents better visibility of the conversation flow.
 
-The “Add Public to Private” button provides agents the ability to send consumers a call to action button on public Twitter and Facebook that will take the consumer to the brand’s private channel.
+* Public indicates the message was sent through public Twitter or on the brand’s Facebook page
+* Private indicates the message was sent through Twitter Direct Message or Facebook Messenger
 
-* When agent selects the “Add Public to Private” button in the Social Widget, the public to private URL for the brand is added to the Transcript Compose section for the agent to send to craft the message and send the URL to consumers.
+### Private/Public toggle
+
+This toggle appears at the top of the transcript area and enables agents to switch between a public or private response. By default, the toggle will return to the state of the last consumer message. 
+
+* Facebook
+  * Public - respond to the last public message
+  * Private - respond to the last message received through Messenger
+  * Private Response - respond to a consumer that sent a public message through Messenger
+* Twitter
+  * Public - respond to the last public tweet
+  * Private - respond to the last message received through Direct Messages (DM)
+
+### Public to Private button
+
+Quickly transition conversations from public social media to private by clicking the “Public to Private” button, which sends a call to action button for the consumer to select on public Twitter and Facebook that will take the consumer to the brand’s private channel. 
+
+* When agent clicks the “Add Public to Private” button, the public to private URL is added to the transcript input section for the agent to send the URL to consumers
+* The consumer will receive a link or button inviting them to move to private messaging 
 
 Twitter:
 
@@ -110,53 +121,12 @@ Facebook:
 
 ![](img/socialconnect-user-guide-14.png)
 
-### Private/Public Switch
-
-The Public/Private Switch provides agents with context for the last message received from a consumer. It also provides the capability for an agent to respond to the last public message received as well as the last private message received.
-
-* Public indicates the message was sent through public Twitter or on the brand’s Facebook page
-* Private indicates the message was sent through Twitter Direct Message or Facebook Messenger
-* Facebook
-  * Public - respond to the last public message
-  * Private - respond to the last message received through Messenger
-  * Private Response - respond to a consumer that sent a public message through Messenger
-* Twitter
-  * Public - respond to the last public tweet
-  * Private - respond to the last message received through Direct Messages (DM)
-
-### Character counter
-
-The character counter provides agents with the ability to validate the number of characters in a message they are crafting.
-
-* Messages crafted in the Transcript that hit the channel character limit provide a “message not sent” error to the agent
-* Agents select the menu navigation at the bottom right of the Social Widget
-* After selecting “Character Counter” from the menu, the Character Counter tool displays with a text input box and a character counter at the bottom of the tool
-* The “Use” button pastes the message crafted in the text input box into the agent transcript for sending to the consumer
-* The “Done” button takes the agent to the primary Social Widget screen
-* Twitter
-  * Public Tweet Reply - 280 characters
-  * Direct Message - 10,000 characters
-* Facebook
-  * Public Post - 63,206 characters
-  * Public Comment - 5,000 characters
-  * Messenger - 640 characters per message
-
-### View media
-
-View media provides agents the ability to view all images, gifs and videos received from the consumer in the Social Widget. The View Media tool will allow agents to view images larger, gif animations, and play videos that have been sent by consumers. The agent transcript will display images, and the first image from a gif, but not the animations, to view these animations agents will utilize “View Media.”
-
-* Agents select the menu navigation at the bottom right of the Social Widget
-* After selecting “View Media” from the menu, the agent is taken to the View Media Tool
-* Agents will see all images, GIFs and videos that have been sent by the consumer in a single location
-
-![](img/socialconnect-user-guide-19.png)
 
 ## Configuration
 
 Social Messaging will be enabled by your LivePerson account team.
 Brands can connect and configure Social media accounts they would like to receive public/private messages from.
 
-* Social Messaging home is only available to administrators
 * Admins can add new accounts by selecting the “Add Account” button, after selection, admins are taken through the Social Channel specific configuration page
 * Facebook
   * Admins log into Facebook utilizing the Facebook account with admin access to the brand page
@@ -186,7 +156,7 @@ Brands can connect and configure Social media accounts they would like to receiv
 
 Social Messaging will support basic routing of a social media channel (e.g. Facebook or Twitter) to a single Skill. Each channel will map to a separate skill.
 
-More complex routing can be supported through professional services (e.g. Automation routing bot). More complex routing and public filtering will not be supported in the initial MVP but will be supported in future phases of the Social Messaging product.
+More complex routing can be supported through professional services (e.g. Automation routing bot). 
 
 {: .notice}
 Social Messaging will not add any additional metrics or capabilities to the Conversational Cloud reporting facilities. All existing facilities, such as the Analytics Builder, should operate with Social Messaging as expected.
