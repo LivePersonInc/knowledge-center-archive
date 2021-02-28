@@ -67,8 +67,7 @@ The Consumer Profile provides agents with the user’s channel-specific social n
   * Number of Likes
   * Number of Followers
   * Number of accounts following
-
-{: .sidebyside}  
+ 
 ![](img/socialconnect-user-guide-7.png) 
 
 ### View post/Tweet
