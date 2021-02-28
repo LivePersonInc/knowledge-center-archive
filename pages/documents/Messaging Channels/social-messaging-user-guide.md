@@ -45,8 +45,6 @@ The transcript view will be modified to show a “public” or “private” sig
   * Facebook - Facebook Messenger conversations sent to the brand’s account
   * Twitter - Twitter Direct Messages sent to the brand's account
 
-![](img/socialconnect-user-guide-5.png)
-
 ## Social widget
 
 The agent widget is split into multiple sections:
@@ -71,7 +69,7 @@ The Consumer Profile provides agents with the user’s channel-specific social n
   * Number of accounts following
 
 {: .sidebyside}  
-![](img/socialconnect-user-guide-7.png) ![](img/socialconnect-user-guide-8.png)
+![](img/socialconnect-user-guide-7.png) 
 
 ### View post/Tweet
 
