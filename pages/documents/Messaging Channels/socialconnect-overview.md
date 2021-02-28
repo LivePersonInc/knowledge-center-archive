@@ -16,9 +16,7 @@ redirect_from:
 In the emerging world of social media, it’s becoming increasingly costly and difficult for brands to manage their customer engagement at scale. Social Messaging extends LivePerson’s conversational commerce platform into the world of social media making it easier for brands to interact with consumers over Twitter and Facebook through a single platform, the Conversational Cloud.  
 For each new channel, conversations can take place both in public (Twitter Tweet that mention the brand and Facebook Page posts and comments), in private (Twitter DMs and Facebook Messenger), or a mix of public and private message in the same conversation.
 
-This new functionality is built on top of the Conversational Cloud platform so all existing messaging functionality, including reporting and AI capabilities will work out of the box.  In addition to enabling new communication channels, Social Messaging will add:
-* A new agent widget (Social Widget) to provide additional context and functionality
-* A separate UI for system and channel configuration
+This new functionality is built on top of the Conversational Cloud platform so all existing messaging functionality, including reporting and AI capabilities will work out of the box.  In addition to enabling new communication channels, Social Messaging 2.0 will include the introduction of a new Social Messaging widget to provide additional context from the native platform.
 
 ## Why brands should use Social Messaging
 
@@ -40,9 +38,9 @@ The product will listen to:
 
 Agents will be able to respond with:
 
-* Public Replies to comments and posts
+* Public Replies to comments and posts including consumer mentions
 * Private DMs through Facebook Messenger
-* Supported message types: text, text with link to initiate a DM conversation (Public only), images, and GIFs
+* Supported message types: text, text with link to initiate a DM conversation (Public only)
 
 ### Twitter
 
@@ -55,6 +53,6 @@ Agents will be able to respond with:
 
 * Public Replies to Tweets
 * Private DMs
-* Supported message types: text, text with link to initiate a DM conversation (Public only), images, and GIFs
+* Supported message types: text, text with link to initiate a DM conversation (Public only)
 
 For more information on Social Messaging and how to get started, please see the [user guide](messaging-channels-social-messaging-social-messaging-user-guide.html)
