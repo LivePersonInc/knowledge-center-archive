@@ -52,6 +52,7 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 ## Configuration steps 
 
 **Step 1: Enable Social Messaging on your Conversational Cloud account** - Contact your LivePerson representative in order to enable the feature on your Conversational Cloud account.
+
 **Step 2: Configure connectors and social media accounts** - Follow the below steps in order to enable Facebook or Twitter for your account. 
 
 ### Facebook 
