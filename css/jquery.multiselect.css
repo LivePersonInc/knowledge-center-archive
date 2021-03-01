@@ -29,6 +29,8 @@
 .page-no-right-sidebar #post-content table > thead > tr.filters {
   gap: 15px;
   margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .page-no-right-sidebar #metricsSearch {
