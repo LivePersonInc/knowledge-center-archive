@@ -107,8 +107,6 @@ Twitter:
 * URL Format: https://twitter.com/messages/compose?recipient_id=<Twitter Account ID>
   * Twitter Account ID = the numerical ID assigned to each twitter account
 
-![](img/socialconnect-user-guide-11.png)
-
 ![](img/socialconnect-user-guide-12.png)
 
 Facebook:
