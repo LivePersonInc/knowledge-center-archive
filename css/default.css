@@ -417,7 +417,7 @@ ul.mysidebar.nav > li:first-of-type {
   width: 100% !important;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1440px) {
   .page-no-right-sidebar #metrics .tablecontainer,
   .page-no-right-sidebar #post-content > p {
     width: 100%;
@@ -429,6 +429,9 @@ ul.mysidebar.nav > li:first-of-type {
   #datametricstable {
     transform: rotate(360deg) scaleY(-1);
   }
+}
+/* search filters full width */
+@media screen and (max-width: 1199px) {
   .page-no-right-sidebar #post-content table > thead > tr.filters {
     display: flex;
     flex-direction: column;
@@ -442,7 +445,7 @@ ul.mysidebar.nav > li:first-of-type {
   }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1440px) {
   /* New table design with freezing top thead */
 
   .page-no-right-sidebar div#metrics thead tr {
