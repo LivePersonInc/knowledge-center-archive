@@ -100,7 +100,8 @@ The brand level answers distribution includes aggregated count of responses subm
 
 Should you choose to configure a “skip” answer-option for the question, the answer “skip” along with the number of times consumers chose this option, will appear in the report next to the corresponding question.
 
-It is important to note​ that a consumer may elect to skip the entire survey after every question asked. Counting how many times consumers skipped the survey entirely is reflected through the CLOSED SURVEY metric filtered by the SURVEY OUTCOME attribute (visible in the survey level page). The response a consumer has given and triggered the skip of the entire survey will not be counted as an answer to a specific question (not visible in the answer distribution pages).
+{: .notice}
+After any question the consumer can choose to skip the entire survey or any remaining questions. Counting how many times consumers skipped the survey entirely is reflected through the CLOSED SURVEY metric filtered by the SURVEY OUTCOME attribute (visible in the survey level page ONLY). The response a consumer has given and triggered the skip of the entire survey will not be counted as an answer to a specific question (not visible in the answer distribution pages).
 
 ##### Responses unrecognized by the survey bot as valid answers
 
