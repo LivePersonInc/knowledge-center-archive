@@ -54,9 +54,9 @@ The table below outlines all of the data metrics available in the Analytics Buil
                   </select>
                </th>
                <th class="th-filter">
-                  Status
+                  Channel
                   <select id="Chat-filter" multiple="multiple"  class="form-control">
-                     <option>Any</option>
+                     <option>All</option>
                      <option>Chat</option>
                      <option>Messaging</option>
                      <option>Standalone</option>

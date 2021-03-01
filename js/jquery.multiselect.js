@@ -28,7 +28,7 @@
         },
         selectAll: false, // add select all option
         selectGroup: false, // select entire optgroup
-        minHeight: 200, // minimum height of option overlay
+        minHeight: 205, // minimum height of option overlay
         maxHeight: null, // maximum height of option overlay
         showCheckbox: true, // display the checkbox to the user
         jqActualOpts: {}, // options for jquery.actual
