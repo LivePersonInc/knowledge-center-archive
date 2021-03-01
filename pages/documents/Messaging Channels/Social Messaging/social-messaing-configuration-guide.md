@@ -14,7 +14,7 @@ isNew: false
 
 Social Messaging extends LivePerson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social media.
 
-Social Messaging enables brands to interact with consumers over Twitter and Facebook through the Conversational Cloud. For each new channel, conversations can take place both in public (on Twitter Tweets that mention the brand, and Facebook Page posts and comments), in private (Twitter direct messages and Facebook Messenger), or a mix of public and private messaging in the same conversation. The following guide outlines how to configure Social Messaging 2.0.  
+Social Messaging enables brands to interact with consumers over Twitter and Facebook through the Conversational Cloud. For each new channel, conversations can take place both in public (on Twitter Tweets that mention the brand, and Facebook Page posts and comments), in private (Twitter direct messages and Facebook Messenger), or a mix of public and private messaging in the same conversation. **The following guide outlines the features included and enablement details of Social Messaging 2.0.**
 
 ## Prerequesites  
 
