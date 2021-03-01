@@ -126,10 +126,11 @@ Question fallback text is presented in the report for questions which include a 
 
 ### Limitations
 
-1. Analytics Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
-2. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the messaging performance predefined dashboard.
-3. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Analytics Builder but replaced with blank spaces.
-4. Free text questions can not be analyzed.
+1. SURVEY OUTCOME attribute filters the Survey Level page only.
+2. Analytics Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
+3. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the messaging performance predefined dashboard.
+4. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Analytics Builder but replaced with blank spaces.
+5. Free text questions can not be analyzed.
 
 ## Custom reports
 
