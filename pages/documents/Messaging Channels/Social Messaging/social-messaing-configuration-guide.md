@@ -52,6 +52,128 @@ Social Messaging 2.0 includes the following features and benefits:
 * Social Messaigng 1.0 customers: 
   * The source icon displayed on the “My Conversations” list now displays the “Twitter” icon for all conversations, even conversations originating from Facebook. This is caused by the fact that the current Social Messaging connector will only be supporting Twitter conversations soon, and Social conversations on Facebook will be managed through the Facebook connector. 
 
+## Configuration steps 
 
+**Step 1: Enable Social Messaging on your Conversational Cloud account** - Contact your LivePerson representative in order to enable the feature on your Conversational Cloud account.
+**Step 2: Configure connectors and social media accounts** - Follow the below steps in order to enable Facebook or Twitter for your account. 
+
+### Facebook 
+
+#### For Conversational Cloud accounts with no Facebook connector configured: 
+
+1. [Enable Facebook as a data source](getting-started-quick-start-guides-facebook-messenger-quick-start.html) on your Conversational Cloud account
+* Once done, the list of all subscribed Facebook pages will be displayed
+* Each consumer private message (on Messenger) originating from any of these pages will generate a conversation in the Conversational Cloud
+2. Enable public capabilities: If you would like to receive conversations for any public message or comment on any of these pages as well, enable the toggle button under the "Public" column for the relevant pages.
+
+![](img/social-messaging-configuration-2.png)
+
+#### For Conversational Cloud accounts with Facebook connector configured: 
+
+1. Go to Data Source page -> Facebook Messenger → Edit
+![](img/social-messaging-configuration-3.png)
+
+{:start="2"}
+2. Press “Next”, to get to the Facebook configuration page
+3. Enable the toggle button under the "Public" column, for the relevant Facebook pages.
+![](img/social-messaging-configuration-4.png)
+
+{:start="4"}
+4. Click on the Facebook login button, and authenticate
+![](img/social-messaging-configuration-5.png)
+
+{:start="5"}
+5. Click on the “Edit settings” button 
+![](img/social-messaging-configuration-6.png)
+
+{:start="6"}
+6. Select the desired pages, and press “Next”
+![](img/social-messaging-configuration-7.png)
+
+{:start="7"}
+7. Confirm the needed permissions, by pressing “Done”
+![](img/social-messaging-configuration-8.png)
+
+{:start="8"}
+8. A window will be presented, with all connected Facebook accounts
+![](img/social-messaging-configuration-9.png)
+
+{:start="9"}
+9. In order to make sure you are subscribed to the correct public events, you will need to unsubscribe from all pages (by clicking “Unsubscribe” per each page), then subscribe again
+![](img/social-messaging-configuration-10.png)
+
+{:start="10"}
+10. Press Done
+
+### Twitter
+
+1. Go to the Campaign Builder → “Data Sources” → “Social Messaging” ((alternatively you can select “Social Messaging” from the Quick Launch Menu) 
+![](img/social-messaging-configuration-11.png)
+
+{:start="2"}
+2. Add new accounts by selecting the “Connect” button → Choose “Twitter account”
+![](img/social-messaging-configuration-12.png)
+
+{:start="3"}
+3. Log into Twitter utilizing the brand’s Twitter account credentials
+4. After logging in, select “Authorize App” to connect with Social Messaging
+![](img/social-messaging-configuration-13.png)
+
+{:start="5"}
+5. Once the authorization is done, all Twitter accounts associated with the provided login credentials will be automatically displayed on the “Social Accounts” page.
+6. Each consumer direct message to any of these accounts or a public Tweet which contains any of these accounts handles, will generate a conversation in the Conversational Cloud
+
+{: .important}
+**Note:** Do not use the Social Messaging connector for Facebook conversations!
+
+### Optional configuration steps (for all customers)
+
+#### Create Skills for Social Messaging
+
+1. CSM/Support Agents can gain admin rights for the customer account through supportal
+* Go to [https://supportal.lpnet.com /#/](https://supportal.lpnet.com/#/)
+* On left side put in customer account number, your LPA-<user>, and password
+* In Tools, select LPAdmin JSP
+* Enter your LPA username without LPA (ie: dsmith instead of LPA-dsmith)
+* This will provide your LPA accoun
+
+2. After gaining admin rights on the customer’s account, log into the customers account in order to create new skills
+* Select the “Users” tab
+* Select “+ Add skill” from bottom of the screen
+* Input “Social-FB” for the Name and Description
+* Select “+ Add skill” from bottom of the screen
+* Input “Social-TW” for the Name and Description
+* Select “Save”
+
+![](img/social-messaging-configuration-14.png)
+
+#### Configure Skill Routing
+
+Skill routing can be achieved in 2 different ways: 
+
+1. Direct skill routing (valid for both Twitter and Facebook):
+Direct skill routing can be defined based on your Facebook page ID / Twitter account ID, or based on the conversation source - public (post/comment/tweet) or private (Facebook Messenger or Twitter direct messaging). 
+Contact your LivePerson representative to define the routing rules. 
+
+2. Campaign/Engagement Message Routing (only valid for Twitter connector)
+* Select the Campaign Builder tab in the Conversational Cloud
+* Select “Data Sources”
+* Select “Integrations” tab
+* Select “Authentication Server - Configure” (skip if brand already has authentication)
+![](img/social-messaging-configuration-17.png)
+
+* Select “oAuth 2.0 authentication (implicit)”
+![](img/social-messaging-configuration-18.png)
+
+* Input fake data into fields
+![](img/social-messaging-configuration-19.png)
+
+* Select “Save” on the bottom of the screen
+* Select “+ Add campaign” on the bottom of the screen
+* Title the new campaign “Social”
+* Select “+ Add engagement”
+* Select “Social”
+ * Select “Specific skill” 
+ * Search for and select the Social Skills you created 
 
 
