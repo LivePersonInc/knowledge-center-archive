@@ -22,8 +22,7 @@ Social Messaging enables brands to interact with consumers over Twitter and Face
 
 ## Social Messaging 2.0 Features
 
-<iframe src="https://player.vimeo.com/video/515803887/3a9d55f92f?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/515803887/3a9d55f92f">Social Messaging 2.0</a> from <a href="https://vimeo.com/liveperson">LivePerson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/515803887/3a9d55f92f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Social Messaging 2.0 includes the following features and benefits: 
 * **Single interface for all messaging conversations:** Agents handle social media in the same easy way as they use Conversational Cloud for all other messaging conversations, meaning the same set of agents can support social media while they simultaneously support other messaging channels. 
@@ -124,7 +123,7 @@ Social Messaging 2.0 includes the following features and benefits:
 6. Each consumer direct message to any of these accounts or a public Tweet which contains any of these accounts handles, will generate a conversation in the Conversational Cloud
 
 {: .important}
-**Note:** Do not use the Social Messaging connector for Facebook conversations!
+**Note:** Do not use the Social Messaging connector for Facebook conversations.
 
 ### Optional configuration steps (for all customers)
 
@@ -156,25 +155,25 @@ Direct skill routing can be defined based on your Facebook page ID / Twitter acc
 Contact your LivePerson representative to define the routing rules. 
 
 2. Campaign/Engagement Message Routing (only valid for Twitter connector)
-* Select the Campaign Builder tab in the Conversational Cloud
-* Select “Data Sources”
-* Select “Integrations” tab
-* Select “Authentication Server - Configure” (skip if brand already has authentication)
+ * Select the Campaign Builder tab in the Conversational Cloud
+ * Select “Data Sources”
+ * Select “Integrations” tab
+ * Select “Authentication Server - Configure” (skip if brand already has authentication)
 ![](img/social-messaging-configuration-17.png)
 
-* Select “oAuth 2.0 authentication (implicit)”
+ * Select “oAuth 2.0 authentication (implicit)”
 ![](img/social-messaging-configuration-18.png)
 
-* Input fake data into fields
+ * Input fake data into fields
 ![](img/social-messaging-configuration-19.png)
 
-* Select “Save” on the bottom of the screen
-* Select “+ Add campaign” on the bottom of the screen
-* Title the new campaign “Social”
-* Select “+ Add engagement”
-* Select “Social”
- * Select “Specific skill” 
- * Search for and select the Social Skills you created 
+ * Select “Save” on the bottom of the screen
+ * Select “+ Add campaign” on the bottom of the screen
+ * Title the new campaign “Social”
+ * Select “+ Add engagement”
+ * Select “Social”
+   * Select “Specific skill” 
+   * Search for and select the Social Skills you created 
 
 ## Unsubscribe from Facebook pages/Twitter accounts
 
