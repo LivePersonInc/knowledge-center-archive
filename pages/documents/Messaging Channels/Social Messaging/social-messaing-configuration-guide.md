@@ -176,4 +176,36 @@ Contact your LivePerson representative to define the routing rules.
  * Select “Specific skill” 
  * Search for and select the Social Skills you created 
 
+## Unsubscribe from Facebook pages/Twitter accounts
+
+### Edit/Unsubscribe from Facebook pages
+
+* Click on the Facebook login button, and authenticate
+![](img/social-messaging-configuration-21.png)
+
+* To edit account settings: Click on the “Edit settings” button
+![](img/social-messaging-configuration-22.png)
+
+* Select the desired pages and press “Next”
+![](img/social-messaging-configuration-23.png)
+
+* Enable/Disable permissions using the toggle button
+![](img/social-messaging-configuration-24.png)
+
+* Press Done. A window will be presented, with all connected Facebook accounts: 
+![](img/social-messaging-configuration-25.png)
+
+* To unsubscribe specific pages, simply click on the “Unsubscribe” button next to each Facebook page you wish to remove. 
+
+### Edit/Unsubscribe from Twitter accounts
+
+* Edit each account’s settings by clicking on the pencil icon, at the right side of the page
+![](img/social-messaging-configuration-26.png)
+![](img/social-messaging-configuration-27.png)
+
+* Disconnect specific accounts by clicking on the “Disconnect” button.
+![](img/social-messaging-configuration-28.png)
+
+{: .notice}
+**Notes:** Disconnecting an account will result in preventing Conversational Cloud from creating new conversations or handling existing conversations on that account only. Other connected accounts will not be affected by the operation.
 
