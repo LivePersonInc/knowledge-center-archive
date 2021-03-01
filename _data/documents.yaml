@@ -58,6 +58,11 @@
         - pagename: Social Messaging overview
         - pagename: Social Messaging user guide
     - subcategoryname: Email Connect
+    - subcategoryname: Connect to Messaging
+      pages: 
+        - pagename: Connect to Messaging overview
+        - pagename: Connect to Messaging user guide
+        - pagename: Connect to App Messaging
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
@@ -388,6 +393,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2021
       pages:
+        - pagename: March
+          level3:
+            - level3name: Week of March 1st
         - pagename: February
           level3:
             - level3name: Week of February 22nd

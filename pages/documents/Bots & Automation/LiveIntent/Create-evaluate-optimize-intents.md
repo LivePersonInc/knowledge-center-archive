@@ -126,7 +126,7 @@ Now that you have discovered some intents and found the training data for those 
 
 ## Step 5: Evaluating & optimizing your model
 
-After creating your intents and adding training utterances on Intent Builder, confirm that the model is classifying incoming messages correctly. This is a summary of a process to evaluate and optimize your model. This can be performed by CSMs, ETS, or sales personnel and only requires access to the Intent Manager dashboard. Depending on your taxonomy size this process may take about thirty minutes to an hour.
+After creating your intents and adding training utterances on Intent Builder, confirm that the model is classifying incoming messages correctly. This is a summary of a process to evaluate and optimize your mode and only requires access to the Intent Manager dashboard. Depending on your taxonomy size this process may take about thirty minutes to an hour.
 
 ### Check Intents: 
 * First navigate to the Intent Analyzer [dashboard](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-dashboard.html)
