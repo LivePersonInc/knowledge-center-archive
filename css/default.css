@@ -114,7 +114,9 @@ p + ul {
   border-right: 0;
 }
 
-#post-content table tr td.description {
+#post-content table tr td.description,
+#post-content table tr td.filtered,
+#post-content table tr td.formula {
   text-align: left;
 }
 
