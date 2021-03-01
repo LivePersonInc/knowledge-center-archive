@@ -22,9 +22,7 @@ Social Messaging enables brands to interact with consumers over Twitter and Face
 
 ## Social Messaging 2.0 Features
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/515803887/3a9d55f92f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-Social Messaging 2.0 includes the following features and benefits: 
+Social Messaging 2.0 includes the following [features and benefits](https://vimeo.com/515803887/3a9d55f92f): 
 * **Single interface for all messaging conversations:** Agents handle social media in the same easy way as they use Conversational Cloud for all other messaging conversations, meaning the same set of agents can support social media while they simultaneously support other messaging channels. 
 * **Channel indication:** The My Conversations list has been enhanced with a new icon with the conversation source, so that the agent will be able to identify the channel that the consumer is originating from.
 * **New Social Messaging widget:** A new core widget is now available for all Social Messaging conversations. 
@@ -161,19 +159,19 @@ Contact your LivePerson representative to define the routing rules.
  * Select “Authentication Server - Configure” (skip if brand already has authentication)
 ![](img/social-messaging-configuration-17.png)
 
- * Select “oAuth 2.0 authentication (implicit)”
+  * Select “oAuth 2.0 authentication (implicit)”
 ![](img/social-messaging-configuration-18.png)
 
- * Input fake data into fields
+  * Input fake data into fields
 ![](img/social-messaging-configuration-19.png)
 
- * Select “Save” on the bottom of the screen
- * Select “+ Add campaign” on the bottom of the screen
- * Title the new campaign “Social”
- * Select “+ Add engagement”
- * Select “Social”
-   * Select “Specific skill” 
-   * Search for and select the Social Skills you created 
+  * Select “Save” on the bottom of the screen
+  * Select “+ Add campaign” on the bottom of the screen
+  * Title the new campaign “Social”
+  * Select “+ Add engagement”
+  * Select “Social”
+    * Select “Specific skill” 
+    * Search for and select the Social Skills you created 
 
 ## Unsubscribe from Facebook pages/Twitter accounts
 
