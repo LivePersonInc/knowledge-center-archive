@@ -119,39 +119,4 @@ Facebook:
 
 ## Configuration
 
-Social Messaging will be enabled by your LivePerson account team.
-Brands can connect and configure Social media accounts they would like to receive public/private messages from.
-
-* Admins can add new accounts by selecting the “Add Account” button, after selection, admins are taken through the Social Channel specific configuration page
-* Facebook
-  * Admins log into Facebook utilizing the Facebook account with admin access to the brand page
-  * After logging in, a list of Facebook pages that the admin has administrator access to will display
-  * Admins will select the page they would like to connect to Social Messaging
-* Twitter
-  * Admins log into Twitter utilizing the brand Twitter account credentials
-  * After logging in, the admin will select “Authorize App” to connect with Social Messaging
-* From the Accounts Screen admins are presented with a table of key information
-  * Account Name
-  * Channel
-  * Created Date and By
-  * Status of Integration
-  * Edit
-    * Ability to Unlink Accounts from Social Messaging
-    * Ability to Relink Accounts to Social Messaging
-
-![](img/socialconnect-user-guide-22.png)
-
-![](img/socialconnect-user-guide-24.png)
-
-![](img/socialconnect-user-guide-25.png)
-
-![](img/socialconnect-user-guide-26.png)
-
-### Routing
-
-Social Messaging will support basic routing of a social media channel (e.g. Facebook or Twitter) to a single Skill. Each channel will map to a separate skill.
-
-More complex routing can be supported through professional services (e.g. Automation routing bot). 
-
-{: .notice}
-Social Messaging will not add any additional metrics or capabilities to the Conversational Cloud reporting facilities. All existing facilities, such as the Analytics Builder, should operate with Social Messaging as expected.
+Social Messaging will be enabled by your LivePerson account team. Brands can connect and configure Social media accounts they would like to receive public/private messages from. See our [Social Messaging configuration guide](messaging-channels-social-messaging-social-messaging-configuration-guide.html) for further details. 
