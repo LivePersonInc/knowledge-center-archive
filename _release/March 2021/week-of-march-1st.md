@@ -153,8 +153,6 @@ LivePerson’s NLU v2 engine is a better performing and more scalable solution. 
 
 To progress toward deprecation, in this release, we remove from Intent Builder the ability to create a domain that uses the v1 engine.
 
-![](img/week-of-march-1st-13.png)
-
 Additionally, within the Knowledge Base application, we remove the ability to create:
 * A knowledge base that uses Knowledge Base intents (since knowledge bases of this type use the v1 engine behind the scenes)
 * A knowledge base that uses a domain using the v1 engine.
