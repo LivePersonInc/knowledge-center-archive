@@ -31,6 +31,17 @@ For more information, click [here](https://knowledge.liveperson.com/security-reg
 The source of the API call, which is sent by the API consumer, will now be returned in the API response. The source name will be mirrored and will be added automatically, in the case of pagination, to the URLs used as reference to the next, previous, first, and last pages in the response.
 This will allow brands to add the source name only for the first call, while follow-up calls can be taken directly from the response, and without need to concatenate manually. 
 
+## [Conversation Orchestrator] Routing by authenticated Structured Data Entities (SDEs)
+### Type: Enhancement 
+
+Conversation Orchestrator introduces the ability to route by authenticated Structured Data Entities (SDEs) in Dynamic Routing. Some authenticated SDEs are directly available in the interface and can be used to create policies. 
+To create policies using other SDEs, the existing process of using LivePerson Functions needs to be continued.
+ 
+Please Note: To start using this feature, SDEs need to be enabled in Conversation Context Service > Structured Data Entities.
+
+![](img/week-of-march-8th-1.png)
+
+
 ## [Enhanced Agent Workspace] Display offline skills in Rollback menu for Rollover accounts
 ### Type: Enhancement (NAW 1.22)
 
