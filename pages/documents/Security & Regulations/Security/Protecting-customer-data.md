@@ -81,8 +81,7 @@ Conversation transcripts and other [engagement attributes](https://developers.li
 The new data-at-rest encryption solution is using the existing LivePerson in-house encryption library, enhanced to use AES 256 GCM encryption using Java8, and supports FIPS 140-2. Oracle DB was replaced by Hashicorp Vault as the key management service (KMS), providing full key management capabilities. All LivePerson services were updated to use Vault APIs, via the new encryption library, to fetch the keys for encrypt/decrypt operations.
 
 **How do I turn it on?**  
-In case your encryption is turned on - the move to the new encryption is transparent and no actions required on your side.  
-In case your encryption is turned off (or you are not sure if you have the encryption feature enabled) - please contact your CSM/Support to activate the encryption feature. 
+The move to the new encryption is transparent and no actions are needed by customers.
 
 **When will this be available?**  
 We will start rolling out to customers in early February 2021(early adopters). Rollout should be finalized by the middle of Q2.
