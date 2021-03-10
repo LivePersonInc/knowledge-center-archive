@@ -3,11 +3,15 @@ pagename: Management Console overview
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
-subtitle:
+subtitle: 
 level3: ''
 permalink: admin-settings-management-console-overview.html
+isTutorial: false
+isNew: false
+date: 2019-03-09 
 ---
-## Introducing the Management Console
+
+## Introducing the Management Console 
 
 The Management Console enables brand admins and CSMs to explore, configure and enable platform capabilities in a self-serve manner. These capabilities can be features (turning on/off and configuring settings), or tools, like the Conversation Builder, for example, which is where users manage and build bots.
 
