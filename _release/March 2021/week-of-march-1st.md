@@ -90,21 +90,6 @@ From a bot development perspective, you’ll find that this works a lot like for
 As always, brands with a global social presence can support broad language requirements by taking advantage of a third-party provider for NLU.
 This is our MVP version of our support for Twitter; expect more enhancements to come!
 
-## A new Universal Interaction
-### Type: Enhancement (Release 2021_3.0 Conversation Builder)
-
-**Channel:** This enhancement is available for all channels supported by the Conversational Cloud platform.
-
-Is there a cutting-edge interaction in a channel that you want to implement in your bot? Do you want to fast track its usage now, before support for it is added to the Statement and Question interactions in Conversation Builder? Now you can. Conversation Builder introduces a new “universal” interaction to meet this need.
-
-This powerful, new interaction is designed for advanced bot developers, and it opens up many more opportunities to achieve the exact layout and styling that you require. For example, you might want a vertical card layout or perhaps a button question that uses just buttons (images) without button labels (text).
-
-To use this code interaction, add it to your bot, and enter the appropriate JSON code within it. You are limited only by what’s supported by the Conversational Cloud, as the JSON must adhere to the [Conversational Cloud message format.](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html)
-
-To fully test a Universal interaction, use Conversation Builder’s Conversation Tester tool or a Web client.
-
-Note: The Universal interaction isn’t intended to replace the Statement and Question interactions in Conversation Builder. For fast and easy bot development, LivePerson recommends that you always use them whenever they meet your requirements.
-
 ## A new “slideout” window option for buttons
 ### Type: Enhancement (Release 2021_3.0 Conversation Builder)
 
