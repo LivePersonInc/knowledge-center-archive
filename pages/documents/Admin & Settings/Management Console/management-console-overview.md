@@ -9,7 +9,6 @@ permalink: admin-settings-management-console-overview.html
 isTutorial: false
 isNew: false
 date: 2019-03-09 
-
 ---
 
 ## Introducing the Management Console 
