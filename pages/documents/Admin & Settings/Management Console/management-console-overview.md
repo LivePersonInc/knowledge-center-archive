@@ -3,12 +3,9 @@ pagename: Management Console overview
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
-subtitle: 
+subtitle:
 level3: ''
 permalink: admin-settings-management-console-overview.html
-isTutorial: false
-isNew: false
-date: 2019-03-09 
 ---
 ## Introducing the Management Console
 
