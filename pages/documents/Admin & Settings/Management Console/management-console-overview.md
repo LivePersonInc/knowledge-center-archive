@@ -15,7 +15,7 @@ date: 2019-03-09
 
 The Management Console enables brand admins and CSMs to explore, configure and enable platform capabilities in a self-serve manner. These capabilities can be features (turning on/off and configuring settings), or tools, like the Conversation Builder, for example, which is where users manage and build bots.
 
-![](img/management-console-overview-1)
+![](img/management-console-overview-1.png)
 
 The Management Console is a new dedicated workspace within the Conversational Cloud, exposed only to roles with the relevant permissions. Brands can see all the features that are exposed in the Management Console, but they can activate only the features that are within their business plan, features outside of their business plan will appear as “Discovery - only” features, meaning they can read about this feature, but can’t activate it. Some of the features are also flagged as features that are self-serve only for CSMs. 
 
