@@ -40,7 +40,7 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 * Once enabled on your Conversational Cloud account, the Social Messaging widget will appear for all Facebook/Twitter conversations - even if they originate from Facebook Messenger or Twitter direct messaging. 
 * **File sharing** is not officially supported in Social Messaging public conversations. **Note:** It is not recommended to use file sharing on Social conversations until officially supported.
 * **Rich Content** is not officially supported in Social Messaging conversations. Rich content (e.g structured contents, cards etc.) may not be presented correctly in the Agent Workspace. **Note:** It is not recommended to use rich content on Social conversations until officially supported.
-* **Bots and Automatic messages** are not officially supported in Social Messaging public conversations. If a bot is configured on your Conversational Cloud account, it may send public messages to consumers. This behaviour is not desirable, since this may be considered spam by Facebook/Twitter. A future fix for this issue will prevent bots from replying publicly to consumer messages.  **Note:** It is not recommended to use bots with any Social conversations until officially supported.
+* **Bots and Automatic messages** are only supported in the private space, and are not able to send public messages.
 * **Intent Manager** does not support Twitter conversations. 
 * **Facebook limitations:** 
   * [Facebook Private Replies](https://developers.facebook.com/docs/messenger-platform/discovery/private-replies) are currently not supported.
