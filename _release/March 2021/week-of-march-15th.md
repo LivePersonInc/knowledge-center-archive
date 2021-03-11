@@ -30,8 +30,6 @@ While most of the metrics measured today are relevant for both human and automat
 
 As the Manager Workspace  is designed to assist managers to manage and track the shift in real time, the focus of the new Bot Performance widget is to provide a view of automations and metrics which are relevant and actionable in real time, rather than offline.
 
-![](img/week-of-march-15th-2.png)
-
 ![](img/week-of-march-15th-3.png)
 
 ## [Manager Workspace] Quick filters and presets 
