@@ -90,3 +90,43 @@ memberOf.
 ### Type: Bug fix (NAW 1.23)
 
 The following bug was found as part of regression A11y tests on the Conversational Cloud: JAWS not reading Secure Forms from the Predefined Content panel. This bug has been resolved. 
+
+## Transfer to Agent
+### Type: Enhancement (Third Party Bot Connectors 2.28)
+Third-Party Bots Bots are now able to transfer a conversation to a specific agent. It was only possible to transfer the conversation to a random agent with a certain skill. 
+How to enable
+Beforehand the user needs to enable the permissions to transfer the conversation to an agent:
+Click [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-transfer-to-agent.html)
+
+![](img/RN15March-1.png)
+
+Afterwards the bot needs to send the skill name and agentId of the receiving agent within the Transfer Action from the vendor. 
+![](img/RN15March-2.png)
+
+## Watson Discovery Search
+### Type: Enhancement (Third Party Bot Connectors 2.28)
+Third-Party Bots are now able to use Watson Discovery Search responses. Discovery Search is a tool that uses the knowledge of websites, documents and other data. to generate an answer the Watson Bot is able to send within a conversation. Click [here](https://cloud.ibm.com/docs/discovery?topic=discovery-about)for more information.
+
+### How to enable
+The user needs to create a search skill in [IBM Cloud](https://cloud.ibm.com/docs/assistant?topic=assistant-skill-search-add) and define a Discovery database. Afterwards if a Third-Party Bots Watson Bot is receiving a Discovery Search message, it is getting sent as a normal message inside the conversation window with an additional link to the document (if provided)
+
+![](img/RN15March-3.png)
+
+## Rate limit warning should not be consumer facing 
+### Type: Bug fix (Third Party Bot Connectors 2.28)
+
+When spam protection of our bot kicks in (more than 4 messages in 2 seconds), the connector writes a message to the consumer: "You sent too much messages in a short period of time, suspending conversation". The rate limiting is now silent and doesn’t send a message to the consumer anymore. 
+
+## Dialogflow Test Connection fix 
+### Type: Bug fix (Third Party Bot Connectors 2.28)
+
+Dialogflow test connection did only work for bots located in the US. With the fix it now works for every location.
+
+## IBM Watson endpoints deprecation  
+### Type: Change (Third Party Bot Connectors 2.28)
+
+Watson has decided to deprecate the old domain watsonplatform.net thus all the bots must be updated to reflect the new urls provided by IBM watson. The retirement for domain is 26 May 2021. We have encouraged everyone to edit the bot configuration as soon as possible to make sure all affected bots will run smoothly after the deprecation. For more information, click [here](https://cloud.ibm.com/docs/watson?topic=watson-endpoint-change).
+
+
+
+
