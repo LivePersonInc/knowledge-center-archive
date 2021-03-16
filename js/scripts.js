@@ -483,7 +483,7 @@ function searchFunction() {
     });
   }
 
-  /************ Auto Complete *************************/
+  // Auto Complete
   autocomplete(document.getElementById("metricsSearch"));
 
   function autocomplete(inp) {
