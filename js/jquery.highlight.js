@@ -48,20 +48,20 @@
  *
  */
 
-(function (factory) {
-  if (typeof define === "function" && define.amd) {
+(function(factory) {
+  if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else if (typeof exports === "object") {
+    define(['jquery'], factory);
+  } else if (typeof exports === 'object') {
     // Node/CommonJS
-    factory(require("jquery"));
+    factory(require('jquery'));
   } else {
     // Browser globals
     factory(jQuery);
   }
-})(function (jQuery) {
+})(function(jQuery) {
   jQuery.extend({
-    highlight: function (
+    highlight: function(
       node,
       re,
       nodeName,
@@ -76,8 +76,8 @@
         var match = subject.match(re);
         if (match) {
           // The new highlight Element Node
-          var highlight = document.createElement(nodeName || "span");
-          highlight.className = className || "highlight";
+          var highlight = document.createElement(nodeName || 'span');
+          highlight.className = className || 'highlight';
           // Note that we use the captured value to find the real index
           // of the match. This is because we do not want to include the matching word boundaries
           var capturePos = node.data.indexOf(match[1], match.index);
@@ -90,7 +90,7 @@
           var wordClone = wordNode.cloneNode(true);
           highlight.appendChild(wordClone);
           wordNode.parentNode.replaceChild(highlight, wordNode);
-          if (typeof callback == "function") {
+          if (typeof callback == 'function') {
             callback(highlight);
           }
           return 1; //skip added node in parent
@@ -119,39 +119,39 @@
       return 0;
     },
 
-    removeDiacritcs: function (word) {
+    removeDiacritcs: function(word) {
       return word
-        .replace(/[\u00c0-\u00c6]/g, "A")
-        .replace(/[\u00e0-\u00e6]/g, "a")
-        .replace(/[\u00c7]/g, "C")
-        .replace(/[\u00e7]/g, "c")
-        .replace(/[\u00c8-\u00cb]/g, "E")
-        .replace(/[\u00e8-\u00eb]/g, "e")
-        .replace(/[\u00cc-\u00cf]/g, "I")
-        .replace(/[\u00ec-\u00ef]/g, "i")
-        .replace(/[\u00d1|\u0147]/g, "N")
-        .replace(/[\u00f1|\u0148]/g, "n")
-        .replace(/[\u00d2-\u00d8|\u0150]/g, "O")
-        .replace(/[\u00f2-\u00f8|\u0151]/g, "o")
-        .replace(/[\u0160]/g, "S")
-        .replace(/[\u0161]/g, "s")
-        .replace(/[\u00d9-\u00dc]/g, "U")
-        .replace(/[\u00f9-\u00fc]/g, "u")
-        .replace(/[\u00dd]/g, "Y")
-        .replace(/[\u00fd]/g, "y");
-    },
+        .replace(/[\u00c0-\u00c6]/g, 'A')
+        .replace(/[\u00e0-\u00e6]/g, 'a')
+        .replace(/[\u00c7]/g, 'C')
+        .replace(/[\u00e7]/g, 'c')
+        .replace(/[\u00c8-\u00cb]/g, 'E')
+        .replace(/[\u00e8-\u00eb]/g, 'e')
+        .replace(/[\u00cc-\u00cf]/g, 'I')
+        .replace(/[\u00ec-\u00ef]/g, 'i')
+        .replace(/[\u00d1|\u0147]/g, 'N')
+        .replace(/[\u00f1|\u0148]/g, 'n')
+        .replace(/[\u00d2-\u00d8|\u0150]/g, 'O')
+        .replace(/[\u00f2-\u00f8|\u0151]/g, 'o')
+        .replace(/[\u0160]/g, 'S')
+        .replace(/[\u0161]/g, 's')
+        .replace(/[\u00d9-\u00dc]/g, 'U')
+        .replace(/[\u00f9-\u00fc]/g, 'u')
+        .replace(/[\u00dd]/g, 'Y')
+        .replace(/[\u00fd]/g, 'y');
+    }
   });
 
-  jQuery.fn.unhighlight = function (options) {
+  jQuery.fn.unhighlight = function(options) {
     var settings = {
-      className: "highlight",
-      element: "span",
+      className: 'highlight',
+      element: 'span'
     };
 
     jQuery.extend(settings, options);
 
-    return this.find(settings.element + "." + settings.className)
-      .each(function () {
+    return this.find(settings.element + '.' + settings.className)
+      .each(function() {
         var parent = this.parentNode;
         parent.replaceChild(this.firstChild, this);
         parent.normalize();
@@ -159,39 +159,39 @@
       .end();
   };
 
-  jQuery.fn.highlight = function (words, options, callback) {
+  jQuery.fn.highlight = function(words, options, callback) {
     var settings = {
-      className: "highlight",
-      element: "span",
+      className: 'highlight',
+      element: 'span',
       caseSensitive: false,
       wordsOnly: false,
-      wordsBoundary: "\\b",
-      ignoreDiacritics: false,
+      wordsBoundary: '\\b',
+      ignoreDiacritics: false
     };
 
     jQuery.extend(settings, options);
 
-    if (typeof words === "string") {
+    if (typeof words === 'string') {
       words = [words];
     }
-    words = jQuery.grep(words, function (word) {
-      return word != "";
+    words = jQuery.grep(words, function(word) {
+      return word != '';
     });
-    words = jQuery.map(words, function (word) {
+    words = jQuery.map(words, function(word) {
       if (settings.ignoreDiacritics) {
         word = jQuery.removeDiacritcs(word);
       }
-      return word.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+      return word.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
     });
 
     if (words.length === 0) {
       return this;
     }
 
-    var flag = settings.caseSensitive ? "" : "i";
+    var flag = settings.caseSensitive ? '' : 'i';
     // The capture parenthesis will make sure we can match
     // only the matching word
-    var pattern = "(" + words.join("|") + ")";
+    var pattern = '(' + words.join('|') + ')';
     if (settings.wordsOnly) {
       pattern =
         (settings.wordsBoundaryStart || settings.wordsBoundary) +
@@ -200,7 +200,7 @@
     }
     var re = new RegExp(pattern, flag);
 
-    return this.each(function () {
+    return this.each(function() {
       jQuery.highlight(
         this,
         re,
