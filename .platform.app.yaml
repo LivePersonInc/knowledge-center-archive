@@ -1,0 +1,16 @@
+name: jekyll_app
+type: ruby:2.5
+disk: 1024
+web:
+  locations:
+    "/":
+      root: "_site"
+      index:
+        - index.html
+      passthru: false
+hooks:
+  build: |
+    gem install bundler
+    bundle install
+    bundle exec jekyll algolia
+    bundle exec jekyll build

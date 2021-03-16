@@ -1,0 +1,167 @@
+.ms-options-wrap,
+.table-filters * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.table-filters {
+  margin-bottom: 0 !important;
+}
+
+#post-content table > thead > tr > th.th-filter {
+  background-color: #fff;
+  color: #272727;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-weight: normal;
+  padding: 0 !important;
+  border: 0;
+  -webkit-box-flex: 0 !important;
+  -ms-flex-positive: 0 !important;
+  flex-grow: 0 !important;
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important;
+  font-size: 14px;
+  text-align: left;
+
+  width: 25% !important;
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+}
+
+#post-content table > thead > tr > th.th-filter:first-child {
+  width: calc(100% / 4) !important;
+}
+
+.page-no-right-sidebar #post-content table > thead > tr.filters {
+  gap: 15px;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.page-no-right-sidebar #metricsSearch {
+  width: 100%;
+  font-size: 14px;
+  color: #737373;
+}
+
+.page-no-right-sidebar .ms-options-wrap {
+  width: 100%;
+}
+
+.ms-options-wrap > button:focus,
+.ms-options-wrap > button {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #737373;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 13px 25px 13px 10px;
+  margin-top: 1px;
+  font-size: 14px;
+  color: #737373;
+  outline: none;
+  white-space: nowrap;
+}
+.ms-options li {
+  list-style: none;
+}
+.ms-options ul {
+  margin: 0px;
+  padding: 0px;
+}
+.ms-options-wrap > button:after {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 0;
+  border: 6px solid rgba(0, 0, 0, 0);
+  border-top-color: #999;
+  margin-top: -3px;
+}
+
+.ms-options-wrap > .ms-options {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  background: white;
+  z-index: 2000;
+  border: 1px solid #aaa;
+  min-height: 100% !important;
+}
+
+.ms-options-wrap > .ms-options > .ms-search input {
+  width: 100%;
+  padding: 4px 5px;
+  border: none;
+  border-bottom: 1px groove;
+  outline: none;
+}
+
+.ms-options-wrap > .ms-options .ms-selectall {
+  display: inline-block;
+  font-size: 0.9em;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+.ms-options-wrap > .ms-options .ms-selectall:hover {
+  text-decoration: underline;
+}
+
+.ms-options-wrap > .ms-options > .ms-selectall.global {
+  margin: 4px 5px;
+}
+
+.ms-options-wrap > .ms-options > ul > li.optgroup {
+  padding: 5px;
+}
+.ms-options-wrap > .ms-options > ul > li.optgroup + li.optgroup {
+  border-top: 1px solid #aaa;
+}
+
+.ms-options-wrap > .ms-options > ul > li.optgroup .label {
+  display: block;
+  padding: 5px 0 0 0;
+  font-weight: bold;
+}
+
+.ms-options-wrap > .ms-options > ul label {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 4px 30px !important;
+  margin: 1px 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.ms-options-wrap > .ms-options > ul li.selected label,
+.ms-options-wrap > .ms-options > ul label:hover {
+  background-color: #efefef;
+}
+
+.ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+  margin-right: 5px;
+  position: absolute;
+  left: 10px;
+  top: auto;
+}

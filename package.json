@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.7.1",
+    "jquery-highlight": "^3.5.0",
+    "lodash": ">=4.17.13",
+    "lodash.template": ">=4.5.0",
+    "browser-sync": "^2.26.14",
+    "object-path": ">=0.11.5",
+    "http-proxy": ">=1.18.1",
+    "jquery": ">=3.5.0",
+    "socket.io": ">=2.4.0",
+    "kind-of": ">=6.0.3"
+  }
+}
