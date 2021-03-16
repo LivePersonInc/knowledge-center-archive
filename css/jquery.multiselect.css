@@ -52,6 +52,9 @@
   width: 100%;
   font-size: 14px;
   color: #737373;
+  border: 1px solid #737373;
+  background-color: #fff;
+  border-radius: 3px;
 }
 
 .page-no-right-sidebar .ms-options-wrap {
@@ -164,4 +167,43 @@
   position: absolute;
   left: 10px;
   top: auto;
+}
+#metrics .autocomplete {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+#metrics .autocomplete-items {
+  position: absolute;
+  border: 1px solid #aaa;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  max-height: 205px;
+}
+
+#metrics .autocomplete-items  {
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d461;
+  padding: 4px ​10px !important;
+  font-size: 14px;
+  color: #666666;
+}
+#metrics div#metricsSearchautocomplete-list > div {
+  padding: 4px 10px !important;
+}
+/*when hovering an item:*/
+#metrics .autocomplete-items div:hover {
+  background-color: #efefef;
+}
+
+/*when navigating through the items using the arrow keys:*/
+#metrics .autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
 }
