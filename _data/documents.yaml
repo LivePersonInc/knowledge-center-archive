@@ -396,6 +396,8 @@
       pages:
         - pagename: March
           level3:
+            - level3name: Week of March 22nd
+            - level3name: Week of March 15th
             - level3name: Week of March 8th
             - level3name: Week of March 1st
         - pagename: February
@@ -424,12 +426,7 @@
           level3:
             - level3name: Week of October 5th
             - level3name: Week of October 19th            
-        - pagename: September
-          level3:
-            - level3name: Week of September 7th
-            - level3name: Week of September 14th
-            - level3name: Week of September 21st
-            - level3name: Week of September 28th
+
 
 - categoryname: Troubleshooting
   image: Troubleshooting
