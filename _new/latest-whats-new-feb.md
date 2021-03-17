@@ -1,11 +1,11 @@
 ---
-pagename: Feb what's new
+pagename: February what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
 subtitle: Highlights of February 2021
 level3: ''
-permalink: whats-new-feb-whats-new.html
+permalink: whats-new-february-whats-new.html
 isTutorial: false
 isNew: false
 ---
