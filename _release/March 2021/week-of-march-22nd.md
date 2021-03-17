@@ -49,6 +49,229 @@ Customizing the answer choice text and reordering choices has no impact on the u
 
 **Note:** Take care when changing the answer text; remember to update the conditions in the rules accordingly.
 
+## [iOS mobile SDK] Video and Voice call support
+### Type: New functionality (iOS SDK 6.3)
+
+Brands that are using the Mobile SDK will now be able to invite consumers to video or voice calls via the messaging interfaces on the brand’s app. Agents will be able to send the video or voice call invitation from the Agent Workspace, while the mobile SDK will display the invite to the consumer. Consumers will be able to tap on the invite in order to initiate or decline the voice or video call, while the call will be facilitated via a webview on the messaging interface. 
+
+To read more information about the video and voice feature please see the [Knowledge Center article](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-voice-and-video-calls-overview.html).
+
+#### Enablement
+
+**First, brands will need to enable the voice and video call feature on the conversational Cloud account:** 
+
+Voice and video calls are automatically enabled on the brand’s Conversational Cloud account. [Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow or restrict the video and voice calls feature for all agents or only a subset of agents. The permissions are part of the Agent profile. The permissions that control this feature are the “Initiate voice conversation” permission to allow voice calls, and the “Initiate live video conversation” permission to allow video calls.
+
+![](img/week-of-march-22nd-4.png)
+
+**Then, the brands will need to configure voice and video on the SDK:**
+
+Video and voice for Mobile SDK can be enabled via the SDK configuration, and we will also allow brands to decide on the video/voice call invitation look and feel through new configuration elements (invitation background color, border color and shape, button colors, as well as the webview bar colors and more). To review the full configurations see the [Developer Center article](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-advanced-features-voice-and-video.html). 
+
+#### New attributes: 
+
+***enableVoiceVideoCall***
+Enable or disable the ability for an agent to start a voice or video call.
+* Type: bool
+* Default value: false
+
+***voiceCallImageIcon***
+Defines default image icon for voice invite.
+* Type: UIImage
+* Default value: nil
+
+***videoCallImageIcon***
+Defines default image icon for video Invite.
+* Type: UIImage
+* Default value: nil
+
+***voiceVideoAcceptCallButtonImage***
+Defines default background image for Decline button on voice & video invite
+* Type: UIImage
+* Default value: nil
+
+***voiceVideoDeclineCallButtonImage***
+Defines default background image for Decline button on voice & video invite
+* Type: UIImage
+* Default value: nil
+
+***voiceVideoEndCallButtonImage***
+Defines default background image for End button on voice & video invite
+* Type: UIImage
+* Default value: nil
+* Preconditions: This image is only shown on the voice & video invite when the consumer has an active call
+* Notes: To enable this image voiceVideoEndCallButtonType should be set to hangup`
+
+***voiceVideoJoinCallButtonImage***
+Defines default background image for Join button on voice & video invite
+* Type: UIImage
+* Default value: nil
+* Preconditions: This image is only shown on the voice & video invite when the consumer has an active call
+
+***voiceVideoInviteIconTint***
+Defines default icon tint color on voice & video invite
+* Type: UIColor
+* Default value: gray
+
+***voiceVideoAcceptButtonTint***
+Defines default tint color for Accept/Join button on voice & video invite
+* Type: UIColor
+* Default value: white
+* Note: This property controls both the Accept and Join call button
+
+***voiceVideoDeclineButtonTint***
+Defines default tint color for Decline/End button on voice & video invite
+* Type: UIColor
+* Default value: red
+* Note: This property controls both the Decline and End call button
+
+***voiceVideoAcceptButtonBackgroundColor***
+Defines default background color for Accept/Join button on voice & video invite
+* Type: UIColor
+* Default value: green
+* Note: This property controls both the Accept and Join call buttons
+
+***voiceVideoDeclineButtonBackgroundColor***
+Defines default background color for Decline/End Button on voice & video invite
+* Type: UIColor
+* Default value: clear
+* Note: This property controls both the Decline and End call buttons
+
+***voiceVideoInvitationIconRenderingMode***
+Defines default rendering mode for voice or video invitation icon
+* Type: UIImage.RenderingMode
+* Default value: alwaysTemplate
+
+***voiceVideoAcceptButtonRenderingMode***
+Defines default rendering mode for Accept button on voice & video invite
+* Type: UIImage.RenderingMode
+* Default value: alwaysTemplate
+
+***voiceVideoDeclineButtonRenderingMode***
+Defines default rendering mode for Decline button on voice & video invite
+* Type: UIImage.RenderingMode
+* Default value: alwaysTemplate
+
+***voiceVideoEndCallButtonType***
+Defines which icon to display on Join button for voice & video invite
+* Type: VoiceVideoEndCallButtonType
+* Default value: close
+* Preconditions: This type is only shown on the voice & video invite when the consumer has an active call
+
+***voiceVideoButtonsInnerPadding***
+Defines inner padding between Accept and Decline buttons on voice & video invite
+* Type: Double
+* Default value: 8.0
+
+***voiceVideoButtonsOuterPadding***
+Defines outer padding between Accept and Decline Buttons on voice & video invite
+* Type: Double
+* Default value: 24.0
+
+***voiceVideoInvitationBubbleBackgroundColor***
+Defines background color for voice & video invitation bubble
+* Type: UIColor
+* Default value: light gray
+
+***voiceVideoInvitationBubbleBorderColor***
+Defines border color for voice & video invitation bubble
+* Type: UIColor
+* Default value: clear
+
+***voiceVideoInvitationBubbleBorderWidth***
+Defines border width for voice & video invitation bubble
+* Type: Double
+* Default value: 0.0
+
+***voiceVideoNavigationBackgroundColor***
+Defines background color of Navigation and Tab bar for voice & video SFSafariViewController
+* Type: UIColor
+* Default value: gray
+
+***voiceVideoNavigationTintColor***
+Defines tint color for icons on Navigation and Tab bar icons for voice & video SFSafariViewController
+* Type: UIColor
+* Default value: black
+
+{: .sidebyside} 
+![](img/week-of-march-22nd-5.png) ![](img/week-of-march-22nd-6.png)
+
+## [iOS mobile SDK] Structured Content outer padding configuration
+### Type: New functionality (iOS SDK 6.3)
+
+Structured Content outer padding configuration is now supported.
+
+#### Enablement 
+
+***structuredButtonWidthConstant***
+Defines padding constraint for Structured Constant elements of button type
+* Type: CGFloat
+* Default value: -20.0
+
+## [iOS mobile SDK] Conversation Separator configurations
+### Type: New functionality (iOS SDK 6.3)
+
+Conversation Separator configurations are now supported. 
+
+#### Enablement 
+
+***conversationSeparatorContentViewTopPadding***
+Defines the top padding for the conversation separator content view
+* Type: CGFloat
+* Default value: 0.0
+
+***conversationSeparatorContentViewBottomPadding***
+Defines the bottom padding for the conversation separator content view
+* Type: CGFloat
+* Default value: 0.0
+
+## [iOS mobile SDK] Link Preview configuration
+### Type: New functionality (iOS SDK 6.3)
+
+Link Preview configuration is now supported. 
+
+#### Enablement 
+
+***linkPreviewLoadingImage***
+Defines image for link preview loader
+* Type: UIImage
+* Default value: nil
+
+## [iOS mobile SDK] Conversation Separator padding interfered when setting conversationBackgroundColor
+### Type: Bug fix (iOS SDK 6.3)
+
+An issue was found where Conversation Separator padding interfered when setting **conversationBackgroundColor**. This issue has now been resolved.
+
+## [iOS mobile SDK] Quick Replies are dismissed when opening menu in Window Mode
+### Type: Bug fix (iOS SDK 6.3)
+
+An issue was found causing Quick Replies to be dismissed when opening the menu while in Window Mode. This issue has been resolved. 
+
+## [iOS mobile SDK] inputTextViewTopBorderColor is not properly aligned when the Empty State View is presented
+### Type: Bug fix (iOS SDK 6.3)
+
+An issue was found where the **inputTextViewTopBorderColor** configuration was not properly aligned when the Empty State View was presented (“There are currently no conversations at this time”). This issue has been resolved. 
+
+## [iOS mobile SDK] VoiceOver won’t read correct label when reading Structured Content cards
+### Type: Bug fix (iOS SDK 6.3)
+
+An accessibility issue was found causing VoiceOver not to read the correct label when reading Structured Content cards. This issue has been resolved. 
+
+## [iOS mobile SDK] Unread bubble background will not change color when setting conversationBackgroundColor
+### Type: Bug fix (iOS SDK 6.3)
+
+An issue was found causing the unread bubble background not to change color when setting **conversationBackgroundColor**. This issue has been resolved. 
+
+## [iOS mobile SDK] Structured Content timestamp will not resize when setting Large Text on Accessibility Setting
+### Type: Bug fix (iOS SDK 6.3)
+
+An issue was discovered causing the Structured Content timestamp not to resize when setting Large Text on Accessibility Settings on the device. This issue has been resolved.
+
+## [iOS mobile SDK] Conversation screen will not take focus and VoiceOver will read ViewController behind it
+### Type: Bug fix (iOS SDK 6.3)
+
+An accessibility issue was found where the conversation screen does not take focus when use is focused on it, and the voice over reads the viewcontroller behind it. This issue has been resolved. 
+
 ## WCAG 2.1 AA / Accessibility Remediation
 
 The Web Experiences team is partnering with Deque, a website accessibility firm, to remediate, validate, and ultimately certify the LivePerson consumer experience as WCAG 2.1 AA compliant.  To reach WCAG 2.1 AA compliance, we will be deploying fixes to the consumer experience over the next few months that will incrementally get us to certification.  
