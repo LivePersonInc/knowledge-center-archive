@@ -483,6 +483,7 @@ ul.mysidebar.nav > li:first-of-type {
     flex-wrap: wrap;
     font-size: 14px;
     font-family: "roboto";
+    overflow-wrap: anywhere;
   }
   .page-no-right-sidebar div#metrics tr td.description {
     width: 30% !important;
