@@ -484,7 +484,9 @@ function searchFunction() {
   }
 
   // Auto Complete
-  autocomplete(document.getElementById("metricsSearch"));
+  if (document.getElementById("metricsSearch") != null) {
+    autocomplete(document.getElementById("metricsSearch"));
+  }
 
   function autocomplete(inp) {
     var currentFocus;
@@ -709,9 +711,9 @@ function vimeoButtons() {
   player.on("ended", function () {
     endCard.classList.remove("hidden");
   });
-  if ($("#vimeoButtons").length) {
-    vimeoButtons();
-  }
+  // if ($("#vimeoButtons").length) {
+  //   vimeoButtons();
+  // }
 }
 
 //detect if explorer and then add a bunch of classes with its own CSS because it's oh so special
