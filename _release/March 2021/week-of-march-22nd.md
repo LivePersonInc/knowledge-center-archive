@@ -45,7 +45,7 @@ Second, you can now customize the answer choice text of the survey interactions 
 
 Customizing the answer choice text and reordering choices has no impact on the underlying actual values that are reported to Analytics Builder. These never change; this ensures that the survey answers are always properly reported.
 
-![](img/CB4.0-week-of-march22nd-1.png)
+![](img/CB4.0-week-of-march-22nd-1.png)
 
 **Note:** Take care when changing the answer text; remember to update the conditions in the rules accordingly.
 
