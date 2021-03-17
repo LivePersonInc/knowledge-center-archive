@@ -51,7 +51,7 @@ After accepting, the call is initiated and the consumer’s browser will ask for
 **On Mobile SDK:**
 
 {: .sidebyside} 
-![](img/voice-and-video-mobile-1.png) ![](img/voice-and-video-mobile-2.png) ![](img/voice-and-video-mobile-3.png)
+![](img/voice-and-video-mobile-1.png)![](img/voice-and-video-mobile-2.png)![](img/voice-and-video-mobile-3.png)
 
 **Important to note that on Mobile SDK, the video and voice calls will open within a webview container on top of the messaging interface.** Consumers can close the webview at any point of the video or voice call while returning to the messaging screen.  
 
