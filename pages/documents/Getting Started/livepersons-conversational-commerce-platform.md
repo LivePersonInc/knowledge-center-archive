@@ -17,6 +17,15 @@ The LivePerson Conversational Cloud is the evolution of LiveEngage. It’s an AI
 
 The Conversational Cloud makes it possible to understand consumer intents in real-time to inform critical business decisions and automate consumer interactions at scale on all the popular messaging channels. The Conversational Cloud powers the orchestration of human agents, bots, and systems through a specialized set of AI-powered services and tools. Brands can use this platform to discover and understand consumer intents, design and scale personalized automations to fulfill those intents, and measure and optimize the effectiveness of conversations.
 
+<div class="player-wrapper">
+  <iframe id="player" src="https://player.vimeo.com/video/524273176" width="630" height="354" frameborder="0"></iframe>
+  <div class="endCard hidden">
+    <a class="btn" href="https://knowledge.liveperson.com/agent-manager-workspace-agent-app-agent-app-user-guide.html">Learn more Agent App</a>  
+    <a class="btn" href="https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-all-releases.html">Learn more Agent SDK</a>
+        <a class="btn" href="https://developers.liveperson.com/tutorials-guides-using-agent-assist-overview.html">Learn more Agent Assist</a>
+  </div>
+</div>
+
 ![](img/lp-conversational-cloud-1.gif)
 
 ## Why brands use the Conversational Cloud

@@ -10,6 +10,7 @@ $(document).ready(function () {
   populateAnchors();
   mobileHamburger();
   isExplorer();
+  vimeoButtons();
   setTimeout(function () {
     agreeButton();
   }, 2000);
@@ -699,6 +700,18 @@ function isEdge() {
     $(this).addClass("edgeBox");
   });
 }
+
+// for Video/vimeo end scripts - vimeo api player.js
+  function vimeoButtons() {
+  const iframe = document.getElementById("player");
+  const player = new Vimeo.Player(iframe);
+  const endCard = document.querySelector(".endCard");
+
+  player.on("ended", function () {
+    endCard.classList.remove("hidden");
+  });
+}
+
 
 //detect if explorer and then add a bunch of classes with its own CSS because it's oh so special
 function isExplorer() {
