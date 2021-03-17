@@ -397,3 +397,10 @@ An enhancement has been made, allowing for customization of the type-in engageme
 ### Type: Bug fix (UW 10.8)
 
 Some visual imperfections related to the paper plane icon and alignment of the “Ask a question” text were discovered and resolved. 
+
+## Source name - Return source name in the response 
+### Type: Enhancement (Engagement History Interactions API - version 1.0.0.33)
+
+The source of the API call, which is sent by the API consumer, will now be returned in the API response. The source name will be mirrored and will be added automatically, in the case of pagination, to the URLs used as reference to the next, previous, first, and last pages in the response.
+This will allow brands to add the source name only for the first call, while follow-up calls can be taken directly from the response, and without need to concatenate manually. 
+
