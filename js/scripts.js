@@ -702,7 +702,7 @@ function isEdge() {
 }
 
 // for Video/vimeo end scripts - vimeo api player.js
-  function vimeoButtons() {
+function vimeoButtons() {
   const iframe = document.getElementById("player");
   const player = new Vimeo.Player(iframe);
   const endCard = document.querySelector(".endCard");
@@ -711,7 +711,6 @@ function isEdge() {
     endCard.classList.remove("hidden");
   });
 }
-
 
 //detect if explorer and then add a bunch of classes with its own CSS because it's oh so special
 function isExplorer() {
