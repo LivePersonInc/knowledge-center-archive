@@ -71,31 +71,37 @@ Video and voice for Mobile SDK can be enabled via the SDK configuration, and we 
 #### New attributes: 
 
 ***enableVoiceVideoCall***
+
 Enable or disable the ability for an agent to start a voice or video call.
 * Type: bool
 * Default value: false
 
 ***voiceCallImageIcon***
+
 Defines default image icon for voice invite.
 * Type: UIImage
 * Default value: nil
 
 ***videoCallImageIcon***
+
 Defines default image icon for video Invite.
 * Type: UIImage
 * Default value: nil
 
 ***voiceVideoAcceptCallButtonImage***
+
 Defines default background image for Decline button on voice & video invite
 * Type: UIImage
 * Default value: nil
 
 ***voiceVideoDeclineCallButtonImage***
+
 Defines default background image for Decline button on voice & video invite
 * Type: UIImage
 * Default value: nil
 
 ***voiceVideoEndCallButtonImage***
+
 Defines default background image for End button on voice & video invite
 * Type: UIImage
 * Default value: nil
@@ -103,92 +109,109 @@ Defines default background image for End button on voice & video invite
 * Notes: To enable this image voiceVideoEndCallButtonType should be set to hangup`
 
 ***voiceVideoJoinCallButtonImage***
+
 Defines default background image for Join button on voice & video invite
 * Type: UIImage
 * Default value: nil
 * Preconditions: This image is only shown on the voice & video invite when the consumer has an active call
 
 ***voiceVideoInviteIconTint***
+
 Defines default icon tint color on voice & video invite
 * Type: UIColor
 * Default value: gray
 
 ***voiceVideoAcceptButtonTint***
+
 Defines default tint color for Accept/Join button on voice & video invite
 * Type: UIColor
 * Default value: white
 * Note: This property controls both the Accept and Join call button
 
 ***voiceVideoDeclineButtonTint***
+
 Defines default tint color for Decline/End button on voice & video invite
 * Type: UIColor
 * Default value: red
 * Note: This property controls both the Decline and End call button
 
 ***voiceVideoAcceptButtonBackgroundColor***
+
 Defines default background color for Accept/Join button on voice & video invite
 * Type: UIColor
 * Default value: green
 * Note: This property controls both the Accept and Join call buttons
 
 ***voiceVideoDeclineButtonBackgroundColor***
+
 Defines default background color for Decline/End Button on voice & video invite
 * Type: UIColor
 * Default value: clear
 * Note: This property controls both the Decline and End call buttons
 
 ***voiceVideoInvitationIconRenderingMode***
+
 Defines default rendering mode for voice or video invitation icon
 * Type: UIImage.RenderingMode
 * Default value: alwaysTemplate
 
 ***voiceVideoAcceptButtonRenderingMode***
+
 Defines default rendering mode for Accept button on voice & video invite
 * Type: UIImage.RenderingMode
 * Default value: alwaysTemplate
 
 ***voiceVideoDeclineButtonRenderingMode***
+
 Defines default rendering mode for Decline button on voice & video invite
 * Type: UIImage.RenderingMode
 * Default value: alwaysTemplate
 
 ***voiceVideoEndCallButtonType***
+
 Defines which icon to display on Join button for voice & video invite
 * Type: VoiceVideoEndCallButtonType
 * Default value: close
 * Preconditions: This type is only shown on the voice & video invite when the consumer has an active call
 
 ***voiceVideoButtonsInnerPadding***
+
 Defines inner padding between Accept and Decline buttons on voice & video invite
 * Type: Double
 * Default value: 8.0
 
 ***voiceVideoButtonsOuterPadding***
+
 Defines outer padding between Accept and Decline Buttons on voice & video invite
 * Type: Double
 * Default value: 24.0
 
 ***voiceVideoInvitationBubbleBackgroundColor***
+
 Defines background color for voice & video invitation bubble
 * Type: UIColor
 * Default value: light gray
 
 ***voiceVideoInvitationBubbleBorderColor***
+
 Defines border color for voice & video invitation bubble
 * Type: UIColor
 * Default value: clear
 
 ***voiceVideoInvitationBubbleBorderWidth***
+
 Defines border width for voice & video invitation bubble
 * Type: Double
 * Default value: 0.0
 
 ***voiceVideoNavigationBackgroundColor***
+
 Defines background color of Navigation and Tab bar for voice & video SFSafariViewController
 * Type: UIColor
 * Default value: gray
 
 ***voiceVideoNavigationTintColor***
+
 Defines tint color for icons on Navigation and Tab bar icons for voice & video SFSafariViewController
 * Type: UIColor
 * Default value: black
