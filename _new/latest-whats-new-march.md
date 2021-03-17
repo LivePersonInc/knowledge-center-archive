@@ -16,10 +16,14 @@ Watch this short video to see upcoming features to LivePerson in the weeks ahead
 
 ## Agent Assist
 Conversation Orchestrator’s Agent Assist improves the productivity of human agents. By enabling live agents to access Knowledge Base articles and bots within a conversation, agents can leverage existing knowledge and processes to provide a seamless, robust service experience for users. This month, Conversation Orchestrator introduces new enhancements to Agent Assist.
+**Skill-Based Recommendations:** Brands can now decide which bots and Knowledge Bases can be recommended to agents on a skill-by-skill basis. This helps brands both curate recommendations and ramp up groups of agents.
+**Multiple Recommendations:** Up to five recommendations can be provided to an agent (previously it was limited to one). These recommendations can include both Knowledge Base articles and bots. Click [here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html) for more information.
 
-Skill-Based Recommendations: Brands can now decide which bots and Knowledge Bases can be recommended to agents on a skill-by-skill basis. This helps brands both curate recommendations and ramp up groups of agents.
+![](img/Whats-new-march-17th-1.png)
 
-Multiple Recommendations: Up to five recommendations can be provided to an agent (previously it was limited to one). These recommendations can include both Knowledge Base articles and bots. Click [here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html) for more information.
+## Knowledge Base enhancements
+If you have a CMS that you want to leverage in bot conversations or through Agent Assist, you can add an external Knowledge Base without needing to migrate your content. You can use content from your CMS (e.g. Salesforce, Zendesk, SDL, Verint/iKnow, etc) as though it were a native part of the Conversational Cloud to power FAQ bots and Agent Assist recommendations.
+Retrieve content using Natural Language Understanding (NLU) or your CMS’s content retrieval. You can update an article in your CMS and use the new article content automatically. It is possible to sync to add and remove articles with a click. Simply click on the 'sync' button in the settings that refreshes the articles selected via the API payload. For more information click [here.](https://developers.liveperson.com/knowledge-base-external-knowledge-bases-introduction.html)
 
 ## Updates to Agent App
 Agent App v2.6.8 will allow agents to change their password in the app. Additionally a ‘forgot password’ link is provided on the login page. For Agent Managers and Admins using the app on a tablet, the ability to switch between the Agent Workspace and User Manager is now shown below the conversation list. To enable, just search for LivePerson Agent App on the Google Play Store or Apple App & LINE.
@@ -53,6 +57,8 @@ For further information, refer to the [iOS In-App Messaging SDK](https://develop
 
 ## Updates to Manager Workspace: Bot Performance widget
 Today, human agents and bots are treated similarly in the Manager Workspace. They are both treated as the same type of agent without the ability to distinguish between the two. While most of the metrics measured currently are relevant for both human and automated agents, there are differences between these user types with additional bot-centric metrics required. The Bot Performance widget provides "automation centric" metrics that allow easy monitoring and management over the automation that affect the day to day shift.
+
+![](img/bot-performance-widget-whats-new-march.png)
 
 ## Developer updates - Third Party Bot Connectors
 
