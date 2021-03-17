@@ -48,3 +48,99 @@ Customizing the answer choice text and reordering choices has no impact on the u
 ![](img/CB4.0-week-of-march22nd-1.png)
 
 **Note:** Take care when changing the answer text; remember to update the conditions in the rules accordingly.
+
+## WCAG 2.1 AA / Accessibility Remediation
+
+The Web Experiences team is partnering with Deque, a website accessibility firm, to remediate, validate, and ultimately certify the LivePerson consumer experience as WCAG 2.1 AA compliant.  To reach WCAG 2.1 AA compliance, we will be deploying fixes to the consumer experience over the next few months that will incrementally get us to certification.  
+
+Please note that issues that are remediated and validated under WCAG 2.1 AA compliance only apply to the default engagements, window themes, and out-of-the-box features/taglets within the consumer window. Any brands that utilize custom windows, taglets, and engagements should be reviewed and updated by the customer, or their representative, to meet WCAG 2.1 AA compliance. 
+
+## [Action Menu] 'End Conversation' dialog question + buttons not read correctly by all screen readers
+### Type: Enhancement (UW 10.8)
+
+The accessibility of the "Close Conversation" dialog has been refined by implementing the WCAG recommendation for dialog accessibility. The ability to close the modal dialog with the ESC key has been added. 
+
+## [Structured Content Carousel] Carousel navigation arrows are not appropriate color contrast ratio
+### Type: Enhancement (UW 10.8)
+
+The accessibility of the Structured Content Carousel navigation buttons has been improved by converting the carousel buttons to svg icons and providing more color contrast by inverting the button colors (blue background with white arrow versus the white background with light blue arrow). It is now possible for brands to customize the coloring of these buttons in their various states (inactive, hover, active, and focus) to fit their branding. 
+
+![](img/week-of-march-22nd-1.gif)
+
+![](img/week-of-march-22nd-2.gif)
+
+#### Window Customization CSS elements:
+
+For the inactive state: 
+```
+.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper>.lp-json-pollock-layout-carousel-arrow{
+    fill: #0363ad;
+    border: 1px solid #d4d4d5;
+    background-color: #ffffff;
+}
+```
+
+For the hover state: 
+```
+.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper>.lp-json-pollock-layout-carousel-arrow:hover {
+    fill: #ffffff;
+    border: 1px solid #0363ad;
+    background-color: #0363ad;
+}
+```
+
+For the active and focus state:
+```
+.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper>.lp-json-pollock-layout-carousel-arrow:active {
+    fill: #0363ad;
+    border: 1px solid #0363ad;
+    background-color: #ffffff;
+}
+.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper>.lp-json-pollock-layout-carousel-arrow:focus {
+    fill: #0363ad;
+    border: 1px solid #0363ad;
+    background-color: #ffffff;
+}
+```
+
+## [CoBrowse Embedded Window] Keyboard focus not moving to any control in the 'Video chat' window, after accessing 'maximize video chat button'
+### Type: Enhancement (UW 10.8)
+
+Whenever the video call slider is maximized, the focus will be set to the mute microphone button. This is an accessibility improvement for keyboard and screen reader users. There is a soft cross-dependency with CoBrowse 3.22 which is already deployed to GA.
+
+## [Messaging Window] Regression fix for markdown (#md#) format 
+### Type: Bug fix (UW 10.8)
+
+Previous changes to the HyperLinksHelper created an issue with links rendering from markdown format. Special sequence #md# for links was suddenly skipped from rendering and produces a poor user experience as many brands utilize this format to serve links throughout the messaging window.
+
+## [Structured Content Carousel] Carousel disappears after scrolling on iOS devices
+### Type: Bug fix (UW 10.8)
+
+An issue was discovered on iOS mobile Web Messaging where the Structured Content carousel would disappear when scrolling. The on-hover timestamp element at the end of the carousel was the root of the issue and, given there are timestamp elements below the carousel, the on-hover timestamp has been removed and the issue resolved. See screenshot for exact component name. 
+
+![](img/week-of-march-22nd-3.png)
+
+## [Structured Content] Agent icon within the window is not aligned with Structured Content
+### Type: Bug fix (UW 10.8)
+
+An issue was discovered with Ocean theme where wide Structured Content was appearing below the agent icon instead of inline with it. This issue has been resolved. 
+
+## [Translation] Hungarian embedded texts have incorrect translation 
+### Type: Bug fix (UW 10.8)
+
+An issue was discovered causing Hungarian embedded texts to appear with an incorrect translation. This issue has been resolved. 
+
+## [Agent Widget] Service Scheduler widget is not working in Rollover account 
+### Type: Bug fix (UW 10.8)
+
+An issue was found causing the Service Scheduler widget not to work for agents on Rollover accounts. This issue has been resolved. 
+
+## [Type-in Slide up Custom Taglet] Expand Customization of the Type-in Slide Up Engagement taglet
+### Type: Enhancement (UW 10.8)
+
+An enhancement has been made, allowing for customization of the type-in engagement as custom HTML inside the engagement studio. Customizations allowed include engagement content area, agent avatar size, and type-in area.
+
+## [Type-in Slide up Custom Taglet] Type-in custom engagement: Icon and text adjustments
+### Type: Bug fix (UW 10.8)
+
+Some visual imperfections related to the paper plane icon and alignment of the “Ask a question” text were discovered and resolved. 
