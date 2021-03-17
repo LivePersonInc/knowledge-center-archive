@@ -25,12 +25,22 @@ Conversation Orchestrator’s Agent Assist improves the productivity of human ag
 If you have a CMS that you want to leverage in bot conversations or through Agent Assist, you can add an external Knowledge Base without needing to migrate your content. You can use content from your CMS (e.g. Salesforce, Zendesk, SDL, Verint/iKnow, etc) as though it were a native part of the Conversational Cloud to power FAQ bots and Agent Assist recommendations.
 Retrieve content using Natural Language Understanding (NLU) or your CMS’s content retrieval. You can update an article in your CMS and use the new article content automatically. It is possible to sync to add and remove articles with a click. Simply click on the 'sync' button in the settings that refreshes the articles selected via the API payload. For more information click [here.](https://developers.liveperson.com/knowledge-base-external-knowledge-bases-introduction.html)
 
+## Updates to Proactive Messaging 
+There are a number of updates to Proactive Messaging.
+Proactive campaigns will soon support sending images, videos and documents via rich WhatsApp Message Templates (via the Web Tool and Proactive API). In addition, LivePerson has introduced support for sending custom information via Structured Data Entity (SDEs) through the Proactive 2.0 API. The  custom information will be visible to agents,enabling them to get more insight about the consumers without including it in the Proactive outbound messages.
+
+![](img/Whats-new-march-17th-2.png)
+
 ## Updates to Agent App
 Agent App v2.6.8 will allow agents to change their password in the app. Additionally a ‘forgot password’ link is provided on the login page. For Agent Managers and Admins using the app on a tablet, the ability to switch between the Agent Workspace and User Manager is now shown below the conversation list. To enable, just search for LivePerson Agent App on the Google Play Store or Apple App & LINE.
 In addition, Agents and joined Agent Managers can send private messages in conversations that are not viewable by consumers
 
+![](img/Agent app-whats-new-march-17th.gif)
+
 ## Voice and Video calls via Mobile SDK
 Through your brand’s mobile app, agents can invite consumers to video and voice calls during a messaging conversation. The video or voice call will be facilitated within the messaging interface - via webview container - and will allow consumers to have an embedded experience of a video or voice call during a messaging conversation.
+
+![](img/Voice and Video calls via Mobile SDK.gif)
 
 ## Push notification support for Android Doze and Standby Mode
 Android (Android 6.0 / API level 23) introduces two power-saving features that extend battery life for users by managing how apps behave when a device is not connected to a power source.
@@ -94,6 +104,9 @@ LivePerson is no longer supporting the creation of new NLU v1 (Legacy) domains a
 In the product, NLUv2 will be referred to as LivePerson NLU.
 Spanish NLUv1 domains can be created through special request until Spanish NLUv2 is available in March.
 For more information on NLU v2, click [here.](https://developers.liveperson.com/intent-builder-natural-language-understanding.html)
+
+## Messaging/Engagement History API - Adding source name to API calls
+As part of our continuous effort to improve troubleshooting and reporting in the historical and operational APIs, we are planning to require a 'source name’ parameter as part of any API calls. This will apply for both internal and external calls. 
 
 
 
