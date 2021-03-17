@@ -40,10 +40,11 @@ We still support the older way of implementing a knowledge base search, but we t
 
 Conversation Builder adds two enhancements to post-conversation survey bots. 
 
-First, you can now offer to email a transcript of the survey conversation to the consumer, and grant the consumer the option to accept or decline this. You set this up in the bot’s Bot Settings. Simply enable the Email Transcript setting, and configure the associated settings.
-
+First, you can now offer to email a transcript of the survey conversation to the consumer, and grant the consumer the option to accept or decline this. You set this up in the bot’s Bot Settings. Simply enable the Email Transcript setting, and configure the associated settings. 
 Second, you can now customize the answer choice text of the survey interactions (FCR, CSAT and NPS), and reorder the choices.
 
 Customizing the answer choice text and reordering choices has no impact on the underlying actual values that are reported to Analytics Builder. These never change; this ensures that the survey answers are always properly reported.
 
-Note: Take care when changing the answer text; remember to update the conditions in the rules accordingly.
+![](img/CB4.0-week-of-march22nd-1.png)
+
+**Note:** Take care when changing the answer text; remember to update the conditions in the rules accordingly.
