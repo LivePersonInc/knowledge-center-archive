@@ -227,6 +227,7 @@ Structured Content outer padding configuration is now supported.
 #### Enablement 
 
 ***structuredButtonWidthConstant***
+
 Defines padding constraint for Structured Constant elements of button type
 * Type: CGFloat
 * Default value: -20.0
@@ -239,11 +240,13 @@ Conversation Separator configurations are now supported.
 #### Enablement 
 
 ***conversationSeparatorContentViewTopPadding***
+
 Defines the top padding for the conversation separator content view
 * Type: CGFloat
 * Default value: 0.0
 
 ***conversationSeparatorContentViewBottomPadding***
+
 Defines the bottom padding for the conversation separator content view
 * Type: CGFloat
 * Default value: 0.0
