@@ -314,9 +314,9 @@ The accessibility of the "Close Conversation" dialog has been refined by impleme
 
 The accessibility of the Structured Content Carousel navigation buttons has been improved by converting the carousel buttons to svg icons and providing more color contrast by inverting the button colors (blue background with white arrow versus the white background with light blue arrow). It is now possible for brands to customize the coloring of these buttons in their various states (inactive, hover, active, and focus) to fit their branding. 
 
-![](img/week-of-march-22nd-1.gif)
+![](img/week_of_march_22nd_1.gif)
 
-![](img/week-of-march-22nd-2.gif)
+![](img/week_of_march_22nd_2.gif)
 
 #### Window Customization CSS elements:
 
