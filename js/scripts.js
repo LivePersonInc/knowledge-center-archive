@@ -10,7 +10,6 @@ $(document).ready(function () {
   populateAnchors();
   mobileHamburger();
   isExplorer();
-  vimeoButtons();
   setTimeout(function () {
     agreeButton();
   }, 2000);
@@ -710,6 +709,9 @@ function vimeoButtons() {
   player.on("ended", function () {
     endCard.classList.remove("hidden");
   });
+  if ($("#vimeoButtons").length) {
+    vimeoButtons();
+  }
 }
 
 //detect if explorer and then add a bunch of classes with its own CSS because it's oh so special
