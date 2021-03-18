@@ -1455,46 +1455,6 @@ div#cookie-law {
   width: 135%;
 }
 
-/* Start of new video player with buttons */
-.player-wrapper {
-  position: relative;
-  width: 630px;
-  height: 354px;
-}
-
-.player-wrapper .endCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(100, 100, 100, 0.75);
-  color: white;
-}
-
-.player-wrapper iframe#player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.player-wrapper .endCard.hidden {
-  display: none;
-}
-.player-wrapper .endCard .btn {
-  background: #FF6900;
-  padding: 15px;
-  color: white;
-  text-decoration: none;
-  margin: 0 2px;
-}
-/* End of new video player with buttons */
-
 /* adding getting started from DC */
 
 .getstarted-title {
