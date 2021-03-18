@@ -16,17 +16,21 @@ Watch this short video to see upcoming features to LivePerson in the weeks ahead
 
 ## Agent Assist
 Conversation Orchestrator’s Agent Assist improves the productivity of human agents. By enabling live agents to access Knowledge Base articles and bots within a conversation, agents can leverage existing knowledge and processes to provide a seamless, robust service experience for users. This month, Conversation Orchestrator introduces new enhancements to Agent Assist.
+
 **Skill-Based Recommendations:** Brands can now decide which bots and Knowledge Bases can be recommended to agents on a skill-by-skill basis. This helps brands both curate recommendations and ramp up groups of agents.
+
 **Multiple Recommendations:** Up to five recommendations can be provided to an agent (previously it was limited to one). These recommendations can include both Knowledge Base articles and bots. Click [here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html) for more information.
 
 ![](img/Whats-new-march-17th-1.png)
 
 ## Knowledge Base enhancements
 If you have a CMS that you want to leverage in bot conversations or through Agent Assist, you can add an external Knowledge Base without needing to migrate your content. You can use content from your CMS (e.g. Salesforce, Zendesk, SDL, Verint/iKnow, etc) as though it were a native part of the Conversational Cloud to power FAQ bots and Agent Assist recommendations.
+
 Retrieve content using Natural Language Understanding (NLU) or your CMS’s content retrieval. You can update an article in your CMS and use the new article content automatically. It is possible to sync to add and remove articles with a click. Simply click on the 'sync' button in the settings that refreshes the articles selected via the API payload. For more information click [here.](https://developers.liveperson.com/knowledge-base-external-knowledge-bases-introduction.html)
 
 ## Updates to Proactive Messaging 
 There are a number of updates to Proactive Messaging.
+
 Proactive campaigns will soon support sending images, videos and documents via rich WhatsApp Message Templates (via the Web Tool and Proactive API). In addition, LivePerson has introduced support for sending custom information via Structured Data Entity (SDEs) through the Proactive 2.0 API. The  custom information will be visible to agents,enabling them to get more insight about the consumers without including it in the Proactive outbound messages.
 
 ![](img/Whats-new-march-17th-2.png)
@@ -44,6 +48,7 @@ Through your brand’s mobile app, agents can invite consumers to video and voic
 
 ## Push notification support for Android Doze and Standby Mode
 Android (Android 6.0 / API level 23) introduces two power-saving features that extend battery life for users by managing how apps behave when a device is not connected to a power source.
+
 Doze mode reduces battery consumption by deferring background CPU and network activity for apps when the device is unused for long periods of time, and App Standby mode defers background network activity for apps with which the user has not recently interacted. 
 To support both these modes, our LP pusher will allow brands to utilize FCM high priority message in order to have full control over the availability and display of the push notification on the consumer's device.
 
