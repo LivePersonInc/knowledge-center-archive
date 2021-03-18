@@ -702,20 +702,6 @@ function isEdge() {
   });
 }
 
-// for Video/vimeo end scripts - vimeo api player.js
-function vimeoButtons() {
-  const iframe = document.getElementById("player");
-  const player = new Vimeo.Player(iframe);
-  const endCard = document.querySelector(".endCard");
-
-  player.on("ended", function () {
-    endCard.classList.remove("hidden");
-  });
-  // if ($("#vimeoButtons").length) {
-  //   vimeoButtons();
-  // }
-}
-
 //detect if explorer and then add a bunch of classes with its own CSS because it's oh so special
 function isExplorer() {
   var ua = window.navigator.userAgent;
