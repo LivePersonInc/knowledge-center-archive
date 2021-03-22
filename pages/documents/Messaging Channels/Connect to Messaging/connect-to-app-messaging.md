@@ -69,6 +69,7 @@ App Messaging is a new channel available for the Connect to Messaging (IVR defle
 
 ## Limitations 
 
+* Only brand campaign managers or administrator have the privileges can access the webtool and create In-App API Handoff's.  
 * In the event that the consumer has an open conversation with the brand, the outbound message will not be sent to the consumer.
 * Currently there is a rate limit of 3 req/ sec, the brand must control this rate limit. More requests per second will fail. 
 * In the event that the consumer never logged into the brand’s app (not even one time) the consumer will not be able to receive the proactive push notifications.
@@ -78,4 +79,5 @@ App Messaging is a new channel available for the Connect to Messaging (IVR defle
 * The App Messaging channel cannot be configured together with SMS or WhatsApp channels on the same Proactive handoff configuration. This means that the channel prioritization feature will not be available between App Messaging to SMS or WhatsApp (however there will be no problem with onboarding and enabling all channels together on the account while receiving inbound messages from all channels).   
 * The outbound message will be displayed to the agent in the Agent Widget of the Agent Workspace (this will not affect the consumer view of the outbound message in the messaging interface)
 * Message Templates will not be supported as this is a specific solution for the WhatsApp channel. 
-* iOS limitation - Due to Operating System limitations, if the user does not tap on the notification in the notification center they  will not be able to see that message in the conversation interface.  
+* iOS limitation - Due to Operating System limitations, if the user does not tap on the notification in the notification center they  will not be able to see that message in the conversation interface.
+* IVR Deflection - C2M 2.0 API will not check open conversations, new message will not be delivered and the API will not throw any error message back to IVR system when open conversation exists.  
