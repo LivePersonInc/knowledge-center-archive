@@ -42,9 +42,9 @@ AI Annotator achieves this by providing users who view conversations with the ab
 
 ## Setting up Intent Annotations
 
-### Step 1 - Enable bots to create Intent Annotations
+### Step 1 - Initiating bots to create Intent Annotations
 
-In the Conversation Builder Bot Settings, go to “More Settings” for the bot which is expected to open Intent Annotations. Select bots that handle conversations with consumers, using the LivePerson NLU with either NLU V1 or NLU V2. Note that Patterns will not result in Intent Annotations.
+In the Conversation Builder Bot Settings, go to “More Settings” for the bot which is expected to open Intent Annotations. Note: select bots that are using the LivePerson NLU (V1 or V2) or a third party NLU using the Fire API. A bot that is based on patterns only, will not create annotations
 
 ![](img/ai-annotator-2.png)
 
@@ -52,23 +52,29 @@ Turn on the “Enable Agent Annotations” flag and click “Save”
 
 ![](img/ai-annotator-3.png)
 
-Turn on the permission “AI Annotator: handle Intent Annotations” via “Edit Profile” for the Bot user. This permission is available for the roles: “Agent” and  “Agent Manager” and is Off by default.
+In Conversation Builder, under the bot “Agent Connector”, click Stop and then Start. 
+
+![](img/ai-annotator-15.png)
+
+### Step 2 - Provide users with permissions to open Intent Annotations
+
+Turn on the permission “AI Annotator: handle Intent Annotations” via “Edit Profile” for the **Bot** users that are expected to open annotations. This permission is available for the roles: “Agent” and  “Agent Manager” and is Off by default.
 
 ![](img/ai-annotator-4.png)
 
-### Step 2 - Provide users with permissions to submit Intent Annotations
+### Step 3 - Provide users with permissions to submit Intent Annotations
 
-To enable users to view the “Intent Annotations” widget to submit Intent Annotations, turn on the permission “AI Annotator: handle Intent Annotations” via “Edit Profile” and click “Save”. This permission is available for the roles: agent,  agent manager, and admin, and is Off by default. The ability to annotate will be added to any user with the permission.
+To enable human users (e.g. agents, or bot tuners) to view the “Intent Annotations” widget and submit annotations, turn on the permission “AI Annotator: handle Intent Annotations” via “Edit Profile”. This permission is available for the roles: “Agent” and “Agent Manager” and is Off by default.
 
 ![](img/ai-annotator-5.png)
 
-To edit user roles click on the Manage users and skills tab, and make sure the role is added to the annotating users. When editing a specific user profile, you may update user roles, under  “Assignment”. 
+To edit user roles click on the Manage Users and Skills tab, and make sure that the role is added to the annotating users. When editing a specific user profile, you may update user roles, under  “Assignment”. 
 
 ![](img/ai-annotator-6.png)
 
-### Step 3 - Provide users with permissions to view submitted Intent Annotations
+### Step 4 - Provide users with permissions to view submitted Intent Annotations
 
-To enable users to view, copy, and export the submitted Intent Annotations in the new AI Tasks tab, turn on the permission “AI Annotator: View AI Tasks”  Via “Edit Profile”.
+To enable users to view, copy and export the submitted annotations in the new AI Tasks tab, turn on the permission “AI Annotator: View AI Tasks”  via “Edit Profile” in Conversational Cloud. 
 
 This permission is available for the roles: agent manager and admin, and is Off by default.
 
