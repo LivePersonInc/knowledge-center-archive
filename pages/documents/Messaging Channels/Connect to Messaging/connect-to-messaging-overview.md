@@ -13,7 +13,7 @@ isNew: false
 
 ## Introducing Connect to Messaging
 
-LivePerson Connect to Messaging (C2M) is an IVR deflection solution that lets brands move voice calls to messaging through the Conversational Cloud platform. Once consumers opt to deflect to a messaging conversation, they will receive an outbound message over SMS, WhatsApp or App Messaging, which will allow them to respond and start messaging with the brand. The consumer responses are routed into the Conversational Cloud’s Agent Workspace, where conversations can be handled by human agents, automation, or a mix of both. This service enables a richer and more personalized consumer experience, while utilizing all Conversational Cloud capabilities. SMS, WhatsApp and App Messaging are the supported messaging channels, with more  messaging options coming in the near future.
+LivePerson Connect to Messaging (C2M) 2.0 is an IVR deflection solution that lets brands move voice calls to messaging through the Conversational Cloud platform. Once consumers opt to deflect to a messaging conversation, they will receive an outbound message over SMS, WhatsApp or App Messaging, which will allow them to respond and start messaging with the brand. The consumer responses are routed into the Conversational Cloud’s Agent Workspace, where conversations can be handled by human agents, automation, or a mix of both. This service enables a richer and more personalized consumer experience, while utilizing all Conversational Cloud capabilities. SMS, WhatsApp and App Messaging are the supported messaging channels, with more  messaging options coming in the near future.
 
 ### Consumer benefits of using C2M
 
