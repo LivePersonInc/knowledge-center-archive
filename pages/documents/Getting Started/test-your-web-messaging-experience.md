@@ -67,16 +67,19 @@ Learn more about starting with the concierge bot in the [Developer Center](https
 ## Troubleshooting 
 
 **Issue:** The web emulator is displaying the wrong engagement or campaign. 
+
 **Solution:** If you have multiple web engagements, the emulator will display the campaigns that are currently published on your account. If you have multiple campaigns published with engagements that are configured to appear in the same position on the screen, **the campaign with the higher priority will take precedence.** 
 
 ![](img/test-your-web-messaging-experience-9.png)
 
 **Issue:** No messaging engagement loaded for my account, instead I see this Contact us form. 
+
 **Solution:** If this occurs, you may be testing an account that doesn’t have a messaging campaign configured. [Click here](contact-center-management-campaigns-campaigns-overview.html) to learn more about creating campaigns in the Conversational Cloud, or [create a new free trial account](https://developers.liveperson.com/register.html) with a default messaging campaign. 
 
 ![](img/test-your-web-messaging-experience-10.png)
 
 **Issue:**  My engagement isn’t appearing on the emulator page. 
+
 **Solution:** It may take a moment for your engagement to load. If it is still not appearing, try reloading the page or testing the experience in an incognito browser window. 
 
 
