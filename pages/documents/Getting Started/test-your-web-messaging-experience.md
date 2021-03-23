@@ -2,7 +2,7 @@
 pagename: Test your Web Messaging experience
 categoryName: Getting started
 subCategoryName: ''
-indicator: both
+indicator: messaging
 subtitle: 
 level3: ''
 permalink: getting-started-test-your-web-messaging-experience.html
