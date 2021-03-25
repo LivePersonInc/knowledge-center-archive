@@ -218,7 +218,7 @@ Note: Another, more thorough method of testing your model’s performance is our
 **Check Undefined:**
 Now, use the “Add Filter” button to change the filtering intent to “Undefined” which is at the very bottom of the list of intents.
 
-![](img/IA-Optimize-intents-22.png)
+![](img/IA-Optimize-intents-22 .png)
 
 Once you have done this, you will need to return to the “Messages” window as you did in Step and read 50+ of the filtered messages. While doing this, record how many messages are correctly classified as “Undefined.” “Undefined” is a label that is applied to messages that cannot be classified by any intent in a given taxonomy. Once you are done, calculate the percentage of correctly classified “Undefined” messages. If you observe less than 60% correctly labeled messages, please see the “Evaluation” step (following page) for next steps. Reading over a larger number (100+) of “Undefined” labeled messages is advised for an accurate assessment, but a minimum of 50 should be sufficient.
 
