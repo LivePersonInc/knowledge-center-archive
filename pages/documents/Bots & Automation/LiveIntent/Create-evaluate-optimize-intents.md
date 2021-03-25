@@ -134,6 +134,7 @@ Last, you can use the “Discover Similar Messages” feature to find messages s
 ![](img/IA-Optimize-6.png)
 
 After clicking “discover similar messages”, Intent Analyzer will load a new set of messages into the “Messages with Intent” window, all of which are similar to the message that you picked at the beginning:
+
 ![](img/IA-Optimize-7.png)
 
 Alternatively, you can use the clusters and subclusters in Intent Discovery to find additional training data as well. To do this, go to Intent Discovery’s cluster view and click a subcluster that you want to add to an existing intent. Once you’ve done this, click “view details” and the utterances from that cluster will be brought over to the “Messages” window. 
@@ -147,7 +148,7 @@ Regardless of which option you choose to find more messages, once you’ve found
 {: .notice}
 Note: You can also export the utterances using the “Export Table to CSV” as a spreadsheet to Excel or Google Sheets. Once the data has been exported and downloaded onto your local device, you can upload the file into Google Sheets or Excel and begin classifying messages.
 
-![](img/IA-Optimize-intents-15.png)
+![](img/IA-Optimize-intents-16.png)
 
 ## How To Select Training Utterances 
 
@@ -186,7 +187,7 @@ Now that you have discovered some intents and found the training data for those 
 3. To refresh the page and check on progress, click the Refresh icon in the Training Status column.
 
 ![](img/IA-Optimize-10.png)
-![](img/IA-Optimize-intents-14.png)
+![](img/IA-Optimize-intents-17.png)
 
 ## Step 5: Evaluating & optimizing your model
 
@@ -199,18 +200,25 @@ Note: Another, more thorough method of testing your model’s performance is our
 ![](img/IA-Optimize-11.png)
 
 * In the Intent Analyzer dashboard, navigate to “Intent Discovery” at the top left, and make sure that the “Messages” view is selected.
-![](img/IA-Optimize-intents-15.png)
+![](img/IA-Optimize-intents-18.png)
 
 * Click “Add Filter” at the top left.
 
 * You should now see the “Add Filter” menu. Now, use the first dropdown menu to select “Intents” as your category.
+![](img/IA-Optimize-intents-19.png)
 
 * Then use the second dropdown menu to select which intent you want to filter on.
+![](img/IA-Optimize-intents-20.png)
+
 * Once you have an intent filter created, read around 10+ messages in the “Messages” window and verify that these messages match the current intent you are using as your filter. As you do this, refer to the intent’s definition for guidance (see links to definitions at the end of this document). Do this for every intent in your taxonomy, and track how many messages are correctly labeled per each intent. If you observe less than 60% correctly labeled messages, please see the “Diagnosis” step below for next steps. For a more accurate assessment of your model, review a larger number of messages per intent (20+ would be ideal).
+![](img/IA-Optimize-intents-21.png)
+
 * In the above example, six messages were correctly labeled as “report general login issues,” while two messages were incorrectly labeled as “report general login issues.” This gives you six out of eight correct, simplified to 3/4 or 75% correct.
 
 **Check Undefined:**
 Now, use the “Add Filter” button to change the filtering intent to “Undefined” which is at the very bottom of the list of intents.
+
+![](img/IA-Optimize-intents-22.png)
 
 Once you have done this, you will need to return to the “Messages” window as you did in Step and read 50+ of the filtered messages. While doing this, record how many messages are correctly classified as “Undefined.” “Undefined” is a label that is applied to messages that cannot be classified by any intent in a given taxonomy. Once you are done, calculate the percentage of correctly classified “Undefined” messages. If you observe less than 60% correctly labeled messages, please see the “Evaluation” step (following page) for next steps. Reading over a larger number (100+) of “Undefined” labeled messages is advised for an accurate assessment, but a minimum of 50 should be sufficient.
 
