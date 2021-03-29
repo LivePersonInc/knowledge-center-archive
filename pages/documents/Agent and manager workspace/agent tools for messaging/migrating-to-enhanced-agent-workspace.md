@@ -12,7 +12,7 @@ date: 2020-07-29
 
 ---
 ## Migrating plan
-In 2019, LivePerson launched the enhanced Agent Workspace for messaging. On September 14th 2020, we will be retiring the old workspace. After that date, the link to revert back to the old workspace will no longer be available.   
+LivePerson has launched the enhanced Agent Workspace for messaging. We will be retiring the old workspace, after which the link to revert back to the old workspace will no longer be available.   
 
 Many customers have already moved to the new workspace and are benefiting from its enhancements and new functionalities. We’ve updated the new workspace to the WCAG accessibility standards and this workspace simplifies agent operations and dramatically increases efficiency.
 
