@@ -284,7 +284,6 @@
         - pagename: Predefined dashboards
         - pagename: Analytics Builder FAQs
         - pagename: "Data availability & latency"
-        - pagename: Training tutorials
         - pagename: Analytics Builder permissions
     - subcategoryname: Engagement attributes
       pages:
