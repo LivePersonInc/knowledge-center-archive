@@ -1350,15 +1350,14 @@ div#cookie-law {
 #cookie-law p {
   display: flex;
   color: #fff;
-  background-color: #2a3a6b;
+  background-color: #090c43;
   width: 100%;
   margin-bottom: 0;
   flex: 1;
-  padding-left: 30px;
   align-items: center;
   min-height: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 15px 0 15px 30px;
+  line-height: 1.4;
 }
 
 #cookie-law > p > span:nth-child(1) {
@@ -1385,6 +1384,7 @@ div#cookie-law {
   margin-left: 20px;
   min-width: 130px;
   height: 38px;
+  border-radius: 4px;
 }
 
 #cookie-law a.close-cookie-banner-mobile {
@@ -2030,13 +2030,24 @@ div#cookie-law {
     margin-right: 0;
   }
 
-  #cookie-law p span:nth-child(2) {
-    display: none;
-  }
-
   #cookie-law a.close-cookie-banner-mobile {
     display: flex;
     flex: 1;
     color: #fff;
   }
+  #cookie-law p {
+    overflow-y: scroll;
+    flex-direction: column;
+    padding: 15px 30px 30px 30px;
+    width: 100%;
+}
+
+
+#cookie-law a.close-cookie-banner {
+    margin: 0 25px 0 0;
+}
+
+#cookie-law p span:nth-child(2) {
+    align-items: center;
+}
 }
