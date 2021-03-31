@@ -1383,8 +1383,12 @@ div#cookie-law {
   margin-right: 100px;
   margin-left: 20px;
   min-width: 130px;
-  height: 38px;
-  border-radius: 4px;
+  height: 45px;
+  border-radius: 9999px;
+}
+#cookie-law a.close-cookie-banner:hover {
+  background-color: #EBECEF;
+  color: #090C43;
 }
 
 #cookie-law a.close-cookie-banner-mobile {
