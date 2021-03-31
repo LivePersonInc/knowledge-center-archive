@@ -97,3 +97,37 @@ A bug was discovered in the enhanced Agent Workspace, causing images review to n
 
 A bug was discovered in the enhanced Agent Workspace, causing attachments to fail to load in historical conversations for agents who didn't handle these conversations, even when they were allowed to view these attachments. This bug has been fixed, and attachments now load successfully.
 
+## Queue Priority By Intent 
+### Type: New feature [Agent Matching release 4.6.0]
+Sorting queue priority by intent business rules. 
+Configuration: Enabled by default 
+
+## Granular App tier throttling
+### Type: New feature [Agent Matching release 4.6.0]
+
+Implement granular app tier throttling by Brand, by User, by Per User/Per API,
+by Per Brand/Per API. Please contact your LivePerson account team for configuration.
+
+## JMX Enhancements 
+### Type: Enhancements [Agent Matching release 4.6.0]
+* **Hide JMX Password:** Encrypt the JMX password so it will be hidden from the code. The JMX password remains the same but hidden and encrypted.
+* **Expose Lock Map JMX:** Locking mechanism exists between Routing Kafka consumers and ws traffic. Those locks are held in the inner cache map. Exposing JMX inorder to view those locks in real time. That will be used by our Engineers only.
+* **Add JMX for remove from RTT map by conversation Id only:** Following a bug that Agent Manager had regarding stuck tasks in RTT map, A JMX was added in order to manually mitigate and remove those stuck conversations from RTT map if needed.
+* **Upgrade kafka-bridge:** Upgrading Kafka bridge to new version to 5.0.0.35-release_1557.
+* **Make appD configurable with manifest**:Adding an option to turn on/off appD with server FF instead of deployment. (Note: AppD is disabled by default).
+
+## Update TTR after skill change and transfers & automatic healing of stuck RoutingTaskEvents in RTT map 
+### Type: Bug fix [Agent Matching release 4.6.0]
+Whenever a transfer to skill or skill change happened, TTR would override to default. This bug fix has now been fixed. 
+
+## Fix Agent state eviction 
+### Type: Bug fix [Agent Matching release 4.6.0]
+Agent state was evicted from cache after 5 minutes expiration after agent disconnection. Due to multiple agent connections, sometimes agents are disconnected but should have remained connected. Agent state is not reset to default online after 5 minutes of inactivity. This bug has now been fixed.
+
+## Send rings only to subscribed agents 
+### Type: Bug fix [Agent Matching release 4.6.0]
+There are agents that are connected but not subscribed. AM ACD is sending rings to those agents. Those rings eventually spend time in ‘pending’ state and are not assigned to any agent. Eventually the rings expired and returned to the queue. This bug is here in order to avoid rings to be sent to connected and not subscribed agents and avoiding ‘pending’ time where the ring is not assigned to any agent and not part of the queue.
+
+ 
+
+
