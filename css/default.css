@@ -1055,6 +1055,8 @@ ul.mysidebar.nav > li:first-of-type {
 
 .algolia-autocomplete {
   margin-top: 0;
+  width: 100%;
+  margin: 0 60px 0 40px;
 }
 
 .aa-input-search {
@@ -1704,8 +1706,6 @@ div#cookie-law {
 
   #homebuttons {
     flex: unset;
-    margin-left: 100px;
-    margin-right: 0px;
   }
 
   #contact {
@@ -1779,19 +1779,9 @@ div#cookie-law {
     width: 105.5%;
   }
 
-  #logocontainer {
-    margin-right: 50px;
-  }
-
   #post-content table.releasenotes > thead > tr > th {
     width: 67px;
     font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 1610px) {
-  .algolia-autocomplete {
-    flex: 3;
   }
 }
 

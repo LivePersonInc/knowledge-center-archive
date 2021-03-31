@@ -1,7 +1,6 @@
 /*search styling begins */
 
 .algolia-autocomplete {
-  flex: 3;
   height: 48px;
   margin-top: 0;
 }
