@@ -223,7 +223,6 @@ h4 {
 }
 
 .h1 {
-  width: 60%;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
@@ -316,10 +315,11 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 .anchorlist {
-  width: 30%;
+  width: 100%;
   order: 2;
   margin-top: 55px;
-  margin-left: 190px;
+  padding-left: 3vw;
+  flex-basis: 30%;
 }
 
 .anchortitle {
@@ -340,6 +340,7 @@ ul.mysidebar.nav > li:first-of-type {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
+  padding-left: 0;
 }
 
 .anchorlist ul li {
@@ -373,7 +374,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 #post-content {
-  width: 60%;
+  width: 100%;
 }
 
 #defaultheader {
@@ -574,7 +575,6 @@ ul.mysidebar.nav > li:first-of-type {
   color: #1e1e1e;
   margin-bottom: 15px;
   margin-top: 15px;
-  width: 50%;
 }
 
 /* bread-crumbs */
