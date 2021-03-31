@@ -1785,6 +1785,15 @@ div#cookie-law {
   }
 }
 
+@media screen and (min-width: 1651px) {
+  .algolia-autocomplete {
+    flex-basis: 55%;
+  } 
+  #homebuttons, #logocontainer {
+    flex-basis: 22%;
+  }
+}
+
 @media screen and (max-width: 1260px) {
   #post-content {
     width: 80%;
