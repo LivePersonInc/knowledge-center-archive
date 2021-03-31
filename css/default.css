@@ -1909,12 +1909,13 @@ div#cookie-law {
   #postcontent {
     width: 150%;
   }
-
+  
   #logocontainer {
-    margin-left: 20px;
+    margin-left: 0;
     order: 1;
-    margin-right: -20px;
+    margin-right: 0;
     justify-content: flex-start;
+    padding-left: 15px;
   }
 
   .casey {
