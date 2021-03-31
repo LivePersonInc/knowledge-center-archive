@@ -395,6 +395,10 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2021
       pages:
+        - pagename: April
+          level3:
+            - level3name: Week of April 5th
+      pages:
         - pagename: March
           level3:
             - level3name: Week of March 22nd
@@ -423,10 +427,6 @@
           level3:
             - level3name: Week of November 2nd 
             - level3name: Week of November 9th         
-        - pagename: October
-          level3:
-            - level3name: Week of October 5th
-            - level3name: Week of October 19th            
 
 
 - categoryname: Troubleshooting
