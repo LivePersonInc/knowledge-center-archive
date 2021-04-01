@@ -75,23 +75,22 @@ Prior to storing data in the storage servers, the Conversational Cloud provides 
 ### AES-256 GCM Data Encryption
 
 **Description**  
-Conversation transcripts and other [engagement attributes](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) can be stored encrypted upon client request on the LivePerson storage servers. Conversational Cloud stores various types of sensitive data in different data storage types for different retention periods. Implementing a strong encryption method is crucial for protecting such data from potential unauthorized access and for complying with laws and regulations dictated to LivePerson directly or indirectly by its customers. The encryption is using a 256-bit AES GCM encryption algorithm and controlled by the application server, not by the storage platforms.
+Conversation transcripts and other [engagement attributes](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) can be stored encrypted upon client request on the LivePerson data storage servers. Conversational Cloud stores various types of sensitive data in different data stores for various retention periods. Implementing a strong encryption method is crucial for protecting such data from potential unauthorized access and for complying with laws and regulations dictated to LivePerson directly or indirectly by its customers.  
+
+**Encryption Mechanism**  
+The encryption library is integrated within the various LivePerson services. The data encryption is done on the application level and the encrypted data reaches LivePerson's different data stores in encrypted form. When a service needs to fetch data from a data store, it uses the encryption library to decrypt the data.
 
 **What’s New?**  
-The new data-at-rest encryption solution is using the existing LivePerson in-house encryption library, enhanced to use AES 256 GCM encryption using Java8, and supports FIPS 140-2. Oracle DB was replaced by Hashicorp Vault as the key management service (KMS), providing full key management capabilities. All LivePerson services were updated to use Vault APIs, via the new encryption library, to fetch the keys for encrypt/decrypt operations.
-
-**How do I turn it on?**  
-In case your encryption is turned on - the move to the new encryption is transparent and no actions required on your side.  
-In case your encryption is turned off (or you are not sure if you have the encryption feature enabled) - please contact your CSM/Support to activate the encryption feature. 
+The new data-at-rest encryption solution is using the existing LivePerson encryption library with the following changes:
+* The encryption algorithm was updated to AES with 256 bit keys using GCM mode. 
+* The new solution utilizes FIPS 140-2 libraries.
+* Keys are stored in Hashicorp Vault which replaced the LivePerson custom key store.
+  
+**How do I enable the new encryption mechanism?**  
+The move to the new encryption is transparent and no action is required from the customer.
 
 **When will this be available?**  
-We will start rolling out to customers in early February 2021(early adopters). Rollout should be finalized by the middle of Q2.
-
-**What’s Next?  
-In the next phases we are working on 
-* A periodic automatic key rotation (currently done on-demand per site/account)  
-* Encryption by default for all LivPerson accounts.  
-
+We started rolling out to customers in early February 2021(early adopters). Rollout, for customers with encryption enabled, should be finalized by the middle of Q2.  
 
 ## Application Layer     
 Account data can only be accessed through the web-based console or LivePerson API’s.

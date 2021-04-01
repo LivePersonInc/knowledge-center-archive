@@ -100,7 +100,8 @@ The brand level answers distribution includes aggregated count of responses subm
 
 Should you choose to configure a “skip” answer-option for the question, the answer “skip” along with the number of times consumers chose this option, will appear in the report next to the corresponding question.
 
-It is important to note​ that a consumer may elect to skip the entire survey after every question asked. Counting how many times consumers skipped the survey entirely is reflected through the CLOSED SURVEY metric filtered by the SURVEY OUTCOME attribute (visible in the survey level page). The response a consumer has given and triggered the skip of the entire survey will not be counted as an answer to a specific question (not visible in the answer distribution pages).
+{: .notice}
+After any question the consumer can choose to skip the entire survey or any remaining questions. Counting how many times consumers skipped the survey entirely is reflected through the CLOSED SURVEY metric filtered by the SURVEY OUTCOME attribute (visible in the survey level page ONLY). The response a consumer has given and triggered the skip of the entire survey will not be counted as an answer to a specific question (not visible in the answer distribution pages).
 
 ##### Responses unrecognized by the survey bot as valid answers
 
@@ -125,10 +126,11 @@ Question fallback text is presented in the report for questions which include a 
 
 ### Limitations
 
-1. Analytics Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
-2. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the messaging performance predefined dashboard.
-3. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Analytics Builder but replaced with blank spaces.
-4. Free text questions can not be analyzed.
+1. SURVEY OUTCOME attribute filters the Survey Level page only.
+2. Analytics Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
+3. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the messaging performance predefined dashboard.
+4. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Analytics Builder but replaced with blank spaces.
+5. Free text questions can not be analyzed.
 
 ## Custom reports
 
