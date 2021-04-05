@@ -110,7 +110,7 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 
 ### Twitter
 
-1. Go to the Campaign Builder → “Data Sources” → “Social Messaging” ((alternatively you can select “Social Messaging” from the Quick Launch Menu) 
+1. Go to the Campaign Builder → “Data Sources” → “Social Messaging” (alternatively you can select “Social Messaging” from the Quick Launch Menu) 
 ![](img/social-messaging-configuration-11.png)
 
 {:start="2"}
@@ -130,25 +130,6 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 **Note:** Do not use the Social Messaging connector for Facebook conversations.
 
 ### Optional configuration steps (for all customers)
-
-#### Create Skills for Social Messaging
-
-1. CSM/Support Agents can gain admin rights for the customer account through supportal
-* Go to [https://supportal.lpnet.com /#/](https://supportal.lpnet.com/#/)
-* On left side put in customer account number, your LPA-<user>, and password
-* In Tools, select LPAdmin JSP
-* Enter your LPA username without LPA (ie: dsmith instead of LPA-dsmith)
-* This will provide your LPA accoun
-
-2. After gaining admin rights on the customer’s account, log into the customers account in order to create new skills
-* Select the “Users” tab
-* Select “+ Add skill” from bottom of the screen
-* Input “Social-FB” for the Name and Description
-* Select “+ Add skill” from bottom of the screen
-* Input “Social-TW” for the Name and Description
-* Select “Save”
-
-![](img/social-messaging-configuration-14.png)
 
 #### Configure Skill Routing
 
