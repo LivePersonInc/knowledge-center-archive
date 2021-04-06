@@ -75,8 +75,6 @@ No. Installation or plug-ins are required as the LivePerson platform is HTML/Jav
 
 The browsers supported by LivePerson have built-in spell checking. When the browser’s spell checking is enabled, the spell checker will automatically run in the LivePerson Engagement Window as well as in other browser windows.
 
-In addition, you can add extensions (for example, _Grammarly_) to the browser that auto correct spelling and grammar.
-
 ## What is an actionable conversation?
 
 An actionable conversation can be any one of the following:
