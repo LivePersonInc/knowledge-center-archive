@@ -188,6 +188,7 @@ The following table lists the prerequisites and technical requirements necessary
 * The consumer must not close the browser tab or navigate to an untagged page during a CoBrowse session
 * The agent must not close the browser tab (or navigate to an untagged page in interactive mode)
 * third-party cookies must be enabled
+* The website must not use the CSS Object Model (CSSOM). Note that libraries such as Styled Components can be configured to use the DOM instead.
 
 <div class="notice">
 <b>Note:</b>
