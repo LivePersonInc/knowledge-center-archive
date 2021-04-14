@@ -28,8 +28,8 @@ In this release, we make a few enhancements to the Apple Pay interaction in Conv
 
 To begin with, we add some more flexibility when configuring line items and the total:
 
-Item name, item price and total: You can now express these using a botContext or integration variable.
-Item name and item price: You can now express these using an array enumerator (i.e., specify the variable using “i” as the index). This allows for iteration over a list of items at runtime to populate the interaction with the results.
+* **Item name, item price and total:** You can now express these using a botContext or integration variable.
+* **Item name and item price:** You can now express these using an array enumerator (i.e., specify the variable using “i” as the index). This allows for iteration over a list of items at runtime to populate the interaction with the results.
 
 Collectively, the changes above make it possible to programmatically insert product cart information that’s retrieved from an API into the Apple Pay interaction.
 
