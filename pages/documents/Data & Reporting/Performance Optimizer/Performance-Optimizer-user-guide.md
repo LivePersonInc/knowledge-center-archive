@@ -184,6 +184,33 @@ Industry benchmarks are displayed in 25% percentile increments and are color-cod
 
 ![](img/performance-optimizer20.png)
 
+### Intent Panel 
+The new Performance Optimizer Intent Panel creates an intent-focused view answering the question of how effectively an operation resolves its consumers’ intents, the customer experience impact, and provides clear and simple view(s) that prioritize areas of opportunity and provide clear action items to optimize the intent and operational performance.  These views will enable a Performance Optimizer user to understand the intent mix and nature of primary contact drivers into the operation and their evolution over time while identifying intents suitable for automation, increase efficiency and reduce operational expenditure. 
+
+There are 3 primary components to the Intent Panel: 
+1- A heatmap graphic that will visually prioritize automation opportunities by intent 
+2- Automated text that contextualizes 4E performance by intent performance 
+3- Intent classification metrics and graphics 
+
+1- The Intent Panel allows users to view the following metrics within the heatmap by Intent for the LOB(s) selected: 
+* Closed Conversations
+* Closed Conversations % of Total
+* Avg. Conversation Duration
+* Agent Responses Per Closed Conversation
+* MCS (normalized 1-100)
+
+2- The Intent graphics shows the metrics below for the LOBs selected:
+* Intentful Rate
+* Classification Rate
+* Total Messages
+* Intentful Messages
+* Classified Messages
+* Unclassified Messages
+
+3- The automated Intent  Diagnostics section will include text that will contextualize performance and provide specific recommendations to improve performance leveraging intent data. 
+
+![](img/performance-optimizer-intent-panel.png)
+
 ### 4E Detail Panel 
 The 4E Detail panel provides a wealth of information for the user to compare each individual 4E metric, primary and secondary, against industry benchmarks. The user will see their actual 4E performance metric (value in white), how their brand has trended compared to the benchmark (small value in red, in this example), as well as the variance of their performance (value in parentheses, the gap between what was expected and what occurred) against the benchmark. In addition, the user will also see a detailed trend line of the metric performance, as well as a min, max and mean value for their performance. 
 
