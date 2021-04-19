@@ -31,9 +31,12 @@ There are three types of [engagement attributes](/data-reporting-engagement-attr
 
 | Engagement attributes | Data category | Available properties |
 | --- | --- | --- |
-| Transaction | eCommerce Info | Order total, Order ID, Lead |
+| Transaction | eCommerce Info | Order total*, Order ID*, Lead |
 | Lead | Visitor Journey | Topic Value Lead ID |
 | Service activity | Visitor Journey | TopicStatusCategoryService ID |
+
+{: .notice}
+Order Total, Order ID Is not reported via Analytics Builder.
 
 You will need to enable this feature for each of the engagement attributes you want your agents to be able to report on.
 
@@ -43,7 +46,8 @@ To enable this feature:
 
 ![](/img/conversation-outcomes1.png)
 
-{:start="2"} 2. In the footnote, click Data Sources. The Data Sources page is displayed. Click the tab called Integrations where your Connectors and Engagement Attributes will be displayed.
+{:start="2"} 
+2\. In the footnote, click Data Sources. The Data Sources page is displayed. Click the tab called Integrations where your Connectors and Engagement Attributes will be displayed.
 
 ![](/img/conversation-outcomes2.png)
 
