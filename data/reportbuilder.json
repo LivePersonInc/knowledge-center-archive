@@ -8339,5 +8339,15 @@
   "DESCRIPTION": "Number of annotations submitted with no Intent out of the submitted annotations.",
   "FILTERED_BY": "<null>",
   "CHANNEL": "Messaging"
+},
+{
+  "DASHBOARD": "Goals Tracker for Messaging",
+  "ELEMENT_NAME": "BRAND EVENT ID",
+  "ELEMENT": "Metric",
+  "ANALYSIS_TYPE": "-",
+  "FORMULA": "-",
+  "DESCRIPTION": "The ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE.",
+  "FILTERED_BY": "<null>",
+  "CHANNEL": "Messaging"
 }
 ]
