@@ -47,9 +47,9 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
   * European users: As part of Facebook’s efforts to comply with privacy rules in Europe, Facebook made changes to their APIs and restricted some information. European users will see the Social Messaging widget, however, the user information (Name, Image, Locale, Timezone) will not be shown.
   * In the new Social Messaging widget, there’s an option to Like a public comment/post of the consumer. If an agent is logged in with his private Facebook account is pressing the like button - it likes the post under his private account.
 * **Additional known issues:**
-* * Navigating to “All Conversations” list, then navigating back to “My Conversations” list, may cause the Social Messaging buttons disappear (buttons: public/private toggle, link to DM, mention consumer). This is solved on page refresh, or focusing on a different conversation. **Note:** If you experience this bug, refresh your page, or navigate to a different conversation, then back to the conversation you need to reply to.
-* * The public/private toggle button is not activated if the consumer has responded both publicly and privately in the conversation, until page refresh/select a different conversation and return to the current one.
-* * Conversation source is not presented under the “All Conversations” table for Twitter.
+ * Navigating to “All Conversations” list, then navigating back to “My Conversations” list, may cause the Social Messaging buttons disappear (buttons: public/private toggle, link to DM, mention consumer). This is solved on page refresh, or focusing on a different conversation. **Note:** If you experience this bug, refresh your page, or navigate to a different conversation, then back to the conversation you need to reply to.
+ * The public/private toggle button is not activated if the consumer has responded both publicly and privately in the conversation, until page refresh/select a different conversation and return to the current one.
+ * Conversation source is not presented under the “All Conversations” table for Twitter.
 
 * **Social Messaigng 1.0 customers:** 
   * The source icon displayed on the “My Conversations” list now displays the “Twitter” icon for all conversations, even conversations originating from Facebook. This is caused by the fact that the current Social Messaging connector will only be supporting Twitter conversations soon, and Social conversations on Facebook will be managed through the Facebook connector. 
