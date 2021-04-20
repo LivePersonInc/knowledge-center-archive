@@ -47,6 +47,9 @@ To alleviate the need to recreate the preferable configuration each time an agen
 * Ability to save, edit and remove configurations across different sessions 
 * Easily switch between multiple saved configurations 
 
+**Limitations:**
+* Users can save up to 50 presets
+
 ## [Manager Workspace] Transcripts in Conversation widget  
 ### Type: Enhancement (MW 1.12)
 
