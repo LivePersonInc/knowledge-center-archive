@@ -13,8 +13,7 @@ redirect:
   - messaging-channels-socialconnect-socialconnect-user-guide.html
   - messaging-channels-socialconnect-socialconnect-user-guide.html
 ---
-Social Messaging extends Liveperson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social.
-Please follow instructions below on how set up Social Connect.
+Social Messaging extends Liveperson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social media. Please follow instructions below to learn how more about using Social Messaging.
 
 ## Getting started
 
