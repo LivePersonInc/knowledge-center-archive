@@ -100,6 +100,8 @@ LivePerson is launching a taglet solution that utilizes Adobe Response Tokens on
 ## Next Best Conversation (NBC)
 Next Best Conversation is the ability to utilize consumer segmentation and visitor behavior to present targeted and personalized engagements to consumers. It’s all about delivering the right engagement on the right channel with the right message at the right time to increase engagement click-through rate, interactive conversations, and conversion rate of a consumer.
 
+![](img/Next Best Conversation.gif)
+
 ## Accessibility support in Structured Content and Quick Replies JSON 
 Brands can add accessibility elements (aria labels, etc.) to their JSON files that present structured content and quick replies in the web window. By adding these elements, brands can make their rich content meet WCAG 2.1 AA standards.
 Accessibility remediation for Core Window and default themes
