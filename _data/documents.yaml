@@ -380,6 +380,7 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: March what's new
     - subcategoryname: February what's new
     - subcategoryname: January what's new
     - subcategoryname: December what's new
