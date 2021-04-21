@@ -41,8 +41,7 @@ The automated Intent Diagnostics section will include text that will contextuali
 
 ![](img/PO-Intent-panel.png)
 
-### Updates to Proactive Messaging
-
+### Proactive Messaging Enhancements
 ## Customer SDE Support for Proactive 
 Customer SDE Support for Proactive Messaging  allows brands to start sending customer information in the outbound message via our API, such as customer name, case ID, order ID. These attributes will only be visible to the agents when the consumer responds to the outbound message, to provide a better conversational experience for agents. Please note that this feature will be available in the Proactive API only and not available for the Proactive Web Tool. 
 
@@ -54,6 +53,16 @@ New functionality to support Call-To-Action buttons when sending outbound messag
 
 ## Proactive App Messaging analytics
 Outbound Reporting 2.0 API will include the following metrics for the Proactive to App Messaging channel (in addition to SMS and WhatsApp): number of outbound messages sent, delivered, read by the consumer, replied to, and outbound message failure reasons. 
+
+### Connect to Messaging Enhancements
+## IVR to App Messaging - Analytics
+Outbound Reporting 2.0 API will include the following metrics for Connect to Messaging for the App Messaging channel (in addition to SMS and WhatsApp channels). Metrics include the number of IVR deflections sent, delivered, read by the consumer, replied to and outbound message failure reasons.
+
+## Reporting Analytics UI overview Dashboard
+The Connect to Messaging webtool will have an Analytics UI page. This page will include a full spectrum of pre and post conversation events in the overview full funnel dashboard. Full funnel metrics include total IVR deflections sent, delivered, read by the consumer, replied to and outbound message failure reasons.   
+
+## Customer SDE Support for C2M 
+Connect to Messaging will allow brands to report on Engagement Attributes for a complete and contextual Connect to Messaging conversational flow. The Connect to Messaging API enables brands to report additional information about the consumer and can send visitors rich context information to agents for better serving the consumers. 
 
 ## Apple Pay enhancements
 Brands can programmatically insert product cart information that’s retrieved from an API call:
@@ -71,18 +80,8 @@ Agent App v2.6.9 brings UI changes to the conversation page, allowing quicker ac
 For Agent Managers and Admins using the app on a tablet, the ability to switch between the Agent Workspace and User Manager is now shown below the conversation list. 
 
 In addition, Agents can send files in conversations, edit consumer names, Agent Managers can change the photos of agents, and Twitter is fully supported.
-
-### Connect to Messaging Enhancements
-
-## IVR to App Messaging - Analytics
-Outbound Reporting 2.0 API will include the following metrics for Connect to Messaging for the App Messaging channel (in addition to SMS and WhatsApp channels). Metrics include the number of IVR deflections sent, delivered, read by the consumer, replied to and outbound message failure reasons.
-
-## Reporting Analytics UI overview Dashboard
-The Connect to Messaging webtool will have an Analytics UI page. This page will include a full spectrum of pre and post conversation events in the overview full funnel dashboard. Full funnel metrics include total IVR deflections sent, delivered, read by the consumer, replied to and outbound message failure reasons.   
-
-## Customer SDE Support for C2M 
-Connect to Messaging will allow brands to report on Engagement Attributes for a complete and contextual Connect to Messaging conversational flow. The Connect to Messaging API enables brands to report additional information about the consumer and can send visitors rich context information to agents for better serving the consumers. 
  
+### Mobile SDK
 ## Voice and Video calls via Mobile SDK Android version
 Through your brand’s mobile app, agents can invite consumers to video and voice calls during a messaging conversation. 
 The video or voice call will be facilitated within the messaging interface - via webview container - and will allow the consumer to have an embedded experience of a video or voice call during an Android messaging conversation.
@@ -102,12 +101,14 @@ Next Best Conversation is the ability to utilize consumer segmentation and visit
 
 ![](img/Next Best Conversation.gif)
 
+### Accessibility Updates
 ## Accessibility support in Structured Content and Quick Replies JSON 
 Brands can add accessibility elements (aria labels, etc.) to their JSON files that present structured content and quick replies in the web window. By adding these elements, brands can make their rich content meet WCAG 2.1 AA standards.
 Accessibility remediation for Core Window and default themes
 Remediation of the web window, action menu, text area, and window widgets as we pursue WCAG 2.1 AA certification.
 
-## Entry Point support and additional context for Google My Business [Connectors] 
+### Connector enhancements
+## Entry Point support and additional context for Google My Business   
 The entry points for Google My Business conversations will be published to map the source where they originated from and map it to one of the engagement attributes in the customer info.
 Additionally, when brands receive messages from conversations opened from a URL that includes “&ctx=xyz”, the Conversational Cloud Agent Workspace would display “xyz” as the X engagement attribute value. This can be used for skill routing, or bot and agent context.
 
