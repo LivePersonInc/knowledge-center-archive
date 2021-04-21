@@ -30,7 +30,7 @@ The Intent Panel allows users to view the following metrics within the heatmap b
 * MCS (normalized 1-100)
 
 The Intent graphics shows the metrics below for the LOB(s) selected:
-* Intentful Rate
+* Intentful Rate (amount of intents fulfilled) 
 * Classification Rate
 * Total Messages
 * Intentful Messages
