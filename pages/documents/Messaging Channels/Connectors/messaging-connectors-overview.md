@@ -27,7 +27,7 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 * [Instagram](messaging-channels-instagram.html)
 * [Twitter](messaging-channels-social-messaging-social-messaging-overview.html)
 * [LINE](messaging-channels-line-connector.html)
-* [WeChat Busines](messaging-channels-wechat-business.html)
+* [WeChat Business](messaging-channels-wechat-business.html)
 
 ![](/img/messaging-connectors-overview-1.gif)
 
