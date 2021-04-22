@@ -101,6 +101,7 @@ Next Best Conversation is the ability to utilize consumer segmentation and visit
 
 ![](img/Next Best Conversation.gif)
 
+
 ### Accessibility Updates
 ## Accessibility support in Structured Content and Quick Replies JSON 
 Brands can add accessibility elements (aria labels, etc.) to their JSON files that present structured content and quick replies in the web window. By adding these elements, brands can make their rich content meet WCAG 2.1 AA standards.
