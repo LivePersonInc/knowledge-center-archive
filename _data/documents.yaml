@@ -317,6 +317,7 @@
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
+    - subcategoryname: Management Console overview
     - subcategoryname: Product renaming overview
     - subcategoryname: Advanced security features
     - subcategoryname: Create and manage users
