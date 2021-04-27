@@ -105,14 +105,9 @@ Configure the bot as needed: Here again, in the **Bot Settings**, configure the 
 
 After migration of your bot, if you experience duplicate bot responses, do the following:
 
-1. In Bot Studio, export all necessary survey bots in Bot Studio format. Do this is a back-up measure.
-2. Still in Bot Studio, remove the survey bots.
+1. In Bot Studio, export all necessary surveys in Bot Studio format. Do this is a back-up measure.
+2. Still in Bot Studio, delete the survey bot.
 3. In Bots Status, [redeploy the agent connector](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#troubleshooting---redeploy-the-connector) for the Conversation Builder survey bots.
-
-
-## Migration tasks performed in Bot Studio
-
-At runtime, the name of the survey bot agent that's shown to the consumer in the messaging window is drawn from Bot Studio if it set there. Before migrating to Conversation Builder, use Bot Studio to remove this bot agent name. This allows the default name of "Survey Bot" to be used instead.
 
 ## Migration tasks performed in Bots Status
 
