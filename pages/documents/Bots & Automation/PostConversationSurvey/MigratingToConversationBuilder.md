@@ -14,19 +14,101 @@ redirect_from:
 ---
 
 ## High-level migration workflow
- 
-If you're an existing Bot Studio user with survey bots built in Bot Studio, the Post-Conversation Survey Bots feature in Conversation Builder is enabled by default.
- 
-Be aware that bots in Bot Studio and Conversation Builder cannot run side by side. You'll need to manually recreate your existing Bot Studio survey bots in Conversation Builder. LivePerson recommends the following workflow:
- 
-1. In Bot Studio, remove the bot agent name from your survey bots, so you can use the default name of "Survey Bot" that's provided by Conversation Builder. See *Migration tasks performed in Bot Studio* below.
-2. In Conversation Builder, manually [recreate your survey bots](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html). (If you're developing in your Production environment, which is not common and not recommended, assign the survey bots to "test" skills that aren't used in a production campaign, so you can test them before assigning production skills to them.) 
-3. Test the survey bots and related reporting.
-4. Release the new survey bots to your Production environment.
-5. Use the Bots Status application to migrate your account from Bot Studio to Conversation Builder. See *Migration tasks performed in Bots Status* below.
- 
+
+1. In your *Production* environment:
+
+    1. In **Bot Studio**, perform pre-requisite steps and verification checks on the survey bot. Then export the bot. If you have multiple bots, you can export them all at once if desired.
+
+2. In your *Test* environment:
+    
+    1. In **Bots Status**, migrate your Test account from Bot Studio to Conversation Builder.
+    2. In **Conversation Builder**, import the survey bot that you exported from Bot Studio. Configure it and fix any errors. Preview the bot, test it via the target channel, and test related reporting. Export the verified bot.
+
+3. In your *Production* environment:
+
+    1. In **Bots Status**, migrate your Production account from Bot Studio to Conversation Builder.
+    2. In **Conversation Builder**, import the verified bot. Configure the bot as needed. Preview and test again.
+
+**Note:**
+* An account can’t serve surveys from Bot Studio and Conversation Builder at the same time. Once you migrate to Conversation Builder, it must be used. However, if necessary, you can roll back the account to using Bot Studio. This is described farther below.
+* You don't manually deploy a Conversation Builder survey bot. There exists an underlying agent connector that's deployed automatically and is shared by all survey bots. *Therefore, once the survey bot is created and assigned a skill in Conversation Builder, it is active and can receive conversations.*
+
+## Detailed migration workflow
+
+### Step 1: In your Production environment
+
+#### Perform prerequisite steps in Bot Studio
+At runtime, the name of the survey bot agent that's shown to the consumer in the messaging window is drawn from Bot Studio if it is set there. Before migrating to Conversation Builder, use Bot Studio to remove this bot agent name. This allows the default name of "Survey Bot" to be used instead.
+
+#### Perform verification checks in Bot Studio
+In Bot Studio, verify that the possible answers to all survey questions don’t contain any extra space characters. When these are converted to answer choices in the Conversation Builder bot, extra spaces can negatively affect recognition of the consumer’s response when they provide it through text input.
+
+#### Export the bot from Bot Studio
+While you’re still in Bot Studio, export the survey bots bot to Conversation Builder.
+
+You can download active survey bots all at once using the **Export All Active** button. This creates a ZIP file that contains one JSON file for each bot.
+
+<img style="width:350px" src="img/surveyBot_export1.png">
+
+Or, you can download an active or inactive survey bot individually using the **Export to Conversation Builder format** menu option. This creates a JSON file for the selected bot.
+
+<img style="width:300px" src="img/surveyBot_export2.png">
+
+Download the files and save them as a back-up. 
+
+Later, you’ll import the JSON files into Conversation Builder.
+
 {: .important}
-While you're completing steps 1 - 4 above, you can continue to use Bot Studio. Once you complete step 5, you can no longer use Bot Studio.
+If you attempt to export a survey bot that can’t be processed by the export tool, export of only this bot will fail. You are notified with a message when this happens. You’ll need to manually recreate the bot in Conversation Builder instead. An export failure can happen if the bot has a custom payload (i.e., you’ve modified the bot directly via the AC API, not using the Bot Studio UI) or if it uses an older format. 
+
+### Step 2: In your Test environment
+
+#### Migrate your account to Conversation Builder
+Access the **Bots Status** application, and migrate your Test account from Bot Studio to Conversation Builder. For help with this step, see *Migration tasks performed in Bots Status > Migrate to Conversation Builder*, which is farther below.
+
+#### Import the survey bot
+Switch to the **Conversation Builder** application, and [import the survey bot](https://developers.liveperson.com/conversation-builder-bots-bot-basics.html#import-a-bot) that you exported from Bot Studio.
+
+#### Configure the bot and fix errors
+Within Conversation Builder, in the bot’s **Bot Settings**, configure the following:
+
+* **Skill**: Select the skills that will trigger the survey bot. A skill can be assigned to only one survey bot. (You can add skills in Conversational Cloud.)
+* **Name**: Change the bot name if desired. By default, the name is the original name from Bot Studio plus the timestamp of the import. 
+
+Review the bot’s structure and overall configuration to ensure they meet your requirements. Noteworthy items that might need changing include:
+
+* **Session Length bot setting**: If the original duration doesn’t match one of the options available in Conversation Builder, the Session Length is rounded up to an available option. Additionally, Conversation Builder has a maximum value of 12 hours; this is enforced.
+* **Interaction Delay interaction setting**: Conversation Builder has a maximum value of 10000 milliseconds (10 seconds); this is enforced.
+* **Email Transition**: If you used this Bot Studio brick to add support for emailing a transcript of the main conversation to the consumer at the end of the survey, this brick is converted to a Conversation Builder [Email Transcript interaction](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#adding-support-for-emailed-transcripts), which is configured accordingly. Please check this interaction’s settings to ensure they are as you require. For example, you might want to change the label for the Decline button.
+* **Thank You message**: If you manually added a Thank You message, you’ll need to reimplement this using Conversation Builder functionality. For help with this, see the discussion on [adding support for a Thank You message](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#adding-support-for-a-thank-you-message) in the Developer Center.
+
+Also check the bot for displayed yellow warning indicators and red error messages. Not every custom implementation of a Bot Studio survey bot can be converted cleanly to Conversation Builder. As a result, you might need to manually resolve some errors.
+
+#### Preview and test
+Preview the bot’s flow. Then test it via the target channel, and test related reporting. 
+
+#### Export the verified bot
+Export the verified bot.
+
+### Step 3: In your Production environment
+
+#### Migrate your account to Conversation Builder
+Access the **Bots Status** application, and migrate your Production account from Bot Studio to Conversation Builder. For help with this step, see *Migration tasks performed in Bots Status > Migrate to Conversation Builder*, which is farther below.
+
+#### Import the verified bot
+Change to the **Conversation Builder** application, and import the verified bot that you exported from your test environment.
+
+#### Configure the bot and test again
+Configure the bot as needed: Here again, in the **Bot Settings**, configure the skills that will trigger the survey bot and adjust the bot name (remove the timestamp). Then preview and test again.
+
+### Troubleshooting
+
+After migration of your bot, if you experience duplicate bot responses, do the following:
+
+1. In Bot Studio, export all necessary survey bots in Bot Studio format. Do this is a back-up measure.
+2. Still in Bot Studio, remove the survey bots.
+3. In Bots Status, [redeploy the agent connector](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#troubleshooting---redeploy-the-connector) for the Conversation Builder survey bots.
+
 
 ## Migration tasks performed in Bot Studio
 
