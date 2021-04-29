@@ -30,6 +30,10 @@ The user will be able to search and find the features they are interested in, us
 When the user finds a relevant feature for them, they will be able to access this feature’s page and do the following: read a short and long description about the feature, see media such as images and videos about the feature, visit the feature’s Knowledge Center article, and most importantly, activate the feature and configure it without needing to reach out to a LivePerson representative.
 An additional capability of the Management Console is to expose tools such as the Conversation Builder, Agent Assist, and many more, which will allow the user to navigate directly to this tool, from the Management Console.
 
+{: .notice}  
+**Note:** The Management Console is currently available to early adopters. For more information, please contact your LivePerson representative. 
+
+
 [Click here](admin-settings-management-console-overview.html) to learn more about the Management Console. 
 
 ![](img/week-of-may-3-1.png)
