@@ -19,6 +19,28 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+ 
+## Management Console
+### Type: New functionality 
+
+The Management Console is a tool that enables brand admins and CSMs to explore, configure and enable platform capabilities in a self-serve manner. These capabilities can be features (Turn on/off and configure feature’s settings), or tools, like the Conversation builder, for example, which is where users manage and build bots. The Management Console is a new module within the Conversational Cloud, exposed only to roles with the relevant permissions. Brands can see all the features that are exposed in the Management Console, but they can activate only the features that are within their business plan, as other features will appear as “Discovery - Only” features, meaning they can read about this feature, but can’t activate it. Some of the features are also flagged as features that are self-served only for CSMs.
+
+The user will be able to search and find the features they are interested in, use predefined popular tags to assist them in finding relevant features, or to locate features using the categories list, which allows the user to explore more of the offerings from LivePerson, in a more marketable way. 
+
+When the user finds a relevant feature for them, they will be able to access this feature’s page and do the following: read a short and long description about the feature, see media such as images and videos about the feature, visit the feature’s Knowledge Center article, and most importantly, activate the feature and configure it without needing to reach out to a LivePerson representative.
+An additional capability of the Management Console is to expose tools such as the Conversation Builder, Agent Assist, and many more, which will allow the user to navigate directly to this tool, from the Management Console.
+
+[Click here](admin-settings-management-console-overview.html) to learn more about the Management Console. 
+
+![](img/week-of-may-3-1.png)
+
+![](img/week-of-may-3-2.png)
+
+![](img/week-of-may-3-3.png)
+
+![](img/week-of-may-3-4.png)
+
+
 ## [Analytics Builder 4.10]   Bot Performance Dashboard Phase 2
 ### Type: Enhancement
 
