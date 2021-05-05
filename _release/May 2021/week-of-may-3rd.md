@@ -54,10 +54,12 @@ Available to all customers? Y (Analytics Builder enabled)
 The new Bot Performance Dashboard will be enhanced to allow brands to review and analyze their Bot Performance in messaging over time for bots designed and managed by Conversation Builder.
 ![](img/RN-May3rd-1.png)
 
-## [Analytics Builder]  Transfer analysis in the Performance Messaging Dashboard.
+## [Analytics Builder]  Transfer analysis in the Performance Messaging Dashboard. [DELAYED]
 ### Type: Enhancement
 Channel: All messaging channels
 Available to all customers? Y (Analytics Builder enabled) 
+
+**Due to the effect of this feature on dashboard loading times, a rollback was performed for this feature only. The feature will be redeployed later this quarter**
 
 The ‘Performance Dashboard for Messaging’ was enhanced to include skill and Agent transfer analysis.
 Agent and skill segments reporting was enhanced to include the skill destination in transfer, this will allow to analyze the transfer conversation volume alongside performance over transferred conversation( agent and skill level), metrics such as interactiveness, abandonments and wait times.
