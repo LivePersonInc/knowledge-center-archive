@@ -19,24 +19,6 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## User management module separation 
-###  Type: New functionality [LE UI 13.0]
-
-This is a technical change that will not impact customers. The user management module in LE UI was decoupled and separated from the main fe-framework project and now has a separate release and deployment lifecycle.
-The translation files were also decoupled from the Languino project and are now contained within the separated users module - changes in translation files will require a new release of User management module.
-
-#### How to enable: 
-Running LEUI locally now requires a slightly different configuration, please contact your account team for more information
-
-## Old Agent Workspace module separation 
-### Enhancement[LE UI 13.0]
-
-This is a technical change that will not impact customers. The Old Agent WS module in LE UI was decoupled and separated from the main fe-framework project and now has a separate release and deployment lifecycle.
-The module translation files were also decoupled from the Languino project and are now contained within the separated Old Agent WS module - changes in translation files within the module will require a new release of Old Agent WS module.
-
-#### How to enable: 
-Running LEUI locally now requires a slightly different configuration, please contact your account team for more information
-
 ## Intent Panel [Performance Optimizer v1.3]
 ### Type: New functionality 
 
