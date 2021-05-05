@@ -193,4 +193,4 @@ All the UI labels that had Dialogflow V2 now will have Dialogflow ES.
 ## Transfer analysis in the Performance Messaging Dashboard.
 ### Type: Update [Analytics Builder 4.10] 
 
-Due to the effect of this feature on dashboard loading times, a rollback was performed for this feature only. The feature will be redeployed later this quarter.
+Due to the effect of this feature on dashboard loading times,a rollback was performed for this feature only. The feature will be redeployed later this quarter.
