@@ -19,6 +19,26 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## New Language - Spanish Latin American (es-419)
+### Type: Enhancement [LEUI 13.0]
+#### Available to all customers? The language configuration will be available to all customers. 
+
+Account level language setting configuration: To configure an account’s Conversational Cloud UI language setting, change the language settings in the Users Model footnotes. User level language setting configuration: A user can override his/her language from the my details page, which is accessed through the user menu.
+
+#### Description & Dependencies
+Configuration of a new UI language of Latin American Spanish has been added. 
+Once chosen, all UI modules that support this new language will appear in this language, while all other modules will remain in English. 
+Please note that there is a dependency of the deployment of the language per module.
+For a full list of supported languages for LivePerson products and tools, please visit the [Knowledge Center.](https://knowledge.liveperson.com/admin-settings-supported-languages.html)
+
+## Set “Manage Groups” field to mandatory in the user profile 
+### Type: Enhancement [LEUI 13.0]
+#### Available to all customers? This enhancement will be available to all customers, to enable, please contact your LivePerson account team.
+
+Today when Agent Manager users are being created or modified, they are created without being assigned to manage a group, when they should always be assigned to one. As a result, impacted users are not able to see the correct conversation and reporting data in the Conversational Cloud.
+With this new enhancement, while creating the new user, it’s mandatory to assign him to a group, without a way to save changes if the user is not assigned to one.
+Note - No changes for account with only one group.
+
 ## Intent Panel [Performance Optimizer v1.3]
 ### Type: New functionality 
 
