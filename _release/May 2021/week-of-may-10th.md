@@ -39,8 +39,8 @@ Today when Agent Manager users are being created or modified, they are created w
 With this new enhancement, while creating the new user, it’s mandatory to assign him to a group, without a way to save changes if the user is not assigned to one.
 Note - No changes for account with only one group.
 
-## Intent Panel [Performance Optimizer v1.3]
-### Type: New functionality 
+## Intent Panel 
+### Type: New functionality [Performance Optimizer v1.3]
 
 Type: New Feature 
 
@@ -107,7 +107,7 @@ Before:
 After:
 ![](img/RNNAW-May10th-2.png)
 
-## "Remove bot" UI is appearing for System bots in the All Conversations tab unexpectedly [Agent Assist]
+## "Remove bot" UI is appearing for System bots in the All Conversations tab unexpectedly (Agent Assist)
 ### Type: Bugfix [Enhanced Agent Workspace NAW 1.26]
 
 Available to all customers? Yes
@@ -123,7 +123,7 @@ Available to all customers? Yes
 A bug has been discovered with CoBrowse in the enhanced Agent Workspace, allowing new invitations to be sent when one agent or agent managers are already in a session.
 This bug has been fixed, and cobrowse, voice and video buttons  will be disabled when a session is already active between the consumer and another agent.
 
-## Default agent message state [Social Messaging]
+## Default agent message state (Social Messaging)
 ### Type: Bugfix [Enhanced Agent Workspace NAW 1.26]
 
 #### Available to all customers? Social Messaging customers only
@@ -132,7 +132,7 @@ A Social Messaging conversation (originating from Facebook or Twitter) can consi
 For conversation that has both public and private messages, the agent can toggle between public and private replies. 
 The default agent reply has been improved, and now set according to the last conversation’s message - whether it is an agent message or consumer response.
 
-## Buttons disappear [Social Messaging] 
+## Buttons disappear (Social Messaging) 
 ### Type: Bugfix [Enhanced Agent Workspace NAW 1.26]
 #### Available to all customers? Social Messaging customers only
 
@@ -164,8 +164,8 @@ Image 1: Conversation under “All Conversations” displays the wrong consumer 
 
 Duplicate ID's is defined in the page with id attribute: app. Tihs bug has now been fixed
 
-## Fix delay message rendering in Conversation Tester [Bot Connectors 2.30.1]
-### Type: Bug fix
+## Fix delay message rendering in Conversation Tester 
+### Type: Bug fix [Bot Connectors 2.30.1]
 
 Available to all customers? Y 
 
@@ -173,14 +173,14 @@ Proper rendering bot responses type delay inside the Conversation Tester feature
 
 ![](img/RN-May10th-1.png)
 
-## Fix invalid parsed response errors for Dialogflow CX [Bot Connectors 2.30.1]
-### Type: Bug fix
+## Fix invalid parsed response errors for Dialogflow CX 
+### Type: Bug fix [Bot Connectors 2.30.1]
 Users were seeing invalid parsed response error in the Conversation Tester, when the bot response does not have any parsed message or action. There will be a link to our documentation to help troubleshooting it.
 
 ![](img/RN-May10th-2.png)
 
-## Rebrand Dialogflow V2 to Dialogflow ES [Bot Connectors 2.30.1]
-Type: Enhancement 
+## Rebrand Dialogflow V2 to Dialogflow ES 
+### Type: Enhancement [Bot Connectors 2.30.1]
 
 All the UI labels that had Dialogflow V2 now will have Dialogflow ES. 
 
