@@ -19,6 +19,22 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Intent Builder - Generating training phrases for intents
+###  Enhancement [Conversation Builder 2021_6.0]
+
+Adding training phrases to an intent can sometimes be a challenge, so in this release, we add a tool to help with this. Within an intent, provide just a single training phrase as the input, and the tool automatically generates additional phrases that are similar in meaning. The suggestions are based on actual utterances by your users.
+
+Generating training phrases is useful when: 
+You’re building out a LivePerson or third-party NLU domain that you’ve created from scratch.
+You’ve converted a LivePerson (Legacy) domain to the LivePerson NLU engine, and now you need to increase the number of training phrases to meet the LivePerson engine’s minimum requirements.
+
+Note:
+To have access to this new tool, Intent Analyzer must be enabled for a domain (any domain) in your account, as the tool makes use of the data that it captures.
+If you’ve enabled Intent Analyzer recently, expect the tool’s results to improve over time as more data is captured.
+If you're a new customer, expect no results until suggestions can be offered based on utterances by your users. And here again, expect the tool's results to improve over time.
+
+This enhancement is available for all channels supported by the Conversational Cloud platform.
+
 ## New Language - Spanish Latin American 
 ### Type: Enhancement [LEUI 13.0]
 #### Available to all customers? The language configuration will be available to all customers. 
