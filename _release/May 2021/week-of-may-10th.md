@@ -19,7 +19,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Language - Spanish Latin American (es-419)
+## New Language - Spanish Latin American 
 ### Type: Enhancement [LEUI 13.0]
 #### Available to all customers? The language configuration will be available to all customers. 
 
