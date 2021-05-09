@@ -5,7 +5,7 @@ subCategoryName: Conversation Orchestrator
 level3: ''
 indicator: messaging
 subtitle: The Engagement Controller is a feature within Conversation Orchestrator that enables brands to control the incoming flow of conversations in Web Messaging. 
-permalink: ai-bots-automation-conversation-orchestrator-overview.html
+permalink: ai-bots-automation-conversation-orchestrator-Engagement Controller.html
 isTutorial: false
 isNew: false
 date: '2021-05-08'
