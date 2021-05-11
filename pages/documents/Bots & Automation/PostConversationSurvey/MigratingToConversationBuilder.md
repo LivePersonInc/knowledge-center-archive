@@ -133,6 +133,8 @@ If you currently use Bot Studio to trigger surveys, you must *manually switch* t
 1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
 2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
 3. Click the 3-dot icon beside the agent connector, and select **Migrate to Conversation Builder**.
+
+    <img style="width:800px" src="img/surveyBot_monitoring6.png">
  
     A confirmation message appears to indicate that the account has been migrated to Conversation Builder. Subsequently, the page is refreshed. You should see each survey bot listed individually with a "Deployed" indicator.
  
