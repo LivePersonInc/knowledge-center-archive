@@ -129,9 +129,9 @@ The engagement window studio allows you to customize the messaging conversation 
 
 You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. When you are finished defining your entry point, click **Next**. For further information on creating a new entry point, please [refer here](contact-center-management-campaigns-entry-point.html).
 
-### Visitor behavior library
+### Behavioral targeting library
 
-Decide when to display engagements according to your consumers’ behavior by selecting the behavior conditions you wish to impose on the target audience. For further information on creating a new behavior, please refer to the [visitor behavior documentation](contact-center-management-campaigns-visitor-behavior.html).
+Decide when to display engagements according to your consumers’ behavior by selecting the behavior conditions you wish to impose on the target audience. For further information on creating a new behavior, please refer to the [behavioral targeting documentation](contact-center-management-campaigns-visitor-behavior.html).
 
 When selecting the condition, look for a globe icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for web engagements.
 
