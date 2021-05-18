@@ -14,6 +14,8 @@ date: 2019-04-09
 
 ## Introducing the Management Console 
 
+<iframe src="https://player.vimeo.com/video/530214848" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 The Management Console enables brand admins and CSMs to explore, configure and enable platform capabilities in a self-serve manner. These capabilities can be features (turning on/off and configuring settings), or tools, like the Conversation Builder, for example, which is where users manage and build bots.
 
 ![](img/management-console-overview-1.png)
