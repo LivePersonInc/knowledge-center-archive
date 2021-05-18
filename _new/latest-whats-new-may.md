@@ -30,9 +30,9 @@ The Commerce View incorporates the following metrics:
 * Average Order Value 
 * Conversions Per Login Hour 
 
-For more information, click [here] (https://knowledge.liveperson.com/data-reporting-performance-optimizer-performance-optimizer-user-guide.html)
+For more information, click [here](https://knowledge.liveperson.com/data-reporting-performance-optimizer-performance-optimizer-user-guide.html)
 
-![](img/new-may-1.png)
+![](img/new-may- 1.png)
 
 ## Engagement Controller (Available for early adopters)
 
@@ -42,7 +42,8 @@ During early adopter phase, this feature is configurable through LivePerson and 
 This feature is in addition to the existing Campaign Builder settings. It allows brands to use welcome bots to start conversations and will show or hide Web Messaging engagements based on skill availability. Campaign Builder settings such as enable or disable engagements or Campaign time frame will always have higher priority than Engagement Controller settings.
 Users are able to set up rules that contain conditions which check skill availability based on the queue size and the wait time metrics as well as actions to show or hide engagements. Rules can be set up on  the campaign or engagement level. Rules on campaign level will affect all engagements in this campaign.
 
-For more information, click [here]https://knowledge.liveperson.com/ai-bots-automation-conversation-orchestrator-engagement-controller.html)
+For more information, click [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-orchestrator-engagement-controller.html)
+
 ![](img/Engagement_Controller.gif)
 
 ## Management Console (available for early adopters)
@@ -104,11 +105,12 @@ Removes the need to whitelist URL domains and subdomains; all URLs sent to the c
 Automated rich link support is disabled for all accounts by default. Please reach out to your LP representative for enablement.
 The enablement of Rich Link configuration additionally provides the ability to set default fallback image and text by simply adding a url in case it’s not present in the original og tag property.
 
-![](img/new-may-5.png)
+![](img/new-may-5.jpeg)
 
-# Connectors: Addition Instagram Entry Points
+# Connectors: Additional Instagram Entry Points
 
 Entry points are surfaces where users can start a conversation with your brand. Instagram supports various entry points:
+
 * **Direct Message**: When consumer messages the brand privately in a direct message
 * **Story mention**: When the consumer mentions the brand in their story
 * **Brand Story Reply:** When the brand posts a story and the consumer replies to it.
