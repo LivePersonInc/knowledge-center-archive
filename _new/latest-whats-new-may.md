@@ -32,7 +32,7 @@ The Commerce View incorporates the following metrics:
 
 For more information, click [here](https://knowledge.liveperson.com/data-reporting-performance-optimizer-performance-optimizer-user-guide.html)
 
-![](img/new-may- 1.png)
+![](img/new-may-1.png)
 
 ## Engagement Controller (Available for early adopters)
 
@@ -107,7 +107,7 @@ The enablement of Rich Link configuration additionally provides the ability to s
 
 ![](img/new-may-5.jpeg)
 
-# Connectors: Additional Instagram Entry Points
+## Connectors: Additional Instagram Entry Points
 
 Entry points are surfaces where users can start a conversation with your brand. Instagram supports various entry points:
 
