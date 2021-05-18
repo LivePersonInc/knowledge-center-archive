@@ -119,4 +119,10 @@ Connectors have implemented a  new SDE - “Ctype” in the consumer info panel 
 
 ![](img/new-may-6.png)
 
+## Next Best Conversation (NBC)
+
+Next Best Conversation is the ability to utilize consumer segmentation and visitor behavior to present targeted and personalized engagements to consumers. It’s all about delivering the right engagement on the right channel with the right message at the right time to increase engagement click-through rate, interactive conversations, and conversion rate of a consumer.
+
+![](img/Next Best Conversation.gif)
+
 
