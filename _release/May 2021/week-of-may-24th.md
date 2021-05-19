@@ -50,7 +50,7 @@ Brands must have purchased and activated Performance Optimizer
 ### Limitations
 The Performance Optimizer is only visible for brands who have purchased the product. In addition to having purchased and enabled Performance Optimizer, users must also have the relevant permissions for the product. 
 
-![](img/performance-optimizer-1.gif)
+![](img/new-may-1.png)
 
 ## Data at Rest Encryption solution
 ### Enhancement
