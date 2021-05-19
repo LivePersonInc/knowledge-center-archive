@@ -41,24 +41,22 @@ The LivePerson Proactive Messaging tool allows brands to initiate conversations 
 
 ### Proactive webtool feature upgrades and differences 
 
-| Feature                                  | Description                                                                                                                                                          | 1.0 | 2.0             |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --------------- |
-| Self-service onboarding                  | Allow brands to configure Proactive in a self-service manner
-
-\*Still requires account manager to onboard <5 mins                                                    | No  | Yes             |
-| SSO in Conversational Cloud              | Allow brands to access Proactive from LiveEngage with SSO                                                                                                            | No  | Yes             |
-| Role-based access                        | Allow brands to control who can access Proactive. Only users that have Campaign Manager or Admin can publish campaigns today. All other roles have read-only access. | No  | Yes             |
-| Channel SMS                              | Brands can send outbound messages via SMS                                                                                                                            | Yes | Yes             |
-| Channel WhatsApp                         | Brands can send outbound messages via WhatsApp                                                                                                                       | Yes | Yes             |
-| Channel Priority                         | Provide brands ability to step down from WhatsApp to SMS when recipient is not eligible on WhatsApp                                                                  | Yes | Yes             |
-| Skill routing                            | Provide brands an ability to route conversations based on LE skill                                                                                                   | Yes | Yes             |
-| Customize outbound message per recipient | Brands can personalize the outbound messages per recipient                                                                                                           | Yes | Yes             |
-| Multiple Twilio/Whatsapp number support  | Brands can select different Twilio/WhatsApp numbers to send-from                                                                                                     | No  | Yes             |
-| Large file size limit                    | Allow brand to upload upto 100k recipients at a time<br>\*\* Please contact LPA to enable this feature                                                               | No  | Yes\*\*<br><br> |
-| Opt-out                                  | For recipients who opted out via SMS, we will not send any future outbound messages to them.                                                                         | No  | Yes             |
-| Schedule guardrails                      | Allow brands to send outbound campaign between 8am-9pm based on recipient phone number’s timezone                                                                    | No  | Yes             |
-| GDPR                                     | Meet GDPR compliance                                                                                                                                                 | Yes | Yes             |
-| Dark theme UI                            | Matching with LE dark theme                                                                                                                                          | No  | Yes             |
+| Feature                                  | Description                                                                                                                                                          | 1.0   | 2.0       |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------- |
+| Self-service onboarding                  | Allow brands to configure Proactive in a self-service manner<br>\*Still requires account manager to onboard <5 mins                                                  | No  | Yes     |
+| SSO in LiveEngage                        | Allow brands to access Proactive from LiveEngage with SSO                                                                                                            | No  | Yes     |
+| Role-based access                        | Allow brands to control who can access Proactive. Only users that have Campaign Manager or Admin can publish campaigns today. All other roles have read-only access. | No  | Yes     |
+| Channel SMS                              | Brands can send outbound messages via SMS                                                                                                                            | Yes | Yes     |
+| Channel WhatsApp                         | Brands can send outbound messages via WhatsApp                                                                                                                       | Yes | Yes     |
+| Channel Priority                         | Provide brands ability to step down from WhatsApp to SMS when recipient is not eligible on WhatsApp                                                                  | Yes | Yes     |
+| Skill routing                            | Provide brands an ability to route conversations based on LE skill                                                                                                   | Yes | Yes     |
+| Customize outbound message per recipient | Brands can personalize the outbound messages per recipient                                                                                                           | Yes | Yes     |
+| Multiple Twilio/Whatsapp number support  | Brands can select different Twilio/WhatsApp numbers to send-from                                                                                                     | No  | Yes     |
+| Large file size limit                    | Allow brand to upload upto 100k recipients at a time<br>\*\* Please contact LPA to enable this feature                                                               | No  | Yes\*\* |
+| Opt-out                                  | For recipients who opted out via SMS, we will not send any future outbound messages to them.                                                                         | No  | Yes     |
+| Schedule guardrails                      | Allow brands to send outbound campaign between 8am-9pm based on recipient phone number’s timezone                                                                    | No  | Yes     |
+| GDPR                                     | Meet GDPR compliance                                                                                                                                                 | Yes | Yes     |
+| Dark theme UI                            | Matching with LE dark theme                                                                                                                                          | No  | Yes     |
 
 ## Proactive Messaging and Webtools
 Proactive Messaging can be leveraged using webtools. Proactive Messaging v2.0 API is the latest API that integrates with Conversational Cloud campaigns and engagements for skill-based routing.
