@@ -83,7 +83,7 @@ Select one of the following Primary Purposes:
 {:start="7"}
 7. The Metric Targets area lists metrics that are key drivers for the 4 categories of the 4E Framework. For each metric:
 
-Select Benchmark to compare the brand’s performance with the industry benchmark
+Select Benchmark to compare the brand’s performance with the global vertical benchmark
 
 Or: 
 
@@ -91,7 +91,7 @@ Select Number, and then enter a unique brand-specific target value or SLA. This 
 
 
 {: .notice} 
-* By default, Metric Settings are set to industry benchmarks for all metrics.
+* By default, Metric Settings are set to global vertical benchmarks for all metrics.
 * Default target number values are set at the 75th percentile benchmark within the industry vertical. 
 
 ![](img/performance-optimizer9.png)
@@ -105,13 +105,30 @@ Select Number, and then enter a unique brand-specific target value or SLA. This 
 9. Click back to “Dashboard” to view your Performance Optimizer settings with your newly created LOBs. 
 
 ## Filtering Your Performance Optimizer View 
-The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer.  
+### Select Your Dashboard View: Commerce or Care 
+The Performance Optimizer supports two views: Care and Commerce.  The Commerce view exposes additional sales metrics to users including conversion rate, conversions, conversions per login hour, and average order value.  
+
+The LivePerson 4E Framework incorporates these sales metrics when users select the Commerce View and identifies sales specific metrics for efficiency (conversion rate per login hour) and effectiveness (conversion rate).  The primary indicator of efficiency and effectiveness dynamically changes when the Commerce view is chosen by the user. 
+
+| 4E Framework Primary Indicator | Care | Commerce | Panel with Dynamic Metric |
+| ------------- | ------------- |------------- |------------- |
+| Efficiency  | Closed Conversations Per Login Hour (CCPLH)   | Conversions Per Login Hour | Executive Summary LOB Detail |
+| Effectiveness | Repeat Contact Rate - 3 Day (RCR 3 Day) |Conversion Rate | Executive Summary LOB Detail |
+
+To Select Commerce View:  
+1. In the top left part of the screen, select the Commerce tab.  By default, the view will be set to Care. 
+2. Select Your Filter Options or use default filter settings (see “Filtering Your Performance Optimizer View”  below) 
+3. Click Update
+
+![](img/performance-optimizer-may18-1.png)
+
+### Selecting Filter Options 
+The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer. 
 
 **To filter the dashboard:**
 
 1. In the top left part of the screen, select your LOB(s), date range (by calendar selection or manual entry) and granularity preferences.   
 2. Click Update. The data will now be displayed according to your preferences.
-
 
 ![](img/performance-optimizer11.png)
 
