@@ -14,7 +14,7 @@ Watch this short video to see the new features coming to LivePerson in the weeks
 
 <iframe src="https://player.vimeo.com/video/548771475" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-## Performance Optimizer Performance Optimizer Care and Commerce views
+## Performance Optimizer Care and Commerce views
 
 The Performance Optimizer now supports two views: Care and Commerce.  The Commerce view exposes additional sales metrics to users including conversion rate, conversions, conversions per login hour, and average order value.  
 The LivePerson 4E Framework incorporates these sales metrics when users select the Commerce View and identifies sales specific metrics for efficiency (conversion rate per login hour) and effectiveness (conversion rate).  The primary indicator of efficiency and effectiveness dynamically changes when the Commerce view is chosen by the user. 
