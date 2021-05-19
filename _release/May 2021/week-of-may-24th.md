@@ -54,7 +54,7 @@ The Performance Optimizer is only visible for brands who have purchased the prod
 
 ## Data at Rest Encryption solution
 ### Enhancement
-LivePerson has enhanced their Encryption solution. 
+LivePerson has enhanced their encryption solution. 
 The encryption of data at rest in LivePerson refers to the encryption of conversation transcripts and Engagement Attributes on the LivePerson storage servers. 
 Implementing a strong encryption method is crucial for protecting LP customers data from potential unauthorized access and for complying with laws and regulations dictated to LivePerson directly or indirectly by its customers.
 
