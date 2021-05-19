@@ -276,8 +276,16 @@ Skills need to be set up in the Conversational Cloud Platform for them to be ava
 ### Settings
 Brand administrators and campaign managers have to define the global settings for each brand.
 * **Channels** - The priority order of messaging channels and enabling/disabling message channels can be defined in this section.
+
+![](img/PM-may18-11.png)
+
 * **API Keys**  - Brands users can now see client id and secrets to access outbound 2.0 API.
+
+![](img/PM-may18-12.png)
+
 * **User Role and Permissions** - Both admin and campaign manager users can create and view settings, while LPA users can only view them.
+
+![](img/PM-may18-13.png)
 
 ### API Configurations (Create and Manage API Handoff) 
 
@@ -287,6 +295,8 @@ An API Handoff is a logical grouping of a set of configurations such as the chan
 
 ### Create API Handoff:
 ### Step-1: 
+
+![](img/PM-may18-14.png)
 
 * Title - API Handoff title should be a unique name. It can accept alphanumeric characters. Special characters (‘<’, ‘>’ ) are not allowed.
 
@@ -304,10 +314,14 @@ Note: If a consumer responds to an outbound message and the conversation is clos
 	
 App Messaging and SMS/WhatsApp channels are mutually exclusive. If a user selects App Messaging, then SMS and WhatsApp message channels are disabled. Alternatively if the user selects SMS or WhatsApp then the App Messaging channel will be disabled as well.
 
+![](img/PM-may18-15.png)
+
 ### Compose API Handoff outbound message
 
 First, users will select the outbound SMS phone number and then create the text content for the outbound message. We support plain text and recommend keeping the content to up to 140 characters.
 For SMS, the outbound message will also include a default opt-out message that is editable. This helps ensure that consumers can opt-out from receiving any future outbound messages if they choose to.
+
+![](img/PM-may18-16.png)
 
 In the same API handoff, users can select WhatsApp's first outbound message.  Users will first pick WhatsApp outbound phone number and then choose templates from approved templates drop down and create the first outbound welcome message. The WhatsApp message templates need to be approved by the Facebook team before you can access them.
 
@@ -315,9 +329,70 @@ In the same API handoff, users can select WhatsApp's first outbound message.  Us
 
 Preview the API handoff changes before saving it. If any changes required, click the back button to go back to edit mode. Users can also rollback changes by clicking the cancel button.
 
+![](img/PM-may18-17.png)
+
 ### Edit API Handoff
 
 Brand users can select existing handoff and edit it. Users can change the lookback period, enable or disable channels, change order priority and edit messages. 
+
+![](img/PM-may18-18.png)
+
+ ### API Handoff Roles and Permissions
+![](img/PM-may18-19.png)
+
+### Create App Messaging API Handoff
+
+Brands can only create App Messaging API handoff, they cannot combine other messaging channels when creating brand App Messaging API configurations.
+
+* **Title**  - API Handoff title should be a unique name. It can accept alphanumeric characters. Special characters (‘<’, ‘>’ ) are not allowed.
+* **ID** - System generates new unique ID. Brands have to use this ID to make API calls for performing outbound campaigns.  
+* **Lookback period** - This is the time period during which the consumer responses are routed to the skill specified in the outbound API call. If the consumer responds after the lookback period it is routed to default skills.
+- Min Value - 1 hour / 60 min
+- Max Value - 30 days
+
+Note: If a consumer responds to an outbound message and the conversation is closed, next time when the consumer sends a message to the same conversation thread, it will open a new conversation with the brand.
+
+### Steps
+Users first click the New Handoff link in the API Handoff dashboard page.
+
+Step-1: Enter Title and select the lookback period for App Messaging
+![](img/PM-may18-20.png)
+
+Step 2: Create the first outbound message in the message preview section. Currently we support only plain text messages. Only max 4 apps can be selected at a time to create App Messaging API handoff. The process is the same to create new or edit existing App Handoffs.
+
+![](img/PM-may18-21.png)
+
+Step-3: Save the App Messaging API Handoff.
+![](img/PM-may18-22.png)
+
+Step 4: We can see the created or edited API handoff in the dashboard list page.
+![](img/PM-may18-23.png)
+
+## WhatsApp Message Templates
+
+* WhatsApp requires that every outbound message sent via WhatsApp channel must use a WhatsApp Message Template approved by WhatsApp. 
+* The content of the outbound message on WhatsApp channel must also be approved by WhatsApp team. Once approved, LivePerson will onboard the message templates users would like to use as a webtool.
+* WhatsApp Message Template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp Message Template with variable(s), make sure to replate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
+* Users can create a WhatsApp Message Template and submit it to WhatsApp for approval via the Proactive Messaging tool. Please see section on “Creating WhatsApp Message Template” below for more information
+
+### Creating WhatsApp Message Templates
+
+* Template Title - WhatsApp template title name should be unique and can accept alphanumeric characters.
+*  Validation rules - the title cannot have spaces, cannot support capital letters and only alphanumeric characters are allowed.
+*  Type - pick unique message category from the drop down menu. 
+*  Language - select the language in which you want to create the WhatsApp Message Template.
+*  WABA ID - pick the valid WhatApp Business Account ID.
+*  Outbound Phone Number - select the outbound phone number.
+*  WhatsApp Message preview - Create the message.
+
+{: .notice}
+WhatsApp Message Templates once created and approved by the Facebook team are non-editable.
+
+In WhatsApp templates: 
+- Select Template Type
+- Select Language:
+- Select WhatsApp Business ID (WABA ID)
+- Define the message preview with pre-defined template variables and create the WhatsApp Message Template.
 
 ## Limitations
 
