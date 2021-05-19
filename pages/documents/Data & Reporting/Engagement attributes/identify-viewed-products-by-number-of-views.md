@@ -18,7 +18,7 @@ LivePerson allows you to analyze which products are viewed by your visitors a sp
 
 1. Create a new visitor behavior and give it a suitable name such as “Indecisive Visitors interested in women’s fashion."
 2. Click on Viewed Product condition in the menu and type unique product identifiers for each product. In this example, select targeting by “product category” and type in “women’s fashion.” (This option depends on the data arriving from your viewed product [engagement attribute](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html))
-3. Click on No. of Viewed products condition in the menu and type a number of views to target visitor.
+3. Click on No. of Viewed Products condition in the menu and type a number of views to target visitor.
 4. If you haven’t yet configured tracking, do so now, by clicking the configure tracking button. You can also configure the transactions attribute under engagement attributes in the product purchased and viewed category.
 
 The Conversational Cloud will now track visitors who viewed the products that you defined and customize their experience.
