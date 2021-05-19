@@ -40,10 +40,11 @@ For more information, click [here](https://knowledge.liveperson.com/data-reporti
 ## Engagement Controller (Available for early adopters)
 
 The Engagement Controller is a feature within Conversation Orchestrator that enables brands to control the incoming flow of conversations in Web Messaging. 
-During early adopter phase, this feature is configurable through LivePerson and will be available for self-service within Conversation Orchestrator by June 15th.
+During the early adopter phase, this feature is configurable through LivePerson and will be available for self-service within the Conversation Orchestrator by June 15th.
 
-This feature is in addition to the existing Campaign Builder settings. It allows brands to use welcome bots to start conversations and will show or hide Web Messaging engagements based on skill availability. Campaign Builder settings such as enable or disable engagements or Campaign time frame will always have higher priority than Engagement Controller settings.
-Users are able to set up rules that contain conditions which check skill availability based on the queue size and the wait time metrics as well as actions to show or hide engagements. Rules can be set up on  the campaign or engagement level. Rules on campaign level will affect all engagements in this campaign.
+This feature is in addition to the existing Campaign Builder settings. It allows brands to use welcome bots to start conversations and will show or hide Web Messaging engagements based on skill availability. The Campaign Builder settings such as enable or disable engagements or Campaign time frame will always have higher priority than Engagement Controller settings.
+
+Users are able to set up rules that contain conditions which check skill availability based on the queue size and the wait time metrics. It will also allow user to perform certain actions i.e. to show or hide engagements. Rules can be set up on the campaign or engagement level. Please note that rules on campaign level will affect all engagements in this campaign.
 
 For more information, click [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-orchestrator-engagement-controller.html)
 
@@ -52,17 +53,14 @@ For more information, click [here](https://knowledge.liveperson.com/ai-bots-auto
 ## Management Console (available for early adopters)
 
 The Management Console is a tool that enables brand admins and CSMs to explore, configure and enable platform capabilities in a self-serve manner.
-These capabilities can be features (Turn on/off and configure feature’s settings), or tools, like the Conversation builder, for example, which is where users manage and build bots. 
+These capabilities can be features (i.e. Turn on/off and configure feature’s settings), or tools such as the Conversation builder for example, which is where users manage and build bots. 
 
 This new module within the Conversational Cloud is exposed only to roles with the relevant permissions. 
-Users will be able to search and find the features they are interested in, access this features page and read a description about the feature, see media (such as images, KC articles) & activate the feature without needing to reach out to a LivePerson representative.
+Users will be able to search and find the features they are interested in, access this features page and read a description about the feature. In addition, users will be able to see media (such as images, Knolwedge Center articles) and activate the feature without needing to reach out to a LivePerson representative.
 
-Highlighted features of the management console include:
-### Search capabilities
-One of the significant capabilities of the navigation within the Management Console is the search engine. This smart engine can identify features using the auto-complete mechanism, the recently-search, and full-text search. When a user is trying to find a feature, if they know the feature name, they can just type the name into the search and the auto-complete will show the relevant result. In the event that the user is not familiar with the name of the feature they are looking for, they can use popular tags or explore the feature categories.
+### Search & Categorisation 
+One of the significant capabilities of the navigation within the Management Console is the search engine. This smart engine can identify features using the auto-complete mechanism, the recently-searched, and full-text search. When a user is trying to find a feature, if they know the feature name, they can just type the name into the search and the auto-complete will show the relevant result. In the event that the user is not familiar with the name of the feature they are looking for, they can use popular tags or explore the feature categories.
 
-### Capabilities by category
-For users who are less familiar with the names of the features, there is a way to explore the available features and tools by category. The categories have been divided into groups of features based on their business goal.
 For more information, click [here](https://knowledge.liveperson.com/admin-settings-management-console-overview.html)
 
 ## Voice & Video for non web channels
