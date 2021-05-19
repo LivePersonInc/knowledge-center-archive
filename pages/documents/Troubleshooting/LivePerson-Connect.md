@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: Australia version of LivePerson Connect (formerly known as ContactAtOnce!) is no longer supported by LivePerson
 level3: ''
-permalink: troubleshooting-LivePerson-Connect.html
+permalink: troubleshooting-livePerson-connect.html
 isTutorial: false
 isNew: false
 
