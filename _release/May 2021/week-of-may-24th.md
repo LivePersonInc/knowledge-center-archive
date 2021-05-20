@@ -59,5 +59,50 @@ The encryption of data at rest in LivePerson refers to the encryption of convers
 Implementing a strong encryption method is crucial for protecting LP customers data from potential unauthorized access and for complying with laws and regulations dictated to LivePerson directly or indirectly by its customers.
 
 For more informaiton, click [here](https://knowledge.liveperson.com/security-regulations-security-protecting-customer-data.html#encryption-of-data-at-rest)
- 
+
+## ABC Rich Links  
+### Type: Enhancement [version 1.0.15]
+
+A rich link is a URL provided through an image or video that is displayed in an Apple Business Chat bubble. The Rich Link Support for Apple Business Chat allows an agent or bot to auto-generate a rich link that is sent to a consumer during a conversation. This enhancement removes the need for the custom Rich Link Generator (RLG) widget, which has been a required configuration for all ABC implementations. In addition, this enhancement will automatically render existing links within Predefined Content, Automatic Messages and messages delivered by bots. 
+Currently, consumers only receive a rich link if an agent sends the URL through the RLG widget or if the bot sends it as structured content. This creates inconsistency in consumer experience and friction during Apple QA. Thus, this enhancement offers many benefits for existing and net new ABC brands.
+
+#### Usage and Benefits:
+
+For new ABC project implementations, brands are no longer required to configure the custom RLG widget, reducing effort and complexity. 
+Removes the need to whitelist URL domains and subdomains; all URLs sent to the consumer will automatically display as a rich link. 
+Additional agent training about the use of the custom RLG widget will no longer be required if Rich Link is enabled on the account, lowering learning curve and saving time. 
+Website URLs set in Predefined Content, Automatic Messages and messages delivered by a bot will display as a rich link. Not only will this create a consistent experience for consumers, it will also improve Apple’s QA results.
+
+#### How to Enable:
+Automated rich link support is disabled for all accounts by default. Please reach out to your LP representative for enablement.
+The enablement of Rich Link configuration additionally provides the ability to set default fallback image and text by simply adding a url  in case it’s not present in the original og tag property.Internal LP support representative should be able to help you with that.
+
+#### Limitations:
+If an agent sends a web URL without an OG (open graph) tag enabled for images or videos and a title, the rich link will display the fallback image or title. To learn more about open graph protocols, visit https://ogp.me/. 
+Ability to truncate Rich Link URL titles is not supported in this release.
+If no og tags are found either fallback or existing e.g the properties “title”, “video”, “video:type” and “image” , the url will be simply sent as text.
+
+#### Screenshots
+Agent side
+![](img/ABCrichlinks-may19-1.png)
+
+Consumer side
+![](img/ABCrichlinks-may20-1.png)
+
+## Instagram Entry points  - version 1.0.19
+### Type: Enhancement - version 1.0.19
+
+Entry points are surfaces where users can start a conversation with your brand. Instagram supports various entry points.
+
+| Entry Point       | Description                                                    |
+| ----------------- | -------------------------------------------------------------- |
+| Direct Message    | When consumer messages the brand privately in a direct message |
+| Story mention     | When the consumer mentions the brand in their story            |
+| Brand Story Reply | When the brand posts a story and the consumer replies to it.   |
+
+Connectors have implemented a  new SDE - “Ctype” in the consumer info panel in conversational cloud. This will allow the agents to see the specific entry points in the conversation from where the consumer has initiated the messages. This can then be additionally used as  context for routing to a skill by the bot or an agent.
+
+Connectors have implemented a  new SDE - “Ctype” in the consumer info panel in conversational cloud. This will allow the agents to see the specific entry points in the conversation from where the consumer has initiated the messages. This can then be additionally used as  context for routing to a skill by the bot or an agent.
+
+![](img/Instagram-RN-may19-1.png)
 
