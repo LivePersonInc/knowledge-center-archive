@@ -104,5 +104,20 @@ Agent or agent manager with the correct skill will receive the message from the 
 ## Analytics Reporting 2.0 API
 For getting detailed analytics for the campaigns please refer to the outbound reporting API documentation click [here.](https://developers.liveperson.com/outbound-reporting-api-overview.html)
 
+## Feature Limitations
+* Brands have to create API handoff in the webtool and use outbound API to schedule the proactive campaigns. Brands cannot send In-App campaigns directly from the webtool. Only users who have campaign managers or administrator privileges can access the webtool.   
+* New outbound messages will NOT be sent if an open conversation currently exists between the brand and the consumer.
+* Currently, there’s a rate limit of 10 req/ sec, the brands need to manage this limit on their end. 
+* In case the consumer never logged into the brand’s app (not even one time) the consumer will not be able to receive the push notifications 
+* If a welcome message is enabled on the account and an outbound message was sent, the welcome message will not be displayed. 
+* We support sending only text messages (including text and emojis). 
+* We support only authenticated App Messaging. 
+* There is no support for consumer SDE yet. 
+* InApp channels cannot be configured together with SMS or WA channels on the same proactive or IVR handoff configuration. This means that the channel prioritization feature will not be available between InApp to SMS or WhatsApp (however there will be no problem to onboard and enable all channels together on the account while receiving inbound messages from all channels).   
+* The outbound message will be displayed to the agent in an Agent Widget on the Agent Workspace (this will not affect the consumer view of the outbound message in the messaging interface)
+* Message Templates will not be supported as this is a specific solution for the WhatsApp channel. 
+* iOS limitation - Due to operating system limitation, if the user does not tap on the notification in the notification center he/she will not be able to see that message in the brand’s App conversation interface.  
+
+
 
 
