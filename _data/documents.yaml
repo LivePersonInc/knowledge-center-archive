@@ -73,6 +73,7 @@
       pages:
         - pagename: Proactive Messaging overview
         - pagename: Proactive Messaging user guide
+        - pagename: Proactive Messaging for App Messaging
     - subcategoryname: Rich Conversations
       pages:
         - pagename: Rich Conversations overview
