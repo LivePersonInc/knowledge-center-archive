@@ -65,8 +65,7 @@ Once the brands have successfully installed the Mobile SDK on iOS and Android as
 **Proactive Messaging 2.0** - To review the onboarding steps to the Proactive Messaging API, please see the getting started guide in the [developer documentation.](https://developers.liveperson.com/proactive-messaging-api.html#getting-started)
 
 ### High-level sequence diagrams
-
-PM-IAM1.png
+![](img/PM-IAM1.png)
 
 ### Create campaigns for in-app messaging channel 
 On the Conversational Cloud portal, go to the quick launch window and login into the Proactive Web Tool. Brands have to create API handoff in the webtool and use Proactive messaging API to schedule the proactive campaigns. Brands cannot send In-App campaigns directly from the webtool. Only users who have campaign managers or administrator privileges can access the webtool.  
@@ -76,12 +75,12 @@ Once logged in, follow the steps below for creating campaigns for the In-App mes
 #### 1. Create API Handoff
 Click on the API HandOffs tab on the top of the screen. Then click “New Handoff”. In the wizard select “In-App” as the channel and follow the direction on the screen to complete the creation of an API Handoff. 
 
-inapp-prmsg-create-1.png
+![](img/inapp-prmsg-create-1.png)
 
 {: .notice}
 Lookback period: This is the time period during which the consumer responses are routed to the skill specified in the Proactive outbound API. If the consumer responds after the lookback period it is routed to default skills.
 
-inapp-prmsg-create-select.png
+![](img/inapp-prmsg-create-select.png)
 
 App Name: up to 4 app names can be chosen in one handoff. 
 
@@ -91,16 +90,16 @@ In this step, we will use the API Handoff id created in the previous step and ca
 	
 The image below shows the request payload for creating a campaign:
 
-inapp-outboundapi.png
+![](img/inapp-outboundapi.png)
 
 The image below shows the response payload from the Proactive Messaging API endpoint: 
-inapp-outboundapi2.png
+![](img/inapp-outboundapi2.png)
 
 At this point, the Proactive API has sent the campaign to the consumers. Consumers will receive the proactive message as a push notification on their mobile. 
 When they tap on the notification, the message will open in the conversation dialog of the brand’s app as shown below.
 Agent or agent manager with the correct skill will receive the message from the consumer and accept it. The first Proactive message will display in the agent widget.
 
-inapp-agent-workspace.png
+![](img/inapp-agent-workspace.png)
 
 ## Analytics Reporting 2.0 API
 For getting detailed analytics for the campaigns please refer to the outbound reporting API documentation click [here.](https://developers.liveperson.com/outbound-reporting-api-overview.html)
