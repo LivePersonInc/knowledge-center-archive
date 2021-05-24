@@ -26,7 +26,7 @@ Users will be able to search and find the features they are interested in, acces
 ### Search & Categorisation 
 One of the significant capabilities of the navigation within the Management Console is the search engine. This smart engine can identify features using the auto-complete mechanism, the recently-searched, and full-text search. When a user is trying to find a feature, if they know the feature name, they can just type the name into the search and the auto-complete will show the relevant result. In the event that the user is not familiar with the name of the feature they are looking for, they can use popular tags or explore the feature categories.
 
-For more information, click [here](https://knowledge.liveperson.com/admin-settings-management-console-overview.html
+For more information, click [here.](https://knowledge.liveperson.com/admin-settings-management-console-overview.html)
 
 ## Performance Optimizer Care and Commerce views
 
