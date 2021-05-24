@@ -14,6 +14,20 @@ Watch this short video to see the new features coming to LivePerson in the weeks
 
 <iframe src="https://player.vimeo.com/video/548771475" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
+## Management Console 
+
+The Management Console is now available.
+The Management Console is a tool that enables brand admins to explore, configure and enable platform capabilities in a self-serve manner.
+These capabilities can be features (i.e. Turn on/off and configure feature’s settings), or tools such as the Conversation builder for example, which is where users manage and build bots. 
+
+This new module within the Conversational Cloud is exposed only to roles with the relevant permissions with admins as the focus.
+Users will be able to search and find the features they are interested in, access this features page and read a description about the feature. In addition, users will be able to see media (such as images, Knolwedge Center articles) and most importantly, activate and configure the feature without needing to reach out to a LivePerson representative. 
+
+### Search & Categorisation 
+One of the significant capabilities of the navigation within the Management Console is the search engine. This smart engine can identify features using the auto-complete mechanism, the recently-searched, and full-text search. When a user is trying to find a feature, if they know the feature name, they can just type the name into the search and the auto-complete will show the relevant result. In the event that the user is not familiar with the name of the feature they are looking for, they can use popular tags or explore the feature categories.
+
+For more information, click [here](https://knowledge.liveperson.com/admin-settings-management-console-overview.html
+
 ## Performance Optimizer Care and Commerce views
 
 The Performance Optimizer now supports two views: Care and Commerce.  
@@ -49,19 +63,6 @@ Users are able to set up rules that contain conditions which check skill availab
 For more information, click [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-orchestrator-engagement-controller.html)
 
 ![](img/Engagement_Controller.gif)
-
-## Management Console (available for early adopters)
-
-The Management Console is a tool that enables brand admins and CSMs to explore, configure and enable platform capabilities in a self-serve manner.
-These capabilities can be features (i.e. Turn on/off and configure feature’s settings), or tools such as the Conversation builder for example, which is where users manage and build bots. 
-
-This new module within the Conversational Cloud is exposed only to roles with the relevant permissions. 
-Users will be able to search and find the features they are interested in, access this features page and read a description about the feature. In addition, users will be able to see media (such as images, Knolwedge Center articles) and activate the feature without needing to reach out to a LivePerson representative.
-
-### Search & Categorisation 
-One of the significant capabilities of the navigation within the Management Console is the search engine. This smart engine can identify features using the auto-complete mechanism, the recently-searched, and full-text search. When a user is trying to find a feature, if they know the feature name, they can just type the name into the search and the auto-complete will show the relevant result. In the event that the user is not familiar with the name of the feature they are looking for, they can use popular tags or explore the feature categories.
-
-For more information, click [here](https://knowledge.liveperson.com/admin-settings-management-console-overview.html)
 
 ## Voice & Video for Connectors
 
