@@ -131,7 +131,7 @@ You will now reach the entry point library. An entry point is the section within
 
 ### Behavioral targeting library
 
-Decide when to display engagements according to your consumers’ behavior by selecting the behavior conditions you wish to impose on the target audience. For further information on creating a new behavior, please refer to the [behavioral targeting documentation](contact-center-management-campaigns-visitor-behavior.html).
+Show targeted engagements that display only when a consumer's behavior matches specific conditions. For further information on creating a new targeted engagement, please refer to the [behavioral targeting documentation](contact-center-management-campaigns-visitor-behavior.html).
 
 When selecting the condition, look for a globe icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for web engagements.
 

@@ -15,7 +15,7 @@ redirect_from:
   - sections.html
 
 ---
-For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating behavioral targeting rules.
+For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display by creating behavioral targeting rules.
 
 The default option, **All behaviors**, means that the button is displayed at all times and displays immediately when the page is loaded.
 
@@ -183,7 +183,7 @@ To set up an Engagement for Visitor Back Flow:
 2. Go to the Campaign Builder.
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Behavioral Targeting.
-5. After accessing the Behavioral Targeting Library, choose to either to edit a behavior or create a new behavioral targeting.
+5. After accessing the Behavioral Targeting Library, choose to either to edit a rule or create a new behavioral targeting rule.
 6. Click Flow.
 7. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
 8. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
@@ -200,7 +200,7 @@ When a customer visits each of the pages above in the order shown, ending on Pag
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
 {: .important}
-**Note:** Do not create a mobile app engagement assigned to an irrelevant behavioral targeting, as this may be result in ineligible mobile engagements.
+**Note:** Do not create a mobile app engagement assigned to an unsupported behavioral targeting rule, as this may result in ineligible mobile engagements.
 
 | Conditions | Relevant source |
 | --- | --- |
