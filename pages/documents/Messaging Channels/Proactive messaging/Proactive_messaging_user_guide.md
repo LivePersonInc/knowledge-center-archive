@@ -475,6 +475,7 @@ f) Only whitelisted image URLs will be allowed for WhatsApp Rich Message Templat
 g) If the domain is not whitelisted and a message is sent, conversation creation will fail when the consumer responds, so we validate whitelisting in the first place in Proactive. This is only applicable for image headers).
 h) Only https urls are supported.
 i) Size limitations:
+![](img/sizelimit.png)
 j) For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. 
 
 ## FAQs
