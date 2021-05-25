@@ -399,14 +399,15 @@ In WhatsApp templates:
 ![](img/WA Message Template - 4.png)
 
 ### User Role and Permissions to create and manage WhatsApp Message Templates
-| # | Role             | Create | View | Delete | Edit | Publish | Status            |
-| - | ---------------- | ------ | ---- | ------ | ---- | ------- | ----------------- |
-| 1 | Campaign Manager | ✅      | ✅    | ✅      | ✅    | ✅       | ❌                 |
-| 2 | Admin            | ✅      | ✅    | ✅      | ✅    | ✅       | ❌                 |
-| 3 | LPA User         | ❌      | ✅    | ❌      | ❌    | ❌       | ❌                 |
-| 4 | Agent            | ❌      | ❌    | ❌      | ❌    | ❌       | ❌                 |
-| 5 | Agent Manager    | ❌      | ❌    | ❌      | ❌    | ❌       | ❌                 |
-| 6 | Facebook team    | ❌      | ❌    | ❌      | ❌    | ❌       | ✅ - Approve
+
+| # | Role             | Create | View | Delete | Edit | Publish | Status   |
+| - | ---------------- | ------ | ---- | ------ | ---- | ------- | -------- |
+| 1 | Campaign Manager | ✅      | ✅    | ✅      | ✅    | ✅       | ❌    |
+| 2 | Admin            | ✅      | ✅    | ✅      | ✅    | ✅       | ❌    |
+| 3 | LPA User         | ❌      | ✅    | ❌      | ❌    | ❌       | ❌    |
+| 4 | Agent            | ❌      | ❌    | ❌      | ❌    | ❌       | ❌    |
+| 5 | Agent Manager    | ❌      | ❌    | ❌      | ❌    | ❌       | ❌    |
+| 6 | Facebook team    | ❌      | ❌    | ❌      | ❌    | ❌       | ✅ - Approve|
 
 ## User journeys
 
