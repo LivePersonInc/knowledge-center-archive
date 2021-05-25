@@ -373,7 +373,9 @@ Step 4: We can see the created or edited API handoff in the dashboard list page.
 * WhatsApp requires that every outbound message sent via WhatsApp channel must use a WhatsApp Message Template approved by WhatsApp. 
 * The content of the outbound message on WhatsApp channel must also be approved by WhatsApp team. Once approved, LivePerson will onboard the message templates users would like to use as a webtool.
 * WhatsApp Message Template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp Message Template with variable(s), make sure to replate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
-* Users can create a WhatsApp Message Template and submit it to WhatsApp for approval via the Proactive Messaging tool. Please see section on “Creating WhatsApp Message Template” below for more information
+* Users can create a WhatsApp Message Template and submit it to WhatsApp for approval via the Proactive Messaging tool. Please see section on “Creating WhatsApp Message Template” below for more information.
+
+![](img/WA Message Template-1.png)
 
 ### Creating WhatsApp Message Templates
 
@@ -394,15 +396,86 @@ In WhatsApp templates:
 - Select WhatsApp Business ID (WABA ID)
 - Define the message preview with pre-defined template variables and create the WhatsApp Message Template.
 
+![](img/WA Message Template - 4.png)
+
+### User Role and Permissions to create and manage WhatsApp Message Templates
+| # | Role             | Create | View | Delete | Edit | Publish | Status            |
+| - | ---------------- | ------ | ---- | ------ | ---- | ------- | ----------------- |
+| 1 | Campaign Manager | ✅      | ✅    | ✅      | ✅    | ✅       | ❌                 |
+| 2 | Admin            | ✅      | ✅    | ✅      | ✅    | ✅       | ❌                 |
+| 3 | LPA User         | ❌      | ✅    | ❌      | ❌    | ❌       | ❌                 |
+| 4 | Agent            | ❌      | ❌    | ❌      | ❌    | ❌       | ❌                 |
+| 5 | Agent Manager    | ❌      | ❌    | ❌      | ❌    | ❌       | ❌                 |
+| 6 | Facebook team    | ❌      | ❌    | ❌      | ❌    | ❌       | ✅ - Approve
+
+## User journeys
+
+### SMS Outbound Campaign 
+Brand users will pick the API Handoff ID to create SMS outbound campaigns.
+
+**Step-1:** Select the SMS API Handoff ID from the webtool.
+
+![](img/SMS-Handoff-1.png)
+
+**Step 2:** We are using the Postman tool to do the simulation on how to configure the Proactive 2.0 API. get the consumer JWT with API client ID and secrets.
+**Step 3:** Create a Proactive outbound campaign request payload with SMS API Handoff ID. We need skills, consent, and a consumer phone number to schedule the campaigns.
+
+See [outbound campaign API Endpoint](https://proactive-messaging.z1.fs.liveperson.com/api/v2/account/17728909/campaign)
+
+**Step 4:** The campaign is scheduled and the consumer will receive the response.
+**Step 5:** We can see the outbound campaign delivery status in Proactive webtool.
+
+![](img/prmsg_camp_status.png)
+
+**Step 6:** Agent or Agent manager with the correct skills will receive the message when the consumer responds.
+
+### WhatsApp API Handoff Plain text  - User Journeys
+
+Users can create an API handoff with WhatsApp channel configured and then use the handoff id to create a Proactive API campaign.
+**Step 1:**  Login to Proactive Web tool. Navigate to API Handoffs page. Click on ‘New Handoff’.
+![](img/New Handoff.png)
+**Step 2:** On the Configure API Handoff page, provide ‘Title’, select ‘Lookback period’, select channels to be configured for the handoff. Only Whatsapp channel is enabled in the screenshot below as we want to create a handoff with only Whatsapp in this example. Click Next.
+**Step 3:** On the Compose page, select ‘Send From’ phone number from drop-down. Also, choose the ‘Whatsapp Message Template’ from the drop-down. 
+Messages will be sent using the ‘Send From’ number chosen and template chosen will be sent to all recipients when this api handoff is used to create the campaign.
+Click Next.
+![](img/Click Next-PM.png)
+**Step 4:** On the confirm page, validate all the details entered and click Save.
+![](img/Click-save-PM.png)
+**Step 5:** You are redirected to the screen below. Here you can see the API handoff just created. Copy the id value for the API handoff created.
+![](img/PM-step5.png)
+**Step 6:** Using the api handoff to create the Proactive API campaign. Provide the handoff id copied in the previous step as the value for “templateId” attribute. Provide values for campaignName, skill, consumers. Get the consumer JWT with API client id and secrets.
+
+Click here for [Outbound API Public Wiki](https://developers.liveperson.com/proactive-messaging-api.html)
+Click here for [Outbound API Swagger Spec](https://proactive-messaging.dev.fs.liveperson.com/api/api-docs/?api=outbound#/Campaign/campaign)
+
+**Step 7:** Recipient receives the WhatsApp message on their phone
+![](img/Step 7-PM.jpeg)
+**Step 8:** Recipient responds. Conversation is created in Conversational CLoud. Agent or Agent manager with the correct skills will receive the message from the consumer and accept it.
+![](img/Step8-pm.png)
+
 ## Limitations
 
 The following are the known limitations for Proactive Messaging:
 
-1. Number of lines entered into the text area is limited to 100 lines.
-If you choose to manually enter phone numbers rather than use a .csv file upload, there is a limit of 100 numbers that can be added. We suggest using a .csv file upload rather than manually typing out numbers for larger call list volumes.
-2.The CSV file is limited to 100,000 recipients.
-3. When Prioritized is selected as a channel, there is no opt-out text sent for SMS. For example, if brand configures WhatsApp as primary channel and SMS as fallback channel, when brand detects a consumer isn’t eligible for WhatsApp, we will attempt to send the same message to SMS channel, however there is no opt-out text included in the SMS text messaging being sent i.e. ‘To stop receiving messages just reply STOP’.
-4. For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. When the message is over 140 characters, it will go out over 2 messages.
+1/ Number of lines entered into the text area is limited to 100 lines.
+a) If users choose to enter the phone number in the text field, currently it is limited to only 100 lines (100 phone numbers - since there is a restriction of only 1 phone number per line). 
+b) To upload more than 100 numbers at a time, please use the .csv upload option. 
+
+2/ Uploading a list of recipients using .csv file is limited to 10 MB or 1000 recipients. This is the limit today and we are working on increasing this limit to 200K recipients. 
+
+3/ When Prioritized is selected as a channel, there is no opt-out text sent for SMS. For example, if brand configures WhatsApp as primary channel and SMS as fallback channel, when brand detects a consumer isn’t eligible for WhatsApp, we will attempt to send the same message to SMS channel, however there is no opt-out text included in the SMS text messaging being sent i.e. ‘To STOP receiving messages just reply STOP’
+
+4/ Current WhatsApp Rich Text limitations
+a) WhatsApp Rich Message Templates will not be available for the Prioritized channel when creating Proactive Campaigns.
+b) WhatsApp Rich Message Templates will not be available as an option when creating WhatsApp API Handoff through Proactive self-service tool and Outbound API.
+c) Creating WhatsApp Rich Message Templates directly from the Proactive self-service tool is not available.
+d) WhatsApp Rich Message Header field will not support image Id and text values.
+e) No support for call-to-action button for WhatsApp Rich Message. 
+f) Only whitelisted image URLs will be allowed for WhatsApp Rich Message Templates messages. (Root URL/ domain has to be whitelisted,  please reach out to your LivePerson representative to get the domain whitelisted via internal LivePerson configuration
+g) If the domain is not whitelisted and a message is sent, conversation creation will fail when the consumer responds, so we validate whitelisting in the first place in Proactive. This is only applicable for image headers).
+h) Only https urls are supported.
+i) Size limitations:
+j) For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. 
 
 ## FAQs
 
