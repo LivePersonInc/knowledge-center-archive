@@ -54,9 +54,9 @@ Once a conversation is initiated, the routing engine will receive a skill notifi
 
 ## Default skill
 
-It is possible to configure a default skill that will be used in case no skill mapping rulesIt is possible to configure a default skill that will be used in case no skill mapping rules matched the consumer’s profile during the authentication process.
+It is possible to configure a default skill that will be used in case no skill mapping rules matched the consumer’s profile during the authentication process.
 
-(suggested addition) Note: by default, in case no agent will be assigned to the default skill, the conversation will be routed to “unassigned skill”. For more information, refer to the “Unassigned skill” article.
+Note: by default, in case no agent will be assigned to the default skill, the conversation will be routed to “unassigned skill”. For more information, refer to the “Unassigned skill” article.
 
 ## Routing to a fallback skill
 
