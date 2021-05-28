@@ -39,13 +39,13 @@ There are four steps to onboarding a bot.
 2. Choose the conversation type ( chat or messaging)
 3. Error handling - define fallback messages and skills to which the conversation will be routed if the bot becomes unavailable during the conversation.
 4. Connect to the bot vendor:
-   1. [Watson Assistant](https://developers.liveperson.com/bot-connectors-ibm-watson-assistant.html)
-   2. [Watson Assistant V2](https://developers.liveperson.com/third-party-bots-ibm-watson-assistant-version-2.html)
-   3. [Dialogflow ES](https://developers.liveperson.com/third-party-bots-google-dialogflow-es-introduction.html)
-   4. [Dialogflow CX](https://developers.liveperson.com/third-party-bots-google-dialogflow-cx.html)
+   1. [IBM Watson Assistant](https://developers.liveperson.com/bot-connectors-ibm-watson-assistant.html)
+   2. [IBM Watson Assistant Version 2](https://developers.liveperson.com/third-party-bots-ibm-watson-assistant-version-2.html)
+   3. [Google Dialogflow ES](https://developers.liveperson.com/third-party-bots-google-dialogflow-es-introduction.html)
+   4. [Google Dialogflow CX](https://developers.liveperson.com/third-party-bots-google-dialogflow-cx.html)
    5. [Amazon Lex](https://developers.liveperson.com/bot-connectors-amazon-lex.html)
-   6. [Microsoft Bot Framework](https://developers.liveperson.com/bot-connectors-microsoft-bot-framework.html)
-   7. [Custom third-party Bots](https://developers.liveperson.com/bot-connectors-custom-third-party-bots.html)
+   6. [Microsoft Direct Line](https://developers.liveperson.com/third-party-bots-microsoft-direct-line-introduction.html)
+   7. [Custom Integration](https://developers.liveperson.com/third-party-bots-custom-integration.html)
 
 For more information and detailed steps of how to onboard - please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
