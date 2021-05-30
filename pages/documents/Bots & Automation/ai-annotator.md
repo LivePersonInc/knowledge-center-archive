@@ -38,7 +38,7 @@ The brand’s goal would then be to quickly find the consumer intent that has no
 
 AI Annotator achieves this by providing users who view conversations with the ability to annotate the correct intent. Once the annotation is submitted, the consumer phrase along with the suggested domain and intent will be presented in the “AI Tasks” tab. A user with permissions to view the tab and edit the intent model can add the consumer message into the correct intent. 
 
-![](img/ai-annotator-12.gif)
+![](img/ai-annotator-12-1.gif)
 
 ## Setting up Intent Annotations
 
