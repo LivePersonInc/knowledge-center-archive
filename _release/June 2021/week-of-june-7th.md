@@ -101,4 +101,63 @@ This enhancement is available for all channels supported by the Conversational C
 
 In this release, LivePerson broadens the language support for its LivePerson Natural Language Understanding (NLU) engine: Spanish is now a supported language.
 
+## AI Annotator - Increase number of AI Tasks max exported rows to 50,000 (AE-17682)
+### Type: Enhancement [NAW version 1.28]
+As customers continuously adopt AI Annotator, more and more annotations are created. Since in many cases, bot tuning activities are managed through a spreadsheet, LivePerson needs to provide the ability to download more rows than is now possible (5,000) when exporting submitted annotations. 
+
+## Enhanced Agent Workspace - Prevent Transfers within the same skill (AE-17568)
+### Type: Enhancement [NAW version 1.28]
+
+To prevent abusing the system and provide a better customer experience, the ability to prevent transfers within the same skillis is now supported in the enhanced agent workspace for messaging.
+Accounts with this feature On, will have the following behavior while transferring conversations:
+1.  When transferring by skill - The destination skills list wouldn't contain the conversation skill.
+2.  When transferring by agent - 
+a) The conversation skill cannot be transferred to any other skills - The destination agents list would be empty.
+b)  The skill can transfer to all skills - The destination agents list would contain only agents without skills assigned to them or that have at least 1 skill different than the conversation skill assigned to them.
+c) The skill can transfer only to specific skills - the destination agents list would contain only agents that have at least 1 skill from the allowed skills list, that is different from the conversation skill, assigned to them.
+
+### How to enable
+To enable this feature, please contact your LivePerson account team
+
+## Enhanced Agent Workspace - Displaying Consumer Profile Picture for 3rd party connectors conversations (AE-16566)
+### Type: New feature [NAW version 1.28]
+
+**Available to all customers?** No, only for accounts configured with 3rd party connectors
+
+A new capability is now supported in the enhanced agent workspace for messaging - the ability to view consumer profile pictures for conversations sourced by 3rd party connectors (Instagram, Facebook, etc.).
+The consumer profile will be available on the My Conversation list and in the conversation area for both My Conversation and All Conversation.
+
+## Enhanced Agent Workspace -  Support CoBrowse, Voice and Video collaboration sessions in Rollover conversations (AE-17610)
+## Type: Enhancement [NAW version 1.28]
+
+**Available to all customers?** No. This feature will only apply to those accounts that are the designated Conversation Handler (Rollover) accounts.
+
+The ability to start and participate in CoBrowse, Voice or Video Messaging collaboration  sessions in rollover conversations is now supported in the enhanced agent workspace for messaging.
+
+## Enhanced Agent Workspace Accessibility -  A11Y Project Fixes
+### Type: Bugfix
+
+**Available to all customers?** Yes
+
+During the last weeks, LivePerson worked on fixing A11Y issues that were found as part of regression A11y tests on the Conversational Cloud.
+The following bug was fixed, and is included in NAW 1.28:
+[AE-16821] Required ARIA child role is not present for multiple fields in 'Filter By' section present beside the search field.
+[AE-17032] Transcript Area - Conversation Input Toolbar : Keyboard Access
+[AE-17075] All Connections table Filters - Search Transcript: Form Label
+
+## Enhanced Agent Workspace [Social Messaging]- Agents unable to send messages in conversations coming from Facebook (AE-17625/SM-1088)
+### Type: Bugfix [NAW version 1.28]
+
+**Available to all customers?** No. Social Messaging customers only.
+
+A bug has been discovered in Social Messaging conversations, sourced from Facebook, causing agents to fail to reply to messages in these conversations.
+This bug has been fixed, and agents are now able to reply to conversations from all sources.
+
+## Enhanced Agent Workspace [Social Messaging] - Social Conversations are not displayed in the My Conversations List after getting accepted by the agent (AE-17651)
+### Type: Bugfix
+
+**Available to all customers?** Social Messaging customers only
+A bug has been discovered in the enhanced Agent Workspace with Social Messaging conversations (Facebook/Twitter public conversations) causing them to not be added to the My Conversations List after getting accepted by the agent, and only appears back upon the user page refresh.
+The bug has been fixed.
+
 
