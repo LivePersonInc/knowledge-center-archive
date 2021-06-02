@@ -28,7 +28,7 @@ Is there a cutting-edge interaction in a channel that you want to implement in y
 This powerful, new interaction is designed for advanced bot developers, and it opens up many more opportunities to achieve the exact layout and styling that you require. For example, you might want a vertical card layout or perhaps a button question that uses just buttons (images) without button labels (text).
 To use this code interaction, add it to your bot, and enter the appropriate JSON code within it. You are limited only by what’s supported by the Conversational Cloud, as the JSON must adhere to the Conversational Cloud rich message format. Templates that you can quickly copy are provided to accelerate your coding efforts.
 
-
+![](img/CB-RN-June7-1.png)
 
 To fully test a Universal interaction, use Conversation Builder’s Conversation Tester tool or a Web client.
 
@@ -46,41 +46,22 @@ As before, you can apply the setting to all bots collectively, i.e., at the acco
 However, now, you can also choose to apply the setting to each bot individually, i.e., at the survey bot level. In this case, if the consumer receives survey A, they will not receive survey A again until 20 days have passed. During this time, they still might receive surveys B and C.
 
 Tip: You enable the Survey Request Interval setting in the Bot Accounts application.
+![](img/CB-RN-June7-2.png)
 
 ## A redesigned Conversation Tester
 ### Type: Enhancement [Conversation Builder Release 2021_7.0]
 
-
 This enhancement is available for all channels supported by the Conversational Cloud platform.
 
 We’ve redesigned the Conversation Tester. In this release, you’ll find a fresh, new look-and-feel that aligns with Conversation Builder. What’s more, you’ll find the new UI makes the tool faster and easier to use.
+
+![](img/CB-RN-June7-3.png)
 
 ## LivePerson NLU engine supports Spanish 
 ### Type: Enhancement [Intent Builder Release 2021_7.0]
 
 This enhancement is available for all channels supported by the Conversational Cloud platform.
 
-
 In this release, LivePerson broadens the language support for its LivePerson Natural Language Understanding (NLU) engine: Spanish is now a supported language.
 
-## Support for a Spanish-language user interface
-### Type: Enhancement [Conversation AI applications Release 2021_7.0]
-
-This enhancement is available for all channels supported by the Conversational Cloud platform.
-
-The following Conversation AI applications now make available a Spanish-language user interface:
-
-* Conversation Builder
-* Intent Builder
-* Knowledge Base
-* Bot Analytics
-* Bot Accounts
-* Bots Status
-
-All copy within the interface (labels, error messages, etc.) is available in Spanish (Latin America).
-
-To change the language, access your Conversational Cloud profile, click My Details, and change the Language setting to Spanish (Latin America).
-
-
- 
 
