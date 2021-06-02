@@ -20,7 +20,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## [Bot Analytics] MACS: A new measure of bot conversation quality
-### Type: New feature (Release Conversation Builder 2021_7.0)
+### Type: New feature (Conversation Builder Release  2021_7.0)
 
 {: .notice}
 This feature is coming soon
@@ -38,11 +38,13 @@ LivePerson has found through research that consumer effort is a key determiner i
 * Was the bot able to transfer to an agent successfully?
 
 MACS is calculated for each Conversation Builder bot conversation based on these issues. The conversation is classified with MACS 1, 2 or 3 where:
+
 | Score | Description                                                                                            |
 | ----- | ------------------------------------------------------------------------------------------------------ |
 | 1     | A potentially below average conversational experience was detected. The bot needs immediate attention. |
 | 2     | A potentially average conversational experience was detected. The bot needs improvement.               |
 | 3     | A potentially good conversational experience was detected. The bot still might need more tuning.       |
+
 
 To indicate overall bot performance, an average score is also calculated for each bot based on its conversation scores.
 ![](img/1-MACS.png)
