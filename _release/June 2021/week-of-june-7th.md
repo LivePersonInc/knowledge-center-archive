@@ -38,13 +38,9 @@ LivePerson has found through research that consumer effort is a key determiner i
 * Was the bot able to transfer to an agent successfully?
 
 MACS is calculated for each Conversation Builder bot conversation based on these issues. The conversation is classified with MACS 1, 2 or 3 where:
-
-| Score | Description                                                                                            |
-| ----- | ------------------------------------------------------------------------------------------------------ |
-| 1     | A potentially below average conversational experience was detected. The bot needs immediate attention. |
-| 2     | A potentially average conversational experience was detected. The bot needs improvement.               |
-| 3     | A potentially good conversational experience was detected. The bot still might need more tuning.       |
-
+* Score 1- A potentially below average conversational experience was detected. The bot needs immediate attention. 
+* Score 2- A potentially average conversational experience was detected. The bot needs improvement.               
+* Score 3- A potentially good conversational experience was detected. The bot still might need more tuning.       
 
 To indicate overall bot performance, an average score is also calculated for each bot based on its conversation scores.
 ![](img/1-MACS.png)
@@ -130,7 +126,7 @@ A new capability is now supported in the enhanced agent workspace for messaging 
 The consumer profile will be available on the My Conversation list and in the conversation area for both My Conversation and All Conversation.
 
 ## Enhanced Agent Workspace -  Support CoBrowse, Voice and Video collaboration sessions in Rollover conversations (AE-17610)
-## Type: Enhancement [NAW version 1.28]
+### Type: Enhancement [NAW version 1.28]
 
 **Available to all customers?** No. This feature will only apply to those accounts that are the designated Conversation Handler (Rollover) accounts.
 
