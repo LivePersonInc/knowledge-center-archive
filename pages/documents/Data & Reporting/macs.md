@@ -1,17 +1,17 @@
 ---
-pagename: Meaningful Automation Conversation Score (MACS)
+pagename: Meaningful Automated Conversation Score (MACS)
 categoryName: Data & reporting
 subCategoryName: ""
 indicator: messaging
 subtitle:
 level3: ""
-permalink: data-reporting-meaningful-automation-conversation-score-(macs).html
+permalink: data-reporting-meaningful-automated-conversation-score-(macs).html
 isTutorial: false
 ---
 
 ## What is MACS?
 
-A Meaningful Automation Conversation Score, or MACS, is a measure of the quality of a bot conversation.
+A Meaningful Automated Conversation Score, or MACS, is a measure of the quality of a bot conversation.
 
 LivePerson has found through research that consumer effort is a key determiner in how the consumer perceives the quality of a conversational experience. Given this, MACS is calculated by identifying and quantifying this using proprietary LivePerson AI logic. Issues within the bot conversation’s structure are detected and used to derive a score, for example:
 
