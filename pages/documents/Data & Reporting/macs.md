@@ -93,7 +93,7 @@ The MACS model doesn't detect where an issue occured in a conversation; it detec
 * Provide feedback on both the conversation’s MACS and the identified issues
 
 #### Accuracy of MACS
-MACS has a correlation of ~.7 with human judgment. While this is quite good, expect the algorithm to make some classification mistakes from time to time. The strength of MACS comes from looking at the scores in aggregate, where one aspect is in common (e.g., the same issue is detected, or the conversations included a specific interaction or intent).
+While MACS has strong agreement with human judgments of conversation quality (a correlation of .7), you can expect the algorithm to make some classification mistakes from time to time. The strength of MACS comes from looking at the scores in aggregate, where one aspect is in common (e.g., the same issue is detected, or the conversations included a specific interaction or intent).
 
 On the **Bot Conversation Transcript** page, you’ll find a quick and easy feedback feature. We encourage you to send us your feedback on a conversation’s MACS and identified issues. This helps us to tune and improve the MACS AI logic.
 
