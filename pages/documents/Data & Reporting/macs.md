@@ -101,4 +101,4 @@ On the **Bot Conversation Transcript** page, you’ll find a quick and easy feed
 
 ## Using MACS in Bot Analytics
 
-Within the Conversational AI suite’s Bot Analytics application, you can review in-depth the MACS data for your bots. MACS data helps you to quickly identify underperforming bots, find their issues, and move to bot/intent tuning, so you can optimize performance. For more on this, see here.
+Within the Conversational AI suite’s Bot Analytics application, you can review in-depth the MACS data for your bots. MACS data helps you to quickly identify underperforming bots, find their issues, and move to bot/intent tuning, so you can optimize performance. For more on this, see [here](https://developers.liveperson.com/bot-analytics-macs.html).
