@@ -19,23 +19,6 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## A new Universal interaction (early access feature)
-### Type: New feature [Conversation Builder Release 2021_7.0]
-
-{: .notice}
-This new feature is currently only available for web channels within the Conversational Cloud.
-
-Is there a cutting-edge interaction in a channel that you want to implement in your bot? Do you want to fast track its usage now, before support for it is added to the Statement and Question interactions in Conversation Builder? Now you can. Conversation Builder introduces a new “universal” interaction to meet this need.
-This powerful, new interaction is designed for advanced bot developers, and it opens up many more opportunities to achieve the exact layout and styling that you require. For example, you might want a vertical card layout or perhaps a button question that uses just buttons (images) without button labels (text).
-To use this code interaction, add it to your bot, and enter the appropriate JSON code within it. You are limited only by what’s supported by the Conversational Cloud, as the JSON must adhere to the Conversational Cloud rich message format. Templates that you can quickly copy are provided to accelerate your coding efforts.
-
-![](img/CB-RN-June7-1.png)
-
-To fully test a Universal interaction, use Conversation Builder’s Conversation Tester tool or a Web client.
-
-{: .notice}
-The Universal interaction isn’t intended to replace the Statement and Question interactions in Conversation Builder. For fast and easy bot development, LivePerson recommends that you always use them whenever they meet your requirements.
-
 ## More flexibility when sending post-conversation surveys
 ### Type: Enhancement [Conversation Builder Release 2021_7.0]
 
