@@ -22,7 +22,7 @@ The Management Console enables brand admins and CSMs to explore, configure and e
 
 The Management Console is a new dedicated workspace within the Conversational Cloud, exposed only to roles with the relevant permissions. Brands can see all the features that are exposed in the Management Console, but they can activate only the features that are within their business plan, features outside of their business plan will appear as “Discovery - only” features, meaning they can read about this feature, but can’t activate it. Some of the features are also flagged as features that are self-serve only for CSMs. 
 
-{: .notics}
+{: .notice}
 Management Console is now available to all brands and can be accessed by the icon on the side pannel of the Conversational Cloud.
 
 ## Benefits
