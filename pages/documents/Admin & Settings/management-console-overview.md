@@ -22,6 +22,9 @@ The Management Console enables brand admins and CSMs to explore, configure and e
 
 The Management Console is a new dedicated workspace within the Conversational Cloud, exposed only to roles with the relevant permissions. Brands can see all the features that are exposed in the Management Console, but they can activate only the features that are within their business plan, features outside of their business plan will appear as “Discovery - only” features, meaning they can read about this feature, but can’t activate it. Some of the features are also flagged as features that are self-serve only for CSMs. 
 
+{: .notics}
+Management Console is now available to all brands and can be accessed by the icon on the side pannel of the Conversational Cloud.
+
 ## Benefits
 
 * **Save time** - Customers using the console will no longer have to contact brand-facing LivePerson resources (Such as Support or LivePerson account teams) in order to add, enable, and configure a new capability that's included in their business plan, but rather will have a simple and clear way to manage the platform on their own. With the ability to enable, disable, and tweak existing and new capabilities, customers will be able to respond quickly to any event that arises by adjusting those capabilities themselves. 
