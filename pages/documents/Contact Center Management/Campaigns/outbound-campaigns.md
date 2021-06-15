@@ -29,14 +29,14 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 1. Ask your LivePerson contact to enable the CM connector on your account
 2. Make sure the CM app is enabled in Data Sources
 
-![](/img/outbound-campaigns-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/outbound-campaigns-1.png)
 
 {:start="3"}
 1. Define a new campaign in the 3rd party platform you are using (CM Telecom)
 2. Log into LivePerson’s platform
 3. Navigate to the Campaign Builder and then the ‘Outbound’ tab, click ‘add campaign’
 
-![](/img/outbound-campaigns-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/outbound-campaigns-2.png)
 
 {:start="6"}
 1. Define the campaign goal
@@ -49,9 +49,9 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
       4. Add notes to agent (recommended)
       5. Choose an entry point from the entry point library
 
-![](/img/outbound-campaigns-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/outbound-campaigns-3.png)
 
-![](/img/outbound-campaigns-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/outbound-campaigns-4.png)
 
 ## Notes
 

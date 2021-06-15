@@ -66,11 +66,11 @@ For more information on offsite engagements and how they are configured, click [
 
 **Image 1:** Messaging engagement is available from the engagement type dropdown
 
-![](/img/week-of-june-17th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-1.png)
 
 **Image 2:** Set up landing page when messaging engagement is inactive
 
-![](/img/week-of-june-17th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-2.png)
 
 ## Ability to close the window once conversation is closed
 
@@ -136,11 +136,11 @@ This feature provides brands with the ability to set the window behavior so that
 
 **Image 1:** “Open additional window settings” button in Engagement window studio
 
-![](/img/week-of-june-17th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-3.png)
 
 **Image 2:** Choose “Close window upon end of conversation” behavior
 
-![](/img/week-of-june-17th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-4.png)
 
 ## Ability to use the webpage font as the window elements font
 
@@ -214,15 +214,15 @@ This configuration is available for both chat and web messaging and applies for 
 
 **Image 1:** Configuring font style for Title bar with a specific font (default) in Engagement window studio
 
-![](/img/week-of-june-17th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-5.png)
 
 **Image 2:** Configuring font style for Title bar using inherited font from the webpage in Engagement window studio.
 
-![](/img/week-of-june-17th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-6.png)
 
 **Image 3:** Engagement window inheriting font from webpage with different font than settings
 
-![](/img/week-of-june-17th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-7.png)
 
 ## New style for agent and consumer bubbles
 
@@ -285,11 +285,11 @@ This configuration is available for both chat and web messaging, and for both de
 
 **Image 1:** Configuring style for visitor and agent bubbles in Engagement window studio
 
-![](/img/week-of-june-17th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-8.png)
 
 **Image 2:** Engagement window with three corner rounded style for visitor bubble and side arrow style for agent bubble
 
-![](/img/week-of-june-17th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-9.png)
 
 ## Ability to choose the embedded window size
 
@@ -357,13 +357,13 @@ This configuration is available for both chat and web messaging, on desktop, and
 
 **Image 1:** Configuring window size in Engagement window studio
 
-![](/img/week-of-june-17th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-10.png)
 
 **Image 2:** Small/Large window sizes
 
-![](/img/week-of-june-17th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-11.png)
 
-![](/img/week-of-june-17th-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-12.png)
 
 ## New read indication style
 
@@ -427,16 +427,16 @@ Brands can choose from the following options in the “Read Indication” dropdo
 
 **Image 1:** Configuring read indication in Engagement window studio
 
-![](/img/week-of-june-17th-13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-13.png)
 
 **Image 2: Read indication is set to Text/Visual**
 
 {: .sidebyside}
-![](/img/week-of-june-17th-14.png)![](/img/week-of-june-17th-15.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-14.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-15.png)
 
 **Image 3:** Visual read indication icons
 
-![](/img/Screen Shot 2019-06-13 at 1.09.28 PM.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Screen Shot 2019-06-13 at 1.09.28 PM.png)
 
 ## \[ABC\] Apple Pay Enhancement Flow
 
@@ -592,7 +592,7 @@ The WhatsApp Business Conversation Source will be enabled automatically for all 
 
 **Screenshots**
 
-![](/img/week-of-june-17th-16.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-16.png)
 
 ## CoBrowse "Full screen"
 
@@ -645,7 +645,7 @@ This feature is not available for Internet Explorer 11 users on Windows 7 or 8. 
 
 **Screenshots**
 
-![](/img/Window.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Window.gif)
 
 ## Multi-factor authentication - Add ‘reset mfa configuration’ toggle to ‘Edit user’ page
 
@@ -699,7 +699,7 @@ Will be available if MFA is enabled. (Multi-factor authentication section will n
 
 **Screenshots**
 
-![](/img/week-of-june-17th-18.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-17th-18.png)
 
 ## Queue prioritization - Priority based on consumer attributes
 

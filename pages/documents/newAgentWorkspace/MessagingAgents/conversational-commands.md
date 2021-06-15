@@ -32,7 +32,7 @@ Agents can create cases in SalesForce or any other CRM while conversing with the
 
 Agents can send the content of the current conversation transcript via email (i.e. to the agent manager) by typing “/sendTranscriptTo myAgentManager@brand.com”. This improves communication between agents and managers and also helps the manager to keep track of issues in the communications between brands and consumers. By using this functionality, agents decide which conversations are of interest for the agent manager, reducing noise in the agent manager’s inbox.
 
-![](img/conversational-commands-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conversational-commands-4.png)
 
 ## Set up
 

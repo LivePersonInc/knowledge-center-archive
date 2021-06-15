@@ -95,13 +95,13 @@ For more information, please see the following documents:
 * Currently, reporting will be carried out on a per-need basis through the analytics team.
 * Additional, smaller limitations for connector channels are shared in the configuration guide.
 
-![](/img/week-of-march-4th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-4th-1.png)
 
-![](/img/week-of-march-4th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-4th-2.png)
 
-![](/img/week-of-march-4th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-4th-3.png)
 
-![](/img/week-of-march-4th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-4th-4.png)
 
 ### Realtime Dashboard - Overdue Conversations KPI & API
 
@@ -161,11 +161,11 @@ The definition of the overdue_Conversations metric is the number of conversation
 
 **Current section:**
 
-![](/img/week-of-march-4th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-4th-5.png)
 
 **Skills section:**
 
-![](/img/week-of-march-4th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-4th-6.png)
 
 ### Conversation Builder
 
@@ -229,7 +229,7 @@ The Conversation Builder sits on top of our AI engine, Maven, which orchestrates
 
 **Supported Browsers:** Chrome (Version 64.0 onwards - Mac OS, Windows)
 
-![](/img/week-of-march-4th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-4th-7.png)
 
 For detailed documentation on the Conversation Builder including an overview, scripting functions, interactions and conditions, please see the [Developers Community.](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html)
 

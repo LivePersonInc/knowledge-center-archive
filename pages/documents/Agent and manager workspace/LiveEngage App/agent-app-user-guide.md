@@ -16,7 +16,7 @@ The LivePerson Agent app is available for both iOS & Android that allows agents 
 
 In addition to allowing reps to work remotely, the app also expands opportunities for messaging scenarios. For example, in stores, retail reps can leverage their down time by messaging with customers not in store, utilizing retail reps as agents and giving them the power to increase sales.
 
-![](img/V1-Android-agent-app-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/V1-Android-agent-app-1.png)
 
 ## Current Agent App status
 The current Android app supports version 8 and up.
@@ -54,7 +54,7 @@ Account no: the account ID (Remember toggle can be used to save for future login
 Username: usually the agent’s email
 Password: a masked field
 
-![](img/LoginScreen1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LoginScreen1.png)
 
 {: .notice}
 Changing / retrieving lost password will be carried out by an admin on the web platform.
@@ -91,7 +91,7 @@ While the agent is in the "away" state, agents will not be eligible to receive n
 ### Log out button
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from the LivePerson database.
 
-![](img/AgentPage1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AgentPage1.png)
 
 ## Agent flow
 ### Empty state
@@ -101,7 +101,7 @@ Agents can open the drawer menu by tapping their picture on the top left corner.
 ### New ring alert
 New conversation ringing (ACD manual accept mode only)
 
-![](img/V1-Android-agent-app-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/V1-Android-agent-app-3.png)
 
 ### Accepting the conversation
 Tapping the "accept" button assigns the conversation to the agent and opens the conversation. Tapping accept opens only 1 conversation at a time, even if there are multiple conversations ringing for the agent.
@@ -134,7 +134,7 @@ When the agent writes several lines or uses the ‘return’ key it sends the me
 ### Send icon
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-![](img/ConversationScreen.png) 
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ConversationScreen.png) 
 
 ### Attachments Icon
 Tapping the "+" attachment icon brings up the attachments menu. Agents can send predefined content, a secure form, or start a video call.
@@ -165,7 +165,7 @@ Inactive conversations can be closed automatically using the Auto-close feature.
 ### Transfer conversations
 Allow agent to transfer a conversation either to another agent or to any agent within a skill.
 
-![](img/Actions1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Actions1.png)
 
 ## The connections list
 ### Connection list order
@@ -190,7 +190,7 @@ Each push notification includes:
 - Message excerpt: a short excerpt of the new message.
 - Tapping the notification: opens the app and focuses on the relevant conversation’s last message.
 
-![](img/V1-Android-agent-app-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/V1-Android-agent-app-6.png)
 
 ## Logout
 ### Return conversation to queue when logging out
@@ -231,7 +231,7 @@ The list order is similar to the logic explained for the agents list order (see 
 {: .notice}
 The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the my/all tab list.
 
-![](img/V1-Android-agent-app-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/V1-Android-agent-app-7.png)
 
 ### In queue conversation indication
 For conversations which are in queue, the agent name field is labelled as ‘Unassigned’
@@ -256,7 +256,7 @@ To close the panel, the user can tap the “back” button or tap anywhere outsi
 - To filter by additional parameters, users can tap the back button to return to the main filter screen.
 - To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
 
-![](img/V1-Android-agent-app-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/V1-Android-agent-app-8.png)
 
 ## Managers actions
 ### Join/leave conversations
@@ -298,13 +298,13 @@ The list of agents available are according the agent in the manager agent group.
 ## Tablet mode
 When opened on a tablet, the app will open in tablet mode. The conversation list will show on the left and conversations will show on the right. If the tablet is rotated to portrait mode the conversation list will automatically hide. Rotate back to landscape mode to reshow it.
 
-![](img/TabletMode.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/TabletMode.png)
 
 ## Multi back to queue
 
 From the conversation list, long tap on any open conversation. A check mark will appear on the right to indicate it has been selected. Tap any additional conversations or tap "Mark all" to select all conversations. Tap "Return to queue" to return these conversations to the queue. Tap the "x" to cancel.
 
-![](img/MultiBackToQueue1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/MultiBackToQueue1.png)
 
 ## Structured Content
 

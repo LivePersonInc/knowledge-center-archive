@@ -37,7 +37,7 @@ Verifying the implementation of the engagement attributes values can be done via
 3. Click the configure button for the data category you wish to check.
 4. If the engagement attribute you are checking has been reported on during the last 24 hours, then the data indicator (a green checkmark) will be displayed - for example, the "cart update" attribute in the image below has been reported on during the last 24 hours and therefore has a green checkmark next to it.
 
-![](/img/Setting-up-engagement-attributes1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Setting-up-engagement-attributes1.png)
 
 If the engagement attribute has not been reported on, a grey ‘i’ symbol will be displayed instead of the data indicator which has a green check.
 
@@ -47,7 +47,7 @@ If the engagement attribute has not been reported on, a grey ‘i’ symbol will
 2. Using Firefox or Chrome, open the dev tools (press F12) and type:lpTag.sdes.get('cart');
 3. Verify that the values are correct.
 
-![](/img/ea3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ea3.png)
 
 {: .notice}
 **Note:** To start using Engagement Attributes for Web Messaging, this functionality needs to be enabled. Please contact your LivePerson account team for more information.

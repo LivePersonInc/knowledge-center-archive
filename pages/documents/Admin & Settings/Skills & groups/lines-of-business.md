@@ -28,7 +28,7 @@ In addition, the following dashboards and reports will now reflect LoBs:
 - CM BI dashboard
 - Goal Tracker report
 
-![](img/LOB1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LOB1.png)
 
 To enable Line of Business:
 
@@ -36,7 +36,7 @@ To enable Line of Business:
 2. Select Line of Business and switch the toggle to Enable. Click Save. 
 3. Once the page is refreshed a new tab for Line of Business will appear in the Users area.
 
-![](img/LOB2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LOB2.png)
 
 To add a Line of Business:
 
@@ -44,7 +44,7 @@ To add a Line of Business:
 2. Give the LoB a name and add a description if required. 
 3. Click Save.
 
-![](img/LOB4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LOB4.png)
 
 To assign a campaign to a Line of Business:
 
@@ -60,7 +60,7 @@ Please note:
 5. Each Engagement created under the Campaign will also be assigned to the same LoB.
 6. Click Publish.
 
-![](img/LOB5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LOB5.png)
 
 ### To assign unassigned Campaigns to a LoB:
 
@@ -86,7 +86,7 @@ Please note:
 3. Click Filter.
 4. The page will now display the Campaigns assigned to the LoB you selected; the dashboard will reflect the data for these Campaigns.
 
-![](img/LOB6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LOB6.png)
 
 ### To filter entities by LOB:
 On accounts with a large number of entities (such as users, skills, etc.), it can be very easy for users to accidentally edit the wrong entity. The ability to filter entities by LOB means users can only view and edit those entities designated to the LOBs already assigned to them.

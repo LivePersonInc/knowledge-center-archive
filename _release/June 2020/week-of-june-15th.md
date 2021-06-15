@@ -37,7 +37,7 @@ In order for a brand user to begin reclassifying utterances via the Intent Analy
 #### How to enable
 Intent Discovery & Optimization is enabled by default for all Intent Analyzer customers. If you wish to disable, please contact your LivePerson account team.
 
-![](img/June-15th-RN-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/June-15th-RN-1.png)
 
 ## Report Builder supports Multi Factor Authentication and OAuth2
 ### Type: New functionality (Report Builder 4.6)
@@ -53,7 +53,7 @@ Following a successful SSO authentication, a GET request is sent to the server w
 
 LivePerson is working on making brand-facing products accessible according to WCAG 2.1 AA in 2020. This is an ongoing process that will be complete during Q3 and will affect the login pages, the chat workspace, the enhanced Agent Workspace, and more. Within this version, we added the a11y capabilities to various areas within the platform.
 
-![](img/week-of-june-15th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-15th-1.png)
 
 ## [Enhanced Agent Workspace]  Notification mechanism improvement
 ### Type: Enhancement (NAW 1.14)
@@ -69,7 +69,7 @@ In case of a new notification for a conversation with filtered out status, the o
 
 **Limitations:** Due to a bug with backend dependencies, we are not supporting the notifications for “closed conversations” for now, not in the module notification bubble, the filter icon, or in the conversation preview.
 
-![](img/week-of-june-15th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-15th-2.png)
 
 ## [Enhanced Agent Workspace] - Agent Workspace Module Widgets
 ### Type: Enhancement (NAW 1.14)

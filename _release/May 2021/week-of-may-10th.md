@@ -119,9 +119,9 @@ The purpose of this feature is to allow agents to be able to invite consumers to
 
 The Thumbs Up and Thumbs Down button in the Agent Assist UI was removed.
 Before:
-![](img/RNNAW-May10th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNNAW-May10th-1.png)
 After:
-![](img/RNNAW-May10th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNNAW-May10th-2.png)
 
 ## "Remove bot" UI is appearing for System bots in the All Conversations tab unexpectedly (Agent Assist)
 ### Type: Bugfix [Enhanced Agent Workspace NAW 1.26]
@@ -157,10 +157,10 @@ The bug has been fixed.
 
 #### Screenshots
 Image 1: “My Conversations” before the fix
-![](img/RN-May10th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May10th-7.png)
 
 Image 2: “My Conversations” after the fix: 
-![](img/RN-May10th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May10th-6.png)
 
 ## Navigate to “All Conversations” shows the incorrect Social widget data (SM-854, AE-16748)[Social Messaging]
 ### Type: Bugfix [Enhanced Agent Workspace NAW 1.26]
@@ -172,7 +172,7 @@ The bug has been fixed, and the widget now exposes the correct user’s data.
 #### Screenshots
 
 Image 1: Conversation under “All Conversations” displays the wrong consumer information
-![](img/RN-May10th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May10th-5.png)
 
 ## Accessibility -  A11Y Project Fixes
 ### Type: Bugfix [Enhanced Agent Workspace NAW 1.26]
@@ -187,13 +187,13 @@ Available to all customers? Y
 
 Proper rendering bot responses type delay inside the Conversation Tester feature. This issue has now been fixed
 
-![](img/RN-May10th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May10th-1.png)
 
 ## Fix invalid parsed response errors for Dialogflow CX 
 ### Type: Bug fix [Bot Connectors 2.30.1]
 Users were seeing invalid parsed response error in the Conversation Tester, when the bot response does not have any parsed message or action. There will be a link to our documentation to help troubleshooting it.
 
-![](img/RN-May10th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May10th-2.png)
 
 ## Rebrand Dialogflow V2 to Dialogflow ES 
 ### Type: Enhancement [Bot Connectors 2.30.1]
@@ -201,10 +201,10 @@ Users were seeing invalid parsed response error in the Conversation Tester, when
 All the UI labels that had Dialogflow V2 now will have Dialogflow ES. 
 
 #### Bot Creation Wizard
-![](img/RN-May10th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May10th-3.png)
 
 #### Dashboard
-![](img/RN-May10th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May10th-4.png)
 
 ## Transfer analysis in the Performance Messaging Dashboard.
 ### Type: Update [Analytics Builder 4.10] 

@@ -48,6 +48,6 @@ The Conversational Cloud is the industry’s leading conversation management pla
 3. Access via quick launch, once user accesses Proactive Messaging, click on contact us (pop up), where you will be granted access by granted access by your LP account team.
 4. Once onboarded, navigate to Proactive Messaging app from the Quick Launch within the Conversational Cloud. This will open Proactive Messaging in a new tab, from there you can start creating proactive campaigns by clicking on ‘New campaign’ option.
 
-![](img/Proactive_launch_pad.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Proactive_launch_pad.jpg)
 
 Please see the Proactive Messaging [user guide](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-user-guide.html)

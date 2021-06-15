@@ -42,7 +42,7 @@ If a consumer that had conversations that occurred on October 1st, 2nd, 3rd
 {: .notice}  
 **Please note:** The configuration is the same for chat and messaging. Meaning if the widget is enabled in Night Vision for a blended account it will be visible in both the chat and messaging workspaces, and if disabled, it will be hidden from both.
 
-![](img/week-of-january-13th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-1.png)
 
 ## [Enhanced agent workspace] Reduced number of Predefined Content API calls
 
@@ -76,7 +76,7 @@ Whenever an agent or manager clicked on a conversation which they are not partic
 When a user copied a text from excel/notepad and pasted it into the input area, then sent it to the consumer, additional unrelated characters had been added to the agent message and displayed to the agent and consumer.
 In addition, if agents manually typed special characters in the input area (e.g: &, < , >) and sent it to consumers, the same behavior occurred. This bug has been resolved.
 
-![](img/week-of-january-13th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-3.png)
 
 ## [Enhanced agent workspace] Images with preview greater than 30,000 bytes not sents
 
@@ -108,7 +108,7 @@ The last release of the enhanced agent workspace contained a code change which c
 
 When a user opens the filter in the All Connections list, then drills down to the CSAT/NPS dropdowns and clicks on a value, the value is not selected on the first click. The bug has been resolved.
 
-![](img/week-of-january-13th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-4.png)
 
 ## [Enhanced agent workspace] PDC hotkeys display when title is too long
 
@@ -116,7 +116,7 @@ When a user opens the filter in the All Connections list, then drills down to th
 
 Within the predefined content widget, hotkeys are being cut off in the middle if the content title is too long. This bug has been resolved.
 
-![](img/week-of-january-13th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-5.png)
 
 ## [Enhanced agent workspace] Managers can't open images when previewing from All Connections 
 
@@ -139,21 +139,21 @@ Managers viewing conversations from the All Connections list sometimes couldn’
 
 Users using the enhanced agent workspace have the ability to share hyperlinks with consumers during a messaging conversation. In order to do so, a hyperlink button has been added above the agent input area, allowing agents to define the link text and URL:
 
-![](img/week-of-january-13th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-6.png)
 
 After filling in the data and pressing OK, the agent will be able to share the hyperlink with the consumer, as part of the general message.
 
 Within the agent input area, the hyperlink will appear in blue and underlined, to indicate that it is a hyperlink and the agent will be able to edit it as long as the message was not sent yet. 
 
-![](img/week-of-january-13th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-7.png)
 
 After sending the message to the consumer, the link will appear underlined as well in the transcript area. The link will be clickable for the agent via the agent workspace:
 
-![](img/week-of-january-13th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-8.png)
 
 The consumer experience will be identical, and the hyperlink will be displayed as a clickable text within the conversation window:
 
-![](img/week-of-january-13th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-9.png)
 
 {: .notice}  
 **Please note:** This feature requires enablement. For more information please contact your LivePerson representative. 
@@ -183,16 +183,16 @@ Each application, Global or Private, will include 2-3 internal tabs named Genera
 
 General tab: 
 
-![](img/week-of-january-13th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-11.png)
 
 Information tab: 
 
-![](img/week-of-january-13th-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-12.png)
 
 **Limitations**
 The new module is available for admins and can be turned on for campaign managers by toggling on the Manage applications permission in the user profile:
 
-![](img/week-of-january-13th-13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-13th-13.png)
 
 ## Multiple selections in structured content
 
@@ -220,7 +220,7 @@ The maximum number of items in the checkbox list is 256. The maximum number of c
 
 **Screenshots**
 
-![](img/structured-content-multi-select.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/structured-content-multi-select.png)
 
 {: .notice}
 **Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 

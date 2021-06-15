@@ -23,17 +23,17 @@ To use the Web Messaging emulator to test your messaging campaign, follow these 
 
 2. Type your Conversational Cloud account number into the box and click “Show window”.
 
-![](img/test-your-web-messaging-experience-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-1.png)
 
 {:start="3"}
 3. After a moment, an engagement will appear on the right side of the page inviting you to start messaging.
 
-![](img/test-your-web-messaging-experience-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-2.png)
 
 {:start="4"}
 4. Click the button and the messaging window will appear. 
 
-![](img/test-your-web-messaging-experience-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-3.png)
 
 {:start="5"}
 5. Type in the “Type your message” text field to see how the Web Messaging experience will look for your consumers.
@@ -44,23 +44,23 @@ As a free trial user, you can test the messaging experience by talking to your p
 
 To test the default messaging campaign for your free trial account, select **I want to talk to my concierge bot**.
 
-![](img/test-your-web-messaging-experience-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-4.png)
 
 The Concierge Bot will then open in a new window. Wait for the “Message us” engagement to load on the right side and then click on it to open the messaging window. 
 
-![](img/test-your-web-messaging-experience-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-5.png)
 
 You can now talk to the Concierge Bot and test out the default messaging experience. 
 
-![](img/test-your-web-messaging-experience-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-6.png)
 
 To test your messaging experience after your first login, click on the help icon in the top right corner of Conversational Cloud. 
 
-![](img/test-your-web-messaging-experience-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-7.png)
 
 Select **I want to test my web messaging experience** to launch the concierge bot in a new window.
 
-![](img/test-your-web-messaging-experience-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-8.png)
 
 Learn more about starting with the concierge bot in the [Developer Center](https://developers.liveperson.com/starting-with-your-concierge-bot.html).
 
@@ -70,13 +70,13 @@ Learn more about starting with the concierge bot in the [Developer Center](https
 
 **Solution:** If you have multiple web engagements, the emulator will display the campaigns that are currently published on your account. If you have multiple campaigns published with engagements that are configured to appear in the same position on the screen, **the campaign with the higher priority will take precedence.** 
 
-![](img/test-your-web-messaging-experience-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-9.png)
 
 **Issue:** No messaging engagement loaded for my account, instead I see this Contact us form. 
 
 **Solution:** If this occurs, you may be testing an account that doesn’t have a messaging campaign configured. [Click here](contact-center-management-campaigns-campaigns-overview.html) to learn more about creating campaigns in the Conversational Cloud, or [create a new free trial account](https://developers.liveperson.com/register.html) with a default messaging campaign. 
 
-![](img/test-your-web-messaging-experience-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/test-your-web-messaging-experience-10.png)
 
 **Issue:**  My engagement isn’t appearing on the emulator page. 
 

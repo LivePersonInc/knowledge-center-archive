@@ -23,7 +23,7 @@ Agent feedback
 ## Intent-based recommendations
 Within a messaging conversation, Agent Assist recommends to the agent knowledge base articles and/or bots based on the intent that’s detected in the consumer’s message. The recommendations are presented in real time, inline within the conversation.
 
-![](img/agent-assist-overview1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-assist-overview1.png)
 
 When presented with a recommended article, the agent can send it to the consumer. The agent can optionally modify the text before sending the message.
 
@@ -88,7 +88,7 @@ In this case, the agent doesn’t see any bot recommendations because article re
 ## Agent feedback
 Agents can provide feedback on a recommended action by clicking either the Thumbs up button or the Thumbs down button displayed inline in the recommendation.
 
-![](img/feedback.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/feedback.png)
 
 “Thumbs up” tells the underlying Conversation Orchestrator model that it was a relevant recommendation, while “thumbs down” tells it that it’s not. The relevance score is calibrated against this feedback so that Agent Assist can continuously improve its recommendations and provide the most relevant content to agents.
 
@@ -97,6 +97,6 @@ Agents can provide feedback on a recommended action by clicking either the Thumb
 On the left sidebar in Conversational Cloud, click the bot icon.
 In the Conversational AI dashboard, click Conversation Orchestrator. Here’s where you can configure Agent Assist.
 
-![](img/access.png) 
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/access.png) 
 
 For more information on implementation, please see the LivePerson [Developer Center](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html).

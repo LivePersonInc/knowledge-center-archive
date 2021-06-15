@@ -96,7 +96,7 @@ Customers can now do the following in the LiveEngage audit trail:
 * Track changes on the shift scheduler
 * Tracking changes to weekdays and special occasion items and their assignment- per account and per skill
 
-![](/img/week-of-january-14th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-14th-1.png)
 
 **Limitations**
 
@@ -147,7 +147,7 @@ In some cases, where the design of the underlying website conflicts with the des
 
 **How to change the opacity**
 
-1. On the Campaign page, click on the “Edit” function next to the “Engagement window” of the relevant engagement.![](/img/week-of-january-14th-3b.png)
+1. On the Campaign page, click on the “Edit” function next to the “Engagement window” of the relevant engagement.![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-14th-3b.png)
 
    {: .important}
 
@@ -157,7 +157,7 @@ In some cases, where the design of the underlying website conflicts with the des
 4. Define the window opacity on mobile web.
 5. Click “**Save**”
 
-![](/img/week-of-january-14th-4b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-14th-4b.png)
 
 **Notes:**
 
@@ -219,7 +219,7 @@ As of October 23rd 2019 Google Dialogflow V1 will be deprecated. Customers shoul
 
 If the ACD setting for chat was configured to “advanced mode” and “agent status changes to **away** if missed accepting the chat,” and then afterwards, the setting was changed to “Auto-accept” mode, the agent state would still change to “away” in some scenarios.
 
-![](/img/week-of-january-14th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-14th-5.png)
 
 ### Messaging - Automatic Messages - line break is being shown in conversation
 

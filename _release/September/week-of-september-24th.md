@@ -160,7 +160,7 @@ These metrics are enabled out of the box and are available to all report builder
 
 **Screenshot**
 
-![](/img/week-of-september-24th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-24th-1.png)
 
 ## Enhancements
 

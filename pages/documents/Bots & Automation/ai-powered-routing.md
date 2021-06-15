@@ -46,7 +46,7 @@ When a conversation comes into the Agent Workspace, [Conversation Orchestrator](
 
 Dynamic Routing uses centralized policies to achieve routing to best human agent (direct, skill) or bot, based on intent and/or context attributes such as consumer profile data, operational context (load, predicted wait time, KPI’s) and conversational history.
 
-![](/img/ai-powered-routing-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ai-powered-routing-1.png)
 
 To build a routing policy, brands first set the context by leveraging a combination of different attributes to be used in the routing policy, including:
 
@@ -57,11 +57,11 @@ To build a routing policy, brands first set the context by leveraging a combinat
 
 For example, a brand can use a consumer’s intent in a policy for VIP customers - deriving that value from a Salesforce CRM database using a FaaS function. The policy can then direct certain intents for all VIP customers to a specialized agent skill - while ensuring wait times are not high.
 
-![](/img/ai-powered-routing-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ai-powered-routing-2.png)
 
 By combining information from external systems like a CRM, the consumer can be immediately identified by name, location, and other information, such as VIP status. LivePerson Functions allows brands to easily integrate data from external systems, like Salesforce, using a secure, LivePerson-managed function services.
 
-![](/img/maven-overview-4-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/maven-overview-4-1.png)
 
 {: .notice}  
 “Route a group of intents (e.g. order enquiry, cancellation, scheduling) to general order skill, unless customer is a VIP, then send them to their Dedicated Advisor”v
@@ -89,6 +89,6 @@ Brands can login and manage how AI is used in their conversational pipeline, as 
 
 Conversation Orchestrator’s analytics dashboard and Mobile App provides contextual analytics on the performance of routing policies so brands can manage and optimize its performance on the go.
 
-![](/img/ai-powered-routing-4-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ai-powered-routing-4-1.png)
 
 With the Conversation Orchestrator, brand and contact center leaders have full visibility over how AI is used in their routing policies, and have the ability to configure integrations and context, and access a performance dashboard to optimize Conversation Orchestrator’s AI decision making.

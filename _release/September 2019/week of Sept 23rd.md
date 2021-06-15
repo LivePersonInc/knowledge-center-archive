@@ -68,7 +68,7 @@ From the conversation action menu, user can select the new “Transfer conversat
 The “Transfer conversation” dialog box displays all the relevant skill that the conversation can be transferred to (the login is defined in the LiveEngage platform).  
 To transfer the conversation, user needs to select the required skill and then tap on the transfer button.
 
-![](/img/week-of-sept23-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-sept23-1.png)
 
 ### Viewing photos sent by consumer
 
@@ -244,11 +244,11 @@ When an engagement window is configured with a welcome message, the welcome mess
 
 Before:
 
-![](img/week-of-september-22-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-22-1.png)
 
 After:
 
-![](img/week-of-september-22-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-22-2.png)
 
 ## "Show history for closed conversations" creates a fictitious load on the msghist service and console errors
 

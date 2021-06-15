@@ -19,7 +19,7 @@ Photo sharing empowers consumers to share images with agents to explain complex 
 
 **To see what messaging channels support photo sharing, please see the** [**messaging channels capabilities comparison**](messaging-channels-messaging-channels-capabilities-comparison.html) **chart.**
 
-![](/img/Photo sharing Gif-1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Photo sharing Gif-1.gif)
 
 ## Configuration
 
@@ -32,7 +32,7 @@ Photo sharing empowers consumers to share images with agents to explain complex 
 5. Click save
 6. Publish the campaign
 
-![](/img/photosharing1 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photosharing1 (1).png)
 
 ## Consumer side: sending a photo
 
@@ -85,7 +85,7 @@ In case sharing failed, an error indication in the conversation will call their 
 
 From the conversation window, consumer clicks on the ״+״ icon to open the actions menu:
 
-![](/img/photosharing15 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photosharing15 (1).png)
 
 On the menu, choose “Send image”, to open the options for sending an image.
 
@@ -95,11 +95,11 @@ On desktops, after clicking on “Send image”, the user will be presented with
 
 On Mac:
 
-![](/img/photosharinf16 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photosharinf16 (1).png)
 
 On Windows:
 
-![](/img/photosharing17 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photosharing17 (1).png)
 
 After choosing the image, it will be shown as a thumbnail in the transcript and clicking on the image, will open the image on full screen.
 
@@ -107,7 +107,7 @@ After choosing the image, it will be shown as a thumbnail in the transcript and 
 
 On mobile, after clicking on “Send image”, the user will be presented with the options to either take a photo with the device camera or choose from the photo library on the device. After choosing the image, it will be shown as a thumbnail in the transcript:
 
-![](/img/photos22 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photos22 (1).png)
 
 Clicking on the image, will open the image on full screen.
 
@@ -119,7 +119,7 @@ In case sharing failed, an error indication in the conversation will call their 
 
 When the agent receives the shared photo, it appears as a thumbnail in the conversation window.
 
-![](/img/photo24 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photo24 (1).png)
 
 The Agent can preview the image by pressing the image thumbnail.
 
@@ -129,25 +129,25 @@ The Agent can preview the image by pressing the image thumbnail.
 
 #### Apple Business Chat
 
-![](/img/photos25 (1).jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photos25 (1).jpg)
 
 ### Facebook Messenger
 
-![](/img/photos26 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photos26 (1).png)
 
 ### Twilio SMS
 
-![](/img/photo27 (1).jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photo27 (1).jpg)
 
 ### WhatsApp Business
 
-![](/img/photos28 (2).jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/photos28 (2).jpg)
 
 ### Agent flow for messaging connectors
 
 When the agent receives the shared photo, it appears as a thumbnail in the conversation window. The agent can preview the image by pressing the image thumbnail.
 
-![](/img/ps30 (1) (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ps30 (1) (1).png)
 
 ### Limitations
 

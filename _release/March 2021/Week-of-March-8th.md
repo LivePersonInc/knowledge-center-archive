@@ -39,7 +39,7 @@ To create policies using other SDEs, the existing process of using LivePerson Fu
  
 Please Note: To start using this feature, SDEs need to be enabled in Conversation Context Service > Structured Data Entities.
 
-![](img/week-of-march-8th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-8th-1.png)
 
 
 ## [Enhanced Agent Workspace] Display offline skills in Rollback menu for Rollover accounts
@@ -47,7 +47,7 @@ Please Note: To start using this feature, SDEs need to be enabled in Conversatio
 
 Conversation Rollover has a feature called “Rollback” which enables a Handler account user to Rollback a conversation to the corresponding Owner account. The Rollback menu today only displays the Online Skills for the Owner account as options for Rollback. This enhancement will display Offline skills as well, so that the Handler agents will have a better understanding of the activity with the Owner account, and their options for Rollback.   
 
-![](img/week-of-march-8th.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-8th.png)
 
 ## [Enhanced Agent Workspace] Accessibility -  A11Y Project Fixes
 ### Type: Bug fix (NAW 1.22)

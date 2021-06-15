@@ -30,7 +30,7 @@ For example, if an agent is assigned multiple skills, the metrics will reflect a
 {: .notice}
 This filter will be automatically enabled for any user that is using the new manager workspace.
 
-![](img/Jan2020_whats_new_2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Jan2020_whats_new_2.png)
 
 ## Global filter setting at logout retained upon login [New Manager workspace]
 In order to spare managers from resetting their workspace filter preferences each time they log in, the global filter settings will be saved automatically. The filters that are retained are only the global filters (available at the top right corner of the workspace) including: timeframe, group and skill filters. 
@@ -43,7 +43,7 @@ The “active” metric which was available until today only on the list view of
 {: .notice}
 This will automatically be enabled for any user that enabled the new manager workspace.
 
-![](img/Jan2020_whats_new_3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Jan2020_whats_new_3.png)
 
 ## Wait time metric [New Manager workspace]
 A new metric, “Wait time” has been added to the “Queue summary” widget. The metric is shown by skill breakdown.  The metric displays the 90th percentile of the consumers wait time for an agent assignment which means that 90% of consumers are currently waiting for an agent assignment X amount of time or less. 
@@ -51,7 +51,7 @@ A new metric, “Wait time” has been added to the “Queue summary” widget. 
 {: .notice}
 Automatically enabled for any user that enabled the new manager workspace.
 
-![](img/Jan2020_whats_new_4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Jan2020_whats_new_4.png)
 
 ## Overdue metrics [New Manager workspace]
 The overdue metrics have been added in two locations:
@@ -61,7 +61,7 @@ The overdue metrics have been added in two locations:
 {: .notice}
 Automatically enabled for any user that enabled the new manager workspace.
 
-![](img/Jan2020_whats_new_5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Jan2020_whats_new_5.png)
 
 ## Filter by specific hour [New Manager workspace]
 Ability to set and monitor operations performance from specific hours, such as the beginning of a shift or the beginning of a business day.
@@ -69,7 +69,7 @@ Until now, users have only been able to change the time range of the manager wor
 
 With new ‘filter by specific hour’, users can filter the workspace from a specific hour in time, in a range between midnight and the current time. 
 
-![](img/Jan2020_whats_new_6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Jan2020_whats_new_6.png)
 
 ## Seamless Navigation from agent to manager workspace 
 We're making it easier to navigate between the enhanced agent workspace for messaging and the new manager workspace. When a user drills down to read a transcript of a specific conversation from the “Conversations widget” in the manager workspace, users are navigated to the enhanced agent workspace. In order to navigate back to the conversation list, users will be able to simply click the new “Back to Manager workspace” button.
@@ -77,7 +77,7 @@ We're making it easier to navigate between the enhanced agent workspace for mess
 {: .notice}
 This feature applies only to messaging agent managers who are using both the new manager workspace and the enhanced agent workspace.
 
-![](img/Jan2020_whats_new_7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Jan2020_whats_new_7.png)
 
 ### Enhanced Agent Workspace for Messaging
 For a comprehensive tutorial of the New Agent Workspace, check out this [video.](https://vimeo.com/357193087/7d6d59ca85) 

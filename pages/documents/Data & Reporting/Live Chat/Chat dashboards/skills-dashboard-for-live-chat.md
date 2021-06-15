@@ -23,7 +23,7 @@ This dashboard includes metrics used to analyze skill queue performance. This da
 
 The following panel will be presented when accessing the skills predefined dashboard. It provides an overview of the performance of all skills associated with active agents on the account.
 
-![](/img/Skill-Activity-Dashboard.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Skill-Activity-Dashboard.jpg)
 
 Image 1 - Skill activity dashboard main panel
 
@@ -37,7 +37,7 @@ Image 1 - Skill activity dashboard main panel
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by skills, agent groups, and day of the week.
 
-![](/img/Skill-Activity-Grid.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Skill-Activity-Grid.jpg)
 
 Image 2 - Skills activity grid (panel 2)
 
@@ -66,4 +66,4 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard in the [Developer Center.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
 
-![](/img/General-Data-metrics-table.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/General-Data-metrics-table.png)

@@ -26,7 +26,7 @@ Response times can be configured at the account level and by skill for three typ
 {: .notice}
 Urgent capabilities are available for web and App Messaging, and not on other messaging channels. Mark as urgent will be available only from the second time a consumer starts a conversation.
 
-![](/img/config-response-time-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/config-response-time-1.png)
 
 In order to provide the best possible experience for consumers, the response times for each of these conversation types can be configured separately. We recommend that urgent and first time conversations are both assigned shorter response times than regular conversations.
 
@@ -53,7 +53,7 @@ Each conversation’s response time is displayed in the Active Connections page 
 
 Note: When agents manually update the response time and subsequently send or receive a message within the configured response time, the updated response time is not affected. This could lead to the conversation becoming overdue, even if correctly handled within the set time. This is explained in the pop-up that appears to agents when manually changing the response time.
 
-![](/img/config-response-time-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/config-response-time-1.png)
 
 **Offline hours**
 
@@ -61,11 +61,11 @@ LivePerson allows brands to set offline hours - the times during which no agents
 
 For example, if the contact center is offline from 8pm until 8am, and the default response time is 15 minutes, a consumer messaging at midnight will be given a response time of 8 hours and 15 minutes.
 
-![](/img/config-response-times-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/config-response-times-4.png)
 
 The shift status is accessible from the drop down menu which opens from the top right of the screen in LivePerson.
 
-![](/img/Configuring-response-times-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Configuring-response-times-4.png)
 
 **How to configure response times**
 
@@ -77,7 +77,7 @@ To configure response times for the entire account:
 2. Under _Response time_, click **Edit**.
 3. The _Response time_ window opens. Adjust the response times for each conversation type as required. Time units are available in minutes, hours and days.
 
-![](/img/config-response-times-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/config-response-times-6.png)
 
 1. Click **Save**.
 
@@ -91,4 +91,4 @@ Note: Auto close for messaging conversations can also be configured here. For fu
    * Changes in configuration will only apply to new conversations or after the conversation has been transferred to a different skill.
    * For conversations which are are not assigned to a skill, the account level configuration will be applied.
 
-![](/img/messaging-response-time-settings.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/messaging-response-time-settings.png)

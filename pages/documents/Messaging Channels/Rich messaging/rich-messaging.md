@@ -30,7 +30,7 @@ To see what structured content is available per messaging channel, please see th
 
 Structured content allows you to show simple cards which include text, images, catalogues, maps and buttons, to enhance the conversation with the consumer. When building your cards, you can have an ‘add to cart’ option, confirmation and deep linking buttons, turning a simple app interaction into conversational commerce. Structured content cards enables an improved and more efficient service opening up thousands of use cases- just what consumers expect from messaging.
 
-![](/img/RM1 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RM1 (1).png)
 
 **Structured content carousel: display product catalogues or service offerings directly within the conversation.**
 
@@ -38,7 +38,7 @@ The structured content carousel enables you to display several offerings on mult
 
 See more in the [structured content user guide.](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html)
 
-![](/img/Carousel.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Carousel.gif)
 
 **Quick replies: Create short pre-formatted instant replies to enable consumers to quickly and accurately state their intent for both bots and agents.**
 
@@ -48,7 +48,7 @@ Currently available for App Messaging, Web Messaging, and Facebook Messenger.
 
 For more information on quick replies including configuration and set up, please refer to our [quick replies user guide](messaging-channels-rich-messaging-quick-replies-user-guide.html)
 
-![](/img/quick-replies (1).gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/quick-replies (1).gif)
 
 **Photo sharing: Make messaging a more visual experience, increasing communication efficiency and reducing time to resolution.**
 
@@ -56,7 +56,7 @@ Photo sharing empowers consumers to share images with agents to explain complex 
 
 Please refer to photo sharing [photo sharing user guide](messaging-channels-rich-messaging-photo-sharing-user-guide.html) for more information.
 
-![](/img/RM4 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RM4 (1).png)
 
 **Audio messaging**: **Consumers can communicate with brands easier and faster by sending voice recordings**
 
@@ -64,4 +64,4 @@ Audio messaging is ideal for consumers who want to send a long message and don�
 
 For more information on audio messaging including configuration, please see our[ audio messaging user guide](messaging-channels-rich-messaging-audio-messaging-user-guide.html)
 
-![](/img/RM5 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RM5 (1).png)

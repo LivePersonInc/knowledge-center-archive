@@ -84,16 +84,16 @@ The Horizon theme will be the default for both chat and web messaging engagement
 
 Image 1: “Horizon” theme added to the engagement window library
 
-![](/img/week-of-august-5th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-1.png)
 
 Image 2: In case you would like to use Ocean theme as the starting point for a new window, go to the action menu and select “Duplicate”
 
-![](/img/week-of-august-5th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-2.png)
 
 Image 3: Horizon theme vs Ocean theme
 
 {: .sidebyside}
-![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-3.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-4.png)
 
 ## New engagement templates to the engagement gallery
 
@@ -149,23 +149,23 @@ The 2 new templates are:
 
 Image 1: new templates added to the engagement template gallery
 
-![](/img/week-of-august-5th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-5.png)
 
 Image 2: “Message Us” editable engagement text
 
-![](/img/week-of-august-5th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-6.png)
 
 Image 3: Round bubble without text engagement
 
-![](/img/week-of-august-5th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-7.png)
 
 Image 4: “Message Us” invitation engagement
 
-![](/img/week-of-august-5th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-8.png)
 
 Image 5: “Round Bubble without text” invitation engagement
 
-![](/img/week-of-august-5th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-9.png)
 
 ## New “Message us” engagement template as default engagement
 
@@ -214,11 +214,11 @@ The new “Message us” invitation template, is now the default invitation for 
 
 Image 1: new “Message Us” template added to the gallery and will be the default
 
-![](/img/week-of-august-5th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-10.png)
 
 Image 2: “Message Us” invitation engagement
 
-![](/img/week-of-august-5th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-11.png)
 
 ## New images in window images gallery
 
@@ -267,17 +267,17 @@ Two new out-of-the-box images are added to the engagement window images gallery.
 
 Image 1: new images added to the gallery
 
-![](/img/week-of-august-5th-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-12.png)
 
-![](/img/week-of-august-5th-12a.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-12a.png)
 
 Image 2: new image with Horizon theme
 
-![](/img/week-of-august-5th-13a.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-13a.png)
 
 Image 3: new image with Ocean theme
 
-![](/img/week-of-august-5th-13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-13.png)
 
 ## Ability to set a floating engagement
 
@@ -337,19 +337,19 @@ As part of the engagement gallery, brands have the ability to set the engagement
 
 Image 1: non floating engagement
 
-![](/img/week-of-august-5th-14.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-14.png)
 
 Image 2: floating engagement
 
-![](/img/week-of-august-5th-15.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-15.png)
 
 Image 3: floating engagement consumer view
 
-![](/img/week-of-august-5th-16.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-16.png)
 
 Image 4: non floating engagement consumer view
 
-![](/img/week-of-august-5th-17.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-17.png)
 
 ## Inherited font applied to structured content text elements
 
@@ -414,10 +414,10 @@ Once the “Inherit font from the webpage” checkbox is checked for the agent b
 
 Image 1: enable inherit font from webpage feature
 
-![](/img/week-of-august-5th-20.png)  
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-20.png)  
 Image 2: inherit font for structured content
 
-![](/img/week-of-august-5th-21.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-21.png)
 
 ## Twilio SMS Source - Media Error Unknown
 
@@ -429,7 +429,7 @@ Instruction video on Twilio SMS source would not play due to an unknown error. T
 
 Image 1: Twilio SMS source instruction video
 
-![](/img/week-of-august-5th-19.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-19.png)
 
 ## Images sent from mobile are stretched or squished in the UI
 
@@ -439,7 +439,7 @@ Large images sent from mobile appear stretched or squished when looking at them 
 
 **Screenshot**
 
-![](/img/week-of-august-5th-22.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-22.png)
 
 ## Bold font for agent bubble does not work for chat window
 

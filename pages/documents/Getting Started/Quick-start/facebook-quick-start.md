@@ -23,15 +23,15 @@ Connect Facebook Messenger to the Conversational Cloud.
 
 Login to the [Conversational Cloud](https://authentication.liveperson.net/) and click on the **Campaign Builder** tab located in the left navigation bar. Click on **Data Sources** in the Campaign Builder footnote.
 
-![](img/Facebook Messenger quick start-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Facebook Messenger quick start-1.png)
 
 Click **Connect** in the Facebook Messenger tile.
 
-![](/img/facebook-messenger-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/facebook-messenger-1.png)
 
 Enable the **Source activation** toggle, then click **Next.**
 
-![](/img/facebook-messenger-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/facebook-messenger-2.png)
 
 ## Step 2: Connect your Facebook page to the Conversational Cloud
 
@@ -46,7 +46,7 @@ Click the Facebook **Log in** button and log in to Facebook. If you are already 
 {: .notice}
 **Tip:** You do not need to add an Agent Manager to get started.
 
-![](/img/facebook-messenger-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/facebook-messenger-4.png)
 
 ## Step 3: Send and receive messages from Facebook Messenger
 

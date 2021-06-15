@@ -23,10 +23,10 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: Enhancement (Conversation Orchestrator)
 
 In Agent Assist, when a bot is joined to or removed from a conversation, a message is sent to the consumer.
-![](img/RN-22april-CO1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-22april-CO1.png)
 You can now customize these join/remove messages. For example, you might want to change the language that’s used.
 Customization is done within Agent Assist’s configuration for bots:
-![](img/RN-22april-CO2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-22april-CO2.png)
 
 ## [Agent Assist] Fixes to remove bot and replace bot
 ### Type: Bug fix (Conversation Orchestrator)
@@ -45,9 +45,9 @@ Later this year, the ability to self-provision Twilio numbers will be relaunched
 
 The Auto-close feature has now a new minimal valid value of 10 minutes, instead of 25 minutes. Accounts can now configure the auto-close time to be lower than 25 minutes (but up to 10). 
 
-![](img/week-of-april-5th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-5th-1.png)
 
-![](img/week-of-april-5th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-5th-2.png)
 
 ## [LE UI] Agent Manager Permissions Granularity - Allow “Manage” or “Edit only” permissions for Agent Managers
 ### Type: Enhancement (LE UI 12.9)
@@ -63,7 +63,7 @@ Please reach out to your LivePerson representative in order to activate this fea
 1. The new “Edit only ”permissions are NOT instead of the existing “Manage” permissions, but in addition to them. So the Admin or LP representative will need to turn Off the “Manage” permissions for Agent Managers with “Edit only” permissions.
 2. Once this feature is enabled on the backend, When disabling it, the administrator or LP representative will need to turn off the “Edit only” permissions manually in order to go back to allow all Agent Managers the “Manage” permissions.
 
-![](img/week-of-april-5th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-5th-3.png)
 
 ## [Enhanced Agent Workspace] Accessibility -  A11Y Project Fixes
 ### Type: Bug fix (NAW 1.24)
@@ -134,6 +134,6 @@ DialogFlow Cx is now available as an additional vendor that can be used by Third
 This new vendor has the same functionalities we have for other vendors like DialogFlow ES. Users can now create DialogFlow Cx bots in our UI wizard, test their functionality using the conversation Tester and check for conversation errors using our Conversation Error tab and check for the bot metris in our Dashboard.
 Further details and configuration guidelines can be found in the [Developers Community.](https://developers.liveperson.com/bot-connectors-microsoft-bot-framework.html)
 
-![](img/RN-bot-connectors-2.30.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-bot-connectors-2.30.png)
 
 

@@ -51,7 +51,7 @@ Clearly communicated system messages regarding response time create a better ser
 
 [Rich Conversations](messaging-channels-rich-messaging-rich-messaging-overview.html) will open more uses cases to serve over messaging, save time and offer a much stronger customer experience.
 
-![](/img/mobile-app-messaging-capabilities-1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/mobile-app-messaging-capabilities-1.gif)
 
 For App Messaging, you can offer the following structured content items:
 

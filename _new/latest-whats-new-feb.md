@@ -17,7 +17,7 @@ Watch this short video for the upcoming features for the weeks ahead.
 ## The new LivePerson AI Annotator!
 Automate even more conversations by empowering agents to flag bot issues and suggest a solution within seconds, while going about their day to day tasks. AI Annotator provides agents and QA teams who view conversations with the ability to suggest correct intents to messages that the bot did not understand. Once the suggestion is approved by a manager, similar messages will be correctly identified by the bot. This process of labeling data which is later used to improve an AI model, is called AI Annotation. Click [here](https://knowledge.liveperson.com/ai-bots-automation-ai-annotator.html#setting-up-intent-annotations)for more information.
 
-![](img/ai-annotator-12.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ai-annotator-12.gif)
 
 ## Social Messaging 2.0
 Social Messaging extends LivePerson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social media.
@@ -36,7 +36,7 @@ The widget’s main benefits:
 
 Note: Messaging must be enabled on your Conversational Cloud account. Only Facebook and Twitter are supported.
 
-![](img/Social-Messaging-2.0-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Social-Messaging-2.0-1.png)
 
 ## Instagram Connector
 Instagram allows brands to drastically expand their reach and connect with over 1 billion consumers on their smartphones. This new channel has unique offerings in messaging operations which will enable brands to quickly meet consumer needs while utilizing the Conversational Cloud capabilities.
@@ -45,17 +45,17 @@ Users should have a Facebook business page that is connected to an Instagram han
 Please reach out to your LivePerson account team in order to start the approval process.
 Check out the [Knowledge Center](https://knowledge.liveperson.com/messaging-channels-instagram.html#benefits-of-instagram) for more information.
 
-![](img/Instagram_connector.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Instagram_connector.gif)
 
 ## Proactive to InApp
 As LivePerson continues to enhance the Proactive to Messaging solutions, App Messaging is a new channel we add to our offering that currently supports SMS and WhatsApp. Brands using the Mobile SDK and allowing their consumers to message them through their app will now be able to send outbound messages to their consumers via the app. 
 
-![](img/Proactive to App Messaging.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Proactive to App Messaging.gif)
 
 ## Connect to Messaging
 LivePerson’s Connect to Messaging (C2M) is an IVR deflection solution that lets brands offer their consumers an option to move from voice calls to messaging. Once consumers opt to deflect to a messaging conversation, they will receive an outbound message via either SMS, WhatsApp or the brand’s mobile app, which they can  respond to and start having a two-way conversation with the brand. The consumer’s responses are routed into the Agent Workspace, where conversations can be handled by human agents, automation, or a tango of both. SMS, WhatsApp and App Messaging are supported channels at this time.
 
-![](img/Connect to Messaging 2.0.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Connect to Messaging 2.0.gif)
 
 ## Reporting
 ## Analytics Builder predefined dashboards
@@ -76,7 +76,7 @@ New bot dashboards are available to help brands to track their bot performance o
 ## Quick filters
 Agent Managers spend a lot of time filtering the same agents, skills and teams. This feature will allow managers to save workspace filters and  be able to move between preset filters quickly and easily.
 
-![](img/Quick-filters-whats-new.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Quick-filters-whats-new.png)
 
 ## Transcripts in Conversation Widget
 Managers looking to better understand the conversations, intents and overall experience during their shift can now use the Manager Workspace’s Conversation widget to gain complete visibility into the details of each conversation in real time. Now, with a single click on the relevant conversation, users can open conversation transcripts within the Conversation widget. This means that managers can filter relevant agents, skills, intents and timeframes to quickly scroll through different transcripts, making it very easy for managers to compare situations and identify issues in real time without switching between Manager and Agent Workspaces.

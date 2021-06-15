@@ -60,7 +60,7 @@ You can now begin creating banners or buttons to add to your website. These enga
 
 **To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
-![](/img/add-chat-to-your-website-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-chat-to-your-website-2.png)
 
 ### Template gallery
 
@@ -70,7 +70,7 @@ The template gallery page allows you to choose the format of your engagement and
 
 On this page, you can define the **conversation channel**, **authentication**, **routing, window presentation** and **language** settings for your engagement.
 
-![](/img/add-chat-to-your-website-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-chat-to-your-website-1.png)
 
 #### Conversation channel
 

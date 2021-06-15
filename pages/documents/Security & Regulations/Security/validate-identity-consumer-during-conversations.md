@@ -30,7 +30,7 @@ To ensure extra security, only two characters are required from the visitor, so 
 
 Described below is the step-by-step flow for agents and visitors. The ID&V solution is conducted via a designated button in the [Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html).
 
-![](/img/Validate-identity-consumers-during-conversations1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Validate-identity-consumers-during-conversations1.png)
 
 The agent clicks the ID&V button in the Agent Workspace, and then completes the required indices and the string referred to, for example, PIN/Password.
 
@@ -39,7 +39,7 @@ The agent must complete all the required fields before the form can be sent to t
 
 A dialog with the message: “Enter characters ___ and ___  from your ___ ” is displayed to the visitor in the chat transcript, along with both submit and cancel buttons.
 
-![](/img/Validate-identity-consumers-during-conversations3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Validate-identity-consumers-during-conversations3.png)
 
 Once the visitor clicks submit, the data is sent to the agent. If the visitor clicks cancel, they are returned to the chat and no data is sent.
 
@@ -48,7 +48,7 @@ If the visitor cancels the request, the agent receives a message indicating that
 
 The agent receives a notification indicating which information was submitted by the visitor, for example, visitor entered: 2 and 4.
 
-![](/img/Validate-identity-consumers-during-conversations4-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Validate-identity-consumers-during-conversations4-1.png)
 
 The data is displayed as masked in the visitor transcript and in the database.
 

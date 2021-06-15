@@ -26,17 +26,17 @@ Follow these steps to generate a number:
 
 The area code list is in numerical order and contains the state or province for each area code to help you select a preferential area code.
 
-![](img/generate-a-twilio-sms-number-with-liveperson-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/generate-a-twilio-sms-number-with-liveperson-1.png)
 
 **Step 2.** Here is an example of a number that has been provisioned for a client. You can assign an alias and forwarding number, as well as assign all conversations for this number to a specific skill. In the event an account has multiple numbers provisioned, it is helpful to assign a Default number, which will be considered the primary number for the account.
 
 Once all fields are filled, client clicks Save.
 
-![](img/generate-a-twilio-sms-number-with-liveperson-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/generate-a-twilio-sms-number-with-liveperson-2.png)
 
 **Step 3.** Numbers that have been provisioned now appear in a list on the Twilio SMS configuration screen. If you would like to provision additional numbers, you can click Generate Number again.
 
-![](img/generate-a-twilio-sms-number-with-liveperson-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/generate-a-twilio-sms-number-with-liveperson-3.png)
 
 ## Deactivating Provisioned Numbers
 
@@ -46,7 +46,7 @@ Once all fields are filled, client clicks Save.
 * Engagements utilizing Twilio SMS will need to be unpublished
 * Any active conversations through that Twilio number will be immediately suspended, meaning the agents can no longer send messages to consumers. More importantly, consumers with active or previous conversations on that number will be blocked from messaging with the brand on any other number.
 
-![](img/generate-a-twilio-sms-number-with-liveperson-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/generate-a-twilio-sms-number-with-liveperson-4.png)
 
 ## Limitations
 

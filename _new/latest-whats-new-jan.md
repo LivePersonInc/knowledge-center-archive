@@ -22,7 +22,7 @@ The vision of the Intent-Driven Business is to fundamentally change how brands u
 
 Intent Manager 2.0 introduces a wide set of new self-service features and functionality that greatly improve the value and utility of the application, making it easier than ever for brands to fully manage their Iintents on the LivePerson platform. 
 
-![](img/Intent-man-gif.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Intent-man-gif.gif)
 
 Here are all the new features and exciting enhancements coming to **Intent Manager**:
 
@@ -66,7 +66,7 @@ Check out the [Knowledge Center](https://knowledge.liveperson.com/ai-bots-automa
 
 LivePerson is excited to launch the Instagram Connector in General Availability.
 
-![](img/Instagram_connector.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Instagram_connector.gif)
 
 The integration with the Instagram API allows brands to respond to consumers at scale through the LivePerson Conversational Cloud platform.
 It enables brands to use automation and rich content in the conversation, and provides context for the consumer’s intent (when available), which can be used for routing, useful info for the human agent, and reporting purposes.
@@ -115,7 +115,7 @@ Updates include:
 
 LivePerson are introducing a number of Messaging window enhancements:
 
-![](img/Messaging_window_enhancements.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Messaging_window_enhancements.gif)
 
 **Orient Welcome Message Quick Replies:**  It will be possible to orient the Welcome Message quick replies into a vertical list, not only a horizontal scroll. 
 This can be configured in the Welcome Message screen within the Engagement Window Studio.  
@@ -126,7 +126,7 @@ This can be configured in the Welcome Message screen within the Engagement Windo
 
 LivePerson are excited to introduce the Bot Performance Dashboard, which allows brands to analyze the performance and success of bots as agents in LivePerson.
 
-![](img/AB.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB.gif)
 
 The new ’Bot Performance Dashboard’ will allow brands to review and analyze their bot performance in messaging over time, and measure the effect of agents' annotations on the bot performance for bots designed by Conversation Builder.
 
@@ -150,19 +150,19 @@ LivePerson has some important updates to the Manager Workspace.
 #### Manager Workspace: Skills level view
 Currently, when tracking the performance of multiple skills, managers are required to manually filter the workspace skill by skill, in order to view the data they need. A new skill-level table will be added to the workspace, allowing managers to track the performance of multiple skills easily. In addition, the new view will allow users to track additional new metrics as "Actionable" and  "Wait time for assignment (50%)".
 
-![](img/Manager-worskpace-whats-new-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Manager-worskpace-whats-new-1.png)
 
 #### Manager Workspace: Conversation Intent Filter (Manager Workspace)
 For accounts using the Intent Analyzer tool, the intents column in the Conversation Widget will now become filterable. The column which holds the list of all unique intents detected in the conversations will now also enable filtering of specific intents, allowing for easy and quick discovery of conversations on specific topics as well as issue detection.
 
 Please note: In order to see the Intent column filter, Intent Analyzer tool must be enabled and configured in the account.
 
-![](img/Manager-worskpace-whats-new-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Manager-worskpace-whats-new-2.png)
 
 #### Manager Workspace: Freeze Global Filters
 The top pane of the manager workspace will now be "static" and will allow the user to see the global filter when scrolling down. Freezing the headers (making them “sticky”) enables users to constantly see what is impacting their workspace and be able to make changes more easily. 
 
-![](img/Manager-worskpace-whats-new-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Manager-worskpace-whats-new-3.png)
 
 #### "Online" and "Away" load in load panel of activity summary
 
@@ -171,7 +171,7 @@ Users of the Manager Workspace need to be able to understand the actual current 
 * Away Load - The number of active conversations as a percentage of max concurrent conversations of agents in Away state.
 
 
-![](img/Manager-worskpace-whats-new-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Manager-worskpace-whats-new-4.png)
 
 ## Updates to Mobile SDK - Hyperlinks
 The iOS Mobile SDK will now support rendering links as hyperlinks automatically when adding them in 'hiMessage' and 'Welcome Message'.

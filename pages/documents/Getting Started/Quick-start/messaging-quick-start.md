@@ -23,7 +23,7 @@ Set up Web Messaging between the Conversational Cloud and your website.
 
 To obtain your Web Tag, login to the [Conversational Cloud](https://authentication.liveperson.net/) and click on your avatar in the lower left corner, selecting "Web Tag" from the pop-up menu. Note that this is only available to account Administrators.
 
-![](/img/LP tag Gif-1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LP tag Gif-1.gif)
 
 ## Step 2: Add the Web Tag to your website
 

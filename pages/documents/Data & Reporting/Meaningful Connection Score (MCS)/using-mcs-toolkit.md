@@ -22,7 +22,7 @@ The main dashboard displays key MCS data for each agent via the Agent Scorecard,
 
 ### **Agent scorecard**
 
-![](/img/using-MSC-toolkit1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/using-MSC-toolkit1.png)
 
 The scorecard displays a list of all agents and the following information:
 
@@ -38,7 +38,7 @@ Data from the scorecard can also be exported to CSV.
 
 ### Agent MCS Health
 
-![](/img/Using-the-msc-toolkit2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Using-the-msc-toolkit2.png)
 
 This widget displays the distribution of agent MCS, offering an overview of the performance of all agents on the account. Users can benchmark an agent’s performance against that of his peers, enabling agent managers to easily assess how well an agent is performing in comparison to the rest of his group or subgroup.
 
@@ -46,13 +46,13 @@ By selecting other filters, this widget can also indicate average MCS by other p
 
 ### Conversations by date
 
-![](/img/Using_MCS-toolkit3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Using_MCS-toolkit3.png)
 
 This widget allows the user to identify changes to the MCS trend, by displaying the total volume of conversations, as well as the total number of each conversations rated positive (0<), negative (0>) and neutral (0) by MCS over time. The line indicates the average MCS per time period, which can be configured to display a variety of time slots, such as by hour, by month or by a specific date.
 
 ### Highest & lowest ranked conversations
 
-![](/img/using-MCS-toolkit4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/using-MCS-toolkit4.png)
 
 To give users a snapshot of the MCS highs and lows on their account, or within their agent groups, the three best and three worst ranked conversations are displayed. This provides users with an instant view of the outlying conversations, which tend to be the most useful in terms of learnings and analysis.
 
@@ -60,7 +60,7 @@ As well as indicating how the MCS for each conversation has evolved over time, t
 
 ## Conversations
 
-![](/img/using-mcs-toolkit5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/using-mcs-toolkit5.png)
 
 The conversations page displays all conversations according to the applied filters. The columns displayed are as follows:
 
@@ -87,7 +87,7 @@ In-depth analysis of the MCS data for each conversation is provided on this view
 
 ### Conversation details
 
-![](/img/using-mcs-toolkit6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/using-mcs-toolkit6.png)
 
 Key information about each conversation is displayed as follows:
 
@@ -101,7 +101,7 @@ Key information about each conversation is displayed as follows:
 
 ### Conversation MCS trend
 
-![](/img/using-MCS-toolkit7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/using-MCS-toolkit7.png)
 
 This visualization presents the MCS trend for the duration of the conversation. For ease of navigation, when the user clicks on a data point on the graph, the corresponding message in the conversation transcript will be highlighted, allowing the user to instantly see the content of the message that triggered the MCS.
 
@@ -109,7 +109,7 @@ The visualization also displays the threshold alerts for positive and negative M
 
 ### Conversation KPIs
 
-![](/img/Using-MCS-toolkit8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Using-MCS-toolkit8.png)
 
 This widget displays the response time in minutes per message, allowing users to draw conclusions as to the impact of the response time on the MCS of a conversation.
 
@@ -123,7 +123,7 @@ To identify exactly why the MCS rose or dropped during a conversation, users can
 
 The MCS toolkit is pre-filtered, meaning data is displayed according to the permissions of the user. For example, agent managers are only able to see data for the groups and subgroups that they manage.
 
-![](/img/UsingMCS-toolkit9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/UsingMCS-toolkit9.png)
 
 The dashboard can be filtered by the following parameters:
 

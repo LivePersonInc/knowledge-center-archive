@@ -13,7 +13,7 @@ date: 2019-01-29 12:29:01 +0000
 ---
 The Campaign Builder footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
 
-![](/img/campaign-settings-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-settings-1.png)
 
 ## **Data sources**
 
@@ -39,7 +39,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](/img/campaign-settings-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-settings-2.png)
 
 ## **Currency**
 
@@ -47,7 +47,7 @@ This setting allows you to define the default currency for your account. This va
 
 The full list of currencies supported by the ISO-4217 currencies standard is available on the Conversational Cloud. For further information on tracking multiple currencies, [click here](data-reporting-engagement-attributes-multi-currency.html).
 
-![](/img/campaign-settings-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-settings-3.png)
 
 ## **Cross session period**
 
@@ -73,4 +73,4 @@ Within the Automatic Messages library, you can add and edit messages that will b
 
 This setting allows you to choose what consumers will see when interacting with an inactive Offsite engagement. An engagement is inactive when it has been disabled, deleted or its campaign has been unpublished, deleted or expired. You can choose to display an offline survey, or a landing page.
 
-![](/img/campaign-settings-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-settings-4.png)

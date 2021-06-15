@@ -79,7 +79,7 @@ The handler account may see an opportunity for rollback to the brand to deepen a
 
 To enable, please contact your LivePerson account team.
 
-![](img/Rollover-whats-new-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Rollover-whats-new-1.png)
 
 ## Proactive Messaging support for Mobile SDK
 The proactive messaging tools allow brands to share outbound messages with their consumer over the most relevant channels for their desired use case and consumer preferences. LivePerson will enrich the available Proactive Messaging channels and add Mobile SDK as an additional channel available on Proactive.
@@ -96,7 +96,7 @@ Please note, the date of the Realtime Dashboard deprecation has been moved from 
 
 The Realtime Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Realtime Dashboard. Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html).
 
-![](img/Man-workspace-whats-new.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Man-workspace-whats-new.png)
 
 ## NodeAgent SDK
 LivePerson empowers external bot vendors and bot builders to build fully customized bots with LivePerson, leveraging the Messaging Agent SDK for node.js.  

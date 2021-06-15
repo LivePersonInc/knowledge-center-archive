@@ -103,7 +103,7 @@ If you do not require any change in view from the account default time zone sett
 
 Data is displayed in a graphical format and/or in grid view. The data is presented to all users according to their LivePerson Conversational Cloud account-level time zone, even if their user-level time zone has been configured differently.
 
-![](/img/Business_Dashboard_for_Livechat_Campaign.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Business_Dashboard_for_Livechat_Campaign.jpg)
 
 Hover over any report with your mouse to view an explanation of what the report displays. You can customize how the data is displayed by choosing your own color scheme.
 

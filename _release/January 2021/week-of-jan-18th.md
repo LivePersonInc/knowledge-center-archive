@@ -34,7 +34,7 @@ The following dialogflow agent locations are now supported:
 ### How to enable
 Enabled for all customers by default.
 
-![](img/RN_Jan18_1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN_Jan18_1.png)
 
 ## PVA Platform Support for Microsoft DirectLine Connector 
 ### Type: Enhancement [Third-Party Bot Connectors 2.26]
@@ -45,7 +45,7 @@ The Microsoft Dynamics Team provides the Power Virtual Agents Solution to create
 ### How to enable
 Enabled for all customers by default 
 
-![](img/RN_Jan18_2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN_Jan18_2.png)
 
 ## Model Tester
 ### Type: Enhancement [Intent Builder]
@@ -60,7 +60,7 @@ If your domain is using the LivePerson NLU v2 engine, there’s now an advanced 
 
 You define the test set (a set of phrases/consumer utterances that are mapped to expected intents), and then you run the test against a specific model version. By repeating the test with the next model version, and then comparing the reports, you can determine if the model is improving or regressing from one version to another.
 
-![](img/Model-tester-RN.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Model-tester-RN.png)
 
 ## Conversation Tester
 ### Type: Enhancement [Conversation Builder]
@@ -74,7 +74,7 @@ Conversation Builder now includes a Conversation Tester tool that’s designed f
 
 The Conversation Tester lets you quickly start a conversation and view both the conversation and the debug log side by side. The conversation travels from the Conversational Cloud channel, to Conversational Cloud, to the agent connector, to the bot server, and back again. In short, there is end-to-end testing of the entire flow over the Web.
 
-![](img/conv_tester_RN.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conv_tester_RN.png)
 
 ## Topic Clustering for Intent Discovery and Optimization 
 ### Type: Enhancement [Intent Manager 2.0]
@@ -82,14 +82,14 @@ The Conversation Tester lets you quickly start a conversation and view both the 
 Optimizing the coverage and quality of intents is a critical component of Intent Management. Intent Manager 2.0 introduces new language clustering visualizations that help brands discover new topics and trends in their conversational data. 
 Clusters are groupings of messages that share similarities in language. Messages in each cluster share a noun (such as the word “order”), and each cluster contains sub-clusters that have noun-verb combinations such as “place order” or cancel order”. Both clusters and sub-clusters provide an intuitive way to identify common combinations of phrases that consumers are using to express their intent. When used in combination with various search and filter criteria, clusters can be used to identify opportunities to further develop your intent taxonomy and help define ways to optimize your intent model. 
 
-![](img/IM2.0_1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IM2.0_1.png)
 
 Brands can combine the power of clustering with Semantic Search and power filters to quickly build new, high-quality intents, which are based on a diverse set of training data that has been extracted from real customer conversations. The new Intent Directory pop-over enables you to see all the intents and training phrases used in a single place. You can access it by clicking on the orange icon on the bottom right corner of the screen. The Intent Directory and improved integration with Intent Builder makes it easier than ever to correct misclassified messages and tune the overall recognition quality of their ML models without a dependency on specialized data scientists. 
 
 The Messages table view has moved to the Intent Discovery tab (from the Conversation Details tab). 
 The Intent-detection coverage widget shows classified vs unclassified message count. 
 
-![](img/IM2.0_2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IM2.0_2.png)
 
 ### How to enable:
 Enabled by default by end of January
@@ -119,14 +119,14 @@ Intent Trends now includes the following metrics:
 ### How to enable:  
 Enabled by default 
 **Available to all customers?** Yes
-![](img/IM2.0_6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IM2.0_6.png)
 
 ## Enhanced Conversation Details Panel for Improved Transcript Analysis
 ### Type: Enhancement [Intent Manager 2.0]
 
 The ability to  analyze and explore conversations by intent is greatly improved in Intent Manager 2.0. Brands can use power filters to search for keywords and phrases in both the agent and consumer portions of the transcript. Brands can easily browse a list of conversations that match their filter criteria with associated metadata and KPIS. The transcript view now supports structured content inside a streamline UI.
 
-![](img/IM2.0_9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IM2.0_9.png)
 
 ### How to enable:  
 Enabled by default 
@@ -137,7 +137,7 @@ Enabled by default
 
 Building on existing advanced filter functionality brands can now save and manage complex filters that enable them to surface and track specific insights on exact topics. Brands can use regular expressions to instantly mine and query up to 13 months of conversation data that matches specific criteria. This functionality is complementary to ML powered Intents and allows brands to cover analysis use cases that don’t work within the Intent taxonomy.
 
-![](img/IM2.0_10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IM2.0_10.png)
 **Available to all customers?** Yes
 
 ### How to add filters

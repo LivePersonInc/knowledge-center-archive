@@ -23,7 +23,7 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 * Campaign manager
 * Admin
 
-![](img/Agent-manager-profile.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent-manager-profile.png)
 
 ## Customized profiles
 
@@ -298,16 +298,16 @@ See screenshots below as examples of permissions for the different roles:
 
 ### Agent
 
-![](/img/Agent-profile.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent-profile.png)
 
 ### Admin
 
-![](/img/Administrator-profile.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Administrator-profile.png)
 
 ### Campaign Manager
 
-![](/img/Campaign-manger-profile.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Campaign-manger-profile.png)
 
 ### Agent Manager
 
-![](/img/Agent-manager-profile.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent-manager-profile.png)

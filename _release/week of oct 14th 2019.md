@@ -133,7 +133,7 @@ For more information on Intent Analyzer and how to set up please [click here](ht
 
 ### Screenshots
 
-![](img/liveintent_dashboard-section-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/liveintent_dashboard-section-1.png)
 
 ## New Data Analytics Report for Agent Survey
 

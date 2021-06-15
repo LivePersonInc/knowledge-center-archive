@@ -45,7 +45,7 @@ Second, you can now customize the answer choice text of the survey interactions 
 
 Customizing the answer choice text and reordering choices has no impact on the underlying actual values that are reported to Analytics Builder. These never change; this ensures that the survey answers are always properly reported.
 
-![](img/CB4.0-week-of-march-22nd-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CB4.0-week-of-march-22nd-1.png)
 
 **Note:** Take care when changing the answer text; remember to update the conditions in the rules accordingly.
 
@@ -62,7 +62,7 @@ To read more information about the video and voice feature please see the [Knowl
 
 Voice and video calls are automatically enabled on the brand’s Conversational Cloud account. [Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow or restrict the video and voice calls feature for all agents or only a subset of agents. The permissions are part of the Agent profile. The permissions that control this feature are the “Initiate voice conversation” permission to allow voice calls, and the “Initiate live video conversation” permission to allow video calls.
 
-![](img/week-of-march-22nd-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-22nd-4.png)
 
 **Then, the brands will need to configure voice and video on the SDK:**
 
@@ -217,7 +217,7 @@ Defines tint color for icons on Navigation and Tab bar icons for voice & video S
 * Default value: black
 
 {: .sidebyside} 
-![](img/week-of-march-22nd-5.png) ![](img/week-of-march-22nd-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-22nd-5.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-22nd-6.png)
 
 ## [iOS mobile SDK] Structured Content outer padding configuration
 ### Type: New functionality (iOS SDK 6.3)
@@ -316,11 +316,11 @@ The accessibility of the Structured Content Carousel navigation buttons has been
 
 Previous: 
 
-![](img/week_of_march_22nd_1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week_of_march_22nd_1.gif)
 
 New: 
 
-![](img/week_of_march_22nd_2.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week_of_march_22nd_2.gif)
 
 #### Window Customization CSS elements:
 
@@ -371,7 +371,7 @@ Previous changes to the HyperLinksHelper created an issue with links rendering f
 
 An issue was discovered on iOS mobile Web Messaging where the Structured Content carousel would disappear when scrolling. The on-hover timestamp element at the end of the carousel was the root of the issue and, given there are timestamp elements below the carousel, the on-hover timestamp has been removed and the issue resolved. See screenshot for exact component name. 
 
-![](img/week-of-march-22nd-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-22nd-3.png)
 
 ## [Structured Content] Agent icon within the window is not aligned with Structured Content
 ### Type: Bug fix (UW 10.8)

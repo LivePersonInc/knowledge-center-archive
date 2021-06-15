@@ -19,7 +19,7 @@ redirect_from:
 
 To enable the Manager Workspace on your LivePerson Conversational Cloud account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent Manager Workspace”. The permission is “On”  by default.
 
-![](img/new-manager-workspace-permissions.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-permissions.png){:class="newagent"}
 
 ### New Agent Workspace
 
@@ -37,12 +37,12 @@ The following filters can be applied to the sections listed above:
 
 1. **Time filter** - by default, the workspace will show data from the last hour. Users will be able to change the time range to view data from the past X hours. The maximum supported time range is 24 hours.
 
-![](img/new-manager-workspace-7.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-7.png){:class="newagent"}
 
 {:start='2'}
 2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing.
 
-![](img/new-manager-workspace-8.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-8.png){:class="newagent"}
 
 ## In queue widget
 
@@ -53,9 +53,9 @@ The "in queue" widget presents the number of conversations currently waiting for
 * A breakdown of "in-queue" conversations by skill is shown.
 * Conversations assigned to the "UNASSIGNED" skill will also be included in the in queue conversations value.
 
-![](img/new-manager-workspace-9.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-9.png){:class="newagent"}
 
-![](img/new-manager-workspace-10.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-10.png){:class="newagent"}
 
 ## Activity summary
 
@@ -65,7 +65,7 @@ The metrics widget provides a high level "health check" of your group’s real-t
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe.
 
-![](img/new-manager-workspace-11.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-11.png){:class="newagent"}
 
 ## Agent widget
 
@@ -77,13 +77,13 @@ The widget supports two views, which can be switched using the icons available o
 
 This view is useful for managers who monitor a short list of agents and would like to see a more visual manner - or if you’d like an easier way to view information on a specific agent.
 
-![](img/new-manager-workspace-12.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-12.png){:class="newagent"}
 
 ### List view
 
 This view is helpful for managers who have a large number of agents and need a list to quickly view and sort.  The list view is also very helpful when comparing metrics between agents.
 
-![](img/new-manager-workspace-14.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-14.png){:class="newagent"}
 
 #### Definitions
 
@@ -107,12 +107,12 @@ In addition to the time and group filter available in the top right corner of th
 
 The following screenshot demonstrates the filter showing only ‘away’ agents:
 
-![](img/new-manager-workspace-16.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-16.png){:class="newagent"}
 
 * **AGENT NAME** - The filter is  available from the filter icon in the top left corner of the widget OR in the agent name column in the ‘List view’
 * **SKILLS** - The filter is  available from the filter icon in the top left corner of the widget OR in the agent name column in the ‘List view’
 
-![](img/new-manager-workspace-17.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-17.png){:class="newagent"}
 
 #### Sorting
 
@@ -149,9 +149,9 @@ The list will include following columns:
 
 Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/messaging-managers-all-connections.html#2-conversation-view) of the ‘All Conversations' list.
 
-![](img/new-manager-workspace-18.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-18.png){:class="newagent"}
 
-![](img/new-manager-workspace-20.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-20.png){:class="newagent"}
 
 #### Filters
 
@@ -162,7 +162,7 @@ In addition to the group and time filters at the top of the dashboard, the list 
   * Closed conversations that the agent was the last to handle.
 * **SKILL** - Retrieves conversations which are currently assigned with the filtered skill.
 
-![](img/new-agent-workspace-21.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-workspace-21.png){:class="newagent"}
 
 #### Sorting
 

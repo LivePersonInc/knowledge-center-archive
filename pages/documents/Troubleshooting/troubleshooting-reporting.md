@@ -42,11 +42,11 @@ For example, the total NO. OF CONVERSATIONS HANDLED reported in the Excel file i
 
 **Analytics Builder report**
 
-![](/img/troubleshooting-Reporting1-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-Reporting1-2.png)
 
 **Exported report totals**
 
-![](/img/troubleshooting-reporting2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-reporting2.png)
 
 ### Cause:
 

@@ -17,7 +17,7 @@ Accepting conversations manually is not always the most efficient way to manage 
 
 To avoid these problems, LivePerson’s Automatic Conversation Distribution (ACD) helps brands manage agent workload more effectively by intelligently routing conversation requests and balancing the workload among the pool of available agents. For brands using messaging, ACD also works to distribute conversations intelligently between messaging agents.
 
-![](/img/acd-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/acd-1.png)
 
 ## How ACD works
 
@@ -77,4 +77,4 @@ ACD settings can be configured in the Night Vision overlay, for chat and also f
 1. Select the time interval before the conversation is sent back to the queue.
 2. If you want the agent status to change automatically if the agent doesn’t accept the chat, select change to Away. (optional, live chat only)
 
-![](/img/acd-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/acd-3.png)

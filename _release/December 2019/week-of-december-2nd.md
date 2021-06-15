@@ -74,11 +74,11 @@ If the consumer sends an image that is not supported or image size is beyond the
 
 Image 1: Consumer sends an image to agent
 
-![](img/week-of-december-2nd-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-december-2nd-1.png)
 
 Image 2: Agent sees the image in their workspace
 
-![](img/week-of-december-2nd-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-december-2nd-2.png)
 
 ## [ABC] URL error in CIM with SDK enabled
 

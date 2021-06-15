@@ -80,19 +80,19 @@ In this phase, the following capabilities will be available:
 
 Image 1: Messaging agent survey library
 
-![](img/week-of-august-26th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26th-1.png)
 
 Image 2: Assign messaging agent survey to skills
 
-![](img/week-of-august-26-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26-2.png)
 
 Image 3: Edit/create agent survey
 
-![](img/week-of-august-26-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26-3.png)
 
 Image 4: Messaging agent survey widget in the agent workspace
 
-![](img/week-of-august-26-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26-4.png)
 
 ## Support Video/Voice in the widget SDK
 
@@ -219,15 +219,15 @@ This feature will be supported for both desktop and mobile devices
 
 Image 1: Enable browser notifications
 
-![](img/week-of-august-26-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26-5.png)
 
-![](img/week-of-august-26-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26-6.png)
 
 Image 2: Consumer sees browser notification
 
-![](img/week-of-august-26-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26-7.png)
 
-![](img/week-of-august-26-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-26-8.png)
 
 ## File sharing - Chat window file sharing
 

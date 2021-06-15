@@ -15,7 +15,7 @@ isNew: false
 ---
 Messaging is now the preferred mode of communication for both sales and care use cases. Over 90% of people’s day-to-day conversations happen in digital messaging channels like SMS, Facebook and WhatsApp. With messaging as the channel of choice, businesses have started to connect to their consumers where they already are - through messaging. This shift traditional voice calls and live chat to messaging is transforming the way brands and consumers communicate.
 
-![](/img/Managing-a-contact-center-that-messages-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Managing-a-contact-center-that-messages-1.png)
 
 While AI and automation enable this transformation to happen at scale, everything from agent best practices, staffing, queuing, routing and KPIs needs to be tailored to messaging operations in order for brands to continue to run their contact centers with efficiency. To accomplish this shift, LivePerson offers a comprehensive, end-to-end conversational platform that gives brands the tools they need to transform into a conversational business.
 
@@ -32,7 +32,7 @@ In addition to responding to consumers needs and expectations, brands who make e
 * **Expand accessibility with multi-channel** - Extend messaging directly over SMS, Facebook, Line, Web, Google My Business, WhatsApp and Apple Business Chat, and manage all communications in a single platform.
 * **Higher resolutions rates -** Agents have the leeway to consult with a colleague or an external application to compose the _right_ answer, increasing first time resolution rates and customer satisfaction.
 
-![](/img/lp-cc-1-1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-cc-1-1.gif)
 
 ## Tools to manage a contact center that messages
 
@@ -52,7 +52,7 @@ Since messaging is intuitive to consumers and easily accessible on an array of c
 
 LivePerson's [ Dynamic Routing engine](ai-bots-automation-conversation-orchestrator-dynamic-routing.html) deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a [routing bot](getting-started-getting-started-with-bots.html).
 
-![](/img/managing-cc-that-messages.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/managing-cc-that-messages.png)
 
 ### Queue prioritization
 
@@ -92,7 +92,7 @@ Conversations that are not completed but are inactive may clutter up the Agent W
 
 ### Agent workspace
 
-![](/img/agent-workspace.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace.png)
 
 The Agent Workspace is a fully equipped, centralized platform equipped with innovative tools and resources, such as predefined content, CRM integrations, and other capabilities. The goal of the Agent Workspace is to help agents effectively answer and manage conversations from different channels, and it is designed to organize important conversations for the agent so they know exactly what to deal with next. Customer agent tools within the Agent Workspace, such as ‘widgets’, contain additional webpages tools or applications that agents can use during the conversation. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.  Learn more by seeing a video to [get acquainted with the Agent Workspace](agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html).
 

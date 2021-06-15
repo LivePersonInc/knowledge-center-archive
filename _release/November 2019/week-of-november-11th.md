@@ -271,7 +271,7 @@ Several new scripting functions have been added for managing the Context Session
 
 **Help:** "i" help icons in interactions are now available in dialog boxes as well as beside important and/or troublesome fields. Click the icon to read its context-sensitive help information. In some cases, these also link you directly to the documentation site for details.
 
-![](img/Usability_enhancementCB.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Usability_enhancementCB.png)
 
 ## File upload support in the Conversation Builder
 
@@ -318,7 +318,7 @@ When a consumer is having a conversation with a bot, it is sometimes necessary f
 
 LivePerson has added support for the upload of files by consumers. There is a new "file upload interaction type" which can be used in dialogs.
 
-![](img/Conversation_Builder_RN_Nov11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Conversation_Builder_RN_Nov11.png)
 
 ## Messaging History API: Messaging agent survey
 
@@ -417,7 +417,7 @@ Given a site setting, mask the thumbnail of an image sent during the conversatio
 
 If this input will be invalid, then the UI will present the following image:
 
-![](img/Thumbnail_masking_RN.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Thumbnail_masking_RN.png)
 
 ## Data access: add profile ID
 
@@ -435,9 +435,9 @@ Users will now have the ability to select between a ‘light’ and ‘dark’ t
 
 **Screenshots**
 
-![](img/week-of-november-11th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-1.png)
 
-![](img/week-of-november-11th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-2.png)
 
 ## \[Agent Survey\] Stop logic added
 
@@ -486,7 +486,7 @@ As part of the messaging agent survey logic, we added the ability to stop the su
 
 **Screenshots**
 
-![](img/week-of-november-11th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-3.png)
 
 ## \[New language support\] Indonesian & Vietnamese
 
@@ -531,7 +531,7 @@ As part of the messaging agent survey logic, we added the ability to stop the su
 
 Brands and users will now have the ability to choose from two new languages in the platform: Indonesian and Vietnamese.
 
-![](img/week-of-november-11th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-4.png)
 
 ## \[Engagement window\] Timestamp grouping
 
@@ -593,13 +593,13 @@ This feature applies for embedded and pop out window as well as for desktop and 
 
 Image 1: Configure timestamp grouping
 
-![](img/week-of-november-11th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-5.png)
 
 Image 2: Engagement window with timestamp grouped vs ungrouped
 
-![](img/week-of-november-11th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-6.png)
 
-![](img/week-of-november-11th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-7.png)
 
 ## \[Engagement window\] Timestamp location
 
@@ -658,13 +658,13 @@ Brands have the capability to configure the timestamp location for the agent and
 
 Image 1: Configure the timestamp location in engagement studio
 
-![](img/week-of-november-11th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-8.png)
 
 Image 2: Engagement window with timestamp set to above/below
 
-![](img/week-of-november-11th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-9.png)
 
-![](img/week-of-november-11th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-10.png)
 
 ## \[Engagement window\] Timestamp alignment configuration
 
@@ -685,13 +685,13 @@ If a brand has the agent picture (avatar) enabled as part of the engagement wind
 
 Image 1: Configure the agent messages timestamp alignment
 
-![](img/week-of-november-11th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-11.png)
 
 Image 2: Agent messages timestamp aligned to agent picture vs agent bubble
 
-![](img/week-of-november-11th-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-12.png)
 
-![](img/week-of-november-11th-13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-13.png)
 
 ## \[Engagement window\] Bubble grouping
 
@@ -758,13 +758,13 @@ To view the exact time each message was sent, users can hover (in desktop) or ta
 
 Image 1: Configure bubble grouping
 
-![](img/week-of-november-11th-14.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-14.png)
 
 Image 2: Bubbles grouped vs ungrouped
 
-![](img/week-of-november-11th-15.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-15.png)
 
-![](img/week-of-november-11th-16.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-16.png)
 
 ## \[Engagement window\] New style for send icon
 
@@ -826,13 +826,13 @@ This configuration will apply to desktop and mobile, embedded and pop-out window
 
 Image 1: Configure Send icon style
 
-![](img/week-of-november-11th-17.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-17.png)
 
 Image 2: Send icons paper plane vs arrow
 
-![](img/week-of-november-11th-18.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-18.png)
 
-![](img/week-of-november-11th-19.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-19.png)
 
 ## \[Engagement window\] Color theme should only impact window colors
 
@@ -889,11 +889,11 @@ Today, when a user selects a color from the “Choose a color theme” section u
 
 Image 1: Set window color scheme
 
-![](img/week-of-november-11th-20.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-20.png)
 
 Image 2: Consumer view of window color
 
-![](img/week-of-november-11th-21.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-21.png)
 
 ## \[Engagement window\] Theme edit warning message
 
@@ -947,11 +947,11 @@ The previous message “System default window is not editable. Create a new wind
 
 Image 1: Default theme warning message
 
-![](img/week-of-november-11th-22.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-22.png)
 
 Image 2: Non-default theme warning message
 
-![](img/week-of-november-11th-23.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-23.png)
 
 ## \[Engagement window\] Large window disclaimer improvement
 
@@ -1000,11 +1000,11 @@ When the window size is set to large, the Engagement window studio presents a di
 
 Image 1: Large window size disclaimer before
 
-![](img/week-of-november-11th-24.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-24.png)
 
 Image 2: Large window size disclaimer after
 
-![](img/week-of-november-11th-25.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-25.png)
 
 ## \[Agent workspace\] Custom widgets memory leak on Internet Explorer 11
 
@@ -1026,7 +1026,7 @@ For customers using the old agent workspace, the latest update to the Chrome bro
 
 Image 1: Duplicate spacing before the fix
 
-![](img/week-of-november-11th-26.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-26.png)
 
 ## \[Enhanced agent workspace\] Option to view Predefined Content item titles only
 
@@ -1076,15 +1076,15 @@ If the user chooses the “Titles only” display option, hovering each item wil
 
 Image 1: The predefined content default state - titles with text for each item
 
-![](img/week-of-november-11th-27.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-27.png)
 
 Image 2: New menu with the option to choose “Show titles only”
 
-![](img/week-of-november-11th-28.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-28.png)
 
 Image 3: Displayed “Titles only” in the widget
 
-![](img/week-of-november-11th-29.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-29.png)
 
 ## \[Enhanced agent workspace\] Unselect conversation action
 
@@ -1136,11 +1136,11 @@ If, however, the user filtered out some of the statuses (e.g idle/closed convers
 
 Image 1: new “Unselect conversation” option in the conversation action menu
 
-![](img/week-of-november-11th-30.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-30.png)
 
 Image 2: the conversation is unselected, and the workspace is not focused on any conversation
 
-![](img/week-of-november-11th-31.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-31.png)
 
 ## \[Enhanced agent workspace\] Display summary notes for previous conversations
 
@@ -1189,7 +1189,7 @@ In the enhanced workspace, past conversations are displayed above the current co
 
 Image 1: Previous conversation is expanded and conversation summary is displayed
 
-![](img/week-of-november-11th-32.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-32.png)
 
 ## \[PCI forms\] Special characters appear in gibberish
 
@@ -1199,7 +1199,7 @@ For some languages that contains special characters (e.g - Russian), when a secu
 
 Before the fix: random characters are being displayed in the agent workspace
 
-![](img/week-of-november-11th-33.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-11th-33.png)
 
 ## Custom widgets memory leak on Internet Explorer 11
 

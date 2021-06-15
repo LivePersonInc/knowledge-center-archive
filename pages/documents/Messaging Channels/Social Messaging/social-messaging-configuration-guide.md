@@ -32,7 +32,7 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 * **Public to Private:** Quickly transition conversations from public social media to private by simply clicking the “Public to Private” button, which sends a call to action button for the consumer to select. 
 * **Mention consumer in reply:** Agents will be able to mention consumers with their Facebook username in their replies, so that consumers will get a notification that they have been mentioned by the brand in the native platform.
 
-![](img/social-messaging-configuration-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-1.png)
 
 ## Considerations and limitations 
 
@@ -69,41 +69,41 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 * Each consumer private message (on Messenger) originating from any of these pages will generate a conversation in the Conversational Cloud
 2. Enable public capabilities: If you would like to receive conversations for any public message or comment on any of these pages as well, enable the toggle button under the "Public" column for the relevant pages.
 
-![](img/social-messaging-configuration-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-2.png)
 
 #### For Conversational Cloud accounts with Facebook connector configured: 
 
 1. Go to Data Source page -> Facebook Messenger → Edit
-![](img/social-messaging-configuration-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-3.png)
 
 {:start="2"}
 2. Press “Next”, to get to the Facebook configuration page
 3. Enable the toggle button under the "Public" column, for the relevant Facebook pages.
-![](img/social-messaging-configuration-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-4.png)
 
 {:start="4"}
 4. Click on the Facebook login button, and authenticate
-![](img/social-messaging-configuration-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-5.png)
 
 {:start="5"}
 5. Click on the “Edit settings” button 
-![](img/social-messaging-configuration-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-6.png)
 
 {:start="6"}
 6. Select the desired pages, and press “Next”
-![](img/social-messaging-configuration-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-7.png)
 
 {:start="7"}
 7. Confirm the needed permissions, by pressing “Done”
-![](img/social-messaging-configuration-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-8.png)
 
 {:start="8"}
 8. A window will be presented, with all connected Facebook accounts
-![](img/social-messaging-configuration-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-9.png)
 
 {:start="9"}
 9. In order to make sure you are subscribed to the correct public events, you will need to unsubscribe from all pages (by clicking “Unsubscribe” per each page), then subscribe again
-![](img/social-messaging-configuration-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-10.png)
 
 {:start="10"}
 10. Press Done
@@ -111,16 +111,16 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 ### Twitter
 
 1. Go to the Campaign Builder → “Data Sources” → “Social Messaging” (alternatively you can select “Social Messaging” from the Quick Launch Menu) 
-![](img/social-messaging-configuration-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-11.png)
 
 {:start="2"}
 2. Add new accounts by selecting the “Connect” button → Choose “Twitter account”
-![](img/social-messaging-configuration-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-12.png)
 
 {:start="3"}
 3. Log into Twitter utilizing the brand’s Twitter account credentials
 4. After logging in, select “Authorize App” to connect with Social Messaging
-![](img/social-messaging-configuration-13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-13.png)
 
 {:start="5"}
 5. Once the authorization is done, all Twitter accounts associated with the provided login credentials will be automatically displayed on the “Social Accounts” page.
@@ -144,13 +144,13 @@ Contact your LivePerson representative to define the routing rules.
  * Select “Data Sources”
  * Select “Integrations” tab
  * Select “Authentication Server - Configure” (skip if brand already has authentication)
-![](img/social-messaging-configuration-17.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-17.png)
 
   * Select “oAuth 2.0 authentication (implicit)”
-![](img/social-messaging-configuration-18.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-18.png)
 
   * Input fake data into fields
-![](img/social-messaging-configuration-19.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-19.png)
 
   * Select “Save” on the bottom of the screen
   * Select “+ Add campaign” on the bottom of the screen
@@ -165,30 +165,30 @@ Contact your LivePerson representative to define the routing rules.
 ### Edit/Unsubscribe from Facebook pages
 
 * Click on the Facebook login button, and authenticate
-![](img/social-messaging-configuration-21.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-21.png)
 
 * To edit account settings: Click on the “Edit settings” button
-![](img/social-messaging-configuration-22.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-22.png)
 
 * Select the desired pages and press “Next”
-![](img/social-messaging-configuration-23.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-23.png)
 
 * Enable/Disable permissions using the toggle button
-![](img/social-messaging-configuration-24.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-24.png)
 
 * Press Done. A window will be presented, with all connected Facebook accounts: 
-![](img/social-messaging-configuration-25.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-25.png)
 
 * To unsubscribe specific pages, simply click on the “Unsubscribe” button next to each Facebook page you wish to remove. 
 
 ### Edit/Unsubscribe from Twitter accounts
 
 * Edit each account’s settings by clicking on the pencil icon, at the right side of the page
-![](img/social-messaging-configuration-26.png)
-![](img/social-messaging-configuration-27.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-26.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-27.png)
 
 * Disconnect specific accounts by clicking on the “Disconnect” button.
-![](img/social-messaging-configuration-28.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/social-messaging-configuration-28.png)
 
 {: .notice}
 **Notes:** Disconnecting an account will result in preventing Conversational Cloud from creating new conversations or handling existing conversations on that account only. Other connected accounts will not be affected by the operation.

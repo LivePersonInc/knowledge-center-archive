@@ -46,7 +46,7 @@ Some contact centers opt to configure the ‘Warm up’ function for agents. If 
 
 ## Viewing closed conversations
 
-![](/img/agent-workspace-basics-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace-basics-1.png)
 
 [All Conversations](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page.
 
@@ -68,7 +68,7 @@ Some contact centers opt to configure the ‘Warm up’ function for agents. If 
 * **Last message time -** The time the last message was sent, by either the agent or consumer, in the conversation
 * **Duration -** The time frame between when the consumer started the conversation until it was ended by either the consumer or the agent. For active conversations, the duration displayed represents the time from the start of the conversation until the moment the data is viewed.
 
-![](/img/agent-workspace-basics-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace-basics-2.png)
 
 ### Pre-filtered connections
 
@@ -98,7 +98,7 @@ Agents and agent managers can search/filter conversations with the following par
 <br/>
 **For example:** An agent manager can filter conversations by duration to identify those with an unusual duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an out of the ordinary length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
 
-![](/img/all-connections-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/all-connections-2.png)
 
 ### Consumer journey
 

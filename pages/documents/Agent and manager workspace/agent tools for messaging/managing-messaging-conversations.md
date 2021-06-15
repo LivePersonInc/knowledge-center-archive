@@ -33,19 +33,19 @@ There are several tools in place to help you access the information you’ll nee
 * **Bot transfers**: If the conversation began with a bot before it was transferred to you, you will be able to see this in a dedicated section called “bot conversation recap.” You’ll be able to see the escalation reason, the intents identified by the bot and of course the conversation transcript.
 * **Custom widgets** - Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
 
-![](/img/managing-messaging-conversations-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/managing-messaging-conversations-1.png)
 
 ## Replying to consumers
 
 You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
 
-![](/img/managing-messaging-conversations-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/managing-messaging-conversations-10.png)
 
 ## Capturing notes within the conversation summary
 
 Conversation Summary is a dedicated widget that enables you write notes and comments about the conversation. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 
-![](/img/managing-messaging-conversations-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/managing-messaging-conversations-2.png)
 
 ## Conversation actions
 
@@ -57,7 +57,7 @@ While conducting a conversation, there are a few actions you can take:
 
 **Copy as plain text**: This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-![](/img/managing-messaging-conversations-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/managing-messaging-conversations-9.png)
 
 ## Adjusting the SLA for follow up
 
@@ -65,7 +65,7 @@ Every time a consumer sends a message, the SLA, or your expected time to reply r
 
 As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
 
-![](/img/managing-messaging-conversations-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/managing-messaging-conversations-3.png)
 
 ## Use Rich Conversations to make your conversations more engaging
 

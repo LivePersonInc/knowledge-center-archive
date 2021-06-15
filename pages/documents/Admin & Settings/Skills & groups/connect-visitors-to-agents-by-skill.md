@@ -21,7 +21,7 @@ Start by creating skills according to your business needs. Then assign skills to
 
 Agent skills are created in the user management area:
 
-![](/img/Transfer to skills_UI-04.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Transfer to skills_UI-04.png)
 
 ## How to create a skill
 
@@ -43,7 +43,7 @@ You can also create a new skill within each user profile. See section [assigning
 3. Click on the Action menue on the top right of the screen.
 4. Click Delete.
 
-![](/img/delete_skill.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/delete_skill.png)
 
 {: .notice}
 You can also delete users in bulk, by using our Skills API. [Please refer to the Developer Center](https://developers.liveperson.com/skills-api-methods-delete-skills.html) for more information on how to use the API.
@@ -56,7 +56,7 @@ This means that when handling a conversation from a certain skill, the agent wil
 
 For example, messaging skills should only transfer to other messaging skills, chat skills to other chat skills, and there should be limited transfer to bot skills.
 
-![](/img/Connect-visitors-by-agent-skills2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Connect-visitors-by-agent-skills2.png)
 
 By default, the checkbox under the section transfer to skills is selected, meaning that the skill will be able to transfer to any other skill defined in the system. By clicking in the box, a dropdown of available skills will appear. These can be selected or deselected to determine whether or not the skill can be transferred on to them.
 
@@ -79,7 +79,7 @@ The following survey types are supported:
 * [Post-chat survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#post-chat-survey)
 * [Agent survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#agent-survey)
 
-![](/img/connect-visitors-agent-skills3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/connect-visitors-agent-skills3.png)
 
 {: .notice}  
 In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [assign permissions.](admin-settings-permissions-assign-permissions.html)
@@ -96,7 +96,7 @@ Users are assigned skills by selecting a skill that you have already created, or
 2. In the skills field, select an existing skill or type the name of a new skill that you wish to assign to this user (for example, if you type ‘sales’, an option will dropdown ‘create skill ‘sales’).
 3. Click save.
 
-![](/img/connect-visitors-to-agents4-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/connect-visitors-to-agents4-1.png)
 
 ## Assigning skills to engagements
 

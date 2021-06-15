@@ -47,31 +47,31 @@ The following examples are just a small selection of the huge variety of structu
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
-![](/img/SCC1 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SCC1 (1).png)
 
 ### Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
-![](/img/SCC2__1_.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SCC2__1_.png)
 
 ### Geo-Navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
-![](/img/SCC3 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SCC3 (1).png)
 
 ### Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
-![](/img/SCC7 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SCC7 (1).png)
 
 ### Product catalog
 
 Product catalog allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
 
-![](/img/Screen_Shot_2019-01-28_at_2.12.46_PM.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Screen_Shot_2019-01-28_at_2.12.46_PM.png)
 
 ## Enabling structured content
 

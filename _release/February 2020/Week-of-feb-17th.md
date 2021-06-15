@@ -74,7 +74,7 @@ New settings will be added to LiveEngage UI to enable brands to choose the attri
 The UI is not deployed yet, in order to change the setting to ‘All’  please contact the Live Person account team.
 
 **Screenshots**
-![](img/new_goal_tracker_messaging_1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new_goal_tracker_messaging_1.png)
 
 ## Messaging Performance Grids
 ### Type: enhancement [RB 4.2]
@@ -138,7 +138,7 @@ To enable: Please see the [Agent survey for messaging article](contact-center-ma
 * Reporting in the Report Builder will be available in March
 
 **Screenshots:** 
-![](img/week-of-february-17th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-1.png)
 
 ## Set idle time automatically according to Smart Capacity 
 ### Type: Enhancement (NAW 1.10)
@@ -161,7 +161,7 @@ This will affect all accounts working with the enhanced agent workspace, in the 
 **Screenshots:** 
 
 Conversations with the idle status: 
-![](img/week-of-february-17th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-2.png)
 
 ## Transfer to skill - Add indication for number of online agents 
 ### Type: Enhancement (NAW 1.10)
@@ -170,7 +170,7 @@ Whenever an agent transfers a conversation to skill, a new indication will now a
 
 **Screenshots:** 
 
-![](img/week-of-february-17th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-3.png)
 
 ## Display conversation source in My Connections list
 ### Type: Enhancement (NAW 1.10)
@@ -182,7 +182,7 @@ The My Connections list has been enhanced to include an indication of the conver
 
 **Screenshots:** 
 
-![](img/week-of-february-17th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-4.png)
 
 ## System crashes when working with Internet Explorer 11
 ### Type: Bug fix (NAW 1.10)
@@ -197,7 +197,7 @@ When using filter dropdown by agent names, the dropdown list only displayed agen
 
 **Screenshots:** 
 
-![](img/week-of-february-17th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-5.png)
 
 ## Custom widgets infinite loader
 ### Type: Bug fix (NAW 1.10)
@@ -217,7 +217,7 @@ It was discovered that if the consumer info widget is disabled on a LiveEngage a
 **Screenshots:** 
 
 Custom widgets not loading properly if the consumer info widget is disabled:
-![](img/week-of-february-17th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-6.png)
 
 ## New line represented as `<br>` gets ignored
 ### Type: Bug fix (NAW 1.10)
@@ -229,17 +229,17 @@ When the agent input area contains a new combination of line characters, explici
 
 Whenever a consumer sends a new message during a messaging conversation, an unread notification badge appears on top of the “Agent workspace for Messaging” module, which counts the number of conversations with at least 1 unread message. An additional icon is displayed in the My Connections list, for every conversation with at least 1 unread message in it.
 
-![](img/week-of-february-17th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-9.png)
 
 In scenarios when consumers sent a new message, then immediately closed the conversation (but the agent did not read the consumer message yet), the unread notification counter on the agent workspace module used to count this message as unread, while the unread notification icon in the My Connections list has not been displayed for closed conversations. 
 
 This caused a discrepancy between the two notification icons: agents saw an unread notification on top of the agent workspace module, but could not find the conversation it originated from.
 
-![](img/week-of-february-17th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-10.png)
 
 This bug has been fixed, and the unread notification icons are now displayed both on the module, and in the My Connections list, on top of the closed conversation line.
 
-![](img/week-of-february-17th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-11.png)
 
 ## Cancel and close buttons not responding
 ### Type: Bug fix (NAW 1.10)
@@ -253,7 +253,7 @@ Customers working on Internet Explorer 11, sending video cards to consumers - a 
 
 **Screenshots** 
 
-![](img/week-of-february-17th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-7.png)
 
 ## Agents cannot copy and paste any text in summary on Internet Explorer 11
 ### Type: Bug fix (NAW 1.10)
@@ -279,4 +279,4 @@ When a user is creating predefined content and configures sentences to appear on
 
 **Screenshots** 
 
-![](img/week-of-february-17th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-17th-8.png)

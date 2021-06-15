@@ -39,18 +39,18 @@ This feature can be set up for agents in 3 different states:
 
 1. Agent has an active conversation with the consumer. Consumer has sent the last message in the conversation and is awaiting the agent response.
 
-![](img/automatically-unassign-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatically-unassign-1.png)
 
 {:start="2"}
 2. 60 seconds has passed since the consumer message, and the assigned agent is defined as an unresponsive agent. The platform auto unassigned the agent from the conversation and returned it to the queue for an available agent to pick up. 
 
-![](img/automatically-unassign-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatically-unassign-3.png)
 
 ## Consumer experience
 
 The consumer has a seamless experience when one agent is unassigned from the conversation and a new agent takes over.  
 
-![](img/automatically-unassign-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatically-unassign-4.png)
 
 ## Setup
 

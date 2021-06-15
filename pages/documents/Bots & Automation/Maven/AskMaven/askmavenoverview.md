@@ -40,6 +40,6 @@ This is often used in conjunction with the Conversation Context Service to pass 
 2. Copy and paste the key provided, and use it in your API headers.
 3. To generate a new key, click the Regenerate Key button. This will invalidate the previous key. The key is shared for all Conversation Orchestrator APIs; therefore, you must use the new key wherever the APIs are being called.
 
-![](img/co_ccs_developerkey2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/co_ccs_developerkey2.png)
 
 Please see [Dynamic Routing's Getting Started]https://developers.liveperson.com/conversation-orchestrator-dynamic-routing-getting-started.html) for more information.

@@ -42,11 +42,11 @@ Which bot annotations are submitted? Do all bots improve over time when annotati
 
 ## Brand Level Analysis
 
-![](img/bot-performance-dashboard-for-messaging1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bot-performance-dashboard-for-messaging1.png)
 
 ## Bot Level Analysis
 
-![](img/bot-performance-dashboard-for-messaging2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bot-performance-dashboard-for-messaging2.png)
 
 ## Intent Annotation Metrics
 

@@ -34,7 +34,7 @@ The column holds the list of all unique intents detected in the conversations in
 
 The intent detection is based on machine learning classifications. Hence, false negative and false positive intent detections are expected. In these cases, it is recommended to improve the quality of the intents via the Intent Builder.
 
-![](img/whats-new-july3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/whats-new-july3.png)
 
 ## Groups Hierarchy Filter
 The global group filter available in the top right corner of the workspace has been modified to support:
@@ -43,7 +43,7 @@ The global group filter available in the top right corner of the workspace has b
 
 2. Once a group is selected, its sub-groups will be auto-selected as well. Users will be able to select only the parent group without its sub-groups by clicking on the parent group name rather than the checkbox.
 
-![](img/whats-new-july1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/whats-new-july1.png)
 
 ## Response Time Metrics
 New response time- related metrics will be added to the “Activity summary” widget, allowing managers to better track consumer experience and agent performance in real-time, on the group and skill level. Four response-time related metrics will be introduced:
@@ -56,7 +56,7 @@ New response time- related metrics will be added to the “Activity summary” w
 This new capability allows brands to configure, per widget, which metrics will be displayed in the workspace. For example, brands that are not tracking the CSAT metric will now be able to remove it from their view.
 Please note: The configuration definition will impact the entire account and therefore impacts the view of all users of the manager workspace.
 
-![](img/whats-new-july2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/whats-new-july2.png)
 
 ## Messaging Agents list for agents using the enhanced agent workspace
 Agents using the enhanced agent workspace were not able to view the “messaging agents list”  even if they had the "View agent list" permission. Now, agents using the enhanced agent workspace will have access to this data through a limited access view of the manager workspace.

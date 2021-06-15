@@ -24,9 +24,9 @@ You can also select a range of items (e.g., Days) on any bar graph by pressing t
 
 The Overview Tab - Example Widgets seen in Overviews
 
-![](img/insights_2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_2.png)
 
-![](img/insights_3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_3.png)
 
 ### Customer Tab
 * This tab is used to display the Voice of Customer.  Views are based on the text from the customers’ side of the conversation.
@@ -34,7 +34,7 @@ The Overview Tab - Example Widgets seen in Overviews
 * The Topic Wheel categorises conversations into groups that are similar in terms of semantics and words used.
 
 Example Topic Wheel
-![](img/insights_4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_4.png)
 
 * The word cloud to the right of the wheel displays the most significant word pairs (bi-grams) used by customers, in terms of frequency. The size of the bi-gram indicates its significance. Bigram colours indicate sentiment - positive (blue), neutral (grey) or negative (red)
 
@@ -42,7 +42,7 @@ Example Topic Wheel
 Instead of relying on sentiment, we recommend that customers use their own metrics (e.g., CSAT, NPS, FCR) as a more robust indication on how consumers feel about their brand
 
 Example Word Cloud
-![](img/insights_5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_5.png)
 
 Taxonomy results are based on a Boolean keyword-based set of rules used to categorise text based on labels of the creators choosing
 Example - What is my account balance?
@@ -52,7 +52,7 @@ Example - What is my account balance?
 For more detail, please refer to the taxonomy guide 
 
 Example Taxonomy
-![](img/insights_6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_6.png)
 
 ### Agent Tab
 This tab is used to display the Voice of Agent.  Views are based on the text from the agents’ side of the conversation.
@@ -68,10 +68,10 @@ Other Web related visualisations are displayed here, including browser and devic
 Topics (taxonomy results) are also displayed on this tab to help identify the topics and drivers by URL
 
 Example Chat Start URLs
-![](img/insights_7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_7.png)
 
 Example Visualisations - Browser & Device Types, Topics
-![](img/insights_8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_8.png)
 
 ### Data Tab
 * This tab displays all data contained in the datastreams (databases) upon which the Dashboard is based.
@@ -83,12 +83,12 @@ Example Visualisations - Browser & Device Types, Topics
 ‘Balance’ search results, searching by Customer Verbatim and choosing Customer NLU Model
 Results show previews of conversations.
 
-![](img/insights_9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_9.png)
 
 ‘Balance’ search results, searching by Customer Verbatim and choosing Customer Taxonomy
 Results show associated Taxonomy Labels of conversations.
 
-![](img/insights_10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_10.png)
 
 ## Key Components of the Dashboard:
 ## Widgets
@@ -98,7 +98,7 @@ Clicking on the menu bar in the top right of any widget brings up a menu to Edit
 Please note: If you are designated as a ‘view only’ user, you can add filters and rearrange the views.  However, any changes made to the dashboard will be erased once you exit out of the dashboard. The administrator of the dashboard controls your permissions.
 
 Widget with Open Menu
-![](img/insights_11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_11.png)
 
 ### Copying Widgets
 Click Copy from the menu in the top right corner of a widget. Right click anywhere within any tab of the dashboard to paste the copied widget.
@@ -111,38 +111,38 @@ Clicking the big PLUS SIGN button in the bottom right of any tab opens the Widge
 To edit an existing widget, click Edit from the menu in the top right corner of the widget. This opens the Widget Editor, allowing you to amend the data dimensions and visualisations required for the widget. 
 
 The Widget Editor
-![](img/insights_12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_12.png)
 
 ### Common Visualisations:
 #### Gauge 
 This is the default visualisation for Sentiment Fields. A gauge, resembling a dial or speedometer, uses a needle to show information as a reading on a dial. You read the value for the needle against a colored data range: red, grey, and blue by default. Use this visualisation type to show key business indicators.
 
 {: .sidebyside}
-![](img/insights_13.png)![](img/insights-+_14.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_13.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights-+_14.png)
 
 #### Bar Chart
 This requires at least one numerical dimension. This visualisation is best suited to looking at record counts over a period of time (e.g., weeks). Bar charts are also best used to represent distribution of a handful of items, e.g., CSAT scores 1 - 5
 
 {: .sidebyside}
-![](img/insights_15.png)![](img/insights_16.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_15.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_16.png)
 
 #### Line Chart
 This requires at least one numerical dimension. Line Charts are best used to visualise a KPI trend over time, e.g., CSAT / NPS Scores.
 
 {: .sidebyside}
-![](img/insights_17.png)![](img/insights_18.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_17.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_18.png)
 
 #### Pie Chart
 This requires at least one numerical dimension. Pie Charts are best used to show relative proportions of a small amount of items, e.g., Device Types
 
 {: .sidebyside}
-![](img/insights_19.png)![](img/insights_20.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_19.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_20.png)
 
 #### List
 Requires one dimension. Lists are best used for fields which return a large amount of results and would therefore not chart cleanly. Taxonomy results and Chat Start URLs are commonly used in list format.
 
 {: .sidebyside}
-![](img/insights_21.png)![](img/insights_22.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_21.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_22.png)
 
 ### Exporting Widgets
 Click Export from the top right corner of a widget. From here you can export the contents of the widget in a variety of formats, including Excel or Graph (image) format. When exporting a List visualisation, this will export the number of records set under Amount Shown at the bottom of the Widget Editor 
@@ -157,6 +157,6 @@ Clicking on the magnifying glass in the top left of a widget displaying a list v
 
 Please note that Widgets default to showing the first 200 results. Searching within a widget will only look at these first 200 results. For more detail, refer to the [Creating Widgets guide.](https://knowledge.liveperson.com/data-reporting-insights-creating-new-widgets.html)
 
-![](img/insights_23.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/insights_23.png)
 
 

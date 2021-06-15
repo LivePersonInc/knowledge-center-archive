@@ -73,7 +73,7 @@ The report will show data at the brand and agent and skills levels.
 * Which answer was submitted? 
 * How many times is each answer given? 
 
-![](img/RB4.4_1_April20.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4.4_1_April20.png)
 
 ## Manual SLA KPIs
 ### Type: New functionality (Report Builder 4.4)
@@ -122,7 +122,7 @@ No. of manual SLA actions performed - Number of manual SLA actions performed by 
 
 The additional KPIs are provided by agents\ skills\ brand.
 
-![](img/RB4.4_2_April20th.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4.4_2_April20th.png)
 
 ## New Subscription option for week days, easy to use list of subscriptions
 ### Type: Enhancement (Report Builder 4.4)

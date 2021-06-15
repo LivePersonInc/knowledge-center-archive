@@ -17,4 +17,4 @@ The LivePerson platform is designed to reflect and support your brand goals and 
 
 Each line of business will be set up with unique and siloed campaigns and reports. [Campaigns](contact-center-management-campaigns-campaigns-overview.html) will be assigned to a particular LoB, meaning that campaign managers will have access to all campaigns, with the ability to filter campaign lists and reports by LoB.
 
-![](/img/Filtering.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Filtering.gif)

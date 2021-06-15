@@ -25,7 +25,7 @@ This dashboard also entails hour offset capabilities allowing users to show the 
 
 The following panel will be presented when accessing the goal tracker predefined dashboard. It provides an overview of all goals reached (including conversions), by skill and by agent, and a list of all goals reached events within the selected timeframe.
 
-![](/img/Agent_goal_tracker_report.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent_goal_tracker_report.jpg)
 
 _Image 1- Agent goals tracker report main panel_
 
@@ -56,7 +56,7 @@ The following metrics and attributes may be added to the predefined dashboard vi
 
 The goal tracker is currently unique in the sense that it captures engagement attributes sent to LivePerson from the brand’s website. The data source feeding the goal tracker includes all events indicating that a campaign goal was achieved. Each event contains relevant meta data per goal type. The following is a categorized list of goal types and their corresponding attributes that are included in the meta data:
 
-![](/img/Table-goal-tracker-report1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Table-goal-tracker-report1.png)
 
 To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
 

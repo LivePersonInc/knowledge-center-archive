@@ -25,7 +25,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 A new global skill filter has been added to the manager workspace, allowing users to easily filter the entire workspace by specific skills. The filter is available on the top right corner of the page, next to the timeframe and group filters. The new filter impacts all widgets and metrics available.
 When filtering by skill, the “Agents” widget will retrieve the list of agents that are assigned to the selected skills. Please note that the metrics associated will not be filtered according to the skill, but for all of the agent’s activity. For example, if an agent is assigned multiple skills, the metrics will reflect all of their conversations and not just the filtered skill. 
 
-![](img/week-of-april-6th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-6th-1.png)
 
 
 ## Global filter setting at logout retained upon login
@@ -38,7 +38,7 @@ In order to spare users from having to reset the workspace filters with each log
 
 The “Active” metric, which was previously available only on the list view of the Agents widget, has been added to the card view as well. The metric displays the number of conversations at full intensity.
 
-![](img/week-of-april-6th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-6th-2.png)
 
 ## Agent group filter for conversation widget 
 ### Type: Bug fix (Manager workspace 1.8)

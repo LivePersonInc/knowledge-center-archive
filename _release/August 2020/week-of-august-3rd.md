@@ -52,7 +52,7 @@ setBotVariable(name, value, persistForSession, persistForever).
 
 Bot developers should begin the development work now to update existing implementations to use the Context Session Store for storing data long-term. The Context Session Store allows for setting data in Global, User, and Conversation scopes.
 
-![](img/foreverOption.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/foreverOption.png)
 
 ## Bug fixes for UMS 3.28
 * Fixed the global MaskingContext overriding issue and added logs for UMS data that not be masked when it should be.

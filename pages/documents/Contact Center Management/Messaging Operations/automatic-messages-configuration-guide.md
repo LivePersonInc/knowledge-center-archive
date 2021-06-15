@@ -17,7 +17,7 @@ isNew: false
 
 Automatic, or system, messages are predefined messages that are presented automatically in the Engagement Window during a conversation to provide a contextual information to consumers about the status of the conversation. Their purpose is to gain the consumer’s trust in the messaging channel, by setting expectations and giving the consumer visibility over the agent’s availability.
 
-![](/img/automatic-messages-messaging-1b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatic-messages-messaging-1b.png)
 
 Auto messages are triggered upon specific events that are detected by the system, for example:
 
@@ -46,7 +46,7 @@ LivePerson has a default set of messages configured at the account level. Messag
 {:start="3"}
 3. Select a message to edit. The Edit Automatic Message page is displayed.
 
-![](/img/automatic-messages.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatic-messages.png)
 
 {:start="4"}
 4. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
@@ -55,7 +55,7 @@ Click **Save**.
 
 **Note:** The automatic message library can also be reached from the messaging settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
 
-![](/img/automatic-messages-messaging-6b-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatic-messages-messaging-6b-1.png)
 
 ### To translate a message
 
@@ -63,13 +63,13 @@ Click **Save**.
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3. Click Save
 
-![](/img/automatic-messages-messaging-8b.png) 
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatic-messages-messaging-8b.png) 
 
 ### To customize messages for a specific skill
 
 1. On the **Edit Automatic Message** page, click the “+” button below the message description, next to the default All Skills button. A skill selection floating window is displayed.
 
-![](/img/automatic-messages.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatic-messages.png)
 
 {:start="2"}
 2. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
@@ -81,7 +81,7 @@ Note: if there is no text input for that message, the tab will appear with dashe
 
 Some of the messages can be customized to include dynamic text. Dynamic text changes based on the current characteristics of the Agent, such as the Agent’s name. The available options are:
 
-![](/img/5_AM Dynamic text2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/5_AM Dynamic text2.png)
 
 **Expected response time** - The expected response time or SLA before the consumer will be answered by an agent {expectedResponseTime}. The time can be set in days, hours or minutes. The logic is based off of the Expected Wait Time and will show the expected response time based on the SLA as well as other parameters. For example, if the account is in “out of hours” mode at the moment, it will take the relevant SLA (say, 2 hours) and add that to the time when the account is back online.
 
@@ -114,7 +114,7 @@ Brands can set a different timer per skill.
 3. Click Save
 4. Click Done.
 
-![](/img/automatic-messages-messaging-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatic-messages-messaging-10.png)
 
 ## Editing the look and feel of auto messages
 
@@ -286,11 +286,11 @@ This applies for the off hours **auto messages** only; it does not affect any ot
 
 1. Click the downward arrow next to the user name and click "Shift Scheduler"
 
-![](/img/Agent menu open.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent menu open.png)
 
 2. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
 
-![](/img/automatic-messages-messaging-18b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/automatic-messages-messaging-18b.png)
 
 3. Define your current shift status:
 

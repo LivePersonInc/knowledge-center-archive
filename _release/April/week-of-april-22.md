@@ -32,7 +32,7 @@ This issue has now been resolved and when the conversation is closed, the welcom
 
 **Screenshots**
 
-![](/img/Webex2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Webex2.png)
 
 ### Agent avatar appears next to visitor’s message when visitor sent an image (CX-169)
 

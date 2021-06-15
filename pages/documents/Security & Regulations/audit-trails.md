@@ -49,7 +49,7 @@ The following values are recorded in the audit trail:
 
 The audit trail can be accessed by clicking on the account settings menu to the top right of the Agent Workspace.
 
-![](/img/audit2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/audit2.png)
 
 Account administrators have access to audit trail reports by default. If a brand would like to enable the audit trail permission for some administrators, but not for others, this can be achieved by creating a new custom profile within the admin role. For further information, refer to the [customize user profiles.](admin-settings-permissions-customize-permissions.html)
 
@@ -65,4 +65,4 @@ Audit trails are available on the following features:
 * Campaign timeframes
 * Post Conversation Survey
 
-![](/img/Audit-trail.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Audit-trail.png)

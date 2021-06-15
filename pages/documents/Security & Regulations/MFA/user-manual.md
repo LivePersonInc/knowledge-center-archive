@@ -31,19 +31,19 @@ When a Conversational Cloud user logs in from LivePerson’s login page (after p
 
 A user goes which through the MFA flow for the first time, will see the following page. This page includes a QR code which should be scanned using the authenticator app (see [this section](#totp-mobile-authenticator-app)) for first time configuration (after finishing this on-boarding process once, the user will not see this page again).
 
-![](/img/Scan QR MFA.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Scan QR MFA.png)
 
 ### Step 2 - Retrieve code
 
 Now the user should use one of the authenticator mobile apps listed above and scan the QR code. After scanning, the authenticator app displays a six-digit code that you can enter in the Conversational Cloud (see next step).
 
-![](/img/OTK Code.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/OTK Code.png)
 
 ### Step 3 - Submit code
 
 The Conversational Cloud will provide the user with an input area where they should submit the six-digit code they received from the authenticator app and submit. This page will be presented to an agent on every login attempt right after they submit their login credentials (login name & password).
 
-![](/img/Submit OTK.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Submit OTK.png)
 
 ## TOTP mobile authenticator app
 

@@ -67,7 +67,7 @@ Add the “CAMPAIGN DELETED INDICATOR” and “CAMPAIGN NAME” under the List 
 
 New metrics added to existing datasets will appear as hidden in user copies once added to the predefined dashboard. To locate the new metric click on the arrow icon next to the “DASHBOARDS DATASETS” title line, and choose Show Hidden Objects. Scroll down to locate the new metric and check the box next to the metric.
 
-![](/img/FAQRB-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/FAQRB-1.png)
 
 {: .notice}  
 New datasets added to the predefined dashboards do not get carried over to dashboard user-copies.
@@ -78,7 +78,7 @@ After creating a time based derived metric such as ONLINE NOT ENGAGED = ONLINE -
 
 Unfortunately, the default format in Micro strategy for Time based metrics does not carry over 24 hours properly. Therefore, it is advised to use the custom format “\[h\]:mm” instead of the default time format, as shown in the below screenshot:
 
-## ![](/img/FAQ2RB-2-1.png)Funnel Reports
+## ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/FAQ2RB-2-1.png)Funnel Reports
 
 ### How are indirect conversions attributed?
 

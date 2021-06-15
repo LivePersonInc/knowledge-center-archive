@@ -36,7 +36,7 @@ Dialog templates are a great way to:
 * Formalize the import process for a dialog
 * Ensure that bot developers import all required components supporting a dialog
 
-![](img/CB_release_notes_dec7_1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CB_release_notes_dec7_1.png)
 
 ## Bot Analytics- Metrics and trend charts on the main dashboard
 ### Enhancement 
@@ -51,5 +51,5 @@ It is important to note:
 * You can use the date filter to show the data for any 7-day date range within the last 13 months. By default, you are shown the data for the most recent 7 days. If you drill down to a bot dashboard, you can use the date filter to show the data for any 60-day date range within the last 13 months. By default, the date range that’s in use on the main dashboard is applied.
 * “Escalations” are now called “Transfers.” As in the previous release, these can be intended (implemented by design) or unintended (performed due to a consumer’s request or an automatic escalation by the system).
 
-![](img/ba_dashboard_release_notes_dec7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ba_dashboard_release_notes_dec7.png)
 

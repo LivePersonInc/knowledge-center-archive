@@ -26,7 +26,7 @@ To create a new entry point, simply name the entry point and copy its URL into t
 5. If you want to exclude the engagement from specific pages, click **+ Exclude entry point** and copy the target URL into the field on the right
 6. Click the **Save** button
 
-![](/img/entry-point-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/entry-point-1.png)
 
 {: .important}
 **Note:** Entry points are shared throughout your account, so if you modify an entry point, the change will be applied to any other engagements that use this entry point.
@@ -59,20 +59,20 @@ Sections can be used for both web and mobile app engagements. Since website loca
 
 1. Go to the Campaign Builder, and click **Data Sources** in the footnote.
 
-![](/img/entry-point-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/entry-point-2.png)
 
 {:start="2"}
 
 1. Under **Engagement Attributes** click **Visitor Journey** and use the example code under sections.
 2. Paste the code on the pages where you want to display the engagement. Change the code sample section names according to your category names:
 
-![](/img/entry-point-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/entry-point-3.png)
 
 {:start="4"}
 
 1. In the campaign view, under the engagement, click **Entry Point**.
 
-![](/img/entry-point-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/entry-point-4.png)
 
 {:start="5"}
 
@@ -81,4 +81,4 @@ Sections can be used for both web and mobile app engagements. Since website loca
 3. Select section and type the names of the sections where you want the engagement to display. Remember you can tag as many sections as you want to one entry point and if you want exact matches, you will need to use quotes.
 4. Click **Save**.
 
-![](/img/entry-point-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/entry-point-5.png)

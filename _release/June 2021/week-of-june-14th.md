@@ -33,10 +33,10 @@ Users are able to set up rules that contain conditions which check skill availab
 
 #### Create View
 
-![](img/EC1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EC1.png)
 
 #### List view
-![](img/EC2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EC2.png)
 
 ### How to enable
 Please contact your LivePerson account team

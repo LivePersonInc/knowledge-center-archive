@@ -27,7 +27,7 @@ When a chat ends, the reason for the chat’s termination is displayed in the ch
 * The reason for chat termination is recorded in the chat end reason column
 * You can export the chat transcript by selecting 'Export to CSV' from the action drop down menu
 
-![](/img/reporting-data-faqs-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/reporting-data-faqs-1.png)
 
 Read more about it in [understanding the reason a chat ends](contact-center-management-live-chat-operations-understanding-the-reason-a-chat-ends.html).
 

@@ -21,7 +21,7 @@ Conversation Orchestrator’s Agent Assist improves the productivity of human ag
 
 **Multiple Recommendations:** Up to five recommendations can be provided to an agent (previously it was limited to one). These recommendations can include both Knowledge Base articles and bots. Click [here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html) for more information.
 
-![](img/Whats-new-march-17th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Whats-new-march-17th-1.png)
 
 ## Knowledge Base enhancements
 If you have a CMS that you want to leverage in bot conversations or through Agent Assist, you can add an external Knowledge Base without needing to migrate your content. You can use content from your CMS (e.g. Salesforce, Zendesk, SDL, Verint/iKnow, etc) as though it were a native part of the Conversational Cloud to power FAQ bots and Agent Assist recommendations.
@@ -33,18 +33,18 @@ There are a number of updates to Proactive Messaging.
 
 Proactive campaigns will soon support sending images, videos and documents via rich WhatsApp Message Templates (via the Web Tool and Proactive API). In addition, LivePerson has introduced support for sending custom information via Structured Data Entity (SDEs) through the Proactive 2.0 API. The  custom information will be visible to agents,enabling them to get more insight about the consumers without including it in the Proactive outbound messages.
 
-![](img/Whats-new-march-17th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Whats-new-march-17th-2.png)
 
 ## Updates to Agent App
 Agent App v2.6.8 will allow agents to change their password in the app. Additionally a ‘forgot password’ link is provided on the login page. For Agent Managers and Admins using the app on a tablet, the ability to switch between the Agent Workspace and User Manager is now shown below the conversation list. To enable, just search for LivePerson Agent App on the Google Play Store or Apple App & LINE.
 In addition, Agents and joined Agent Managers can send private messages in conversations that are not viewable by consumers
 
-![](img/Agent app-whats-new-march-17th.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent app-whats-new-march-17th.gif)
 
 ## Voice and Video calls via Mobile SDK
 Through your brand’s mobile app, agents can invite consumers to video and voice calls during a messaging conversation. The video or voice call will be facilitated within the messaging interface - via webview container - and will allow consumers to have an embedded experience of a video or voice call during a messaging conversation.
 
-![](img/Voice and Video calls via Mobile SDK.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Voice and Video calls via Mobile SDK.gif)
 
 ## Push notification support for Android Doze and Standby Mode
 Android (Android 6.0 / API level 23) introduces two power-saving features that extend battery life for users by managing how apps behave when a device is not connected to a power source.
@@ -73,7 +73,7 @@ For further information, refer to the [iOS In-App Messaging SDK](https://develop
 ## Updates to Manager Workspace: Bot Performance widget
 Today, human agents and bots are treated similarly in the Manager Workspace. They are both treated as the same type of agent without the ability to distinguish between the two. While most of the metrics measured currently are relevant for both human and automated agents, there are differences between these user types with additional bot-centric metrics required. The Bot Performance widget provides "automation centric" metrics that allow easy monitoring and management over the automation that affect the day to day shift.
 
-![](img/bot-performance-widget-whats-new-march.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bot-performance-widget-whats-new-march.png)
 
 ## Developer updates - Third Party Bot Connectors
 

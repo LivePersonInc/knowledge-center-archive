@@ -34,7 +34,7 @@ Functions does not require brands to spin up a new service, create new APIs, set
 
 Since all functions are saved within the LivePerson cloud, brands do not have to spend resources on hosting the custom code. In addition, all strengths of the LivePerson platform including security and scalability will apply to your code.
 
-![](img/FaaS.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/FaaS.gif)
 
 ## How does LivePerson Functions work?
 
@@ -42,7 +42,7 @@ Functions allows brands to write their own custom behavior - through code - that
 
 Brands can deploy the code as a **function** and have the custom behavior become a part of their conversational commerce platform. A **function** is the canvas, where brands can put in the code they want, to ultimately invoke a desired action or outcome.
 
-![](/img/faas-ui-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/faas-ui-1.png)
 
 The full picture of an event invoking a function can be: an account is tailored to send an alert to an agent manager (function) every time a customer gives an agent negative feedback (event).
 
@@ -58,7 +58,7 @@ If the contact center is able to recognize intent (using [Conversation Orchestra
 
 In collaboration with a routing Bot or with Conversation Orchestrator's dynamic routing, when a customer starts a conversation, a brand can develop a function to be invoked to make routing decisions based on the customer’s conversation history. For example, a function can be created to pass the conversation to the last agent who handled it, along with a set of fallback decisions in case that agent is unavailable/offline.
 
-![](/img/faas-use-case-routing-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/faas-use-case-routing-1.png)
 
 Fall back decisions mean, if the agent isn’t online, the fallback action can be customized to pass it to the group the agent is apart of, or the same skill as the last agent. The sophistication of the conditioning a brand can choose to incorporate into this routing logic is limitless. For example, if a brand wants to condition the “last agent” as one that had more than a 5 minute encounter with the customer, that is possible.
 
@@ -66,7 +66,7 @@ Fall back decisions mean, if the agent isn’t online, the fallback action can b
 
 A function can be developed to automatically send a conversation’s transcript to the agent manager. That function can be further customized by a brand to include only conversations that have a negative CSAT or are with VIP customers.
 
-![](/img/faas-use-case-csat-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/faas-use-case-csat-1.png)
 
 ### Use case 4: Integrate with a ticketing system with much greater flexibility
 

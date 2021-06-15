@@ -54,7 +54,7 @@ Please note: the following scenarios do not start a new skill-segment:
 
 * Back-to-queue - returning a conversation to the same skill-queue
 * Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill.
-  ![](/img/Messaging_segments1-1.png)
+  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Messaging_segments1-1.png)
 
 ## Metrics
 
@@ -164,7 +164,7 @@ Please note:
 * Joined agent\\reader leaving a conversation does not end an agent-segment.
 * Time in Queue is not ‘owned’ by any agent, therefore is not be part of any agent-segment.
 
-![](/img/agent segments new.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent segments new.png)
 
 ## Metrics
 
@@ -271,19 +271,19 @@ Following are the explanations of the metrics defined per segment (relevant for 
 
 The number of segments which included at least one response from the consumer to an agent’s message.
 
-### ![](/img/Mess_segments3.png)
+### ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Mess_segments3.png)
 
 ### Abandoned Segments
 
 The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent\\skill assigned to the conversation.
 
-![](/img/abandoned segments.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/abandoned segments.png)
 
 ### Segments with non Responsive Agents
 
 The number of segments which ended in a transfer or closed by agent\\system with no message from an agent.
 
-![](/img/non_responsive_agents.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/non_responsive_agents.png)
 
 ### Segments with Non Responsive Consumers
 

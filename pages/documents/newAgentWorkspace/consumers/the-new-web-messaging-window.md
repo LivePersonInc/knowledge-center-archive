@@ -28,7 +28,7 @@ The new Horizon theme features:
 * Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
 
 {: .sidebyside}
-![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-3.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-4.png)
 
 ## Engagement
 
@@ -40,15 +40,15 @@ The two new templates are:
 
 Message us engagement:
 
-![](/img/week-of-august-5th-8.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-8.png){:class="newagent"}
 
 Rounded bubble engagement:
 
-![](/img/week-of-august-5th-7.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-7.png){:class="newagent"}
 
 As part of the engagement gallery, brands now have the ability to create floating engagements to invite the consumer to message.
 
-![](/img/week-of-august-5th-16.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-16.png){:class="newagent"}
 
 ## Enablement
 

@@ -22,7 +22,7 @@ The Conversational Cloud is now seamlessly integrated into LINE, offering your b
 * **Easy bot integrations** — Bots can offer service and sales assistance to customers directly through LINE, with seamless transition to a human agent available as and when required.
 * **Rich Conversation capabilities** - High-resolution photos, files, stickers, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
 
-  ![](/img/Image-1 (1).jpg)
+  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Image-1 (1).jpg)
 
 ### Agent to consumer photo sharing
 
@@ -38,14 +38,14 @@ All files types have a file size limitation of 5MB. Agents will get an error if 
 
 Image 1: Agent shares images with consumer
 
-![](img/week-of-november-4th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-7.png)
 
 Image 2: Consumer sees the file agent shares
 
-![](img/week-of-november-4th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-8.png)
 
 ## How conversations start
 
 By adding a QR code to an invoice, email or advertisement, brands can allow consumers to initiate a conversation with an agent via LINE right away, ensuring you’re ready to offer support exactly when they need you.
 
-![](/img/line connector 2-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/line connector 2-1.png)

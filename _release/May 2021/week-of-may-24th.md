@@ -50,7 +50,7 @@ Brands must have purchased and activated Performance Optimizer
 ### Limitations
 The Performance Optimizer is only visible for brands who have purchased the product. In addition to having purchased and enabled Performance Optimizer, users must also have the relevant permissions for the product. 
 
-![](img/new-may-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-may-1.png)
 
 ## Data at Rest Encryption solution
 ### Enhancement
@@ -84,10 +84,10 @@ If no og tags are found either fallback or existing e.g the properties “title�
 
 #### Screenshots
 Agent side
-![](img/ABCrichlinks-may19-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ABCrichlinks-may19-1.png)
 
 Consumer side
-![](img/ABCrichlinks-may20-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ABCrichlinks-may20-1.png)
 
 ## Instagram Entry points  - version 1.0.19
 ### Type: Enhancement - version 1.0.19
@@ -104,5 +104,5 @@ Connectors have implemented a  new SDE - “Ctype” in the consumer info panel 
 
 Connectors have implemented a  new SDE - “Ctype” in the consumer info panel in conversational cloud. This will allow the agents to see the specific entry points in the conversation from where the consumer has initiated the messages. This can then be additionally used as  context for routing to a skill by the bot or an agent.
 
-![](img/Instagram-RN-may19-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Instagram-RN-may19-1.png)
 

@@ -29,7 +29,7 @@ Please note that the real time dashboard is:
 * Includes both real time and the past 24 hours of data
 * The refresh rate is approximately a minute and is not configurable
 
-![](/img/real-time-messaging-dashboard-overview1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview1.png)
 
 ## Highlights of the capability
 
@@ -83,7 +83,7 @@ Please consider simultaneous login method - however, in order to access the Real
 
 ### Current Section - Messaging Mode (Open conversation KPIs)
 
-![](/img/real-time-messaging-dashboard-overview.2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview.2.png)
 
 When in messaging mode, the current section displays metrics on open conversations:
 
@@ -111,7 +111,7 @@ Response time related metrics require time to ‘warm-up’ as data is gathered 
 
 ### Current Section - chat mode (recently completed chats KPIs)
 
-![](/img/real-time-messaging-dashboard-overview3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview3.png)
 
 When in chat mode, the current section displays metrics on recently completed chats:
 
@@ -129,14 +129,14 @@ When in chat mode, the current section displays metrics on recently completed ch
 {: .notice}  
 Service level threshold may be modified via the menu (see additional functions in this guide)
 
-![](/img/RTMD6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RTMD6.png)
 
 In messaging mode, the last 24 (configurable) hours section allows brands to see the data on closed conversations. Brands have two options when it comes to choosing the time frame they would like to view (limit up to 24 hours):
 
 1. A user can select a timeframe from a fixed point in time, such as “**Today, from 9:00 AM**”.
 2. Or, a user can select a rolling timeframe going back an “x” amount of hours, such as the **last 3 hours**.
 
-![](/img/real-time-messaging-dashboard-overview4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview4.png)
 
 The metrics available in this section all relate to closed conversations only:
 
@@ -154,11 +154,11 @@ The metrics available in this section all relate to closed conversations only:
 
 Example of Last 24 Hour section in chat dashboard mode:
 
-![](/img/real-time-messaging-dashboard-overview5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview5.png)
 
 ### Agents section
 
-![](/img/real-time-messaging-dashboard-overview6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview6.png)
 
 This section provides data on all the agents that are currently logged in. You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right).
 
@@ -180,7 +180,7 @@ In chat dashboard mode, agent summary status (i.e. Current Status) is not availa
 
 ### Skills section
 
-![](/img/real-time-messaging-dashboard-overview7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview7.png)
 
 The [skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html) section takes metrics from the current and closed conversations sections and displays them in a skills table format. It is possible to see the skills next to one another. Compare the skills and see the distribution of the skills metrics.  You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right).
 
@@ -203,7 +203,7 @@ View up to 100 skills per page. The default is set at 25. In order to see the ne
 
 ## Filtering the sections
 
-![](/img/real-time-messaging-dashboard-overview8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview8.png)
 
 **Dashboard header filters**: These main filters will impact the entire dashboard and the displayed data.
 Two types:
@@ -223,7 +223,7 @@ It is possible to filter for both skills and groups.
 2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.
 3. Use the radio buttons or the sliders to change the time frame
 
-![](/img/real-time-messaging-dashboard-overview9-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview9-1.png)
 
 **Agent filters: there is currently only one filter available:**
 
@@ -244,7 +244,7 @@ It is possible to filter for both skills and groups.
 
 ## Customizing the dashboard
 
-![](/img/real-time-messaging-dashboard-overview10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview10.png)
 
 When clicking the three dots next to any of the dashboard sections, the **KPI configuration** window pops up:
 
@@ -270,7 +270,7 @@ You can click on current, closed, agents and skills:
 * If you choose the KPI arrangement tab, you can play with how you display the **KPI section** and the KPIs inside of them. The first arrows on the right side allow you to move the sections around. If you click the left hand arrow, you can arrange the KPIs within that specific section as you wish.
 
 {: .sidebyside}  
-![](/img/real-time-messaging-dashboard-overview11.png) ![](/img/real-time-messaging-dashboard-overview12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview11.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview12.png)
 
 The reset button on the bottom left resets to the initial configuration.
 
@@ -284,7 +284,7 @@ The reset button on the bottom left resets to the initial configuration.
 * Allows you to change the mode of the dashboard (from messaging to chat)
 * Allows you to modify the response time sample size or opened filter (see below)
 
-![](/img/real-time-messaging-dashboard-overview13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/real-time-messaging-dashboard-overview13.png)
 
 **Sample size means:** the representative sample of conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs).
 

@@ -38,26 +38,26 @@ Voice or video calls are initiated by the agent by sending an invitation to the 
 
 **On Web Messaging:**
 
-![](img/voice-and-video-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voice-and-video-1.png)
 
 The consumer has the ability to accept or reject the invitation:
 
-![](img/voice-and-video-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voice-and-video-2.png)
 
 After accepting, the call is initiated and the consumer’s browser will ask for permission to access the camera and/or microphone:
 
-![](img/voice-and-video-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voice-and-video-3.png)
 
 **On Mobile SDK:**
 
 {: .sidebyside} 
-![](img/voice-and-video-mobile-1.png)![](img/voice-and-video-mobile-2.png)![](img/voice-and-video-mobile-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voice-and-video-mobile-1.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voice-and-video-mobile-2.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voice-and-video-mobile-3.png)
 
 **Important to note that on Mobile SDK, the video and voice calls will open within a webview container on top of the messaging interface.** Consumers can close the webview at any point of the video or voice call while returning to the messaging screen.  
 
 During an active call, both agent and consumer are able to end the call at any time. Furthermore, each participant is able to mute the microphone or disable the camera:
 
-![](img/VoiceAndVideoCallControls.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/VoiceAndVideoCallControls.png)
 
 On mobile devices that have a front and backward facing camera, an additional button is shown to switch to the other camera.
 
@@ -65,13 +65,13 @@ On mobile devices that have a front and backward facing camera, an additional bu
 
 Here is a demonstration of a video call with consumer on the left and agent on the right.
 
-![](img/VoiceAndVideoDemo.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/VoiceAndVideoDemo.gif)
 
 ## Configuration
 
 Voice and video calls are automatically enabled. [Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow/restrict video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. The persmissions that control this feature are the “Initiate voice conversation” permission to allow voice calls, and the “Initiate live video conversation” permission to allow video calls.
 
-![](img/voice-and-video-agent-profile-permissions.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voice-and-video-agent-profile-permissions.png)
 
 ### Mobile SDK configuration
 
