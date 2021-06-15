@@ -23,7 +23,7 @@ To determine which type of web engagement is appropriate, ask yourself a few que
 
 For example, a content banner can be displayed to offer visitors free shipping on all orders over $100. When visitors click on the banner, they can be redirected to a predetermined URL, where they can make a purchase and enjoy the free shipping offer. They are not invited to initiate a conversation, yet you have moved them further down the funnel towards conversion.
 
-![](/img/creating-buttons-and-banners-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-1.png)
 
 Content banners can also be used to redirect visitors to your community page, to FAQs, to your knowledge base, or to any other URL that you configure.
 
@@ -35,7 +35,7 @@ Browse the engagement template gallery and check out the formats: **Sticky**, **
 
 Feel free to use the ready-made templates or to customize them to match the look and feel of your brand. The different-sized templates provide additional designs, so check them out too.
 
-![](/img/creating-buttons-and-banners-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-2.png)
 
 ## Format Options
 
@@ -49,7 +49,7 @@ For customers using chat, the embedded engagement will display even if no agents
 
 Sticky buttons stay in the same place relative to the screen, so even when the user scrolls, the sticky button remains in the same place. Only one sticky engagement can be displayed on each side of the webpage. Sticky buttons are easy for the visitor to locate no matter where they are on your site, so they are useful.
 
-![](/img/creating-buttons-and-banners-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-3.png)
 
 Two new sticky engagement invitations were added to the engagement template library to improve consumer experience an to ease customization and branding.
 
@@ -59,21 +59,21 @@ The new invitations are:
 
 Message us engagement:
 
-![](/img/week-of-august-5th-8.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-8.png){:class="newagent"}
 
 Rounded bubble engagement:
 
-![](/img/week-of-august-5th-7.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-7.png){:class="newagent"}
 
 As part of the engagement gallery, brands now have the ability to create floating engagements to invite the consumer to message.
 
-![](/img/week-of-august-5th-16.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-5th-16.png){:class="newagent"}
 
 ### Slide-out engagements
 
 A slide-out engagement is very similar to a sticky engagement, except for the way it appears on the page. It is configured in two parts: a small sticky engagement is displayed first. When clicked, a larger banner slides out from the side of the screen. This engagement is useful when you want to draw consumers in with an engagement and then offer them more detailed information in the banner.
 
-![](/img/creating-buttons-and-banners-1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-1.gif)
 
 ### Proactive engagements
 
@@ -81,15 +81,15 @@ Proactive engagements offer a rich, hard to miss experience for consumers and ar
 
 **Overlay banners** appear on top of page content. They’re ideal for messages you don’t want your visitors to miss - like important notifications or messaging/chat invites.
 
-![](/img/creating-buttons-and-banners-4.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-4.jpg)
 
 **Toaster banners** slide out and retract from the bottom or top of the page. They’re a great way to promote special deals or offer support through messaging/chat invites.
 
-![](/img/creating-buttons-and-banners-5.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-5.jpg)
 
 A **peeling corner banner** acts as a teaser triangle that expands when users peel back more to see the whole message. They’re often used to promote offers, especially when there are a lot of images or written content.
 
-![](/img/creating-buttons-and-banners-2.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-2.gif)
 
 ## Engagement Settings
 
@@ -112,7 +112,7 @@ By default, after declining a proactive content engagement, other content engage
 
 Once you’ve selected the buttons and banners for your engagement, you can see how each of them looks by clicking **Preview** in the engagement studio.
 
-![](/img/creating-buttons-and-banners-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-6.png)
 
 ## Best practices for mobile engagements
 
@@ -152,7 +152,7 @@ The Conversational Cloud visitor experience meets disability accessibility requi
 
    This text will be announced by screen readers for visually impaired visitors. Note that if “” is used, it will not be announced.
 
-![](/img/creating-buttons-and-banners-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-8.png)
 
 {:start="4"}
 
@@ -165,7 +165,7 @@ The Conversational Cloud visitor experience meets disability accessibility requi
 
 1. To enable navigation by heading using screen readers, define **headings and heading levels** in the engagement graphic. For example, in the graphic below, “Can’t find what you are looking for?” is a heading, while the remaining text is not. Click the text element and select the heading level from the heading dropdown list. The heading level should suit the hierarchy of headings on your page.
 
-![](/img/creating-buttons-and-banners-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-buttons-and-banners-9.png)
 
 {:start="6"}
 2\. Save the engagement.

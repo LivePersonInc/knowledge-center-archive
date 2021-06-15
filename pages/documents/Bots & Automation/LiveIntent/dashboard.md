@@ -40,10 +40,10 @@ Exclude and compound filter options will make it faster to drill into specific d
 
 Find a pattern or theme in the messages by going to the Intent Analyzer dashboard and filtering by undefined. First click the “Add Filter” button on the top right of Conversation Details in Intent Analyzer.
 
-![](img/IA-Optimize-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-2.png)
 
 * Next, in the pop up window select “Intents” as your filter type on the left, and “undefined” from the dropdown on the right.
-![](img/IA-Optimize-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-3.png)
 
 ### Time Range
 
@@ -100,15 +100,15 @@ Custom Starter Packs can be generated from historical chat transcripts as well a
 ### Consumer Experience
 Under Conversation Details in LivePerson's Intent Analyzer dashboard, users can  go through undefined messages and classify the correct intent or create a new intent.
 
-![](img/Intent-manager-customer-experience1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Intent-manager-customer-experience1.png)
 
 Brands have the ability to choose to show how many messages they would like to go through (up to 500 messages) to reclassify or create new intents in groups.
 
-![](img/Intent-manager-customer-experience2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Intent-manager-customer-experience2.png)
 
 To train the model, brands need to update the Intent Builder with the orange button. Once users click the orange button LivePerson's Intent Analyzer, they will still need to go into Intent Builder to train and activate the model. 
 
-![](img/Intent-manager-customer-experience3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Intent-manager-customer-experience3.png)
 
 When you create a new intent, a modal will guide you in the creation of the new intent. Currently, you MUST add 20 new utterances for each new intent before you can re-train the domain in Intent Builder.
 

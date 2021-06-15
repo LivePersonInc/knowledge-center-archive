@@ -108,7 +108,7 @@ Must be a Data Transporter customer - contact your account manager
 
 **Screenshots**
 
-## ![](/img/Data transporter RN1.png)  
+## ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Data transporter RN1.png)  
 Data Transporter Custom Concatenation Delimiter
 
 ### Type: new feature
@@ -199,4 +199,4 @@ Must be a Data Transporter customer - contact your account manager
 
 **Screenshots**
 
-![](/img/Datatranposrt RN2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Datatranposrt RN2.png)

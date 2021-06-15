@@ -14,7 +14,7 @@ date: 2019-01-31 08:52:22 +0000
 
 LivePerson’s Quick launch menu provides users with a quick and easy way to launch applications from within the platform using the new waffle menu button that has been added to the UI.
 
-![](img/Quick_launch_man_workspace1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Quick_launch_man_workspace1.png)
 
 ## Overview
 

@@ -28,11 +28,11 @@ Conversation Orchestrator introduces two new enhancements to Agent Assist.
 First, up to to five recommendations can now be made to the agent for a detected intent. Previously, only one recommendation could be made. The maximum number of recommendations is configurable, and the default value is 3.
 In the following image, the agent is presented with two recommendations, one for a knowledge base article and the other for a bot.
 
-![](img/Conv-orchestrator-jan-25-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Conv-orchestrator-jan-25-1.png)
 
 Second, as before, Agent Assist recommends articles and bots to the agent based on the detected intent of the consumer. However, we’ve taken this one step farther. Now, when Agent Assist makes recommendations, it always does so based on not just the consumer’s intent, but also the conversation’s skill. This means you can map a slice of content to desired skills, and then recommend articles and bots based on the intent detected in the consumer utterance.
 
-![](img/Conv-orchestrator-jan-25-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Conv-orchestrator-jan-25-2.png)
 
 **Please note:** During setup, you must assign at least one skill to a knowledge base or bot for it to be used in recommendations. Enablement of the knowledge base or bot, which happens by default, is not enough. This is by design.
 All knowledge bases and bots that were previously enabled before the release of this change are automatically mapped to all skills available for the account. You can change these at any time.
@@ -54,14 +54,14 @@ The enhanced Agent Workspace now supports key shortcuts ("Ctrl+C" / "Ctrl+V") an
 
 Private Messages and Bot Escalation Summary messages now have enhanced design in the enhanced Agent Workspace. This enhanced design will allow agents to spot these messages within the transcript easily and prevent confusion with other messages.
 
-![](img/week-of-january-25th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-25th-1.png)
 
 ## [Enhanced Agent Workspace] Expired image indication
 ### Type: Enhancements (NAW 1.21)
 
 The enhanced Agent Workspace now displays an indication for expired images (like Facebook stickers, unreached image links, etc.).
 
-![](img/week-of-january-25th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-25th-2.png)
 
 ## [Enhanced Agent Workspace] Agent Widget SDK 'SendFile' command not honoring 'Send files to consumers from custom widgets' permission 
 ### Type: Bug fix (NAW 1.21)
@@ -83,7 +83,7 @@ A bug has been discovered in the All Conversations area of the enhanced Agent Wo
 
 A bug was discovered in the enhanced Agent Workspace. When an agent sends a message that includes the "less than" sign (<) during a messaging interaction, the sign and any text after the sign are removed. This bug has been fixed, and a warning message will now be presented when suspicious text is found in the agent’s input.
 
-![](img/week-of-january-25th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-25th-4.png)
 
 ## [All Conversations] Failing to filter by Post Conversation Survey name 
 ### Type: Bug fix (NAW 1.21)
@@ -110,7 +110,7 @@ This bug is now fixed, and managers are able to see these indications.
 
 A bug has been discovered in the enhanced Agent Workspace, causing the preview for long Predefined Content messages to overlap the Predefined Content widget and preventing the agent from selecting content from the list. This bug is now resolved.
 
-![](img/week-of-january-25th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-25th-5.png)
 
 ## [Agent Survey] Survey cleared when bot survey ends
 ### Type: Bug fix (NAW 1.21)

@@ -84,7 +84,7 @@ The LivePerson monitoring code present on your website pages automatically trans
 
 The following diagram outlines how funnel metrics are calculated for Messaging Engagements which do not originate from a monitored web source:
 
-![](/img/Business-activity-grid-image1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Business-activity-grid-image1.png)
 
 ### Counting “sessions” from the Mobile App
 
@@ -112,7 +112,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 ### Common to all panels
 
-![](/img/Business_Activity_Dashboard_messaging_Analysis.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Business_Activity_Dashboard_messaging_Analysis.jpg)
 
 There are four available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
@@ -267,7 +267,7 @@ Included in this panel is an engagement formats selector, allowing the filtering
 5. Slide-out
 6. Peeling corner
 
-![](/img/Business_Dashboard_for_Livechat_Campaign.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Business_Dashboard_for_Livechat_Campaign.jpg)
 
 Business activity engagement analysis
 
@@ -283,7 +283,7 @@ The business activity grid spreads out all the funnel metrics in a granular view
 
 Perform the analysis and customization you need using an offline copy, in excel using the complete business activity grid. You can choose the document type (daily/monthly) based on your needed timeframe. The daily grid gives daily aggregations for all the [metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer) while the monthly grid offers the corresponding aggregations at the monthly level. The data is presented at the brand, campaign and engagement level.
 
-![](/img/Business_activity_grid.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Business_activity_grid.jpg)
 
 Please note: The business dashboard for messaging does not include agent level data or responses to surveys.
 

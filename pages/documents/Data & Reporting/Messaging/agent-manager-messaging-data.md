@@ -35,4 +35,4 @@ The agent manager real time dashboard for messaging graphically displays real ti
 
 To access the agent manager dashboard for messaging, click the pull-down button above the App Connections list.
 
-![](/img/Agent-manager-messaging-data-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent-manager-messaging-data-2.png)

@@ -17,7 +17,7 @@ This feature allows for frictionless management of LivePerson agents, as well as
 
 This capability includes an architecture based on the SAML protocol, a standard protocol for implementing and supporting Single Sign-On. This architecture ensures both scalability as well as the highest level of security.
 
-![](/img/IDP_SAML.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IDP_SAML.png)
 
 Figure 1: Architecture based on SAML Assertion
 

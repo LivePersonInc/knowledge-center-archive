@@ -21,7 +21,7 @@ Data Transporter allows you to:
 * Schedule exports from each Conversational Cloud data source
 * Securely deliver your exports to: LP Cloud, Amazon S3, Google Cloud, and SFTP
 
-![](/img/datatransporter1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/datatransporter1.png)
 
 **Notes:**
 
@@ -47,7 +47,7 @@ Once your account is enabled, you can begin by logging in via https://transporte
 
 ## Getting Started in Data Transporter
 
-![](/img/data-transporter3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-transporter3.png)
 
 ## Task Manager
 
@@ -87,7 +87,7 @@ Once your keys are generated, your Public Key will be saved to your account, and
 {: .notice}  
 **_Important:_** if you do not save your Private Key and/or Passphrase offline, you will not be able to decrypt your completed reports - use GPG Suite or GPG4Win
 
-![](/img/data-transporter3a.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-transporter3a.png)
 
 **Notes about Encryption:**
 
@@ -113,7 +113,7 @@ Once you have created your keys, enter them into Transporter via the Conversatio
 
 After verifying your keys are valid, you will see the Conversational Cloud setting appear in the table below - it is now ready for use as your source when you configure your first report.
 
-![](/img/data-transporter5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-transporter5.png)
 
 ## Report Tasks
 
@@ -139,13 +139,13 @@ Admin type reports can provide a recurrent list of Skills, Agents and Agent Grou
 
 In the future, additional reports will be added - have an idea for a report? [Let us know](http://goo.gl/forms/KA8TzlnEktOuhH372)
 
-![](/img/data-transporter6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-transporter6.png)
 
 ### Report Catalogue
 
 For detailed information about the report data sources, visitor our [Dev Center](https://developers.liveperson.com) - the following reports are available via Data Transporter out of the box:
 
-![](/img/data-transporter7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-transporter7.png)
 
 ### Create Report Options
 
@@ -199,7 +199,7 @@ The interface will show that you are currently editing the task - update any of 
 * Select many tasks and disable or delete them
 * Find that tasks history via the history icon
 
-![](/img/data-transporter7a.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-transporter7a.png)
 
 ## Task History
 
@@ -214,7 +214,7 @@ The HISTORY is also the location where you can find and retrieve reports deliver
 {: .notice}  
 If you see a lock next to the download icon, this means you have not entered and verified your Private Key during this browsing session. Whilst your Private Key is not needed to download the encrypted file, if it is not provided, then after download, the file will not be decrypted and you will need to decrypt it yourself.
 
-![](/img/data-transporter8a.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-transporter8a.png)
 
 ## Limitations
 

@@ -127,7 +127,7 @@ The documents come in two versions: Daily and Monthly
 <br/>
 A new folder named ‘LE Predefined Grids’ is now available within the predefined dashboards folder containing the following documents:
 
-![](/img/week-of-march-11th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-11th-3.png)
 
 {: .notice}
 The Business Activity Grids are available in Report Builder since May 2018 (RB2.3). The grids have been moved into the predefined grids folder.
@@ -185,7 +185,7 @@ LivePerson has made an enhancement to Report Builder subscriptions that increase
 * For existing subscriptions, the “Do Not Deliver After” expiration date will need to be updated manually if applicable.
 * The current process for renewing or modifying the subscription expiration date is not included in this enhancement.
 
-![](/img/week-of-march-11th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-11th-4.png)
 
 When setting up a new subscription, the default “Do Not Deliver After” date will be set 6 months in the future from the date the subscription is created.
 
@@ -228,8 +228,8 @@ New privileges that will map to the roles that the LiveEngage user will have whe
 
 **Administrator role(it has an extra privilege):**
 
-![](/img/week-of-march-11th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-11th-5.png)
 
 **Other roles (No admin privilege):**
 
-![](/img/week-of-march-11th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-11th-6.png)

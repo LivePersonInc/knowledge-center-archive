@@ -16,7 +16,7 @@ Audio messaging allows consumers to send audio messages to brands. The audio is 
 
 **To see what messaging channels support audio messaging please see the** [**messaging channels capabilities comparison**](messaging-channels-messaging-channels-capabilities-comparison.html) **chart.**
 
-![](/img/Audio messaging Gif-1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Audio messaging Gif-1.gif)
 
 ## Why use audio messaging?
 
@@ -53,7 +53,7 @@ Audio messaging is ideal for consumers who would prefer to send a voice recordin
 * Navigate through the audio message
 * Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Conversations
 
-![](/img/audiom3 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/audiom3 (1).png)
 
 ## How to send an audio message (consumer side only)
 

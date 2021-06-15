@@ -84,7 +84,7 @@ Brands require to have at least one or more skills to do skill based routing thr
 
 Brand administrators or campaign managers can now access Proactive 2.0 API keys after the service is activated by the LivePerson team. The keys creation is a prerequisite to access the Proactive 2.0 API from external systems. Detail Proactive outbound API specifications can be found [here.](https://developers.liveperson.com/proactive-messaging-api.html)
 
-![](img/PM-may18-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-1.png)
 
 ## Outbound Reporting 2.0 API
 Reporting feature presents a complete journey of conversation from beginning to end. The goal of this feature is to stitch pre and post conversation events for full funnel view and publish analytical and raw transactional data to subscribers. Complete details of the API specification can be found [here.](https://developers.liveperson.com/outbound-reporting-api-overview.html)
@@ -106,8 +106,8 @@ Brand users will see the welcome page only after the service is enabled and the 
 
 Click the Proactive Messaging button in the Quick launch menu to open the Welcome page.
 
-![](img/PM-may18-2.png)
-![](img/PM-may18-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-3.png)
 
 ## Proactive Campaigns
 Brand administrators and campaign managers have to create a new proactive campaign from the webtool. you can click on New Campaign on the landing page and follow a 4-step wizard.
@@ -128,7 +128,7 @@ For SMS, 42 characters are reserved by default for the opt-out text, which is re
 Please note: WhatsApp message template can contain one or more variables. The variables in the template have a format of {{1}}. If you select a WhatsApp message template with variable(s), make sure these variables are replaced with actual content when campaigns are created via the API i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’.  
 
 ### Step 2 - Define Recipients
-![](img/Proactive_userguide6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Proactive_userguide6.png)
 
 You can define your recipients by two different methods, uploading the list of recipients via .csv file or typing in the recipient phone numbers and possible message content, if you would like to have a different message per phone number. 
 
@@ -144,7 +144,7 @@ Typing in 2 recipient phone numbers  phone numbers with the two variables specif
 12223334445
 
 Uploading a .csv file with two recipients would look like this:
-![](img/PM-may18-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-4.png)
 
 #### WhatsApp example
 “Hello {{1}}, your credit card ending in {{2}} is about to expire. Reply back to chat with an agent to help you update this info”
@@ -153,7 +153,7 @@ Typing in 2 recipients would be:
 12223334445, Bob, 8888
 
 Uploading a .csv file with two recipients would look like this:
-![](img/Proactive_userguide5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Proactive_userguide5.png)
 
 * Once you specify a list of recipients, whether via .csv upload or typing them in, click the Parse button to get a preview of the message being sent per phone number. 
 * If there is any syntax error, you’ll see the highlighted phone number with the error. 
@@ -219,16 +219,16 @@ Via .csv upload:
 * For WhatsApp Message Templates with two variables “Hello {{1}}, your credit card ending in {{2}} is about to expire. Would you like some help with renewal?”
 * For WhatsApp rich template (screenshot added below) with header of type image and a message body with two variables “Hi ${{1}}! Your account ${{2}} is overdue. Let us know how we can help?” and quick reply buttons; uploaded CSV should look like the screenshot below with columns ‘Phone, H1, B1, B2’. Footer and quick reply buttons have static values and do not need any user input during campaign creation. URLs entered in H1 should be publicly accessible. 
 
-![](img/PM-may18-5.png)
-![](img/PM-may18-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-6.png)
 
 For WhatsApp rich template with a message body with 5 variables “Your ticket for ${{1}}\n\nTime - ${{2}}\nVenue - ${{3}}\nSeats - ${{4}} - ${{5}}”  and Call-To-Action buttons (phone number and a static URL), uploaded CSV should look like the screenshot below with columns ‘Phone, B1, B2, B3, B4, B5’. Phone Number and Static URL buttons do not need any user input during campaign creation.
 
-![](img/PM-may18-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-7.png)
 
 For WhatsApp rich template  with a message body with 5 variables “Your ticket for ${{1}}\n\nTime - ${{2}}\nVenue - ${{3}}\nSeats - ${{4}} - ${{5}}”  and dynamic Call-To-Action button, uploaded CSV should look like the screenshot below with columns ‘Phone, B1, B2, B3, B4, B5, BU1’. Dynamic Call-To-Action button needs user input during campaign creation. 
 
-![](img/PM-may18-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-8.png)
 
 #### Via typing in directly in the Proactive web tool 
 
@@ -248,14 +248,14 @@ Example:
 
 * For WhatsApp rich template with header of type image and a message body with two variables “Hi ${{1}}! Your account ${{2}} is overdue. Let us know how we can help?”  and quick reply buttons; inline entry should have the following format as shown below. Footer and Call-To-Action buttons with dynamic values and do not need any user input during campaign creation. URL entered in H1 should be publicly accessible. 
 
-![](img/PM-may18-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-9.png)
 
 Example:
 11111111111,https://upload.wikimedia.org/wikipedia/commons/image1.png,Jane,9999
 22222222222,https://upload.wikimedia.org/wikipedia/commons/image2.png,Bob,8888
 For WhatsApp rich template (screenshot added below) with a message body with 5 variables “Your ticket for ${{1}}\n\nTime - ${{2}}\nVenue - ${{3}}\nSeats - ${{4}} - ${{5}}”  and Call-To-Action buttons(phone number and a static URL); inline entry should have the following format as shown in the example below below. Phone Number and Static URL buttons do not need any user input during campaign creation.
 
-![](img/PM-may18-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-10.png)
 
 Example:
 12345677655,event1,11:00 AM,seattle,234,236
@@ -263,7 +263,7 @@ Example:
 
 * For WhatsApp rich template with a message body with 5 variables “Your ticket for ${{1}}\n\nTime - ${{2}}\nVenue - ${{3}}\nSeats - ${{4}} - ${{5}}”  and dynamic Call-To-Action button; inline entry should have the following format as shown below. Dynamic Call-To-Action button needs user input during campaign creation. 
 
-![](img/PM-may18-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-11.png)
 
 Example:
 12345677655,event1,11:00 AM,seattle,234,236,AS4567FG
@@ -277,15 +277,15 @@ Skills need to be set up in the Conversational Cloud Platform for them to be ava
 Brand administrators and campaign managers have to define the global settings for each brand.
 * **Channels** - The priority order of messaging channels and enabling/disabling message channels can be defined in this section.
 
-![](img/PM-may18-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-11.png)
 
 * **API Keys**  - Brands users can now see client id and secrets to access outbound 2.0 API.
 
-![](img/PM-may18-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-12.png)
 
 * **User Role and Permissions** - Both admin and campaign manager users can create and view settings, while LPA users can only view them.
 
-![](img/PM-may18-13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-13.png)
 
 ### API Configurations (Create and Manage API Handoff) 
 
@@ -296,7 +296,7 @@ An API Handoff is a logical grouping of a set of configurations such as the chan
 ### Create API Handoff:
 ### Step-1: 
 
-![](img/PM-may18-14.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-14.png)
 
 * Title - API Handoff title should be a unique name. It can accept alphanumeric characters. Special characters (‘<’, ‘>’ ) are not allowed.
 
@@ -314,14 +314,14 @@ Note: If a consumer responds to an outbound message and the conversation is clos
 	
 App Messaging and SMS/WhatsApp channels are mutually exclusive. If a user selects App Messaging, then SMS and WhatsApp message channels are disabled. Alternatively if the user selects SMS or WhatsApp then the App Messaging channel will be disabled as well.
 
-![](img/PM-may18-15.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-15.png)
 
 ### Compose API Handoff outbound message
 
 First, users will select the outbound SMS phone number and then create the text content for the outbound message. We support plain text and recommend keeping the content to up to 140 characters.
 For SMS, the outbound message will also include a default opt-out message that is editable. This helps ensure that consumers can opt-out from receiving any future outbound messages if they choose to.
 
-![](img/PM-may18-16.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-16.png)
 
 In the same API handoff, users can select WhatsApp's first outbound message.  Users will first pick WhatsApp outbound phone number and then choose templates from approved templates drop down and create the first outbound welcome message. The WhatsApp message templates need to be approved by the Facebook team before you can access them.
 
@@ -329,16 +329,16 @@ In the same API handoff, users can select WhatsApp's first outbound message.  Us
 
 Preview the API handoff changes before saving it. If any changes required, click the back button to go back to edit mode. Users can also rollback changes by clicking the cancel button.
 
-![](img/PM-may18-17.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-17.png)
 
 ### Edit API Handoff
 
 Brand users can select existing handoff and edit it. Users can change the lookback period, enable or disable channels, change order priority and edit messages. 
 
-![](img/PM-may18-18.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-18.png)
 
  ### API Handoff Roles and Permissions
-![](img/PM-may18-19.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-19.png)
 
 ### Create App Messaging API Handoff
 
@@ -356,17 +356,17 @@ Note: If a consumer responds to an outbound message and the conversation is clos
 Users first click the New Handoff link in the API Handoff dashboard page.
 
 Step-1: Enter Title and select the lookback period for App Messaging
-![](img/PM-may18-20.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-20.png)
 
 Step 2: Create the first outbound message in the message preview section. Currently we support only plain text messages. Only max 4 apps can be selected at a time to create App Messaging API handoff. The process is the same to create new or edit existing App Handoffs.
 
-![](img/PM-may18-21.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-21.png)
 
 Step-3: Save the App Messaging API Handoff.
-![](img/PM-may18-22.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-22.png)
 
 Step 4: We can see the created or edited API handoff in the dashboard list page.
-![](img/PM-may18-23.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-may18-23.png)
 
 ## WhatsApp Message Templates
 
@@ -375,7 +375,7 @@ Step 4: We can see the created or edited API handoff in the dashboard list page.
 * WhatsApp Message Template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp Message Template with variable(s), make sure to replate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
 * Users can create a WhatsApp Message Template and submit it to WhatsApp for approval via the Proactive Messaging tool. Please see section on “Creating WhatsApp Message Template” below for more information.
 
-![](img/WA Message Template-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/WA Message Template-1.png)
 
 ### Creating WhatsApp Message Templates
 
@@ -396,7 +396,7 @@ In WhatsApp templates:
 - Select WhatsApp Business ID (WABA ID)
 - Define the message preview with pre-defined template variables and create the WhatsApp Message Template.
 
-![](img/WA Message Template - 4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/WA Message Template - 4.png)
 
 ### User Role and Permissions to create and manage WhatsApp Message Templates
 
@@ -416,7 +416,7 @@ Brand users will pick the API Handoff ID to create SMS outbound campaigns.
 
 **Step-1:** Select the SMS API Handoff ID from the webtool.
 
-![](img/SMS-Handoff-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SMS-Handoff-1.png)
 
 **Step 2:** We are using the Postman tool to do the simulation on how to configure the Proactive 2.0 API. get the consumer JWT with API client ID and secrets.
 **Step 3:** Create a Proactive outbound campaign request payload with SMS API Handoff ID. We need skills, consent, and a consumer phone number to schedule the campaigns.
@@ -426,7 +426,7 @@ See [outbound campaign API Endpoint](https://proactive-messaging.z1.fs.liveperso
 **Step 4:** The campaign is scheduled and the consumer will receive the response.
 **Step 5:** We can see the outbound campaign delivery status in Proactive webtool.
 
-![](img/prmsg_camp_status.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/prmsg_camp_status.png)
 
 **Step 6:** Agent or Agent manager with the correct skills will receive the message when the consumer responds.
 
@@ -434,25 +434,25 @@ See [outbound campaign API Endpoint](https://proactive-messaging.z1.fs.liveperso
 
 Users can create an API handoff with WhatsApp channel configured and then use the handoff id to create a Proactive API campaign.
 **Step 1:**  Login to Proactive Web tool. Navigate to API Handoffs page. Click on ‘New Handoff’.
-![](img/New Handoff.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/New Handoff.png)
 **Step 2:** On the Configure API Handoff page, provide ‘Title’, select ‘Lookback period’, select channels to be configured for the handoff. Only Whatsapp channel is enabled in the screenshot below as we want to create a handoff with only Whatsapp in this example. Click Next.
 **Step 3:** On the Compose page, select ‘Send From’ phone number from drop-down. Also, choose the ‘Whatsapp Message Template’ from the drop-down. 
 Messages will be sent using the ‘Send From’ number chosen and template chosen will be sent to all recipients when this api handoff is used to create the campaign.
 Click Next.
-![](img/Click Next-PM.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Click Next-PM.png)
 **Step 4:** On the confirm page, validate all the details entered and click Save.
-![](img/Click-save-PM.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Click-save-PM.png)
 **Step 5:** You are redirected to the screen below. Here you can see the API handoff just created. Copy the id value for the API handoff created.
-![](img/PM-step5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PM-step5.png)
 **Step 6:** Using the api handoff to create the Proactive API campaign. Provide the handoff id copied in the previous step as the value for “templateId” attribute. Provide values for campaignName, skill, consumers. Get the consumer JWT with API client id and secrets.
 
 Click here for [Outbound API Public Wiki](https://developers.liveperson.com/proactive-messaging-api.html)
 Click here for [Outbound API Swagger Spec](https://proactive-messaging.dev.fs.liveperson.com/api/api-docs/?api=outbound#/Campaign/campaign)
 
 **Step 7:** Recipient receives the WhatsApp message on their phone
-![](img/Step 7-PM.jpeg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Step 7-PM.jpeg)
 **Step 8:** Recipient responds. Conversation is created in Conversational CLoud. Agent or Agent manager with the correct skills will receive the message from the consumer and accept it.
-![](img/Step8-pm.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Step8-pm.png)
 
 ## Limitations
 
@@ -476,7 +476,7 @@ f) Only whitelisted image URLs will be allowed for WhatsApp Rich Message Templat
 g) If the domain is not whitelisted and a message is sent, conversation creation will fail when the consumer responds, so we validate whitelisting in the first place in Proactive. This is only applicable for image headers).
 h) Only https urls are supported.
 i) Size limitations:
-![](img/sizelimit.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/sizelimit.png)
 j) For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. 
 
 ## FAQs

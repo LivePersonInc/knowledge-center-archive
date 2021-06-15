@@ -20,7 +20,7 @@ Groups can be divided into "subgroups." Any group that has subgroups is consider
 
 Each group can have a manager(s) who is capable of viewing the data of their group members and subgroups only. If no manager is assigned to the group, the manager of the group’s parent group is considered the manager of the subgroup and will be able to see its data. This allows managers to focus on their own responsibilities and better manage their teams. In large organizations, where connection centers are managed by different vendors, groups provide a more secure view, since each vendor can view the data of their own group and subgroups only.
 
-![](/img/pasted image 0.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/pasted image 0.png)
 
 {: .notice}  
 Group B’s managers can view the data of groups B, D and E only and Group C’s managers can view group C's data only.
@@ -38,7 +38,7 @@ The agent manager data bar and dashboard provides you with a snapshot of your ag
 
 Initially all agents are members of the main agent group. Once an agent is moved to a different agent group, data relating to the agent’s conversations from that point onwards are available to the manager(s) of the new group only. Data related to the agent’s conversations from before the move are available to the manager(s) of the main agent group only.
 
-![](img/all-connections-6.png){:class="newagent"}
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/all-connections-6.png){:class="newagent"}
 
 ## Viewing conversation transcripts
 
@@ -75,12 +75,12 @@ The add group button will be enabled once you select a parent group from the lis
    * Type the name of the user(s) you want to assign as a manager(s)
    * Add members to the group
 
-![](img/Agent Groups1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent Groups1.png)
 
 5. Click save. The edit agent group window closes and the agent group list is displayed.
 6. Click the group you edited. The edit agent group window now shows the group members that you added in the member’s name table.
 
-![](img/Agentgroups2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agentgroups2.png)
 
 ### To edit an agent group:
 

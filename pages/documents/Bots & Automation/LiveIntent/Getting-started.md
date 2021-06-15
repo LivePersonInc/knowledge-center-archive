@@ -30,8 +30,8 @@ There are two kinds of prebuilt domains:
 2. A cross-vertical, prebuilt domain that is appropriate for all verticals. This includes intents for things like customer account management, customer order management, e-commerce, billing and payment.
 Once you add a prebuilt domain, you can customize it as you see fit. After customization, you’ll need to retrain the domain as you normally do. 
 
-![](img/Getting-started-intent3.png)
-![](img/Getting-started-intent4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent4.png)
 
 For more information, click [here](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html)
 

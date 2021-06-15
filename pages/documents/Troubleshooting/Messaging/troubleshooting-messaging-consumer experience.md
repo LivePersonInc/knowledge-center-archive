@@ -37,7 +37,7 @@ Let’s say you’re a consumer using your Android phone to message with a LiveP
 
 **Scroll down indicator with red badge**
 
-![](/img/troubleshooting-consumer-experience1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-consumer-experience1.png)
 
 ### Solution:
 
@@ -55,7 +55,7 @@ If the focus is on items above the 'X unread messages' label, or the label was r
 
 **Text visible below UNREAD MESSAGES LINE**
 
-![](/img/troubleshooting-consumer-experience2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-consumer-experience2.png)
 
 ## App Messaging: link preview not working on Android
 
@@ -67,7 +67,7 @@ The agent sent the URL without the **http://** prefix ([www.mysite.com](http://w
 
 Always include the the **http:// prefix** in URLs that you send when messaging.
 
-![](/img/troubleshooting-consumer-experience3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-consumer-experience3.png)
 
 ## App Messaging: double click doesn’t scroll to last message
 
@@ -86,12 +86,12 @@ How the New Message Mechanism Works
 
   **Scroll down indicator with red badge**
 
-  ![](/img/troubleshooting-consumer-experience4.png)
+  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-consumer-experience4.png)
 * You click the scroll down indicator once and it takes you to the “X unread messages' label (displayed immediately above the unread messages).
 
   **UNREAD MESSAGES LINE**
 
-  ![](/img/troubleshooting-consumer-experience5.png)
+  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-consumer-experience5.png)
 * You click the scroll down indicator (that no longer has the red badge) a second time, its functionality changes, and it takes you to the last message.
 
 ## Why are messages disappearing from a consumer’s messaging window whilst agent can see all messages?

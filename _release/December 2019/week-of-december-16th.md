@@ -95,7 +95,7 @@ Below is a list of approved HTML elements and attributes.
 #### Example of Consumer Email with LivePerson Template
 
 This is how the HTML header and footer will render and be presented to the consumer when you use the downloaded header and footer template.  
-![](img/RNDec16_2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNDec16_2.png)
 
 For more information on EmailConnect, please click [here](messaging-channels-emailconnect.html) 
 
@@ -140,7 +140,7 @@ For more information on EmailConnect, please click [here](messaging-channels-ema
 </div>
 
 This feature allows the creation of the skill inside the bot wizard. 
-![](img/RNDec16_1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNDec16_1.png)
 
 ## Delay Message support for All AI vendors 
 ### Type: Enhancement (Bot Connectors 2.14)

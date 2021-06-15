@@ -32,4 +32,4 @@ To exclude/include an IP address(es):
    * Additional addresses or ranges can be added by clicking **add IP range**.
 8. Click **save**.
 
-![](/img/IP_address_blocking2.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IP_address_blocking2.jpg)

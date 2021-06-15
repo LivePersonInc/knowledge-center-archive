@@ -107,7 +107,7 @@ This feature enables brands to assign extra velocity to conversations that were 
 
 MCS is now available in Spanish. For every Spanish conversation, brands will now be able to get an MCS score.
 
-![](img/week-of-december-23rd-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-december-23rd-1.png)
 
 ## FaaS Debugger
 
@@ -155,7 +155,7 @@ As of now, the Debugger allows you to manage breakpoint, start/stop debugging se
 
 Please note that each FaaS user-session will have an exclusive sandbox for debugging, while starting the debugger for the first time, users of the FaaS Debugger might experience a longer start up period (max. 30 sec).
 
-![](img/week-of-december-23rd-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-december-23rd-2.png)
 
 ## [FaaS] Functions Sleep-Mode
 

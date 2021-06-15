@@ -125,11 +125,11 @@ With the new location sharing enhancement, when a consumer shares his address/lo
 Image 1: consumer shares location
 
 {: .sidebyside}
-![](img/week-of-september-30th-26.png)![](img/week-of-september-30th-27.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-26.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-27.png)
 
 Image 2: agent sees the location consumer shared
 
-![](img/week-of-september-30th-28.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-28.png)
 
 ## Ability to set the bottom corners of the engagement window as rounded
 
@@ -188,9 +188,9 @@ By default the bottom corners settings will be 0 0 0px 0px , which means that th
 
 **Screenshots**
 
-![](img/week-of-september-30th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-4.png)
 
-![](img/week-of-september-30th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-5.png)
 
 ## Ability to set the engagement window as floating
 
@@ -249,11 +249,11 @@ Brands have the ability to set the embedded window as floating. Once this config
 
 Image 1: configure floating engagement window in engagement window studio
 
-![](img/week-of-september-30th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-6.png)
 
 Image 2: floating engagement window consumer view
 
-![](img/week-of-september-30th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-7.png)
 
 ## Emoji support for the engagement window on desktop
 
@@ -312,11 +312,11 @@ Brands have the ability to configure whether to provide consumers the ability to
 
 Image 1: enable emoji icon in the text area
 
-![](img/week-of-september-30th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-8.png)
 
 Image 2: Consumer view: adding emojis from desktop web messaging or chat window
 
-![](img/week-of-september-30th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-9.png)
 
 ## Ability to set the consumer actions menu in the messaging window on the top bar
 
@@ -389,25 +389,25 @@ Once the top menu option is selected, the menu icon will replace the X icon (clo
 
 Image 1: configure the location of the menu for the engagement window
 
-![](img/week-of-september-30th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-10.png)
 
 Image 2: configure menu to be at the bottom of the engagement window
 
-![](img/week-of-september-30th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-11.png)
 
 Image 3: configure menu to be at the top of the engagement window
 
-![](img/week-of-september-30th-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-12.png)
 
 Image 4: consumer side top menu
 
 {: .sidebyside}
-![](img/week-of-september-30th-13.png)![](img/week-of-september-30th-14.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-13.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-14.png)
 
 Image 5: consumer side bottom menu
 
 {: .sidebyside}
-![](img/week-of-september-30th-15.png)![](img/week-of-september-30th-16.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-15.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-16.png)
 
 ## Add attachment icon to the window
 
@@ -463,11 +463,11 @@ When the menu is configured to be at the top for web messaging and file sharing 
 
 Image 1: enabled attachment icon in the text area
 
-![](img/week-of-september-30th-17.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-17.png)
 
 Image 2: enabled attachment icon on consumer side
 
-![](img/week-of-september-30th-19.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-19.png)
 
 ## UI text for attachment feature made consistent between preview and the window
 
@@ -519,13 +519,13 @@ In the Engagement window studio, the attachment language under the menu option w
 
 Image 1: Text between preview in engagement window studio
 
-![](img/week-of-september-30th-20.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-20.png)
 
-![](img/week-of-september-30th-21.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-21.png)
 
 Image 2: Text from consumer side
 
-![](img/week-of-september-30th-22.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-22.png)
 
 ## Example text dimmed in text box for the engagement window
 
@@ -575,7 +575,7 @@ The example text in the text box has been dimmed to 30% opacity and the font siz
 Before and after the example text was dimmed
 
 {: .sidebyside}
-![](img/week-of-september-30th-23.png)![](img/week-of-september-30th-24.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-23.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-24.png)
 
 ## Translation added to elements of the engagement window
 
@@ -836,7 +836,7 @@ When an agent sends a structured content carousel placed inside a structured con
 
 This feature enables the user to export raw data from the menu of Bot Status Dashboard. User has now the ability to export data it in JSON and the MS Excel format.
 
-![](img/botconnectorsRN30.10a.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/botconnectorsRN30.10a.png)
 
 ## Support of Watson Version 2 vendor added
 ### Type: Enhancement
@@ -879,8 +879,8 @@ This feature enables the user to export raw data from the menu of Bot Status Das
 </div>
 
 Watson version 2 is now available as an additional vendor that can be used by Bot Connectors.  
-![](img/botconnectorsRN30.09b.png)
-![](img/botconnectorsRN30.09c.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/botconnectorsRN30.09b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/botconnectorsRN30.09c.png)
 
 ## Fixing test connection feature in Bot Connectors
 ### Type: Bug fix

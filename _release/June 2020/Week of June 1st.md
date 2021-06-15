@@ -133,7 +133,7 @@ Messaging Interactions reports inc. Messages flat file, Engagement attributes fl
   
 For more information on the Data Transporter, please see the [user guide](https://knowledge.liveperson.com/data-reporting-analytics-data-transporter-user-guide.html)
 
-![](img/datatransporter1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/datatransporter1.png)
 
 ## Public APIs 
 ### Type: New feature (Bot Connectors 2.19)

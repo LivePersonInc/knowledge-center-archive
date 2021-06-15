@@ -64,8 +64,8 @@ For example: An Agent Manager profile could have 3 Analytics Builder permissions
 * Customize reports in Analytics Builder
 * Share reports in Analytics Builder
 
-![](img/AB_permissions_1.png)
-![](img/AB_permissions_2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_permissions_1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_permissions_2.png)
 
 ### Analytics Builder Access
 There are 2 locations where a user can access the Analytics Builder:
@@ -73,17 +73,17 @@ The Reporting area within the Campaign Manager/Old Agent Workspace-Open Conversa
 
 #### Campaign Manager access:
 In Campaign Builder click the arrow button on the top of the screen:
-![](img/AB_permissions_3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_permissions_3.png)
 
 Then, in the Reporting area, click the Analytics Builder button on the left.
-![](img/AB_permissions_4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_permissions_4.png)
 
 ### Agent Manager access:
-![](img/AB_permissions_5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_permissions_5.png)
 
 ### QuickLaunch button: 
 Available for Conversational Cloud users that have at least one of the Reporting permissions turned ON
-![](img/AB_permissions_6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_permissions_6.png)
 
 ## Android version 2.6.0
 ### Enhancement [Agent App]

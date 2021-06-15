@@ -19,7 +19,7 @@ As you go about your shift, your own agent data bar will display on the top of y
 
 The data bar in the Agent Workspace represents the real-time tracking of your current workload and shift.
 
-![](/img/understanding-agent-performance-1b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/understanding-agent-performance-1b.png)
 
 **OPEN:** number of current open conversations
 
@@ -39,7 +39,7 @@ The data bar in the Agent Workspace represents the real-time tracking of your cu
 
 You can always search for any previous conversations you’ve had with consumers through the [All Conversations](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) tab.
 
-![](/img/understanding-agent-performance-1-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/understanding-agent-performance-1-1.png)
 
 All Conversations offers advanced filtering and search capabilities enabling you to search by:
 

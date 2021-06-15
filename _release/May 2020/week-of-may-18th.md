@@ -90,7 +90,7 @@ In the future the following functionality will added:
 - Network effect support
 - Automotive specific feature support
 
-![](img/Agent-App-Android-RN.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent-App-Android-RN.png)
 
 {: .notice}
 The new Agent App will be released initially for Android in 4 steps in Q2 and Q3. In Q4 it will be released for IOS and replace the existing IOS Agent App.
@@ -166,7 +166,7 @@ In this release, Conversation Builder introduces survey bots, which you can crea
 - e-text questions
 
 Use a survey bot to measure bot/agent and skill performance and to identify opportunities to improve on your quality targets.
-![](img/RN-May18-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May18-1.png)
 
 Please note:
 - To use survey bots created in Conversation Builder, you must log into Conversation Builder via single sign-on through the Conversational Cloud (previously known as LiveEngage). This feature isn't supported on the AWS platform where you log into Conversation Builder directly.
@@ -297,7 +297,7 @@ Ability to rollover conversations from a Brand to another Answering Service, the
 
 The user interface of the CoBrowse for Voice agent console was updated to align with the beautified UI and dark theme. 
 
-![](img/week-of-may-18th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-18th-1.png)
 
 ## Voice/Video Calls: Camera no longer required 
 ### Type: Enhancement (CoBrowse 3.15)

@@ -15,11 +15,11 @@ A new capability has been added to the Agent Workspace, enabling Messaging users
 
 Users will see the new private message action available within the action menu:
 
-![](img/private-messages-for-messaging-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/private-messages-for-messaging-1.png)
 
 A private message displayed within the conversation area, with a “PRIVATE” badge:
 
-![](img/private-messages-for-messaging-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/private-messages-for-messaging-2.png)
 
 Private messages will not affect the conversation’s SLA, intensity (active/inactive status), and will not reset the auto-close timer.
 

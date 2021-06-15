@@ -155,9 +155,9 @@ Fixed as part of the update to use the new Chrome user agent recognition method.
 
 We have introduced several UX/UI improvements to the [JSON Pollock playground](https://livepersoninc.github.io/json-pollock/editor/) that makes the playground much cleaner, easier to use, and showcases new action buttons.
 
-![](img/week-of-november-2nd-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-1.png)
 
-![](img/week-of-november-2nd-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-2.png)
 
 ## [JSON Pollock Playground] New action buttons 
 ### Type: Enhancement 
@@ -168,33 +168,33 @@ As part of the update, new action buttons allow for developers to build, validat
 
 Implementing a utility from the Connectors team, the Validate action button will validate structured content JSON on selected channels and present any errors from that channel.
 
-![](img/week-of-november-2nd-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-3.png)
 
 #### Templates 
 
 A set of structured content templates is now available to allow developers to quickly build their JSON objects across multiple channels.
 
-![](img/week-of-november-2nd-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-4.png)
 
 #### Feedback
 
 A new Feedback button has been added to the action menu. Developers can use this button to provide feedback to the JSON Pollock development team. Note that providing feedback requires being signed into Github. 
 
-![](img/week-of-november-2nd-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-5.png)
 
 #### Documentation 
 
 The documentation button has moved to the action menu and allows developers to quickly reference the Liveperson Developer pages related to structured content.
 
-![](img/week-of-november-2nd-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-6.png)
 
 #### GitHub Save / Share
 
 For GitHub users, it is now possible to save and load previous JSON files. This is helpful when sharing files across groups and keeping track of multiple structured content implementations.
 
-![](img/week-of-november-2nd-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-7.png)
 
-![](img/week-of-november-2nd-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-8.png)
 
 ## [JSON Pollock Playground] Structured Content updates
 ### Type: Enhancement 
@@ -205,7 +205,7 @@ There are additional updates that have been or will be delivered to structured c
 
 On click, open a window window with the embedded web view from the deeplink
 
-![](img/week-of-november-2nd-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-2nd-9.png)
 
 This functionality is invoked by adding “target”:”slideout” in the click action element. An example is below:
 

@@ -29,7 +29,7 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 * [LINE](messaging-channels-line-connector.html)
 * [WeChat Business](messaging-channels-wechat-business.html)
 
-![](/img/messaging-connectors-overview-1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/messaging-connectors-overview-1.gif)
 
 ## Why manage conversations with LivePerson?
 

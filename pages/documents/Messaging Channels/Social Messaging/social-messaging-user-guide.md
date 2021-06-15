@@ -19,7 +19,7 @@ Social Messaging extends Liveperson’s industry-leading conversational commerce
 
 Social Messaging can be accessed via the quick launch menu.
 
-![](img/Quick_launch_man_workspace1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Quick_launch_man_workspace1.png)
 
 ## Agent experience
 
@@ -67,7 +67,7 @@ The Consumer Profile provides agents with the user’s channel-specific social n
   * Number of Followers
   * Number of accounts following
  
-![](img/socialconnect-user-guide-7.png) 
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/socialconnect-user-guide-7.png) 
 
 ### View post/Tweet
 
@@ -106,14 +106,14 @@ Twitter:
 * URL Format: https://twitter.com/messages/compose?recipient_id=<Twitter Account ID>
   * Twitter Account ID = the numerical ID assigned to each twitter account
 
-![](img/socialconnect-user-guide-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/socialconnect-user-guide-12.png)
 
 Facebook:
 
 * URL Format: http://m.me/<PAGE_NAME>
   * Page Name = the name of the brand’s page
 
-![](img/socialconnect-user-guide-14.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/socialconnect-user-guide-14.png)
 
 
 ## Configuration

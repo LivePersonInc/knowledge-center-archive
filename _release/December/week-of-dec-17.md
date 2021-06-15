@@ -74,7 +74,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 **Screenshots**
 
-![](/img/Week-of-December-17.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Week-of-December-17.png)
 
 ### Abandon Segments Rate (%)
 
@@ -127,7 +127,7 @@ Enabled by default in the Realtime Dashboard
 Only available in the “Today from X” section and “Skills” section. In both sections, the result shown is based on the time-frame selected (i.e. Today from 12:00am, or Last 6 Hours)  
 **Screenshots**
 
-![](/img/Week-of-December-17-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Week-of-December-17-2.png)
 
 ### Google website translator
 
@@ -182,7 +182,7 @@ Translation quality is subject to that of the Google Translate service and may n
 
 **Screenshots**
 
-![](/img/Week-of-Dec-17th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Week-of-Dec-17th-4.png)
 
 ### New source filter options (MCS toolkit)
 
@@ -240,7 +240,7 @@ Additionally, only 1 source can be selected at a time (known limitation).
 
 **Screenshots**
 
-![](/img/Week_of_Dec_17th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Week_of_Dec_17th-6.png)
 
 ## Bug fixes
 

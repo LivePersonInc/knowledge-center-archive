@@ -82,7 +82,7 @@ You can now begin creating banners or buttons to add to your website. These elem
 
 **To add a new web engagement to your campaign**, click “**Add engagement**” and select **Web** as the engagement source. This will open the template gallery within the engagement wizard. There are six stages for creating a web engagement: **Gallery, Settings, Studio, Window, Entry Point and Behavior.**
 
-![](/img/add-web-messaging-to-your-website-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-web-messaging-to-your-website-1.png)
 
 ### Engagement Template gallery
 
@@ -92,7 +92,7 @@ The Engagement template gallery page allows you to choose the format of your eng
 
 From the Engagement settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content on this page.
 
-![](/img/add-web-messaging-to-your-website-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-web-messaging-to-your-website-2.png)
 
 #### Conversation channel
 
@@ -165,7 +165,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](/img/add-web-messaging-to-your-website-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-web-messaging-to-your-website-3.png)
 
 #### Display engagements based on a scheduler (using shift scheduler)
 

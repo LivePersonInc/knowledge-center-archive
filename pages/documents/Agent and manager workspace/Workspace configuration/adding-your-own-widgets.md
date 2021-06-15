@@ -30,19 +30,19 @@ Since every contact center is different, widget reordering allows brands to full
 
 1. From the visitors page, click on the Night Vision icon.
 
-   ![](/img/adding-your-own-widgets-6.png)
+   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/adding-your-own-widgets-6.png)
 2. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the workspace, by clicking **Hide**.
 
-![](/img/adding-your-own-widgets-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/adding-your-own-widgets-1.png)
 
-![](/img/adding-your-own-widgets-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/adding-your-own-widgets-2.png)
 
 {:start="3"}
 
 1. To reorder the widgets, click **Organize**.
 2. In the Organize widgets configuration screen, you can use the arrows to move the widgets up or down in the order they will appear. There is also an option to move the widget straight to the top.
 
-![](/img/adding-your-own-widgets-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/adding-your-own-widgets-3.png)
 
 {:start="5"}
 
@@ -50,7 +50,7 @@ Since every contact center is different, widget reordering allows brands to full
 2. If you would like the widget to appear alongside chats associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
 3. Enter the URL of the webpage or external application that you wish to display within the widget.
 
-![](/img/adding-your-own-widgets-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/adding-your-own-widgets-4.png)
 
 <div class="notice">
 <b>Notes:</b>

@@ -19,7 +19,7 @@ For each engagement in your campaign, you can determine if a particular visitor 
 
 The default option, **All behaviors**, means that the button is displayed at all times and displays immediately when the page is loaded.
 
-![](/img/visitor-behavior-0.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/visitor-behavior-0.png)
 
 ## Which users should you target?
 
@@ -56,7 +56,7 @@ To define an entry point behavior, you can select from your existing entry point
 
 Target and/or exclude consumers from selected entry points on the website or within the mobile app. To define an entry point (see above) behavior, you can select from your existing entry points (or add a new one); when a consumer lands on this entry point(s), they will be eligible to view an engagement. It is also possible to configure multiple rules for entry points visited; the consumer will only be eligible to view an engagement once they have met all of the rule criteria.
 
-![](/img/visitor-behavior-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/visitor-behavior-1.png)
 
 ### 4. About to abandon:
 
@@ -72,7 +72,7 @@ Target consumers according to the value of their shopping cart. Visitors can be 
 * The total value of their cart has decreased
 * The total value of their cart has decreased to 0
 
-![](/img/visitor-behavior-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/visitor-behavior-2.png)
 
 Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Center.
 
@@ -86,7 +86,7 @@ Products in Cart is reported via the Cart Update Engagement Attribute, for more 
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they view a particular product. The product can be defined by name, unique product identifier / stock keeping unit (SKU), category name and product price range. You can also exclude engagements from appearing when they view these products.
 
-![](/img/visitor-behavior-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/visitor-behavior-3.png)
 
 Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Center.
 
@@ -94,7 +94,7 @@ Viewed Product is an Engagement Attribute; for more information on reporting thi
 
 Target consumers who experience specific errors during their time on your site or mobile app. The error can be defined by a specific error message (and from which instance the consumer encounters the error e.g. first, or second) or by error code. You can also exclude engagements from appearing when they encounter a specific error(s).
 
-![](/img/visitor-behavior-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/visitor-behavior-4.png)
 
 Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Center.
 
@@ -110,7 +110,7 @@ Target consumers who interacted with engagements according to their status:
 <br/>
 You can also exclude engagements from appearing based on one or more of the above statuses.
 
-![](/img/visitor-behavior-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/visitor-behavior-5.png)
 
 ### 10. Service activity:
 
@@ -149,7 +149,7 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 1. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
 2. Under “Navigation” category choose “Flow.”
 
-![](/img/visitor-behavior-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/visitor-behavior-6.png)
 
 {:start="3"}
 3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.

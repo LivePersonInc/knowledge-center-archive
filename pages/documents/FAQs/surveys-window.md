@@ -61,14 +61,14 @@ Offline surveys are enabled by default for each engagement. You can disable offl
 5. Click **Edit** to the right of the engagement you want to modify.
 
 
-   ![](/img/faqs-surveys-windows-1-1.png)
+   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/faqs-surveys-windows-1-1.png)
    {:start="6"}
 6. On the Engagement settings window click **Next**. The Engagement studio opens
 7. Click the **down arrow** next to Online to view the list of States.
 8. Click the **orange checkmark** to the right of Offline to disable the Offline survey.
 9. Click **Done** to save your changes.
 
-   ![](/img/surveys-window-faq-3.png)
+   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/surveys-window-faq-3.png)
 
 ## How do I add the agent’s photo to the engagement window?
 
@@ -76,7 +76,7 @@ Offline surveys are enabled by default for each engagement. You can disable offl
 2. In the picture URL field, add the URL of the agent’s personal picture (must be in https format)
 3. Click “Save”
 
-![](/img/surveys-window-faq-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/surveys-window-faq-4.png)
 
 {: .notice}
 Supported image formats are PNG, JPG, and GIF. The recommended image size is 200X200 pixels and up to 0.5MB.

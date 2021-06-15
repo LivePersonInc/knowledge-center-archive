@@ -46,4 +46,4 @@ The Analytics Builder also includes a set of predefined grids:
 * Skill Activity Grid- ( Daily, Monthly)
 * Survey Activity - ( Daily, Monthly)
 
-![](img/RB_grids.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB_grids.png)

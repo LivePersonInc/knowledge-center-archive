@@ -20,7 +20,7 @@ date: 2019-02-25 13:14:06 +0000
 
 ### Solution:
 
-![](/img/troubleshooting-agentworkspace.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-agentworkspace.png)
 
 1. Firstly check your agent status bar and un-mute sound, as per the image above
 2. If the agents browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.
@@ -37,7 +37,7 @@ For Internet Explorer, follow these steps:
 
 ## Some agents can't see the conversation summary widget in their workspace
 
-![](/img/agent-workspace-troubleshooting1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace-troubleshooting1.png)
 
 ### Cause:
 
@@ -116,7 +116,7 @@ Do not modify IDs of predefined content items.
 
 For more information, see [Importing Predefined Content.](agent-manager-workspace-workspace-configuration-importing-predefined-content.html)
 
-![](/img/agent-workspace- troubleshooting3.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace- troubleshooting3.jpg)
 
 ## Why doesn’t our agent manager see all his groups on the Web History tab?
 

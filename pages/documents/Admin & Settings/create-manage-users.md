@@ -15,7 +15,7 @@ As an administrator you can add and manage up to 18,000 users in your account. U
 
 It’s also possible for brands to create profiles - customized permissions sets within roles, for additional user management flexibility. For further information on customizing profiles and permissions sets, see [profiles (permissions)](admin-settings-permissions-profiles.html)
 
-![](/img/create-manage-users1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/create-manage-users1.png)
 
 ## Adding a user
 
@@ -28,7 +28,7 @@ It’s also possible for brands to create profiles - customized permissions sets
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
 5. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
 
-![](/img/create-manage-users3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/create-manage-users3.png)
 
 ### For users with an agent profile you’ll need to define additional settings:
 
@@ -123,7 +123,7 @@ You can easily search for users and their information according to their name, n
 
 In the following example, the term “agent” was input to the search box and all users with either agent or agent manager permission sets have been returned as the search result.
 
-![](/img/create-manage-users4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/create-manage-users4.png)
 
 ## Change password on next login
 

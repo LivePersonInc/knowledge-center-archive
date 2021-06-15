@@ -128,19 +128,19 @@ For brands that choose to enable the multi-selection option, a new feature is no
 
 **Image 1: enable merging the list picker replies**
 
-![](/img/week-of-may-20th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-1.png)
 
 **Image 2: agent getting the consumer selected replies merged as one message**
 
-![](/img/week-of-may-20th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-2.png)
 
 **Image 3: disable merging the List Picker replies**
 
-![](/img/week-of-may-20th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-3.png)
 
 **Image 4: agent getting the consumer selected replies as individual message**
 
-![](/img/week-of-may-20th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-4.png)
 
 ## File Sharing (Phase II)
 
@@ -289,15 +289,15 @@ We added an additional style for the minimize window icon. Campaign managers and
 
 Default icon:
 
-![](/img/week-of-may-20th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-5.png)
 
-![](/img/week-of-may-20th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-6.png)
 
 Chevron icon:
 
-![](/img/week-of-may-20th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-7.png)
 
-![](/img/week-of-may-20th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-8.png)
 
 ## “Alt text” on header of engagement window does not disappear even after deleting from settings (CX-194)
 
@@ -388,7 +388,7 @@ To improve notification to brands when task failures occur, a new feature is now
 
 **Screenshots**
 
-![](/img/week-of-may-20th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-9.png)
 
 ## Data Transporter global Single Sign-on
 
@@ -436,4 +436,4 @@ All users of Data Transporter may now login via Single Sign-on instead of using 
 {: .notice}
 **Note:** This feature is available to existing and new Data Transporter customers. For more information, please contact your LivePerson account team.
 
-![](/img/week-of-may-20th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-20th-10.png)

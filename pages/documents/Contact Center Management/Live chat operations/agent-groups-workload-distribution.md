@@ -29,7 +29,7 @@ This allocation method, especially useful for large enterprises that utilize 'ag
 
 For example, if you have external vendors with prior contractual obligations, you can set the workload to be allocated to each vendor with a predefined percentage. Agent Group A, representing an external vendor, can be set to receive 50% of the workload and Agent Group B, representing another vendor, can be set to receive the remaining 50%.
 
-![](/img/workload-distribution-between-agent-groups-1b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/workload-distribution-between-agent-groups-1b.png)
 
 In case either Agent Group becomes unavailable (i.e. the maximum wait time for the Skill is exceeded) due to understaffing or other issues, the workload can be set to be distributed to the other Agent Group.
 
@@ -48,7 +48,7 @@ Advanced workload distribution needs to be activated through your LivePerson Acc
    Note: ensure the total % allocated to all groups adds up to 100%.
 6. Click **Save**.
 
-![](/img/workload-distribution-between-agent-groups-3b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/workload-distribution-between-agent-groups-3b.png)
 
 ## **Balance of workload between agent groups**
 
@@ -56,11 +56,11 @@ In the event of a particularly high flow of chats to one or more agent group, th
 
 For example, consumers normally directed to an agent group speaking their native language can be sent to another language group if the first becomes overloaded. Agent Group A is the primary group assigned to handle the Sales Spanish language Skill. Should this group become unavailable, chats can be set to cascade to Agent Group B - the secondary group assigned to handle that Skill.
 
-![](/img/workload-distribution-between-agent-groups-4b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/workload-distribution-between-agent-groups-4b.png)
 
 In a similar way, should internal agent teams become too busy, consumers can then be directed to external vendors. The percentage allocation per group will determine the exact workload distribution between them.
 
-![](/img/workload-distribution-between-agent-groups-5b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/workload-distribution-between-agent-groups-5b.png)
 
 **To cascade workload to backup groups:**
 
@@ -71,4 +71,4 @@ In a similar way, should internal agent teams become too busy, consumers can the
    Note: ensure the total % allocated to all groups adds up to 100%.
 4. Click **Save**.
 
-![](/img/workload-distribution-between-agent-groups-6b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/workload-distribution-between-agent-groups-6b.png)

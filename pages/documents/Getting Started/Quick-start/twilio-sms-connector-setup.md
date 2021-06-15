@@ -26,12 +26,12 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
 2. Click **Get a Trial Number** and follow the instructions on-screen.
 
-![](img/twilio-quick-start-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/twilio-quick-start-1.png)
 
 {:start="3"}
 3. Make sure to note your Account SID and Auth Token from this page as you will need them later in the process.
 
-![](img/twilio-quick-start-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/twilio-quick-start-2.png)
 
 {:start="4"}
 4. **Configure the request URL** by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming)
@@ -41,7 +41,7 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
     * North America accounts: **[https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
     * APAC (Asia Pacific) accounts: **[https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
 
-![](img/twilio-quick-start-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/twilio-quick-start-3.png)
 
 ## Step 2: Connect Twilio to the Conversational Cloud
 

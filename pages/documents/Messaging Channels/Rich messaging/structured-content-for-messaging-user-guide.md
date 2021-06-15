@@ -47,31 +47,31 @@ The following examples are just a small selection of the huge variety of structu
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
-![](/img/SC1 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SC1 (1).png)
 
 ## Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
-![](/img/SC2 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SC2 (1).png)
 
 ## Geo-navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
-![](/img/SC3 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SC3 (1).png)
 
 ## Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
-![](/img/SC4 (1).png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SC4 (1).png)
 
 ## Carousel
 
 A carousel allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
 
-![](/img/Carousel.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Carousel.gif)
 
 ## Enabling structured content
 
@@ -94,7 +94,7 @@ In order to enable structured content, please contact your LivePerson representa
 3. Determine if the structured content should be used for a human or virtual agent journey.
    * **Agent**: you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html)
 
-![](/img/structured-content-messaging-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/structured-content-messaging-1.png)
 
 * **Virtual Agent**: you will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html). For further information, refer to the [Developer Center documentation](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#virtual-agent).
 * Break each of your identified use cases down into the following building elements:

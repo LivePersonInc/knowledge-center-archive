@@ -154,13 +154,13 @@ For more information, please see the [secure form configuration guide](security-
 
 #### **Screenshots**
 
-![](/img/week-of-february-11th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-1.png)
 
-![](/img/week-of-february-11th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-2.png)
 
-![](/img/week-of-february-11th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-3.png)
 
-![](/img/week-of-february-11th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-4.png)
 
 ### Auto close per skill
 
@@ -201,7 +201,7 @@ Today, brands use a single time interval definition to determine how long after 
 
 **Screenshots**
 
-![](/img/week-of-february-11th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-5.png)
 
 ### Post Conversational Survey - Added search capability
 
@@ -250,7 +250,7 @@ For Text based channels such as SMS and ABC the new filter can display only conv
 
 **Screenshots**
 
-![](/img/week-of-february-11th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-6.png)
 
 ### Recommended Actions widget with Maven
 
@@ -294,7 +294,7 @@ Setup and configuration is currently not open to brands, must be done by LP inte
 
 **Screenshots**
 
-![](/img/week-of-february-11th-7.png)![](/img/week-of-february-11th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-7.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-11th-8.png)
 
 ### Step up
 

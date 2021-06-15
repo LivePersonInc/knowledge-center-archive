@@ -67,7 +67,7 @@ Users that do not require any change in view from the account default time zone 
 \**How to enable  
 \**The time zone offset feature is available to all users within the predefined dashboard folder on two dashboards: the **Skill Activity** and the **Messaging Performance**.
 
-![](/img/week-of-january-20th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-20th-1.png)
 
 **Please note:**
 
@@ -221,7 +221,7 @@ The metrics have been fixed now to show the correct ratio. The metrics appear in
 * ANSWER RATIO (Brand) metric in ‘Answers Distribution (Brand)’ panel
 * ANSWER RATIO (Agent and Skill) metric in ‘Answers Distribution (Agent and Skill)’ panel
 
-![](/img/week-of-january-20th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-20th-2.png)
 
 ### Report Builder: Brand Level Data tab shows no data when predefined Messaging Performance Dashboard is loaded (93773)
 
@@ -260,7 +260,7 @@ The metrics have been fixed now to show the correct ratio. The metrics appear in
 
 For brands using only a single source type, the default view of the ‘Brand Level Data’ sheet was empty. This is now fixed is data is visible for all accounts.
 
-![](/img/week-of-january-20th-3b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-20th-3b.png)
 
 ### Report Builder: Agent activity report incorrect filtering by skill (94844)
 

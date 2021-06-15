@@ -58,4 +58,4 @@ Now such requests are rejected on the validation step due to the new restriction
 
 A bug has been discovered in the “Visit info” widget for users of live chat and the old agent workspace. It appears that sometimes, some of the widget fields and titles are overlapping. This bug has been resolved.
 
-![](img/week-of-january-26th-hotfix.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-january-26th-hotfix.png)

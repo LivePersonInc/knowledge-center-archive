@@ -60,7 +60,7 @@ Brands can prioritize queues based on the messaging source of the incoming conve
 **Prioritize conversations that were previously sent back to queue**
 Conversations being placed back into queue (though they have already waited to receive an agent assignment) can be automatically assigned higher priority and reach the top of queue faster, improving consumer experience by ensuring no consumer needs to wait longer just because their conversation was returned to queue.
 
-## ![](/img/queue-prior-overview-2.png)
+## ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/queue-prior-overview-2.png)
 
 What to expect after enabling this feature?
 

@@ -29,7 +29,7 @@ While commonly used customer satisfaction measurements, such as customer surveys
 
 MCS does not rely on customers answering surveys, but rather on a deep analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real time.
 
-![](/img/all-connections-manager-workspace.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/all-connections-manager-workspace.png)
 
 At the the heart of the solution, validated in collaboration with leading universities, lies specialized NLP machine learning-based technology that is able to adjust its algorithm to fit each brand and/or industry.
 
@@ -70,7 +70,7 @@ For messaging conversations, the MCS score and alerts (smileys) are displayed in
 
 For chat conversations, the MCS score and smileys are displayed in dedicated columns on the Web History and Web Visitors list, and on the Agent Workspace.
 
-![](/img/web-history-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/web-history-1.png)
 
 The image above shows the chat Agent Workspace
 
@@ -78,7 +78,7 @@ The image above shows the chat Agent Workspace
 
 MCS Toolkit allows brands to identify training opportunities for agents and agent groups, meaning agent performance can be benchmarked and best practices standardized across the account. Conversation MCS offers brands the ability to deep dive into the evolution of consumer sentiment throughout the lifetime of a conversation. This allows agent managers to identify weak points in service, recognize trends and pinpoint areas that require improvement.
 
-![](/img/meaningful-connection-score-(MCS)-overview4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/meaningful-connection-score-(MCS)-overview4.png)
 
 MCS can be viewed in the All Conversations list and Web History, as well as being exported so that brands can later integrate and further analyze the data using third-party tools .
 

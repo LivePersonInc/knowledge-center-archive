@@ -393,7 +393,7 @@ Report Builder dashboards were enhanced to include the Agent login name and the 
 In order to use the new fields (agent login name, email address) you will have to select the existing agent column, click on 'Display Attribute Name' and choose the columns.
 You can add the login name and email name as additional columns to the grid, or you can replace the current agent name with one of the two columns added.
 
-![](img/RNDec9_RB1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNDec9_RB1.png)
 
 ## Report builder - Incorrect error message on session expiration 
 ### Type: Bug fix

@@ -27,7 +27,7 @@ Conversions are reflected in your reports and are calculated based on the date o
 * Choose longer conversion periods if your visitors are likely to take their time before making a decision. For example, consumers usually take more time when buying expensive products or services. In this case, set the time frame to the maximum (31 days), so you can attribute the purchase (conversion) to the chat or Web Messaging conversation or content that took place at the beginning of the time period.
 * Choose shorter conversion periods if your visitors are likely to make a purchase quickly. For example, visitors are more likely to purchase flowers the same day they search for them.
 
-![](/img/attribution-model1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/attribution-model1.png)
 
 In addition, LivePerson uses the attribution model, which is a set of rules that determine which agent / campaign gets the credit for the conversion. If the visitor conversed more than once, you can choose which agent gets the credit by setting the attribution model to first or last interaction (see instructions below). By default, the last agent gets the credit for the conversion. Similarly, if a visitor was exposed to more than one content engagement of different campaigns, the last content engagement will get the credit for conversion.
 
@@ -39,11 +39,11 @@ Any change you make to the attribution model or time period takes effect immedia
 1. Go to the campaign list.
 2. From the footnote, set the cross session period. This is the number of days you want to track visitors who return after a campaign exposure.
 
-![](/img/attribution-model3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/attribution-model3.png)
 
 ## Configure your account’s attribution model
 
 1. Go to the campaign list.
 2. From the footnote, set the conversion attribution model to first or last. This is to determine which agent will get the credit for the conversion, or in case of content banners, the first or last banner the visitor was exposed to.
 
-![](/img/attribution-model4-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/attribution-model4-1.png)

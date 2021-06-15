@@ -40,4 +40,4 @@ Launchpad is a post-login administrator hub that presents users and admins with 
 
 In late September, we’ll be kicking off an Early Access program for the Launchpad. Please contact Eran Naot to join the Early Access Program or  for more information.
 
-![](/img/launchpad.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/launchpad.png)

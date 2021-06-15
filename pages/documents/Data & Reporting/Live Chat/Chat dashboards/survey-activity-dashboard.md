@@ -27,7 +27,7 @@ Capture all responses to surveys presented to agents and consumers in your Live 
 
 This panel consists of an interconnected set of visualizations allowing for a drill down form the survey form level down to an analysis of distribution of responses for a specific survey question. Click through from top to bottom to follow the analysis path.
 
-![](/img/survey-activity-dashboard1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/survey-activity-dashboard1.png)
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ Image 1: survey activity main panel
 
 This panel displays the trend of CSAT score over the selected time frame. The grid will drill down to show the CSAT scoring by survey question at the skill level per day.
 
-![](/img/survey-activity-dashboard-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/survey-activity-dashboard-2.png)
 
 ## CSAT Grid
 
@@ -121,4 +121,4 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard in the [Developer Center.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
 
-![](/img/General-Data-metrics-table.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/General-Data-metrics-table.png)

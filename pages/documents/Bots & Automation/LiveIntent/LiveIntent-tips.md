@@ -56,7 +56,7 @@ There are two ways to classify messages:
 
 * Option 1: Read the messages directly from the [Conversation details dashboard](https://knowledge.liveperson.com/ai-bots-automation-intent-analyzer-dashboard.html#conversation-details) on Intent Analyzer. You may want to take notes to record your patterns.
 
-![](img/Intent-manager-customer-experience1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Intent-manager-customer-experience1.png)
 
 * Option 2: Export them as a spreadsheet and create a dropdown menu in the intent column to manually label the messages.
 

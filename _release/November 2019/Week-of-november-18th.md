@@ -134,7 +134,7 @@ Relevant to the following channels:
 
 With SocialConnect, brands can gain operations efficiencies by consolidating their digital customer care into a single tool, LiveEngage. SocialConnect expands LiveEngage to the most popular social media channels, enabling brands to respond to customers on messaging and social channels. It also reduces operational overhead by simplifying training, and shift management. Finally, SocialConnect applies the power of LiveEngage reporting, analytics, automations and artificial intelligence to brand’s social care.
 
-![](/img/Social_Connect_Twitter.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Social_Connect_Twitter.png)
 
 ## Enable Rollover for back end messaging
 

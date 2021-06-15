@@ -59,7 +59,7 @@ The iOS mobile SDK will now support rendering links automatically when adding th
 **Limitations**
 * This change only adds support to url, sms, tel, facetime, facetime-audio, and doesn't cover hyperlinks format.
 
-![](img/week-of-february-8th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-1.png)
 
 ## [iOS SDK] LPConfig property inputTextViewContainerBackgroundColor is not respecting color
 ### Type: Bug fix (iOS SDK 6.2)
@@ -143,11 +143,11 @@ Provider accounts can now use a wildcard within the welcome messages based on th
 
 Brands can now configure collapsing message history in the consumer window. Utilizing this option reduces initial window load time and improves consumer experience for consumers with long message histories. We will be slowly changing the default for all brands to collapse history in the coming months. This setting can be changed at any time in the Engagement Window Studio (Under the menu > Look and Feel section).
 
-![](img/week-of-february-8th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-3.png)
 
 **Note:** These changes in Engagement Window will be available after the release of LEUI 12.7.
 
-![](img/week-of-february-8th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-4.png)
 
 ## WCAG 2.1 AA / Accessibility Remediation
 ### Type: Enhancement (WX 10.7)
@@ -228,9 +228,9 @@ This ringtone enhancement will enable users to select a different ring from a va
 
 This feature will not affect chat and won't appear for accounts which don't have the Enhanced Agent Workspace). This feature will be enabled by default.
 
-![](img/week-of-february-8th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-5.png)
 
-![](img/week-of-february-8th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-6.png)
 
 ## [LE UI] Block self-provisioning when multiple connectors are present
 ### Type: Enhancement (v12.7)
@@ -257,7 +257,7 @@ The above bug have now been resolved.
 
 A bug has been discovered within Night Vision for the ACD (Automatic Conversation Distribution) configuration section. When an account chooses to have the 'Manual mode' enabled for Live Chat ACD setting, the row for that setting doesn't have the check mark (blue fill in the radio button). Due to this it appears like there is no ACD option chosen. This behavior is now fixed and the check mark will appear as expected.
 
-![](img/week-of-february-8th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-7.png)
 
 ## [LE UI] Chat workspace has overlapping widgets
 ### Type: Bug fix (v12.7)
@@ -276,15 +276,15 @@ It is now possible to orient the Welcome Message quick replies into a vertical l
 
 Engagement Studio setting:
 
-![](img/week-of-february-8th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-8.png)
 
 Wrapped quick replies:
 
-![](img/week-of-february-8th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-9.png)
 
 Unwrapped quick replies:
 
-![](img/week-of-february-8th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-10.png)
 
 ## [LE UI] Separating description fields in the Connection Panel 
 ### Type: Bug fix (v12.7)
@@ -298,7 +298,7 @@ Currently, when a customer wants to create a case through the Connection Panel, 
 
 Manual Mode option:
 
-![](img/week-of-february-8th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-11.png)
 
 ## [LE UI] Name change to "Conversational Cloud" within the Users Tab
 ### Type: Bug fix (v12.7)
@@ -339,4 +339,4 @@ The Conversational Cloud user module is now showing a new permission for the Age
 
 This feature is OFF by default, but even if turned on, it will have no effect on the platform, the roles, and the profiles, at this time. We will keep updating prior to releasing this feature, and prior to this permission to effect anything.
 
-![](img/week-of-february-8th-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-8th-12.png)

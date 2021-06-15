@@ -52,11 +52,11 @@ Please note throughout this document, when referring to the Engagement window, t
 
 Below is the embedded engagement window with its various components labelled.
 
-![](/img/access-policy1-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/access-policy1-2.png)
 
 _Figure 1: The embedded engagement window_
 
-![](/img/accessibility-policy2-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/accessibility-policy2-1.png)
 
 _Figure 2: The embedded engagement window, action menu expanded_
 
@@ -86,7 +86,7 @@ The embedded engagement window supports the following survey types:
 
 There is an option to make survey questions mandatory; in which case a visitor can only submit the survey when all mandatory questions are answered. Below is an example of an offline survey form in the Embedded Engagement window.
 
-_![](/img/accessibility-policy3.png)_
+_![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/accessibility-policy3.png)_
 
 _Figure 3: Offline survey example_
 
@@ -94,7 +94,7 @@ _Figure 3: Offline survey example_
 
 Customer satisfaction survey is sent to the consumer when the conversation is manually ended by either the agent or the consumer. The consumer is asked a single question, e.g. how would you rate the service that you received with a display of 5 stars ranking the experience from poor to excellent (1 star to 5 stars).
 
-![](/img/accessibility-policy4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/accessibility-policy4.png)
 
 ## Secure form widget
 
@@ -106,7 +106,7 @@ Our secure form, which is sent by the agent to the visitor, contains various que
 
 The secure form is opened in a widget in the engagement window. On desktop it opens alongside the engagement window, and on mobile it appears on top of the engagement window.
 
-![](/img/accessibility-policy5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/accessibility-policy5.png)
 
 _Figure 4: Secure form widget_
 

@@ -31,7 +31,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](/img/managing-campaigns-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/managing-campaigns-12.png)
 
 ## Creating your engagement
 

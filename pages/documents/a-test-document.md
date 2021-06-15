@@ -18,4 +18,4 @@ If you want to see the Markdown itself, simply hit the three dots in the upper r
 
 #### This is h4. Testing.
 
-[![](/img/Logo-LP.png)]()
+[![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Logo-LP.png)]()

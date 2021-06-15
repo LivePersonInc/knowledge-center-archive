@@ -113,7 +113,7 @@ The new metric instead will reset the timer for the maximum amount of time waiti
 
 Additionally, only chats that started within the last 24 hours will be included in the output of Maximum Waiting Time - meaning, if a visitor entered a queue over 24 hours ago and is currently waiting in queue, the currentMaxWaitTimeInQueue will not include this visitor.
 
-![](/img/week-of-december-2nd-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-december-2nd-1.png)
 
 ## Enhancements
 

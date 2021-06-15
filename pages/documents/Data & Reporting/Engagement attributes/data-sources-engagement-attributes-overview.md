@@ -15,7 +15,7 @@ Collecting the right information enables you to customize your visitors’ exper
 
 At the bottom of the Campaign Builder, click to open the data sources link in the footnote
 
-![](/img/data-sources2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/data-sources2.png)
 
 eCommerce info attributes allow you to track the eCommerce activities of your visitors:
 

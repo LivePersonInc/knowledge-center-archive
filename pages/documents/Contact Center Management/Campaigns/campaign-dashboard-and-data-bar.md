@@ -17,7 +17,7 @@ The campaign data bar and dashboards described below will provide you with high 
 
 Campaign data is displayed and updated every hour, enabling you to make quick decisions about your campaigns and engagements at any given time. The data bar displays the visitor funnel: total visitors, those exposed to data, those engaged, incremental conversions and incremental revenue.
 
-![](/img/campaign-dashboard-and-data-bar-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-dashboard-and-data-bar-1.png)
 
 ### Prospects
 
@@ -40,11 +40,11 @@ Goals are categorized either as _Business_ goals or _Assisting_ goals.
 * _Business_ goals include “sell a product or service” and “generate leads”. These goals will be considered _Conversions_ when they are reached.
 * _Assisting_ goals include “increase page views” and “other goals” and are considered _Goal Reached_ when they are reached.
 
-![](/img/campaign-dashboard-and-data-bar-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-dashboard-and-data-bar-2.png)
 
 ## The campaign-level dashboard
 
-![](/img/campaign-dashboard-and-data-bar-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-dashboard-and-data-bar-3.png)
 
 ### Performance
 

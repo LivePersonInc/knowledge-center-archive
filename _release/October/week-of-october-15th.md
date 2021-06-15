@@ -103,7 +103,7 @@ Actionable conversations metric is also available via Messaging Operations API s
 
 This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment. This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources. Further details are available on the [LivePerson's Developers Community site](https://developers.liveperson.com/push-notification-service-overview.html).
 
-![](/img/week-of-october-15th-2018-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-15th-2018-2.png)
 
 ### Predefined Content & Content Categories - Audit Trail (AE-110)
 
@@ -155,7 +155,7 @@ The Audit Trail table was enhanced to show details of changes made to Predefined
 
 This feature requires enablement ​- please contact your LivePerson account team.
 
-![](/img/week-of-october-15th-2018-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-15th-2018-3.png)
 
 ### Intelligent routing queue delivery (back-end messaging-server)
 
@@ -558,7 +558,7 @@ Use case: The account admin added a new survey to the account or modified an exi
 
 This feature requires enablement ​- please contact your LivePerson account team
 
-![](/img/week-of-october-15th-2018-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-15th-2018-4.png)
 
 ### LOBs External API - Add keys (AE-405)
 
@@ -604,7 +604,7 @@ When advanced options toggle is OFF: * Title: Lines of Business
 * Keys: "ac.lob.read.external" and “ac.lob.write.external"
 * The user gets both read and write permissions
 
-![](/img/week-of-october-15th-2018-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-15th-2018-5.png)
 
 When advanced options toggle is ON: * Title: Lines of Business
 
@@ -615,7 +615,7 @@ When advanced options toggle is ON: * Title: Lines of Business
 
 This feature is enabled by default to all customers.
 
-![](/img/week-of-october-15th-2018-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-15th-2018-6.png)
 
 ### Offline survey email settings (LE-94582)
 
@@ -658,7 +658,7 @@ This provides the ability to change the offline survey email settings (such as t
 
 It is recommended to fill out all fields or leave them blank to use the account default settings. This enhancement is enabled by default for all customers.
 
-![](/img/week-of-october-15th-2018-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-15th-2018-7.png)
 
 #### **Limitations**
 

@@ -27,7 +27,7 @@ The widget consist of two areas:
 * Top area - Displays the consumer profile on the social network, together with important statistics about the consumer (different stats are available for each conversation source) - to provide the agent with important data about the consumer.
 * Bottom area - Displays the original post/tweet of the consumer in the social network, together with its ‘parent’ post/comment - to provide clear indication of the conversation context.
 
-![](img/week-of-february-22nd-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-1.png)
 
 ## [Social Messaging] Public/Private consumer message indication
 ### Type: Enhancement (SM 2.0)
@@ -41,11 +41,11 @@ The option to invite consumers for a private conversation (a.k.a “Public to Pr
 
 Link to Facebook Messenger:
 
-![](img/week-of-february-22nd-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-3.png)
 
 Link to Twitter direct messages:
 
-![](img/week-of-february-22nd-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-4.png)
 
 ## [Social Messaging] 'View post'capability for each consumer message
 ### Type: Enhancement (SM 2.0)
@@ -55,11 +55,11 @@ The agent may also navigate to that post/tweet on the native platform by clickin
 
 “View post” button appears when hovering the consumer message:
 
-![](img/week-of-february-22nd-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-5.png)
 
 The post presented inside the new Social Messaging widget, together with its parent post:
 
-![](img/week-of-february-22nd-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-6.png)
 
 ## [Social Messaging] Reply to a specific consumer message/post
 ### Type: Enhancement (SM 2.0)
@@ -70,11 +70,11 @@ Once the agent sends the reply to the consumer, the agent message will appear in
 
 “Reply” button appears when hovering over the consumer message:
 
-![](img/week-of-february-22nd-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-7.png)
 
 Preview of the replied message is presented above the agent’s text:
 
-![](img/week-of-february-22nd-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-8.png)
 
 ## [Social Messaging] Mention consumer in an agent reply
 ### Type: Enhancement (SM 2.0)
@@ -82,10 +82,10 @@ Preview of the replied message is presented above the agent’s text:
 With Social Messaging v2.0, agents will be able to mention consumers with their Facebook username while replying through the Conversational Cloud. While typing a new message within the input area in the Agent Workspace, the agent may press on the “Mention consumer” button. This will add the consumer username in the input area as a mention, e.g: “Hey there, @Cristy!” and the consumer will get a notification that he has been mentioned by the brand, in the native platform.
 
 Hovering the “Mention consumer” button:
-![](img/week-of-february-22nd-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-9.png)
 
 Mention the consumer in the reply:
-![](img/week-of-february-22nd-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-10.png)
 
 ## [Social Messaging] Toggle easily between Public/Private replies
 ### Type: Enhancement (SM 2.0)
@@ -102,7 +102,7 @@ The My Conversations list has been enhanced with a new icon with the conversatio
 
 The Facebook icon will be presented for each conversation originating from both public Facebook comments/posts, and for MEssenger conversations. The Twitter icon will be presented for both public tweets, and direct messages.
 
-![](img/week-of-february-22nd-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-11.png)
 
 ## [Social Messaging] Enhance Facebook connector with Public capabilities
 ### Type: Enhancement (SM 2.0)
@@ -113,7 +113,7 @@ This capability has been added under the Data Sources page, within the Facebook 
 {: .notice}
 **Please note:** This feature requires backend enablement. Please contact your LivePerson representative for more information.
 
-![](img/week-of-february-22nd-12.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-22nd-12.png)
 
 ## [Third Party Bot Connectors] Conversation Tester 
 ### Type: Feature 
@@ -125,7 +125,7 @@ The conversation tester gives feedback on the errors and what caused them allowi
 #### How to enable
 When the user will be on the Bot’s Dashboard in Third-Party Bots, in the bottom right corner an orange chat bubble will appear. The user can click to open a chat window with the bot and start testing the flow of the bot.
 
-![](img/RN-third-party-bots-feb-22.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-third-party-bots-feb-22.png)
 
 ##  [Third Party Bot Connectors] IBM Watson endpoints deprecation 
 ### Type: Deprecation

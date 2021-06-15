@@ -26,7 +26,7 @@ You may choose from each of the methods above according to your brand’s needs.
 
 * **SLA** = Service Level Agreement. The response time configured within the Agent Workspace to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill.
 
-  ![](/img/shift-scheduler-CG-1.png)
+  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-1.png)
 * **TTR** = Time To Response. This time is set according to the current shift status (online/off hours). If the shift is currently active, the TTR equals 0. If the shift is currently inactive, the TTR equals the time until the next shift will start.
 * **ETTR** = Expected Time To Response. The expected response time when the consumer will be answered by an agent. The ETTR is displayed to consumers during a messaging conversation via the Automatic Messages mechanism.  
   ETTR = TTR + SLA.
@@ -39,7 +39,7 @@ You may choose from each of the methods above according to your brand’s needs.
 
 1. Click the downward arrow next to the user name and click "Shift Scheduler"
 
-   ![](/img/shift-scheduler-CG-2.png)
+   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-2.png)
 
    {:start="2"}
 2. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
@@ -55,7 +55,7 @@ You may choose from each of the methods above according to your brand’s needs.
 
 ## Automatic scheduler
 
-![](/img/shift-scheduler-CG-3b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-3b.png)
 
 The configuration of scheduled [Workdays](https://developers.liveperson.com/workdays-api-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response message** for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
 
@@ -99,7 +99,7 @@ Scheduling items or special occasion items can be created through the Schedule o
    Click the “Set days and hours” button in order to access the Schedule library (see image)
 4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library. The Schedule library / Special Occasions library will now be displayed on your screen:
 
-![](/img/shift-scheduler-CG-6b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-6b.png)
 
 ### Creating a new workday item
 
@@ -108,7 +108,7 @@ Scheduling items or special occasion items can be created through the Schedule o
 3. Fill in the Schedule item name, description (optional) and timezone
 4. Define the hours of operation for each day of the week.
 
-![](/img/shift-scheduler-CG-7b.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-7b.png)
 
 You may choose between:
 
@@ -176,7 +176,7 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 4. The Skill page will be displayed, and a summary of the Schedule/Special Occasion item details will be presented on the screen for you to review.
 5. Click “Save” in order to save the skill with it’s new working hours changes.
 
-![](/img/working-hours.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/working-hours.png)
 
 ## Workdays & special occasions using APIs
 
@@ -211,13 +211,13 @@ In order to generate App Keys to access the API, follow the following steps:
 4. Under Administration, choose the Working Hours API  
    Then, simply choose the permission needed out of:
 
-   ![](/img/shift-scheduler-CG-9b.png)
+   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-9b.png)
 
 * **Read** - to access (read) all Workdays or Special Occasions defined on your account.
 * **Write** - to create/edit/delete Workdays or Special Occasions defined on your account.
 * **Edit skill working hours** - to create/update/delete skill’s Workdays or Special Occasions field.
 
-  ![](/img/shift-scheduler-CG-10b.png)
+  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-10b.png)
 
 {:start="5"}
 5. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
@@ -245,4 +245,4 @@ For additional info on creating API keys - [LivePerson APIs](https://developers.
 * This permission is available both for Administrator and Agent Manager, and set to ON by default.
 * Users with this permission enabled will be able to edit the account Workdays as well as Special Occasions.
 
-![](/img/shift-scheduler-CG-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/shift-scheduler-CG-11.png)

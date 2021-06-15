@@ -55,7 +55,7 @@ Following the completion of an onsite assessment, the Conversational Cloud secur
 
 An agent can send a secure form from the[ Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](/agent-manager-workspace-workspace-configuration-predefined-content-overview.html) widget and selecting a secure form.
 
-![](/img/Secure-forms-chat1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-forms-chat1.png)
 
 _Figure 1 Secure form within the Agent Workspace_
 
@@ -66,7 +66,7 @@ If there are other agents viewing the chat, they will not be able to view the se
 
 Example of a secure form in use:
 
-![](/img/secure-form-chat2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/secure-form-chat2.png)
 
 _Figure 2: LivePerson secure form within an engagement window interaction_
 
@@ -84,7 +84,7 @@ Tokenization is a method of substituting data to render it meaningless to anyone
 
 The following diagram shows the process and security layers of a visitor completing a secure form and sending it to an agent.
 
-![](/img/secure-form-chat3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/secure-form-chat3.png)
 
 _Figure 3: Secure form visitor to agent flow chart_
 

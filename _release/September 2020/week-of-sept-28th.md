@@ -35,7 +35,7 @@ Dialog templates are a great way to:
 * Formalize the import process for a dialog
 * Ensure that other bot developers import all required components supporting a dialog
 
-![](img/Release-notes-sept-28-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Release-notes-sept-28-1.png)
 
 ## Advanced model tester
 ### Type: Enhancement [Intent Builder] 
@@ -62,6 +62,6 @@ Integrating with your CMS means your content creators can continue to create and
 **With LivePerson AI:** This configuration uses the power of a Natural Language Understanding (NLU) engine to evaluate the articles against the consumer’s utterance (the intent) and return the highest scoring articles.
 **Without LivePerson AI:** This configuration passes on the consumer utterance (the search query) to the CMS, which uses its own query and answer API to find and return the most appropriate articles.
 
-![](img/RN-week-of-sept-28-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-week-of-sept-28-2.png)
 
 ## Android SDK v5.4 coming soon

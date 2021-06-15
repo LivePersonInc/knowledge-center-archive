@@ -79,7 +79,7 @@ This feature requires enablement - please contact your LivePerson account team
 * In the current solution, only a bot (using the Agent SDK) can receive the authentication response from the consumer (after the consumer submits authentication on Business Chat) - In the next phase, we will add a user interface indication on LiveEngage which will allow a live agent to see authentication status as well.
 
 {: .sidebyside}
-![](/img/release-notes-2018-october-week-of-october-8th-2018.png) ![](/img/week-of-october-8th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/release-notes-2018-october-week-of-october-8th-2018.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-2.png)
 
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
@@ -139,7 +139,7 @@ This feature requires enablement - please contact your LivePerson account team
 In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
 
 {: .sidebyside}
-![](/img/week-of-october-8th-4.png) ![](/img/week-of-october-8th-5.png) ![](/img/week-of-october-8th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-4.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-5.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-6.png)
 
 ### RCS Business Messaging Connector - Messaging Capabilities (LE-92815)
 
@@ -196,7 +196,7 @@ Delivered Indication
 {: .notice}  
 Google RCS Business Messaging is currently in beta mode. If you have brands that are interested in participating in the beta program, please contact Galit Hoffer.
 
-![](/img/week-of-october-8th-7-1.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-7-1.jpg)
 
 ### RCS Business Messaging Connector - Conversation Attributes (LE-92816)
 
@@ -328,7 +328,7 @@ The RCS Business Messaging templates will support RCS cards, carousels and quick
 {: .important}
 This feature requires enablement** - please contact your LivePerson account team
 
-![](/img/week-of-october-8th-8-2.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-8-2.jpg)
 
 ### RCS Business Messaging Connector - Consumer to agent image support (LE-92818)
 
@@ -373,7 +373,7 @@ JPG, JPEG, PNG, GIF
 {: .important}
 This feature requires enablement** - please contact your LivePerson account team
 
-![](/img/week-of-october-8th-9-2.jpg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-9-2.jpg)
 
 ### RCS Business Messaging Connector - Reporting on RCS Business Messaging source in LiveEngage (LE-92819)
 
@@ -530,7 +530,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15, which will only be rolled out in October - this means that in the first version of surveys for SMS, quick replies will not be supported.
 
-![](/img/week-of-october-8th-10-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-10-1.png)
 
 ### \[Twilio\] Connectors Image Share Support (Consumer -> Agent): Twilio SMS (LE-80986)
 
@@ -578,11 +578,11 @@ Twilio only supports sharing images (MMS) in the US and Canada. Therefore sharin
 
 Agent side:
 
-![](/img/week-of-october-8th-11.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-11.png)
 
 Consumer side:
 
-![](/img/week-of-october-8th-2018-13.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-october-8th-2018-13.png)
 
 ## Enhancements
 

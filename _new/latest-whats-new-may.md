@@ -49,7 +49,7 @@ The Commerce View incorporates the following metrics:
 
 For more information, click [here](https://knowledge.liveperson.com/data-reporting-performance-optimizer-performance-optimizer-user-guide.html)
 
-![](img/new-may-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-may-1.png)
 
 ## Engagement Controller (Available for early adopters)
 
@@ -62,7 +62,7 @@ Users are able to set up rules that contain conditions which check skill availab
 
 For more information, click [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-orchestrator-engagement-controller.html)
 
-![](img/Engagement_Controller.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Engagement_Controller.gif)
 
 ## Voice & Video for Connectors
 
@@ -81,7 +81,7 @@ Consumers can close the webview at any point of the video or voice call while re
 
 The video and voice calls will open within the Conversational Cloud as a new video widget interface. During an active call, both agent and consumer are able to end the call at any time. Furthermore, each participant is able to mute the microphone or disable the camera.
 
-![](img/video_and_voice_calls_via_Connectors.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/video_and_voice_calls_via_Connectors.gif)
 
 ## Intent Analyzer: Advanced keyword search
 
@@ -90,7 +90,7 @@ When using the “Add Filter” functionality in the Intent Analyzer, a user may
 
 For more information on the Intent Analyzer or to get started, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-getting-started.html)
 
-![](img/new-may-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-may-3.png)
 
 ## Connectors: Apple Business Chat (ABC) auto Rich Link Payload creation
 
@@ -107,7 +107,7 @@ Removes the need to whitelist URL domains and subdomains; all URLs sent to the c
 Automated rich link support is disabled for all accounts by default. Please reach out to your LivePerson representative for enablement.
 The enablement of Rich Link configuration additionally provides the ability to set default fallback image and text by simply adding a url in case it’s not present in the original tag property.
 
-![](img/new-may-5.jpeg)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-may-5.jpeg)
 
 ## Connectors: Additional Instagram Entry Points
 
@@ -119,12 +119,12 @@ Entry points are surfaces where users can start a conversation with your brand. 
 
 Connectors have implemented a  new SDE - “Ctype” in the consumer information panel in the Conversational Cloud. This will allow the agents to see the specific entry points in the conversation from where the consumer has initiated the messages. This can then be additionally used as context for routing to a skill by the bot or an agent.
 
-![](img/new-may-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-may-6.png)
 
 ## Next Best Conversation (NBC)
 
 Next Best Conversation is the ability to utilize consumer segmentation and visitor behavior to present targeted and personalized engagements to consumers. It’s all about delivering the right engagement on the right channel with the right message at the right time to increase engagement click-through rate, interactive conversations, and conversion rate of a consumer.
 
-![](img/Next Best Conversation.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Next Best Conversation.gif)
 
 

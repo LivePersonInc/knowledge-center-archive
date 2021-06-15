@@ -26,11 +26,11 @@ The Conversational Cloud will support the new Instagram connector as a new third
 
 Another advantage that brands will have that the agents would be able to configure the Ice breakers aka conversation starters during the onboarding process. Ice breakers provide a way for the consumers to start a conversation with the business with a list of frequently asked questions. A maximum of 4 questions can be set by the agents during the self-service onboarding process via data sources in the Conversation Cloud.
 
-![](img/week-of-february-15th-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-1.png)
 
-![](img/week-of-february-15th-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-2.png)
 
-![](img/week-of-february-15th-3.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-3.png)
 
 **Limitations:**
 * The Instagram connector is currently in an early adopter phase and requires approval from Facebook
@@ -50,7 +50,7 @@ The Conversational Cloud will support Instagram as a new third-party messaging c
 
 Instagram will be ready for self-service onboarding at the end of the month, but brands can start using the channel once approved. Sign up now using this [form](https://forms.gle/D7ycCEs4i8aTN7yC9). 
 
-![](img/week-of-february-15th-4.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-4.png)
 
 ## [Instagram] User profile visibility
 ### Type: New Functionality 
@@ -69,7 +69,7 @@ The Conversational Cloud supports Instagram users sharing image files as an atta
 * Supported formats by Instagram are jpg, gif, png, ico, bmp
 * The maximum file size is 5MB
 
-![](img/week-of-february-15th-5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-5.png)
 
 ## [Instagram] Video sharing support
 ### Type: New Functionality 
@@ -79,9 +79,9 @@ The Conversational Cloud now supports Instagram users sharing video files with a
 **Limitations:**
 * Agent to consumer file sharing is not yet supported by Instagram.
 
-![](img/week-of-february-15th-6.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-6.png)
 
-![](img/week-of-february-15th-7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-7.png)
 
 ## [Instagram] Secure forms support
 ### Type: New Functionality 
@@ -97,7 +97,7 @@ The Conversational Cloud now supports agents sending Quick Reply buttons to cons
 **Limitations:**
 * A total of 13 Quick Replies are supported and each Quick Reply button allows up to 20 characters.
 
-![](img/week-of-february-15th-8.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-8.png)
 
 ## [Instagram] CSAT Survey support
 ### Type: New Functionality 
@@ -122,10 +122,10 @@ Consumers can start conversations with brands in two ways using Stories:
 **Enablement:** Story mentions are enabled by default. In the event that you don’t want to receive DMs from your consumers via the Story mention entry point, please contact your LIvePerson representative to disable this feature.
 
 Story mention by the consumer:
-![](img/week-of-february-15th-9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-9.png)
 
 Story mention disappears after 24 hours:
-![](img/week-of-february-15th-10.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-15th-10.png)
 
 
 ## [Instagram] Post Conversation Survey support
@@ -142,7 +142,7 @@ The Conversational Cloud now supports the Post Conversation Survey for the Insta
 **Channel:** This enhancement is available for all channels supported by the Conversational Cloud platform.
 
 In Bot Analytics, you can now download transcripts via the Transcripts view.
-![](img/RN-feb-bot-analytics-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-feb-bot-analytics-1.png)
 
 The following are known limitations in this release. These are soon to be resolved:
 

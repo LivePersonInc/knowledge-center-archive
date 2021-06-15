@@ -78,7 +78,7 @@ Creating a folder under “my account” or “my reports” folders
 2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “folder”
 3. Once the name is chosen and submitted, the icon for the new folder will appear on screen
 
-![](/img/Customization-user-guide1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Customization-user-guide1.png)
 
 Alternatively, a new folder can be created by copying an existing dashboard (right-click and “copy”), or by selecting the Save As menu option from within an opened dashboard. In both options, to the right of the folder selection-box, click on the create folder icon.
 
@@ -219,7 +219,7 @@ The filters of a any dashboard must contain at least one attribute from the “T
      * To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
      * To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
-![](/img/customization-user-guide5.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/customization-user-guide5.png)
 
 {:start="4"}
 
@@ -357,7 +357,7 @@ Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/10.
 2. Select ‘number format’ and then select the format from the available options (Currency, Date, Time, Percentage and so on).
 3. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
 
-![](/img/customization-user-guide7.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/customization-user-guide7.png)
 
 {: .notice}
 Due to the platform design, when creating time based derived metrics, it is recommended to user the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
@@ -385,7 +385,7 @@ The table below lists the available styles:
 | Combo Chart | 2 or more metrics1 or more attributes |
 | Network Chart | 1 or more attributes |
 
-![](/img/customization-user-guide9.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/customization-user-guide9.png)
 
 ## Graphs with more than one metric
 

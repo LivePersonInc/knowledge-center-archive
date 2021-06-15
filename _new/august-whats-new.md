@@ -18,7 +18,7 @@ The LivePerson Conversational Cloud is the evolution of LiveEngage. It’s an AI
 
 The Conversational Cloud makes it possible to understand consumer intents in real-time to inform critical business decisions and automate consumer interactions at scale on all the popular messaging channels. The Conversational Cloud powers the orchestration of human agents, bots, and systems through a specialized set of AI-powered services and tools. Brands can use this platform to discover and understand consumer intents, design and scale personalized automations to fulfill those intents, and measure and optimize the effectiveness of conversations.
 
-![](img/whats-new-aug1.gif)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/whats-new-aug1.gif)
 
 Click [here](https://info.liveperson.com/introducing-conversational-cloud?utm_medium=banner&utm_source=in-product&utm_campaign=cc-launch) to hear from our CEO Rob LoCassio on the Conversational Cloud.
 
@@ -52,7 +52,7 @@ View and analyze consumer intents for Web Chat customers
 ## Custom KPI configuration
 Brands can customize the dashboard to utilize the metrics that are most important to them for Intent Analysis. The dashboard can be configured  to utilize alternative post survey conversation data & not just limited to CSAT.
 
-![](img/whats-new-aug2020.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/whats-new-aug2020.png)
 
 ## Intent Powered Queue prioritization
 Brands can configure their customer queuing logic to prioritize specified high value intents. For more information on Queue Prioritization, click [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html)
@@ -68,7 +68,7 @@ There are two kinds of prebuilt domains:
 2) A cross-vertical, prebuilt domain that is appropriate for all verticals. This includes intents for things like customer account management, customer order management, e-commerce, billing and payment.
 Once you add a prebuilt domain, you can customize it as you see fit. After customization, you’ll need to retrain the domain as you normally do. 
 
-![](img/Preview-Cross-Vertical.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Preview-Cross-Vertical.png)
 
 ## Performance Portal
 At the core of the portal is a dashboard and enablement framework that clearly articulates how primary and secondary KPIs influence success  and align to the LivePerson 4E Framework (TM) pillars of Efficiency, Effectiveness, Effort, and Emotion
@@ -78,7 +78,7 @@ A Configuration Engine within the Performance Portal allows brands to define rep
 
 Narrative-driven dashboards and data contextualization allow people to diagnose issues in a faster, more intelligent way.
 
-![](img/performance-portal.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/performance-portal.png)
 
 ## Third Party Bots - Conversation Tester
 Brands will be able to have mock conversations with their onboarded bot directly from the 3rd Party Bot interface. They will be able to test out the responses of the bot and troubleshoot issues. The Tester will create a conversation with the bot and will present feedback and error messages to the tester allowing Brands to validate their Bot's flows and correct issues. The tester will help establish if intents are missed, if structured content is wrongly set up thereby empowering the Brand to make corrections before taking the bot to their consumers.

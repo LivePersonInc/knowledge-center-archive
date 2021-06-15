@@ -65,7 +65,7 @@ App Messaging is a new channel available for the Connect to Messaging (IVR defle
 3. **Connect to Messaging 2.0 APIs:** Once the brands have successfully installed the Mobile SDK on iOS and Android as well as configured LP Pusher, Proactive/Connect to Messaging (IVR) API integration will be the next step:
   * Connect to Messaging (IVR) 2.0: The Connect to Messaging 2.0 [onboarding guide and APIs](messaging-channels-connect-to-messaging-user-guide.html) are now available. 
 
-![](img/ivr-to-app-messaging-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ivr-to-app-messaging-1.png)
 
 ## Limitations 
 

@@ -117,8 +117,8 @@ Login Hours  should only be captured for human non-managers.  Otherwise CCPLH wi
 Online Hours should also be captured for human non-managers only.
 Avg. Agent Load is captured for non-managers, and it includes a filter to only include Human agents.  This is because bots have a default Max Capacity setting of 999, which artificially lowers the Agent Load
 
-![](img/RN-4.8-1.png)
-![](img/RN-4.8-2.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-4.8-1.png)
+![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-4.8-2.png)
 
 ## Agent level funnel( Opened, Submitted, Closed) for Agent survey in ‘Survey Dashboard for Messaging
 ### Type: Enhancement [Analytics Builder 4.8]
