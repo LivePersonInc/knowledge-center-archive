@@ -100,7 +100,7 @@ img.card-container {
 }
 
 #success-stories {
-  background-image: url("../img/bgkc.jpg");
+  background-image: url("//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bgkc.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
