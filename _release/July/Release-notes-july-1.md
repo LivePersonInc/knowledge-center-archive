@@ -252,7 +252,7 @@ This new feature is enabled OOTB and is available for all Report Builder enabled
   For user with customization permissions, the attributes will now appear with the derived (fx) icon with the naming convention of the previous date/time related attributes. The naming convention of the previous attributes was altered to be “_xxx__old” and moved out of the predefined attribute list for users with customization permissions to access.
 * There should be no impact or change to existing user copies. User copies created prior to this release will not display the offset functionality and therefore will not have the changes to the attributes mentioned in the note above.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB3.3-2.png)
+![](/img/RB3.3-2.png)
 
 ## Third-party NLU support
 
@@ -478,7 +478,7 @@ While assigning conversations to agents, it is possible that certain skills woul
 
 Fallback configuration by skill adds a new section under the skill settings in LiveEngage that enables brands to define the skill to which conversation will be routed if there are no online agents on the skill or if all agents are in an away status.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/rn-week-of-july-1.png)
+![](/img/rn-week-of-july-1.png)
 
 **Configuration**
 
@@ -604,6 +604,6 @@ Brands can improve the secure form consumer experience by embedding the form dir
 
 **Image1: Embedded form within conversation thread**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/rn-week-of-july-1-3.png)
+![](/img/rn-week-of-july-1-3.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/rn-week-of-july-1-2.png)
+![](/img/rn-week-of-july-1-2.png)

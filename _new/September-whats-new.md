@@ -19,12 +19,12 @@ The Performance Optimizer has anonymized brand comparisons, industry benchmarks,
 A Configuration Engine within the Performance Portal allows brands to define reporting units and save data in relevant segmentations. 
 Narrative-driven dashboards and data contextualization allow people to diagnose issues in a faster, more intelligent way.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PO-whatsnew.gif)
+![](img/PO-whatsnew.gif)
 
 ## Intent Manager 
 In the coming weeks, we have many exciting updates to the Intent Manager.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Intentmanager-whats-new.gif)
+![](img/Intentmanager-whats-new.gif)
 
 New features will be added to Intent Discovery & Optimization to help brands discover new topics and quickly find diverse training phrases for building new intents. Brands will have the ability to create, save, and manage advanced filters, as well as customize and configure metric widgets to better suit different personas and use cases. 
 
@@ -48,7 +48,7 @@ The consumer's engagement window is expanded to show the video/call invitation a
 
 The feature will be set to ON by default for all users on all accounts, it can be disabled by contacting your LivePerson representative. You can also control access to the feature fwdeedrom the profile permissions. For more information, click [here.](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-voice-and-video-calls-overview.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/V&V.gif)
+![](img/V&V.gif)
 
 ## Connectors update
 ## Self-service onboarding for WhatsApp Business, Apple Business Chat, Google Business Messages and more 
@@ -63,13 +63,13 @@ Different channels offered are:
 
 And more.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/phones-whats-new.png)
+![](img/phones-whats-new.png)
                                                                                                   
 You can now get started with different messaging technologies through our [self-service onboarding](https://z1.le.liveperson.net/a/24002204/#/mng/data/sources) under Campaigns-->Data Sources-->Conversation Sources.
 Simply select the channel that you want to set up and fill out the profile info page.
 Our implementation teams will handle the rest of the setup.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Datasource-whats-new.png)
+![](img/Datasource-whats-new.png)
 
 ## Facebook Referral parameter
 The Messenger platform supports the passing of an arbitrary parameter via these m.me links. This can be used for many purposes, such as tracking different links placed in different channels, or tying a Messenger user to a session or account in an external app. You can even use it to direct the user to specific content or features available within your Messenger experience. An m.me link with an added parameter looks like this:
@@ -182,7 +182,7 @@ The Realtime Dashboard was developed before the new Manager Workspace was introd
 
 Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here.](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Whats-new-sept-1.png)
+![](img/Whats-new-sept-1.png)
 
 ## Internet Explorer 11 -  End of Life
 Microsoft 365 apps and services will no longer support Internet Explorer 11 (IE 11) and will move to support the new Microsoft Edge. By November 30th, 2020, the Microsoft team’s web app will no longer support IE 11. By August 17th, 2021, the remaining Microsoft 365 apps and services will no longer support IE 11. This means customers still using IE11 will have a degraded experience or will be unable to connect to Microsoft 365 apps and services. As such, LivePerson is discontinuing support of IE11 in line with the above dates, as we don’t want our customers to be negatively impacted by this change. Though LivePerson supports Microsoft Edge and FireFox, the recommended browser for messaging workspace is Chrome.

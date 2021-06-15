@@ -13,7 +13,7 @@ isNew: false
 ---
 The web history is one of the most powerful analytics tools LivePerson has to offer, providing rich, intelligent layers of data that offer deeper insight into agent performance and customer satisfaction.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/web-history-1.png)
+![](/img/web-history-1.png)
 
 * Advanced filtering capabilities lead to meaningful analysis on business topics, customer satisfaction, and operational effectiveness
 * Transcripts become available in minutes, so managers can start their analysis in near-real time
@@ -49,11 +49,11 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 * Detailed campaign information, including campaign name, goal name, Line of Business, engagement name and visitor behavior, is also available.
 * In addition, the preview window presents the chat ID, a unique number used to search and locate the chat for troubleshooting and investigation purposes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/web-history-2.png)
+![](/img/web-history-2.png)
 
 **Meaningful Conversation Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit [Meaningful Conversation Score ](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/web-history-3.png)
+![](/img/web-history-3.png)
 
 ## Advanced
 

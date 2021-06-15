@@ -20,7 +20,7 @@ This configuration allows you to define several campaigns, each with its own tim
 1. From the campaigns list, select a specific campaign.
 2. In the Campaign Builder, hover over the **Campaign time frame** and click **Edit.**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/time-frame-2.png)
+![](/img/time-frame-2.png)
 
 {:start="3"}
 3. The Campaign time frame page will open.
@@ -49,7 +49,7 @@ You may choose from the following options:
   3. Fill in the Schedule item name, description (optional) and Time zone
   4. Define the campaign’s hours of operation for each day of the week
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/time-frame-1.png)
+![](/img/time-frame-1.png)
 
 You may choose from:
 
@@ -65,7 +65,7 @@ You can define multiple shifts for a single day of the week by doing the followi
 2. Save the page.
 3. The new scheduling item will now appear in the Schedule library. Click it in order to choose it for your current campaign.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/time-frame-4.png)
+![](/img/time-frame-4.png)
 
 {:start="4"}
 4. Click **Done**.
@@ -88,7 +88,7 @@ You may choose from:
 * **Custom** - manually type the activation hours of the day. The input must be in the following format: “HH:MM am/pm” and in 5 minute intervals only.
 * **Multiple shifts per occasion:** You may also define multiple shifts per occasion. Simply hover over the occasion line, then click the **+Add** button in order to split the occasion activation hours, and add the shift's hours.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/time-frame-5.png)
+![](/img/time-frame-5.png)
 
 {:start="6"}
 6. Save the page.
@@ -100,4 +100,4 @@ You may choose from:
 
 After defining the campaign’s date range, active days, hours and special occasions, make sure to click **done** (for an unpublished campaign) or **publish** (for a published campaign) in order to save all new settings.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/time-frame-6.png)
+![](/img/time-frame-6.png)

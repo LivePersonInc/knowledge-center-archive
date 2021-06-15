@@ -31,7 +31,7 @@ Make sure that the identifier class name or ID is unique. LivePerson will look f
 
 The span element in this example has a unique class called “totalAmount”.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/extracting data no code1.png)
+![](/img/extracting data no code1.png)
 
 {: .notice}  
 Some data won’t appear on your webpage. To collect that data, you can use our Javascript code.

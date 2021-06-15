@@ -23,7 +23,7 @@ A Static List Picker is a simple configuration that offers the same choice to al
 
 The most basic and ubiquitous use of a List Picker is in collecting customer intent and routing the conversation to the appropriate skills. The Routing List Picker makes it easy for customers to express their intent and for the agent to quickly recognize the customer’s needs. In doing this, we encourage brands to analyze the top reasons why customers contact their business. These contact drivers should then inform the key intents to be included in the Routing List Picker. Below is an example of this simple List Picker interaction. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/business-chat-features-1.png)
+![](img/business-chat-features-1.png)
 
 ### Dynamic List Pickers
 
@@ -52,7 +52,7 @@ When configuring a List Picker, the following capabilities are supported:
 
 The List Picker template consists of elements that the business can define. Below is a high-level anatomy of the List Picker. To learn more on how to configure the List Picker structure, check out our [Developer's guide on the List Picker template](https://developers.liveperson.com/apple-business-chat-templates-list-picker-template.html).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/business-chat-features-2.png)
+![](img/business-chat-features-2.png)
 
 **List Picker Icon Images Spec**
 * Icon Images must be compatible with light and dark mode. 
@@ -60,11 +60,11 @@ The List Picker template consists of elements that the business can define. Belo
 
 **receivedMessage** is a Business Chat message object which defines how the message bubble will be displayed when the message is received on the customer’s device.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/business-chat-features-3.png)
+![](img/business-chat-features-3.png)
 
 **replyMessage** is a Business Chat message object which defines how the message bubble will be displayed once the message is submitted by the customer. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/business-chat-features-4.png)
+![](img/business-chat-features-4.png)
 
 **Note:** The same fields can be defined for both received and reply.
 
@@ -79,11 +79,11 @@ The List Picker template consists of elements that the business can define. Belo
 A rich link is a URL sent to the customer in a chat bubble that includes an image or a video. It is a great way to provide customers with a great visual experience on the Messaging app that is akin to Apple’s standard. When the customer taps on the image or video, it then opens the link of the website. Sending rich links is a minimum requirement by Apple. URLs sent without using rich links are “untrusted,” and display a grey “Tap to Load Preview” bubble for the customer as a warning. Businesses are expected to have both chatbots and human agents send rich links to customers to avoid inline hyperlinks and/or ‘tap-to-load’ preview links which offer a poorer experience. 
 
 URL sent as ‘Tap to Load’ preview:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/business-chat-features-5.png)
+![](img/business-chat-features-5.png)
 
 
 URL sent as a Rich Link:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/business-chat-features-6.png)
+![](img/business-chat-features-6.png)
 
 **Note:** At minimum, rich links are required in Apple Business Chat project implementations. 
 
@@ -92,4 +92,4 @@ URL sent as a Rich Link:
 Businesses that want to launch Apple Business Chat are **required** to add LivePerson’s proprietary Rich Link Generator widget within the agent console. When an agent wants to direct customers to a specific web page link during an Apple Business Chat based conversation, they can use the widget to send it as a rich link. The Rich Link Generator scrapes the website URL for an OG tag and uses this image in the chat bubble. Using the widget will ensure that the rich link includes a **preview image, bubble title, and Link URL**. 
 
 Here are the three components of a rich link:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/business-chat-features-7.png)
+![](img/business-chat-features-7.png)

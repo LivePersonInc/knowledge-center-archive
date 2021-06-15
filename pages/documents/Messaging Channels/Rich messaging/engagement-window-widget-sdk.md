@@ -15,7 +15,7 @@ redirect_from:
 ---
 The engagement window widget SDK allows brands to intelligently share product information, videos or other rich media during a conversation with the visitor, in a dedicated area on the engagement window.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Engagement window widget Gif -1.gif)
+![](/img/Engagement window widget Gif -1.gif)
 
 ## Use cases
 

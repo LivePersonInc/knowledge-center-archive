@@ -25,7 +25,7 @@ This channel is specifically useful for high priority issues that requires immed
 3. Click on the message icon to contact LivePerson
 4. Start messaging
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Contact_support1.png)
+![](img/Contact_support1.png)
 
 ## Open a ticket
 
@@ -41,7 +41,7 @@ Only Agent Managers and Administrators can open a ticket.
    of the browser.
 3. Click on Technical support cases (case icon) and then click on 'create new case'.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Contact_support2.png)
+![](img/Contact_support2.png)
 
 {: .important}
 Before contacting Support, check out the Troubleshooting section of the knowledge center as it may have the answer to your question.

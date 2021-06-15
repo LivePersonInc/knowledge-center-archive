@@ -53,7 +53,7 @@ Please click [here](https://knowledge.liveperson.com/messaging-channels-rich-con
 
 Please note the “Link Preview” will be disabled if Hyperlink in messaging is enabled and Hyperlink in messaging from consumer to agent is not supported.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/MobileSDK-RN-Aug17-1.png)
+![](img/MobileSDK-RN-Aug17-1.png)
 
 ## Secure Element Encryption
 ### Type: New functionality (Mobile SDK)

@@ -27,7 +27,7 @@ Brands that are using the third party messaging channels will now be able to inv
 First, brands will need to enable the voice and video call feature on the conversational Cloud account:
 Voice and video calls are automatically enabled on the brand’s Conversational Cloud account. Agent Profiles and Permissions can be used to allow or restrict the video and voice calls feature for all agents or only a subset of agents. The permissions are part of the Agent profile. The permissions that control this feature are the “Initiate voice conversation” permission to allow voice calls, and the “Initiate live video conversation” permission to allow video calls.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/17mayRN1.png)
+![](img/17mayRN1.png)
 
 ### Initiating a call
 * Voice or video calls are initiated by the agent by sending an invitation to the consumer on a Messaging channel.
@@ -35,13 +35,13 @@ Voice and video calls are automatically enabled on the brand’s Conversational 
 * After accepting, the call is initiated and the consumer’s browser will ask for permission to access the camera and/or microphone:
 * Consumers can close the webview at any point of the video or voice call while returning to the messaging screen.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/17MayRN2.png)
+![](img/17MayRN2.png)
 
 ### Agent view:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/17mayRN3.png)
+![](img/17mayRN3.png)
 
 ### Consumer View:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/17mayRN4.png)
+![](img/17mayRN4.png)
 
 The video and voice calls will open within CC as a new video widget interface on conversation cloud.
 During an active call, both agent and consumer are able to end the call at any time. Furthermore, each participant is able to mute the microphone or disable the camera:
@@ -60,7 +60,7 @@ Enabled by default
 ### Dependencies
 Intent Analyzer must be enabled.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Intent_AnalyzerRN5.png)
+![](img/Intent_AnalyzerRN5.png)
 
 ## Consistent display of metrics by intent
 ###  Enhancement [Intent Manager v2.1]

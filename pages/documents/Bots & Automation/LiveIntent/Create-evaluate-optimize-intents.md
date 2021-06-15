@@ -43,7 +43,7 @@ Instead of creating an intent named “my order,” consider instead looking for
 When you begin, first take a look at how the existing model is performing. There are a few key things to note: coverage, intent names, and the existing training data.
 First, to easily gauge the coverage of the current model, visit the Intent Analyzer Dashboard as seen below, and check the “Top Intents” and “Intent Summary” pie charts:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-1.png)
+![](img/IA-Optimize-intents-1.png)
 
 {: .notice}
 Note: In the “Intent Summary” pie chart, check both the classified vs. unclassified space at both the “conversations” and “messages” levels using the toggle button.  In the “Top Intents” chart look for how much of the pie chart “Undefined” occupies. If any of these metrics are very low, i.e., one-quarter or less of the pie charts, it is unlikely there will be many intents to discover. Take this into consideration as you proceed.  Don’t see undefined in the Top Intents chart?  Enable it by clicking on the gear option and selecting Display “undefined” intents.
@@ -62,15 +62,15 @@ Below is a visual guide for anyone starting the intent discovery process:
 
 a) Start by going to the “Intent Discovery” tab as seen below:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-2.png)
+![](img/IA-Optimize-intents-2.png)
 
 b) Make sure the “Only show unclassified messages” toggle is enabled as seen below:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-3.png)
+![](img/IA-Optimize-intents-3.png)
 
 c) Now, begin looking through each “verb noun cluster”, starting with the largest. You can analyze a cluster by clicking on it, or one of its subclusters. Each cluster is about a general topic that consumers discuss, and it will visually show all of the subclusters contained within it. Subclusters are formed from sets of consumer messages that all used the same verb and noun pairing. These subclusters use the “root” versions of verbs, so all conjugations of the same verb (i.e. -ing, -ed) are grouped within the same subcluster. When you click on a subcluster or the “View Details” next to a subcluster, you can see the consumer messages that compose it.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-4.png)
+![](img/IA-Optimize-intents-4.png)
 
 d) As you are reviewing each subcluster, consider each as inspiration for an intent in your taxonomy. Before you convert a subcluster to an intent, verify two things:
 * Does the subcluster represent an intent that is not covered in your taxonomy?
@@ -79,28 +79,28 @@ If you answered yes to both of these questions, then you probably have a good ca
 
 e) To convert a subcluster to an intent, find the subcluster you want to convert and click the “View Details” button. This will take you to the “Messages” view and show you the consumer messages that composed that cluster.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-5.png)
+![](img/IA-Optimize-intents-5.png)
 
 f) Now that you can see all of the messages that compose the subcluster, you can use the checkboxes on the left to select the messages you would like to use for the new intent. You can also choose to use the selected messages as training data for an existing intent.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-6.png)
+![](img/IA-Optimize-intents-6.png)
 
 For an alternative method of finding new intents, try looking through the data manually, following this process:
 
 * While still in “Intent Discovery” switch to the “Messages” display, and start by trying to find a pattern or theme in the messages by filtering out everything except “Undefined.” First click the “Add Filter” button on the top left.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-7.png)
+![](img/IA-Optimize-intents-7.png)
 
 * Next, in the pop-up window, select “Intents” as your filter type on the left:.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-8.png)
+![](img/IA-Optimize-intents-8.png)
 
 * And then pick “Undefined” from the dropdown on the right:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-9.png)
+![](img/IA-Optimize-intents-9.png)
 
 * Try to review at least 30 messages. You may need to switch the number of messages viewable in the window from the default of 20 to 50 or higher if needed. Here is an example. In these messages, you may notice a few recurring patterns such as consumers reporting issues logging into their account. Let’s group those similar messages together to make an intent.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-10.png)
+![](img/IA-Optimize-intents-10.png)
 
 * After identifying a few patterns, see if you can group similar messages under a named label that you create. In the above example case, we can take the three checked utterances and make an intent named “Report login problem.” To name an intent, try to think of a short phrase that could describe the intent. Typically, an intent name has both a verb and a noun.
 
@@ -124,31 +124,31 @@ in mind.
 There are a few methods you can use to find more messages:
 
 First, you can read the unfiltered messages directly from the “Messages” view on the Intent Discovery tab, just make sure not to have a cluster or subcluster selected:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-11.png)
+![](img/IA-Optimize-intents-11.png)
 
 Another method is to use a keyword search to filter your results, as seen below:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-12.png)
+![](img/IA-Optimize-intents-12.png)
 
 Last, you can use the “Discover Similar Messages” feature to find messages similar to a message you select. To start, highlight a message with your mouse and click “discover similar messages,” as seen below:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-6.png)
+![](img/IA-Optimize-6.png)
 
 After clicking “discover similar messages”, Intent Analyzer will load a new set of messages into the “Messages with Intent” window, all of which are similar to the message that you picked at the beginning:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-7.png)
+![](img/IA-Optimize-7.png)
 
 Alternatively, you can use the clusters and subclusters in Intent Discovery to find additional training data as well. To do this, go to Intent Discovery’s cluster view and click a subcluster that you want to add to an existing intent. Once you’ve done this, click “view details” and the utterances from that cluster will be brought over to the “Messages” window. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-13.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-14.png)
+![](img/IA-Optimize-intents-13.png)
+![](img/IA-Optimize-intents-14.png)
 
 Regardless of which option you choose to find more messages, once you’ve found them, use the dropdowns on the right to classify them, or you can select multiple messages with the checkboxes on the left and reclassify them as a group.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-15.png)
+![](img/IA-Optimize-intents-15.png)
 
 {: .notice}
 Note: You can also export the utterances using the “Export Table to CSV” as a spreadsheet to Excel or Google Sheets. Once the data has been exported and downloaded onto your local device, you can upload the file into Google Sheets or Excel and begin classifying messages.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-16.png)
+![](img/IA-Optimize-intents-16.png)
 
 ## How To Select Training Utterances 
 
@@ -186,8 +186,8 @@ Now that you have discovered some intents and found the training data for those 
 2. Click Train in the upper-right corner to start the training.
 3. To refresh the page and check on progress, click the Refresh icon in the Training Status column.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-10.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-17.png)
+![](img/IA-Optimize-10.png)
+![](img/IA-Optimize-intents-17.png)
 
 ## Step 5: Evaluating & optimizing your model
 
@@ -197,28 +197,28 @@ Note: Another, more thorough method of testing your model’s performance is our
 
 ### Check Intents: 
 * First navigate to the Intent Analyzer [dashboard](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-dashboard.html)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-11.png)
+![](img/IA-Optimize-11.png)
 
 * In the Intent Analyzer dashboard, navigate to “Intent Discovery” at the top left, and make sure that the “Messages” view is selected.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-18.png)
+![](img/IA-Optimize-intents-18.png)
 
 * Click “Add Filter” at the top left.
 
 * You should now see the “Add Filter” menu. Now, use the first dropdown menu to select “Intents” as your category.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-19.png)
+![](img/IA-Optimize-intents-19.png)
 
 * Then use the second dropdown menu to select which intent you want to filter on.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-20.png)
+![](img/IA-Optimize-intents-20.png)
 
 * Once you have an intent filter created, read around 10+ messages in the “Messages” window and verify that these messages match the current intent you are using as your filter. As you do this, refer to the intent’s definition for guidance (see links to definitions at the end of this document). Do this for every intent in your taxonomy, and track how many messages are correctly labeled per each intent. If you observe less than 60% correctly labeled messages, please see the “Diagnosis” step below for next steps. For a more accurate assessment of your model, review a larger number of messages per intent (20+ would be ideal).
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-21.png)
+![](img/IA-Optimize-intents-21.png)
 
 * In the above example, six messages were correctly labeled as “report general login issues,” while two messages were incorrectly labeled as “report general login issues.” This gives you six out of eight correct, simplified to 3/4 or 75% correct.
 
 **Check Undefined:**
 Now, use the “Add Filter” button to change the filtering intent to “Undefined” which is at the very bottom of the list of intents.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-intents-22 .png)
+![](img/IA-Optimize-intents-22 .png)
 
 Once you have done this, you will need to return to the “Messages” window as you did in Step and read 50+ of the filtered messages. While doing this, record how many messages are correctly classified as “Undefined.” “Undefined” is a label that is applied to messages that cannot be classified by any intent in a given taxonomy. Once you are done, calculate the percentage of correctly classified “Undefined” messages. If you observe less than 60% correctly labeled messages, please see the “Evaluation” step (following page) for next steps. Reading over a larger number (100+) of “Undefined” labeled messages is advised for an accurate assessment, but a minimum of 50 should be sufficient.
 

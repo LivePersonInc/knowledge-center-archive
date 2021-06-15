@@ -22,7 +22,7 @@ redirect_from:
 
 To enable the Manager Workspace on your LivePerson Conversational Cloud account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-permissions.png)
+![](img/new-manager-workspace-permissions.png)
 
 ### Configuration of metrics to display
 
@@ -38,19 +38,19 @@ The configurable widgets are the “Activity Summary”, “Agents” and “Con
 
 Who can change the configuration?
 A new permission “Configure agent manager workspace” has been added to the agent manager profile. **It is Off by default**. 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-5.png)
+![](img/week-of-may-4th-5.png)
 
 Once it is turned on for the desigered profile, a new configuration icon will become available in the top right corner of the workspace:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-6.png)
+![](img/week-of-may-4th-6.png)
 
 Clicking on it will reveal the configuration window, allowing the user to easily toggle on or off the relevant metric per each configurable widget.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-7.png)
+![](img/week-of-may-4th-7.png)
 
 ### New Agent Workspace
 
 Here you can also control the permissions for the enhanced Agent Workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced Agent Workspace for all managers using the new Manager Workspace. Please note that if the new Manager Workspace is enabled but the enhanced Agent Workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-permissions-2.png)
+![](img/new-manager-workspace-permissions-2.png)
 
 ## Filters
 
@@ -64,12 +64,12 @@ The following filters can be applied to the sections listed above:
 
 1. **Time filter** - by default, the workspace will show data from the last hour. Users will be able to change the time range to view data from the past X hours. The maximum supported time range is 24 hours.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-7.png){:class="newagent"}
+![](img/new-manager-workspace-7.png){:class="newagent"}
 
 {:start='2'}
 2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-8.png){:class="newagent"}
+![](img/new-manager-workspace-8.png){:class="newagent"}
 
 ## In queue widget
 
@@ -80,9 +80,9 @@ The "in queue" widget presents the number of conversations currently waiting for
 * A breakdown of "in-queue" conversations by skill is shown.
 * Conversations assigned to the "UNASSIGNED" skill will also be included in the in queue conversations value.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-9.png){:class="newagent"}
+![](img/new-manager-workspace-9.png){:class="newagent"}
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-10.png){:class="newagent"}
+![](img/new-manager-workspace-10.png){:class="newagent"}
 
 ## Activity summary
 
@@ -94,7 +94,7 @@ The metrics widget provides a high level "health check" of your group’s real-t
 * **Online Load** - The number of active conversations as a percentage of max concurrent conversations of agents in Online state.
 * **Away Load** - The number of active conversations as a percentage of max concurrent conversations of agents in Away state.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-11.png){:class="newagent"}
+![](img/new-manager-workspace-11.png){:class="newagent"}
 
 ## Agent widget
 
@@ -106,13 +106,13 @@ The widget supports two views, which can be switched using the icons available o
 
 This view is useful for managers who monitor a short list of agents and would like to see a more visual manner - or if you’d like an easier way to view information on a specific agent.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-12.png){:class="newagent"}
+![](img/new-manager-workspace-12.png){:class="newagent"}
 
 ### List view
 
 This view is helpful for managers who have a large number of agents and need a list to quickly view and sort.  The list view is also very helpful when comparing metrics between agents.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-14.png){:class="newagent"}
+![](img/new-manager-workspace-14.png){:class="newagent"}
 
 #### Definitions
 
@@ -136,12 +136,12 @@ In addition to the time and group filter available in the top right corner of th
 
 The following screenshot demonstrates the filter showing only ‘away’ agents:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-16.png){:class="newagent"}
+![](img/new-manager-workspace-16.png){:class="newagent"}
 
 * **AGENT NAME** - The filter is  available from the filter icon in the top left corner of the widget OR in the agent name column in the ‘List view’
 * **SKILLS** - The filter is  available from the filter icon in the top left corner of the widget OR in the agent name column in the ‘List view’
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-17.png){:class="newagent"}
+![](img/new-manager-workspace-17.png){:class="newagent"}
 
 #### Sorting
 
@@ -178,9 +178,9 @@ The list will include following columns:
 
 Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-all-connections.html#2-conversation-view) of the ‘All Conversations list.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-18.png){:class="newagent"}
+![](img/new-manager-workspace-18.png){:class="newagent"}
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-20.png){:class="newagent"}
+![](img/new-manager-workspace-20.png){:class="newagent"}
 
 #### Filters
 
@@ -192,7 +192,7 @@ In addition to the group and time filters at the top of the dashboard, the list 
 * **SKILL** - Retrieves conversations which are currently assigned with the filtered skill.
 * **INTENT** - Enables filtering of specific intents, allowing for easy and quick discovery of conversations on specific topics as well as issue detection.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-workspace-21.png){:class="newagent"}
+![](img/new-agent-workspace-21.png){:class="newagent"}
 
 #### Sorting
 
@@ -209,11 +209,11 @@ A new skill-level table has been added to the Manager Workspace, allowing manage
 A new permission “View skill level metrics in the manager workspace” has been added under the agent manager role. The permission is Off by default. 
 Note: This permission is visible when the Manager Workspace Skills View Enabled feature is ON (Messaging.ManagerWorkspaceSkillsView)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-1.png)
+![](img/week-of-february-1st-1.png)
 
 Once it is turned on for the relevant agent manager profiles, the Manager Workspace layout will be changed for the relevant users so that a new “Skills” widget will be visible (currently it is located between the Agent Widget and the Conversation Widget).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-2.png)
+![](img/week-of-february-1st-2.png)
 
 **Definitions**
 
@@ -240,7 +240,7 @@ Once it is turned on for the relevant agent manager profiles, the Manager Worksp
 
 **Note:** Brands can control which metrics will be displayed in the widget via the configuration window (some of the metrics are turned off by default as listed in the metrics table above):
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-3.png)
+![](img/week-of-february-1st-3.png)
 
 #### Which skills will each user see?
 The table displays a full list of all the skills for which the user has permissions, i.e., skills assigned to the agents under the groups the user is managing.

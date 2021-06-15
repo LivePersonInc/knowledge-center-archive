@@ -132,7 +132,7 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Proactive_Messaging.png)
+![](img/Proactive_Messaging.png)
 
 For more information, please see the [user guide](messaging-channels-proactive-messaging-proactive-messaging-user-guide.html).
 
@@ -229,19 +229,19 @@ The report builder can be accessed through the quick launch menu which is locate
 #### New look and feel with a modern and bright color scheme
 
 All Predefined dossiers have been enriched to include new data visualizations with a bright color-theme ( see screenshot below).  
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4_2.png)
+![](img/RB4_2.png)
 
 #### Navigation
 
 Dossier navigation has been moved from the bottom of the dashboard to the top as well as having headings for each panel inside the sheet for effective navigation.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4_3.png)
+![](img/RB4_3.png)
 
 #### KPI widget
 
 New KPI Widget which will provide a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4_4.png)
+![](img/RB4_4.png)
 
 1. Previous date value data
 2. Trend Indicator ( X%) - shows the trend between Previous date and current. The color will be green to reflect an improvement in KPI and red for a negative change.
@@ -256,7 +256,7 @@ Clear presentation for users with ‘view only’ permission, the filter panel h
 
 New visualization types for creating custom dossiers (histogram, waterfall chart, box plot)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4_5.png)
+![](img/RB4_5.png)
 
 ### New functionality includes:
 
@@ -267,7 +267,7 @@ Export dossiers to a formatted PDF file, including visualizations and advanced f
 1. layout ( Automatic, Portrait, Landscape)
 2. Advanced mode to export the visualizations individually on separate pages to include all data.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4_6.png)
+![](img/RB4_6.png)
 
 #### Personalized view
 
@@ -280,7 +280,7 @@ In the Personal View Subscriptions area, click the name of the personal view to 
 
 For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4_7.png)
+![](img/RB4_7.png)
 
 {: .notice}  
 These changes will only impact the predefined dashboards. User copies of previous predefined dashboards will not be impacted automatically.
@@ -291,7 +291,7 @@ If there is a need to update existing user copies of the dashboard to the new co
 
 After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4_8.png)
+![](img/RB4_8.png)
 
 ## [LINE] Agent to consumer photo sharing support
 
@@ -346,11 +346,11 @@ All files types have a file size limitation of 5MB. Agents will get an error if 
 
 Image 1: Agent shares images with consumer
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-7.png)
+![](img/week-of-november-4th-7.png)
 
 Image 2: Consumer sees the file agent shares
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-8.png)
+![](img/week-of-november-4th-8.png)
 
 ## [Unauthenticated Engagement Attributes] Change default to True
 
@@ -374,7 +374,7 @@ We’ve changed the site setting to be true by default, meaning that there is no
 
 In the agent textbox agents now have the option to navigate up and down within the input field using their keyboard only. This means if the agent wrote more than one line of text, they will be able to press the ‘DOWN’ key to go to the second/third/fourth lines, or use the “UP” key to go to the lines above.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-1.png)
+![](img/week-of-november-4th-1.png)
 
 ## [Enhanced agent workspace] Display CSAT in the consumer info widget
 
@@ -382,7 +382,7 @@ In the agent textbox agents now have the option to navigate up and down within t
 
 Previously in the enhanced agent workspace, the CSAT value for previous conversations was displayed above the transcript area, in the previous conversations section only. However, the CSAT value was not being displayed in the consumer info widget as well. This has been fixed - the CSAT value is now displayed in the consumer info widget as well as above the transcript.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-2.png)
+![](img/week-of-november-4th-2.png)
 
 ## [Enhanced agent workspace] Scroll option missing in structured content preview
 
@@ -394,11 +394,11 @@ Previously in the enhanced agent workspace, when an agent sent a long structured
 
 Image 1: No scroll option in structured content preview window
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-3.png)
+![](img/week-of-november-4th-3.png)
 
 Image 2: After fix
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-4.png)
+![](img/week-of-november-4th-4.png)
 
 ## [Agent widget SDK] ‘Claims’ key is not populated with data
 
@@ -418,12 +418,12 @@ For example:
 
 1. When using a color fill for the headline in a text, on display for the user/agent only the SPAN adopts the color and not the whole div (full box area).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-5.png)
+![](img/week-of-november-4th-5.png)
 
 {:start="2"}
 2. Button outlines are not showing at all, buttons are showing as one full box without outlines to distinguish one button from another.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-4th-6.png)
+![](img/week-of-november-4th-6.png)
 
 {:start="3"}
 3. Text going down a line and breaking words.

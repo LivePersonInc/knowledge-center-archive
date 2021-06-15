@@ -80,7 +80,7 @@ To go back to view additional conversations - you have two options:
 1. Click the ‘list view’ on the right corner to see the full list (remove filters to view complete list)
 2.  back to the Manager Workspace using the icon in the left navigation
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-1.png)
+![](img/new-agent-manager-experience-1.png)
 
 #### Viewing conversation transcripts in real time
 
@@ -101,7 +101,7 @@ Up until today, when a manager viewed a conversation, it would open the conversa
 
 Until today, managers used the orbs on the bottom of the screen to open multiple conversations and had to sift through them. In the new workspace, managers can select the conversation view to quickly scan through conversations.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-2.png)
+![](img/new-agent-manager-experience-2.png)
 
 {: .notice}
 **Please note:** Conversations in the new view cannot be pinned.
@@ -125,7 +125,7 @@ Once you click on + join conversation, the menu icon will appear on the top of t
 
 You can click on ‘to send messages go to My Conversations list and it will automatically open this conversation in the workspace and enable you to start messaging.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-3.png){:class="newagent"}
+![](img/new-agent-manager-experience-3.png){:class="newagent"}
 
 ### Searching for specific conversations
 
@@ -135,13 +135,13 @@ The timeframe for the search now appears on top of the list and you can start fi
 
 The timeframe filter will remain until you change it and will apply to any subsequent filter or search you conduct.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-4.png)
+![](img/new-agent-manager-experience-4.png)
 
 Searching for a conversation or a group of conversations by filter can be done within the search box. Once you click on this box, the criteria applied will be searched within the timeframe that you have defined for this list.
 
 You can search for a conversation by its ID directly in this filter box, or search and filter using the same criteria that existed until today.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-5.png)
+![](img/new-agent-manager-experience-5.png)
 
 #### Searching for open conversations over 30 days old
 
@@ -157,7 +157,7 @@ Before the new Manager Workspace was introduced, managers relied on the data bar
 
 Changes to how managers monitor their KPIs will be:
 * Former data bar will be replaced completely with the new workspace.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-6.png){:class="newagent"}
+![](img/new-agent-manager-experience-6.png){:class="newagent"}
 * The former data bar displays data for the entire account, whereas in the Manager Workspace the data will be relevant only to the groups that are assigned to each manager
 * The number of current open conversations will be broken down into two data points:
   * Conversations in queue
@@ -169,7 +169,7 @@ Changes to how managers monitor their KPIs will be:
   * ‘Actionable’ (discontinued thanks to feedback from users)
 * New data point added:
   * **Load:** The total weight of assigned conversations as a percentage of the maximum concurrent conversations of all agents
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-7.png){:class="newagent"}
+![](img/new-agent-manager-experience-7.png){:class="newagent"}
 
 **New filtering capabilities added**
 As opposed to the previous status data bar, the following new filters are available:
@@ -180,7 +180,7 @@ As opposed to the previous status data bar, the following new filters are availa
 
 Some managers are using the information available in the drop down dashboard:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-manager-experience-8.png){:class="newagent"}
+![](img/new-agent-manager-experience-8.png){:class="newagent"}
 
 The new Manager Workspace offers much greater detail on the shift and will replace this dashboard. A couple of items from the dashboard will be discontinued:
 * **Closed conversations graph** - This graph not be available in the new workspace, only the total number of closed conversations. Users can view the [Real Time Dashboard](/data-reporting-messaging-real-time-data-real-time-data-for-messaging.html) for these details.

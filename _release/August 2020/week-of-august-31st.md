@@ -60,7 +60,7 @@ This feature addresses the issue of inconsistent behavior in the mobile SDK hist
 
 We now provide the ability to distinguish between LivePerson’s logs and other system logs by taking advantage of both Apple's logging levels and Apple’s OSLog object. Without disturbing our logging, we can bridge our logging levels with Apple’s, so brands can filter logs in Xcode's device manager: 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31st-0.png)
+![](img/week-of-august-31st-0.png)
 
 **To enable:**
 See [Apple’s documentation (https://developer.apple.com/documentation/xcode/diagnosing_issues_using_crash_reports_and_device_logs/acquiring_crash_reports_and_diagnostic_logs) on how to use device console logs.
@@ -85,7 +85,7 @@ Users using the enhanced Agent Workspace have the ability to share hyperlinks wi
   * Type: color
   * Default value: For iOS 13, we use UIColor.label, anything below that uses UIColor.black
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-1.png)
+![](img/week-of-august-31-1.png)
 
 ## [Mobile SDK] Adding new configurations for Structured Content Button type 
 ### Type: Enhancement (iOS SDK 6.0)
@@ -172,21 +172,21 @@ Please note that issues that are remediated and validated under WCAG 2.1 AA comp
 
 An alt text field has been added to the Engagement Window Studio Header section. Screen readers will read the alt text instead of the Target URL for the logo.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-2.png)
+![](img/week-of-august-31-2.png)
 
 ## [Window] Optimize keyboard navigation when closing a conversation 
 ### Type: Enhancement (Web Experiences 10.4)
 
 When a consumer selects “End conversation”, they can now navigate the “Yes” and “No” buttons using a keyboard.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-3.png)
+![](img/week-of-august-31-3.png)
 
 ## [Window] Optimize keyboard navigation for emojis in window
 ### Type: Enhancement (Web Experiences 10.4)
 
 The emoji list can now be navigated through using a keyboard to find, open, and select an emoji.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-4.png)
+![](img/week-of-august-31-4.png)
 
 ## [Window] Maintain focus on the message text box
 ### Type: Enhancement (Web Experiences 10.4)
@@ -203,11 +203,11 @@ Removed “role=log” so that all previous messages will not be read by screen 
 
 The border around structured content has been closed. With the change above to always keep focus on the message textbox, the border will only show when a consumer clicks or keyboard tabs to the structured content. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-5.png)
+![](img/week-of-august-31-5.png)
 
 Brands can customize the focus indicator border color by adding and changing the following CSS element in the Window Customization API:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-6.png)
+![](img/week-of-august-31-6.png)
 
 ## [CoBrowse Video] Update keyboard navigation for CoBrowse video elements
 ### Type: Enhancement (Web Experiences 10.4)
@@ -260,7 +260,7 @@ Only supported browsers can use this feature. If the consumer and/or agent brows
 
 This feature is only available for Web Messaging. In the future [target Q4] we will also release a clickable link that will launch a browser, thereby allowing support for all other channels.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/voiceandvideodemo720p.gif)
+![](img/voiceandvideodemo720p.gif)
 
 ## Context Store integration
 ### Type: New functionality (FaaS 1.20)
@@ -292,7 +292,7 @@ It’s only possible to send one bot action. So it’s not possible to simultane
 
 The ‘View Bot’ configuration was not visible in the bot’s dashboard. With this fix, the users are now able to access the bot’s configuration when they are in the dashboard.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-7.png)
+![](img/week-of-august-31-7.png)
 
 ## [Google Business Messages] Structured Content support 
 ### Type: New functionality (GBM 3.23.0)
@@ -312,27 +312,27 @@ Structured Content allows brands to send messages to customers in a variety of w
 3. **Rich Carousels** - Carousels string together multiple rich cards, allowing users to compare items and react to each individually. Carousels may contain a minimum of two and a maximum of ten rich cards. Rich cards within carousels must conform to general rich card requirements for content and height.
 
 Quick replies: 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-8.png)
+![](img/week-of-august-31-8.png)
 
 Image Carousel: 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-12.png)
+![](img/week-of-august-31-12.png)
 
 Rich Carousel: 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-13.png)
+![](img/week-of-august-31-13.png)
 
 Rich Card: 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-14.png)
+![](img/week-of-august-31-14.png)
 
 ## [Google Business Messages] Typing indication for agents
 ### Type: New functionality (GBM 3.23.0)
 
 Agents using Google Business Messages will now have typing indications. Typing events from the users tells the agents that the user is composing a response or that backend automation is processing their question or request. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-10.png)
+![](img/week-of-august-31-10.png)
 
 ## [Google Business Messages] User identity (Display Name)
 ### Type: New functionality (GBM 3.23.0)
 
 Agents will be able to see the user's display name using the user's locale determined by the device's settings.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-august-31-11.png)
+![](img/week-of-august-31-11.png)

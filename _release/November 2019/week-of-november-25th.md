@@ -70,9 +70,9 @@ The agent survey for messaging was enhanced with the following new capabilities:
 
 **Screenshots** 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-1.png)
+![](img/week-of-november-25th-1.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-2.png)
+![](img/week-of-november-25th-2.png)
 
 ## Light and dark theme support for Users module
 
@@ -84,11 +84,11 @@ The new light and dark themes are now supported in the Users section of LiveEnga
 
 Dark theme:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-3.png)
+![](img/week-of-november-25th-3.png)
 
 Light theme: 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-4.png)
+![](img/week-of-november-25th-4.png)
 
 ## Ability to remove the engagement window border
 
@@ -147,13 +147,13 @@ By default the configuration is set to “Yes”, which means that the window wi
 
 Image 1: Configure engagement window border
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-5.png)
+![](img/week-of-november-25th-5.png)
 
 Image 2: Engagement window with border vs without border
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-6.png)
+![](img/week-of-november-25th-6.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-7.png)
+![](img/week-of-november-25th-7.png)
 
 ## Ability to configure the engagement window shadow 
 
@@ -215,15 +215,15 @@ This entry will apply to the embedded window for normal and maximized states (wi
 
 Image 1: Configure engagement window shadow
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-8.png)
+![](img/week-of-november-25th-8.png)
 
 Image 2: Engagement window with shadow
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-9.png)
+![](img/week-of-november-25th-9.png)
 
 Image 3: Engagement window without shadow
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-10.png)
+![](img/week-of-november-25th-10.png)
 
 ## Horizon theme enhancements
 
@@ -280,9 +280,9 @@ The following features are now included by default for any new engagement window
 
 All new features as default: 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-11.png)
+![](img/week-of-november-25th-11.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-12.png)
+![](img/week-of-november-25th-12.png)
 
 ## Improve the engagement window text area focus
 
@@ -339,9 +339,9 @@ The new design includes the following changes when the text area is in focus:
 
 Image 1: Look and feel of text area when in focus before and after
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-13.png)
+![](img/week-of-november-25th-13.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-13a.png)
+![](img/week-of-november-25th-13a.png)
 
 ## File sharing attachment not working
 
@@ -394,13 +394,13 @@ Consumer to agent file sharing is not working on mobile iOS 13 and Safari deskto
 
 Image 1: Consumer shares file on mobile iOS 13
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-14.jpeg)
+![](img/week-of-november-25th-14.jpeg)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-15.jpeg)
+![](img/week-of-november-25th-15.jpeg)
 
 Image 2: Consumer shares file on mobile iOS 13 - agent side
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-16.png)
+![](img/week-of-november-25th-16.png)
 
 ## Secure form displays with incorrect header and blank screen after conversation is closed
 
@@ -416,7 +416,7 @@ In order to have better visibility of the status of the queues, a new “Wait ti
 
 The metric displays the **90% percentile of the consumers wait time for an agent assignment.** This means that 90% of consumers are currently waiting for an agent assignment for this amount of time or less. The metric is not impacted by the time frame filter, as it is showing the current status of the queue.  
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-17.png)
+![](img/week-of-november-25th-17.png)
 
 ## [Manager workspace] New overdue metric 
 
@@ -428,7 +428,7 @@ The overdue metric allows managers to closely monitor the number of overdue conv
 
 The overdue metric is impacted by the relevant filters.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-18.png)
+![](img/week-of-november-25th-18.png)
 
 ## [Manager workspace] Filter by specific hour 
 
@@ -438,7 +438,7 @@ Until now, users have been able to change the time range of the manager workspac
 
 With this version, users will also be able to filter the workspace from a specific hour in time, in a range between midnight and the current time. This is most useful for brands wishing to monitor the workspace from the beginning of the business day or the shift. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-19.png)
+![](img/week-of-november-25th-19.png)
 
 ## Navigation from enhanced agent workspace to the manager workspace 
 
@@ -449,7 +449,7 @@ When a user drills down to read the transcript of a specific conversations from 
 {: .notice}  
 **Please note:** This functionality is available only to agent managers who are using both the new manager workspace and the enhanced agent workspace.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-20.png)
+![](img/week-of-november-25th-20.png)
 
 ## [PCS] New email transcript questions as part of the template  
 
@@ -496,7 +496,7 @@ Two new questions were added at the end of the Post Conversation Survey template
 * **Email transcript question:** The text question “Would you like us to email you a transcript of this conversation?” with quick replies ‘Yes’ or ‘No’. Once the consumer selects the “Yes” option he will be prompted with the second question. The “No” option will lead the consumer to the end of the survey.
 * **Email address question:** The text question: “Please provide your email”. Once the consumer types his email address the bot checks whether the email address is valid. For more information please refer to the “Response to unrecognized user email” section.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-21.png)
+![](img/week-of-november-25th-21.png)
 
 ## [PCS] New email transcript predefined brick 
 
@@ -541,7 +541,7 @@ Two new questions were added at the end of the Post Conversation Survey template
 
 A new email transcript brick was added to the predefined brick list for the Post Conversation Survey. The brick includes an email address question. This is the text question: “Please provide your email”. Once the consumer types his email address the bot checks whether the email address is valid. For more information please refer to the “Response to unrecognized user email” section.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-22.png)
+![](img/week-of-november-25th-22.png)
 
 ## [PCS] New “Response to unrecognized user email” settings
 
@@ -598,7 +598,7 @@ The new settings include:
 {: .notice} 
 **Note:** For help configuring email settings please contact your LivePerson representative. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-23.png)
+![](img/week-of-november-25th-23.png)
 
 ## Email conversation transcript 
 
@@ -648,9 +648,9 @@ The email will be sent from the email address that was set as part of the survey
 
 For more information please refer [here](/ai-bots-automation-post-conversation-survey-bot.html).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-24.png)
+![](img/week-of-november-25th-24.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-25.png)
+![](img/week-of-november-25th-25.png)
 
 ## [Enhanced agent workspace] Updated keyboard shortcuts 
 
@@ -671,7 +671,7 @@ The new shortcuts are as follows:
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-25th-30.png)
+![](img/week-of-november-25th-30.png)
 
 ## Support for sending multiple messages with Microsoft Bot connector
 ### Type: New functionality
@@ -800,7 +800,7 @@ LiveEngage Messaging provides a new metadata input type (“encodedMetadata”) 
 Previously, the breadcrumbs of the four configurations step of Bot wizard were not clickable. The only way to navigate from each step was with the buttons below it; back and next. With this enhancement, the user can directly jump back to any step, to check the configuration.
 Jumping forward is only blocked in case a step is not completed (empty mandatory fields) but jumping back is still possible by clicking on the breadcrumbs.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bot_connectors_RN2.13_1.png)
+![](img/bot_connectors_RN2.13_1.png)
 
 ## Viewing of the configuration of a running bot 
 ### Type: Enhancement
@@ -844,7 +844,7 @@ Jumping forward is only blocked in case a step is not completed (empty mandatory
 
 Previously, if a user wanted to see the configuration of a bot then it was only possible if the bot was offline. This enhancement in our system allows the user to see the bot configuration in read-only mode even if the bot is running. This option can be accessed from the menu in the listing page of bots.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Bot_connectors_RN2.13_2.png)
+![](img/Bot_connectors_RN2.13_2.png)
 
 ## Deprecate Dialogflow
 ### Type: Change

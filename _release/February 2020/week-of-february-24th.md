@@ -24,7 +24,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 In some use cases, whenever a new incoming chat conversation has been accepted by an agent, the widgets area was shifted to the left, overlapping with the chat transcript area and hiding it. This bug has been fixed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-24th-1.png)
+![](img/week-of-february-24th-1.png)
 
 ## [Mobile app messaging] Incorrect push notification language when conversation is resumed by the agent
 ### Type: Bug fix (LE UI 11.6)
@@ -36,4 +36,4 @@ For brands using mobile app messaging, localized push notifications in mobile do
 
 When a brand working on Internet Explorer 11 sends video cards to consumers a white space has been displayed within the video card on the agent workspace side. This bug only occurs on Internet Explorer 11, and not on any other browser. The bug has been fixed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-24th-2.png)
+![](img/week-of-february-24th-2.png)

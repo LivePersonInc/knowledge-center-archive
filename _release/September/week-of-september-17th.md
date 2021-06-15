@@ -76,10 +76,10 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 <br/>
 **Defining a new scheduling item:**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-17th-1.png)
+![](/img/week-of-september-17th-1.png)
 
 **Defining the account level working hours:**  
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-17th-1.png)
+![](/img/week-of-september-17th-1.png)
 
 ### Campaign Scheduling
 
@@ -127,9 +127,9 @@ Campaign scheduling gives brands maximum flexibility with the option to control 
 3. Stop serving new engagements 15 min before a shift ends, in order to prevent queues from growing (queue cleanup)
 4. Messaging customers with short SLA experience (synchronous messaging)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-17th-3.png)
+![](/img/week-of-september-17th-3.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-17th-4.png)
+![](/img/week-of-september-17th-4.png)
 
 ### Unified Window: Configure availability check when window opens (LE-90428)
 

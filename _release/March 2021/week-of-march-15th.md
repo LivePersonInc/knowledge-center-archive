@@ -26,11 +26,11 @@ Today, human agents and bots are treated similarly in the Manager Workspace. The
 
 While most of the metrics measured today are relevant for both human and automated agents, there are differences between these user types. The metrics available today are all human-centric so additional bot-centric metrics are required.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-15th-1.png)
+![](img/week-of-march-15th-1.png)
 
 As the Manager Workspace  is designed to assist managers to manage and track the shift in real time, the focus of the new Bot Performance widget is to provide a view of automations and metrics which are relevant and actionable in real time, rather than offline.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-15th-3.png)
+![](img/week-of-march-15th-3.png)
 
 ## [Manager Workspace] Quick filters and presets 
 ### Type: New Functionality (MW 1.12)
@@ -39,7 +39,7 @@ Previously, every time an agent manager logged out of the Conversational Cloud, 
 
 To save time, effort, and a lot of manual repetitive work, a new capability was created that allows agent managers to save a snapshot of all filters and sort definitions to reuse as needed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-15th-4.png)
+![](img/week-of-march-15th-4.png)
 
 The Manager Workspace presents large amounts of real-time data and metrics which are aggregated into several widgets, and each widget allows filtering and sorting of data by key properties. It is very common for an agent manager to set multiple filters and sorting across different widgets to give themself a clearer view of the shift according to different points of interest. Additionally, agent managers might often require different filters and sorting to represent different states of the shift like “Online”, “Away” and more.
 
@@ -57,14 +57,14 @@ Managers looking to better understand the conversations, intents and overall exp
 
 This means that managers can filter relevant agents, skills, intents and timeframes to quickly scroll through different transcripts, making it easy to compare situations and identify issues in real time without switching between the Manager and Agent Workspaces. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-15th-5.png)
+![](img/week-of-march-15th-5.png)
 
 ## [Manager Workspace] Activity Summary Close Reason
 ### Type: Enhancement (MW 1.12)
 
 The Activity Summary widget in the Manager Workspace has been enhanced to present how a conversation closed (whether by the agent, the consumer, or the system) within the Closed conversations metric. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-15th-6.png)
+![](img/week-of-march-15th-6.png)
 
 ## Wrap Up time for account level
 ### Type: Enhancement (Denver 5.2)
@@ -101,10 +101,10 @@ How to enable
 Beforehand the user needs to enable the permissions to transfer the conversation to an agent:
 Click [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-transfer-to-agent.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN15March-1.png)
+![](img/RN15March-1.png)
 
 Afterwards the bot needs to send the skill name and agentId of the receiving agent within the Transfer Action from the vendor. 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN15March-2.png)
+![](img/RN15March-2.png)
 
 ## Watson Discovery Search
 ### Type: Enhancement (Third Party Bot Connectors 2.28)
@@ -113,7 +113,7 @@ Third-Party Bots are now able to use Watson Discovery Search responses. Discover
 ### How to enable
 The user needs to create a search skill in [IBM Cloud](https://cloud.ibm.com/docs/assistant?topic=assistant-skill-search-add) and define a Discovery database. Afterwards if a Third-Party Bots Watson Bot is receiving a Discovery Search message, it is getting sent as a normal message inside the conversation window with an additional link to the document (if provided)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN15March-3.png)
+![](img/RN15March-3.png)
 
 ## Rate limit warning should not be consumer facing 
 ### Type: Bug fix (Third Party Bot Connectors 2.28)

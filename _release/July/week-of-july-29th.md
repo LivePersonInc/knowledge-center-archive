@@ -67,17 +67,17 @@ We have added the option to configure a control group of any integer between 0% 
 
 Control group - site level, before the change:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-29-1.png)
+![](/img/week-of-july-29-1.png)
 
 Control group - campaign level, before the change:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-29-2.png)
+![](/img/week-of-july-29-2.png)
 
 After the change:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-29-3.png)
+![](/img/week-of-july-29-3.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-29-4.png)
+![](/img/week-of-july-29-4.png)
 
 ## Post conversation survey - Close reason on conversation separator in agent workspace
 
@@ -130,7 +130,7 @@ When a consumer receives a PCS survey at the end of the conversation and does no
 
 **Screenshot**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-29-5.png)
+![](/img/week-of-july-29-5.png)
 
 **Possible PCS close reasons:**
 

@@ -39,7 +39,7 @@ Dynamic Routing requires the following components to operate:
 * Recommendations API
 Here is a representation of how the various components integrate:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/co_dr_components.png)
+![](img/co_dr_components.png)
 
 ## Routing bot
 You need to have a routing bot either on Conversation Builder or on external automation platforms. The routing bot, connected to the primary messaging skill, receives the conversations, calls the Recommendations API, and executes the policies defined in the Policy Manager, to direct incoming conversations to the right agent skill. Liveperson provides a Conversation Orchestrator bot template which makes it easy for brands to get started. The Conversation Orchestrator bot is pre-wired to both the Conversation Context Service and the Recommendations API. You are welcome to use your own routing bot but will have to manually integrate both the Conversation Context Service and the Recommendations API. You can also use a routing bot on a different automation platform like Google DialogFlow. In such cases, you need to use the Recommendations API to receive recommendations on those external platforms.

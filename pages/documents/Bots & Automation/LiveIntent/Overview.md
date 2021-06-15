@@ -28,7 +28,7 @@ The Intent Builder makes it possible for brands to create their own intents and 
 
 Intent Manager starter packs are available to accelerate the development of Intent Taxonomy with both vertical specific and universal starter intents to enable our customers to quickly get started with an intent-driven business. Intent starter packs are available for cross verticals such as e-commerce and insurance for purchases and escalations. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent-manager-5.png)
+![](img/Getting-started-intent-manager-5.png)
 
 ## Terminology
 

@@ -31,11 +31,11 @@ Today, when tracking the performance of multiple skills, managers are required t
 A new permission “View skill level metrics in the manager workspace” has been added under the agent manager role. The permission is Off by default. 
 Note: This permission is visible when the Manager Workspace Skills View Enabled feature is ON (Messaging.ManagerWorkspaceSkillsView)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-1.png)
+![](img/week-of-february-1st-1.png)
 
 Once it is turned on for the relevant agent manager profiles, the Manager Workspace layout will be changed for the relevant users so that a new “Skills” widget will be visible (currently it is located between the Agent Widget and the Conversation Widget).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-2.png)
+![](img/week-of-february-1st-2.png)
 
 **Which metrics are available in the table?**
 
@@ -62,7 +62,7 @@ Once it is turned on for the relevant agent manager profiles, the Manager Worksp
 
 **Note:** Brands can control which metrics will be displayed in the widget via the configuration window (some of the metrics are turned off by default as listed in the metrics table above):
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-3.png)
+![](img/week-of-february-1st-3.png)
 
 **Which skills will each user see?**
 The table displays a full list of all the skills for which the user has permissions, i.e., skills assigned to the agents under the groups the user is managing.
@@ -77,7 +77,7 @@ The table displays a full list of all the skills for which the user has permissi
 
 Until now, when users scrolled down in the Manager Workspace, the header which contains information such as filters and time frames, disappears. This meant that if users wanted to take a quick glance at the current filter or needed to make a change, they  would need to scroll back to the top of the screen to complete the task. Freezing the headers (making them “sticky”) enables users to constantly see what is impacting their workspace and be able to make changes more easily. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-4.png)
+![](img/week-of-february-1st-4.png)
 
 ## [Manager Workspace] Online and Away load in Activity Summary
 ### Type: Enhancement (MW 1.11)
@@ -86,7 +86,7 @@ Users of the Manager Workspace need to be able to understand the actual current 
 * **Online Load** - The number of active conversations as a percentage of max concurrent conversations of agents in Online state.
 * **Away Load** - The number of active conversations as a percentage of max concurrent conversations of agents in Away state.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-5.png)
+![](img/week-of-february-1st-5.png)
 
 ## [Manager Workspace] Filter By Intent in Conversation Widget
 ### Type: Enhancement (MW 1.11)
@@ -95,9 +95,9 @@ For accounts using the LivePerson’s Intent Analyzer tool, the Intents column i
 
 **Please note:** In order to see the intent column filter, LivePerson’s Intent Analyzer tool must be enabled and configured in the account.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-6.png)
+![](img/week-of-february-1st-6.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-7.png)
+![](img/week-of-february-1st-7.png)
 
 ## [Manager Workspace] Messaging agents list for agents using the enhanced Agent Workspace 
 ### Type: Enhancement (MW 1.11)
@@ -107,7 +107,7 @@ Previously, agents using the enhanced Agent Workspace were not able to view the 
 {: .notice}
 **Please note:** This feature has backend dependencies. For more information please contact your LivePerson representative.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-8.png)
+![](img/week-of-february-1st-8.png)
 
 ## [Manager Workspace] Logged in agents state is blank “()” 
 ### Type: Bug fix (MW 1.11)
@@ -146,15 +146,15 @@ The Agent App now supports Conversation Rollover.
 
 In the conversation list the brand name will be visible below the visitor name:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-9.png)
+![](img/week-of-february-1st-9.png)
 
 In the conversation view, the brand name will also be visible below the visitor name:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-10.png)
+![](img/week-of-february-1st-10.png)
 
 During a conversation transfer, a rollback is possible.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-11.png)
+![](img/week-of-february-1st-11.png)
 
 **How to enable:** 
 
@@ -179,9 +179,9 @@ The report will show data at 2 levels:
   * What is the trend of unmatched intents? Has it decreased over time? 
   * Which bot annotations are submitted? Do all bots improve over time when annotations are added by agents?
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-12.png)
+![](img/week-of-february-1st-12.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-13.png)
+![](img/week-of-february-1st-13.png)
 
 ## [Analytics Builder] Post Conversation Survey scores attributed to bots as well
 ### Type: Enhancement (Analytics Builder 4.9)
@@ -199,7 +199,7 @@ With this new release, the attribution will be to the last  human agent assigned
 
 Below is a table with several scenarios that demonstrate the changes:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-14.png)
+![](img/week-of-february-1st-14.png)
 
 ## [Analytics Builder] Expose the Assignment metrics in the Business Dashboard for Messaging 
 ### Type: Enhancement (Analytics Builder 4.9)
@@ -219,17 +219,17 @@ Conversion ID value was added to the datasets: **Agent Messaging Activity, Consu
 
 The example below shows the Conversation ID as well as its respective string ID, along with metrics from agent Messaging Activity dataset.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-15.png)
+![](img/week-of-february-1st-15.png)
 
 New ‘List of All Conversations’ dataset was added to the dashboard which enables users to add CONVERSATION to the filter or visualization.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-16.png)
+![](img/week-of-february-1st-16.png)
 
 Users can also enable **Display Attribute Forms** and choose **DESC**  to see the actual Conversation ID:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-17.png)
+![](img/week-of-february-1st-17.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-18.png)
+![](img/week-of-february-1st-18.png)
 
 These conversations are populated from **Agent Messaging Activity, Consumer Messaging Activity and RCR**, which enables users to see metrics coming from these datasets - pertaining to each CONVERSATION.
 
@@ -268,14 +268,14 @@ Line of Business Purpose tagging gives brands the ability to capture the primary
 
 **Enablement:** This optional feature is automatically available to all users who configure LOBs. To add an LOB Purpose, the user must select from a drop down list of primary and secondary (if applicable) purposes.  
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-19.png)
+![](img/week-of-february-1st-19.png)
 
 ## [Performance Optimizer] Ability to disable a 4E metric from configuration tab 
 ### Type: New functionality (PO v1.1)
 
 Users now have the ability to disable a 4E metric for LOB(s) from the configuration tab in the Performance Optimizer. Should that metric be manually disabled, it will not be displayed in the UI and will not be included in the 4E composite scores. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-20.png)
+![](img/week-of-february-1st-20.png)
 
 ## [Performance Optimizer] Dynamic Capacity and Meaningful Connection Score text change 
 ### Type: Enhancements (PO v1.1)
@@ -287,16 +287,16 @@ Renaming of Smart Capacity in the AC Panel in the Configuration tab to reflect t
 
 The Volume panel in the Performance Optimizer has been renamed “Resources vs. Demand” panel. Users are now able to see the login hours over time, overlaid against the closed conversations over time. The closed conversations cumulative was removed from the Performance Optimizer as this was deemed not to provide added value. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-21.png)
+![](img/week-of-february-1st-21.png)
 
 ## [Performance Optimizer] Opportunities Panel Redesign 
 ### Type: Enhancements (PO v1.1)
 
 In the Opportunities Panel, metrics are now color-coded per their respective 4E category. Users also have the ability to filter the chart by 4E category so that the graph displays one or more of the 4E categories.  
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-22.png)
+![](img/week-of-february-1st-22.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-23.png)
+![](img/week-of-february-1st-23.png)
 
 ## [Performance Optimizer] Addition of Web and App Messaging sources 
 ### Type: Enhancements (PO v1.1)
@@ -308,14 +308,14 @@ The Channels panel differentiates closed conversations for “Web” and “In A
 
 The 4E composite score placement has been modified such that “Effort” and “Emotion” are the top metrics, and “Efficiency” and “Effectiveness” are now in the bottom position.  This visualization is consistent with other training materials and product documentation. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-24.png)
+![](img/week-of-february-1st-24.png)
 
 ## [Performance Optimizer] Data to Text redesign 
 ### Type: Enhancements (PO v1.1)
 
 The new data to text redesign provides Performance Optimizer users with an in-depth analysis for each 4E metric with additional context, tactical optimization plans, and links to diagnostic playbooks. Collapsible headers have been added for each metric that display the actual performance, trend, and icon that describes the metric as “OK”, “Very Good” or “Needs Improvement”. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-1st-25.png)
+![](img/week-of-february-1st-25.png)
 
 ## [Performance Optimizer] Additional 4E Metrics 
 ### Type: Enhancements (PO v1.1)

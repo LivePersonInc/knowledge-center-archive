@@ -63,8 +63,8 @@ The‘Messaging Performance Dashboard’ will be enhanced to include the Repeat 
 
 The RCR page was added to the Brand level chapter to allow analyzing the RCR rates on the brand and skill levels.
 The RCR has several KPIs, according to the predefined buckets (RCR 1 hour, RCR 1 day, RCR 3 days etc).
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4.3_1.png) 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB4.3_2.png)
+![](img/RB4.3_1.png) 
+![](img/RB4.3_2.png)
 
 ## [Conversation Builder] Bot Groups
 ### Enhancement 
@@ -76,13 +76,13 @@ Bot collaboration is another advantage of bot groups. Bots in a group can automa
 {: .notice}
 If you want to support collaboration, you should enable that setting when you create the group and assign bots to it.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CBMarch1.png)
+![](img/CBMarch1.png)
 
 As a member of a group with collaboration enabled, whenever a bot receives a request that it can’t handle itself, it automatically checks within its group for a bot that can. If the bot discovers a capable bot, the transfer of the conversation happens automatically. When the bots collaborate, information about the conversation (i.e. the matched intent and user message) is transferred seamlessly.
 
 Bot collaboration is designed to simplify your automation model and make it more robust. Because all bots within a bot transfer group can talk to one another (automatically transferring requests when necessary), you don't need a "router" bot for routing user interactions between bots. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CBMarch2.png)
+![](img/CBMarch2.png)
 
 ## [Conversation Builder] Agent Transfer interactions
 ### Enhancement
@@ -97,22 +97,22 @@ There is no difference between the two approaches when it comes to performance. 
 
 Regardless of which transfer approach is used, a new Transfer Bot Context check box will appear.
  
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CBMarch4.png)
+![](img/CBMarch4.png)
 
 The Transfer Bot Context check box supports manual, bot-to-bot transfers only. If you check this, when the conversation is transferred from one bot to another, the matched intent or user message is automatically sent from the sender bot to the receiver bot. This lets the receiver bot know the appropriate dialog to start after the transfer enabling a smooth transition.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CBMarch5.png)
+![](img/CBMarch5.png)
 
 ## [Conversation Builder] - Auto escalation
 ### Enhancement
 
 A new Auto Escalation dialog type has been introduced with the purpose of freeing the consumer from being stuck within a question. This can happen when the bot doesn't recognize the consumer's input. Because the bot can't determine the next step that should happen, the fallback response is sent, and the consumer is returned to the place where the failure occurred. The fallback response is repeated after each unrecognizable input, resulting in a stuck conversation. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CBMarch6.png)
+![](img/CBMarch6.png)
 
 The Auto Escalation dialog solves this problem by offering the consumer the option of being transferred to a live agent (or another bot). The number of times that the fallback response should be sent within a question can be ocnfigured. Once that threshold is reached, the Auto Escalation dialog is triggered automatically.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CBMarch7.png)
+![](img/CBMarch7.png)
 
 ## Conversation Builder - URL shortening
 ### Enhancement
@@ -131,7 +131,7 @@ If you enable URL shortening, it’s applied to all URLs (for websites, images, 
 
 The shortened domain that’s used varies by region and might need to be whitelisted (e.g in channels like Facebook). The domain to whitelist appears below the setting. For more information on whitelisting, see the Conversation Builder documentation in the [Developers’ Community](https://developers.liveperson.com/liveperson-functions-development-whitelisting-domains.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CBMarch8.png)
+![](img/CBMarch8.png)
 
 {: .notice}
 To support backwards compatibility, button interactions use URL shortening even though the new Shorten URLs setting is set initially to off. To disable URL shortening for buttons, enable the setting, save the change, disable the setting, and then save the change again. From this point forward, button interactions will respect the value of the setting and work like all other interactions.

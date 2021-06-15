@@ -36,13 +36,13 @@ An additional capability of the Management Console is to expose tools such as th
 
 [Click here](admin-settings-management-console-overview.html) to learn more about the Management Console. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-3-1.png)
+![](img/week-of-may-3-1.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-3-2.png)
+![](img/week-of-may-3-2.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-3-3.png)
+![](img/week-of-may-3-3.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-3-4.png)
+![](img/week-of-may-3-4.png)
 
 
 ## [Analytics Builder 4.10]   Bot Performance Dashboard Phase 2
@@ -52,7 +52,7 @@ Channel: All messaging channels
 Available to all customers? Y (Analytics Builder enabled) 
 
 The new Bot Performance Dashboard will be enhanced to allow brands to review and analyze their Bot Performance in messaging over time for bots designed and managed by Conversation Builder.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May3rd-1.png)
+![](img/RN-May3rd-1.png)
 
 ## [Analytics Builder]  Transfer analysis in the Performance Messaging Dashboard. [DELAYED]
 ### Type: Enhancement
@@ -66,15 +66,15 @@ Agent and skill segments reporting was enhanced to include the skill destination
 New attributes ‘TRANSFER TO SKILL (AGENT LEVEL)’ and ‘TRANSFER TO SKILL (BRAND LEVEL)’ were added to the dashboard.
 
 #### Brand Level Data: Skill Segments Data
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May3rd-2.png)
+![](img/RN-May3rd-2.png)
 
 #### Brand Level Data: Skill Transfer Analysis
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May3rd-3.png)
+![](img/RN-May3rd-3.png)
 
 #### Agent Level Data :Agent Level Data
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May3rd-4.png)
+![](img/RN-May3rd-4.png)
 
 ## [Analytics Builder]  Expose key metrics Numerator and Nominator to the hidden field 
 ### Type: Enhancement
@@ -97,8 +97,8 @@ Channel: All messaging channels
 The Performance Dashboard for Messaging was enhanced to include Customer type and Customer status attributes reported by the Brand in Customer Info Engagement attributes.
 The new attributes will allow ‘Closed Conversations’, ‘RCR’ as well as other metrics from Agent Messaging Activity, Consumer Messaging Activity, Agent Segment Conversation, Skill Segment Conversation and Repeat contact rate data sets by the new attributes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May3rd-5.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-May3rd-6.png)
+![](img/RN-May3rd-5.png)
+![](img/RN-May3rd-6.png)
 
 ## [Analytics Builder]  Reporting on Agents unassigned conversations in Agent Segments
 ### Type: Enhancement

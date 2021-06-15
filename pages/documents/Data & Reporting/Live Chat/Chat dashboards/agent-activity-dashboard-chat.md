@@ -43,7 +43,7 @@ To find out which metrics are available for which channel, please refer to [repo
 
 The following default panel will be presented when accessing the agent activity predefined dashboard. It provides an overview of the performance of all agents active on the account.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent_Activity_agent_activity_dashboard.jpg)
+![](/img/Agent_Activity_agent_activity_dashboard.jpg)
 
 Image 1 - Agent activity dashboard main panel
 
@@ -68,7 +68,7 @@ Image 1 - Agent activity dashboard main panel
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent-Activity-Grid.jpg)
+![](/img/Agent-Activity-Grid.jpg)
 
 Image 2 - agent activity grid (panel 2)
 
@@ -100,7 +100,7 @@ Image 2 - agent activity grid (panel 2)
 
 The following grid view presents agent performance metrics for the entire duration of the time selected in the date filter available on the dashboard. The grid data may be exported to excel to manipulate the data further, such as by grouping the agents into custom groups based on their performance.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent-activity-agent-performance_chat.jpg)
+![](/img/Agent-activity-agent-performance_chat.jpg)
 
 Image 3 - Agent performance (panel 3)
 

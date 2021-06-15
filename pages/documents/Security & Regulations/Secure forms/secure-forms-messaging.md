@@ -56,7 +56,7 @@ The visitor then fills out and submits the secure form back to the agent. The re
 {: .notice}  
 If there are other agents viewing the chat, they will not be able to view the secure form. In addition, agents who receive a transferred or re-assigned chat will not be able to view the secure form. Only the agent who sent the form can access the submitted form.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure_form-messaging-user-guide1.png)
+![](/img/Secure_form-messaging-user-guide1.png)
 
 _LivePerson secure form within a mobile-app messaging conversation_
 
@@ -74,7 +74,7 @@ Tokenization is a method of substituting data to render it meaningless to anyone
 
 The following diagram shows the process and security layers of a visitor completing a secure form and sending it to an agent.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide2.png)
+![](/img/Secure-form-messaging-userguide2.png)
 
 _Secure form visitor to agent flow chart_
 
@@ -191,7 +191,7 @@ When an agent sends a secure form to a consumer, a new rich message displays the
 
 This is how the secure form invitation will display to the consumer on the iOS mobile-app messaging SDK:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide3.png)
+![](/img/Secure-form-messaging-userguide3.png)
 
 The following invitation design capabilities are available on the iOS mobile-app messaging SDK:
 
@@ -204,7 +204,7 @@ The following invitation design capabilities are available on the iOS mobile-app
 7. secureFormBubbleFillFormButtonBackgroundColor = UIColor.clear
 8. secureFormBubbleFormImageTintColor = LPColor.LPBlue
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide4png.png)
+![](/img/Secure-form-messaging-userguide4png.png)
 
 Other invitation statuses include:
 
@@ -230,7 +230,7 @@ When there’s no connectivity, the “fill in form” link will be disabled and
 
 This is how the secure form invitation will display to the consumer on the Android mobile-app messaging SDK:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide5.png)
+![](/img/Secure-form-messaging-userguide5.png)
 
 The following invitation design capabilities are available on the Android In-App Messaging SDK:
 
@@ -243,7 +243,7 @@ The following invitation design capabilities are available on the Android In-App
 7. <color name="agent_bubble_pci_form_invitation_icon_tint_color">@color/lp_blue</color>
 8. (Bubble border width is inherited from standard bubbles)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SSecure-form-messaging-userguide6-1.png)
+![](/img/SSecure-form-messaging-userguide6-1.png)
 
 Other invitation statuses include:
 
@@ -278,7 +278,7 @@ The form includes :
 4. Submit button
 5. Footer displaying a security statement
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide7.png)
+![](/img/Secure-form-messaging-userguide7.png)
 
 #### iOS
 
@@ -289,13 +289,13 @@ The following UI and designable elements for the form are available on the iOS m
 3. secureFormBackButtonColor = UIColor.black
 4. secureFormUIStatusBarStyleLightContent = true
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide8.png)
+![](/img/Secure-form-messaging-userguide8.png)
 
 #### Android
 
 The form on the Android mobile-app messaging SDK is as follows (top bar design is inherited from the conversation top bar):
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide9.png)
+![](/img/Secure-form-messaging-userguide9.png)
 
 ## **Messaging connectors**
 
@@ -307,7 +307,7 @@ Secure forms are also now supported on desktop versions of WhatsApp and Facebook
 
 The connector’s secure form invitation contains the secure form name and a link to the secure form:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide10.png)
+![](/img/Secure-form-messaging-userguide10.png)
 
 ### Form
 
@@ -337,7 +337,7 @@ The form design and colors will be inherited from the default window design elem
 
 The following UI shows the connector’s secure form experience on mobile and tablet (the numbers indicate the form design elements as explained above):
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide11.png)
+![](/img/Secure-form-messaging-userguide11.png)
 
 #### Rich links
 
@@ -347,7 +347,7 @@ For Apple Business Chat, rich links are the default behavior for secure forms. T
 
 The following error messaging will display when the form fails to load:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide12.png)
+![](/img/Secure-form-messaging-userguide12.png)
 
 The following message will display after the consumer has successfully submitted the form:
 
@@ -392,7 +392,7 @@ Once a secure form has been sent, the conversation transcript will display the f
 
 When the agent clicks on the “view secure form” link, the secure form data will display as follows:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Secure-form-messaging-userguide14.png)
+![](/img/Secure-form-messaging-userguide14.png)
 
 If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, an error message will display saying "could not load secure form"
 

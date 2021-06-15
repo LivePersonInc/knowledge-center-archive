@@ -39,7 +39,7 @@ Within the LivePerson platform, each [campaign](contact-center-management-campai
 2. Click the down arrow to the right of your user name (on the top right of the screen) and select my details.
 3. Under regional settings, select a time zone. The time zone for the logged in user is now set.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Set-the-time-zone2.png)
+![](/img/Set-the-time-zone2.png)
 
 ### To modify a campaign’s time zone:
 

@@ -32,30 +32,30 @@ Brands can now use UI based tools to setup Static and FaaS attributes in Context
 The New UI also simplifies connecting to Live Person Functions, as all available functions are now automatically available in a drop down. 
 
 Create Static Attributes:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNMaven2.png)
+![](img/RNMaven2.png)
 
 Create FaaS attributes. Integration with LivePerson Functions to show available functions in a drop down. 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNMaven3.png)
+![](img/RNMaven3.png)
 
 ## Maven Integration with Intent Builder
 ### Type: Enhancement (Maven AI)
 
 Intents built using Intent Builder are now available in the Maven Context warehouse to easily build intent based routing policies
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNMaven4.png)
+![](img/RNMaven4.png)
 
 ## New GUI based Policy Editor
 ### Type: New feature (Maven AI)
 
 Brands and Maven Workspace users can now use a set of UI based tools to build routing policies without the need to understand scripting. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNMaven5.png)
+![](img/RNMaven5.png)
 
 ## New Maven Template for Conversation Builder
 ### Type: New feature (Maven AI)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNMaven6.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RNMaven7.png)
+![](img/RNMaven6.png)
+![](img/RNMaven7.png)
 
 ## EmailConnect 
 ### Type: Enhancement
@@ -64,5 +64,5 @@ Brands can add an unlimited number of email addresses to LiveEngage and even rou
 
 This feature is now generally available in Email Connect. Click Add Email at the upper right of your screen and complete the setup steps. You may repeat this process for an unlimited number of email addresses.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EmailConnect_new_UI1.png)
+![](img/EmailConnect_new_UI1.png)
 

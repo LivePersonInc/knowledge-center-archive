@@ -17,7 +17,7 @@ The LivePerson messaging solution allows brands to enrich the conversions with t
 
 **To see what messaging channels support quick replies please see the** [messaging channels capabilities comparison](messaging-channels-messaging-channels-capabilities-comparison.html) **chart**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/quick-replies.gif)
+![](/img/quick-replies.gif)
 
 Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers.
 
@@ -46,7 +46,7 @@ The following examples are a selection of a variety of quick replies flows that 
 Use the quick replies for building a dynamic survey flow.  
 Break down the traditional survey structure by sending the survey question as a regular message, and the survey answers as a quick replies bundle.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/QuickR2 (1).png)
+![](/img/QuickR2 (1).png)
 
 ### Dialogue flow
 
@@ -98,7 +98,7 @@ Determine if the quick replies should be used for a human or virtual agent journ
 **Agent:** you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html).  
 Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpTag.agentSDK.cmdNames.writeSC) commands with a quickRelies payload. This command sends a JSON that represents a Quick Reply input. For further information, refer to the [Developer Center documentation](https://developers.liveperson.com/agent-workspace-sdk-methods.html#command).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Quickr3 (1).png)
+![](/img/Quickr3 (1).png)
 
 ### Virtual agent setup
 

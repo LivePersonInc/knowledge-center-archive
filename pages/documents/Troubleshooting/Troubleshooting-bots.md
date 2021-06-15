@@ -123,4 +123,4 @@ Our agent manager who has join agent conversations permissions is not able to se
 
 See the join conversation button on the bottom of messaging window.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Troubleshooting-bots1.png)
+![](/img/Troubleshooting-bots1.png)

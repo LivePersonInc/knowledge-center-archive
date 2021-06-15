@@ -20,7 +20,7 @@ There are three methods to login to the MCS toolkit:
 2. Simultaneous Login (via LivePerson SSO) (_*available by request_)
 3. Agent SSO login (via Agent SSO)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Accessing-MCS-toolkit1.png)
+![](/img/Accessing-MCS-toolkit1.png)
 
 ### Regular login method
 

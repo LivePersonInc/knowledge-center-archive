@@ -27,7 +27,7 @@ Only brand administrator and campaign manager profiles have access to the Connec
 
 Brand campaign managers or administrators can request to enable the service by clicking the contacts us button on the welcome page. The contact us will open a new tab where the user will provide the following information listed in the [Onboarding request form](https://docs.google.com/forms/d/e/1FAIpQLScTClhEWoHlQ0gvz3d51RowfBFaA2fjude9WQrI5kECk3KMgA/viewform). 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-1.png)
+![](img/c2m-user-guide-1.png)
 
 #### LPA users enabling the service 
 
@@ -35,7 +35,7 @@ Only LPA users with elevated administrator permissions can enable the C2M Servic
 
 Users click on the Campaign Builder on the left side navigation -> Click Data Sources -> Select the API Tab to view this page.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-2.png)
+![](img/c2m-user-guide-2.png)
 
 * Key-1: liveperson-outbound-user is the system user
 * Key-2: SmartConnect key is created to access the C2M webtool
@@ -63,7 +63,7 @@ Users click on the Campaign Builder on the left side navigation -> Click Data So
      * EMEA region - [https://connect-to-messaging.z2.fs.liveperson.com/api/cx-widget/login](https://connect-to-messaging.z2.fs.liveperson.com/api/cx-widget/login)
      * APAC region - [https://connect-to-messaging.z3.fs.liveperson.com/login](https://connect-to-messaging.z3.fs.liveperson.com/login)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-2b.png)
+![](img/c2m-user-guide-2b.png)
 
 * **Enable Skills:** Brands require to have at least one or more skills to do skill based routing through LE campaigns and engagements.
   * To create skills see this [guide](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)
@@ -73,15 +73,15 @@ Users click on the Campaign Builder on the left side navigation -> Click Data So
 Brand administrators or campaign managers can now create C2M 2.0 API keys after the service is activated by the LivePerson team. The keys creation is a prerequisite to access the C2M 2.0 API from external systems. 
 
 Step 1: 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-3.png)
+![](img/c2m-user-guide-3.png)
 
 Step 2:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-4.png)
+![](img/c2m-user-guide-4.png)
 
 Enter application name, enter developer name and select the IVR Engagement option highlighted in the above screenshot. This rule is required to enable IVR Deflections.
 
 Step 3:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-5.png)
+![](img/c2m-user-guide-5.png)
 
 After all three steps are performed successfully the user can access authentication details required to call our C2M 2.0 API. 
 
@@ -118,11 +118,11 @@ Main components of the webtool are:
 
 Brand users will see the welcome page only once after the service is enabled and the user clicks on C2M from the Quick launch menu. The page provides product documents and video links for access and they can get started. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-6.png)
+![](img/c2m-user-guide-6.png)
 
 Click the Connect to Messaging button in Quick launch to land onto the Welcome page.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-7.jpg)
+![](img/c2m-user-guide-7.jpg)
 
 ### Settings
 
@@ -132,19 +132,19 @@ Brand administrators and campaign managers have to define the global settings fo
 
 The priority order of messaging channels and enabling/disabling message channels can be defined in this section.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-8.png)
+![](img/c2m-user-guide-8.png)
 
 #### Device check
 
 Brands can either enable or disable mobile device checks. By default the value is disabled. If the flag is disabled then it is assumed mobile device check is done at the IVR system level and C2M API will not call 3rd party service to do landline or mobile device checks before sending messages.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-9.png)
+![](img/c2m-user-guide-9.png)
 
 #### Routing 
 
 Connect To Messaging v 2.0 supports skill-based routing. All the skills need to be set up first in the Conversation Cloud Platform in order for them to be available in the Routing section. For more information on how to create skills please [click here](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html). 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-10.png)
+![](img/c2m-user-guide-10.png)
 
 #### User role and permissions
 
@@ -164,11 +164,11 @@ Brand users will land directly onto the API Handoff dashboard page from the Quic
 
 An API Handoff is a logical grouping of a set of configurations such as the channel the outbound message will be sent from, the priority of the channels if more than one channel will be used and more. When calling the C2M 2.0 eligibility endpoint, brands can pass this API Handoff ID and the API will leverage these configurations to send the IVR deflection outbound message.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-11.png)
+![](img/c2m-user-guide-11.png)
 
 #### Create API Handoff
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-12.png)
+![](img/c2m-user-guide-12.png)
 
 * **Title:** API Handoff title should be a unique name. It can accept alphanumeric characters. Special characters (‘<’, ‘>’ ) are not allowed.
 * **ID:** System generates new unique ID. Brands have to use this ID to make API calls for performing IVR deflections.  
@@ -179,7 +179,7 @@ An API Handoff is a logical grouping of a set of configurations such as the chan
 * **Specify Channel(s) and Channel Priority Order:** Users can enable SMS or WhatsApp or both channels or change the priority order. If users enabled both WhatsApp and SMS in that order, it means Connect to Messaging will try to send a message via WhatsApp first to the consumer if they are eligible, and if not, we will fallback and send the message via SMS.
   * **Note:** App Messaging and SMS/ WhatsApp channels are mutually exclusive. If a user selects App Messaging, then SMS and WhatsApp message channels are disabled. Alternatively if the user selects SMS or WhatsApp then the App Messaging channel will be disabled as well.
   
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-13.png)
+![](img/c2m-user-guide-13.png)
 
 #### Compose API Handoff outbound message
 
@@ -187,7 +187,7 @@ First, users will select the outbound SMS phone number and then create the text 
 
 For SMS, the deflection message will also include a default opt-out message that is editable. This helps ensure that consumers can opt-out from receiving any future outbound messages if they choose to.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-14.png)
+![](img/c2m-user-guide-14.png)
 
 In the same API handoff, users can select WhatsApp's first outbound message.  Users will first pick WhatsApp outbound phone number and then choose templates from approved templates drop down and create the first outbound welcome message. The WhatsApp message templates need to be approved by the Facebook team before we can access them.
 
@@ -195,13 +195,13 @@ In the same API handoff, users can select WhatsApp's first outbound message.  Us
 
 Preview the API handoff changes before saving it. If any changes required click the back button to go back to edit mode. Users can also rollback by clicking the cancel button.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-15.png)
+![](img/c2m-user-guide-15.png)
 
 #### Edit API Handoff
 
 Brand users can select existing handoff and edit it. Users can change the lookback period, enable or disable channels, change order priority and edit messages. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-16.png)
+![](img/c2m-user-guide-16.png)
 
  API Handoff Roles and Permissions:
 
@@ -226,23 +226,23 @@ Brands can only create App Messaging API handoff, they cannot combine other mess
   
  Users first click the New Handoff link in the API Handoff dashboard page.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-17.png)
+![](img/c2m-user-guide-17.png)
 
 Step 1: Enter title and select the lookback period for App Messaging
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-18.png)
+![](img/c2m-user-guide-18.png)
 
 Step 2: Create the first outbound message in the message preview section. Currently we support only plain text messages. Only max 3 apps can be selected at a time to create In-App API handoff. The process is the same to create new or edit existing App Messaging Handoffs.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-19.png)
+![](img/c2m-user-guide-19.png)
 
 Step 3: Save the App Messaging API Handoff
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-20.png)
+![](img/c2m-user-guide-20.png)
 
 Step 4: See the created or edited API handoff in the dashboard  list page.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-21.png)
+![](img/c2m-user-guide-21.png)
 
 ### WhatsApp Messaging Templates
 
@@ -251,7 +251,7 @@ Step 4: See the created or edited API handoff in the dashboard  list page.
 * WhatsApp Message Template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp Message Template with variable(s), make sure to replate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
 * Users can create a WhatsApp Message Template and submit it to WhatsApp for approval via the Proactive Messaging tool. Please see section on “Creating WhatsApp Message Template” below for more information
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-22.png)
+![](img/c2m-user-guide-22.png)
 
 #### Creating WhatsApp Message Templates
 
@@ -261,15 +261,15 @@ Step 4: See the created or edited API handoff in the dashboard  list page.
 
 **Type** - pick unique message category from the drop down menu
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-23.png)
+![](img/c2m-user-guide-23.png)
 
 **Language** - select the language to which you want to create the WA message template
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-24.png)
+![](img/c2m-user-guide-24.png)
 
 **WhatsApp Business ID** - pick the valid WhatApp Business Account ID
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-25.png)
+![](img/c2m-user-guide-25.png)
 
 **Outbound Phone Number** - select the outbound phone number
 
@@ -295,11 +295,11 @@ Brand users will pick the API Handoff Id to create SMS IVR Deflections.
 
 Step 1: Select the SMS API Handoff Id from the webtool
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-26.png)
+![](img/c2m-user-guide-26.png)
 
 Step 2: We are using the Postman tool to do the simulation on how to configure the C2M 2.0 API. Add API Key, Secret and Tokens.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-27.png)
+![](img/c2m-user-guide-27.png)
 
 Step 3: Add consumer phone number, Handoff Id and skills and call the Eligibility API endpoint
 
@@ -351,11 +351,11 @@ Success response
 
 Step 6: Consumer will receive the SMS message on their phone
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-28.png)
+![](img/c2m-user-guide-28.png)
 
 Step 7: Agent or Agent manager with the correct skills will receive the message from the consumer and accept it
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-29.png)
+![](img/c2m-user-guide-29.png)
 
 ### App Messaging API Deflection
 
@@ -365,11 +365,11 @@ Brand users will pick the API Handoff ID to create IVR Deflections to App Messag
 
 Step 1: Select the IOS API Handoff ID from the webtool
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-30.png)
+![](img/c2m-user-guide-30.png)
 
 Step 2: We are using the Postman tool to do the simulation on how to configure the C2M 2.0 API. Add API Key, Secret and Tokens.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-31.png)
+![](img/c2m-user-guide-31.png)
 
 Step 3: Add consumer phone number, Handoff ID and skills and call the Eligibility API endpoint
 
@@ -424,23 +424,23 @@ Success response
 
 Step 6: Brand consumer ID details
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-32.png)
+![](img/c2m-user-guide-32.png)
 
 Step 7: Consumer receives the push notification
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-33.png)
+![](img/c2m-user-guide-33.png)
 
 Step 8: Consumer responds to the agent
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-34.png)
+![](img/c2m-user-guide-34.png)
 
 Step 9: Brand agent conversation in the Agent Workspace
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-35.png)
+![](img/c2m-user-guide-35.png)
 
 Step 10: Brand agent will see the first outbound App Message in the new CX Widget in the Agent Workspace
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-36.png)
+![](img/c2m-user-guide-36.png)
 
 #### Android App Messaging API Configuration
 
@@ -448,11 +448,11 @@ Brand users will pick the API Handoff ID to create IVR Deflections to App Messag
 
 Step 1: Select the Android API Handoff ID from the webtool
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-37.png)
+![](img/c2m-user-guide-37.png)
 
 Step 2: We are using the Postman tool to do the simulation on how to configure the C2M 2.0 API. Add API Key, Secret and Tokens.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-38.png)
+![](img/c2m-user-guide-38.png)
 
 Step 3: Add consumer phone number, Handoff Id and skills and call the Eligibility API endpoint
 
@@ -501,23 +501,23 @@ Success response
 
 Step 6: Consumer will receive the push notification
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-39.png)
+![](img/c2m-user-guide-39.png)
 
 Step 7: Consumer will open the app to view the first outbound message on the mobile device
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-40.png)
+![](img/c2m-user-guide-40.png)
 
 Step 8: Consumer responds to the IVR Deflection message
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-41.png)
+![](img/c2m-user-guide-41.png)
 
 Step 9: Agent see the response from the consumer in Agent Workspace
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-42.png)
+![](img/c2m-user-guide-42.png)
 
 Step 10: Agent see the first outbound message sent to the consumer in the CX Widget
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/c2m-user-guide-43.png)
+![](img/c2m-user-guide-43.png)
 
 ## FAQs
 

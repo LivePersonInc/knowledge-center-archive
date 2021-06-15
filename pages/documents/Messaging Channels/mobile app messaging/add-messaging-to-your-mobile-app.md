@@ -76,7 +76,7 @@ Before you can create engagements for your mobile app, you must first configure 
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-messaging-to-your-mobile-app-4.jpg)
+![](/img/add-messaging-to-your-mobile-app-4.jpg)
 
 {:start="2"}
 
@@ -86,7 +86,7 @@ Before you can create engagements for your mobile app, you must first configure 
 2. Click “**Create.**” The mobile app will now be installed on your LivePerson Conversational Cloud account. On the same page, a new “App key” will be created, under the “Authentication details” section:
 3. To disable App Messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no App Messaging conversations will be directed to the Conversational Cloud .
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-messaging-to-your-mobile-app-1.png)
+![](/img/add-messaging-to-your-mobile-app-1.png)
 
 ## 4. Create a campaign
 
@@ -108,7 +108,7 @@ Once the app is installed on your LivePerson Conversational Cloud account and a 
 
 **To create a new engagement, click** “**Add engagement**” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the Campaign Builder. There are three stages for creating mobile engagements: **settings, entry point and behavior.**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-messaging-to-your-mobile-app-2.png)
+![](/img/add-messaging-to-your-mobile-app-2.png)
 
 {: .important}
 **Important:** When creating web engagements, brands configure the appearance of the engagement within the engagement studio. **However,** **when creating mobile engagements, this step does not take place in LivePerson’s platform, but within the brand’s mobile app**.
@@ -117,7 +117,7 @@ Once the app is installed on your LivePerson Conversational Cloud account and a 
 
 On this page, you can define **authentication**, **routing** and **language** settings for your engagement.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-messaging-to-your-mobile-app-5.png)
+![](/img/add-messaging-to-your-mobile-app-5.png)
 
 #### Authentication
 
@@ -149,7 +149,7 @@ When you are finished defining your entry point, click **next**.
 
 The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/add-messaging-to-your-mobile-app-3.png)
+![](/img/add-messaging-to-your-mobile-app-3.png)
 
 When selecting the condition, look for a mobile phone icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for mobile engagements. For more information on **creating a new behavior**, [click here](contact-center-management-campaigns-visitor-behavior.html).
 

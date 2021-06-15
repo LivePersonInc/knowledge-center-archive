@@ -40,7 +40,7 @@ Before a messaging conversation can be offered, a customer must authenticate.
 * Consumer logs in and receives message button
 * Previous conversations will automatically display if applicable
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/authenticated-web-messaging-1.png)
+![](/img/authenticated-web-messaging-1.png)
 
 Agent engages consumer in a messaging window, displaying history from previous conversations. For conversations that are continuing, or in the case that the agent pro-actively sends a message, a new message indication will display.
 
@@ -79,13 +79,13 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
 1. In the Conversational CLoud, select **Campaign Builder**.
 2. In the footnote, select **Data sources**.
 
-   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/authenticated-web-messaging-2.png)
+   ![](/img/authenticated-web-messaging-2.png)
 
 {:start="3"}
 
 1. Next to the authentication server, click **configure**.  The Authentication Server page is displayed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/authenticated-web-messaging-3.png)
+![](/img/authenticated-web-messaging-3.png)
 
 {:start="4"}
 

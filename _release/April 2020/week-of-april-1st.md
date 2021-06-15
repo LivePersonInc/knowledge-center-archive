@@ -64,7 +64,7 @@ LINE supports the sending of metadata with structured content in their app. If t
 * Metadata is fired as postback event
 * Agent sees metadata in LE transcript as feedback
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-6th-1.png)
+![](img/week-of-april-6th-1.png)
 
 **Enablement:** This feature is automatically enabled for all customers.
 
@@ -77,7 +77,7 @@ In order to spare users from having to reset the workspace filters with each log
 
 **Enablement:** This enhancement is only available for custom Bots that use the Conversation Metadata for passing the escalation information
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-2.png)
+![](img/week-of-april-1st-2.png)
 
 ## [Enhanced agent workspace] New Structured Content: Multiple selection checkbox
 ### New functionality (NAW 1.12)
@@ -86,7 +86,7 @@ The enhanced agent workspace now supports a new type of structured content that 
 
 **Enablement:** This feature is enabled by default.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-3.png)
+![](img/week-of-april-1st-3.png)
 
 ## [Enhanced agent workspace] All Connections tab: New tooltip for the skill column values
 ### Enhancement (NAW 1.12)
@@ -112,14 +112,14 @@ The bug has been fixed and the consumer info widget now displays both values, as
 
 A bug has been discovered in the consumer info widget, under the Campaign Info section. Whenever a conversation was transferred, the engagement skill value under the “Campaign info” section was populated incorrectly, showing the newly transferred skill instead of the skill of the campaign. This bug has been fixed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-4.png)
+![](img/week-of-april-1st-4.png)
 
 ## [Enhanced agent workspace] Consumer info widget: Long values sometimes overlapped or hidden 
 ### Bug fix (NAW 1.12)
 
 A bug was discovered inside the Consumer info widget, on the enhanced agent workspace. The Consumer ID and the Referrer (starting page) fields sometimes overlap with other elements, or are hidden behind the edges of the widget. This bug occured mostly for long field values, therefore some of the content was hidden and not readable. The bug has been fixed, and now long values are well wrapped and displayed within the widget as well.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-5.png)
+![](img/week-of-april-1st-5.png)
 
 ## [Enhanced agent workspace] Agent Survey: Question type dropdown list not visible
 ### Bug fix (NAW 1.12)
@@ -136,7 +136,7 @@ Custom widgets are not always reloading properly, and are not always showing the
 
 A bug has been found when an agent is trying to reset the filter in the All Connections list. The reset button is not resetting the UI state properly. This bug has been fixed, and the UI state is now working properly.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-6.png)
+![](img/week-of-april-1st-6.png)
 
 ## [Enhanced agent workspace] Predefined Content widget: Hotkeys are not aligned
 ### Bug fix (NAW 1.12)
@@ -144,7 +144,7 @@ A bug has been found when an agent is trying to reset the filter in the All Conn
 A bug was found in the UI of the Predefined Content widget, where the hotkeys are not aligned to the right side of the widget. The bug has been fixed, and the hotkeys are now aligned to the right.
 
 After the fix: hot keys are aligned to the right side of the widget
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-7.png)
+![](img/week-of-april-1st-7.png)
 
 ## [Enhanced agent workspace] Predefined Content widget: "Search" function behavior is incorrect
 ### Bug fix (NAW 1.12)
@@ -153,7 +153,7 @@ A bug was found in the Predefined Content widget search bar. While In the old wo
 
 Search results after bug fix:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-8.png)
+![](img/week-of-april-1st-8.png)
 
 ## [Enhanced agent workspace] My Connections tab: After a conversation swap, messages lose spacing
 ### Bug fix (NAW 1.12)
@@ -162,11 +162,11 @@ A bug was found in the enhanced agent workspace. If an agent types long text int
 
 Before bug fix:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-9.png)
+![](img/week-of-april-1st-9.png)
 
 After bug fix:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-10.png)
+![](img/week-of-april-1st-10.png)
 
 ## [Enhanced agent workspace] Firefox browser: After each refresh, the browser displays an error message
 ### Bug fix (NAW 1.12)
@@ -178,7 +178,7 @@ When an agent is using the Firefox browser both on Windows and on Mac OS, after 
 
 A bug was found in the All Connections tab filter, causing LivePerson’s controller bot to show as part of the agents list. This bug has been fixed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-11.png)
+![](img/week-of-april-1st-11.png)
 
 ## [Enhanced agent workspace] After manager takeover of conversation, the conversation stays in original agent’s conversation list
 ### Bug fix (NAW 1.12)
@@ -190,7 +190,7 @@ A bug has been found in the Enhanced Agent Workspace. After a manager takes over
 
 A bug was identified in the enhanced agent workspace. After an agent manager takes over a conversation from an agent, the bug causes the transfer dialog to stay open for the assigned agent and not to close the dialog. This bug has been fixed now.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-12.png)
+![](img/week-of-april-1st-12.png)
 
 ## [Enhanced agent workspace] Consumer info widget: Fields presented as null
 ### Bug fix (NAW 1.12)
@@ -199,15 +199,15 @@ A bug is shown in the Consumer Info widget of the enhanced agent workspace. When
 
 Desired behavior: 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-13.png)
+![](img/week-of-april-1st-13.png)
 
 Bug: 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-14.png)
+![](img/week-of-april-1st-14.png)
 
 ## [Enhanced agent workspace] All Connections filter: Reset contains wrong arrows for closed sections
 ### Bug fix (NAW 1.12)
 
 A design bug has been discovered in the UI of the All Connections filter inside the enhanced agent workspace. The arrows for the closed sections (Agent Survey Attributes & Post Conversation Survey) are wrong. The up arrow should be used for the open section, and the down arrow should be for the hidden section. The bug is now fixed and the UI was redesigned.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-1st-15.png)
+![](img/week-of-april-1st-15.png)

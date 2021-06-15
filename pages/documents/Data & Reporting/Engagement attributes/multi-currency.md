@@ -27,11 +27,11 @@ Brands reporting the above engagement attributes using currency will now be able
 
 When reporting on revenue and transactions, the Conversational Cloud checks whether an account used single currency or multiple currencies during the timeframe defined by the report. As multiple currencies cannot be summarized, the Data Bar and Dashboard widgets display data for the account’s default currency only. However, the multi currency icon will display when multiple currencies were recorded.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multi-currency1.png)
+![](/img/multi-currency1.png)
 
 A partial breakdown by currency can be found in the [Agent Goal Tracker](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) report (available in the Agent Manager BI), while a complete breakdown of currencies can be found in the [Analytics Builder.](data-reporting-report-builder-report-builder-overview.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Multi-currency2.png)
+![](/img/Multi-currency2.png)
 
 ## How to report multi currency on your account
 
@@ -45,7 +45,7 @@ For further information on configuring engagement attributes, read the[ Engageme
 {: .notice}  
 For brands who do not report the “currency” attribute using engagement attributes, the “default” currency is reported. The existing account default currency will not change when currency attributes are added.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multi-currency3.png)
+![](/img/multi-currency3.png)
 
 ## How to change your default currency
 
@@ -53,4 +53,4 @@ For brands who do not report the “currency” attribute using engagement attri
 2. Find the default currency you wish to use on the account.
 3. Click **select**.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multi-currency4.png)
+![](/img/multi-currency4.png)

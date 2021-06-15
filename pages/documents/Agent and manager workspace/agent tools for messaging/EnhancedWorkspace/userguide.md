@@ -81,7 +81,7 @@ You can filter conversations in the list by status:
 
 Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-light-mode.png)
+![](img/new-light-mode.png)
 
 ### Your personal data bar
 

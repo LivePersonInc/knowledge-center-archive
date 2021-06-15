@@ -54,7 +54,7 @@ CoBrowse technology has an enhanced level of security in comparison to tradition
 
 **The basic CoBrowse process is described in the image below:**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-1.png)
+![](/img/cobrowse-for-live-chat-1.png)
 
 The agent sends an invite to the consumer in the Embedded Engagement Window. If the consumer accepts, the CoBrowse session starts on the same webpage as the consumer was on when they initiated the conversation.
 
@@ -77,7 +77,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 
 1. In the Conversational Cloud, navigate to the visitors tab and click the Night Vision (configuration) icon.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-2.png)
+![](/img/cobrowse-for-live-chat-2.png)
 
 {:start="2"}
 2. Click Edit next to the CoBrowse configuration.
@@ -85,7 +85,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 * Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
 * Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors. This can also be configured per Agent group using [Agent Profiles and Permissions](admin-settings-permissions-profiles.html).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-4.png)
+![](/img/cobrowse-for-live-chat-4.png)
 
 The following CoBrowse elements can also be configured:
 
@@ -100,12 +100,12 @@ The following CoBrowse elements can also be configured:
 {: .important}
 **Note:** Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-3.png)
+![](/img/cobrowse-for-live-chat-3.png)
 
 {:start="3"}
 3. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-chat-6.png)
+![](/img/cobrowse-chat-6.png)
 
 ## Initiating CoBrowse
 
@@ -115,22 +115,22 @@ The following CoBrowse elements can also be configured:
 * CoBrowse - Shared gives you full control over the current browser tab.
 3. The visitor receives a notification asking them to accept the CoBrowse session.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-8.png)
+![](/img/cobrowse-for-live-chat-8.png)
 
 {:start="4"}
 4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-9.png)
+![](/img/cobrowse-for-live-chat-9.png)
 
 {:start="5"}
 5. By mousing over the top bar, agents are able to switch to full screen mode and view wider websites easily.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-11.png)
+![](/img/cobrowse-for-live-chat-11.png)
 
 {:start="6"}
 6. On the visitor or **consumer side**, when the CoBrowse session begins, a frame is displayed around the browser tab, indicating an active session. While using CoBrowse, password fields are automatically masked. Other fields such as credit card numbers can also be configured as masked.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-10.png)
+![](/img/cobrowse-for-live-chat-10.png)
 
 {:start="7"}
 7. The visitor can close the session at any time by clicking the X at the top of the frame.

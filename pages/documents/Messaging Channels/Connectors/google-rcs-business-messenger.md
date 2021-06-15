@@ -16,7 +16,7 @@ With the Google RCS Business Messaging connector, brands can communicate with co
 
 ## Google RCS vs. SMS
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/rcs connector 1-3.gif)
+![](/img/rcs connector 1-3.gif)
 
 RCS, or Rich Communication Services, is a communication protocol between mobile telephone carriers and between phone and carrier, which aims to replace SMS with a text-message system that is richer and supports multimedia.
 
@@ -37,20 +37,20 @@ RCS, or Rich Communication Services, is a communication protocol between mobile 
 * **Auto messages** — Send predefined messages about events that occur automatically in the conversation.
 * **Post Conversation Survey** — Gather feedback from consumers and measure their success across all messaging channels with the Post Conversation Survey.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-rcs-1.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-rcs-2.png)
+![](img/google-rcs-1.png)
+![](img/google-rcs-2.png)
 
 ## How conversations start
 
 ### Voice to Message
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/rcs connector 2-1.gif)
+![](/img/rcs connector 2-1.gif)
 
 Brands can deflect consumers from voice call to Google RCS Business Messaging using IVR deflection. Proactive notifications from IVR systems will allow brands to share an alert with the consumer, guiding them to continue the conversation over RCS Business Messaging.
 
 ### Business activity alerts
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/rcs connector 3-1.gif)
+![](/img/rcs connector 3-1.gif)
 
 Brands can integrate their business systems (CRM, marketing automation) and share notifications of real-time business actions with consumers on Google RCS Business Messaging.
 
@@ -95,4 +95,4 @@ Brands can integrate their business systems (CRM, marketing automation) and shar
     a. Submit Launch form via RBM console for Google Approval
     b. Google QA tests experience -> Opt-out functionality for bot/agent
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-rcs-3.png)
+![](img/google-rcs-3.png)

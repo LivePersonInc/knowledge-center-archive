@@ -33,8 +33,8 @@ Click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-inte
 * To access the LivePerson Intent Analyzer, log in to the Conversational Cloud and find it in the Quick launch menu at the bottom right of the screen.
 * Navigate to the LivePerson Intent Analyzer, you’ll be greeted with the intro dashboard. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent-manager-1.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent-manager-2.png)
+![](img/Getting-started-intent-manager-1.png)
+![](img/Getting-started-intent-manager-2.png)
 
 ### Step 2: Create a domain by selecting a prebuilt domain
 
@@ -44,15 +44,15 @@ There are currently 4 industry-specific domains: Telecommunications, Financial s
 Please note that this can be customized later.
 For more information on how to customize the Intent Manager, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-overview.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent3.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent4.png)
+![](img/Getting-started-intent3.png)
+![](img/Getting-started-intent4.png)
 
 ### Step 3: Create  customer conversation data
 * Click on [this link](https://developers.liveperson.com/web-messaging/emulator.html) to start mock conversations. Ask some questions that will trigger the intent in your domain. For example: I would like to pay my bill. 
 * If you have your LivePerson Intent Analyzer dashboard open, you will see the intents classified in real time.
 
 ### Step 4: Get to know the dashboard
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent-manager-5.png)
+![](img/Getting-started-intent-manager-5.png)
 
 * HEADERS: All tables in the dashboards can be sorted by clicking on any of the headers.
 AUTO REFRESH: The auto refresh setting allows you to set how often the dashboard refreshes. Setting it to the lowest time of 15 seconds will give you a live view into your intents.

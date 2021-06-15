@@ -52,7 +52,7 @@ Use hotkeys to enter a predefined content item in a conversation:
 
 To add links to predefined content, use the HTML tag for hyperlinks. For example:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/faqs-reporting-data.png)
+![](/img/faqs-reporting-data.png)
 
 Generally HTML elements can be integrated into Predefined Content entries. Chat visitors will receive the content with the HTML formatting.
 

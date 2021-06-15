@@ -18,7 +18,7 @@ date: 2019-04-09
 
 The Management Console enables brand admins and CSMs to explore, configure and enable platform capabilities in a self-serve manner. These capabilities can be features (turning on/off and configuring settings), or tools, like the Conversation Builder, for example, which is where users manage and build bots.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-1.png)
+![](img/management-console-overview-1.png)
 
 The Management Console is a new dedicated workspace within the Conversational Cloud, exposed only to roles with the relevant permissions. Brands can see all the features that are exposed in the Management Console, but they can activate only the features that are within their business plan, features outside of their business plan will appear as “Discovery - only” features, meaning they can read about this feature, but can’t activate it. Some of the features are also flagged as features that are self-serve only for CSMs. 
 
@@ -36,13 +36,13 @@ Management Console is now available to all brands and can be accessed by the ico
 
 One of the significant capabilities of the navigation within the Management Console is the search engine. This smart engine can identify features using the auto-complete mechanism, the recently-search, and full-text search. When a user is trying to find a feature, if they know the feature name, they can just type the name into the search and the auto-complete will show the relevant result. In the event that the user is not familiar with the name of the feature they are looking for, they can use popular tags or explore the feature categories.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-4.png)
+![](img/management-console-overview-4.png)
 
 ### Capabilities by category 
 
 For users who are less familiar with the names of the features, there is a way to explore the available features and tools by category. The categories have been divided into groups of features based on their business goal. The categories are identical to the products that are available on the LivePerson website.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-5.png)
+![](img/management-console-overview-5.png)
 
 ## Features, tools and permissions
 
@@ -52,7 +52,7 @@ The feature page is a consolidated space within the Management Console that hold
 
 Each feature has a dedicated feature page. When a user finds a feature they are interested in, they first need to access the feature page using the navigation.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-6.png)
+![](img/management-console-overview-6.png)
 
 Inside the feature page, the user can see the following elements:
 * Images and videos related to the feature
@@ -63,13 +63,13 @@ Inside the feature page, the user can see the following elements:
 * Configuration options for the feature
 * Assigning permissions to use the feature, per role (instead of assigning these permissions one by one in the user’s profile in a different module)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-7.png)
+![](img/management-console-overview-7.png)
 
 ### Launching tools to configure
 
 To make the user’s life easier, tools have been included within the Management Console. This means that the user can visit a feature page for tools like Intent Analyzer, Conversation Builder, and many more. From this feature page, the user can not just read about the tool, but launch it in an existing or a new tab, according to the tool, allowing them to continue working with the Conversational Cloud in parallel.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-8.png)
+![](img/management-console-overview-8.png)
 
 ### Enabling features and tools based on your plan
 
@@ -77,22 +77,22 @@ The Management Console includes 70 features and tools and will include more, as 
 
 Example of a feature that is included in the brand’s plan:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-9.png)
+![](img/management-console-overview-9.png)
 
 Example of a feature that is not included in the brand’s plan:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-10.png)
+![](img/management-console-overview-10.png)
 
 When activating an available feature, follow these steps:
 
 1. The first step is to see if this feature is already active for your account or not. If it’s not, you can activate it by using the orange button “Click to activate”
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-11.png)
+![](img/management-console-overview-11.png)
 
 {:start="2"}
 2. Assign permissions to the profiles based on the roles you can see on the list.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-12.png)
+![](img/management-console-overview-12.png)
 
 ### Permissions
 
@@ -100,10 +100,10 @@ While the Management Console will be available to all brands, not every user wil
 
 In case a brand would like to allow Agent Managers and Campaign Managers to view the Management Console in order to learn more about platform capabilities, separate permission was added inside the Users module, “Management Console: View and Access module”. This permission is available for the roles: Agent Manager and Campaign Manager, and is “Off” by default. Toggle this permission to “On” to allow the relevant users to view the feature pages, and to learn more about the capabilities of the platform.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-13.png)
+![](img/management-console-overview-13.png)
 
 ### Expected results 
 
 With the configurations above done properly, a user with a “Management Console: View and Access module” permission, will be able to see the Management Console module, access it, and explore features within this module. They will not have editing privileges, unless being an Administrator.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/management-console-overview-14.png)
+![](img/management-console-overview-14.png)

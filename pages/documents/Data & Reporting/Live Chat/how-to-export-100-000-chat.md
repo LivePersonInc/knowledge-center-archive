@@ -18,7 +18,7 @@ Chats are easy to read when they are exported in a CSV file. All of the relevant
 Many of the [engagement attributes](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) have more than one value per session. When this is the case, the latest value is the value that is exported with the chat.  
 Information about surveys is also exported along with each chat. Each survey name, along with each of its questions, are displayed as column headers, and the answers provided by visitors to the questions are provided in cells in the column.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Export-chats1.jpg)
+![](/img/Export-chats1.jpg)
 
 All survey questions configured in the account are presented in the CSV, however only the ones answered in the specific engagement are filled out with values for that row.
 

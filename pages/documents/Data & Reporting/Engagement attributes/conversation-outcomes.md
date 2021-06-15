@@ -44,17 +44,17 @@ To enable this feature:
 
 (1) Log into LivePerson, and then click on the Campaign Builder. The footnote is displayed at the bottom of the page.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conversation-outcomes1.png)
+![](/img/conversation-outcomes1.png)
  
 (2) In the footnote, click Data Sources. The Data Sources page is displayed. Click the tab called Integrations where your Connectors and Engagement Attributes will be displayed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conversation-outcomes2.png)
+![](/img/conversation-outcomes2.png)
 
 (3) In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
 
 (4) Click submit by agent.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conversation-outcomes3.png)
+![](/img/conversation-outcomes3.png)
 
 (5) Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
 

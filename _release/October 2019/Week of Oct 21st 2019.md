@@ -278,7 +278,7 @@ Customized busy message that was configured per WhatsApp number will be sent to 
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Pre_Post_Error_Hooks1.png)
+![](img/Pre_Post_Error_Hooks1.png)
 
 ## Support sending LiveEngage Attributes as Context
 
@@ -436,7 +436,7 @@ Sending of [LiveEngage Attribute](https://developers.liveperson.com/engagement-a
 
 The word 'Run time' was written incorrectly in the conversation metrics. It should be replaced with 'Runtime' rather than "run time" in Conversation Metric.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Run_time_fix.png)
+![](img/Run_time_fix.png)
 
 ## Bot action menu in status dashboard fix
 
@@ -516,7 +516,7 @@ The word 'Run time' was written incorrectly in the conversation metrics. It shou
 
 The design of the menu popover, consisting of 'Edit' and 'Delete' options in the Bot Status Dashboard, is not consistent with the design of the popover seen on the bot listing page. This has now been corrected.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Bot_Connectors_fix2.png)
+![](img/Bot_Connectors_fix2.png)
 
 ## Tooltip design fix
 
@@ -596,4 +596,4 @@ The design of the menu popover, consisting of 'Edit' and 'Delete' options in the
 
 The tooltip design was showing vertical lines while hovering over the status icon on the Bot Dashboard. This error has now been fixed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Bot_Connectors_fix3.png)
+![](img/Bot_Connectors_fix3.png)

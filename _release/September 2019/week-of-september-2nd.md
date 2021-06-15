@@ -72,11 +72,11 @@ Supported file formats and sizes:
 
 Image 1: consumer sends an image to agent
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-1.png)
+![](img/week-of-september-2nd-1.png)
 
 Image 2: agent sees the image consumer sends
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-2.png)
+![](img/week-of-september-2nd-2.png)
 
 ## \[Line\] Inform consumers of unsupported messages
 
@@ -140,7 +140,7 @@ There are 3 types of notification messages that brands have the ability to confi
 
 Image 1: configure how consumer sees the unsupported messages
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-3.png)
+![](img/week-of-september-2nd-3.png)
 
 ## \[Line\] Structured content support
 
@@ -212,31 +212,31 @@ Brands will be able to share these templates through structured content basic el
 Image 1: consumer sees quick replies option
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-4.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-5.png)
+![](img/week-of-september-2nd-4.png)![](img/week-of-september-2nd-5.png)
 
 Image 2: agent sees quick replies structured content
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-6.png)
+![](img/week-of-september-2nd-6.png)
 
 Image 3: agent sends generic card template
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-7.png)
+![](img/week-of-september-2nd-7.png)
 
 Image 4: consumer sees the card template and clicks on "more details"
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-8.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-9.png)
+![](img/week-of-september-2nd-8.png)![](img/week-of-september-2nd-9.png)
 
 Image 5: agent sends structured content with carousel template
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-10.png)
+![](img/week-of-september-2nd-10.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-11.png)
+![](img/week-of-september-2nd-11.png)
 
 Image 6: consumer sees structured content carousel template, clicks on "order now" then clicks "more details"
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-12.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-13.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-14.png)
+![](img/week-of-september-2nd-12.png)![](img/week-of-september-2nd-13.png)![](img/week-of-september-2nd-14.png)
 
 ## \[Line\] Secure forms support
 
@@ -334,11 +334,11 @@ For more details on PCS and how it is configured, please [read here](/ai-bots-au
 
 Image 1: agent sees survey questions
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-15.png)
+![](img/week-of-september-2nd-15.png)
 
 Image 2: consumer sees the survey in progress
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-16.png)
+![](img/week-of-september-2nd-16.png)
 
 ## \[Line\] Unfollow event support
 
@@ -433,9 +433,9 @@ Bot Connectors now support “Custom Integration.” This allows the customer to
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-17.png)
+![](img/week-of-september-2nd-17.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-2nd-18.png)
+![](img/week-of-september-2nd-18.png)
 
 ## [Bot Connectors] Finish initialization of job before the execution of bot
 

@@ -25,19 +25,19 @@ To enable “Agent file sharing” capability on your LivePerson Conversational 
 
 In order to enable the agent file sharing capability, brands have to enable the feature via Night Vision. Click on the Night Vision icon in the top right corner (the blue icon). From there, Go to the visitors tab > Agent Workspace configuration > File Sharing:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-1.png)
+![](/img/agent-file-sharing-1.png)
 
 Click on file sharing and enable the feature:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-2.png)
+![](/img/agent-file-sharing-2.png)
 
 ## Consumer-side configuration
 
 In order to display the attachment icon in the consumer window, select the ‘Menu elements’ dropdown in the Engagement window studio, and check the box that says ‘Send image (Messaging only). The campaign **must be republished** in order for the icon to be displayed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-15.png)
+![](/img/agent-file-sharing-15.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-16.png)
+![](/img/agent-file-sharing-16.png)
 
 ## Permissions
 
@@ -45,13 +45,13 @@ The agent file sharing capability is permission based. New permissions have been
 
 The permission is **off** by default. Additional permissions have been added as well in regards to custom widgets. This permission is covered more in depth below.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-3.png)
+![](/img/agent-file-sharing-3.png)
 
 ## **Using file sharing**
 
 A new attachment icon has been added above the agent’s input message area:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-4.png)
+![](/img/agent-file-sharing-4.png)
 
 The icon will be visible only to users with the appropriate permission.
 
@@ -59,37 +59,37 @@ If the channel from which the conversation was initiated does not support receiv
 
 Clicking on the attachment icon will open the agent local file browser dialog:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-6.png)
+![](/img/agent-file-sharing-6.png)
 
 The list of files presented will be filtered to present only supported file types (“Custom files”): JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
 
 When the agent chooses a photo, a preview of the photo will be presented and the agent will be able to add a caption and send the photo.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-7.png)
+![](/img/agent-file-sharing-7.png)
 
 The file will appear in the transcript:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-8.png)
+![](/img/agent-file-sharing-8.png)
 
 There is no preview available for files, only photos.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-17.png)
+![](/img/agent-file-sharing-17.png)
 
 Agents will be able to download the file from the transcript.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-9.png)
+![](/img/agent-file-sharing-9.png)
 
 Once clicking on the file it will be opened in full page mode:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-10.png)
+![](/img/agent-file-sharing-10.png)
 
 Agents will be able to keep writing in the input area while the file browser dialog is open, and navigate to other conversations. While the image is being loaded, the agent will be able to send additional messages. They will also be able to move to another conversation window while the loading process continues.
 
 The consumer will receive the file as part of the conversation. When the consumer clicks on the file, it will pop up for a full screen view.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-11.png)
+![](/img/agent-file-sharing-11.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-18-1.png)
+![](/img/agent-file-sharing-18-1.png)
 
 ## **File storage, retention and encryption**
 
@@ -149,13 +149,13 @@ Bots will have the capability to send files as well. For further details and exa
 
 **Web experience:**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-12.png)
+![](/img/agent-file-sharing-12.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-13.png)
+![](/img/agent-file-sharing-13.png)
 
 **App experience:**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-file-sharing-14.jpg)
+![](/img/agent-file-sharing-14.jpg)
 
 * The permissions to use the feature will be presented once the feature has been enabled by the account team. However, the feature will only be usable after it has been turned on in the account settings.
 * If a conversation was resumed and then closed, file sharing will be disabled as a way to resume the conversation again (the agent will not be able to send a file to the conversation).

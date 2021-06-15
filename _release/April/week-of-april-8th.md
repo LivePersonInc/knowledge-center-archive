@@ -219,4 +219,4 @@ When a user opens an Apple Business Chat link with engagement attribute paramete
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-april-8th-1.png)
+![](/img/week-of-april-8th-1.png)

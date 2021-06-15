@@ -63,7 +63,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/displaying-chat-engagements-1.png)
+![](/img/displaying-chat-engagements-1.png)
 
 ### 6. Offsite engagements
 
@@ -121,12 +121,12 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 1. Create a Campaign and fill in the campaign details (name, target audience and timeframe).
 2. Click **Add engagement**. From the menu, **select** **“Offsite”** engagement source:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/displaying-chat-engagements-2.png)
+![](/img/displaying-chat-engagements-2.png)
 
 {:start="3"}
 3. The engagement settings page will open.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/displaying-chat-engagements-3.png)
+![](/img/displaying-chat-engagements-3.png)
 
 {:start="4"}
 
@@ -152,7 +152,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 8. When you’ve finished creating the engagement, enable it and publish its campaign.
 9. Copy the engagement URL and use it in your selected touch point.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/displaying-chat-engagements-4.png)
+![](/img/displaying-chat-engagements-4.png)
 
 ## Publishing the engagement
 
@@ -190,13 +190,13 @@ If and when you re-enable your engagement, consumers will be directed to the URL
 
 1. From the CCampaign Builder footnote, click **inactive engagements**.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/displaying-chat-engagements-5.png)
+![](/img/displaying-chat-engagements-5.png)
 
 {:start="2"}
 
 1. Choose a survey from your existing offline surveys or enter a URL to which consumers will be redirected when clicking any inactive engagement. These can include engagements that have been disabled or deleted, and campaigns that have expired, been deleted or unpublished.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/displaying-chat-engagements-6.png)
+![](/img/displaying-chat-engagements-6.png)
 
 {:start="3"}
 

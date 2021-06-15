@@ -20,7 +20,7 @@ This feature is in addition to the existing Campaign Builder settings. It allows
 
 Users are able to set up rules that contain conditions which check skill availability based on the queue size and the wait time metrics as well as actions to show or hide engagements. Rules can be set up on  the campaign or engagement level. Rules on campaign level will affect all engagements in this campaign.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-controller-1.png)
+![](img/engagement-controller-1.png)
 
 ## Criteria
 You can setup rules using the following criterias: 
@@ -37,7 +37,7 @@ New rules are always listed at the top of the rules list. They are inactive by d
 
 Note: after activation it can take up to 5 minutes for the rule to apply the action on the engagement window. Then the system is checking the set value every 10 seconds and will take actions accordingly.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-controller-2.png)
+![](img/engagement-controller-2.png)
 
 ## Validation 
 

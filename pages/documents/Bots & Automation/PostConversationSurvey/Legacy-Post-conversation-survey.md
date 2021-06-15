@@ -107,13 +107,13 @@ Log in to the Bot Studio using the following link: [https://va.routingbot.ext.li
 
 Make sure to use your account admin credentials.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Post-conversation-survey-2.png)
+![](/img/Post-conversation-survey-2.png)
 
 ## Step 2 - Create a survey bot and first survey
 
 Once logged in to the Bot Studio, create a new survey bot by clicking on "Add a survey bot" under the Survey Bots tab.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide3.png)
+![](/img/post-conversation-survey-user-guide3.png)
 
 Once the survey bot is created, enter the survey bot’s Survey Gallery and press the “Add a new survey” button to create a new survey.
 
@@ -165,7 +165,7 @@ To set the survey timeout, set the amount of time under "Survey timeout". Enter 
 
 The survey timeout is calculated from the moment the survey starts until it reaches the timeout.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide4.png)
+![](/img/post-conversation-survey-user-guide4.png)
 
 ## Step 5 - Publish the survey
 
@@ -177,7 +177,7 @@ In the image below there are a few errors that will prevent the survey from bein
 2. Some of the bricks are missing essential information such as the question text.
 3. The survey has an unassigned sequence.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide5.png)
+![](/img/post-conversation-survey-user-guide5.png)
 
 Attempting to publish this survey will fail with a Bot Studio error message.
 
@@ -187,7 +187,7 @@ Once the survey contains no warnings, click on "Publish" in the header bar to ha
 
 In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the Agent Workspace will show the caption - “Survey in progress”
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide6-2.png)
+![](/img/post-conversation-survey-user-guide6-2.png)
 
 While the survey is active the agent won’t be able to write in the conversation. The survey will end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, the Conversational Cloud will close the survey after 48 hours as part of a conversation cleanup process.
 
@@ -199,12 +199,12 @@ Consumers may choose to type in free text using their keyboard instead of select
 
 In the settings under the skip survey section, you can add the phrases which the user can type to trigger the end of the survey.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide7 (1).png)
+![](/img/post-conversation-survey-user-guide7 (1).png)
 
 **Answer question using free text**  
 Another use for free text is to enter an answer for a question. In order to add a free text phrase that the bot would recognize for a button or quick reply, go to the brick you want to set a free text phrase for. Under the Setting Action page, click on the “Set additional free text answers” for the button you want and enter the phrases using a comma to separate the answers. For example, the user can type in ‘yeah’ or ‘Ya’ and the bot will recognize this as a valid response.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide8 (1).png)
+![](/img/post-conversation-survey-user-guide8 (1).png)
 
 {: .notice}  
 The user will need to enter the exact phrase in order for it to match, however, it is not case sensitive.
@@ -223,11 +223,11 @@ To enable this setting, click on "Settings" in the header bar. Check the checkbo
 
 Once enabled, make sure to fill in the desired text in the Text Fallback Tab. This tab will appear next to the Action and Design tabs of the Settings window once enabled.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide9 (1).png)
+![](/img/post-conversation-survey-user-guide9 (1).png)
 
 ## Reporting
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey-user-guide10.png)
+![](/img/post-conversation-survey-user-guide10.png)
 
 The messaging performance dashboard in Analytics Builder has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Analytics Builder are based on the ones configured in the Bot Studio.
 
@@ -250,7 +250,7 @@ The text and quick replies brick has two main design aspects that can be control
 1. Text within buttons - The size of the text can be changed between small, medium and large. The font color may be changed using the hexadecimal code. The text can be bolded and/or italicized.
 2. Buttons layout and colors - the number of quick replies per row may be set between 1 and 8. The fill and border colors mybe be changed using the hexadecial code. The border radius may be changed between 1 and 14.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/post-conversation-survey11.png)
+![](/img/post-conversation-survey11.png)
 
 For survey questions that include a text bubble, for example a text and quick replies brick, the text bubble will inherit its design from the overall window look and feel which you have already customized for your LivePerson Conversational Cloud account.
 

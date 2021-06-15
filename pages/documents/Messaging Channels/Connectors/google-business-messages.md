@@ -53,7 +53,7 @@ The above statistics represent a tremendous opportunity for brands to offer a me
 **Location Search via Google Maps** 
 Access Google’s 1 Billion monthly active users any time they search for your business and offer them an efficient, centralized messaging experience that takes pressure off of in-store employees who can focus on helping the person in front of them.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-1.gif)
+![](img/google-business-messages-1.gif)
 
 * **Overall setup effort:** Low
 * **Dependencies:** Consumers need Google Maps application (both iOS and Android). Android users must have version 6.0 at least.
@@ -65,7 +65,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 
 1. **Sitelinks:** Offer a messaging option when Google knows that a customer is searching for a brand, deflecting contacts that might go into other, less efficient channels
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-11.png)
+![](img/google-business-messages-11.png)
 
  *  **Overall setup effort:** Low
  *  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
@@ -75,7 +75,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 {:start="2"}
 1. **Answer Card:** Allow customers to message when they Google your customer service or contact number
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-12.png)
+![](img/google-business-messages-12.png)
 
  *  **Overall setup effort:** Low
  *  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
@@ -85,7 +85,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 **Website button**
 Brands can now funnel website visitors to GBM conversations by adding a button widget to their website. Android users will be able to easily initiate a conversation.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-4.png)
+![](img/google-business-messages-4.png)
 
 * **Overall setup effort:** Medium
 * **Dependencies:** Android users only (at least version 6.0). Only available in North America currently. Button limited to “Contact Us’-related page only.
@@ -96,20 +96,20 @@ Brands can now funnel website visitors to GBM conversations by adding a button w
 
 **Push Notifications:** Consumers that leave the app can effortlessly rejoin the conversation whether they receive a push notification inviting them to respond to an agent or they revisit the docked conversation on the homescreen.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-13.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-14.png)
+![](img/google-business-messages-13.png)
+![](img/google-business-messages-14.png)
 
 **Conversation Starter Chips:** When users initiate a conversation they are greeted by a rich experience including the brand’s name and logo, conversation starter message and quick reply chips.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-8.png)
+![](img/google-business-messages-8.png)
 
 **Secure Forms:** Users can safely and securely provide personal and payment information via secure forms.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-9.png)
+![](img/google-business-messages-9.png)
 
 **Rich Cards and Carousels:** Brands can leverage rich cards and carousels which provide users with an interactive search feature designed to intrigue them with visually appealing and relevant search results.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-10.png)
+![](img/google-business-messages-10.png)
 
 ## Setting up Google Business Messages
 
@@ -118,4 +118,4 @@ Brands can now funnel website visitors to GBM conversations by adding a button w
 3. LivePerson sends test URL to brand 
 4. Brand decides launch date
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/google-business-messages-15.png)
+![](img/google-business-messages-15.png)

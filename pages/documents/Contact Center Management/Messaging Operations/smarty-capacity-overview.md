@@ -29,7 +29,7 @@ A chat agent with a capacity of three conversations will handle and resolve each
 
 If applied to a messaging conversation, the use of concurrency to determine the number of conversations assigned to an agent can lead to a substantial amount of idle time for the messaging agent. For example, an agent can be at maximum concurrency, with three conversations in progress, but be sitting idle because the agent is awaiting a consumer response in all of them.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/smart-capacity-overview-1b.png)
+![](/img/smart-capacity-overview-1b.png)
 
 This can trigger several possible issues:
 
@@ -61,7 +61,7 @@ For example, if an agent has three conversations open, but is only messaging act
 
 The agent’s load as calculated above is displayed in the Messaging Agents List.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/smart-capacity-overview-2b.png)
+![](/img/smart-capacity-overview-2b.png)
 
 ### An immediate and positive impact
 
@@ -101,12 +101,12 @@ This means the maximum number of conversations with a high intensity of messages
 
 1. Click **Save**.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/smart-capacity-overview-3b.png)
+![](/img/smart-capacity-overview-3b.png)
 
 {: .notice}
 To maximize agent capacity and ensure conversation routing is as rapid and efficient as possible, ensure the **Automatic Chat/Conversation Distribution (ACD)** feature is enabled to auto-accept on your account.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/smart-capacity-overview-4.png)
+![](/img/smart-capacity-overview-4.png)
 
 **Auto-accept** means a new messaging conversation will open automatically, without the agent needing to accept it. Instead of lighting up the ‘waiting’ indicator at the bottom of the screen, the message will immediately appear as a new conversation in the Agent Workspace. Auto-accept does not disrupt the agent’s current conversation; new messages will wait in the conversation bar until the agent clicks on them.
 

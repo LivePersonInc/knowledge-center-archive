@@ -13,7 +13,7 @@ date: 2019-04-22 11:53:56 +0300
 ---
 When a customer or agent passes sensitive details during a messaging conversation, it’s important that the agent can view the information while handling the issue, but that the data will no longer be visible once the issue is resolved.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Historic-data-masking.png)
+![](/img/Historic-data-masking.png)
 
 To facilitate this layer of security, sensitive data (such as credit card or social security numbers) is replaced with predefined masking characters before being stored in the Conversational Cloud Conversation History database (data is not masked in real time).  
 The data is masked based on predefined RegEx patterns and presented as masked throughout the historical data elements, widgets, and APIs, as soon as the conversation is closed.

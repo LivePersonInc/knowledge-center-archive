@@ -24,13 +24,13 @@ LivePerson’s Proactive Messaging feature allows brands to engage in two-way co
 
 To access Proactive Messaging, log in to the Conversational Cloud and find Proactive Messaging in the Quick launch menu at the bottom left of the screen. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/getting-started-with-proactive-1.png)
+![](img/getting-started-with-proactive-1.png)
 
 ### Step 2: Create your first Proactive outbound campaign
 
 To create a new Proactive campaign, click on **New Campaign** on the Proactive Messaging landing page.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/getting-started-with-proactive-2.png)
+![](img/getting-started-with-proactive-2.png)
 
  * Define the campaign name (you can give it any name that you’d like!)
  * Select the channel in which the outbound message should be sent through (SMS)
@@ -40,18 +40,18 @@ To create a new Proactive campaign, click on **New Campaign** on the Proactive M
  * Define recipients by either uploading the list of recipients via a .csv file or typing in the recipient phone numbers (ensure one recipient per line, recipient’s phone number must start with country code, and then the area code)
  * Once you type in the recipient phone numbers, click the Parse button to get a preview of the message being sent per phone number. If there are any errors, users will see the highlighted phone number with the error.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/getting-started-with-proactive-3.png)
+![](img/getting-started-with-proactive-3.png)
 
 ### Step 3: Schedule your campaign
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/getting-started-with-proactive-4.png)
+![](img/getting-started-with-proactive-4.png)
 
  * Select the date that you want the messages to be sent out. Currently we only support Start now but in the future, you will be able to select a future date
  * Select the time window when you would like your recipients to receive the message based on their time zone, determined by the country code and area code of their phone numbers (it’s important to note that this is not the time the message will be sent, but rather the time the recipients will receive the message)
 
 ### Step 4: Preview and launch
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/getting-started-with-proactive-5.png)
+![](img/getting-started-with-proactive-5.png)
 
  * Review the details of the campaign before publishing, including the skill routing, the opt out text, the message content and the recipients
  * Users must check the box which states that they are responsible for collecting opt-in consent from consumers before reaching out to them, and legally abide by the TCPA and GDPR compliance laws

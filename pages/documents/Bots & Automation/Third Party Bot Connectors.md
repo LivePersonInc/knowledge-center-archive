@@ -11,7 +11,7 @@ isTutorial: false
 isNew: false
 
 ---
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/3rd Party Bot GIF.gif)
+![](img/3rd Party Bot GIF.gif)
 
 Bots can have a dramatic impact on contact center operations, helping brands to free up valuable agent time and reducing customer care costs by using bots to handle mundane and monotonous tasks allowing human agents the time to focus on more complex conversations.
 
@@ -49,7 +49,7 @@ There are four steps to onboarding a bot.
 
 For more information and detailed steps of how to onboard - please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bot_status_select.png)
+![](img/bot_status_select.png)
 
 ## Custom integration
 
@@ -65,7 +65,7 @@ Whenever a message is sent from the consumer into LE, the custom connector takes
 
 From the Bot onboarding wizard, chose to create a new Function. This will take you to the LivePerson Functions interface.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/chat_settings.png)
+![](img/chat_settings.png)
 
 #### Step 2 - Edit the Function
 
@@ -85,7 +85,7 @@ To track the efficiency of the bot, the dashboard features an overview for the n
 
 The dashboard can be accessed by clicking on the bot's name.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bot_status_metrics.png)
+![](img/bot_status_metrics.png)
 
 ## Limitations
 

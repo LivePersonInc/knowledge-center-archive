@@ -24,7 +24,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 The Post Conversation Survey Bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-1.png)
+![](/img/week-of-september-9th-1.png)
 
 The post conversation survey bot is available for Messaging customers on mobile app, web, ABC, Facebook. SMS is coming soon in September.
 
@@ -32,19 +32,19 @@ The post conversation survey bot is available for Messaging customers on mobile 
 
 1. Once the conversation ends the survey is automatically triggered and Bot sends the greeting message
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-2.png)
+![](/img/week-of-september-9th-2.png)
 
 {:start="2"}
 
 1. The Bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-3.png)
+![](/img/week-of-september-9th-3.png)
 
 {:start="3"}
 
 1. Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-4.png)
+![](/img/week-of-september-9th-4.png)
 
 #### How to create a survey using the Bot Studio:
 
@@ -54,11 +54,11 @@ Log in to the Bot Studio using the following link: [https://va.routingbot.ext.li
 
 Make sure to use your account Admin credentials.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-5.png)
+![](/img/week-of-september-9th-5.png)
 
 **Step 2 - Create a bot and your first survey**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-6.png)
+![](/img/week-of-september-9th-6.png)
 
 Once the bot is created, Enter the Bot’s Survey gallery and press the **Add Survey** button to create a new survey.
 
@@ -108,7 +108,7 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-7.png)
+![](/img/week-of-september-9th-7.png)
 
 **Step 5 - Reaching a valid survey for publishing**
 
@@ -120,7 +120,7 @@ In the image below there are a few errors that prevent the survey from being pub
 2. Some of the bricks are missing essential information such as the question text.
 3. The survey has an unassigned sequence.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-25.jpg)
+![](/img/week-of-september-9th-25.jpg)
 
 Attempting to publish this survey will fail with a Bot Studio error message.
 
@@ -128,7 +128,7 @@ Once the survey contains no warnings, hit the Publish button to have the survey 
 
 **Step 6 - Trigger the survey**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-9.png)
+![](/img/week-of-september-9th-9.png)
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
@@ -150,14 +150,14 @@ The post conversation survey is now supported for the Facebook Messenger and App
 **Survey Experience in Facebook Messenger:**
 For use in Facebook Messenger, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Facebook’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-10-1.png)
+![](/img/week-of-september-9th-10-1.png)
 
 **Survey Experience in Apple Business Chat:**
 LiveEngage automatically translates rich surveys into textual surveys for the ABC channel.
 
 Brands can configure one survey and apply it for all channels or they can configure separate surveys per channel (each channel should have a separate skill). When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-11-1.png)
+![](/img/week-of-september-9th-11-1.png)
 
 {: .notice}
 **Please note:** This feature requires enablement - please contact your LivePerson account team.This feature requires enablement - please contact your LivePerson account team.
@@ -190,9 +190,9 @@ Audio messaging is currently still in beta, due to the fact that the audio files
 {: .notice}
 **Please note:** This feature requires enablement - please contact your LivePerson account team.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-12.png)
+![](/img/week-of-september-9th-12.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-13.png)
+![](/img/week-of-september-9th-13.png)
 
 ### Dynamic text (macros) in Predefined Content for messaging (LE-91252)
 
@@ -223,15 +223,15 @@ The feature is also supported for rich content and quick replies (accounts can u
 
 Configuration of predefined content:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-14.png)
+![](/img/week-of-september-9th-14.png)
 
 The text editor before sending the message:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-15.png)
+![](/img/week-of-september-9th-15.png)
 
 The message after it is sent:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-16.png)
+![](/img/week-of-september-9th-16.png)
 
 ### Resume conversations without time restrictions (LE-83882)
 
@@ -239,7 +239,7 @@ Agents and agent managers now have the ability to resume conversations with cons
 
 Following message shall not appear anymore :
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-23.jpg)
+![](/img/week-of-september-9th-23.jpg)
 
 ### Remove 'description' from Agent Widget SDK setConsumerProfile (AE-374)
 
@@ -290,7 +290,7 @@ This is part of the effort for limiting the allowed redirection targets to same-
 
 On LiveEngage -> Visitors tab -> Real Time Databar and associated dashboard does not refresh automatically (unless the page has been refreshed manually). This bug is a result of the previous LiveEngage version and is now fixed, so the dashboard will be refreshed automatically every 10 seconds.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-18.png)
+![](/img/week-of-september-9th-18.png)
 
 ### Agent workspace: Empty data for AOV and revenue widgets (LE-93425)
 
@@ -298,7 +298,7 @@ On LiveEngage -> Campaigns tab -> Dashboard, the “Average Order Value” and �
 
 This bug is a result of the previous LiveEngage version and is now fixed, and the widgets now display both the AOV and revenue after chat real data.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-19.png)
+![](/img/week-of-september-9th-19.png)
 
 ### Agent workspace: lpTag overrides lpTag.identities property (LE-92870)
 
@@ -320,11 +320,11 @@ When an agent takes both chats and messaging conversations at the same time, per
 
 The conversation data:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-20.png)
+![](/img/week-of-september-9th-20.png)
 
 The chat data with the leaked conversation data:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-21.png)
+![](/img/week-of-september-9th-21.png)
 
 ### Wrong wait time behavior for transferred chats (AE-197)
 
@@ -334,4 +334,4 @@ When transferring a chat, the wait time should display the duration between the 
 
 After the fix, the wait time is reset (in this case auto accept is on, so the wait time is 0 minutes after the transfer. Before the bug the value would have been the total chat time):
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-9th-22.png)
+![](/img/week-of-september-9th-22.png)

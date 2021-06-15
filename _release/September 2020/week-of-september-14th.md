@@ -24,7 +24,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 The Messenger platform supports the passing of an arbitrary parameter via these m.me links. This can be used for many purposes, such as tracking different links placed in different channels, or tying a Messenger user to a session or account in an external app. You can even use it to direct the user to specific content or features available within your Messenger experience. An m.me link with an added parameter looks like this:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-14-7.png)
+![](img/week-of-september-14-7.png)
 
 Based on the consumer intent, it will enable brands to pass the "ref" parameter into the conversation.This can then be used for routing or shown to an agent as ‘status’ SDE in the consumer info for reference.
 
@@ -58,7 +58,7 @@ A bug has been discovered in the enhanced Agent Workspace, causing the Predefine
 
 New indication is now displayed for viewed secure forms in the enhanced Agent Workspace.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-14-6.png)
+![](img/week-of-september-14-6.png)
 
 ## [Enhanced Agent Workspace] Customer info widget was not loaded when accepting conversation from 'All Conversations’ tab
 ### Type: Bug fix (NAW 1.18) 

@@ -41,7 +41,7 @@ Intent Analyzer automatically analyzes customer messages sent to human agents as
 
 Intents can be built and trained in LivePerson, or uploaded from an existing system or other NLU engine. Brands can create intent dashboards to optimize operations, intent by intent, and build a data driven automation program.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conv-ai-1.png)
+![](/img/conv-ai-1.png)
 
 ### Dynamic Routing by Conversation Orchestrator
 
@@ -51,7 +51,7 @@ Intents can be built and trained in LivePerson, or uploaded from an existing sys
 
 Conversation Orchestrator’s [Dynamic Routing](ai-bots-automation-maven-ai-powered-routing.html) uses the consumer’s identified intent, and assesses the conversation’s context from various data sources, including: consumer attributes, operational metrics, and enterprise systems to route to the right agent.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conv-ai-2.png)
+![](/img/conv-ai-2.png)
 
 By combining information from an external system like a CRM, the consumer can be immediately identified by name, location, and other information, such as VIP status. LivePerson Functions allows brands to easily integrate data from external systems, like Salesforce, using secure, LivePerson managed function services.
 
@@ -77,7 +77,7 @@ Agents can opt to manually use a knowledge base article to help the user or join
 
 Bots can be created in LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrated as third-party bots by using a connector for Watson or Dialogflow. The Conversation Builder is fully integrated into LivePerson’s Conversational AI platform, allowing for seamless back and forth escalation with human agents and real-time monitoring by humans. In this way, LivePerson enables both human agents and bots to interchangeably handle consumer interactions to deliver the best consumer experience possible for each conversation.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/conv-ai-4.png)
+![](/img/conv-ai-4.png)
 
 Conversation Builder allows brands to build bots including everything from creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems like Salesforce.
 

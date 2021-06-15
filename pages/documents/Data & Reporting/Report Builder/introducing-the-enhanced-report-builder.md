@@ -18,7 +18,7 @@ redirect_from:
 
 The Analytics Builder's predefined dashboards include diverse data visualizations in multiple color schemes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-look-and-feel.png)
+![](img/new-look-and-feel.png)
 
 ### Access
 The Analytics Builder can be accessed through the Quick Launch menu which is located on the bottom left of the navigation panel.
@@ -26,12 +26,12 @@ The Analytics Builder can be accessed through the Quick Launch menu which is loc
 ### Navigation
 You can navigate among different data views within each dashboard at the top of each chapter.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/navigation.png)
+![](img/navigation.png)
 
 ### KPI widget
 The KPI widget provides a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-kpi-widget.png)
+![](img/new-kpi-widget.png)
 
 The widget displays:
 
@@ -49,7 +49,7 @@ For clear presentation for users with view-only permission, the filter panel is 
 ### Data visualizations
 There are various available visualization types (histogram, waterfall chart, box plot) for creating custom dashboards. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/additional-data.png)
+![](img/additional-data.png)
 
 ### Personalized view
 Users can save their own customized personal view of the dashboard. A personalized view is a lightweight copy of a dashboard and includes every change that was made to the dashboard including filtering the report period time frame and the offset selector. These updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re-select the filters on the dashboard.
@@ -57,16 +57,16 @@ To create and save a personal view go to the file menu, select ‘Create Persona
 To run a personal view, after launching the Analytics Builder , select ‘My Subscriptions’ where you will see all your personal view subscriptions In the personal view subscriptions area, click the name of the personal view to run or edit it.
 For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/personalized-view.png)
+![](img/personalized-view.png)
 
 {: .notice}
 These changes will only impact the predefined dossiers. User copies of previous predefined  dossiers will not be impacted automatically. 
 
 If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Analytics Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/pallete.png)
+![](img/pallete.png)
 
 ### Exporting to PDF
 Users can export dashboards to a PDF file, and include custom visualization formatting and automatic, portrait and landscape layout options. They can use Advanced mode to export each visualization individually on separate pages to include all data. Export pdf is limited to 100 pages.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/export-to-pdf.png)
+![](img/export-to-pdf.png)

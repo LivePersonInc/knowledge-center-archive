@@ -70,7 +70,7 @@ To get access to this page, you'll need to ask your LivePerson account team to e
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/FaaS-external-UI.png)
+![](/img/FaaS-external-UI.png)
 
 ### FaaS Secret Storage
 
@@ -116,7 +116,7 @@ Secrets can be maintained via the **Settings** tab as a key/value storage. Each 
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/FaaS-secret-storage.png)
+![](/img/FaaS-secret-storage.png)
 
 ### \[WhatsApp and Facebook\] Desktop support for Secure Forms (CX-279)
 
@@ -159,7 +159,7 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-6th-1.png)
+![](/img/week-of-may-6th-1.png)
 
 ### \[Apple Business Chat\] Added support for augmented reality (AR) file (CX-260)
 
@@ -202,15 +202,15 @@ LivePerson now supports Apple’s augmented reality (AR) file which allows agent
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-6th-2.png)
+![](/img/week-of-may-6th-2.png)
 
 Object Mode:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-6th-3.png)
+![](/img/week-of-may-6th-3.png)
 
 AR Mode:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-6th-4.png)
+![](/img/week-of-may-6th-4.png)
 
 ### \[Apple Business Chat\] Enhanced Secure Forms via rich link (CX-327)
 
@@ -257,11 +257,11 @@ Once deployed, secure forms via rich links will become the default behavior for 
 
 Current Experience:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-6th-5.png)
+![](/img/week-of-may-6th-5.png)
 
 Improved experience with rich link:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-6th-6.png)
+![](/img/week-of-may-6th-6.png)
 
 ### Connectors vanity URL support for Secure Forms (CX-183)
 

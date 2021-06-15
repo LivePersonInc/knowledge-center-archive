@@ -116,7 +116,7 @@ For more information please visit [Enhanced Agent Workspace - New Experiences](h
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-workspace-5-1.jpg)
+![](img/new-agent-workspace-5-1.jpg)
 
 ## Manager workspace
 
@@ -218,7 +218,7 @@ Managers will also be able to actively supervise key metrics like:
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ManagerWorkspace.png)
+![](/img/ManagerWorkspace.png)
 
 ## Navigation bar and data bar beautification
 
@@ -295,15 +295,15 @@ Managers will also be able to actively supervise key metrics like:
 </table>
 
 </div>  
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-agent-workspace-screenshot-2 (1).png)
+![](/img/new-agent-workspace-screenshot-2 (1).png)
 
 The navigation bar is now located on the left side of the screen.  
 Each tab is represented by a new icon, as follows:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/icons-side-bar.png)  
+![](/img/icons-side-bar.png)  
 In addition, the agent status menu can now be found in the bottom left of the sidebar (previously appeared on the top right corner of the screen).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/side-by.png)
+![](/img/side-by.png)
 
 Logout operation from LiveEngage is now available in the agent status menu.
 
@@ -394,7 +394,7 @@ The Connection Panel provides support to users in LiveEngage and has been update
 
 {: .sidebyside}
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CA1.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CA2.png)
+![](/img/CA1.png)![](/img/CA2.png)
 
 ## Redirect Administrator to Launchpad if installed
 
@@ -491,7 +491,7 @@ With Launchpad, account administrators can access all products such as applicati
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/redirect admin to launchpad.png)
+![](/img/redirect admin to launchpad.png)
 
 ## Static load balancing per skill for messaging
 
@@ -594,7 +594,7 @@ This feature cannot be defined to work for both Messaging and Chat load balancin
 
 **Screenshot**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Staticload1.png)
+![](/img/Staticload1.png)
 
 ## MTLS Gateway with integration to Webhooks
 

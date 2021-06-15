@@ -23,7 +23,7 @@ WeChat serves 1 billion monthly active users, mostly in China, making it one of 
 
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/wechat-1.jpg)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/wechat-2.jpg)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/wechat-3.jpg)
+![](/img/wechat-1.jpg)![](/img/wechat-2.jpg)![](/img/wechat-3.jpg)
 
 ## How conversations start
 

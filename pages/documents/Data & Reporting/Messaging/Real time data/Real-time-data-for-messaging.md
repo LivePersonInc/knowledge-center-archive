@@ -27,4 +27,4 @@ As an agent manager, you want to have an overall picture of how your agents are 
 
 **CSAT** - displays the customer satisfaction score, based on surveys that were completed in the last 12 hours. The calculation is (Total number of positive answers) / (Total number of answers). The data is retrieved from LivePerson's [Messaging Operations API](https://developers.liveperson.com/messaging-operations-api-overview.html).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/realtime_data_bar.png)
+![](img/realtime_data_bar.png)

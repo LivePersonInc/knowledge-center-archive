@@ -25,7 +25,7 @@ This dashboard also entails hour offset capabilities allowing users to show the 
 
 The following page will be presented when accessing the goal tracker for messaging predefined dashboard. It provides an overview of all conversions by skill and by date for the selected selected timeframe.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/goaltracker_messaging_new_1.png)
+![](img/goaltracker_messaging_new_1.png)
 
 The page present the following visualizations:
 1. Conversion by skill - pie chart
@@ -41,7 +41,7 @@ Another click on the selected filter will unselect the skill and reset the filte
 ## Page2: Conversion tracking
 
 The page provides an overview of all conversions by skill, by agent, by assignment duration for the selected timeframe.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/goaltracker_messaging_new_2.png)
+![](img/goaltracker_messaging_new_2.png)
 
 This page presents the following visualizations:
 1. Conversion by skill  and assignment durations
@@ -55,7 +55,7 @@ Another click on the selected filter will unselect the skill and reset the filte
 
 ## Page3: Agent Conversation tracking grid
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/goaltracker_messaging_new_3.png)
+![](img/goaltracker_messaging_new_3.png)
 
 ## Retrieving cross session conversion / goal by date
 

@@ -101,7 +101,7 @@ Please see the [developers community](https://developers.liveperson.com/livepers
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/FaaS Scheduler 1.png)
+![](/img/FaaS Scheduler 1.png)
 
 ## LiveEngage Apps QuickLaunch Menu in LE UI
 
@@ -125,9 +125,9 @@ QuickLaunch menu is available by default for all accounts.
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-22-1.png)
+![](/img/week-of-july-22-1.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-22-2.png)
+![](/img/week-of-july-22-2.png)
 
 ## Ability to duplicate the Ocean theme
 
@@ -176,9 +176,9 @@ Brands now have the ability to duplicate the ocean theme engagement window, in o
 
 **Image 1: create an engagement window by duplicating from Ocean theme**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-22-3.png)
+![](/img/week-of-july-22-3.png)
 
-**Image 2: Ocean theme duplicated![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-22-4.png)**
+**Image 2: Ocean theme duplicated![](/img/week-of-july-22-4.png)**
 
 ## Large window preview
 
@@ -227,11 +227,11 @@ In the engagement window studio, once the user selects the large embedded window
 
 **Image 1: Selecting large embedded window**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-22-5.png)
+![](/img/week-of-july-22-5.png)
 
 **Image 2: Text shows the large window size will not be reflected in the preview**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-22-6.png)
+![](/img/week-of-july-22-6.png)
 
 ## Making a new window with logo alt text breaks window on visitor side
 
@@ -323,7 +323,7 @@ When choosing the option of automatically changing the status of an agent to awa
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-22-7.png)
+![](/img/week-of-july-22-7.png)
 
 ## Bot Dashboard
 
@@ -372,7 +372,7 @@ This dashboard will provide the ability to track these metrics over time and the
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bot dashboard.png)
+![](/img/bot dashboard.png)
 
 ## Add login name to the Assign Agent wizard step to support multiple bots with the same nickname
 

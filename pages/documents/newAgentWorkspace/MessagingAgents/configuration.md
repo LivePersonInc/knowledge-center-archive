@@ -59,11 +59,11 @@ The enhanced Agent Workspace supports the two following improvements to assist a
 
 Fig 1: The consumer’s personal info displayed in the consumer info widget
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/set-consumer-profile-1.png)
+![](img/set-consumer-profile-1.png)
 
 Fig 2: The visitor name is automatically populated in the connections list and in the conversation header
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/set-consumer-profile-2.png)
+![](img/set-consumer-profile-2.png)
 
 ### Manually rename ‘Visitor’ for unauthenticated conversations
 
@@ -72,17 +72,17 @@ The agent has the ability to manually rename the visitor’s first and last name
 1. When focusing on a conversation (via the My Conversations/All Conversations), go the visitor name above the conversation area.
 2. Hovering over the visitor’s name, an “Edit consumer name” button will be displayed:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/set-consumer-profile-4.png)
+![](img/set-consumer-profile-4.png)
 
 {:start="3"}
 3. Clicking the “Edit consumer name” button will open a new dialog window, with the option to set the consumer’s first and last name. Fill in the details and click “Set”
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/set-consumer-profile-5.png)
+![](img/set-consumer-profile-5.png)
 
 {:start="4"}
 4. The screen will focus on the conversation again. The new name will be displayed in the conversation title and in the conversation list:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/set-consumer-profile-6.png)
+![](img/set-consumer-profile-6.png)
 
 ### Enablement
 
@@ -93,7 +93,7 @@ On your LivePerson Conversational Cloud account, take the following steps:
 
 1. Go to any existing agent/agent manager profiles, or create a new profile, and turn the following permissions on: **Update consumer profile via API**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/set-consumer-profile-3.png)
+![](img/set-consumer-profile-3.png)
 
 {:start="2"}
 2. Save the profile.
