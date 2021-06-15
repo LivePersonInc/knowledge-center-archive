@@ -18,7 +18,7 @@ isNew: false
 The All Conversations list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents.
 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace-icons-messaging-1.png)
+![](/img/agent-workspace-icons-messaging-1.png)
 
 | Icon | Meaning |
 | --- | --- |
@@ -40,7 +40,7 @@ The All Conversations list displays every one of your brand’s messaging conver
 The Open Conversations tab shows all of the conversations assigned to the agent that are currently open and not yet resolved.
 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace-icons-messaging-2b.png)
+![](/img/agent-workspace-icons-messaging-2b.png)
 
 | Icon | Meaning |
 | --- | --- |
@@ -54,7 +54,7 @@ The Open Conversations tab shows all of the conversations assigned to the agent 
 
 ## Conversation view
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-workspace-icons-messaging-3b.png)
+![](/img/agent-workspace-icons-messaging-3b.png)
 
 | Icon | Meaning |
 | --- | --- |

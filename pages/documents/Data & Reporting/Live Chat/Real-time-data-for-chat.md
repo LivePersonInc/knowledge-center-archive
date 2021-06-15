@@ -19,7 +19,7 @@ The data bar default view presents aggregated data from all skills (queues) on t
 
 The agent data bar enables agents to monitor their own performance data in real time. The agent data bar is displayed above the web visitors list.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/chat-real-time-data-bar.jpg)
+![](/img/chat-real-time-data-bar.jpg)
 
 As an agent, you have goals to meet, such as achieving a specific customer satisfaction rate or a certain number of engagements per hour.
 
@@ -71,13 +71,13 @@ You can also monitor performance with the Agent Dashboard.
 
 The agent dashboard provides additional detailed and graphical information about agent performance. To access the agent dashboard, click the pull-down button above the web visitors list.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-chat-data4.png)
+![](/img/agent-chat-data4.png)
 
 ### Queue health data bar
 
 The queue health data bar provides a snapshot of the basic information required to track agent efficiency and operational efficiency. The queue health data bar is located above the web visitors list.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-chat-data5.png)
+![](/img/agent-chat-data5.png)
 
 The data bar default view presents aggregated data from all skills (queues) on the account for the last 12 hours.
 
@@ -99,7 +99,7 @@ According to the data in the data bar, you can offer your agents constructive fe
 
 The queue health dashboard graphically displays real-time and historical data that enables easily evaluation of agent efficiency. To access the queue health dashboard, click the pull-down button above the web visitors list.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-chat-data6.png)
+![](/img/agent-chat-data6.png)
 
 ### Agent list data bar
 
@@ -107,4 +107,4 @@ The agent list enables agent managers to track agent status in real time, includ
 
 The agent list data bar is located above the list of agents.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-chat-data7.png)
+![](/img/agent-chat-data7.png)

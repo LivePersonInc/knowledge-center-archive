@@ -37,7 +37,7 @@ With this enhancement, Functions being invoked on Conversation End event, will a
 #### Screenshot:
 payload: 
 closeReason: SYSTEM
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-week-of-June-27th-1.png)
+![](img/RN-week-of-June-27th-1.png)
 
 ## Make the chat window polling interval configurable 
 ### Type: Enhancement (Web Experiences 10.3)

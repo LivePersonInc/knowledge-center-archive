@@ -16,7 +16,7 @@ isNew: false
 
 In order for agents to start their shifts smoothly and be able to ‘warm up’ to the flow of conversations, brands can configure LivePerson to assign conversations to the agents gradually.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent-warmup-1.png)
+![](/img/agent-warmup-1.png)
 
 When an agent first signs in they will receive one conversation. After a pre-configured time interval a second conversation will be assigned, and so on, until the agent reaches their maximum number of messaging conversations.
 

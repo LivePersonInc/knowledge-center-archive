@@ -79,4 +79,4 @@ Agent workspace for chat - for all chat conversations
 Enhanced Agent Workspace - for all messaging conversations
 
 The icons on the side bar will display notifications for incoming messages per workspace.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/blended_accounts_same_shift.png)
+![](img/blended_accounts_same_shift.png)

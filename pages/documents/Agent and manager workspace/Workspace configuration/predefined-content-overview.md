@@ -23,4 +23,4 @@ While you are chatting, you can quickly navigate through the categories and sele
 * **Conversational:** Thank you for waiting.
 * **Greeting:** Hello, How may I assist you?
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/predefined-content-overview-1.png)
+![](/img/predefined-content-overview-1.png)

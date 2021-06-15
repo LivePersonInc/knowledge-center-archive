@@ -17,7 +17,7 @@ The LivePerson Conversational Cloud is the evolution of LiveEngage. It’s an AI
 
 The Conversational Cloud makes it possible to understand consumer intents in real-time to inform critical business decisions and automate consumer interactions at scale on all the popular messaging channels. The Conversational Cloud powers the orchestration of human agents, bots, and systems through a specialized set of AI-powered services and tools. Brands can use this platform to discover and understand consumer intents, design and scale personalized automations to fulfill those intents, and measure and optimize the effectiveness of conversations.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-1.gif)
+![](img/lp-conversational-cloud-1.gif)
 
 ## Why brands use the Conversational Cloud
 
@@ -39,11 +39,11 @@ The platform’s components consist of:
  * Conversation Orchestrator 
  * Conversation Analytics 
  
- ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-2.png)
+ ![](img/lp-conversational-cloud-2.png)
  
 ### Discover & understand what consumers want with Intent Manager
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-3.png)
+![](img/lp-conversational-cloud-3.png)
 
 The **Intent Manager** accurately understands what consumers want. It empowers brands to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated. The Intent Manager is made up of the [Intent Builder](https://developers.liveperson.com/intent-builder-overview.html) and the [Intent Analyzer](/ai-bots-automation-intent-analyzer-overview.html). 
 
@@ -59,7 +59,7 @@ The [Conversation Builder](/ai-bots-automation-conversation-builder-conversation
 
 The Conversation Builder [Dialog Editor](/ai-bots-automation-conversation-builder-coming-soon-to-the-conversation-builder.html) has a scalable user interface that lets you effortlessly manage a large number of dialogs as well as a self-guided interface that lets you easily create rules, without the need for coding. The Conversation Builder can search the Knowledge Base as a fallback to provide an article that may be helpful to the user.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-5.png)
+![](img/lp-conversational-cloud-5.png)
 
 ### Design & scale your operations with Conversation Manager
 
@@ -67,13 +67,13 @@ In the Conversation Manager, agents can manage conversations from any channel in
 
 Brands are also able to get quick, consistent answers to consumers by offering automations to agents with Agent Assist. [Agent Assist](/ai-bots-automation-conversation-orchestrator-agent-assist.html) suggests the next best action (Bots or Knowledge Base articles) to agents in real time, based on consumer intents. It connects relevant Knowledge Base articles to the consumer intent, and provides FAQ responses to commonly asked questions for both agent and consumer - making agents more effective and efficient
  
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-6.gif)
+![](img/lp-conversational-cloud-6.gif)
 
 ### Design & scale consumer journeys with Conversation Orchestrator 
 
 The Conversational Cloud analyzes every turn of a conversation, using intent together with brand and consumer-specific data to determine the best next action. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-7.png)
+![](img/lp-conversational-cloud-7.png)
 
 The [Dynamic Routing](/ai-bots-automation-conversation-orchestrator-dynamic-routing.html) feature allows brands to create personalized policies that automatically transfer conversations to automations built in the Conversation Builder or route consumers to the most efficient human agent.
 
@@ -85,7 +85,7 @@ Adding the [Conversation Context Service](/ai-bots-automation-conversation-orche
 
 Uncovering actionable improvements using conversation data is key to driving business decisions for our customers. LivePerson has a number of different data and reporting tools to drive insightful outcomes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-8.png)
+![](img/lp-conversational-cloud-8.png)
 
 1. The [Analytics Builder](/data-reporting-report-builder-report-builder-overview.html) offers brands ready-made dashboards reflecting a wealth of data drawn from the brands Conversational Cloud account. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through campaigns and enact data-driven decisions. 
 
@@ -100,4 +100,4 @@ Uncovering actionable improvements using conversation data is key to driving bus
 The Conversational Cloud enables agents and bots to handle inquiries via the most popular messaging channels, giving consumers an easy way to ask questions and make purchases from any device, on their own schedule, and using natural language. 
 Brands can reach consumers across a wide array of consumer touch points, including mobile apps, SMS, web, Facebook Messenger, Apple Business Chat, WhatsApp and more - see a full list [here](/messaging-channels-messaging-connectors-overview.html). 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/lp-conversational-cloud-9.png)
+![](img/lp-conversational-cloud-9.png)

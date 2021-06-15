@@ -41,13 +41,13 @@ Our widget includes our own Clickjacking Protection feature, that makes sure tha
 
 The first three check-boxes can have any value (true/false), however, the 4th “**Enable clickjack protection for customer Visualforce pages with headers disabled**” has to be **disabled**.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-2.png)
+![](/img/salesforce-integration-guide-2.png)
 
 ### **Configure your account settings**
 
 1. Click on the “Account Settings” tab.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-3.png)
+![](/img/salesforce-integration-guide-3.png)
 
 {:start="2"}
 
@@ -277,7 +277,7 @@ Replace XXXX with your SF instance (for example: “na3”, “ap02”, “eu01�
   
 {: .notice}
 If your Salesforce org has My Domain feature activated, the URL for the widget should include it same as your regular URL does, and should look like this:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-link.png)
+![](/img/salesforce-integration-guide-link.png)
    
 Tip:
 You can stand on the Customization Settings tab, copy the first part of the URL and add to it the “ChatLink” suffix in order to ensure using the correct link.
@@ -316,7 +316,7 @@ Below is an overview of the widget capabilities, in this section, we will cover 
 
 This will save the account record in SF and link the existing chat/messaging conversation to this account:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-6.png)
+![](/img/salesforce-integration-guide-6.png)
 
 ### **Creating a contact**
 
@@ -377,20 +377,20 @@ This will save the ‘Custom Object’ record in SF and link the existing chat/m
 2. Click on the info icon next to the relevant Contact, the “Info Bubble” will open and present the data from Salesforce.
 3. Look for the relevant Case/Opportunity in the bubble, click ‘Link Chat’
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-7.png)
+![](/img/salesforce-integration-guide-7.png)
 
 {:start="4"}
 
 1. Another option is to view the record in the widget, Click “Actions”, “Link Chat.”
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-8.png)
+![](/img/salesforce-integration-guide-8.png)
 
 {:start="5"}
 
 1. Once the chat/messaging conversation is linked to the record, the ‘Quick Links’ icon  will become Orange. By clicking on it you will be able to view the relevant records the chat/messaging conversation is linked to.
 2. In case you mistakenly linked the chat/messaging conversation to the wrong record, you may always ‘Unlink’, Click on ‘Actions’ menu from the record page and choose ‘Unlink Chat.’
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-9.png)
+![](/img/salesforce-integration-guide-9.png)
 
 ## **Viewing the data in Salesforce**
 
@@ -408,7 +408,7 @@ Now that we created records from the Conversational Cloud, you may view all our 
 
 In case you are using both chat and messaging within the Conversational Cloud, the field ‘LivePerson SDK API Type’ identifies the specific type of the record (e.g. chat or messaging).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-10.png)
+![](/img/salesforce-integration-guide-10.png)
 
 ### **Reporting on your chat/messaging transcripts**
 
@@ -582,9 +582,9 @@ These are just a few examples meant to demonstrate how to write these “address
    3. Wrong widget URL in LE: installed in SandBox but URL refers to production.
    4. Missing SF configuration - Skill is not associated with an object
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-11.png)
+![](/img/salesforce-integration-guide-11.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-12.png)
+![](/img/salesforce-integration-guide-12.png)
 
 {:start="2"}
 
@@ -597,7 +597,7 @@ These are just a few examples meant to demonstrate how to write these “address
       2. Create a pre-chat survey question with a routing based question. (Only valid for the chat engagements)
       3. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/salesforce-integration-guide-13.png)
+![](/img/salesforce-integration-guide-13.png)
 
 {:start="3"}
 

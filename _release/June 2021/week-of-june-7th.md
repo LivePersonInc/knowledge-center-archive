@@ -30,7 +30,7 @@ As before, you can apply the setting to all bots collectively, i.e., at the acco
 However, now, you can also choose to apply the setting to each bot individually, i.e., at the survey bot level. In this case, if the consumer receives survey A, they will not receive survey A again until 20 days have passed. During this time, they still might receive surveys B and C.
 
 Tip: You enable the Survey Request Interval setting in the Bot Accounts application.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CB-RN-June7-2.png)
+![](img/CB-RN-June7-2.png)
 
 ## A redesigned Conversation Tester
 ### Type: Enhancement [Conversation Builder Release 2021_7.0]
@@ -39,7 +39,7 @@ This enhancement is available for all channels supported by the Conversational C
 
 We’ve redesigned the Conversation Tester. In this release, you’ll find a fresh, new look-and-feel that aligns with Conversation Builder. What’s more, you’ll find the new UI makes the tool faster and easier to use.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/CB-RN-June7-3.png)
+![](img/CB-RN-June7-3.png)
 
 ## LivePerson NLU engine supports Spanish 
 ### Type: Enhancement [Intent Builder Release 2021_7.0]

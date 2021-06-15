@@ -52,7 +52,7 @@ This behaviour is also documented [here](https://developers.liveperson.com/third
 
 This new error can be found inside the Conversation Errors TAB on the Bot View Dashboard, see screenshot below.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RN-week-of-nov-23-1.png)
+![](img/RN-week-of-nov-23-1.png)
 
 ## Close/transfer conversations on bot stop not working properly 
 ### Type: Bug fix (Third Party Bot Connectors Version 2.24.9 Worker 2.24.5 API)
@@ -66,9 +66,9 @@ As part of an effort to improve load times for a new conversation, we have added
 
 **Customization:** Brands are able to customize the look and feel of the “Show Previous” button based on the following CSS properties within the Window Customization API:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-23rd-2.png)
+![](img/week-of-november-23rd-2.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-november-23rd-1.png)
+![](img/week-of-november-23rd-1.png)
 
 {: .notice} 
 **Please note:** This feature requires backend enablement. Please contact your LivePerson representative for more information. 

@@ -225,7 +225,7 @@ In the new dashboard, brands will have the ability to:
 
 **Screenshot**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/RB3.2-2.png)
+![](/img/RB3.2-2.png)
 
 ## Renaming of predefined dashboards
 
@@ -417,11 +417,11 @@ This feature enables agents to identify whether a message from a consumer is a r
 
 {: .sidebyside}
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-3rd-1.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-3rd-2.png)
+![](/img/week-of-june-3rd-1.png)![](/img/week-of-june-3rd-2.png)
 
 **Image 2:** Agent sees the reply message consumer sends
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-3rd-3.png)
+![](/img/week-of-june-3rd-3.png)
 
 ## \[WhatsApp\] Add agent name as a prefix to agent messages
 
@@ -474,7 +474,7 @@ Please note that once enabled, agent nickname will be presented for both human a
 
 **Screenshots**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-3rd-1.png)
+![](/img/week-of-june-3rd-1.png)
 
 ## \[ABC\]\[WhatsApp\] Add support for consumer to share documents with agent
 
@@ -535,11 +535,11 @@ If consumers share a file that is not one of the supported file types, they will
 **Image 1:** Consumer shares a file
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-3rd-6.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-3rd-7.png)
+![](/img/week-of-june-3rd-6.png)![](/img/week-of-june-3rd-7.png)
 
 **Image 2:** Agent receives a file consumer shared
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-3rd-8.png)
+![](/img/week-of-june-3rd-8.png)
 
 ## \[ABC\] Media files send as text URL when unable to download instead of displaying an error
 

@@ -28,15 +28,15 @@ Instagram is a hugely popular photo and video-sharing social media platform. Use
 * **Instagram Stories** — Instagram Stories have a slideshow format that includes photos or videos, and they remain live for a fixed period of 24 hours.This short-lived nature of content drives urgency. Stories enjoy a lot of visibility, displayed right under the Instagram logo at the top of a follower’s timeline.
 * **Photo and video sharing** — Photo and video sharing will empower consumers to share images with agents to explain complex issues or requests quicker and more accurately. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-1.png)
+![](img/instagram-overview-1.png)
 
 * **Ice Breakers aka Conversation Starters** — Ice breakers provide a way for the consumers to start a conversation with the business with a list of frequently asked questions. A maximum of 4 questions can be set by the agents during the self service-onboarding process in the Conversational Cloud.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-2.png)
+![](img/instagram-overview-2.png)
 
 * **Quick replies** — Quick replies are a group of actionable items (chips) that appear as part of the conversation. They create an easier, faster way for consumers to respond to messages. Instagram supports setting up upto 13 quick replies are supported and each quick reply allows upto 20 characters.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-3.png)
+![](img/instagram-overview-3.png)
 
 * **Secure forms** — Secure forms allow brands to perform identification and authorization, safely share PII information to generate leads or to perform a registration process during a conversation in a PCI-compliant environment.
 * **Auto messages** — Automatic messages are messages that are presented automatically in the Engagement Window during a conversation to provide contextual information to consumers about the status of the conversation.
@@ -48,23 +48,23 @@ Instagram is a hugely popular photo and video-sharing social media platform. Use
 
 1. **Direct Message** - Respond to consumers with direct messages in Instagram.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-4.png)
+![](img/instagram-overview-4.png)
 
 {:start="2"}
 2. **Story Mention by the consumer** - Sending a private message to a consumer who posted a story and tagged the brand.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-5.png)
+![](img/instagram-overview-5.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-6.png)
+![](img/instagram-overview-6.png)
 
 {:start="3"}
 3. **Brand’s story** -  Sending a private message to the consumer who replied to the brand's story.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-7.png)
+![](img/instagram-overview-7.png)
 
 ## Setting up Instagram 
 
 The Instagram connector is currently in an early adopter phase and requires approval from Facebook. Please reach out to your LivePerson account team in order to start the approval process. You should have a Facebook business page that is connected to an Instagram handle prior to the account setup. 
 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/instagram-overview-8.jpg)
+![](img/instagram-overview-8.jpg)

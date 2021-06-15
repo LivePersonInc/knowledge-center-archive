@@ -39,7 +39,7 @@ The Intent graphics shows the metrics below for the LOB(s) selected:
 
 The automated Intent Diagnostics section will include text that will contextualize performance and provide specific recommendations to improve performance leveraging intent data. For more information, click [here] (https://knowledge.liveperson.com/data-reporting-performance-optimizer-performance-optimizer-user-guide.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PO-Intent-panel.png)
+![](img/PO-Intent-panel.png)
 
 ### Proactive Messaging Enhancements
 ## Customer SDE Support for Proactive 
@@ -72,7 +72,7 @@ Items that will be called include:
 In addition, the new Account Signature field is an optional feature and allows for the account signature to be generated and added as a part of the request, for extra validation. The field stores a signed hash of the merchant session payload.
 The hash is sent as part of the structured content request to the connector, which validates it and rejects it if invalid. This feature is only needed for accounts using this sign/validate flow.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Payments using Apple Pay.gif)
+![](img/Payments using Apple Pay.gif)
 
 ## Updates to Agent App
 Agent App v2.6.9 brings UI changes to the conversation page, allowing quicker access to information and structured content. Agents can now change their password and a ‘forgot password’ link is provided on the login page. 
@@ -99,7 +99,7 @@ LivePerson is launching a taglet solution that utilizes Adobe Response Tokens on
 ## Next Best Conversation (NBC)
 Next Best Conversation is the ability to utilize consumer segmentation and visitor behavior to present targeted and personalized engagements to consumers. It’s all about delivering the right engagement on the right channel with the right message at the right time to increase engagement click-through rate, interactive conversations, and conversion rate of a consumer.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Next Best Conversation.gif)
+![](img/Next Best Conversation.gif)
 
 
 ### Accessibility Updates

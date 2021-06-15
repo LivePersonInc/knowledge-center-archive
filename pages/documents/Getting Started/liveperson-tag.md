@@ -37,7 +37,7 @@ The default functionality offered by dynamically-loaded taglets is described bel
 
 To obtain the LivePerson tag for your account, login with admin credentials and pull down the menu under your user name > select web tag.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LP tag Gif-1.gif)
+![](/img/LP tag Gif-1.gif)
 
 ## Deploying your tag
 

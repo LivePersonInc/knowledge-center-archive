@@ -30,10 +30,10 @@ Private messages will not affect the conversation’s SLA, intensity (active/ina
 * Private messages will not show a notification to the agent near the module icon, or on top of the conversation line in the My Connections panel (unlike regular messages).
 
 Image 1: A new private message action is available within the action menu
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-8th-5.png)
+![](img/week-of-june-8th-5.png)
 
 Image 2: A private message displayed within the conversation area, with a “PRIVATE” badge.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-8th-6.png)
+![](img/week-of-june-8th-6.png)
 
 ## Analyze Web Sales conversions with Control Group and Self Service group
 ### Type: Enhancement (Report Builder 4.5)
@@ -183,9 +183,9 @@ This update includes the EngagementId and ChatId in the payload of the Chat Post
 
 New conversation sources were added for LINE and RCS (Rich Communication Services) with a link to their respective onboarding forms. Existing conversation sources like WhatsApp Business and GBM (Google Business Messaging) were updated so that they link to their own onboarding forms. This will allow a better and more streamlined onboarding experience for all these solutions.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-8th-1.png)
+![](img/week-of-june-8th-1.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-8th-2.png)
+![](img/week-of-june-8th-2.png)
 
 ## Load balancing for messaging - Redistribute the load to connected agent groups
 ### Type: Enhancement (LE UI 11.9) 
@@ -214,7 +214,7 @@ This feature has backend dependencies. Please contact your LivePerson representa
 **How to enable:**
 A checkbox was added to the Advanced load distribution section in LiveEngage under the skill settings. Once the “Redistribute load when agents are not connected” checkbox is marked, the new enhancement is effective.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-8th-3.png)
+![](img/week-of-june-8th-3.png)
 
 ## Disable authentication within the Connection Panel
 ### Type: Bug fix (LE UI 11.9) 
@@ -226,4 +226,4 @@ A bug has been found within the Connection panel after an upgrade to the latest 
 
 A visual bug was found and fixed where an info tooltip icon got distorted when working in dark mode. This bug has been resolved. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-june-8th-4.png)
+![](img/week-of-june-8th-4.png)

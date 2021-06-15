@@ -31,7 +31,7 @@ The global group filter available in the top right corner of the workspace has b
 1.Visualization of the groups hierarchy in your account. The groups list, which was displayed as a flat list up until today, will now be viewed as a hierarchy tree of the groups. As before, managers will only be able to view the groups they manage , including their sub-groups.
 2. Once a group is selected, its sub-groups will be auto-selected as well. Users will be able to select only the parent group without its sub-groups by clicking on the parent group name rather than the checkbox.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-13th-1.png)
+![](img/week-of-july-13th-1.png)
 
 ## [Manager Workspace] Displaying consumer intents in Conversation widget
 ### Type: Enhancement (Manager Workspace 1.10)
@@ -41,14 +41,14 @@ For accounts using the Intent Analyzer tool, a new Intents column will now becom
 {: .notice}  
 **Please note:** This feature has a backend dependency. Please contact your LivePerson representative for more information. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-13th-2.png)
+![](img/week-of-july-13th-2.png)
 
 ## [Manager Workspace] Conversation Rollover - All Conversations
 ### Type: Enhancement (Manager Workspace 1.10)
 
 The Manager Workspace for Conversation Handler accounts is now configured to have visibility to all of the conversations that are being handled by the account.  All active conversations will appear in the Conversation widget so that the Agent Manager will be able to see all of the conversations from their agents, regardless of the brand. The Conversation widget also has a new column called “Brand Name”, which currently displays the Account ID of the associated brand in which the conversation is ongoing with.  
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-13th-3.png)
+![](img/week-of-july-13th-3.png)
 
 ## [Enhanced Agent Workspace] Idle conversation status tooltip translation fix 
 ### Type: Bug fix (NAW 1.15)

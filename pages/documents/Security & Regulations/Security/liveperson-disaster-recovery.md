@@ -19,7 +19,7 @@ LivePerson maintains a full-scale, one-to-one ratio, disaster recovery facility,
 
 LivePerson operates out of two data centers in the US, serving mainly US-based customers: one in Virginia, and one in California. Within Europe, it operates out of two data centers, one in the UK, and one in the Netherlands, serving its European-based customers. LivePerson additionally has two servers in Australia for its APAC customers: one in Sydney and one in Melbourne. All data centers provide N+1 or greater UPS and cooling power. Every component at the LivePerson infrastructure is redundant, including the facilities used to operate the data centers.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/LivePerson-disaster-recovery1.png)
+![](/img/LivePerson-disaster-recovery1.png)
 
 ## Disaster recovery site synchronization
 

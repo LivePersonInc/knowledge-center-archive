@@ -47,7 +47,7 @@ The agent has the ability to initiate the action - such as joining a bot or inse
 
 Conversation Orchestrator's uses Agent Assist to recommend actions as the conversation evolves. For example, the agent can join a bot to the conversation, stay in the conversation or jump in to activity monitor it, as well as remove the bot from the conversation if needed.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Recommended-actions1.png)
+![](/img/Recommended-actions1.png)
 
 ### Optimization with closed-loop training
 
@@ -57,10 +57,10 @@ Agents are able to rate the relevance and usefulness of the recommended automati
 
 In the background, the Conversation Orchestrator is learning from the conversations and improves the model for all future recommendations over time.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/recommended-actions-with-maven-4.png)
+![](/img/recommended-actions-with-maven-4.png)
 
 ## Plug in any automation or bot
 
 Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the [tutorials and guides on the Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html) to learn how to get started.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/recommended-actions-add-bot.png)
+![](/img/recommended-actions-add-bot.png)

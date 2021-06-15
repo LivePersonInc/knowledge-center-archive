@@ -206,10 +206,10 @@ Below is an example for creating a custom formula for CSAT, instead of the preca
 **Steps for creating a custom metric:**
 1. On the DASHBOARD DATASETS page at the left side of the screen, right click on ‘survey answers (agent and skill)’ and select ‘create metric.’
 
-   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/survey-1.jpg)
+   ![](/img/survey-1.jpg)
 2. A new pop-up screen ‘metric editor - new metric’ will open up
 
-   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/survey2.jpg)
+   ![](/img/survey2.jpg)
 3. Use the ‘metric name’ field to give a meaningful name to the metric
 4. Paste the formula (copied from the ‘formulas’ section below) into white box at the right.
 5. Click on ‘validate’ and make sure you receive a green message ‘valid metric formula’.
@@ -217,7 +217,7 @@ Below is an example for creating a custom formula for CSAT, instead of the preca
 7. Follow these steps for each of the three formulas listed below.
 8. Drag the New_CSAT metric into a grid containing ‘agent’ and ‘skill’ attributes, you’ll be able to see the calculated CSAT score.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/survey3.jpg)
+![](/img/survey3.jpg)
 
 ## Formulas:
 
@@ -246,7 +246,7 @@ The IDs of the survey’s questions are mapped between Bot Studio and Analytics 
 
 To In the retrieve the Question ID, head over to Bot Studio and click on the 3 dots next to the question name. Copy the ID and use it in the following formulas.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/survey4.jpg)
+![](/img/survey4.jpg)
 
 **Formulas:**
 
@@ -301,7 +301,7 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard in the[ Developer Center.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/General-Data-metrics-table.png)
+![](/img/General-Data-metrics-table.png)
 
 -------------------------------
 
@@ -372,27 +372,27 @@ The sheet contains five Pages in a single sheet
 
 The main page provides an analysis of the overall survey activity, focused on Survey Outcome.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Survey_messaging2.png)
+![](img/Survey_messaging2.png)
 
 ### Page 2: Survey Funnel - Weekly & Daily Survey completion analysis grid.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Survey_messaging3.png)
+![](img/Survey_messaging3.png)
 
 ### Page 3: Survey Funnel - Daily Survey Completion analysis by Survey Outcome
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Survey_messaging4.png)
+![](img/Survey_messaging4.png)
 
 ### Page 4: Answer Distribution ( Brand)
 This page lists every configured question and answer-option, including a count of times an answer was selected.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Survey_messaging5.png)
+![](img/Survey_messaging5.png)
 
 ### Page 5: Answer Distribution( Agent and Skill) - 
 This page lists every configured question and answer-option, including a count of times an answer was selected by skill and agent.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Survey_messaging6.png)
+![](img/Survey_messaging6.png)
 
 {: .notice}  
 If a conversation had 2 agents submitting surveys, The report will show both of them. If an agent submitted more than one survey to the same conversation and skill, the last submitted survey results will be counted.
 
 ### Page 6: Predefined Question Answer Distribution (Brand)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Survey_messaging7.png)
+![](img/Survey_messaging7.png)
 
 ## Agent Survey metrics
 

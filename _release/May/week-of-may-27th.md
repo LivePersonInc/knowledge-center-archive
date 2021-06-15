@@ -70,11 +70,11 @@ The WeChat Business connector enables brands to use LiveEngage as their messagin
 
 **Image 1:** Consumer side
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-1.png)
+![](/img/week-of-may-27th-1.png)
 
 **Image 2:** Agent side
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-2.png)
+![](/img/week-of-may-27th-2.png)
 
 ## WeChat Business Connector - Conversation attributes
 
@@ -129,9 +129,9 @@ Support has been adding for mapping WeChat Business information and passing it t
 
 **Image 1:** Consumer Info and Customer Info as shown in LiveEngage
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-3.png)
+![](/img/week-of-may-27th-3.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-4.png)
+![](/img/week-of-may-27th-4.png)
 
 ## WeChat Business Connector - Skill routing
 
@@ -231,11 +231,11 @@ The survey can be closed in a number of different scenarios: Survey completed, s
 
 **Image 1:** consumer sees survey questions with the fallback text
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-6.png)
+![](/img/week-of-may-27th-6.png)
 
 **Image 2:** agent sees the survey in progress
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-7.png)
+![](/img/week-of-may-27th-7.png)
 
 ## WeChat Business Connector - Consumer to agent image support
 
@@ -292,11 +292,11 @@ With WeChat Business’ conversational interface, consumers can select images fr
 
 **Image 1:** consumer sends an image to agent
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-8.png)
+![](/img/week-of-may-27th-8.png)
 
 **Image 2:** agent sees the image consumer sends
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-9.png)
+![](/img/week-of-may-27th-9.png)
 
 ## WeChat Business Connector - Consumer to agent audio message
 
@@ -347,11 +347,11 @@ With WeChat Business’s conversational interface, consumers can share an audio 
 
 **Image 1:** consumer sends an audio message to agent
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-10.png)
+![](/img/week-of-may-27th-10.png)
 
 **Image 2:** agent sees an audio message consumer sends
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-27th-11.png)
+![](/img/week-of-may-27th-11.png)
 
 ## WeChat Business Connector - Secure forms support
 

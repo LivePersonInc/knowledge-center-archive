@@ -26,11 +26,11 @@ If after selecting the **Captcha** checkbox (to the left of **I’m not a robot*
 2. Wait for the Captcha to be approved (a green checkmark is displayed in the checkbox).
 3. Click the **Submit** button.
 
-   ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-password2.png)
+   ![](/img/troubleshooting-password2.png)
 
 ## I didn’t receive the password reset email. How can I reset my password?
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-password3.png)
+![](/img/troubleshooting-password3.png)
 
 If after submitting the **Forgot password** form, you received the **Request submitted** message but you didn’t receive an email:
 
@@ -51,7 +51,7 @@ For details on how to enable a user, [click here](troubleshooting-enable-a-user.
 
 I received the password reset email but when I click the **password reset button** in the email, it just takes me back to the Forgot Password page. If I click **Forgot Password** again, I am taken back to the **Forgot Password** page. It seems to be a continuous loop.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/troubleshooting-password4.png)
+![](/img/troubleshooting-password4.png)
 
 The reason for this error is your company’s mail service security settings are most likely modifying links in your emails, including the **Reset Password** link.
 

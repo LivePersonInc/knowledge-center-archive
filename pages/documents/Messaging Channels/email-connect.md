@@ -63,15 +63,15 @@ Login to the Conversational Cloud and click the Campaign Builder icon located in
 
 Click the Connect button in the Email Connect tile. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Email-connect-0.png)
+![](img/Email-connect-0.png)
 
 #### Option 2 Email Connect Setup via Conversational Cloud Applications
 
 Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen. Click **Email Connect**. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/email-connect-1.png)
+![](img/email-connect-1.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EmailConnect_new_UI1.png)
+![](img/EmailConnect_new_UI1.png)
 
 ### Step 2: Provide your email credentials to setup your email
 
@@ -85,9 +85,9 @@ Email address must be configured as below:
 
 Follow the instructions on the screen to save your email configuration details.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EmailConnect_new_UI2.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EmailConnect_new_UI3.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EmailConnect_new_UI4.png)
+![](img/EmailConnect_new_UI2.png)
+![](img/EmailConnect_new_UI3.png)
+![](img/EmailConnect_new_UI4.png)
 
 ### Step 3: Save email configuration and skill settings
 Click Test Connection and then click Save.
@@ -111,18 +111,18 @@ Log into the [Conversational Cloud](https://authentication.liveperson.net) accou
 
 * Select the 'Profiles' tab from the Users module
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/email-connect-4.png)
+![](img/email-connect-4.png)
 
 Turn on the following settings for Agent and Agent Manager Profiles:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/email-connect-5.png)
+![](img/email-connect-5.png)
 
 ## Configure Auto-Response Text
 
 ### Step 6 Add custom text in your preferred language
 This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in the Conversational Cloud. You can use any language of your choice. Maximum number of characters limit is 1000.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Email-connect-step-6.png)
+![](img/Email-connect-step-6.png)
 
 ## Configure Email Header and Footer (Optional)
 
@@ -135,24 +135,24 @@ Please see the [table](messaging-channels-emailconnect.html#attributes-and-eleme
 Click on Download HTML example which will download .Zip file containing 3
 Files: READ ME - How to create header and footer.pdf, EmailConnect_Header_Template.html, EmailConnect_Footer_Template.html.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Email-connect-step-7.png)
+![](img/Email-connect-step-7.png)
 
 ### Step 8: Upload HTML header
 
 Click Upload and select your custom .html header file.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Email-connect-step-8.png)
+![](img/Email-connect-step-8.png)
 
 ### Step 9: Upload HTML footer
 
 Click Upload and select your custom .html footer file.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/email-connect-step-9.png)
+![](img/email-connect-step-9.png)
 
 ### Step 10: Save Email Header and Footer
 Re-enter the password for your email, click Test Connection and click Save.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/email-connect-step-10.png)
+![](img/email-connect-step-10.png)
 
 ## Multiple email addresses
 Brands can add an unlimited number of email addresses to Conversational Cloud and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
@@ -165,17 +165,17 @@ Agent Effectiveness reports are available for all email conversations to brand a
 
 Login to [the Conversational Cloud](https://authentication.liveperson.net/) and click Conversational Cloud Applications menu at the bottom left of your screen. Click on Analytics Builder.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/EmailConnect_Reporting1.png)
+![](img/EmailConnect_Reporting1.png)
 
 ### Step 12: Open Advanced Messaging Dashboard
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/step12-emailconnect1.png)
+![](img/step12-emailconnect1.png)
 Click on RunDashboard at the bottom left on the page.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/step12-emailconnect2.png)
+![](img/step12-emailconnect2.png)
 Open Agent Effectiveness| Agent Analysis Report tab and select Email in the Source filter in the left panel.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/step12-emailconnect3.png)
+![](img/step12-emailconnect3.png)
 
 ## Attributes and elements allowed as part of HTML
 

@@ -12,7 +12,7 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/all-connections-6.png){:class="newagent"}
+![](img/all-connections-6.png){:class="newagent"}
 
 **The new experience for managers includes three components:**
 

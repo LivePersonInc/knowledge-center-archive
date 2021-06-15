@@ -69,7 +69,7 @@ During a conversation, a new private message action is available within the acti
 
 **Please note:** This feature is enabled by default. Currently, Private messages are not available for bot agents, only to human agents.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Private-messages-1.png)
+![](img/Private-messages-1.png)
 
 ## Intent Discovery and Optimization
 This feature will enable brands to quickly uncover patterns in their existing data, better discover high impact intents, and automatically develop training phrases to train their machine learning models. It creates a tight integration between Intent Analyzer and Intent Builder making it easy for users to annotate incorrectly classified messages so that models can be improved and new intent classes can be created. For more information, click [here](https://knowledge.liveperson.com/release-notes-2020-june-week-of-june-15th.html#intent-analyzer---discovery--optimization)
@@ -93,7 +93,7 @@ The allocation of conversations to contact centers will occur dynamically based 
 ## Groups hierarchy filter
 The existing group filter is being modified to support the visualization of the groups hierarchy in the groups filter. In addition, once selecting a group, its sub-groups will be auto-selected as well.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/groups-filter-whats-new.png)
+![](img/groups-filter-whats-new.png)
 
 ## Metrics - Response time metrics and self serve metrics
 Response time metrics will be added to the “Activity summary” widget, allowing managers to better track consumer experience and agent performance in real-time, (group & skill level). In addition, self serve metric configurations will enable brands to configure, per widget, which metrics will be displayed.

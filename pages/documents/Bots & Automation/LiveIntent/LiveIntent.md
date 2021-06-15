@@ -92,7 +92,7 @@ LivePerson provides intent management out-of-the-box, which are intents that the
 
 **LivePerson's Intent Analyzer** integrates seamlessly with Intent Builder to provide a powerful unified system for intent modeling and management. When a brand subscribes to **LivePerson's Intent Analyzer**, it will also appear under the Conversational AI tab, giving brands the ability to augment the capabilities of their LivePerson reports, tools, and services.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/IA-Optimize-11.png)
+![](img/IA-Optimize-11.png)
 
 LivePerson's Intent Analyzer powers enhanced reporting and analytics for your bots and automation. Brands can leverage the consistent flow of data from LivePerson's Intent Analyzer to power next generation analytics, dynamically route conversations with the Conversation Orchestrator, and build effective automations with Conversation Builder.
 

@@ -31,7 +31,7 @@ The Performance Optimizer is LivePerson’s first analytical product geared towa
 The Performance Optimizer has a simple graphic interface, requiring no advanced cognitive skills such as complex information processing, data analysis or mathematical skills. This provides users with accurate results, actionable information, and recipes for success.
 For more information, click [here](https://knowledge.liveperson.com/data-reporting-performance-optimizer-performance-optimizer-overview.html)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/PO-whatsnew.gif)
+![](img/PO-whatsnew.gif)
 
 ## In 2020, we placed a lot of importance on automations
 
@@ -52,7 +52,7 @@ Dialog templates were built, allowing bot developers to create reusable, high-qu
 
 Once a bot developer imports a dialog template into a destination bot, it becomes a normal dialog within the bot, and the dialog functions as if it had been created from scratch. Dialog templates are a great way to formalize the import process for a dialog, and ensure that bot developers import all required components supporting a dialog.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Dialog_templates_whats_new.gif)
+![](img/Dialog_templates_whats_new.gif)
 
 ## Intent-driven business was also a major focus
 
@@ -69,7 +69,7 @@ There are two kinds of prebuilt domains:
 2) A cross-vertical, prebuilt domain that is appropriate for all verticals. This includes intents for things like customer account management, customer order management, e-commerce, billing and payment.
 Once you add a prebuilt domain, you can customize it as you see fit. After customization, you’ll need to retrain the domain as you typically do. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/pre-built-domain-whats-new.gif)
+![](img/pre-built-domain-whats-new.gif)
 
 ## Messaging Channels 
 Proactive Messaging expanded rapidly, exceeding 5 trillion outbound messages sent in 2020.
@@ -99,7 +99,7 @@ This applies for Chat, the Enhanced Agent Workspace, and Manager Workspace.
 The Agent app was launched for Android and improved for iOS.
 The LivePerson Agent app, available for both iOS and Android, allows agents and agent managers to message with consumers on-the-go. This has been extremely helpful during the COVID-19 pandemic, as the more people around the world moved to a remote working model.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent_App-whats-new.gif)
+![](img/Agent_App-whats-new.gif)
 
 ## This month we released the following…
 

@@ -74,7 +74,7 @@ New Metrics:
 | CROSS SESSION SALES CONVERSION | Number of sell product / service goals reached after a messaging conversation |
 | IN SESSION SALES CONVERSION | Number of sell product / service goals reached during a messaging conversation |
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_RNJuly22_1.png)
+![](img/AB_RNJuly22_1.png)
 
 ## Messaging Sales Metrics by Control Group and Self Service Group. 
 ### Enhancement (Analytics Builder 4.7)
@@ -160,8 +160,8 @@ Available to all customers? Y (Analytics Builder enabled)
 
 The ‘Business Dashboard for Messaging’ was enhanced to include the Consumer OS and Consumer Browser descriptions so brands can distinguish between traffic per Consumer OS( IOS, Android) for example.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_RNJuly22_2.png)
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/AB_RNJuly22_3.png)
+![](img/AB_RNJuly22_2.png)
+![](img/AB_RNJuly22_3.png)
 
 ## Missing subscribers in "Opened Conversations by Subscriber" visualization in Network Manager Dashboard (SD-8999)
 ### Type: Bug fix (Analytics Builder 4.7)
@@ -207,7 +207,7 @@ The Network Manager allows an account deemed as a Content Provider to send conve
 * If the system is unable to fetch the "account.profile.logo.url", or if it is not configured on the Brand account, the system should default to the value in the Image URL entry field. 
 * If there is no value in the Image URL field, and the system cannot fetch the "account.profile.logo.url", there will be no Header displayed. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-july-27th.png)
+![](img/week-of-july-27th.png)
 
 ## After logging off and logging on the page, Mute setting is now Saved 
 ### New functionality (LE UI 12.1)

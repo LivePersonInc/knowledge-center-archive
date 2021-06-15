@@ -16,7 +16,7 @@ Once a [chat is ended,](contact-center-management-live-chat-operations-understan
 
 Wrap up time is disabled by default. Once enabled, the default time allocated is 60 seconds; this can be configured by the brand. The time can be configured either at the account or at the skill level.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/wrap-up-time-1.png)
+![](/img/wrap-up-time-1.png)
 
 ### **How to enable wrap-up for chat**
 

@@ -59,7 +59,7 @@ Enable the auto close delay per skill feature to allow brands a higher level of 
 
 Enabling this feature is available through Houston only. Contact you LP representative to configure auto close per skill. Once this feature is enabled, the time parameter can be set per skill through LiveEngage.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-4th.png)
+![](/img/week-of-february-4th.png)
 
 **Dependencies**
 

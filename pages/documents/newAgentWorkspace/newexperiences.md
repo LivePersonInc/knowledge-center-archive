@@ -47,7 +47,7 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 * **What it will look like after the above date**: (this navigation will display on all screens and all tabs)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/navBarGif.gif)
+![](img/navBarGif.gif)
 
 ## Managers of messaging conversations: new workspace & new home page
 
@@ -59,9 +59,9 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 * **What it will look like after the above date**:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/newxHome2.png)
+![](img/newxHome2.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/navBarGif1.gif)
+![](img/navBarGif1.gif)
 
 [More info](https://knowledge.liveperson.com/messaging-managers-manager-workspace-user-guide.html)<br>[Tutorial](https://knowledge.liveperson.com/messaging-managers-tutorial.html)  
 
@@ -74,9 +74,9 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 * **What it will look like after you enable the permission**:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/newxHome3.png)
+![](img/newxHome3.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/navBarGif2.gif)
+![](img/navBarGif2.gif)
 
 
 [More info](https://knowledge.liveperson.com/messaging-agents-user-guide.html)<br>[Tutorial](https://knowledge.liveperson.com/messaging-agents-tutorial.html)

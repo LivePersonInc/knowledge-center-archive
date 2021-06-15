@@ -32,7 +32,7 @@ To provide a consistent experience across devices, you can design identical enga
 
 1. Open the **Engagement window library**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-1.png)
+![](/img/engagement-window-1.png)
 
 {:start="2"}
 1. Hover over an existing window design and click **Edit** or click **Add new** to design a new window. Once you have designed the window it will be added to your Engagement window library for future use.
@@ -43,14 +43,14 @@ To provide a consistent experience across devices, you can design identical enga
 
 The **Engagement window studio** allows you to customize the look and feel of both desktop and mobile windows**.** Any change you perform to the design of the desktop window takes effect in the mobile window as well.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-2.png)
+![](/img/engagement-window-2.png)
 
 ### To edit the window name and description:
 
 1. Click the window name (in this example, Support)
 2. Enter a new window name and type in a description, the window name and description will display in the Engagement window library to help you identify different items in the library
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-3.png)
+![](/img/engagement-window-3.png)
 
 ## Customize the look and feel
 
@@ -59,7 +59,7 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 1. Click the **Look and feel customization** button
 2. Select your preferred theme, you can choose a theme and use it as a base for further customization
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-4.png)
+![](/img/engagement-window-4.png)
 
 ### To customize conversation window elements:
 
@@ -69,7 +69,7 @@ You can fully customize the conversation window to suit your brand by changing t
 2. From the properties window, customize the element according to your brand
 3. You can change the icon set of some elements to suit the background, **we recommend choosing bright icons for dark backgrounds and dark icons for bright backgrounds**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-5.png)
+![](/img/engagement-window-5.png)
 
 <div class="notice"> <b>Note: The background color is the same as the chat window background</b> <ul> <li>Text is the same color and font as the Automatic Messages or can be customized individually in the Engagement Window Studio </li> <li> Buttons have the same look and feel of the title bar</li> </ul> </div>
 
@@ -106,7 +106,7 @@ To learn more about configuring these new features, [click here](release-notes-2
 8. Set the position of the header: left, right or middle
 9. Choose between pinning the header to the top of the window, or letting it scroll up during the conversation
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-6.png)
+![](/img/engagement-window-6.png)
 
 ### To add an image to the window:
 
@@ -125,7 +125,7 @@ To learn more about configuring these new features, [click here](release-notes-2
 3. To change the color of the Action menu, click the actions area in the chat window. The action window will open.
 4. Change the font, background color and/or icon color (dark or bright), as desired.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-7.png)
+![](/img/engagement-window-7.png)
 
 ### To add and edit surveys:
 
@@ -159,11 +159,11 @@ Brands have the ability to set the embedded window as floating. Once this config
 
 Configure floating engagement window in engagement window studio:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-6.png)
+![](img/week-of-september-30th-6.png)
 
 Floating engagement window consumer view:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-7.png)
+![](img/week-of-september-30th-7.png)
 
 ### Emoji support
 
@@ -181,11 +181,11 @@ Brands have the ability to configure whether to provide consumers the ability to
 
 Enable emoji icon in the text area:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-8.png)
+![](img/week-of-september-30th-8.png)
 
 Consumer view: adding emojis from desktop Web Messaging or chat window
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-9.png)
+![](img/week-of-september-30th-9.png)
 
 ### Consumer actions menu location
 
@@ -210,25 +210,25 @@ If the top menu option is selected, the menu icon will replace the X icon (close
 
 Configure the location of the menu for the engagement window:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-10.png)
+![](img/week-of-september-30th-10.png)
 
 Configure menu to be at the bottom of the engagement window:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-11.png)
+![](img/week-of-september-30th-11.png)
 
 Configure menu to be at the top of the engagement window:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-12.png)
+![](img/week-of-september-30th-12.png)
 
 Consumer side top menu:
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-13.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-14.png)
+![](img/week-of-september-30th-13.png)![](img/week-of-september-30th-14.png)
 
 Consumer side bottom menu:
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-15.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-16.png)
+![](img/week-of-september-30th-15.png)![](img/week-of-september-30th-16.png)
 
 ### Add attachment icon to actions menu
 
@@ -243,11 +243,11 @@ When the menu is configured to be at the top for Web Messaging and file sharing 
 
 Enabled attachment icon in the text area:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-17.png)
+![](img/week-of-september-30th-17.png)
 
 Enabled attachment icon on consumer side:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-19.png)
+![](img/week-of-september-30th-19.png)
 
 ## Advanced window configuration and customization
 
@@ -256,7 +256,7 @@ In addition to the styling options within the window configuration, you can make
 * **Dialog button styling** - change the style of the primary and secondary dialog buttons in the engagement window to match your brand design guidelines
 * **Window icons** - customize the top bar by choosing from a list of emojis. The 'Send' and 'End chat' are in the style of the window
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-12.gif)
+![](/img/engagement-window-12.gif)
 
 Available customizations:
 
@@ -269,7 +269,7 @@ Available customizations:
 2. Click on the row with the relevant agent’s name to edit their information
 3. In the “Picture URL” field, add the URL of the agent’s personal picture
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-9.png)
+![](/img/engagement-window-9.png)
 
 {:start="4"}
 
@@ -287,7 +287,7 @@ In order to define the agent’s picture in the selected engagement window, foll
 1. Select the desired window from the Engagement window library
 2. In the Engagement window studio select **Open additional window settings**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-10.png)
+![](/img/engagement-window-10.png)
 
 {:start="3"}
 
@@ -295,7 +295,7 @@ In order to define the agent’s picture in the selected engagement window, foll
 2. In the value column, select **Yes** from the dropdown menu in order to enable agent picture for the selected engagement window
 3. Click **Save**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-11.png)
+![](/img/engagement-window-11.png)
 
 Now the visitor will see their agent’s picture next to each line sent by the agent in the chat engagement window.
 
@@ -325,7 +325,7 @@ Visitors will now see the configured default picture beside each line sent by th
 
 ### Rounded or square window corners
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/engagement-window-13.gif)
+![](/img/engagement-window-13.gif)
 
 Brands have the ability to set the radius of the top and bottom corners of the engagement window. The additional setting “Engagement window bottom corners” has been added to the “Additional window setting” section of the engagement window studio. The radius must be set in numbers, with or without px. Format example: 0px 0px 5px 5px. The limit will be 20px. An invalid format notification message will be displayed if the number is entered beyond the limit number.
 
@@ -339,6 +339,6 @@ By default the corner settings will be 0 0 0px 0px , which means that the corner
 * Enter values for “Engagement window top corners” or “Engagement window bottom corners"
 * Click on “Save”
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-4.png)
+![](img/week-of-september-30th-4.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-30th-5.png)
+![](img/week-of-september-30th-5.png)

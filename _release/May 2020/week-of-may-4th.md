@@ -61,23 +61,23 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 WhatsApp conversation source will lead to a new and more streamlined onboarding form.The current WhatsApp conversation source includes a short form, after which the WhatsApp Solution Team reaches out to the client to fill out another form to provide more info. The new solution will consolidate the two forms into one, having the client provide all the required set up info (and agreeing to the Terms Of Service) in a single page. The page will be external to the LivePerson product, is managed by the WhatsApp Solution Team, and feeds directly into Salesforce.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-1.png)
+![](img/week-of-may-4th-1.png)
 
 ## Add properties to the Personal info Engagement Attribute
 ### Type: Enhancement (LE UI 11.8)
 
 Zip code and preferred contact method properties have been added to Engagement Attributes and Personal Info SDE. Brands can now also store Zip/Postal Code and Preferred Contact Method in Personal Info SDE. This data can be set through Engagement Attributes, custom widgets, and any other methods used to write to SDEs.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-2.png)
+![](img/week-of-may-4th-2.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-3.png)
+![](img/week-of-may-4th-3.png)
 
 ## [Ring for All] ACD Timeout Configuration for Manual Mode
 ### Type: Enhancement (LE UI 11.8)
 
 The ACD Timeout (also used for Rollover time configuration) can now be set on the Manual Mode queue option. In the “Change queue options” Nightvision module, when Advanced mode is selected, there is a setting for transferring the conversations back to the queue given they are not answered in X seconds.  There has been a new option added to this Change queue options menu recently for Manual Mode (Ring for All).  This story will also add the same option to configure the timeout when the user has selected Manual Mode. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-4.png)
+![](img/week-of-may-4th-4.png)
 
 ## Enable Agent Manager role to turn off permission "Handle Messaging Conversations"
 ### Type: Enhancement (LE UI 11.8)
@@ -108,13 +108,13 @@ The configurable widgets are the “Activity Summary”, “Agents” and “Con
 
 Who can change the configuration?
 A new permission “Configure agent manager workspace” has been added to the agent manager profile. **It is Off by default**. 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-5.png)
+![](img/week-of-may-4th-5.png)
 
 Once it is turned on for the desigered profile, a new configuration icon will become available in the top right corner of the workspace:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-6.png)
+![](img/week-of-may-4th-6.png)
 
 Clicking on it will reveal the configuration window, allowing the user to easily toggle on or off the relevant metric per each configurable widget.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-7.png)
+![](img/week-of-may-4th-7.png)
 
 ## New “Response time” metrics in Activity Summary widget
 ### Type: Enhancement (Manager Workspace 1.9)
@@ -122,10 +122,10 @@ Clicking on it will reveal the configuration window, allowing the user to easily
 New response time-related metrics were added to the Activity Summary widget, allowing managers to better track consumer experience and agent performance in real time, on the group and skill levels. All metrics are computed in real time once a response takes place. In addition, the computation is based on the entire response population and not sample-based, as done in the real-time dashboard. 
 
 The metrics can be found in two new metric cards added to the widget, representing 4 response-time related metrics:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-8.png)
+![](img/week-of-may-4th-8.png)
 
 Below you can find the definition of each metric and where it can be found on Report builder and the real time dashboard:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-9.png)
+![](img/week-of-may-4th-9.png)
 
 ## Sorting capabilities for In-queue widget  
 ### Type: Enhancement (Manager Workspace 1.9)
@@ -142,21 +142,21 @@ Previously, the In-queue column was the only sortable column.
 
 Previously, when using the table view of the “Agents” widget to view the away reason of an agent, users had to hover over the status icon. Now, the away reason has become more discoverable, as it is located beneath the status icon (no need to hover over). 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-10.png)
+![](img/week-of-may-4th-10.png)
 
 ## Messaging agents list for agents using the enhanced agent workspace 
 ### Type: Enhancement (Manager Workspace 1.9)
 
 Previously, agents using the enhanced agent workspace were not able to view the “messaging agents list”  even if they had the "View agents list" permission. Now, agents using the enhanced agent workspace will automatically have access to this data through a limited access view of the manager workspace. The manager workspace icon will be added to the navigation bar for agents with the “View agents list” permission. They will be able to monitor other agents in their group in real time.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-11.png)
+![](img/week-of-may-4th-11.png)
 
 ## Skill filter does not impact counts by agent status
 ### Type: Bug fix (Manager Workspace 1.9)
 
 When filtering by the global skill filter at the top right corner of the manager workspace, the number of agents who are online, back soon and away are not impacted by the filter (counter remains the same). This issue is now resolved so that the status counters will be impacted as well by the selected skills.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-may-4th-12.png)
+![](img/week-of-may-4th-12.png)
 
 ## Internal IP Revealed in Messaging History
 ### Type: Bug fix (Messaging History API)

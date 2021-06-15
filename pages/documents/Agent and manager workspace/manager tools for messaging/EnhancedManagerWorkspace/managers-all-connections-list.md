@@ -133,7 +133,7 @@ Agents and agent managers can search/filter conversations with the following par
 
 Managers can now easily join a conversation and perform actions, such as transferring it to another agent or closing the conversation. Managers can join conversations when they are actively handled by an agent, or if they are still in the queue (unassigned). The join option is available from the conversation mode (not from the list mode). Simply click **+ Join Conversation** at the bottom of the transcript, and **then you may send a message or take an action.**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-manager-workspace-use-case-7a.png)
+![](img/new-manager-workspace-use-case-7a.png)
 
 When selecting **Join**, you can:
 1. Begin messaging with the consumer alongside the agent

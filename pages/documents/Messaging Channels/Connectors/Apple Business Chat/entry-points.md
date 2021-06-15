@@ -25,14 +25,14 @@ The conversation URL consists of a business ID and optional query string paramet
 As an overview, the conversation URL is ```https://bcrw.apple.com/urn:biz:<your-business-id>```, replacing ```<your-business-id>``` with the business ID you received from Apple after registering with Business Chat. 
  
 For example:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-00.png)
+![](img/apple-business-chat-entry-points-00.png)
 
 Add optional query string parameters to the entrypoint by including intent and group IDs. Within Conversation Cloud, the **Intent value** will be mapped to the **customerType SDE**, which is primarily used for [skill routing](contact-center-management-messaging-operations-routing-logic-overview.html) as well as tracking and analyzing volume by entrypoint. The Group value will be mapped against the **customerStatus SDE**. It is recommended to add the entrypoint description as *‘intentId’* and relevant campaign attributes as *‘groupID’*. 
 
 Using LivePerson’s [MCS toolkit](data-reporting-meaningful-conversation-score-(mcs)-using-the-mcs-toolkit.html), both customerType and customerStatus SDEs help businesses analyze performance at the account level, agent level, and conversation level.  
 
 Here’s an example of Business Chat conversation URL with the added parameters:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-01.png)
+![](img/apple-business-chat-entry-points-01.png)
 
 * **Business Chat ID** = 27e9ee9c-5093-4e93-9f2a-398a83xxxx
 * **Intent ID** = “ sales ”
@@ -42,7 +42,7 @@ Here’s an example of Business Chat conversation URL with the added parameters:
 
 To implement the engagements on LivePerson, you will need your Apple Business Chat conversation URL. This link can be retrieved from your Business Chat account within the [Apple Register portal](https://register.apple.com/). 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-1.png)
+![](img/apple-business-chat-entry-points-1.png)
 
 ## Skill routing for Business Chat
 
@@ -62,7 +62,7 @@ When adding either a sticky or embedded engagement, we recommend replacing your 
 
 Sticky buttons float in the same location relative to the page, so even when the user scrolls, the icon remains in place. This is the most accessible engagement on the website for a visitor to locate and communicate with your business. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-2.png)
+![](img/apple-business-chat-entry-points-2.png)
 
 **Benefits of a Sticky Engagement:** 
 * Global entrypoint across the website to allow for greater accessibility.
@@ -73,7 +73,7 @@ Sticky buttons float in the same location relative to the page, so even when the
 
 Embedded banners are fixed within a specific location in a webpage. An embedded banner is the right choice if it is relevant to the context of a particular page. Similar to a sticky engagement, embedded engagements can and should be limited Apple users.  
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-3.png)
+![](img/apple-business-chat-entry-points-3.png)
 
 **Benefits of an Embedded Engagement:** 
 * Contextual positioning of Call-to-action to drive customer engagement  
@@ -150,13 +150,13 @@ Your new Apple Business Chat engagement is now ready to be published. From the C
 
 Design the Business Chat buttons and banners to match your company’s logo colors and fonts. You can also place the icons, context, and call to action (CTA) horizontally or vertically in your design. For more information and design guidelines, see [Business Chat Human Interface Guidelines](https://static.cdn-apple.com/businesschat/documentation/BC-EntryPointsGuide.pdf). 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-4.png)
+![](img/apple-business-chat-entry-points-4.png)
 
 To get started with your design, use LivePerson’s proprietary [engagement studio](https://static-assets.dev.fs.liveperson.com/ABC/studio/index.html) to create your banners and icons. This tool will generate designs that are pre-approved by Apple. You can adjust the image dimensions to fit the look and feel of your website. Once done, host the image on your business platform and note the URL. 
 
 A few examples of icon buttons and banners that you can add to your website:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-5.png)
+![](img/apple-business-chat-entry-points-5.png)
 
 #### Best practices for Web Engagements 
 
@@ -176,7 +176,7 @@ A few examples of icon buttons and banners that you can add to your website:
 
 A QR code is a type of barcode that communicates information when scanned such as links, contact information, and text messages. Customers can scan and read a QR code on their phone by holding up their camera app to the code. Businesses can embed the Business Chat Conversation URL in the QR code to offer Rich Messaging on both digital and offline platforms, opening the door to endless possibilities. QR codes allow for fun, delightful marketing, sales and event campaigns. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-6.png)
+![](img/apple-business-chat-entry-points-6.png)
 
 **Examples of QR Code use cases:**
 * **Provide customer support.** Add a QR code to your business card, brochure, or flyer that says, “Scan this to get in touch with our team.” It can pop up a pre-written text that says, “I need some help with your product.”
@@ -230,7 +230,7 @@ Brands can reduce phone call volume and voice support cost by enabling Chat Sugg
 
 Below are all of the configurable components of Chat Suggest. You can define each one on the [Chat Suggest form](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/Apple+Business+Chat/Chat+Suggest+Form+_+NEW.xlsx). 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-7.png)
+![](img/apple-business-chat-entry-points-7.png)
 
 1. **Name to Display:** You have the ability to associate a name with every phone number you wish to enable. This can be the name of your organization or to provide your customers with more context, the name of the line of business. Below the name is a verification mark that is carried over from your Business Chat account approval. 
 2. **Title:** The title is the immediate power word(s) to encourage your customer to send a message vs call. We recommend utilizing “Live Agents” or “Customer Support” as these titles have shown to drive the most successful deflection rates across brands. **
@@ -271,20 +271,20 @@ Traffic generated from these entry points is highly dependent on the user behavi
 
 In order to display a Business Chat button on one of the native entry points, you must be willing to enable this for all (Siri and Maps). For businesses with multiple Maps locations, you can work directly with Apple, should you wish to limit the Business Chat button available by a specific region(s).  
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-8.gif)
+![](img/apple-business-chat-entry-points-8.gif)
 
 **Spotlight Search**
 * No ability to add intentID/ groupID
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-9.png)
+![](img/apple-business-chat-entry-points-9.png)
 
 **Siri**
 * No ability to add intentID/ groupID
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-10.png)
+![](img/apple-business-chat-entry-points-10.png)
 
 **Maps**
 * intentID defaults to POIs’ address
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/apple-business-chat-entry-points-11.png)
+![](img/apple-business-chat-entry-points-11.png)
 

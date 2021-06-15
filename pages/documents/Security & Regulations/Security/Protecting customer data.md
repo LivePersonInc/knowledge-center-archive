@@ -33,10 +33,10 @@ LivePerson invests great efforts to ensure that all segregation and security con
 ## Dataflow and Platform Diagram 
 The diagram below outlines the main components of the Conversational Cloud platform, at a high level, as well as the dataflow process for agents and visitors communicating with the Conversational Cloud. The diagram helps provide a better understanding of how security controls are embedded in each layer.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/protecting-customer-data1.png)
+![](img/protecting-customer-data1.png)
 
 This image shows the DDoS defense layers
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/protecting-customer-data-4.png)
+![](img/protecting-customer-data-4.png)
 
 ## Network and Web Layer 
 In web-based deployments (chat, messaging), the LivePerson web tag is hosted on the Brand website, and loaded by the visitor browser when visiting a tagged page. In an in-app messaging deployment there is no Web Tag involved, only secure web-socket API communication protected with tokens (JWT).
@@ -51,7 +51,7 @@ This ensures all data collected from each session is directed only to the releva
 Messaging communication between the visitor and the agent during the engagement session is established over a secure websocket API.  Chat communication is established over TLS 1.2 encrypted HTTPS communication. 
 
 This image shows the sample segregation between customers
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/protecting-customer-data-3.png)
+![](img/protecting-customer-data-3.png)
 
 ## Cookie Configuration 
 Similar to other internet based services, visitor sessions are based on cookies. 
@@ -73,7 +73,7 @@ Prior to storing data in the storage servers, the Conversational Cloud provides 
 **Data Encryption:** Chat transcripts and other session variables can be stored encrypted upon client request on the LivePerson storage servers. The encryption is based on AES 192bit encryption, and controlled by the application server,not by the storage platforms. If enabled, each Brand is assigned with a unique encryption key, and, additionally, each session is encrypted with a unique key for that session (for example, 2 chat sessions of the same customer will be encrypted with 2 different keys).
 
 This is a sample screenshot of storage with encrypted data
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/protecting-customer-data-2.png)
+![](img/protecting-customer-data-2.png)
 
 ## Application Layer     
 Account data can only be accessed through the web-based console or LivePerson API’s.

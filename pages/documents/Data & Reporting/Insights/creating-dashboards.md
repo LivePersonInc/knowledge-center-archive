@@ -13,12 +13,12 @@ date: '2020-05-19'
 
 Users with edit permission will be able to create new dashboards.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating-dashboards-insights1.png)
+![](img/creating-dashboards-insights1.png)
 
 1\. From the Home page within the Dashboards section, click the Add button.
 2\. Name the dashboard
 
-    ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights2.png)
+    ![](img/creating_dashboards_insights2.png)
    
    a) Tags - Enter tags to categorize dashboards for future use as templates.
     
@@ -33,11 +33,11 @@ Users with edit permission will be able to create new dashboards.
 3\. Select a data stream (note: you will only see data streams that have been shared with you).
 4\. After selecting a data stream, you can deploy a Taxonomy Analysis  model
  
- ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights3.png)
+ ![](img/creating_dashboards_insights3.png)
  
 5\. After clicking on deploy model, you can choose Unsupervised NLU Model or Taxonomy Analysis
   
-    ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights4.png)
+    ![](img/creating_dashboards_insights4.png)
 
   **N-gram generator** - This analysis goes through the chats/conversations and pulls out buzzwords which are based on their frequency in all of the verbatims. It generates a buzzword word cloud
 
@@ -49,43 +49,43 @@ User Analysis- this is to determine the gender of the user (Insights does not re
 
 **Deploying a Taxonomy:**
  
- ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights5.png)
+ ![](img/creating_dashboards_insights5.png)
 
 1\. Choose Taxonomy Analysis
 2\. Choose the type of verbatim (customer, agent, or bot) you would like to analyze from the list on the left side, run this as your text field. Click next.
 
-  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights6.png)
+  ![](img/creating_dashboards_insights6.png)
 
 3\. Click the blue + button to select the taxonomy to use:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights7.png)
+![](img/creating_dashboards_insights7.png)
 
 4\. Select a taxonomy from this list and click apply
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights8.png)
+![](img/creating_dashboards_insights8.png)
 
 5\. Name your taxonomy analysis and click submit
 
 6\. Once the model starts processing, you will see a message that says“1 model processing.”  When the model finishes processing, you will see a message that says “1 model up-to-date”.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights9.png)
+![](img/creating_dashboards_insights9.png)
 
 ### Deploying an Unsupervised NLU Model
 1\. Choose Unsupervised NLU Model
 
-  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights10.png)
+  ![](img/creating_dashboards_insights10.png)
 
 2\. Choose the type of verbatim (customer, agent, or bot) you would like to analyze from the list on the left side and then click on the plus sign and choose text
-       ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights11.png)
+       ![](img/creating_dashboards_insights11.png)
 3\. Change the name of the Unsupervised NLU Model to include the type of verbatim you are analyzing and click Submit 
 4\. Choose Submit again
 5\. Once the Unsupervised NLU Model starts processing, it will say “1 model processing”
 
-  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights12.png)
+  ![](img/creating_dashboards_insights12.png)
 
 6\. Once processing is complete, it will say Models up-to-date on the left side 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights13.png)
+![](img/creating_dashboards_insights13.png)
 
 Click [here](data-reporting-insights-insights-user-guide.html) to learn how to navigate an Insights dashboard. 
 
@@ -94,7 +94,7 @@ Click [here](data-reporting-insights-insights-user-guide.html) to learn how to n
 2\. On the top left corner, choose “Save As”
 3\. Give the new dashboard a different name and now a copy of the dashboard has been created. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/creating_dashboards_insights14.png)
+![](img/creating_dashboards_insights14.png)
 
 Note: only you can see the new dashboard. If you want other users to view it, then you need to share it. To learn how to create a new widget, click [here](https://knowledge.liveperson.com/data-reporting-insights-creating-new-widgets.html)
 
@@ -105,7 +105,7 @@ Dashboards can be shared with individuals or user groups
 
 2\. Click on the bottom right corner of the dashboard to start sharing
   
-  ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/sharing_dashboards_insights_1.png)
+  ![](img/sharing_dashboards_insights_1.png)
 
 3\. The dashboard can be shared with users by searching their e-mail in the search bar. Once an e-mail is added to the account, the user can have different user rights. If a user group is already there, then you can see what type of user right that group can have.
 

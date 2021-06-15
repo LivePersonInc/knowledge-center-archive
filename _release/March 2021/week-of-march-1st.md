@@ -36,7 +36,7 @@ LivePerson’s Connect To Messaging (C2M) is an IVR deflection solution that let
 **Note:** This feature requires backend enablement. Please contact your LivePerson representative for more information. 
 
 C2M Quick Launch: 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-1.png)
+![](img/week-of-march-1st-1.png)
 
 ## Proactive Messaging 2.0
 ### Type: New Functionality (C2M 2.0)
@@ -52,7 +52,7 @@ Proactive Messaging version 2.0 supports the following:
 {: .notice}
 **Note:** This feature is currently available to early adopters. Please contact your LivePerson representative for more information. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-1.png)
+![](img/week-of-march-1st-1.png)
 
 ## Create new App Messaging channel API configurations
 ### Type: New Functionality (C2M 2.0)
@@ -60,25 +60,25 @@ Proactive Messaging version 2.0 supports the following:
 Follow these steps to create API configurations for the App Messaging channel: 
 
 Step 1: Click the new Handoff
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-2.png)
+![](img/week-of-march-1st-2.png)
 
 Step 2: Select the channel
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-3.png)
+![](img/week-of-march-1st-3.png)
 
 Step 3: Select the apps
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-4.png)
+![](img/week-of-march-1st-4.png)
 
 Step 4: Create the In-App API Handoff from the Proactive webtool.
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-5.png)
+![](img/week-of-march-1st-5.png)
 
 ## Create new WhatsApp Rich Message Templates
 ### Type: New Functionality (C2M 2.0)
 
 The ability to send rich WhatsApp message outbound proactive campaigns with videos, images, file attachments and quick replies is now supported. This is estimated to increase the usage volume and response rates by 30% in the year 2021.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-10.png)
+![](img/week-of-march-1st-10.png)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-11.png)
+![](img/week-of-march-1st-11.png)
 
 ## Support for Instagram and Twitter’s Direct Messages
 ### Type: New Functionality (Release 2021_3.0 Conversation Builder)
@@ -97,7 +97,7 @@ This is our MVP version of our support for Twitter; expect more enhancements to 
 
 Previously, when you were configuring a button in a Structured or Button question, and the button was a link to a Web URL, you could specify whether to open the URL in a new window or the current window. In this release, we add support for a third option: Slideout.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-11.png)
+![](img/week-of-march-1st-11.png)
 
 Use the slideout option when you want to provide a window that “slides out” from the conversation window. This produces an attractive and tightly integrated experience for the consumer.
 
@@ -111,7 +111,7 @@ Channel
 
 In the Model Tester in Intent Builder, you can now import and export the test set used for the domain.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-12.png)
+![](img/week-of-march-1st-12.png)
 
 If you’ve defined your “gold set” of test phrases to use in an external CSV file, this enhancement allows you to easily upload it.
 
@@ -142,7 +142,7 @@ Additionally, within the Knowledge Base application, we remove the ability to cr
 * A knowledge base that uses Knowledge Base intents (since knowledge bases of this type use the v1 engine behind the scenes)
 * A knowledge base that uses a domain using the v1 engine.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-1st-14.png)
+![](img/week-of-march-1st-14.png)
 
 It is important to note: If you have an existing domain or knowledge base that uses the v1 engine, it remains unaffected by this change. You can continue to update and use it. However, all brands are encouraged to begin leveraging our v2 engine as soon as possible.
 

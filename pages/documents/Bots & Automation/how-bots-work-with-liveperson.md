@@ -21,7 +21,7 @@ In LivePerson, bots can be handled like human agents, able to perform all the ta
 
 Agents have the ability to intervene or pick up conversations where needed - what we call the "human and bot tango". LivePerson enables this unique capability with a set of tools that automatically uses agents’ interventions and responses to make the bots better.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/how-bots-work-tango-1.png)
+![](/img/how-bots-work-tango-1.png)
 
 The first part of this bot and human tango takes place through our easy-to-use bot builder, the [Conversation Builder](ai-bots-automation-conversation-builder-conversation-builder-overview.html). The Conversation Builder makes it easy for agents and other non-technical team members to participate in creating bots, including a pre-defined set of templates for common use cases based on our conversation data. Brands can deploy these out-of-box automations across the most common workflows for each industry with templated bot libraries.
 
@@ -44,7 +44,7 @@ Bots can have a dramatic impact on contact center operations, helping brands to:
 * **Build a strong and integrated contact center team** — Conversations can be passed back and forth between human and bot agents without a hitch, with human agents always available to speak to a consumer when the situation requires.
 * **Reduce your customer care costs** — As a large number of common customer service interactions are highly automated, bots can step in to handle these routine tasks, dramatically cutting your contact center costs.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/how-bots-work-2.png)
+![](/img/how-bots-work-2.png)
 
 ## Benefits of bots for consumers
 

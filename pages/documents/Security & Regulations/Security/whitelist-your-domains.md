@@ -34,11 +34,11 @@ To enable monitored domains:
 
 On the Web Tag page, click **Manage Domains**.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/whitelist-domains1.png)
+![](/img/whitelist-domains1.png)
 
 Type in the domain names in the relevant fields. Ensure you include the LivePerson domain names mentioned above.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/whitelist-domains2.png)
+![](/img/whitelist-domains2.png)
 
 Click **Enable** and then click **Save**.
 

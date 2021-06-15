@@ -133,7 +133,7 @@ Long tap on the app version allow user to send logs
 {: .important}  
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from the Conversational Cloud's database.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/drawer menu ipad (1).png)
+![](/img/drawer menu ipad (1).png)
 
 ## Agent flow
 
@@ -190,7 +190,7 @@ When the agent writes several lines or uses the ‘return’ key, the text field
 
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Agent keyboard open (1).png)
+![](/img/Agent keyboard open (1).png)
 
 ### Conversation message: consumer side
 
@@ -223,7 +223,7 @@ In case the conversation is no longer relevant and is not needed for future refe
 
 Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/agent action menu app.png)
+![](/img/agent action menu app.png)
 
 ## Predefined content
 
@@ -257,7 +257,7 @@ By default, quick reply messages do not show up the offered replies suggested fo
 
 Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for the consumer side.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SC_QR_app (1).png)
+![](/img/SC_QR_app (1).png)
 
 ### Link preview
 
@@ -312,7 +312,7 @@ If all conversations were successfully returned to queue, they will disappear fr
 
 This is relevant for agent managers who can view closed and in queue conversations.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bulk back to queue (1).png)
+![](/img/bulk back to queue (1).png)
 
 ## Searching the list
 
@@ -348,7 +348,7 @@ When at least one new message is received when the app is in the background, an 
 
 **Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Consumer push notification (2).png)
+![](/img/Consumer push notification (2).png)
 
 ## In app notifications
 
@@ -422,7 +422,7 @@ The list order is similar to the logic explained for the agents list order (see 
 {: .notice}  
 The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the my/all tab list.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Manager all tab (1).png)
+![](/img/Manager all tab (1).png)
 
 ### In queue conversation indication
 
@@ -455,7 +455,7 @@ To close the panel, the user can tap the “back” button or tap anywhere outsi
 * To filter by additional parameters, users can tap the back button to return to the main filter screen.
 * To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Status filter (1).png)
+![](/img/Status filter (1).png)
 
 ### Mobile experts (Agent filter)
 
@@ -522,7 +522,7 @@ Managers can view closed conversation from the “All” tab
 
 The are no available actions for closed conversations (there is ability to resume conversation from the app). Once the conversation has been closed, the text area is replaced with a “Conversation is closed” banner.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Manager actions (1).png)
+![](/img/Manager actions (1).png)
 
 ### No conversation state
 

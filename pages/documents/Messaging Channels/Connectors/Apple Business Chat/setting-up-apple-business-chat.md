@@ -48,15 +48,15 @@ In using Business Chat, Apple holds brands to high design standards as they aim 
 **Consider Authentication.** Think about the use cases you would like to include for Apple Business Chat and assess if authentication will be required for any of them. If yes, what is the method for validating customers? You might want to consider Business Chat features such as [OAuth 2.0](https://developers.liveperson.com/apple-business-chat-templates-apple-auth-template.html), in-app authentication or LivePerson’s [secure forms](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html). 
 
 OAuth 2.0:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/setting-up-apple-business-chat-1.png)
+![](img/setting-up-apple-business-chat-1.png)
 
 Secure forms:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/setting-up-apple-business-chat-2.png)
+![](img/setting-up-apple-business-chat-2.png)
 
 **Consider Payment.** How might a customer make a payment and/or make a purchase in Business Chat? Consider and plan for the end-to-end journey of transactional use cases, from payment collection to reporting. Brands can leverage Apple Pay for the most seamless form of payment.  Other choices include LivePerson’s secure forms for agent-driven transactions.
 
 Apple Pay:
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/setting-up-apple-business-chat-3.png)
+![](img/setting-up-apple-business-chat-3.png)
 
 {: .notice}
 **Please note:** If interested in true conversational commerce via Business Chat, please reach out to your account team to request an Apple Pay demo. 

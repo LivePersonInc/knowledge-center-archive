@@ -32,7 +32,7 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
 
 **SLA = Service Level Agreement:** The response time configured within the Conversational Cloud to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill. To enable SLA per skill, please contact your account manager.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/working-hours-1.png)
+![](/img/working-hours-1.png)
 
 **TTR = Time To Response**: This time is set according to the current shift status (online/off hours). If the shift is currently active, the TTR equals 0. If the shift is currently inactive, the TTR equals the time until the next shift will start.
 

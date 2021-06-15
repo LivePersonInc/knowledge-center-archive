@@ -22,26 +22,26 @@ By seeing how long agents are spending in these more specific modes, such as out
 
 ## To create custom away state reasons:
 
-1. Access the Night Vision settings by clicking on the **Night Vision icon** to the top right of the screen.![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multiple-away-states-1.png)
+1. Access the Night Vision settings by clicking on the **Night Vision icon** to the top right of the screen.![](/img/multiple-away-states-1.png)
 
 {:start="2"}
 
 1. A dropdown ‘Agent state’ menu will appear.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multiple-away-states-2.png)
+![](/img/multiple-away-states-2.png)
 
 {:start="3"}
 
 1. Next to _Custom Away state reasons_, click **Edit**.
 2. Click on _Add custom Away state reason_.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multiple-away-states-3.png)
+![](/img/multiple-away-states-3.png)
 
 {:start="5"}
 
 1. Enter the text of the away state reason you wish to add, for example ‘Out to lunch’, or ‘In a meeting’.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multiple-away-states-4.png)
+![](/img/multiple-away-states-4.png)
 
 {:start="6"}
 
@@ -49,7 +49,7 @@ By seeing how long agents are spending in these more specific modes, such as out
 2. All customized away state reasons will subsequently appear in the configuration menu. You can edit or delete each reason by clicking on the edit or delete icons that appear on hover over.
 3. Click **Done**.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multiple-away-states-5.png)
+![](/img/multiple-away-states-5.png)
 
 <div class="notice">
 <b>Note:</b>
@@ -68,7 +68,7 @@ Once new away state reasons have been added, the agent will be able to select fr
 2. Open the away drop down menu.
 3. Select the appropriate away state reason.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multiple-away-states-6.png)
+![](/img/multiple-away-states-6.png)
 
 <div class="notice">
 <b>Note:</b>
@@ -91,7 +91,7 @@ The Conversational Cloud [Analytics Builder](data-reporting-report-builder-repor
 
 ## **Agent Activity Predefined Dashboard**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/multiple-away-states-7.png)
+![](/img/multiple-away-states-7.png)
 
 This [dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html) features a pie chart titled “Away,” reflecting the total time spent by agents in the away state, segregated by the time spent in each away reason.
 

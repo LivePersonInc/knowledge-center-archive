@@ -29,7 +29,7 @@ Agent-to-consumer image sharing is now supported for SMS. This capability enable
 
 **Limitations:** This feature only works on MMS-enabled phone numbers.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-6-1.png)
+![](img/week-of-september-6-1.png)
 
 ## [GBM] CSAT survey
 ### Type: New functionality (GBM 3.18.0)
@@ -49,7 +49,7 @@ For ongoing conversations: a conversation is broken into sessions by the google 
 *  If LivePerson is triggering it, we can only trigger once every 24 hours. For example, if the conversation closes and we trigger the CSAT, then two days later the user replies again, we can send another CSAT survey.
 * If LivePerson doesn't, Google will automatically trigger a survey after 12 hours. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-september-6-2.png)
+![](img/week-of-september-6-2.png)
 
 ## [Conversation Builder] Dialog Import
 ### Type: New functionality 
@@ -59,7 +59,7 @@ For ongoing conversations: a conversation is broken into sessions by the google 
 
 In the Conversation Builder, you can now import dialogs from one bot to another in your organization. This can be useful when you have a well-defined dialog in one bot that you want to quickly and easily reuse in a different bot. During the import, the associations of domains, intents, and entities to interactions are maintained.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/dialogs_import1.png)
+![](img/dialogs_import1.png)
 
 ## [Conversation Builder] Permanent variables
 ### Type: Enhancement 
@@ -71,7 +71,7 @@ As previously announced, in an upcoming release of the Conversation Builder, Liv
 In addition, in the setBotVariable scripting function, we will likewise deprecate support for a value of “true” for the persistForever argument: setBotVariable(name, value, persistForSession, persistForever). A value of “false” for this argument will remain supported.
 These changes are backwards-compatible and will not adversely affect existing bots. However, LivePerson will be contacting affected brands, so they can begin the development work to update their bots to take advantage of the recommended alternative for storing data long-term, namely, use of the Context Session Store. The Context Session Store allows for setting data in Global, User, and Conversation scopes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/foreverOption_RN.png)
+![](img/foreverOption_RN.png)
 
 ## [Intent Builder] Pre-built domains
 ### Type: New feature 
@@ -89,7 +89,7 @@ Domains added from prebuilt domains use the LivePerson NLU v2 engine.
 
 For more information, click [here](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html#step-2-create-a-domain-by-selecting-a-prebuilt-domain)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Getting-started-intent4.png)
+![](img/Getting-started-intent4.png)
 
 ## [Intent Builder] Regular Expression entities
 ### Type: New feature 
@@ -108,7 +108,7 @@ When it comes to entity detection and intent matching, both Value Set entities a
 {: .notice} 
 Regular Expression entities are available only in domains using the LivePerson NLU v2 engine.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Entity_details.png)
+![](img/Entity_details.png)
 
 ## [Knowledge Base] Valid dates for articles 
 ### Type: Enhancement 
@@ -120,7 +120,7 @@ In the Advanced Settings of a Knowledge Base article, you can now specify option
 
 Specifying valid dates for an article is useful when you have an article that’s only meant for use during a specific period of time. For example, you might be running a promotion over a holiday that has an associated FAQ. Before this change, you had to approve the article when needed and delete the article when no longer needed. With this change, all you need to do is specify the valid dates. The rest works seamlessly.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/kb_validDates.png)
+![](img/kb_validDates.png)
 
 ## Performance Optimizer
 ### Type: New Data Analytics Product Dashboard 
@@ -141,7 +141,7 @@ The Performance Optimizer only reflects messaging data. Brands who have not conv
 **Limitations**
 Only messaging conversations are included within the Performance Optimizer analytics dashboard. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Performance-portal-RN.png)
+![](img/Performance-portal-RN.png)
 
 ## [Agent App] All updates to the Agent App on Android
 ### Type: Enhancements
@@ -149,12 +149,12 @@ Only messaging conversations are included within the Performance Optimizer analy
 **Consumer Info**
 When messaging the the consumer, tapping on the consumer's name at the top shows information about the consumer. It also the source of their conversation and their WhatsApp phone number, if applicable. 
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/ConsumerInfo.jpg)
+![](img/ConsumerInfo.jpg)
 
 **WhatsApp Audio**
 When messaging, if the consumer is connected by WhatsApp and sends an audio message, the application will present the audio with a headphone icon. Clicking the download button will download the message and then it can be played with the Play button. 3 screenshots with WhatsAppAudio1,2,3.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/WhatsAppAudio1.jpg)
+![](img/WhatsAppAudio1.jpg)
 
 **Video calls**
 Video calls within the app is now available on mobile.
@@ -167,7 +167,7 @@ d. After that the workflow is the same as on web, the consumer will need to acce
 {: .notice} 
 Video calls are only available for web messaging conversations.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Android-Agent-AppVideo3.jpg)
+![](img/Android-Agent-AppVideo3.jpg)
 
 
 

@@ -58,7 +58,7 @@ CoBrowse technology has an enhanced level of security in comparison to tradition
 
 **The basic CoBrowse process is described in the image below:**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-live-chat-1.png)
+![](/img/cobrowse-for-live-chat-1.png)
 
 The agent sends an invite to the consumer in the Embedded Engagement Window. If the consumer accepts, the CoBrowse session starts on the same webpage as the consumer was on when they initiated the conversation.
 
@@ -88,17 +88,17 @@ Additional CoBrowse configuration is available in [nightvision](agent-manager-wo
 * CoBrowse - Shared gives you full control over the current browser tab.
 3. The visitor receives a notification asking them to accept the CoBrowse session.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-messaging-1.png)
+![](/img/cobrowse-for-messaging-1.png)
 
 {:start="4"}
 4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-messaging-2.jpg)
+![](/img/cobrowse-for-messaging-2.jpg)
 
 {:start="5"}
 5. Using the fullscreen button on the widget header, agents are able to switch to full screen mode and view wider websites easily.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/cobrowse-for-messaging-3.png)
+![](/img/cobrowse-for-messaging-3.png)
 
 {:start="6"}
 6. On the visitor or **consumer side**, when the CoBrowse session begins, a frame is displayed around the browser tab, indicating an active session. While using CoBrowse, password fields are automatically masked. Other fields such as credit card numbers can also be configured as masked.

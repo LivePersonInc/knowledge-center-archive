@@ -17,6 +17,6 @@ To ensure that brands are able to comply with these regulations if required to d
 
 When IP masking is switched on, the visitor’s IP address is not displayed in the Agent Workspace and is not kept in the database events.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Security_IP_masking1.png)
+![](/img/Security_IP_masking1.png)
 
 This feature is useful for agents, admins and campaign managers for all messaging & chat customers. To configure this feature, please contact your LivePerson support.

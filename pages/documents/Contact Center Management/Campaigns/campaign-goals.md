@@ -16,7 +16,7 @@ Each campaign within the Campaign Builder has a goal, which describes what the c
 
 The first step in building your campaign is to decide on one of the possible goals that represents your business goal, for example, _sell product/service_, _Generate leads_, or _Increase page views_. Choose from a variety of customizable goals that can be used as criteria for success. LivePerson will track and display each of the goals reached as conversions on the data bar.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-goals-1.png)
+![](/img/campaign-goals-1.png)
 
 Your campaigns are available from the Campaign Builder icon in the sidebar. The Campaign Builder includes a data bar, and the details of your campaigns.
 
@@ -28,12 +28,12 @@ Your campaigns are available from the Campaign Builder icon in the sidebar. The 
 {:start="3"}
 2. To create a new goal, click "Add new". The different types of goals are available on the next screen.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-goals-2.png)
+![](/img/campaign-goals-2.png)
 
 {:start="4"}
 3. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-goals-3.png)
+![](/img/campaign-goals-3.png)
 
 ## What type of goals can I choose from?
 
@@ -50,7 +50,7 @@ Max selects a Sales goal from the Goal Library. He sets the Sell Product / Servi
 {: .notice}
 **Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “Configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the eCommerce category.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-goals-4.png)
+![](/img/campaign-goals-4.png)
 
 #### Transaction information as an indicator
 
@@ -68,7 +68,7 @@ The Conversational Cloud will measure success based on the users who performed a
 
 In the goal indicator settings, Max set his goal as **more than 10,000**, and clicked **save**.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-goals-5.png)
+![](/img/campaign-goals-5.png)
 
 {: .important}
 **Note:** If Max’s account reports more than one currency, the additional currency amount will also be included in the total purchase value. Targeting will occur for each value that fits the desired range without distinguishing between currencies.
@@ -99,7 +99,7 @@ Each of the boxes relates to one status; Status #1, etc. Within each status box,
 
 Alex, the Marketing Director at Learflights, wants to generate leads by inviting potential customers to sign up for a monthly newsletter that will include attractive travel deals. To achieve this goal, he has developed an online strategy that targets new consumers to his site when they sign up for the newsletter. Alex chooses the goal type Generate Leads. Every time that a new consumer signs up, he/she is redirected to a “Thank you” page, causing the KPI for this goal (the conversion) to display +1. By tracking the success of the goal, Alex can see if his campaign is generating the leads he expects.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/campaign-goals-6.png)
+![](/img/campaign-goals-6.png)
 
 There are additional types of goals that you can customize and use to measure the success of your campaigns.
 

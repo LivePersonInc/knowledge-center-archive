@@ -31,23 +31,23 @@ With the new Infrastructure upgrade there are some changes in terminology which 
 ### Access
 The Analytics Builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/access.png)
+![](img/access.png)
 
 ### New look and feel
 
 All predefined dossiers have been enriched to include new data visualizations with a bright & modern color scheme.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-look-and-feel.png)
+![](img/new-look-and-feel.png)
 
 ### Navigation
 Dossier navigation has been moved from the bottom of the dashboard to the top. There are also new headings for each panel inside the sheet for effective use.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/navigation.png)
+![](img/navigation.png)
 
 ### New KPI widget
 The new KPI widget provides a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/new-kpi-widget.png)
+![](img/new-kpi-widget.png)
 
 The widget displays:
 
@@ -65,7 +65,7 @@ Clear presentation for users with ‘view only’ permission, the filter panel h
 ### Additional data visualizations
 New visualization types for creating custom dossiers (histogram, waterfall chart, box plot)
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/additional-data.png)
+![](img/additional-data.png)
 
 ## New functionality
 
@@ -74,12 +74,12 @@ Users are able to export dossiers to a formatted PDF file, including visualizati
 layout ( Automatic, Portalit, Landscape)
 Advanced mode to export the visualizations individually on separate pages to include all data.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/export-to-pdf.png)
+![](img/export-to-pdf.png)
 
 ### PDF scheduling
 New scheduling to a PDF file format will soon be available. In addition, setting the scheduling to PDF format can be done within the dashboard. Go to the file menu and select ‘Schedule Delivery to email’.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/pdf-scheduling.png)
+![](img/pdf-scheduling.png)
 
 ### Personalized view
 Users can now save their own customized personal view of the dossier. A personal view is a lightweight copy of a dossier and includes every change that was made to the dossier including filtering the report period time frame and the offset selector. This updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re select the filters on the dossier.
@@ -88,9 +88,9 @@ To run a personal view, after launching the Analytics Builder , select ‘My Sub
 In the personal view subscriptions area, click the name of the personal view to run or edit it.
 For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/personalized-view.png)
+![](img/personalized-view.png)
 
 {: .notice}
 These changes will only impact the predefined dossiers. User copies of previous predefined  dossiers will not be impacted automatically. If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Analytics Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/pallete.png)
+![](img/pallete.png)

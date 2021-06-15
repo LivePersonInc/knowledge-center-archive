@@ -24,7 +24,7 @@ Use global filtering when you want to apply a specific filter across all element
 * Add Filter
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights1.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights2.png)
+![](img/filtering-insights1.png)![](img/filtering-insights2.png)
 
 Note: Once you add the filter, it applies to every widget on every tab of the dashboard. If you add tab-level or widget-level filters, by default, the tab or widget-level filters apply to the already-filtered data set at the global filter level.
 
@@ -32,20 +32,20 @@ Note: Once you add the filter, it applies to every widget on every tab of the da
 #### Selecting Specific Items:
 Skill Names
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights3.png)
+![](img/filtering-insights3.png)
 
 #### Selecting a Range - Dates, e.g., Start Time / Date
 Use the calendar icons to select start and end dates for date fields
 NB - Times convert to UTC when you apply a date/time filter
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights4.png)
+![](img/filtering-insights4.png)
 
 #### Selecting a Range - Numerical Fields, e.g. CSAT
 In addition to selections, you can filter by a numerical range for numeric fields
 For the From value, you can select greater-than, or greater-than-or-equal-to.
 For the To value, you can select less-than, or less-than-or-equal-to.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights5.png)
+![](img/filtering-insights5.png)
 
 ## Tab Level Filtering
 Alternatively, you can filter a specific tab only, affecting widgets within that tab
@@ -56,7 +56,7 @@ Use tab level filtering when you want to apply a specific filter for a tab disti
 * Select Range / Values to include / exclude. Here you can also Include/Exclude Non-Existent Values
 * Add Filter , then Submit
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights6.png)
+![](img/filtering-insights6.png)
 
 ## Widget Level Filtering
 You can also filter at a widget level. This is particularly useful where a field may have a large amount of non-existent values (e.g., Survey response answers) 
@@ -67,13 +67,13 @@ You can also filter at a widget level. This is particularly useful where a field
 * Add Filter , then Submit
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights7.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights8.png)
+![](img/filtering-insights7.png)![](img/filtering-insights8.png)
 
 ## Filtering within a Graph / Table
 Clicking on any part of a visualisation (e.g., graph, word cloud or list item), has the effect of a global filter. Further to this, you can also filter on a range of items (e.g., Days) on any bar graph by pressing the left mouse button down and dragging across bars. You can filter on multiple items across widgets. All filters are displayed as tabs at the bottom of the dashboard. Filter can be removed by clicking on these tabs and selecting the cancel x button.
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights9.png)![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights10.png)
+![](img/filtering-insights9.png)![](img/filtering-insights10.png)
 
 ## Searching within Customer / Agent Verbatim
 On the Data tab, searching for specific words within customer / agent verbatim gives a quick view of conversations containing select words.
@@ -88,7 +88,7 @@ Note: this is only suitable for individual words (e.g., email) or a string of wo
 * Note that search is case sensitive and retrieves exact matches only
 
 {: .sidebyside}
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/filtering-insights11.png)
+![](img/filtering-insights11.png)
 
 ## Adding more than one filter of the same attribute
 We cannot add two separate filters of the same attribute at tab/widget/global level.  So, create a filter by using one of the filters at tab level and the other one at the global/widget level, depending on the use case.

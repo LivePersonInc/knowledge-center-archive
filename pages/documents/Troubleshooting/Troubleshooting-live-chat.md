@@ -19,7 +19,7 @@ When agents initiate a CoBrowse session and visitors click Accept, the session d
 
 When agents initiate **CoBrowse for Voice** session and visitors enter the required code/service ID, nothing happens. This is because 3rd-party cookies are disabled. CoBrowse and CoBrowse-for-Voice require 3rd-party cookies to initiate a session.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/Troubleshooting-chat2.png)
+![](/img/Troubleshooting-chat2.png)
 
 ### Solution:
 
@@ -112,7 +112,7 @@ The user has two different LivePerson accounts. On one of the accounts the user 
 
 ## Why aren’t visitor names displayed in the Web Visitors and Web History list?
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/chat-with-new-nav.png)
+![](/img/chat-with-new-nav.png)
 
 ### Cause:
 

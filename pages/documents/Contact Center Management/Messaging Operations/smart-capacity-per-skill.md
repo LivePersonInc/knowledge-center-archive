@@ -37,11 +37,11 @@ The agent’s load is then calculated based on the number of active conversation
 
 The formula for calculating the overall capacity of all the conversations that are assigned to a specific agent is:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SC-per-skill-1.png)
+![](/img/SC-per-skill-1.png)
 
 Next, the “Agent Load” is calculated based on the agent’s “Max conversation” and the capacity that has just been calculated:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/SC-per-skill-2.png)
+![](/img/SC-per-skill-2.png)
 
 This is the same formula as it is with the Dynamic Capacity feature, if the _Agent load_ is nearing the _Max conversations_ setting, the agent may not be able to receive additional conversations.
 

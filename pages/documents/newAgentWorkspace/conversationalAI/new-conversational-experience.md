@@ -20,7 +20,7 @@ By clicking on the relevant icon from the left hand sidebar, you will be able to
 
 You'll notice that some of these features have a lock icon besides them. This means that your account has not enabled this specific feature. If you're an administrator of this account, you'll be prompted to message us. Our team will be happy to help you unlock and configure any of these features via the Connection Area, right within your account.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/locked.jpg)
+![](img/locked.jpg)
 
 Features and products that are unlocked will be clickable, allowing you to easily navigate to the various product included in our Conversational AI suite. These are:
 

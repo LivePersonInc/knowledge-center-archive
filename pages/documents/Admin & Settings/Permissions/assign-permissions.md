@@ -25,7 +25,7 @@ Once enabled, these profile(s) will automatically be assigned to LPA users upon 
 
 For greater transparency, when a profile has been assigned to an LPA, this will be displayed on the edit screen for the profile. For example, ‘Assigned to 3 users and LPA’.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/assign_permissions1.png)
+![](/img/assign_permissions1.png)
 
 ## Creating custom LPA user profiles
 
@@ -39,7 +39,7 @@ For greater flexibility in assigning relevant permissions to LPA users, we recom
 6. To return the profile to the default permissions set, click restore defaults.
 7. Save the profile.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/assign_permissions2-1.png)
+![](/img/assign_permissions2-1.png)
 
 {: .notice}  
 For additional information on customizing user profiles, see [customize permissions.](admin-settings-permissions-customize-permissions.html)
@@ -55,4 +55,4 @@ For additional information on customizing user profiles, see [customize permissi
 7. When the permission is enabled, profiles can be assigned to the LPA user, by selecting from the dropdown menu.
 8. Click save.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/assign-permissions5-1.png)
+![](/img/assign-permissions5-1.png)

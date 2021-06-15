@@ -74,7 +74,7 @@ Recommended Actions is Maven’s agent assistance feature that actively recommen
 
 **Actions recommended in real time:** Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-1.png)
+![](/img/week-of-march-25th-1.png)
 
 **Closed-loop training for optimization:** Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
 
@@ -134,27 +134,27 @@ Under Engagement Window Studio => Add Elements
 
 **Image 1: configuration location**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-2.png)
+![](/img/week-of-march-25th-2.png)
 
 **Image 2: default settings**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-3.png)
+![](/img/week-of-march-25th-3.png)
 
 **Image 3: Ability to change the message text and to have it for every new conversation**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-3.png)
+![](/img/week-of-march-25th-3.png)
 
 **Image 4: Ability to add Quick Replies**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-3.png)
+![](/img/week-of-march-25th-3.png)
 
 **Image 5: Welcome Message with Quick Replies In the window**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-6.png)
+![](/img/week-of-march-25th-6.png)
 
 **Image 6: Consumer selected one of the Quick Replies options and conversation started**
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-7.png)
+![](/img/week-of-march-25th-7.png)
 
 **Limitations:**
 
@@ -312,7 +312,7 @@ WhatsApp has added read indications for messages sent by agent to consumer. This
 
 **Please note:** This status is in addition to the already supported indicators (Sent, Delivered, and Failed to deliver).
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-8.png)
+![](/img/week-of-march-25th-8.png)
 
 ### \[Web experiences\] Consumer step up authentication (CX-91)
 
@@ -512,7 +512,7 @@ Secure Forms alert notifications using popup window that does not show up for Fa
 
 **Fix:** Changed the alert notifications as text message embedded within the page instead of popup style.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-9.png)
+![](/img/week-of-march-25th-9.png)
 
 ### \[Web experiences\] Scroll should be at the bottom to display latest messages (CX-56)
 
@@ -799,7 +799,7 @@ Browser IE11 doesn’t support css style background:initial causing it to not re
 
 There’s an unnecessary space below the header image on the engagement window. The margin size has been decreased to eliminate the space below the header image.
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-march-25th-10.png)
+![](/img/week-of-march-25th-10.png)
 
 ### \[Web experiences\] Engagements not shown when 3rd party cookies blocked in Chrome (CX-190)
 

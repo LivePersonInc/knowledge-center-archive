@@ -181,11 +181,11 @@ Consumer opts to share contact during conversation:
 
 {: .sidebyside}
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-1.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-2.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-3.png)
+![](/img/week-of-february-18th-1.png) ![](/img/week-of-february-18th-2.png) ![](/img/week-of-february-18th-3.png)
 
 Agent will receive contact sharing info as text:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-4.png)
+![](/img/week-of-february-18th-4.png)
 
 ### WhatsApp: sharing location during a conversation (CX-86)
 
@@ -236,21 +236,21 @@ Consumer opts to share his current static location during a conversation:
 
 {: .sidebyside}
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-5.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-6.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-7.png)
+![](/img/week-of-february-18th-5.png) ![](/img/week-of-february-18th-6.png) ![](/img/week-of-february-18th-7.png)
 
 Agent will receive static location sharing as text:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-8.png)
+![](/img/week-of-february-18th-8.png)
 
 Consumer opts to share a location/address during a conversation:
 
 {: .sidebyside}
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-9.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-10.png) ![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-11.png)
+![](/img/week-of-february-18th-9.png) ![](/img/week-of-february-18th-10.png) ![](/img/week-of-february-18th-11.png)
 
 Agent will receive location sharing as text:
 
-![](//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/week-of-february-18th-12.png)
+![](/img/week-of-february-18th-12.png)
 
 ### Google RCS: Change the default media height in Card elements to "TALL" (CX-18)
 
