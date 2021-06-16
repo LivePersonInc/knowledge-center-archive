@@ -276,6 +276,7 @@
         - pagename: Meaningful Conversation Score (MCS) Overview
         - pagename: Accessing the toolkit
         - pagename: Using the MCS toolkit
+    - subcategoryname: Meaningful Automated Conversation Score (MACS)
     - subcategoryname: Analytics Builder
       pages:
         - pagename: Analytics Builder overview
