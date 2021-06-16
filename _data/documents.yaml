@@ -392,7 +392,6 @@
     - subcategoryname: September what's new    
     - subcategoryname: August what's new    
     - subcategoryname: July what's new
-    - subcategoryname: June what's new
 
 - categoryname: Release notes
   image: release-notes
@@ -402,6 +401,7 @@
       pages:
         - pagename: June
           level3:
+            - level3name: Week of June 14th
             - level3name: Week of June 7th
         - pagename: May
           level3:
@@ -430,15 +430,7 @@
           level3:
             - level3name: Week of January 25th 
             - level3name: Week of January 18th 
-    - subcategoryname: 2020
-      pages:
-        - pagename: December
-          level3:
-            - level3name: Week of December 28th 
-            - level3name: Week of December 14th   
-            - level3name: Week of December 7th       
-
-
+   
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
