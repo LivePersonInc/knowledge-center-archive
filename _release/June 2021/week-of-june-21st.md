@@ -50,3 +50,26 @@ We want to hear from brands about MACS! On the Bot Conversation Transcript page,
 ![](img/3-MACS.png)
 
 As mentioned above, MACS data is only available within Bot Analytics, but we’re just getting started with MACS. Stay tuned for new ways to work with this powerful, new quality measure.
+
+## Agent App updates
+### Type: New features (Android v2.7.1)
+
+New Features for the Agent App (Android version) include the following:
+* Summary widget with ability to add and view conversation notes
+* Custom away states
+* Additional filters for All Conversations tab
+* Badge indicator for first time consumers
+
+Minor changes and fixes include the following:
+* Messaging now shown to SSO users who try to change their password
+* Predefined content with line breaks now takes up less room in selection list
+
+### How to enable
+Search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app 
+Agent App on Apple App Store
+Agent App on Google Play Store
+
+### Screenshots
+![](img/agent-app-android-v271.png)
+![](img/agent-app-android-v271-2.png)
+
