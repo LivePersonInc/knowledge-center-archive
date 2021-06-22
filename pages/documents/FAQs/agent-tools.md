@@ -147,3 +147,11 @@ On the Conversation History tab, click an engagement to see its summary.
 ## Why don’t I see any agents in the agents list?
 
 Users with Agent permissions cannot see the list online agents. Only users with Agent Manager or Administrator permissions can see this list. If you access to the list of online Agents, please contact your account administrator.
+
+ ## How can I delete an agent? 
+
+1. Navigate to the Manage users and skills tab that is located in the left-hand side of the screen
+2. Click on the empty box located on the left of the users Name to select that user 
+3. Click on Action located in the upper right corner -> click on delete
+Please note that you can delete only one use at a time.
+
