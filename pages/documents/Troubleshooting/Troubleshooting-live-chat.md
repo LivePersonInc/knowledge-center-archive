@@ -177,3 +177,12 @@ The line should look like this:
 3. Open the engagement’s entry point configuration.4. Verify that the “Entry Point” listings include only the desired pages where the chat button is meant to be displayed.
 5. Click Save. 
 6. If the issue is not resolved after completing these steps, please contact Liveperson’s Technical Support team.
+  
+## Why can’t I set my status to ‘Online’?
+
+Users are unable to change their status to online when their maximum number of live chats are set to 0.
+To fix the behavior, execute the following steps:
+* Open the users tab and select the agent who is not able to change their status.
+* Change the value of “Max no. live chats:” to 1 or higher.
+* Logout of the account and login again.
+
