@@ -109,79 +109,80 @@ With the configurations above done properly, a user with a “Management Console
 ![](img/management-console-overview-14.png)
 
 ### List of self-service features
-| Feature name                                                   | Self-Serve today  | Self-Serve in the future?   |
-|----------------------------------------------------------------|-------------------|-----------------------------|
-| Agent App                                                      | Yes               |                             |
-| Agent Assist                                                   | Yes               |                             |
-| Agent Groups                                                   | Yes               |                             |
-| Agent Manager View For Agents                                  | Yes               |                             |
-| Agent Survey                                                   | Yes               |                             |
-| Agent Unassignment                                             | No                | Yes                         |
-| Agent Workspace                                                | Yes               |                             |
-| Analytics Builder                                              | No                | Yes                         |
-| Apple Business Chat                                            | No                | Yes                         |
-| Auto close for messaging conversations                         | Yes               |                             |
-| Automatic Messages                                             | Yes               |                             |
-| Campaign Builder                                               | Yes               |                             |
-| Capacity management on Manual SLA                              | TBD               |                             |
-| CoBrowse for messaging                                         | Yes               |                             |
-| Voice and video calls                                          | Yes               |                             |
-| Call to Message - IVR Deflection                               | No                | No                          |
-| Connection Panel - Support integration                         | Yes               |                             |
-| Set consumer profile for unauthenticated flows                 | Yes               |                             |
-| Conversation Context Intelligence                              | Yes               |                             |
-| Conversation Builder                                           | Yes               |                             |
-| Data Transporter                                               | Yes               |                             |
-| Dynamic Routing                                                | Yes               |                             |
-| Email Connect                                                  | Yes               |                             |
-| Facebook Messenger                                             | Yes               |                             |
-| Fallback configuration per skill                               | Yes               |                             |
-| File sharing                                                   | Yes               |                             |
-| Functions                                                      | Yes               |                             |
-| Google Business Messages                                       | No                | Yes                         |
-| Google RCS Business Messaging                                  | No                | Yes                         |
-| Hyperlinks                                                     | Yes               |                             |
-| Mobile In-App                                                  | Yes               |                             |
-| Intent Analyzer                                                | Yes               |                             |
-| Intent Builder                                                 | Yes               |                             |
-| Post Conversation Survey bot                                   | No                | Yes                         |
-| Line                                                           | No                | Yes                         |
-| Lines of Business                                              | Yes               |                             |
-| Load Balancing                                                 | Yes               |                             |
-| Manager Workspace                                              | Yes               |                             |
-| Manager Workspace Metrics Configuration                        | Yes               |                             |
-| Multiple Away States                                           | Yes               |                             |
-| Performance Optimizer                                          | Yes               |                             |
-| Predefined Content                                             | Yes               |                             |
-| Private Messages                                               | Yes               |                             |
-| Proactive Messaging                                            | Yes               |                             |
-| Proactive Web Targeting                                        | Yes               |                             |
-| Profiles and Permissions Administration                        | Yes               |                             |
-| Queue prioritization                                           | No                | TBD                         |
-| Response times                                                 | Yes               |                             |
-| Rich Conversations                                             | Yes               |                             |
-| Skill Based Routing                                            | Yes               |                             |
-| Skills Administration                                          | Yes               |                             |
-| Dynamic Capacity                                               | No                |                             |
-| SMS                                                            | Yes               |                             |
-| Social Messaging                                               | Partial (phase 1) | In progress                 |
-| Conversation takeover                                          | Yes               |                             |
-| Third-party Bot Connectors                                     | Yes               |                             |
-| Transfer to agent                                              | Yes               |                             |
-| Twilio SMS                                                     | Yes               |                             |
-| Users Administration                                           | Yes               |                             |
-| Web Messaging                                                  | Yes               |                             |
-| WeChat Business                                                | No                | Yes                         |
-| WhatsApp Business                                              | No                | Yes                         |
-| Real time Bot Operational Tracking                             | Yes               |                             |
-| Real time Intent Operational Tracking                          | Yes               |                             |
-| Real time Skills Operational Tracking                          | Yes               |                             |
-| Secure forms                                                   | No                | Yes                         |
-| Consumer Identity Provider                                     | No                | Yes                         |
-| Instagram                                                      | Yes               |                             |
-| Authenticated Web Messaging                                    | Yes               |                             |
-| AI Annotator                                                   | Yes               |                             |
-| Set Manage Groups Field To Mandatory                           | Yes               |                             |
-| Agent Manager Permissions Setup                                | Yes               |                             |
-| Restrict LivePerson Administrator access                       | Yes               |                             |
-| Next Best Conversation™                                        | Yes               |                             |
+
+|Feature name|Self- Serve today|Can it be Self-Serve?|
+|:----|:----|:----|
+|Agent App|Yes| |
+|Agent Assist|Yes| |
+|Agent Groups|Yes| |
+|Agent Manager View For Agents|Yes| |
+|Agent Survey|Yes| |
+|Agent Unassignment|No|Yes|
+|Agent Workspace|Yes| |
+|Analytics Builder|No|Yes|
+|Apple Business Chat|No|Yes|
+|Auto close for messaging conversations|Yes| |
+|Automatic Messages|Yes| |
+|Campaign Builder|Yes| |
+|Capacity management on Manual SLA|TBD| |
+|CoBrowse for messaging|Yes| |
+|Voice and video calls|Yes| |
+|Call to Message - IVR Deflection|No|No |
+|Connection Panel - Support integration|Yes| |
+|Set consumer profile for unauthenticated flows|Yes| |
+|Conversation Context Intelligence|Yes| |
+|Conversation Builder|Yes| |
+|Data Transporter|Yes| |
+|Dynamic Routing|Yes| |
+|Email Connect|Yes| |
+|Facebook Messenger|Yes| |
+|Fallback configuration per skill|Yes| |
+|File sharing|Yes| |
+|Functions|Yes| |
+|Google Business Messages|No|Yes|
+|Google RCS Business Messaging|No|Yes|
+|Hyperlinks|Yes| |
+|Mobile In-App|Yes| |
+|Intent Analyzer|Yes| |
+|Intent Builder|Yes| |
+|Post Conversation Survey bot|No|Yes|
+|Line|No|Yes|
+|Lines of Business|Yes| |
+|Load Balancing|Yes| |
+|Manager Workspace|Yes| |
+|Manager Workspace Metrics Configuration|Yes| |
+|Multiple Away States|Yes| |
+|Performance Optimizer|Yes| |
+|Predefined Content|Yes| |
+|Private Messages|Yes| |
+|Proactive Messaging|Yes| |
+|Proactive Web Targeting|Yes| |
+|Profiles and Permissions Administration|Yes| |
+|Queue prioritization|No|Yes |
+|Response times|Yes| |
+|Rich Conversations|Yes| |
+|Skill Based Routing|Yes| |
+|Skills Administration|Yes| |
+|Dynamic Capacity|No| |
+|SMS|Yes| |
+|Social Messaging|Partial (phase 1)|In progress|
+|Conversation takeover|Yes| |
+|Third-party Bot Connectors|Yes| |
+|Transfer to agent|Yes| |
+|Twilio SMS|Yes| |
+|Users Administration|Yes| |
+|Web Messaging|Yes| |
+|WeChat Business|No|Yes|
+|WhatsApp Business|No|Yes|
+|Real time Bot Operational Tracking|Yes| |
+|Real time Intent Operational Tracking|Yes| |
+|Real time Skills Operational Tracking|Yes| |
+|Secure forms|No|Yes|
+|Consumer Identity Provider|No|Yes|
+|Instagram|Yes| |
+|Authenticated Web Messaging|Yes| |
+|AI Annotator|Yes| |
+|Set Manage Groups Field To Mandatory|Yes| |
+|Agent Manager Permissions Setup|Yes| |
+|Restrict LivePerson Administrator access|Yes| |
+|Next Best Conversation™|Yes| |
