@@ -1,5 +1,7 @@
 ---
 pagename: Meaningful Automated Conversation Score (MACS)
+redirect_from:
+    - data-reporting-meaningful-automation-conversation-score-(macs).html
 categoryName: Data & reporting
 subCategoryName: ""
 indicator: messaging
