@@ -169,3 +169,11 @@ Check the metadata in the <head> section of your web page’s HTML. Verify that 
 The line should look like this:
 
 <meta http-equiv=”X-UA-Compatible” **content=”IE=EmulateIE9″** />
+
+## Why does my chat button appear on the wrong pages? 
+
+1. Select the “Manage campaigns and engagements” option from the navigation bar on your left. 
+2.  Select the campaign of the engagement which appears on the wrong pages.
+3. Open the engagement’s entry point configuration.4. Verify that the “Entry Point” listings include only the desired pages where the chat button is meant to be displayed.
+5. Click Save. 
+6. If the issue is not resolved after completing these steps, please contact Liveperson’s Technical Support team.
