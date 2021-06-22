@@ -94,7 +94,7 @@ Checklist when you encounter conflicts on setting up (create view) or trying to 
 
 ## Manage Rules
 
-![](img/EC-image2.png)
+![](img/EC-image2 .png)
 
 ## Status Active / Inactive
 
