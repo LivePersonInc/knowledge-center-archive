@@ -197,4 +197,6 @@ Why does my chat button appear on the wrong pages?
 5. Click Save. 
 6. If the issue is not resolved after completing these steps, please contact Liveperson’s Technical Support team.
 
+## What's the difference between metric X and Y? 
 
+You can easily compare two or more metrics [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html). You can learn more about the metrics, see on which dashboards they can be found, which channel they are used for, what their functionality is and what is the formula behind them. 
