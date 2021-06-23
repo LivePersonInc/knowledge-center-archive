@@ -479,6 +479,9 @@ i) Size limitations:
 ![](img/sizelimit.png)
 j) For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. 
 
+## Best Practices for Proactive Messaging
+![](img/Tips-for-proactive.png)
+
 ## FAQs
 
 #### Does Proactive Messaging work with SSO?
