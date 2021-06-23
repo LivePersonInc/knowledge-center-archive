@@ -151,12 +151,11 @@ This is expected behavior.
 
 ## Why can’t I save the Agent Manager role to a user? 
 
-1) There are a few requirements that need to be met in order for the save button to become clickable.(i.e. For the button to be clickable it will be orange): 
-The email, nickname, and name boxes must contain at least one character, however, you would need a valid email in order to not get an error when you try to save.
-2) When creating a new user,  the password fields are also mandatory.
-3) The user needs to have at least one profile assigned to them.
-  a) If only the Agent Manager profile is selected, it is advisable to assign it to the appropriate Agent Group to manage.
-4) If the user has an Agent profile assigned, they would also need to be a member of a group.
+There are a few requirements that need to be met in order for the save button to become clickable.(i.e. For the button to be clickable it will be orange): 
+* The email, nickname, and name boxes must contain at least one character, however, you would need a valid email in order to not get an error when you try to save.
+* When creating a new user,  the password fields are also mandatory.
+* The user needs to have at least one profile assigned to them (note: if only the Agent Manager profile is selected, it is advisable to assign it to the appropriate Agent Group to manage.)
+* If the user has an Agent profile assigned, they would also need to be a member of a group.
 
 ## User can't log in after multiple attempts
 
