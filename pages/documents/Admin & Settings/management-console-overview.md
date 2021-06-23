@@ -185,4 +185,3 @@ With the configurations above done properly, a user with a “Management Console
 |Set Manage Groups Field To Mandatory|Yes| |
 |Agent Manager Permissions Setup|Yes| |
 |Restrict LivePerson Administrator access|Yes| |
-|Next Best Conversation™|Yes| |
