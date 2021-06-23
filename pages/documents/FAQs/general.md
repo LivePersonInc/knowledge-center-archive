@@ -27,10 +27,8 @@ Click [here](https://knowledge.liveperson.com/security-regulations-security-prot
 We've gathered the latest and greatest LivePerson product updates in this spot. Take a look!
 https://knowledge.liveperson.com/release-notes-latest-release-notes.html
 
-## Where are Live Person data centers located?
-Check out the details on our data centers here: 
-https://knowledge.liveperson.com/data-reporting-analytics-builder-data-availability-latency.html#data-stored-and-updated-in-analytics-builder
-https://knowledge.liveperson.com/security-regulations-liveperson-disaster-recovery.html
+## Where are LivePerson data centers located?
+Check out the details on our data centers [here](https://knowledge.liveperson.com/data-reporting-analytics-builder-data-availability-latency.html#data-stored-and-updated-in-analytics-builder) and check out the disaster recovery article [here](https://knowledge.liveperson.com/security-regulations-liveperson-disaster-recovery.html)
 
 ## How do I connect an HTML button?
 
