@@ -100,3 +100,6 @@ For a full list of Supported Languages, please visit [this page](https://knowled
 If the UI language has changed and you want to return it to the previous one, just open your profile tab and to go to "My details". 
 Scroll to the bottom where you will find their regional settings and adjust your user's language.
 
+## How can I delete my account? 
+Deleting your account can be done by our Sales team, their working hours are from Monday to Friday from 8am to 5pm EST. You are welcome to contact your sales representative.
+
