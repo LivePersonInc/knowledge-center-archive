@@ -171,13 +171,13 @@ It’s recommended to try with different browsers and incognito browser mode.
 
 Your API call could be failing for multiple reasons. Make sure to double check the Method being used (GET, POST, etc.) as well as the URL being used (correct domain, account #, etc.) against the documentation that you are following to make the request. Below are some of the common response codes that you may receive when your API call fails:
 
-1) 400 Bad Request - This response code indicates that there is an error in the structure of the API request body. Refer back to the API documentation to make sure that all required parameters are included in the body; also check that there aren't any missing or misplaced commas, parenthesis, brackets, etc.
-2) 401 Unauthorized - This response indicates that the authorization provided in the call does not have the proper permissions for the request that you are attempting to make. Double-check to make sure that your API key has all necessary permissions enabled.
-3) 404 Not Found - This response indicates that the data you are requesting does not exist. A common example of this response would come from attempting to request files using the Data Access API prior to it being provisioned for your account. Double-check that any times, IDs or other parameters in your request are correct.
-4) 405 Method Not Allowed - This response indicates that you are using the incorrect method (GET, POST, etc.) for the request. Double-check the documentation for the API you are using and adjust your method accordingly.
-5) 429 Too Many Requests - This response indicates that there have been too many requests from the account in quick succession and has thus triggered rate-limiting. Try the request again after a few minutes.
-6) 500 Internal Server Error - This is a generic error response used when an unexpected condition was encountered and a more specific response did not fit.
-7) 503 Service Unavailable - The server cannot handle the request due to being overloaded or maintenance. Try again later.
+* 400 Bad Request - This response code indicates that there is an error in the structure of the API request body. Refer back to the API documentation to make sure that all required parameters are included in the body; also check that there aren't any missing or misplaced commas, parenthesis, brackets, etc.
+* 401 Unauthorized - This response indicates that the authorization provided in the call does not have the proper permissions for the request that you are attempting to make. Double-check to make sure that your API key has all necessary permissions enabled.
+* 404 Not Found - This response indicates that the data you are requesting does not exist. A common example of this response would come from attempting to request files using the Data Access API prior to it being provisioned for your account. Double-check that any times, IDs or other parameters in your request are correct.
+* 405 Method Not Allowed - This response indicates that you are using the incorrect method (GET, POST, etc.) for the request. Double-check the documentation for the API you are using and adjust your method accordingly.
+* 429 Too Many Requests - This response indicates that there have been too many requests from the account in quick succession and has thus triggered rate-limiting. Try the request again after a few minutes.
+* 500 Internal Server Error - This is a generic error response used when an unexpected condition was encountered and a more specific response did not fit.
+* 503 Service Unavailable - The server cannot handle the request due to being overloaded or maintenance. Try again later.
 
 For guidelines on retrying failed API calls, please refer to our Retry Policy Recommendations: https://developers.liveperson.com/api-guidelines-retry-policy-recommendations.html
 
