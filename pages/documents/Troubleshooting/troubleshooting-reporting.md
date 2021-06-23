@@ -184,12 +184,12 @@ For guidelines on retrying failed API calls, please refer to our Retry Policy Re
 ## I can't see Manager Workspace data
 
 The Agent Manager must have the relevant Agent Group assigned to him/ The Agent Manager must manage the appropriate groups in order to view data.
-1) Select the “Manage users and skills” tab from the navigation bar on the left.
-2) Select the user you want to edit
-3) Assign the relevant Agent Group and click Save.
-4) Upon their next login, the user will be able to view data in the Manager Workspace for the newly assigned group.
+1. Select the “Manage users and skills” tab from the navigation bar on the left.
+2. Select the user you want to edit
+3. Assign the relevant Agent Group and click Save.
+4. Upon their next login, the user will be able to view data in the Manager Workspace for the newly assigned group.
 
-Why does my chat button appear on the wrong pages? 
+## Why does my chat button appear on the wrong pages? 
 
 1. Select the “Manage campaigns and engagements” option from the navigation bar on your left. 
 2.  Select the campaign of the engagement which appears on the wrong pages.
