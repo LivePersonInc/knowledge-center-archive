@@ -189,14 +189,6 @@ The Agent Manager must have the relevant Agent Group assigned to him/ The Agent 
 3. Assign the relevant Agent Group and click Save.
 4. Upon their next login, the user will be able to view data in the Manager Workspace for the newly assigned group.
 
-## Why does my chat button appear on the wrong pages? 
-
-1. Select the “Manage campaigns and engagements” option from the navigation bar on your left. 
-2.  Select the campaign of the engagement which appears on the wrong pages.
-3. Open the engagement’s entry point configuration.4. Verify that the “Entry Point” listings include only the desired pages where the chat button is meant to be displayed.
-5. Click Save. 
-6. If the issue is not resolved after completing these steps, please contact Liveperson’s Technical Support team.
-
 ## What's the difference between metric X and Y? 
 
 You can easily compare two or more metrics [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html). You can learn more about the metrics, see on which dashboards they can be found, which channel they are used for, what their functionality is and what is the formula behind them. 
