@@ -110,7 +110,7 @@ With the configurations above done properly, a user with a “Management Console
 
 ### List of self-service features
 
-|Feature name|Self- Serve today|Can it be Self-Serve?|
+|Feature name|Self- Serve today|Will it be Self-Serve?|
 |:----|:----|:----|
 |Agent App|Yes| |
 |Agent Assist|Yes| |
