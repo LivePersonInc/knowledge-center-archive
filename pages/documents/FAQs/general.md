@@ -101,3 +101,8 @@ Scroll to the bottom where you will find their regional settings and adjust your
 ## How can I delete my account? 
 Deleting your account can be done by our Sales team, their working hours are from Monday to Friday from 8am to 5pm EST. You are welcome to contact your sales representative.
 
+## My conversation keeps showing as overdue?
+
+Please check if the agent has manually set a specific SLA. 
+Manual Response Time timers can only be reset manually. If it was not reset when the agent has already replied, then the conversation would show as overdue.
+
