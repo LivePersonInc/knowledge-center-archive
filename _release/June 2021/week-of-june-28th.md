@@ -68,7 +68,7 @@ A new form was added to the Engagemant_Name attribute that would show the actual
 
 ![](img/AB4.11-RN-5.png)
 
-## "Assigned Conversations" not working properly in Business Dashboard for Messaging (SD-13914)
+## "Assigned Conversations" not working properly in Business Dashboard for Messaging 
 ### Type: Bug fix (Analytics Builder 4.11)
 
 Available to all customers? Y
@@ -76,7 +76,7 @@ Available to all customers? Y
 Change the calculation of the derived metric "ASSIGNED CONVERSATIONS" to include: CONSUMER DEVICE at its granularity in Business Dashboard for Messaging. This is 
 enabled OOTB
 
-## Bot Performance Dashboard not loading data for Agent Managers (SD-14509)
+## Bot Performance Dashboard not loading data for Agent Managers 
 ### Type: Bug fix (Analytics Builder 4.11)
 
 Available to all customers? Y
