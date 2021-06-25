@@ -169,7 +169,7 @@ From within the agent workspace, open a conversation with the desired customer (
 
 * Reach out to your LivePerson account team, so the proper account configurations can be set to enable Twilio messaging.
 * Make sure you are using a paid Twilio account or sending a message to a verified number. 
-* Check for Twilio outages on p[LivePerson Status Dashboard](https://status.liveperson.com/) or [Twilio Status Page](https://status.twilio.com/).
+* Check for Twilio outages on p [LivePerson Status Dashboard](https://status.liveperson.com/) or [Twilio Status Page](https://status.twilio.com/).
 * If the issue still continues, please contact support.
 
 ## Why are my messages sent twice?
