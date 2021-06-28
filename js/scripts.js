@@ -20,7 +20,7 @@ $(document).ready(function () {
     loadData();
   }
   $(document).ready(function () {
-    scrollToHash();
+    scrollToHash(1000);
     if (checkCookie(window.cookieName) != window.cookieValue) {
       createDiv();
     }
@@ -29,6 +29,7 @@ $(document).ready(function () {
     $("#defaultfooter").addClass("botfooter");
   }
 });
+
 
 function navigateContent(url) {
   console.log(url);
@@ -628,7 +629,7 @@ function capabilitiesSearch() {
 //on scroll
 $(window).scroll(function () {
   //check the window's position and account for the header
-  var position = $(this).scrollTop() + 140;
+  var position = $(this).scrollTop() + 150;
   var titles = document.getElementsByTagName("h2");
   //for each h2 in the article
   $.each(titles, function () {
@@ -681,18 +682,18 @@ function agreeButton() {
   });
 }
 
-function scrollToHash() {
+function scrollToHash(delay) {
   setTimeout(function () {
     if (window.location.hash && window.location.hash != "#top") {
       var hash = window.location.hash;
-      console.log(hash);
       window.location.hash = "";
       window.location.hash = hash;
-      var linkScroll = $('a[href*="' + hash + '"]');
-      var linkOffset = $(linkScroll).offset().top - 370;
+      var linkScroll = $(hash);
+      var linkOffset = $(linkScroll).offset().top - 150;
       window.scrollTo(0, linkOffset);
+      sideBarLinksClicked();
     }
-  }, 1000);
+  }, delay);
 }
 
 function isEdge() {
@@ -790,4 +791,12 @@ if (/Mobi|Android/i.test(navigator.userAgent) == true) {
   setTimeout(function () {
     removeMe();
   }, 6000);
+}
+
+
+
+function sideBarLinksClicked() {
+  $("a").click(() => {
+    scrollToHash(0);
+  });
 }
