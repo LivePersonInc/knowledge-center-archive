@@ -108,7 +108,7 @@ A bug has been discovered in the enhanced Agent Workspace with Social Messaging 
 The bug has been fixed.
 
 ## Unified Window v10.9: Rendering Version 3.46, Unauthenticated Messaging Version 1.11, Secure Storage Version 3.13
-### Type: Enhancement [ WCAG 2.1 AA / Accessibility Remediation]
+### Type: Enhancement [WCAG 2.1 AA / Accessibility Remediation]
 
 **Channel:** Web Messaging
 
