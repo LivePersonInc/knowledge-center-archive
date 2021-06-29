@@ -107,4 +107,31 @@ This bug has been fixed, and agents are now able to reply to conversations from 
 A bug has been discovered in the enhanced Agent Workspace with Social Messaging conversations (Facebook/Twitter public conversations) causing them to not be added to the My Conversations List after getting accepted by the agent, and only appears back upon the user page refresh.
 The bug has been fixed.
 
+## Unified Window v10.9: Rendering Version 3.46, Unauthenticated Messaging Version 1.11, Secure Storage Version 3.13
+### Type: Enhancement [ WCAG 2.1 AA / Accessibility Remediation]
 
+**Channel:** Web Messaging
+
+*Note: The Web Experiences team is partnering with Deque, a website accessibility firm, to remediate, validate, and ultimately certify the LivePerson consumer experience as WCAG 2.1 AA compliant.  To reach WCAG 2.1 AA compliance, we will be deploying fixes to the consumer experience over the next few months that will incrementally get us to certification.  Please note that issues that are remediated and validated under WCAG 2.1 AA compliance only apply for the default engagements, window themes, and out-of-the-box features/taglets within the consumer window. Any Brands that utilize custom windows, taglets, and engagements, should be reviewed and updated by the customer, or their representative, to meet WCAG 2.1 AA compliance.*
+
+[Window] Remediation of 42 issues related to keyboard navigation, focus indicators, alt text / aria labels, and screen readers compatibility:
+* Action menu
+* Emoji menu
+* Consumer file sharing
+* Consumer text area
+* Slideout / Window Widget SDK
+
+**Additional notes:**
+The Liveperson.com URL has been removed from the Liveperson logo within the Action menu
+[Rich Content] Remediation of 4 issues related to focus order, hidden elements, aria labels:
+Quick Replies
+
+[Rendering Taglet v3.46] Optimize keyboard navigation to embedded engagements
+
+### Type: Bug fixes [Operational Excellence]
+[UW 10.9, Unauth Taglet v1.11, Secure Storage v3.13] Message window opening in new tab even when first party storage set to true
+
+Description - Using Incognito Mode in Chrome versions 85 and higher will now open in the same browser when unified.window.allow.first.party.storage is set to true.
+
+### Type: Enhancement [Secure Storage v3.13]
+Description - Optimization of window load time  
