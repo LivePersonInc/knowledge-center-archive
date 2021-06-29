@@ -84,21 +84,20 @@ Available to all customers? Y
 Bot Performance Dashboard not loading data for Agent Managers but only for Administrators or LPA users. This is 
 enabled OOTB.
 
-## Unified Window Version 10.10
-### Type: Enhancement - Next Best Conversation: Personalization Taglet v1.1
-
-As part of Next Best Conversation, custom Quick Replies can be delivered by the personalization taglet.
+## Next Best Conversation: Personalization Taglet v1.1
+### Type: Enhancement [Unified Window Version 10.10]
 
 Channel: Web Messaging
 
-Available to all customers? Y
+Available to all customers?: Y
 
-Along with custom text within the engagement and first message, it is now possible to have a custom set of quick replies shown to the consumer to increase active conversations started from an NBC engagement.
+As part of Next Best Conversation, custom Quick Replies can be delivered by the personalization taglet. Along with custom text within the engagement and first message, it is now possible to have a custom set of quick replies shown to the consumer to increase active conversations started from an NBC engagement.
 
-### Type: Enhancement - Maven Pay Integration - Small Checkout
+## Maven Pay Integration - Small Checkout
+### Type: Enhancement [Unified Window Version 10.10]
 
 Channel: Web Messaging
 
-Available to all customers? **Only those in Maven Pay Early Access program**
+Available to all customers?: **Only those in Maven Pay Early Access program**
 
 Maven Pay invitations and forms are now supported in web messaging. With this feature, brands utilizing Maven Pay can now collect payment through web messaging.
