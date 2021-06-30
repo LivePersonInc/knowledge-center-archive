@@ -399,6 +399,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2021
       pages:
+        - pagename: July
+          level3:
+            - level3name: Week of July 5th
         - pagename: June
           level3:
             - level3name: Week of June 28th
