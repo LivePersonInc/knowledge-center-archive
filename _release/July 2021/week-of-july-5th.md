@@ -113,7 +113,7 @@ The Manager Workspace ‘Agents’ widget will now support the ability to choose
 
 Available to all brands using the manager workspace and have the Bots widget feature on 
 
-Today, the Manager Workspace ‘Bots’ widget will appear to all Agent Manager users on an account, as long as the bots ac-feature is on. We’ve added the ability to enable/disable this functionality per user, by using the Agent Manager profile permissions.
+Today, the Manager Workspace ‘Bots’ widget will appear to all Agent Manager users on an account, as long as the bots is on. We’ve added the ability to enable/disable this functionality per user, by using the Agent Manager profile permissions.
 
 If you would like for an Agent Manager not to be able to see the ‘bots’ widget, you will need to disable the permission in the relevant profile.
 
