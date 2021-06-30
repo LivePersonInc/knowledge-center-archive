@@ -8,7 +8,7 @@ level3: ''
 permalink: release-notes-2021-july-week-of-july-5th.html
 isTutorial: false
 isNew: false
-date: '2021-07-30'
+date: '2021-06-30'
 
 ---
 
@@ -79,9 +79,38 @@ Notifications column screenshot:
 ## Collapse/Expand Widgets in Manager Workspace
 ### Type: New functionality [Manager Workspace 2.0]
 
-Available to all customers? Brands using the manager workspace
+Available to brands using the manager workspace
 
 The Manager Workspace will now support the ability to collapse/expand each widget. This will allow agent managers to focus on the widgets they need, as well as have more available real estate for their used widgets.
 
 ![](img/MW-july-5-6.png)
- 
+
+## Widget Tabs in Manager Workspace
+### Type: New functionality [Manager Workspace 2.0]
+
+Available to brands using the manager workspace and have the tabs feature enabled
+
+The Manager Workspace supports tabs that allow user to view various widgets in a full page view. Each widget the Agent Manager has permissions to view will  also appear as a separate tab. Each agent manager will see only tabs for widgets which they have permissions to view. For example, if an agent manager has no permissions to view the ‘Skills’ widget, he/she will not see the ‘skills’ tab either.
+The tabs will include all the widgets capabilities, including alerts, except for collapse/expand, which is not supported in the tab view.
+
+![](img/MW-july-5-7.png)
+
+## Agents Widget - Rows Count Selection
+Type: New functionality [Manager Workspace 2.0]
+
+Available to brands using the manager workspace 
+
+The Manager Workspace ‘Agents’ widget will now support the ability to choose how many rows the widget will show. The user can select between 10, 25 and 50 rows.
+
+![](img/MW-july-5-8.png)
+
+## Bots Widget - Permission
+### Type: Feature enhancement [Manager Workspace 2.0]
+
+Available to all brands using the manager workspace and have the Bots widget feature on 
+
+Today, the Manager Workspace ‘Bots’ widget will appear to all Agent Manager users on an account, as long as the bots ac-feature is on. We’ve added the ability to enable/disable this functionality per user, by using the Agent Manager profile permissions.
+
+If you would like for an Agent Manager not to be able to see the ‘bots’ widget, you will need to disable the permission in the relevant profile.
+
+ ![](img/MW-july-5-9.png)
