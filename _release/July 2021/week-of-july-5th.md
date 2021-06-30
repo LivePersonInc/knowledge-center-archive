@@ -100,7 +100,7 @@ The tabs will include all the widgets capabilities, including alerts, except for
 ![](img/MW-july-5-7.png)
 
 ## Agents Widget - Rows Count Selection
-Type: New functionality [Manager Workspace 2.0]
+### Type: New functionality [Manager Workspace 2.0]
 
 Available to brands using the manager workspace 
 
