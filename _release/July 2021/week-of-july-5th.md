@@ -12,7 +12,7 @@ date: '2021-06-30'
 
 ---
 
-These release notes include new features arriving June 2021. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+These release notes include new features arriving July 2021. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
 Please contact your LivePerson account team for the exact dates on which you will have access to the features.
 
