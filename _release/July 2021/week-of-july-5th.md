@@ -75,6 +75,10 @@ Notifications column screenshot:
 
 ![](img/MW-july-5-5.png)
  
+**Limitations:** 
+* Alerts are currently available in the UI only. The user must be logged in in order to view and configure thresholds
+* Agents widget: Alerts will be triggered only for the agents seen in the page. For example: If you have 50 agents per page, and 60 agents logged in, you will only be able to see the alerts for the first 50 agents. If you wish to check the rest, you will need to navigate to the second page of the agents. We plan on enhancing this functionality in future versions.
+
 
 ## Collapse/Expand Widgets in Manager Workspace
 ### Type: New functionality [Manager Workspace 2.0]
