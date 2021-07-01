@@ -32,7 +32,7 @@ The update Includes a new Intent Manager homepage where users can view key cover
 
 Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) is seamless and coherent. For brands that do not have Intent Analyzer enabled Analyze and Discovery features will be “locked”.
 
-## Before > After
+## Conversational AI homepage: Before & After
 
 ![](img/IM-updates-2b.png)
 
