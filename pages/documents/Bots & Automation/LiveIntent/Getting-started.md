@@ -12,6 +12,7 @@ isNew: false
 redirect_from: 
   - ai-bots-automation-liveperson-intent-analyzer-getting-started.html
 ---
+Intent Manager introduces a wide set of new self-service features and functionality that greatly improve the value and utility of the application making it easier than ever for brands to fully manage their Intents on the LivePerson Platform.
 
 ## Getting Started
 
