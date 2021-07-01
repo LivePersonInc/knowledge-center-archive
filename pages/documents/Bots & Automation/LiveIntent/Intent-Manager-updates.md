@@ -34,7 +34,7 @@ Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) 
 
 ## Before > After
 
-![](img/IM-updates-2.png)
+![](img/IM-updates-2b.png)
 
 ### New Intent Manager Dashboard
 
