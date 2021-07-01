@@ -31,10 +31,10 @@ A: If you are using only chat, you will not be impacted.
 A: This update applies only to messaging customers. 
 If you are using messaging and chat; you will receive both types of conversations in two separate workspaces: 1) Agent workspace for chat, for all chat conversations; and 2) the enhanced Agent Workspace for messaging, for all messaging conversations. You will easily be able to navigate between the two workspaces and the icons on the side bar will display notifications for incoming messages per workspace. Check out the new experience.
 
-### Q: What will happen after the migration on July 11th, 2021?
+### Q: What will happen after the migration on July 18th, 2021?
 A: Upon login, all your users will automatically see the enhanced Agent Workspace for messaging and will be able to use all its tools and functionalities. All conversations and configurations made on your old workspace will be transferred automatically to the enhanced workspace with no interruptions.  
 
-### Q: The July 11th deadline does not work for our Brand, is there a possibility for an extension?
+### Q: The July 18th deadline does not work for our Brand, is there a possibility for an extension?
 A: If you would like an extension, please contact LivePerson Support or your Account Manager.
 
 ### Q: What recent improvements have been made to the enhanced workspace?
