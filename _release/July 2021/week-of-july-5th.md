@@ -42,6 +42,11 @@ Maven Pay invitations and forms are now supported in web messaging. With this fe
 
 Available to all customers? Brands using the manager workspace and have the ‘alerts’ feature on.
 
+Agent Managers will now be able to set thresholds for various metrics. Once a threshold is reached, an alert will be triggered on the screen and the metric will be highlighted in red.
+
+In this phase, each account manager define their own thresholds. This can be controlled by enabling or disabling the relevant permission under the Agent Manager profile.
+
+
 **Alerts available**
 1. Queue Summary: 
 * Number of in queue conversations (per skill)
