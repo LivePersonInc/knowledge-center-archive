@@ -172,3 +172,49 @@ Bots Status
 All copy within the interface (labels, error messages, etc.) is available in the target language: Japanese or Portuguese.
 
 To change the language, access your Conversational Cloud profile, click *My Details*, and change the Language setting.
+
+## Added filter for agent names 
+### Type: New Functionality [Bot Connectors 2.33]
+
+Available to all customers? Yes
+
+With this enhancement it is possible to search/filter via text for agent names on the main bot table. 
+
+Enablement: On the main Third-Party Bots table is now a filter icon next to “Name”. By clicking it, a dialog with a text field opens. By entering a filter term and pressing on “Filter” the bots are getting filtered.
+
+### Don't allow changes on delayed bot
+## Type: Enhancement [Bot Connectors 2.33]
+
+Available to all customers? Y
+
+Previously it was possible to update the bot on delayed, waiting and offline state. Changes made on bots in state “delayed” or “waiting” would not have had an effect before actually restarting the bot. Now there is an extra check in the API to allow changs only on offline bots.
+
+### Align Chat Behaviour to Messaging in case transfer skill not found 
+## Type: Enhancement [Bot Connectors 2.33]
+
+Available to all customers? Y
+
+Previously in the chat connector we closed the chat if the transfer skill is not available. In Messaging we escalate in this case to the configured default escalation skill. This is now aligned to escalate in both conversation types to the configured default escalation skill.
+
+### Data is not loaded directly after login validation
+## Type: Enhancement [Bot Connectors 2.33] 
+
+Available to all customers? Y
+
+We found an unnecessary delay of up to 20sec for loading the bots table while the UI is running as part of the Conversational Cloud. This was happening when the activate post message was send before the SSO validation process was completed. With this fix the data will be fetched immediately after the user is authenticated if the UI is active in the foreground.
+
+### Quick Replies are working on the CT widget for Chat Bots
+## Type: Enhancement [Bot Connectors 2.33] 
+
+Available to all customers? Y
+
+Previously it was possible to use quick replies on chat bots using the conversation tester. But as quick replies aren’t supported in chat it confused the users that it works when it was shown rendered in the conversation tester. Now the user will be informed with a “Chat bots have no support for quick replies” messages
+
+
+## Allow the agent to see from which Facebook page the consumer is posting
+### Type: Enhancement [Enhanced Agent Workspace - Social Messaging]
+
+
+Available to all customers?:  Social Messaging customers only
+
+We have enhanced the metadata presented below each message in conversations sourced by Facebook to include the page from which the consumer is reaching out.
