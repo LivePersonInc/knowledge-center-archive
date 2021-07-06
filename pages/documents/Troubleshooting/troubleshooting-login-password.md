@@ -67,3 +67,13 @@ Your Chrome browser may have an unsupported extension installed (e.g. Ghostery) 
 
 {: .notice}  
 Unsupported extensions can cause issues on all browsers.
+
+## My password reset limit has been reached
+
+This is usually caused by too many changes to a user's passwords within a 24 hours time frame. 
+You will not be able to change the password until the 24-hour timeframe passes. As a workaround, you can reach  out to a local administrator in the account and ask them to create a duplicate user for you, while waiting for the original user’s password cooldown to pass.
+
+## What timezone is being used in the workspace 
+ 
+The timestamps visible in the Agent and Manager workspaces will reflect the time of the viewer’s device with which they are accessing the Conversational Cloud. 
+

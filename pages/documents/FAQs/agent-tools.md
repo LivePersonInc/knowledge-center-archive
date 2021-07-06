@@ -75,8 +75,6 @@ No. Installation or plug-ins are required as the LivePerson platform is HTML/Jav
 
 The browsers supported by LivePerson have built-in spell checking. When the browser’s spell checking is enabled, the spell checker will automatically run in the LivePerson Engagement Window as well as in other browser windows.
 
-In addition, you can add extensions (for example, _Grammarly_) to the browser that auto correct spelling and grammar.
-
 ## What is an actionable conversation?
 
 An actionable conversation can be any one of the following:
@@ -149,3 +147,11 @@ On the Conversation History tab, click an engagement to see its summary.
 ## Why don’t I see any agents in the agents list?
 
 Users with Agent permissions cannot see the list online agents. Only users with Agent Manager or Administrator permissions can see this list. If you access to the list of online Agents, please contact your account administrator.
+
+## How can I delete an agent? 
+
+1. Navigate to the Manage users and skills tab that is located in the left-hand side of the screen
+2. Click on the empty box located on the left of the users Name to select that user 
+3. Click on Action located in the upper right corner -> click on delete
+Please note that you can delete only one use at a time.
+

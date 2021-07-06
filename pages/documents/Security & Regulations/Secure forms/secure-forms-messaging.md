@@ -32,9 +32,6 @@ LivePerson works hard to ensure that our customers around the world can safely a
 2. **Standard 2: GDPR**
 
    LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
-3. **Standard 3: US: Privacy Shield certification**
-
-   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt00000004og8AAA&status=Active).
 
 ## When to use the Conversational Cloud secure form
 
@@ -432,11 +429,21 @@ When using secure forms, bear in mind:
   2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 minute variable is configurable.
   3. Both variables can be set to any time limit between 1 and 86400 seconds.
 * The consumer can submit each form only once.
-* Accessing the same form multiple times:
+
+### Accessing the same form multiple times:
+#### Web
+On Web, this option is configurable. If required, brands can define how many times a consumer will be able to reopen the same secure form prior to submitting it.
+This is useful for brands to allow consumers to broswe back and forth different pages (e.g. collecting customer ID) during the conversation while filling out the secure form while keeping it accessible.
+
+In order to configure, please contact your LivePerson account team.
+
+#### iOS
 * On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
   1. The consumer logs out
   2. The app is closed so its not running in the background
   3. The form expires
   4. The consumer opens another secure form
+
+#### Android
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.

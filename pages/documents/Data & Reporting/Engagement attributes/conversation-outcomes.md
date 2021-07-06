@@ -31,33 +31,38 @@ There are three types of [engagement attributes](/data-reporting-engagement-attr
 
 | Engagement attributes | Data category | Available properties |
 | --- | --- | --- |
-| Transaction | eCommerce Info | Order total, Order ID, Lead |
+| Transaction | eCommerce Info | Order total*, Order ID*, Lead |
 | Lead | Visitor Journey | Topic Value Lead ID |
 | Service activity | Visitor Journey | TopicStatusCategoryService ID |
+
+{: .notice}
+Order Total, Order ID Is not reported via Analytics Builder.
 
 You will need to enable this feature for each of the engagement attributes you want your agents to be able to report on.
 
 To enable this feature:
 
-1. Log into LivePerson, and then click on the Campaign Builder. The footnote is displayed at the bottom of the page.
+(1) Log into LivePerson, and then click on the Campaign Builder. The footnote is displayed at the bottom of the page.
 
 ![](/img/conversation-outcomes1.png)
-
-{:start="2"} 2. In the footnote, click Data Sources. The Data Sources page is displayed. Click the tab called Integrations where your Connectors and Engagement Attributes will be displayed.
+ 
+(2) In the footnote, click Data Sources. The Data Sources page is displayed. Click the tab called Integrations where your Connectors and Engagement Attributes will be displayed.
 
 ![](/img/conversation-outcomes2.png)
 
-{:start="3"}
-3\. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
-4\. Click submit by agent.
+(3) In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
+
+(4) Click submit by agent.
 
 ![](/img/conversation-outcomes3.png)
 
-{:start="5"}
-5\. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
-6\. Select the engagement attribute properties that will be displayed to the agent in the Agent Workspace by clicking add field to widget. You must select at least one property.
-7\. For each of the selected properties, enter a display name. This name will be displayed to the agent in the Agent Workspace.
-8\. Click save.
+(5) Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
+
+(6) Select the engagement attribute properties that will be displayed to the agent in the Agent Workspace by clicking add field to widget. You must select at least one property.
+ 
+(7) For each of the selected properties, enter a display name. This name will be displayed to the agent in the Agent Workspace.
+
+(8) Click save.
 
 ## Using conversation outcomes
 
@@ -73,5 +78,3 @@ The conversation summary widget includes the following sections:
 
 {: .notice}  
 If no engagement attributes are enabled, the conversation outcomes section is not displayed.
-
-To report on a business activity or conversation outcome, the agent should enter the data in the relevant engagement attribute properties and click submit. The data reported by the agent can then be used to track conversions / goals. Information can be submitted up to half an hour after the chat is closed.

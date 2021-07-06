@@ -24,8 +24,10 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 * [Google RCS Business Messenger](messaging-channels-google-rcs-business-messaging.html)
 * [Google Business Messages](messaging-channels-google-business-messages.html)
 * [WhatsApp Business](messaging-channels-whatsapp-business.html)
-* [Line](messaging-channels-line-connector.html)
-* [WeChat Busines](messaging-channels-wechat-business.html)
+* [Instagram](messaging-channels-instagram.html)
+* [Twitter](messaging-channels-social-messaging-social-messaging-overview.html)
+* [LINE](messaging-channels-line-connector.html)
+* [WeChat Business](messaging-channels-wechat-business.html)
 
 ![](/img/messaging-connectors-overview-1.gif)
 

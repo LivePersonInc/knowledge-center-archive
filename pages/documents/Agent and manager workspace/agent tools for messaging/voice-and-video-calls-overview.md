@@ -13,7 +13,7 @@ isNew: false
 
 ## Introduction
 
-Voice and video Calls for Web Messaging allow brands to conduct via voice or video calls with consumers from within a Web Messaging conversation. The feature is integrated into the Agent Workspace and the Engagement Window and requires no additional software. This document provides an overview of the feature, its requirements, and its configuration options.
+Voice and video Calls for messaging allow brands to conduct via voice or video calls with consumers from within a Web Messaging conversation. The feature is integrated into the Agent Workspace and the Engagement Window and requires no additional software. This document provides an overview of the feature, its requirements, and its configuration options.
 
 ## Why use voice and video calls?
 
@@ -36,6 +36,8 @@ Voice and video Calls for Web Messaging allow brands to conduct via voice or vid
 
 Voice or video calls are initiated by the agent by sending an invitation to the consumer:
 
+**On Web Messaging:**
+
 ![](img/voice-and-video-1.png)
 
 The consumer has the ability to accept or reject the invitation:
@@ -45,6 +47,13 @@ The consumer has the ability to accept or reject the invitation:
 After accepting, the call is initiated and the consumer’s browser will ask for permission to access the camera and/or microphone:
 
 ![](img/voice-and-video-3.png)
+
+**On Mobile SDK:**
+
+{: .sidebyside} 
+![](img/voice-and-video-mobile-1.png)![](img/voice-and-video-mobile-2.png)![](img/voice-and-video-mobile-3.png)
+
+**Important to note that on Mobile SDK, the video and voice calls will open within a webview container on top of the messaging interface.** Consumers can close the webview at any point of the video or voice call while returning to the messaging screen.  
 
 During an active call, both agent and consumer are able to end the call at any time. Furthermore, each participant is able to mute the microphone or disable the camera:
 
@@ -64,6 +73,12 @@ Voice and video calls are automatically enabled. [Agent Profiles and Permissions
 
 ![](img/voice-and-video-agent-profile-permissions.png)
 
+### Mobile SDK configuration
+
+Mobile SDK configuration allows brands to decide on the video/voice call invitation look and feel (invitation background color, border color and shape, button colors, as well as the webview bar colors and more). To review the full configurations see the Developer Center article for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-advanced-features-voice-and-video.html) and for Android (coming soon). 
+
+### Advanced configuration
+
 The following advanced configuration options are available. Simply ask your LivePerson contact or support representative to make the changes in your account's backend configuration console.
 * Make every video call start with the agent camera disabled.
 * Make every video call start with the consumer camera disabled.
@@ -81,9 +96,10 @@ For support calls on different devices and networks, additional video relay infr
 
 ## Reporting
 
-Coming soon.
+Video and Voice call reporting metrics are available on the Analytics Builder. See the new metrics in the [reporting metrics section](data-reporting-reporting-metrics.html). The new metrics are defined as “Collaboration session”. 
 
-## Requirements
+
+## System requirements
 
 **Conversational Cloud**
 * The feature can only be used within Web Messaging conversations. Chat is not supported.
@@ -140,6 +156,6 @@ HTTPS is required by default for communication between browser clients with the 
 
 ## Limitations
 
-1. Voice and Video calls are only supported on Web Messaging - not live chat.
-2. Only the Web Messaging channel is supported. Agents will not be able to send invitations to consumers on other channels (such as WhatsApp, SMS or Facebook).
+1. Voice and Video calls are only supported on messaging - not live chat.
+2. Only the Web Messaging and Mobile SDK channels are currently supported. Agents will not be able to send invitations to consumers on other channels (such as WhatsApp, SMS or Facebook).
 3. Invitations can be sent to unsupported browsers, but the call will not start and both agent and consumer will be shown an error message.

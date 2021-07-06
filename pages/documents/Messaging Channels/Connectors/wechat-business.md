@@ -33,4 +33,4 @@ Official Accounts can receive and send messages only with followers of their acc
 
 ## Setup
 
-WeChat Business is currently available for early adopters only. Please contact Shawn Davidson for more details.
+WeChat Business requires enablement. Please contact your LivePerson representative for more information.

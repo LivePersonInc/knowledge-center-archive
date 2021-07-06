@@ -12,6 +12,7 @@ isNew: false
 redirect_from: 
   - ai-bots-automation-liveperson-intent-analyzer-getting-started.html
 ---
+Intent Manager introduces a wide set of new self-service features and functionality that greatly improve the value and utility of the application making it easier than ever for brands to fully manage their Intents on the LivePerson Platform.
 
 ## Getting Started
 
@@ -61,5 +62,5 @@ In order for a user to access Intent Analyzer, they must be assigned a profile t
 * Conversation Builder: Bot Builder
 For more information on permissions, click [here](https://knowledge.liveperson.com/admin-settings-permissions-profiles.html)
 
-Once you're set up - optimize your intent taxonomy using the Intent Discovery and Optimization tools. [Click here]https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-create-and-optimize-intents.html) for more information.
+Once you're set up - optimize your intent taxonomy using the Intent Discovery and Optimization tools. [Click here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-create-and-optimize-intents.html) for more information.
 
