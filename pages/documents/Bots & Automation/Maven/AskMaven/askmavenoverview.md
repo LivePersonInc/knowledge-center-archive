@@ -18,28 +18,23 @@ redirect_from:
 
 ---
 
-## What is the Recommendations API?
-The Recommendation API is a REST API that allows you to ask Conversation Orchestrator for the next best actions (route to skill, send a response, etc.) for your bot/app. Accessing the API can be done via a [pJavaScript method](https://developers.liveperson.com/conversation-builder-scripting-functions-askmaven.html) from within a Conversation Builder bot or via the REST API for external automations and apps.
+## What is the Recommendation API
 
-## When to use the Recommendations API
-1. A typical use case for using the Recommendation API is to get a routing decision to transfer to a skill from a bot or LOB app:
+The Recommendation API is a REST API that allows you and your bots, web sites, and apps to call Conversation Orchestrator capabilities programmatically. You can use the API to call for the next best action (route to skill, KB article, etc) for a concierge bot/app.
 
-2. A brand’s concierge bot (for example, a bot built in Conversation Builder) handles branded greetings, dialogs, and intents.
-It then calls the Recommendation API, which evaluates all the policies set up in Dynamic Routing and returns the next best action.
+<img class="fancyimage" style="width:750px" src="img/askmaven.png">
 
-* If you're using the Conversation Orchestrator bot template, the ask maven call is already pre-configured for you, and you don’t have to do this.
-* If you're using a different Conversation Builder bot, you can use the askMaven JavaScript method.
-* If you're using a third-party bot on any external platform (for example, Google Dialogflow), use the REST API.
+## Common Use Case
 
-3. The concierge bot then uses the action (for example, route to a skill) to transfer the conversation to that skill in Conversational Cloud.
+<img class="fancyimage" style="width:600px" src="img/askmaven-use-case.png">
 
-This is often used in conjunction with the Conversation Context Service to pass custom attributes to use in a policy (for example, intents).
 
-## Getting started
-1. Log in to Conversation Orchestrator with your Conversational Cloud credentials, and navigate to Developer Key.
-2. Copy and paste the key provided, and use it in your API headers.
-3. To generate a new key, click the Regenerate Key button. This will invalidate the previous key. The key is shared for all Conversation Orchestrator APIs; therefore, you must use the new key wherever the APIs are being called.
+A typical use case for using the Recommendation API is to get a routing decision to transfer to a skill from a Bot or LOB app.
 
-![](img/co_ccs_developerkey2.png)
+1. A brand's concierge bot (for example a bot built in Conversation Builder or Google Dialogflow) handles branded greetings, dialogs, and intents.
+2. It then calls the Recommendation API which evaluates all the policies setup in Dynamic Routing and then returns the next best best action.
+3. The concierge bot then uses the action (for example route to a skill), to transfer the conversation to that skill in the Conversational Cloud.
+4. This is often used in conjunction with the Context Session Store to pass custom attributes to use in a policy (for example intents). To learn more about how to use the Context Session Store [please see documentation](https://developers.liveperson.com/maven-context-warehouse-context-session-store.html).
 
-Please see [Dynamic Routing's Getting Started]https://developers.liveperson.com/conversation-orchestrator-dynamic-routing-getting-started.html) for more information.
+
+For more information on implementation, please see the LivePerson [Developer Center](https://developers.liveperson.com/maven-askmaven-overview.html).

@@ -30,11 +30,6 @@ This feature can be set up for agents in 3 different states:
 * Agent has gone offline
 * Agent is set to the 'away' state
 
-{: .notice}
-**Please note:** 
-* Any configured Away state, also 'Back Soon', will be treated as Away as it relates to the Agent Unassign feature. 
-* If an agent sets a Manual SLA on a conversation, Agent Unassign configuration will be disregarded and will not process. This allows the agent to have the additional time as requested through the Manual SLA, without the conversation unexpectedly being removed from their queue. 
-
 **Example:**
 
 1. Agent has an active conversation with the consumer. Consumer has sent the last message in the conversation and is awaiting the agent response.

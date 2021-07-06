@@ -1,6 +1,7 @@
 /*search styling begins */
 
 .algolia-autocomplete {
+  flex: 3;
   height: 48px;
   margin-top: 0;
 }
@@ -98,7 +99,7 @@
 }
 
 .algolia-autocomplete .aa-suggestion .searchtitle {
-  font-size: 17px;
+  font-size: 21px;
   border-bottom: unset;
   width: 23%;
   font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;

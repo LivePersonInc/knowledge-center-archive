@@ -19,6 +19,18 @@ Instagram allows brands to drastically expand their reach and connect with over 
 
 ## Benefits of Instagram
 
+### Market Reach and statistics
+
+* Over 116 million users use Instagram in the US for an average of 53 minutes per day
+* 90% of the Instagram users follow at least one business account on Instagram
+* 83% of Instagram users discover new products and services through the platform
+* 34% of Instagram ads are Stories that create increased engagement, while 66% ads are published via posts by the brands
+* 63% of consumers believe that brands can reach a large audience on Instagram
+
+(Source:[Sprout Social](https://sproutsocial.com/insights/instagram-stats/))
+
+The above stats represent the fact that Instagram holds massive opportunities for ecommerce businesses looking to showcase their products. Whether through regular photos, videos, or Instagram Stories, millions of businesses have learned that building a visual presence on Instagram can hugely complement their ecommerce marketing.
+
 ### Effective engagement with creative Instagram features
 
 Instagram is a hugely popular photo and video-sharing social media platform. Users can share photo or video posts and temporary Stories that live on your profile for 24 hours.

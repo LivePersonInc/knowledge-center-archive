@@ -16,7 +16,7 @@ redirect_from:
 ---
 
 {: .important}
-Brands using Bot Studio for managing existing survey bots are encouraged to [migrate to using Conversation Builder](ai-bots-automation-post-conversation-surveys-migrating-from-bot-studio-to-conversation-builder.html) as soon as possible, as LivePerson will deprecate Bot Studio in August 2021. Conversation Builder is LivePerson’s intuitive application for bot building. You can use the same, easy-to-use application for building custom bots and [survey bots](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html).
+This topic discusses a legacy solution for post-conversation surveys (PCS) and is made available for the benefit of brands using this solution (creating survey bots in Bot Studio). If you're new to survey bots, please see [this topic](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html) in the Developer Center for information on how to build survey bots using Conversation Builder.
 
 The post-conversation survey bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 

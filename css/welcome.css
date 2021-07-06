@@ -4,6 +4,7 @@
 }
 
 .welcome-card {
+  min-height: 196px;
   background: #ffffff;
   border: 1px solid #dadbe5;
   box-sizing: border-box;
@@ -11,7 +12,7 @@
   text-decoration: none;
   width: 49%;
   flex-grow: 1;
-  padding: 2.375rem 2.625rem !important;
+  padding: 38px 42px 58px !important;
   transition: box-shadow 180ms ease-in-out;
   display: flex;
   flex-direction: column;
@@ -25,12 +26,7 @@
 
 div#success-stories {
   justify-content: flex-start;
-  padding: 0 !important;
-}
-div#success-stories a {
-  padding: 2.375rem 2.625rem !important;
-  display: flex;
-  align-items: center;
+  padding-top: 30px !important;
 }
 
 .header-label {
@@ -47,16 +43,15 @@ div#success-stories a {
 }
 
 .success-stories-header {
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 33px;
   max-width: 418px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 32px;
   color: #ffffff;
   letter-spacing: 0.008em;
-  margin: 0;
 }
 
 .container-image {
@@ -69,11 +64,7 @@ div#success-stories a {
   width: 100%;
   flex-wrap: wrap;
   gap: 16px;
-  margin-top: 1.875rem;
-}
-
-.card-container * {
-  box-sizing: border-box;
+  margin-top: 30px;
 }
 
 img.card-container {
@@ -86,8 +77,8 @@ img.card-container {
   font-weight: bold;
   margin: 0;
   max-width: 424px;
-  font-size: 1.375rem;
-  line-height: 2rem;
+  font-size: 22px;
+  line-height: 32px;
   letter-spacing: 0.01em;
 }
 
@@ -100,7 +91,7 @@ img.card-container {
 }
 
 #success-stories {
-  background-image: url("//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bgkc.jpg");
+  background-image: url("../img/bgkc.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -108,16 +99,14 @@ img.card-container {
 
 #success-stories a {
   text-decoration: none;
-  height: 100%;
-  width: 100%;
 }
 
 #free-trial {
   background: #090c43;
   flex: 1;
   display: flex;
-  margin-top: 2.5rem;
-  padding: 2.5rem 0 2.5rem 2.5rem;
+  margin-top: 40px;
+  padding: 40px 0 40px 40px;
   border-radius: 8px;
   width: 100%;
 }
@@ -126,7 +115,7 @@ img.card-container {
   flex: 1;
   display: flex;
   align-items: center;
-  padding-right: 2.5rem;
+  padding-right: 40px;
   justify-content: flex-end;
 }
 
@@ -142,29 +131,26 @@ img.card-container {
 }
 
 .create-button {
+  border-radius: 40px;
   text-align: center;
+  padding: 20px 33px;
+  font-weight: bold;
   color: white;
-  border: none;
+  border: 1px solid #FF6900;
   background-color: inherit;
-  background: #ff6900;
-  border-radius: 9999px;
-  padding: 0.75rem 1.25rem;
-  font-size: 1.25rem;
-  line-height: normal;
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: 400;
+  font-size: 22px;
+  background: #FF6900;
 }
 
 .create-button:hover {
-  background: #db5a00;
+  background: rgb(255 255 255 / 0%);
 }
 
 .free-trial-header {
   letter-spacing: normal;
-  color: #ff6900;
-  font-size: 1.75rem;
-  line-height: 2rem;
+  color: #FF6900;
+  font-size: 28px;
+  line-height: 32px;
   font-weight: bold;
 }
 
@@ -172,8 +158,8 @@ img.card-container {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
-  line-height: 1.25rem;
+  font-size: 16px;
+  line-height: 20px;
   padding-right: 24px;
   letter-spacing: 0.01em;
   color: white;
@@ -181,8 +167,8 @@ img.card-container {
 }
 
 .homeContent {
-  margin-top: -1.875rem !important;
-  margin-left: -2.5rem !important;
+  margin-top: -30px !important;
+  margin-left: -40px !important;
 }
 
 .mainHome {
@@ -191,13 +177,13 @@ img.card-container {
 }
 
 .mainHome .h1 {
-  color: #5879df !important;
-  margin-top: 0;
+  color: #5879DF !important;
+  margin-top: 10px !important;
 }
 
 @media screen and (max-width: 1300px) {
   .homeContent {
-    margin-left: 1.25rem !important;
+    margin-left: 20px !important;
   }
   .header-label {
     width: 100%;
@@ -212,7 +198,7 @@ img.card-container {
   }
   .homeContent {
     margin-left: 0 !important;
-    padding: 0 1.25rem;
+    padding: 0 20px;
   }
   div#defaultwrapper {
     overflow-x: hidden;
@@ -227,18 +213,9 @@ img.card-container {
     text-align: center;
     justify-content: center;
     flex: 0 100%;
-    padding: 35px 1.25rem;
+    padding: 35px 20px;
   }
   div#defaultcontent div#maincontent .h1 {
     width: 100%;
-  }
-  div#success-stories {
-    padding: 0 33px 0 0 !important;
-  }
-}
-
-@media (min-width: 1180px) and (max-width: 1600px) {
-  .welcome-card {
-    padding: 1.375rem 2.625rem !important;
   }
 }

@@ -146,35 +146,3 @@ The system does not change the max. number of conversations value for users whos
 ### Solution:
 
 This is expected behavior.
-
-## Conversation Builder 
-
-## Why can’t I save the Agent Manager role to a user? 
-
-There are a few requirements that need to be met in order for the save button to become clickable.(i.e. For the button to be clickable it will be orange): 
-* The email, nickname, and name boxes must contain at least one character, however, you would need a valid email in order to not get an error when you try to save.
-* When creating a new user,  the password fields are also mandatory.
-* The user needs to have at least one profile assigned to them (note: if only the Agent Manager profile is selected, it is advisable to assign it to the appropriate Agent Group to manage.)
-* If the user has an Agent profile assigned, they would also need to be a member of a group.
-
-## User can't log in after multiple attempts
-
-Please contact your account administrator or supervisor to re-enable your user.
-
-## Why isn't dynamic text in predefined content working? 
-
-Messaging agents should not use predefined content items that contain dynamic text.
-
-## Can I trace the history of a conversation?
-
-### Resolution 1:
-Search the conversation in MCS Toolkit by using the conversation ID or engagement ID, by pulling the transcript, you will be able to see which bots and agents were involved in the routing of the conversation, as well as the dialogue within the conversation.
-You can can access MCS here: https://mcs.liveperson.net/login 
-
-### Resolution 2: 
-You can view the history within the agent workspace; if previous conversations exist, they will be at the very top of the window within the current conversation of the user.
- 
- 
-
-
-

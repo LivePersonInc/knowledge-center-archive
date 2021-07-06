@@ -351,8 +351,7 @@ To summarize, these various accessibility services are designed to complement on
 
 ## Web Accessibility Conformance Statements
 Please see the web accessibility conformance statements for the following:
-* [Mobile SDK iOS](https://ce-sr.s3-eu-west-1.amazonaws.com/LivePerson+Mobile+App+iOS+Conformance+Report.pdf)
-* [Mobile SDK Android](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/LivePerson+Mobile+App+Android+Conformance+Report.pdf)
+[Mobile SDK iOS](https://ce-sr.s3-eu-west-1.amazonaws.com/LivePerson+Mobile+App+iOS+Conformance+Report.pdf)
 
 {: .notice}
 Please note that this certficate was issued prior to rebranding the platform to the Conversational Cloud.

@@ -12,7 +12,7 @@ isNew: false
 published: false
 
 ---
-Leverage the power of LivePerson's open platform to integrate with third-party technologies, including any NLU provider, as well as integrate conversational data with enterprise systems for insights and decision-making across the enterprise.
+Leverage the power of LivePerson's open platform to integrate with third-party technologies, including any NLU provider, as well as integrate conversational data with enterprise systems for insights and decision-making across the enterprise
 
 The Conversational Cloud platform offers a messaging solution that you can enhance by:
 

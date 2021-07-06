@@ -75,7 +75,7 @@ The enhanced agent workspace now supports a new section within the consumer info
 Brands are able to send contextual information to the agent during bot transfers to provide the agent with the evaluated intent, confidence score, as well as a text summary. 
 In order to spare users from having to reset the workspace filters with each login, the global filter setting at logout will be retained upon login. The filters which are retained are only the global filters (available at the top right corner of the workspace): timeframe, group and skill filters. The filter settings are kept on the local storage of specific computer and browser per LiveEngage user.
 
-**Enablement:** This enhancement is only available for custom Bots that use the Conversation Metadata for passing the escalation information
+**Enablement:** Brands with any intent bots configured on their account will be exposed to this new section automatically. No additional configuration is required.
 
 ![](img/week-of-april-1st-2.png)
 

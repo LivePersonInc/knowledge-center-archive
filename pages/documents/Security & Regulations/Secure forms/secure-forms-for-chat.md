@@ -35,6 +35,9 @@ LivePerson works hard to ensure that our customers around the world can safely a
 2. **Standard 2: GDPR**
 
    LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
+3. **Standard 3: US: Privacy Shield certification**
+
+   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt00000004og8AAA&status=Active).
 
 ## When to use secure forms?
 
@@ -122,12 +125,6 @@ When using secure forms, bear in mind:
 * Data submitted in the secure form is only retrievable for the duration of the session it was submitted in.
 * Agent workstations utilized for viewing secure forms are in-scope of PCI-DSS certification.
 * LivePerson accounts password and login policy must be enabled and configured according to PCI-DSS requirements.
-
-### Accessing the same form multiple times:
-This option is configurable. If required, brands can define how many times a consumer will be able to reopen the same secure form prior to submitting it.
-This is useful for brands to allow consumers to broswe back and forth different pages (e.g. collecting customer ID) during the conversation while filling out the secure form while keeping it accessible.
-
-In order to configure, please contact your LivePerson account team.
 
 ## Setting up secure forms
 

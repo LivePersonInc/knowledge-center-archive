@@ -13,7 +13,7 @@ isNew: false
 ---
 
 ## Update on Advanced Messaging Dashboard
-The Advanced Messaging Dashboard was originally built to solve for critical messaging reporting needs that could not be served elsewhere.  All of those reporting needs are now being served by either the Analytics Builder [Predefined Dashboards](https://knowledge.liveperson.com/data-reporting-analytics-builder-predefined-dashboards.html) or other reporting tools within LivePerson.  Thus, this dashboard is undergoing a sunset plan, with end-of-life planned in Q3 2021.  Please work with your account team to migrate to the [Predefined Dashboards](https://knowledge.liveperson.com/data-reporting-analytics-builder-predefined-dashboards.html) as soon as possible.
+The Advanced Messaging Dashboard was originally built to solve for critical messaging reporting needs that could not be served elsewhere.  All of those reporting needs are now being served by either the Analytics Builder [Predefined Dashboards](https://knowledge.liveperson.com/data-reporting-analytics-builder-predefined-dashboards.html) or other reporting tools within LivePerson.  Thus, this dashboard is undergoing a sunset plan, with end-of-life planned in Q1 2021.  Please work with your account team to migrate to the [Predefined Dashboards](https://knowledge.liveperson.com/data-reporting-analytics-builder-predefined-dashboards.html) as soon as possible.
 
 ## Key Components of the Dashboard
 

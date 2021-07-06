@@ -5,13 +5,6 @@
 html {
   width: 100%;
   height: auto;
-  font-size: 16px;
-}
-
-@media (min-width: 1180px) and (max-width: 1600px) {
-  html {
-    font-size: 14px;
-  }
 }
 
 body {
@@ -101,13 +94,14 @@ body {
 }
 
 #login {
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
 #logocontainer {
   flex: 1;
   display: flex;
-  padding-left: 50px;
+  margin-left: 50px;
+  margin-right: 85px;
 }
 
 #hometitle {
@@ -807,7 +801,7 @@ a.mainlink:hover {
   }
 
   #logocontainer {
-    padding-left: 70px;
+    margin-left: 70px;
     justify-content: center;
   }
 

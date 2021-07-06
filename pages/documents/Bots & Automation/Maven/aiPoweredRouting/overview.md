@@ -15,42 +15,38 @@ redirect_from: ai-bots-automation-maven-ai-powered-routing.html
 ---
 
 ## What is Dynamic Routing?
-The consumer shift from voice to messaging has increased volume and made it challenging for brands to get consumers with specific inquiries to the right agents as quickly as possible, often resulting in abandonment, channel switching, and loss of revenue/increased costs. To ensure consumers are connected to the most qualified agent (human or bot), brand routing has become very complex, supporting hundreds or thousands of agents servicing various consumer needs. When making routing decisions, brands that account for factors like consumer intent, loyalty tier, past interactions, consumer inputs and more provide hyper-personalized experiences that delight consumers.
 
-Dynamic Routing provides brands the infrastructure to perform this intelligent routing at scale. Creating and enabling policies using intent and contextual data accessed via APIs lets brands create highly personal and custom connections.
+The Conversation Orchestrator’s Dynamic Routing provides a centralized experience to create dynamic policies to achieve routing to the best human agent, skill, or bot. Routing policies are based on intent and/or context attributes such as consumer profile data, operational context (load, predicted wait times, KPIs), and conversation history.
 
-## When to use Dynamic Routing
-Dynamic Routing can be used for a variety of use cases. Here are a few examples:
+The power of the Conversation Orchestrator’s Dynamic Routing comes from its ability to use a variety of attributes in routing policies - including intents, context, and predictive AI models - in order to create highly personalized journeys to optimize care and sales experiences.
 
-* Connecting consumers to their personal loan officer throughout the loan application and funding process, providing a personalized experience that results in higher NPS.
+## Key benefits
 
-* Routing travelers to automated assistants during a high-contact volume period caused by an urgent weather condition or natural disaster, allowing faster assistance while alleviating contact center load.
+With the Conversation Orchestrator, brands easily build routing policies based on profile information, interaction history, and other contextual data. The Conversation Orchestrator’s Dynamic Routing works by combining all available information - such as intent, contexts and predictive AI models - together with a brand’s predefined policies to make the best routing decision for the specific conversation.
 
-* Directing consumers to device upsell specialists when they have repeat troubleshooting contacts and they are eligible for an upgrade, resulting in increased contract renewals and upsells.
+**Benefits include:**
 
-## How to use Dynamic Routing
-Before starting with Dynamic Routing, familiarize yourself with Conversation Builder and Intent Builder. This documentation makes references to both bots and intents, so prior knowledge is helpful. One great way to gain exposure to these applications is to complete the Getting Started with Bot Building tutorial series.
+* Unlock highly personalized journeys to optimize care and sales experiences
+* Customize routing based on intent, context, and predictive AI
+* Solve customer requests quickly by routing dynamically to human agents or bots
+* Increase agent and operational efficiency by leveraging automations in routing
 
-Dynamic Routing requires the following components to operate:
+## Common use cases:
 
-* Routing bot
-* Policies
-* Conversation Context Service (CCS)
-* Recommendations API
-Here is a representation of how the various components integrate:
+All brands can offer relevant bots and knowledge base articles proactively and at the right time in the conversation, replacing sticky notes and saving time compared to structured content. Here are some use cases per industry:
 
-![](img/co_dr_components.png)
+- **When** a brand suffers an exceptional **event** (storm, incident), route to a bot for **intents** related to the outage. For all other intents (e.g. billing) route to a human agent pool
+- **Route** a group of **intents** (e.g. order enquiry, cancellation, scheduling) to a general order skill unless the customer is a **VIP**, then send them to their **Dedicated Advisor**
+- For lost baggage **intent**, return to the **same agent** if the customer is **returning within a given time period**; for **VIP** customers, route to high priority skill
 
-## Routing bot
-You need to have a routing bot either on Conversation Builder or on external automation platforms. The routing bot, connected to the primary messaging skill, receives the conversations, calls the Recommendations API, and executes the policies defined in the Policy Manager, to direct incoming conversations to the right agent skill. Liveperson provides a Conversation Orchestrator bot template which makes it easy for brands to get started. The Conversation Orchestrator bot is pre-wired to both the Conversation Context Service and the Recommendations API. You are welcome to use your own routing bot but will have to manually integrate both the Conversation Context Service and the Recommendations API. You can also use a routing bot on a different automation platform like Google DialogFlow. In such cases, you need to use the Recommendations API to receive recommendations on those external platforms.
+## How Dynamic Routing works
 
-## Policies
-The Policy Management interface provides the UI to create routing policies. Policies contain conditions and actions. Conditions are configured using attributes, logical operators, and values. Some attributes like conversation attributes and authenticated SDEs are directly available for routing. Other attributes, including custom data, can be configured by developers using the Conversation Context Service. Actions are configured to transfer to skills or agents, or even to send messages. The interface allows users to enable, disable, and prioritize policies.
+Dynamic Routing gives brands the power to author policies based on intent and/or context attributes (such as consumer profile data), operational context (load, wait time, KPIs), conversational history, or predicted outcomes (e.g. sales funnel conversion)
 
-## Conversation Context Service
-The Conversation Context Service (CCS) provides the contextual memory to leverage data for routing. The service provides REST APIs and JavaScript wrappers that can be used to get data from both internal and external data sources like CRMs. For custom scenarios, the CCS can integrate inputs from LivePerson Functions, making the platform very extendable.
+When a conversation comes into the Agent Workspace, [Conversation Orchestrator](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information via Intent Analyzer. It then uses Conversation Orchestrator’s Dynamic Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
 
-## Recommendations API
-The Recommendations API, when invoked, returns the next best action. At run time, the Recommendations API executes policies in the defined priority order and returns an action for the policy with the matching condition. The API is public and can be leveraged to control routing on external AI platforms (Google DialogFlow, IBM Watson, etc.), thereby enabling brands to manage all their automations from one single place.
- 
-For more information on implementation & getting started, please see the LivePerson [Developer Center]https://developers.liveperson.com/conversation-orchestrator-dynamic-routing-getting-started.html).
+Brands can build and manage policies using the Conversation Orchestrator workspace:
+
+<img class="fancyimage" width="750" src="img/intent-context-policies.png">
+
+For more information on implementation, please see the LivePerson [Developer Center](https://developers.liveperson.com/maven-ai-powered-routing-overview.html).

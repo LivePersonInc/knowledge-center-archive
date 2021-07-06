@@ -132,14 +132,3 @@ When the user will be on the Bot’s Dashboard in Third-Party Bots, in the botto
 
 Watson has decided to deprecate the old domain watsonplatform.net thus all the bots must be updated to reflect the new urls provided by IBM watson. The retirement for domain is 26 May 2021. We have encouraged everyone to edit the bot configuration as soon as possible to make sure all affected bots will run smoothly after the deprecation. For more information, click [here](https://cloud.ibm.com/docs/watson?topic=watson-endpoint-change)
 
-## Off hours calculations incorrect and auto messages are being sent during working hours [UMS 4.1]
-### Type: Bug fix
-The fix allows to eliminate potential failures when an account makes an update on the work day manager and calendar configurations.
-How to configure: Available out of the box. 
-
-## Web conversations with unknown Operating System [UMS 4.1]
-### Type: Bug fix
-This fix implements a proper conversion of internal events when the device type is OSX.
-How to configure: Available out of the box. 
-
-

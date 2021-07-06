@@ -35,11 +35,11 @@ The app supports iOS & Android phones and is optimized for their screen sizes. A
 * Predefined Content 
 * Photo sharing
 * Conversation Rollover
-* SSO
 
 ## Future Capabilities
 In the future the following functionality will added:
 - Consumer info
+- SSO
 - Network effect support
 - Automotive specific feature support
 
@@ -62,6 +62,9 @@ Changing / retrieving lost password will be carried out by an admin on the web p
 ### Log in button
 The Log in button is enabled once all fields are completed.
 Tapping the button performs a log in to the app.
+
+{: .notice}
+SSO login will be included in a future phase of the app.
 
 ### Log in screen errors
 In case of credentials error / server error, an alert is presented.

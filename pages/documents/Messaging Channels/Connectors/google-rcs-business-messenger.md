@@ -48,7 +48,7 @@ RCS, or Rich Communication Services, is a communication protocol between mobile 
 
 Brands can deflect consumers from voice call to Google RCS Business Messaging using IVR deflection. Proactive notifications from IVR systems will allow brands to share an alert with the consumer, guiding them to continue the conversation over RCS Business Messaging.
 
-### Business activity alerts
+### Business activity alerts:
 
 ![](/img/rcs connector 3-1.gif)
 

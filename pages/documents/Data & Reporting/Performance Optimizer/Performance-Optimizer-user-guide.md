@@ -83,7 +83,7 @@ Select one of the following Primary Purposes:
 {:start="7"}
 7. The Metric Targets area lists metrics that are key drivers for the 4 categories of the 4E Framework. For each metric:
 
-Select Benchmark to compare the brand’s performance with the global vertical benchmark
+Select Benchmark to compare the brand’s performance with the industry benchmark
 
 Or: 
 
@@ -91,7 +91,7 @@ Select Number, and then enter a unique brand-specific target value or SLA. This 
 
 
 {: .notice} 
-* By default, Metric Settings are set to global vertical benchmarks for all metrics.
+* By default, Metric Settings are set to industry benchmarks for all metrics.
 * Default target number values are set at the 75th percentile benchmark within the industry vertical. 
 
 ![](img/performance-optimizer9.png)
@@ -105,30 +105,13 @@ Select Number, and then enter a unique brand-specific target value or SLA. This 
 9. Click back to “Dashboard” to view your Performance Optimizer settings with your newly created LOBs. 
 
 ## Filtering Your Performance Optimizer View 
-### Select Your Dashboard View: Commerce or Care 
-The Performance Optimizer supports two views: Care and Commerce.  The Commerce view exposes additional sales metrics to users including conversion rate, conversions, conversions per login hour, and average order value.  
-
-The LivePerson 4E Framework incorporates these sales metrics when users select the Commerce View and identifies sales specific metrics for efficiency (conversion rate per login hour) and effectiveness (conversion rate).  The primary indicator of efficiency and effectiveness dynamically changes when the Commerce view is chosen by the user. 
-
-| 4E Framework Primary Indicator | Care | Commerce | Panel with Dynamic Metric |
-| ------------- | ------------- |------------- |------------- |
-| Efficiency  | Closed Conversations Per Login Hour (CCPLH)   | Conversions Per Login Hour | Executive Summary LOB Detail |
-| Effectiveness | Repeat Contact Rate - 3 Day (RCR 3 Day) |Conversion Rate | Executive Summary LOB Detail |
-
-To Select Commerce View:  
-1. In the top left part of the screen, select the Commerce tab.  By default, the view will be set to Care. 
-2. Select Your Filter Options or use default filter settings (see “Filtering Your Performance Optimizer View”  below) 
-3. Click Update
-
-![](img/performance-optimizer-may18-1.png)
-
-### Selecting Filter Options 
-The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer. 
+The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer.  
 
 **To filter the dashboard:**
 
 1. In the top left part of the screen, select your LOB(s), date range (by calendar selection or manual entry) and granularity preferences.   
 2. Click Update. The data will now be displayed according to your preferences.
+
 
 ![](img/performance-optimizer11.png)
 
@@ -200,33 +183,6 @@ Using the overall 4E score, the 4E Summary panel enables users to view a calcula
 Industry benchmarks are displayed in 25% percentile increments and are color-coded: Red indicates the bottom 25th percentile, and green indicates the 75th percentile.The user is able to compare their overall 4E scores against the industry benchmark. As an example, the brand’s efficiency score of 55% is within the 50-75th percentile of their industry.
 
 ![](img/performance-optimizer20.png)
-
-### Intent Panel 
-The new Performance Optimizer Intent Panel creates an intent-focused view answering the question of how effectively an operation resolves its consumers’ intents, the customer experience impact, and provides clear and simple view(s) that prioritize areas of opportunity and provide clear action items to optimize the intent and operational performance.  These views will enable a Performance Optimizer user to understand the intent mix and nature of primary contact drivers into the operation and their evolution over time while identifying intents suitable for automation, increase efficiency and reduce operational expenditure. 
-
-There are 3 primary components to the Intent Panel: 
-1- A heatmap graphic that will visually prioritize automation opportunities by intent 
-2- Automated text that contextualizes 4E performance by intent performance 
-3- Intent classification metrics and graphics 
-
-1- The Intent Panel allows users to view the following metrics within the heatmap by Intent for the LOB(s) selected: 
-* Closed Conversations
-* Closed Conversations % of Total
-* Avg. Conversation Duration
-* Agent Responses Per Closed Conversation
-* MCS (normalized 1-100)
-
-2- The Intent graphics shows the metrics below for the LOBs selected:
-* Intentful Rate
-* Classification Rate
-* Total Messages
-* Intentful Messages
-* Classified Messages
-* Unclassified Messages
-
-3- The automated Intent  Diagnostics section will include text that will contextualize performance and provide specific recommendations to improve performance leveraging intent data. 
-
-![](img/performance-optimizer-intent-panel.png)
 
 ### 4E Detail Panel 
 The 4E Detail panel provides a wealth of information for the user to compare each individual 4E metric, primary and secondary, against industry benchmarks. The user will see their actual 4E performance metric (value in white), how their brand has trended compared to the benchmark (small value in red, in this example), as well as the variance of their performance (value in parentheses, the gap between what was expected and what occurred) against the benchmark. In addition, the user will also see a detailed trend line of the metric performance, as well as a min, max and mean value for their performance. 

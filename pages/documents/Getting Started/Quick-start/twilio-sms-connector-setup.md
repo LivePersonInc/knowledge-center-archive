@@ -45,8 +45,17 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
 ## Step 2: Connect Twilio to the Conversational Cloud
 
-{: .notice}
-**Note:** The Twilio SMS channel requires backend enablement, please contact your LivePerson representative for more information.
+In the Conversational Cloud, in the Campaign Builder (which you can access from the left sidebar), click on **Data Sources** in the footnote.
+
+![](img/data-sources.png)
+
+From the default tab, click on **Connect** in the Twilio SMS box. Click the **Activate Twilio SMS Source** toggle to enable the connector. Then, click "Next" on the bottom corner, and then enter the following details from your Twilio account (which you copy-pasted earlier):
+
+* SID
+* Primary Authorization Token
+* Phone number
+
+Click Done.
 
 ## Step 3: Test your integration
 

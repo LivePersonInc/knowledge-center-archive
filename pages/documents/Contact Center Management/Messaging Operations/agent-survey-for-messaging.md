@@ -42,9 +42,6 @@ The agent survey library will now be displayed.
   * The minimum value is: 0 minutes, this means the survey will close immediately when the conversation ends and your agent will no longer be able to fill it out
   * The maximum value is: 72 hours (3 days)
   * The Conversational Cloud will automatically close the survey upon timeout.
-  
- {: .notice}
- The Agent Survey will be available for an overall of 30 days since the conversation started.
 
 ![](img/agent-survey-for-messaging-3.png)
 

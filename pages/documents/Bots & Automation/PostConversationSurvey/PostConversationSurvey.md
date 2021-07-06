@@ -49,20 +49,6 @@ First Contact Resolution (FCR) metrics are used to measure operational efficienc
 
 <img style="width:600px" src="img/surveyBot_fcr.png">
  
-## Closed-ended and open-ended questions
-
-When building a survey bot in Conversation Builder, you can also create closed-ended and open-ended questions. These let you gather feedback on the custom metrics that you care about most. Ask anything!
-
-*Closed-ended questions* are multiple choice questions that have a custom, predefined list of answer choices. They’re great when you need quantifiable data and want to categorize your consumers.
-
-<img style="width:600px" src="img/surveyBot_closed.png">
-
-*Open-ended questions* allow your consumers to provide answers in their own words, instead of being constrained by a predefined list of answer choices. Use these when you want to offer the opportunity for this type of free-form feedback.
-
-<img style="width:600px" src="img/surveyBot_open.png">
-
-Like the other survey question types, the results from both closed-ended and open-ended questions are reported automatically to Analytics Builder.
-
 ## Building a survey bot with Conversation Builder
 
 You [use Conversation Builder to create survey bots](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html), which allows you to use the same, familiar tool that use to create custom bots. This makes the process quicker and more efficient.
