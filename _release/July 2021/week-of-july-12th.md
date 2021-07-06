@@ -210,11 +210,63 @@ Available to all customers? Y
 
 Previously it was possible to use quick replies on chat bots using the conversation tester. But as quick replies aren’t supported in chat it confused the users that it works when it was shown rendered in the conversation tester. Now the user will be informed with a “Chat bots have no support for quick replies” messages
 
+## Owner and Handler Account Skills In Consumer Info Widget
+### Type: Enhancement [Enhanced Agent Workspace]
+
+Available to all customers? No. This feature will only apply to those accounts who are the designated Conversation Handler (Rollover) accounts who are handling conversations on behalf of an Owner account.
+
+Channels: Web messaging, Mobile App messaging, SMS, Facebook, Twitter, ABC, Line, Google My Business, WhatsApp Business
+
+The ability to view both Owner and Handler Account Skill in the Consumer info widget is now supported in the enhanced agent workspace for messaging. This will help to provide more visibility to the conversation, so that the agent knows what both skills are tied to the conversation (Owner & Handler). 
+
+## Choose Twitter account to reply from
+### Type: Enhancement [Enhanced Agent Workspace - Social Messaging]
+
+Available to all customers? Social Messaging brands using the new Twitter connector (not the Twitter connector on the SocialConnect product) only
+
+Channels: Twitter
+
+The ability to Choose Twitter account to reply from is now supported in the enhanced agent workspace for messaging for Social Messaging conversations sourced by Twitter. Agents can now choose to reply from any of the Twitter accounts integrated to the platform. This capability is supported for public messages only which are sent by agents.
 
 ## Allow the agent to see from which Facebook page the consumer is posting
 ### Type: Enhancement [Enhanced Agent Workspace - Social Messaging]
 
+Available to all customers?:  Social Messaging customers only
+
+Channels: Facebook
+
+We have enhanced the metadata presented below each message in conversations sourced by Facebook to include the page from which the consumer is reaching out.
+
+![](img/CB-8-RN-7.png)
+
+##  Allow the agent to see from which TW handle the consumer is reaching out
+### Type: Enhancement [Enhanced Agent Workspace - Social Messaging]
 
 Available to all customers?:  Social Messaging customers only
 
-We have enhanced the metadata presented below each message in conversations sourced by Facebook to include the page from which the consumer is reaching out.
+Channels: Twitter
+
+We have enhanced the metadata presented below each message in conversations sourced by Twitter to include the page from which the consumer is reaching out.
+
+##  Accessibility
+### Type: Fix [Enhanced Agent Workspace]
+
+Available to all customers?:  Yes
+
+During the last weeks, the team worked on fixing A11Y issues that were found as part of regression A11y tests on the Conversational Cloud.
+The following bug was fixed, and is included in NAW 1.29:
+
+* [AE-17076] All Connections table Filters - Search Transcript: Name, Role, Value
+* [AE-17052] Core Widgets - Predefined Content: Name, Role, Value & Keyboard Access
+* [AE-17029] Transcript Area - Conversation Input Toolbar - Active Images
+* [AE-17083] All Connections table Filters - Filter By Dialog: Form Label
+* [AE-17084] All Connections table Filters - List view: Grid
+
+## Twitter connector: Do not show SDEs as authenticated if relevant SiteSetting is OFF
+### Type: Fix [Enhanced Agent Workspace]
+
+Available to all customers? No. Social Messaging customers only.
+
+Channels: Twitter
+An issue has been repaired in the SDEs list of Social Messaging conversations, sourced from Twitter, causing them to appear as authenticated, even when a site-setting that points on showing authenticated indicator for connectors is Off. Brands with this site-setting off will now see the SDEs list for conversations sourced by Twitter as unauthenticated.
+
