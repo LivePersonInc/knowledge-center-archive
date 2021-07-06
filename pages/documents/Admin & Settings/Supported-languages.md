@@ -353,14 +353,14 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
         <td>✔️</td>
         <td>✔️</td>
       </tr>
-      <tr style="height: 21.5px;">
-        <td style="height: 21.5px;">French</td>
-        <td style="height: 21.5px;">✔️</td>
-        <td style="height: 21.5px;">✔️</td>
-        <td style="height: 21.5px;">✔️</td>
-        <td style="height: 21.5px;">✔️</td>
-        <td style="height: 21.5px;">✔️</td>
-        <td style="height: 21.5px;">✔️</td>
+      <tr>
+        <td>French</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>German</td>
