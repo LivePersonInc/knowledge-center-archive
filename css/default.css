@@ -1691,6 +1691,58 @@ div#cookie-law {
   cursor: pointer;
 }
 
+/* table new filter for support languages */
+
+#filter-input-table {
+	padding: 6px 10px;
+	border-radius: 4px;
+	text-align: left;
+	border: 1px solid #cccccc;
+	transition: 0.4s;
+}
+
+#filter-input-table:focus {
+	border: 1px solid #333642;
+	outline: none;
+}
+
+.countries-table {
+	margin-top: 20px;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.countries-table thead th {
+	background-color: #090c43;
+	color: white;
+	padding: 10px 4px;
+}
+
+.countries-table td,
+.countries-table th {
+	padding: 20px;
+	text-align: center;
+}
+
+.countries-table td,
+.countries-table th {
+	border: 1px solid #dedddd;
+	color: #666666;
+}
+
+.countries-table thead th {
+	width: 100%;
+}
+
+.countries-table tbody tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+.countries-table tbody tr:nth-child(even) {
+	background-color: #f8f8f8;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width: 1680px) {
