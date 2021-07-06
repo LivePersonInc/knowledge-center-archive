@@ -19,51 +19,6 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Post-conversation survey that supports migration to Conversation Builder 
-### Type: Enhancement [Conversation Builder Release 8.0.]
-
-This enhancement is available for all channels supported by the Conversational Cloud platform
-
-Available to all customers?: Y
-
-There’s a new enhancement to Conversation Builder post-conversation survey bots in support of brands that are migrating from Bot Studio to Conversation Builder for creating and managing survey bots. Specifically, brands that make use of survey, question, and answer IDs in their reporting on survey bots can now download a report on these for a given survey bot. Within Conversation Builder, go to the dashboard of bots, access the three-dot menu for the specific survey bot, and select Generate IDs report from the menu.
-
-## New Dynamic Routing tile
-### Type: Enhancement [Conversation Builder Release 8.0.]
-
-This enhancement is available for all channels supported by the Conversational Cloud platform
-
-Available to all customers?: Y
-
-Dynamic Routing is the intelligent routing of consumer conversations to the most qualified agents -- bot or human -- based on intent data and other contextual data: consumer inputs, past interactions, loyalty tier, and other attributes. Dynamic routing makes possible highly personal consumer journeys and routing at scale. It is a key architectural component of Conversation Orchestrator, one of LivePerson’s Conversational AI applications.
-
-In this release, Conversation Builder adds a new, code-free Dynamic Routing interaction, which you can use in a routing bot or in any other bot that needs to route the conversation intelligently.
-
-The Dynamic Routing interaction executes Conversation Builder’s askMaven scripting function to get from Conversation Orchestrator the next actions for the current conversation. (The next actions are determined based on the routing policies that you define in Conversation Orchestrator.) The Dynamic Routing interaction then automatically performs those next actions.
-
-![](img/CB-8-RN-1.png)
-
-There are other ways to implement Dynamic Routing. However, in a Conversation Builder bot in particular, using the new Dynamic Routing interaction is now recommended, as it’s the simplest and easiest approach. Those integrations and related interactions to transfer the conversation to the skill and to the agent? You don’t need them anymore. All that JavaScript code manually added by you? It’s no longer necessary. You configure just the Dynamic Routing interaction, which does it all: It makes the call to get the next actions, and then it performs those actions.
-
-## Redesigned Bots dashboard
-### Type: Enhancement [Conversation Builder Release 8.0.]
-
-This enhancement is available for all channels supported by the Conversational Cloud platform
-
-Available to all customers?: Y
-
-The Bots dashboard in Conversation Builder has been redesigned for improved performance and usability. You’ll find the new dashboard performs faster and makes it easier to quickly find and access the bot you ne
-
-
-## Limit for downloading custom events has increased
-### Type: Enhancement [Bot Analytics - Conversation Builder Release 8.0.]
-
-This enhancement is available for all channels supported by the Conversational Cloud platform
-
-Available to all customers?: Y
-
-In Bot Analytics, the limit for downloading custom events in specific has been increased from 10,000 in number to 100,000.
-
 ## Unified navigation for Intent Builder and Intent Analyzer
 ### Type: Enhancement [Intent Manager 2.2]
 
@@ -143,6 +98,52 @@ Multi-domain support makes it possible to evaluate each consumer message against
 * Support for more than one language per account
 * Support for multiple lines of business
 * Independently tuned models for specific use cases: Sales and marketing, Churn detection and escalation, Social media monitoring, Specialized bots and automation
+
+## Post-conversation survey that supports migration to Conversation Builder 
+### Type: Enhancement [Conversation Builder Release 8.0.]
+
+This enhancement is available for all channels supported by the Conversational Cloud platform
+
+Available to all customers?: Y
+
+There’s a new enhancement to Conversation Builder post-conversation survey bots in support of brands that are migrating from Bot Studio to Conversation Builder for creating and managing survey bots. Specifically, brands that make use of survey, question, and answer IDs in their reporting on survey bots can now download a report on these for a given survey bot. Within Conversation Builder, go to the dashboard of bots, access the three-dot menu for the specific survey bot, and select Generate IDs report from the menu.
+
+## New Dynamic Routing tile
+### Type: Enhancement [Conversation Builder Release 8.0.]
+
+This enhancement is available for all channels supported by the Conversational Cloud platform
+
+Available to all customers?: Y
+
+Dynamic Routing is the intelligent routing of consumer conversations to the most qualified agents -- bot or human -- based on intent data and other contextual data: consumer inputs, past interactions, loyalty tier, and other attributes. Dynamic routing makes possible highly personal consumer journeys and routing at scale. It is a key architectural component of Conversation Orchestrator, one of LivePerson’s Conversational AI applications.
+
+In this release, Conversation Builder adds a new, code-free Dynamic Routing interaction, which you can use in a routing bot or in any other bot that needs to route the conversation intelligently.
+
+The Dynamic Routing interaction executes Conversation Builder’s askMaven scripting function to get from Conversation Orchestrator the next actions for the current conversation. (The next actions are determined based on the routing policies that you define in Conversation Orchestrator.) The Dynamic Routing interaction then automatically performs those next actions.
+
+![](img/CB-8-RN-1.png)
+
+There are other ways to implement Dynamic Routing. However, in a Conversation Builder bot in particular, using the new Dynamic Routing interaction is now recommended, as it’s the simplest and easiest approach. Those integrations and related interactions to transfer the conversation to the skill and to the agent? You don’t need them anymore. All that JavaScript code manually added by you? It’s no longer necessary. You configure just the Dynamic Routing interaction, which does it all: It makes the call to get the next actions, and then it performs those actions.
+
+## Redesigned Bots dashboard
+### Type: Enhancement [Conversation Builder Release 8.0.]
+
+This enhancement is available for all channels supported by the Conversational Cloud platform
+
+Available to all customers?: Y
+
+The Bots dashboard in Conversation Builder has been redesigned for improved performance and usability. You’ll find the new dashboard performs faster and makes it easier to quickly find and access the bot you ne
+
+
+## Limit for downloading custom events has increased
+### Type: Enhancement [Bot Analytics - Conversation Builder Release 8.0.]
+
+This enhancement is available for all channels supported by the Conversational Cloud platform
+
+Available to all customers?: Y
+
+In Bot Analytics, the limit for downloading custom events in specific has been increased from 10,000 in number to 100,000.
+
 
 ## LivePerson NLU engine supports Japanese and Portuguese
 ### Type: Enhancement [Intent Manager 2.2]
@@ -269,4 +270,44 @@ Available to all customers? No. Social Messaging customers only.
 
 Channels: Twitter
 An issue has been repaired in the SDEs list of Social Messaging conversations, sourced from Twitter, causing them to appear as authenticated, even when a site-setting that points on showing authenticated indicator for connectors is Off. Brands with this site-setting off will now see the SDEs list for conversations sourced by Twitter as unauthenticated.
+
+## Agent Survey Report
+### Type: Enhancement [Data Transporter 4.2]
+
+Available to all customers? Y
+
+Channels - All channels, excluding web chat
+
+The Report Catalogue has been updated to include a new Agent Survey report which provides data from Agent Surveys, including details for surveys, questions, and answers, including free-text - data from this report is entirely based on data derived from the LP Messaging Interactions API. 
+
+**Enablement**
+This report is available to all existing Data Transporter customers and can be access from the Reports catalogue (Messaging Interactions - Agent Survey Report).
+
+**Limitations**
+No data on unanswered questions - The report will produce data for every closed or submitted survey and every submitted answer. 
+However, data for questions is bundled with answers. There is no marker indicating what question was not answered. This means that analytics produced from the report won’t take “skipped answer” into consideration. For example, if a question with two possible answers (Yes/No) was asked 100 times. The outcomes were
+(Not answered - 70), (Yes - 15), (No - 15). The answer ratio produced based on the report data would be: Yes - 50% ; No - 50%.
+
+For surveys closed or submitted without any answered question, the row is produced with empty fields relating to questions and answers.
+
+## Messaging - Conversation flat file - report version upgrade
+### Type: Enhancement [Data Transporter 4.2]
+
+Available to all customers? Y
+
+Channels: All channels, excluding web chat
+
+The “Messaging Interactions - Conversation flat file” report (11201) has a new version 4, featuring:
+Ability to select requested categories of data, giving an option to brands to reduce file-sizes and processing of data that is not intended for use.
+New categories of data available to be included in the report: LatestAgentSurvey, PreviouslySubmittedAgentSurveys, UniqueIntents.
+New columns added to existing Info category: deviceModel, features, firstIntentLabel, firstIntentName, ipAddress, pendingAgentSurvey, sessionId, visitorId, wasStepUp.
+
+**Enablement**
+To enable this, brands must login to Data Transporter and edit their existing Conversational Flat File reports and “upgrade” the version from 3 to 4. An upgrade button is located in the task edit form beside the version value.
+To select the data elements you require for the report, at the bottom of the task form you will find a Content To Retrieve selector - simply choose the options you would like to receive.
+
+**Limitations**
+Upgraded tasks to version 4 of the report cannot be downgraded.
+
+
 
