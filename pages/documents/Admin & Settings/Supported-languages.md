@@ -10,144 +10,530 @@ isTutorial: false
 isNew: false
 date: 2019-01-29 10:04:15 +0000
 redirect_from:
-  - change-the-interface.html
-
+    - change-the-interface.html
 ---
-## Languages supported on the visitor side
 
-The embedded [engagement window](contact-center-management-campaigns-engagement-window.html) and email transcripts sent to consumers support over 40 languages and dialects:
+LivePerson supports up to 44 languages and dialects for consumer experiences and up to 17 languages for brand user experiences, and is constantly expanding its support. 
 
-* Arabic
-* Bulgarian
-* Chinese (Simplified)
-* Chinese (Traditional Hong Kong)
-* Chinese (Traditional Taiwan)
-* Croatian
-* Czech
-* Danish
-* Dutch
-* English (US)
-* English (UK)
-* Estonian
-* Finnish
-* French
-* French-Canadian
-* German
-* Greek
-* Hebrew
-* Hindi
-* Hungarian
-* Indonesian
-* Italian
-* Japanese
-* Korean
-* Latin American Spanish
-* Latvian
-* Lithuanian
-* Macedonian
-* Malaysian
-* Norwegian
-* Polish
-* Portuguese (Brazil)
-* Portuguese (Portugal)
-* Romanian
-* Russian
-* Serbian
-* Slovak
-* Slovenian
-* Spanish
-* Swedish
-* Thai
-* Turkish
-* Ukrainian
-* Vietnamese
+## Language support matrix
 
-## Languages supported in the LivePerson workspace
+### Consumer Experience
 
-The [Agent Workspace](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html) supports the following languages:
+  <div class="table1">
+  <input type="text" class="light-table-filter" data-table="countries-table-1" id="filter-input-table" placeholder="Filter">
+  <table class="countries-table countries-table-1">
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Web Messaging</th>
+        <th>Mobile Messaging (SDK)</th>
+        <th>Co-Browse (Consumer & Agent)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Arabic</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Bulgarian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Chinese (Simplified)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Chinese (Traditional Hong Kong)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Chinese (Traditional Taiwan)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Croatian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Czech</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Danish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Dutch</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>English (US)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>English (UK)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Estonian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Finnish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>French</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>French-Canadian</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>German</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Greek</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hebrew</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hindi</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hungarian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Indonesian</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Italian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Japanese</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Korean</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Latvian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lithuanian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Macedonian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Malaysian</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Norwegian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Polish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Portuguese (Brazil)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Portuguese (Portugal)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Romanian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Russian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Serbian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Slovak</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Slovenian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Spanish (European)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Spanish (Latin American)</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Swedish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Thai</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Turkish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Ukrainian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Vietnamese</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-* English (US)
-* Chinese (Simplified)
-* Danish
-* Finnish
-* French
-* German
-* Italian
-* Japanese
-* Korean
-* Portuguese (Brazil)
-* Romanian
-* Spanish
-* Turkish
-* Indonesian
-* Vietnamese
-* Russian
+### Brand User Experience
 
-## Languages supported in the Mobile SDK 
+<div class="table2">
+  <input type="text" class="light-table-filter" data-table="countries-table-2" id="filter-input-table" placeholder="Filter">
 
-The [Mobile SDK](messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html) supports 39 languages and dialects:
+  <table class="countries-table countries-table-2">
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Agent &amp; Manager Workspace</th>
+        <th>Campaigns</th>
+        <th>Users</th>
+        <th>Conversation Builder</th>
+        <th>Intent Manager</th>
+        <th>Proactive & Connect to Messaging</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chinese (Simplified)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Danish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>English (US)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Finnish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>French</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>German</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Indonesian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Italian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Japanese</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Korean</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Portuguese (Brazil)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Romanian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Russian</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Spanish (European)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Spanish (Latin American)</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>Turkish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Vietnamese</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-* Bulgarian
-* Chinese (Simplified)
-* Chinese (Traditional Hong Kong)
-* Chinese (Traditional Taiwan)
-* Croatian
-* Czech
-* Danish
-* Dutch
-* English (US)
-* English (UK)
-* Estonian
-* Finnish
-* French
-* German
-* Greek
-* Hebrew
-* Hindi
-* Hungarian
-* Italian
-* Japanese
-* Korean
-* Latvian
-* Lithuanian
-* Macedonian
-* Norwegian
-* Polish
-* Portuguese (Brazil)
-* Portuguese (Portugal)
-* Romanian
-* Russian
-* Serbian
-* Slovak
-* Slovenian
-* Spanish
-* Swedish
-* Thai
-* Turkish
-* Ukrainian
-* Vietnamese
+### NLU Language Support
 
-## Languages supported in CoBrowse
+<div class="table3">
+  <input type="text" class="light-table-filter" data-table="countries-table-3" id="filter-input-table" placeholder="Filter">
 
-[CoBrowse](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) supports the following languages in the Agent Workspace and on the visitor side:
+  <table class="countries-table countries-table-3">
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>MCS</th>
+        <th>NLU V2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>English</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+      <tr>
+        <td>French</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>German</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Italian</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Japanese</td>
+        <td>✔️</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Spanish</td>
+        <td>✔️</td>
+        <td>✔️</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-* English (US)
-* Chinese (Simplified)
-* Chinese (Traditional)
-* Danish
-* Finnish
-* French
-* German
-* Italian
-* Japanese
-* Korean
-* Portuguese
-* Spanish
-* Turkish
+## Conversational Cloud Language Configuration
+### Account level setting
+To set the language of the Conversational Cloud user interface of an account, change the language settings in the Users Model footnotes.
 
-## Languages supported in Analytics Builder
+![](img/LANG-1.png)
 
-The [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) supports the English language only.
+### User level setting
+Users can override their language on the My Details page, which is accessed through the user menu.
 
-## Languages supported by MCS
-[MCS](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) is available in: English, French, Italian, Japanese, German and Spanish.
+![](img/LANG-2.png)
+
+### Description & Dependencies
+Once a language is set, all UI modules and applications not supporting the selected language will remain in English.  See the <language support matrix> for more information.
+
+
