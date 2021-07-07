@@ -40,6 +40,22 @@ Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) 
 
 There is a new Intent Manager Dashboard that provides a high level overview of Domains, Intent Coverage, and Intent Quality. From the dashboard you can control settings and quickly navigate to the Discover, Build, Optimize, and Analyze sections of Intent Manager for each Domain.
 
+**'Set as Primary Domain' setting**
+The new 'Set as Primary Domain' setting has two purposes:
+* In applications that make use of a single domain (e.g., Agent Manager Workspace, Performance Optimizer, and Messaging Interaction API), this is the domain that is used. 
+* When intent tracking data is gathered for analysis within Intent Manager, and multiple, good intent matches for an utterance are found, the intent in the primary domain is the one considered to be the best matched intent.
+
+Note: The designation of a domain as primary affects only intent matching as it relates to the intent tracking data that’s gathered for display on the Analyze page within Intent Manager. It does not affect intent matching in any other way. For example, it does not affect Conversation Builder/third-party bots, Knowledge Base, Agent Assist, etc. Respectively, the designation of a primary domain plays no role in intent matching when it comes to determining a dialog to start for the consumer, a knowledge base article to send to the consumer, a knowledge base and/or bot to recommend to an agent, etc.
+
+**Enable Intent Tracking domain setting**
+This enables “intent listening” for the domain, which provides you with enhanced intent-related reporting on your consumers’ utterances. What’s more, it means you can now enable this for multiple domains. (Previously, you could only do this for a single domain, and you enabled intent tracking at the intent level, not the domain level.)
+
+When intent tracking is enabled, the system records and labels all future conversations with intent metadata (e.g., a consumer utterance of “I want to cancel my flight” is labeled as having the “cancel flight” intent in an “Airlines” domain). The system also records other metrics like CSAT, Meaningful Conversation Score and more. This intent data is then populated into the Analyze page within Intent Manager.
+
+The number of domains for which you can enable intent tracking is configurable. To increase the number, contact your LivePerson account representative. If this field is disabled, you’ve reached the limit. You can either increase the number or disable intent tracking for another domain.
+
+You can enable intent tracking at a later time, but be aware that there is no backfill of historical data. Data begins to be recorded when this setting is enabled.
+
 ## Multi-domain support
 Intent Manager 2.2 also introduces multiple intent domain support, making it possible to evaluate each consumer message against multiple machine learning models in real time, with the ability to process and store classifications from multiple Intent Domains simultaneously (up to 5 domains). 
 ![](img/IM-updates-3.png)
