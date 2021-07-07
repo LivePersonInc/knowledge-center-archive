@@ -41,7 +41,7 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
         <td>Bulgarian</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
       </tr>
       <tr>
         <td>Chinese (Simplified)</td>
@@ -75,14 +75,14 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
       </tr>
       <tr>
         <td>Danish</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Dutch</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
@@ -93,81 +93,81 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
       </tr>
       <tr>
         <td>English (UK)</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Estonian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Finnish</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>French</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>French-Canadian</td>
-        <td></td>
+        <td>✔️</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>German</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Greek</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Hebrew</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Hindi</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Hungarian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Indonesian</td>
-        <td></td>
+        <td>✔️</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>Italian</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Japanese</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Korean</td>
@@ -177,116 +177,116 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
       </tr>
       <tr>
         <td>Latvian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Lithuanian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Macedonian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Malaysian</td>
-        <td></td>
+        <td>✔️</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>Norwegian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Polish</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Portuguese (Brazil)</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Portuguese (Portugal)</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Romanian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Russian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Serbian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Slovak</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Slovenian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Spanish (European)</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Spanish (Latin American)</td>
-        <td></td>
+        <td>✔️</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>Swedish</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Thai</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
         <td>Turkish</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Ukrainian</td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
         <td></td>
       </tr>
       <tr>
