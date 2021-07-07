@@ -522,14 +522,6 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
   </table>
 </div>
 
-### Languages supported in Analytics Builder
-
-The [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) supports the English language only.
-
-### Languages supported by MCS
-
-[MCS](<data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html>) is available in: English, French, Italian, Japanese, German and Spanish.
-
 ## Conversational Cloud Language Configuration
 ### Account level setting
 To set the language of the Conversational Cloud user interface of an account, change the language settings in the Users Model footnotes.
