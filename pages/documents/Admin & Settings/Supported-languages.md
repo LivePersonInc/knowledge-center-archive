@@ -322,18 +322,18 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Danish</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>English (US)</td>
@@ -349,108 +349,108 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>French</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>German</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Indonesian</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Italian</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Japanese</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Korean</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Portuguese (Brazil)</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Portuguese (Portugal)</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Romanian</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Russian</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Spanish (European)</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Spanish (Latin American)</td>
@@ -466,18 +466,18 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Vietnamese</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -530,10 +530,26 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
   </table>
 </div>
 
-## Languages supported in Analytics Builder
+### Languages supported in Analytics Builder
 
 The [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) supports the English language only.
 
-## Languages supported by MCS
+### Languages supported by MCS
 
 [MCS](<data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html>) is available in: English, French, Italian, Japanese, German and Spanish.
+
+## Conversational Cloud Language Configuration
+### Account level setting
+To set the language of the Conversational Cloud user interface of an account, change the language settings in the Users Model footnotes.
+
+![](img/LANG-1.png)
+
+### User level setting
+Users can override their language on the My Details page, which is accessed through the user menu.
+
+![](img/LANG-2.png)
+
+### Description & Dependencies
+Once a language is set, all UI modules and applications not supporting the selected language will remain in English.  See the <language support matrix> for more information.
+
+
