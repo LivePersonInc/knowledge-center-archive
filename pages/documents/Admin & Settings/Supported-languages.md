@@ -87,15 +87,15 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
       </tr>
       <tr>
         <td>English (US)</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>English (UK)</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
+        <td></td>
       </tr>
       <tr>
         <td>Estonian</td>
@@ -171,9 +171,9 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
       </tr>
       <tr>
         <td>Korean</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Latvian</td>
