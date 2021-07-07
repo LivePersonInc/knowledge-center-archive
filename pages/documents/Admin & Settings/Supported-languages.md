@@ -534,6 +534,6 @@ Users can override their language on the My Details page, which is accessed thro
 ![](img/LANG-2.png)
 
 ### Description & Dependencies
-Once a language is set, all UI modules and applications not supporting the selected language will remain in English.  See the <language support matrix> for more information.
+Once a language is set, all UI modules and applications not supporting the selected language will remain in English.  See the [language support matrix](https://knowledge.liveperson.com/admin-settings-supported-languages.html#language-support-matrix) for more information.
 
 
