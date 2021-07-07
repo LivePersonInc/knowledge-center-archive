@@ -313,7 +313,7 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
         <th>Users</th>
         <th>Conversation Builder</th>
         <th>Intent Manager</th>
-        <th>LightTableFilter</th>
+        <th>Proactive & Connect to Messaging</th>
       </tr>
     </thead>
     <tbody>
@@ -417,15 +417,6 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
         <td></td>
       </tr>
       <tr>
-        <td>Portuguese (Portugal)</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
         <td>Romanian</td>
         <td>✔️</td>
         <td>✔️</td>
@@ -486,7 +477,7 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
 ### NLU Language Support
 
 <div class="table3">
-  <input type="text" class="light-table-filter" data-table="countries-table" id="filter-input-table" placeholder="Filter">
+  <input type="text" class="light-table-filter" data-table="countries-table-3" id="filter-input-table" placeholder="Filter">
   <table class="countries-table">
     <thead>
       <tr>
