@@ -478,7 +478,8 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
 
 <div class="table3">
   <input type="text" class="light-table-filter" data-table="countries-table-3" id="filter-input-table" placeholder="Filter">
-  <table class="countries-table">
+
+  <table class="countries-table countries-table-3">
     <thead>
       <tr>
         <th>Language</th>
