@@ -123,16 +123,7 @@ The Dynamic Routing interaction executes Conversation Builder’s askMaven scrip
 
 ![](img/CB-8-RN-1.png)
 
-There are other ways to implement Dynamic Routing. However, in a Conversation Builder bot in particular, using the new Dynamic Routing interaction is now recommended, as it’s the simplest and easiest approach. Those integrations and related interactions to transfer the conversation to the skill and to the agent? You don’t need them anymore. All that JavaScript code manually added by you? It’s no longer necessary. You configure just the Dynamic Routing interaction, which does it all: It makes the call to get the next actions, and then it performs those actions.
-
-## Redesigned Bots dashboard
-### Type: Enhancement [Conversation Builder Release 8.0.]
-
-This enhancement is available for all channels supported by the Conversational Cloud platform
-
-Available to all customers?: Y
-
-The Bots dashboard in Conversation Builder has been redesigned for improved performance and usability. You’ll find the new dashboard performs faster and makes it easier to quickly find and access the bot you ne
+There are other ways to implement Dynamic Routing. However, in a Conversation Builder bot in particular, using the new Dynamic Routing interaction is now recommended, as it’s the simplest and easiest approach. Bot builder no longer need the integrations and related interactions to transfer the conversation to the skill and to the agent or manually add JavaScript code. Simply configure  the Dynamic Routing interaction, which will create the call to get the next actions, and also perform those actions.
 
 
 ## Limit for downloading custom events has increased
