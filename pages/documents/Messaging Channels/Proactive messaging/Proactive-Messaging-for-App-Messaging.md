@@ -54,9 +54,9 @@ Install the new widget in Agent Workspace to display the first outbound message.
 * Follow the steps to create a new widget in the Agent Workspace.
 * Create the widget name: InApp-Widget
 * Copy this link for respective regions
-  - NA Region - Copy this link for NA accounts: https://proactive-messaging.z1.fs.liveperson.com/api/cx-widget/login
-  - EMEA Region - Copy this link for EMEA accounts: https://proactive-messaging.z2.fs.liveperson.com/api/cx-widget/login
-  - APAC Region - Copy this link for APAC accounts: https://proactive-messaging.z3.fs.liveperson.com/api/cx-widget/login
+  - NA Region - Copy this link for NA accounts: https://proactive-messaging.z1.fs.liveperson.com/api/cx-widget/account/<<accountId>>/auth/url
+  - EMEA Region - Copy this link for EMEA accounts: https://proactive-messaging.z2.fs.liveperson.com/api/cx-widget/account/<<accountId>>/auth/url
+  - APAC Region - Copy this link for APAC accounts: https://proactive-messaging.z3.fs.liveperson.com/api/cx-widget/account/<<accountId>>/auth/url
 * Add the link in new the widget screen
 
 ## Onboarding
