@@ -13,11 +13,11 @@ redirect_from:
     - change-the-interface.html
 ---
 
+LivePerson supports up to 44 languages and dialects for consumer experiences and up to 17 languages for brand user experiences, and is constantly expanding its support. 
+
 ## Language support matrix
 
-The embedded [engagement window](contact-center-management-campaigns-engagement-window.html) and email transcripts sent to consumers support over 40 languages and dialects:
-
-## Consumer Experience
+### Consumer Experience
 
   <div class="table1">
   <input type="text" class="light-table-filter" data-table="countries-table-1" id="filter-input-table" placeholder="Filter">
@@ -299,7 +299,7 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
   </table>
 </div>
 
-## Brand User Experience
+### Brand User Experience
 
 <div class="table2">
   <input type="text" class="light-table-filter" data-table="countries-table-2" id="filter-input-table" placeholder="Filter">
@@ -483,7 +483,7 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
   </table>
 </div>
 
-## NLU Language Support
+### NLU Language Support
 
 <div class="table3">
   <input type="text" class="light-table-filter" data-table="countries-table" id="filter-input-table" placeholder="Filter">
