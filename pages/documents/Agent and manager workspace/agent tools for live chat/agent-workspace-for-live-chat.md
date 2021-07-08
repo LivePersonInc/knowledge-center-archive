@@ -106,7 +106,7 @@ The conversation is ended and the visitor receives a message in the chat window 
 
 At any given time in your shift as an agent, you are expected to handle multiple chats in a competent and efficient manner. By using predefined content in your chats, you can relieve some of the pressure on yourself, achieve your goals, and maintain your high standards. The use of [predefined content ](agent-manager-workspace-workspace-configuration-predefined-content-overview)saves time, and can ensure consistent, error-free responses and a professional “tone of voice”.
 
-You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys (shortcuts) to the most useful predefined responses, and you can save time and energy by using them.
+You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys to the most useful predefined responses, and you can save time and energy by using them.
 
 While you are chatting, you can quickly navigate through the categories and select the relevant response. Here are some examples of categorized predefined responses:
 
@@ -114,7 +114,7 @@ While you are chatting, you can quickly navigate through the categories and sele
 * **Conversational:** Thank you for waiting.
 * **Greeting:** Hello, How may I assist you?
 
-### Shortcuts
+### Hotkeys
 
 See [this document](agent-manager-workspace-agent-tools-for-live-chat-shortcuts.html) for an updated list of shortcuts.
 
