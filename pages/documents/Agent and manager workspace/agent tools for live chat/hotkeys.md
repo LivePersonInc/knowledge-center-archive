@@ -17,13 +17,14 @@ There are seven hot keys available in the Agent Workspace. Open the hot keys men
 Select an action by pressing the applicable letter:
 
 * LOGOUT (L): to logout of the Agent Workspace
-* ACCEPT ENGAGEMENT (A): to accept a new incoming chat. Only available when an engagement is ringing.
+* ACCEPT ENGAGEMENT (A): to accept a new incoming chat
 * VISITOR LIST (V): to access the list of your current visitors
 * STATUS (S): to toggle your status between Online, Back Soon and Away
-* END ENGAGEMENT (X): to end the current chat. Only available when you have an open conversation.
-* TRANSFER ENGAGEMENT (T): to transfer the chat to another agent. Only available when you have an open conversation.
-* RESPOND TO NEXT (M): navigate to the visitor who has been waiting the longest for a response from the agent. Only available when you have multiple open conversations.
-* RETURN CONVERSATION TO QUEUE (Q): returns the currently focused conversation to the queue. Only available when you have a conversation that can be transfered back to the queue.
+* END ENGAGEMENT (X): to end the current chat
+* INACTIVE LIST (I): to open the inactive chats list
+* TRANSFER ENGAGEMENT (T): to transfer the chat to another agent
+* RESPOND TO NEXT (N): navigate to the visitor who has been waiting the longest for a response from the agent
+* RETURN CONVERSATION TO QUEUE (Q): returns the currently focused conversation to the queue
 
 ### Input hotkeys
 
