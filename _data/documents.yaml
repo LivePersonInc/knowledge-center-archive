@@ -224,6 +224,7 @@
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent Workspace for live chat
+        - pagename: Hotkeys
         - pagename: CoBrowse for live chat
     - subcategoryname: Manager tools for live chat
       pages:
