@@ -1,3 +1,15 @@
+---
+pagename: Hotkeys
+categoryName: Agent & Manager Workspace
+subCategoryName: Agent tools for live chat
+indicator: chat
+subtitle: 'Useful hot keys for live chat'
+level3: ''
+permalink: agent-manager-workspace-agent-tools-for-live-chat-hotkeys.html
+isTutorial: false
+date: 2019-01-21 12:19:13 +0000
+---
+
 Hot keys help agents manage multiple, simultaneous tasks, by providing shortcuts to easily move between tasks, such as opening the Visitor List, toggling your status, and transferring chats to other agents.
 
 There are seven hot keys available in the Agent Workspace. Open the hot keys menu by holding down the control and tilde keys (CTRL + \~).
