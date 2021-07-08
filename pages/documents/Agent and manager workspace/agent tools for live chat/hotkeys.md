@@ -29,9 +29,9 @@ Select an action by pressing the applicable letter:
 
 In addition to the above hotkeys, which cover general workspace actions, you have hotkeys available to you when typing input. They are as follows:
 
-* CTRL + B: apply "bold" to the highlighted text.
-* CTRL + I: apply "italics" to the highlighted text.
-* CTRL + U: apply "underline" to the highlighted text.
-* CTRL + L: add a hyperlink to the highlighted text.
+* CTRL/CMD + B: apply "bold" to the highlighted text.
+* CTRL/CMD + I: apply "italics" to the highlighted text.
+* CTRL/CMD + U: apply "underline" to the highlighted text.
+* CTRL/CMD + L: add a hyperlink to the highlighted text.
 
 
