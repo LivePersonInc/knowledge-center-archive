@@ -188,6 +188,7 @@
           level3:
             - level3name: The enhanced Agent Workspace
             - level3name: User guide
+            - level3name: Hotkeys
             - level3name: FAQs
             - level3name: Configuration
             - level3name: Training deck
@@ -223,6 +224,7 @@
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent Workspace for live chat
+        - pagename: Hotkeys
         - pagename: CoBrowse for live chat
     - subcategoryname: Manager tools for live chat
       pages:
