@@ -1,19 +1,19 @@
 ---
-pagename: Shortcuts
+pagename: Hotkeys
 categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'A list of helpful shortcuts'
+subtitle: 'A list of helpful hotkeys'
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-shortcuts.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-hotkeys.html
 isTutorial: false
 date: 2021-07-08 09:00:00 +0000
 isNew: false
 ---
 
-To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, simply press the key combination as shown below.
+To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a hotkey, simply press the key combination as shown below.
 
-| ACTION | HOT KEY |
+| ACTION | HOTKEY |
 | --- | --- |
 | Move to next conversation| Alt + Shift + M |
 | Deselect conversation | Alt + Shift + U |
