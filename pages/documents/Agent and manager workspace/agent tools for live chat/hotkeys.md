@@ -27,7 +27,7 @@ Select an action by pressing the applicable letter:
 
 ### Input hotkeys
 
-In addition to the above hotkeys, which cover general workspace actions, you have hotkeys available to you when typing input. They are as follows:
+In addition to the above hotkeys, which cover general workspace actions, you have hotkeys available to you when typing input, just like in most common text editors. They are as follows:
 
 * CTRL/CMD + B: apply "bold" to the highlighted text.
 * CTRL/CMD + I: apply "italics" to the highlighted text.
