@@ -17,7 +17,6 @@ At any given time in your shift as an agent, you are expected to handle multiple
 
 You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized in categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys (shortcuts) to the most useful predefined responses and you can save time and energy by using them.
 
-{: .notice}
 Usually, predefined content will be filtered by skill. However, there are two scenarios when **all** predefined content will be returned, without filtering:
 
 * The agent and the engagement do not have an assigned skill
