@@ -11,7 +11,7 @@ date: 2021-07-08 09:00:00 +0000
 isNew: false
 ---
 
-To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, simply hold down the key combination as shown below.
+To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, simply press the key combination as shown below.
 
 | ACTION | HOT KEY |
 | --- | --- |
