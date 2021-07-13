@@ -90,7 +90,7 @@ The new data-at-rest encryption solution is using the existing LivePerson encryp
 The move to the new encryption is transparent and no action is required from the customer.
 
 **When will this be available?**  
-We started rolling out to customers in early February 2021(early adopters). Rollout, for customers with encryption enabled, should be finalized by the middle of Q2.  
+We started rolling out to customers in early February 2021(early adopters). Rollout, for customers with encryption enabled, should be finalized by the middle of Q3.  
 
 ## Application Layer     
 Account data can only be accessed through the web-based console or LivePerson API’s.
