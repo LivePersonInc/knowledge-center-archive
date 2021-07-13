@@ -95,12 +95,6 @@
    - subcategoryname: Third Party Bot Connectors
    - subcategoryname: AI Annotator
    - subcategoryname: Conversation Orchestrator
-     pages:
-       - pagename: Overview
-       - pagename: Agent Assist
-       - pagename: Conversation Context Service
-       - pagename: Dynamic Routing
-       - pagename: Recommendation API
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
