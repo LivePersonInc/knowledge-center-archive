@@ -11,7 +11,7 @@ isNew: false
 date: '2021-07-14T13:04:36.000+00:00'
 ---
 
-The Account number (which sometimes referrers to as Account ID) is your tenant identifier in Conversational Cloud. It is one of the three necessary fields you must provide during login to your Conversational Cloud account. therefore, it needs to be well saved and kept.
+The account number (which sometimes referrers to as Account ID) is your tenant identifier in Conversational Cloud. It is one of the three necessary fields you must provide during login to your Conversational Cloud account. therefore, it needs to be well saved and kept.
 
 ![](img/enter-your-credentials-login.png) 
  
