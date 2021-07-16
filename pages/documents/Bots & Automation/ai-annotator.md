@@ -124,7 +124,5 @@ All submitted Intent Annotations, including the consumer message and the suggest
 
 ### Adding Intent Annotations to an intent
 
-Once the consumer message has been copied to the clipboard, open Intent Builder, paste it into the corresponding intent and update the model. If you are using NLU version 2, click on “Train model”. Once the process is complete, similar consumer messages will be correctly identified by the bot. To import  bulk intents to Intent Builder, please see the following [article](https://developers.liveperson.com/intent-builder-domains.html).
-
-![](img/ai-annotator-14.png)
+For information on this, see [here](https://developers.liveperson.com/intent-manager-optimize.html) in the Developer Center.
 
