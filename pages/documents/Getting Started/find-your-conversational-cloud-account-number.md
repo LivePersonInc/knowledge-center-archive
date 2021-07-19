@@ -1,5 +1,5 @@
 ---
-pagename: Find your Conversational Cloud Account number
+pagename: Find your Conversational Cloud account number
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
@@ -11,19 +11,17 @@ isNew: false
 date: '2021-07-14T13:04:36.000+00:00'
 ---
 
-The Account number (which sometimes referrers to as Account ID) is your tenant identifier in Conversational Cloud. It is one of the three necessary fields you must provide during login to your Conversational Cloud account. therefore, it needs to be well saved and kept.
+The account number (aka Account ID) is your primary identifier in the Conversational Cloud. It is one of the three mandatory fields you must complete to successfully log in to your Conversational Cloud account, and should therefore be stored somewhere safe.
 
 ![](img/enter-your-credentials-login.png) 
  
 
-## Here is what you need to do in case you lost/forgot you account number:
+## How to find your account number:
 
 **1. If you're the account owner**  
-When you first registered and the account was created, you should have been recieved with a registration email from LivePerson which contains your account number.
-Try to go to your mailbox and look for an email from registration@liveperson.com
+When you first registered and your account was created, you should have received a registration email from LivePerson containing your account number. Search both your mailbox and your Spam folder for an email from registration@liveperson.com.
 
 ![](img/account-registration-email.png)
 
-**2. In any other case**  
-If you don't have anyone from your company available to provide you with the Conversational Cloud account number, and in a case of emergency, there's a short procedure (which involves few techincal steps) that can help you identify the Conversational Cloud account number of your brand. 
-The following video shows how:
+**2. If you’re not the account owner**  
+If no one at your company is able to provide you with your Conversational Cloud account number, and/or in case of an emergency, follow the steps in the video below in order to obtain the Conversational Cloud account number for your brand.
