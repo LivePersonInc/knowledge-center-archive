@@ -30,7 +30,6 @@ To disable this feature, please contact your LivePerson representative.
 
 **Limitations**
 * Private Messages are not available to bot agents at the moment, only to human agents.
-* Private Messages are not currently available for [Social Messaging](messaging-channels-social-messaging-social-messaging-overview.html).
 * Private Messages will not show a notification to the agent near the module icon, or on top of the conversation line in the My Connections panel (unlike regular messages).
  
 
