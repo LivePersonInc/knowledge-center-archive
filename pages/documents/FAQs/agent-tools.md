@@ -169,7 +169,7 @@ This means that for a conversation to close, it is possible to take anywhere bet
 4. Click on the text area to edit it.
 5. Click on the "Save" button.
 
-## Why is there an error when I try to change a status
+## Why is there an error when I try to change a status?
 
 There are a few steps that need to be checked: 
 Check if the Agent's user has a max number of Live chats assigned, if they don’t have any please edit it - up to 1.
