@@ -69,6 +69,20 @@ Always include the the **http:// prefix** in URLs that you send when messaging.
 
 ![](/img/troubleshooting-consumer-experience3.png)
 
+## App Messaging: Mobile App not displaying my conversations
+
+**In App messaging:** 
+There is a maximum supported length of messages a consumer or an agent can send, and the limit may have been surpassed. 
+You can find the character limitations here: https://knowledge.liveperson.com/messaging-channels-app-messaging-app-messaging-faqs.html#q-what-is-the-maximum-supported-message-length-a-consumer-or-an-agent-can-send-can-these-limits-be-configured
+
+**In Agent app:** 
+Agent app has limitations for unassigned skill conversation. The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the My Conversations or All Conversations list.
+
+
+
+
+
+
 ## App Messaging: double click doesn’t scroll to last message
 
 ### Cause:
