@@ -109,7 +109,7 @@ On your LivePerson Conversational Cloud account, take the following steps:
 **A:** The manual rename takes precedence over the automatic visitor name population so that the name set by the agent is the one displayed.
 
 **Q:** Will the consumer get a notification indicating that his name has been changed by the agent?
-**A:** No - the changes are visible for Conversational Cloud users only and are not visible for consumers.
+**A:** No. While the change in name is visible to the visitor, they will not receive a notification that it has changed.
 
 **Q:** Will these capabilities be supported in the old workspace as well?
 **A:** No, the enhancements are supported for the enhanced Agent Workspace only.
