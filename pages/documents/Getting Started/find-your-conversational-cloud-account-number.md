@@ -11,7 +11,7 @@ isNew: false
 date: '2021-07-14T13:04:36.000+00:00'
 ---
 
-The account number (aka Account ID) is your primary identifier in the Conversational Cloud. It is one of the three mandatory fields you must complete to successfully log in to your Conversational Cloud account, and should therefore be stored somewhere safe.
+The account number, aka Account ID, is your primary identifier in the Conversational Cloud. It is one of the three mandatory fields you must complete to successfully log in to your Conversational Cloud account, and should therefore be stored somewhere safe.
 
 ![](img/enter-your-credentials-login.png) 
  
