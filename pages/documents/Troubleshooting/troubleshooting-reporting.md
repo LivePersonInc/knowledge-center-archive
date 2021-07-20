@@ -11,6 +11,9 @@ isNew: false
 date: 2019-02-26 12:03:37 +0000
 
 ---
+## For how long is the data stored?
+Operational data is stored for 13 months.
+
 ## Missing Excel export button in Analytics Builder and cannot export dashboards
 
 ### Cause:
