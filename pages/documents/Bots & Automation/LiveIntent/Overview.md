@@ -20,11 +20,15 @@ redirect_from:
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/497245668?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-The Intent Manager is the suite of tools that allows you to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated. The Intent Manager is made up of the Intent Builder and the LivePerson Intent Analyzer. 
+In the Conversational AI section, an Intent Manager serves as the single point of entry for all Intent Manager components, including Intent Builder and Intent Analyzer.
 
-The LivePerson Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. It integrates seamlessly with the Intent Builder to provide a powerful unified system for intent modeling and management.
+The Intent Manager homepage is where users can view key coverage and quality stats and can view the four key elements of Intent Management in one unified navigation: Discover, Build, Analyze, Optimize. Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) is seamless and coherent. For brands that do not have Intent Analyzer enabled Analyze and Discovery features will be “locked”.
 
-The Intent Builder makes it possible for brands to create their own intents and entities organized by domain. 
+The **Intent Manager** is the suite of tools that allows you to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated. The Intent Manager is made up of the Intent Builder and the Intent Analyzer. 
+
+The **Intent Analyzer** automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. It integrates seamlessly with the Intent Builder to provide a powerful unified system for intent modeling and management.
+
+The **Intent Builder** makes it possible for brands to create their own intents and entities organized by domain. 
 
 Intent Manager starter packs are available to accelerate the development of Intent Taxonomy with both vertical specific and universal starter intents to enable our customers to quickly get started with an intent-driven business. Intent starter packs are available for cross verticals such as e-commerce and insurance for purchases and escalations. 
 
