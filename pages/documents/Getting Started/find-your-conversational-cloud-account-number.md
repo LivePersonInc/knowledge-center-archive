@@ -34,7 +34,7 @@ If no one at your company is able to provide you with your Conversational Cloud 
 	4. **Microsoft Internet Explorer**: [https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/ie-mode/#launching-the-devtools-on-a-tab-in-ie-mode](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/ie-mode/#launching-the-devtools-on-a-tab-in-ie-mode)
 	5. **Mozilla Firefox**: [https://developer.mozilla.org/en-US/docs/Tools](https://developer.mozilla.org/en-US/docs/Tools)
 3. Search for a network file called: “tag.js”. 
-4. Extract the account number from the query param “site=<account_number>”. (e.g.,  tag.js?site=60035520)
+4. Extract the account number from the query param “site=<account_number>”. (e.g.,  tag.js?site=8367445)
 
 
 ![](img/find_your_account_number.gif) 
