@@ -14,6 +14,12 @@ date: 2019-02-26 12:34:43 +0000
 
 You can log in to your account [here](https://authentication.liveperson.net/). To reset your password, please [click here](https://authentication.liveperson.net/forgotMyPassword.html). If you encounter any issues with resetting your password, please see the frequently asked questions below.
 
+## Why do I keep getting logged out from the platform?
+
+* Network connectivity issues: check speeds and verify a more stable connection is available: https://www.speedtest.net/
+* You’re being timed out based on account configurations. Interact with a platform before agent inactivity period is met, or update the account configurations with the account team so the user has a bigger window of time before being logged out.
+* You're attempting to log in on another instance (i.e. Mobile App) and *only one session is allowed per user as a time* 
+
 ## Why am I getting a “process failed” error when I try to reset my password?
 
 If your user is disabled, you will get a “Process failed” error when trying to reset your password. Before you can reset your password, your user must be re-enabled.
