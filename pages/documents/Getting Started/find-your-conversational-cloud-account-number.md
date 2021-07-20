@@ -24,16 +24,16 @@ When you first registered and your account was created, you should have received
 ![](img/account-registration-email.png)
 
 **2. If you’re not the account owner**  
-If no one at your company is able to provide you with your Conversational Cloud account number, and/or in case of an emergency, outlined below in order to obtain the Conversational Cloud account number for your brand. For further guidance, reference the GIF below which demonstrates these steps.
+If no one at your company is able to provide you with your Conversational Cloud account number, and/or in case of an emergency, follow the steps outlined below in order to obtain the Conversational Cloud account number for your brand. For further guidance, reference the GIF below which demonstrates these steps.
 
-1. Navigate to your company website and enter a section/page where customers can see the messaging button.
-2. Open up the browser developer tools console. (Reference the following links for browser-specific instructions:
+1. Navigate to your company website and enter a section/page where customers **can see** the messaging button.
+2. Open up the browser developer tools console. Reference the following links for browser-specific instructions:
 	1. **Safari**: [https://support.apple.com/en-il/guide/safari/sfri20948/mac](https://support.apple.com/en-il/guide/safari/sfri20948/mac)
 	2. **Chrome**: [https://developer.chrome.com/docs/devtools/open/](https://developer.chrome.com/docs/devtools/open/)
 	3. **Microsoft Edge**: [https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows#open-microsoft-edge-devtools-1](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows#open-microsoft-edge-devtools-1)
 	4. **Microsoft Internet Explorer**: [https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/ie-mode/#launching-the-devtools-on-a-tab-in-ie-mode](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/ie-mode/#launching-the-devtools-on-a-tab-in-ie-mode)
 	5. **Mozilla Firefox**: [https://developer.mozilla.org/en-US/docs/Tools](https://developer.mozilla.org/en-US/docs/Tools)
-3. Search for a network file calledloaded named: “tag.js”. 
+3. Search for a network file called: “tag.js”. 
 4. Extract the account number from the query param “site=<account_number>”. (e.g.,  tag.js?site=60035520)
 
 
