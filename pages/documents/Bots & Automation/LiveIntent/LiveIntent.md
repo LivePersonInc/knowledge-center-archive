@@ -91,8 +91,7 @@ LivePerson provides intent management out-of-the-box, which are intents that the
 ### Intent Manager
 In the Conversational AI section, an Intent Manager button serves as the single point of entry for all Intent Manager components, including Intent Builder and Intent Analyzer.
 
-The Intent Manager homepage is where users can view key coverage and quality stats and you can view the four key elements of Intent Management in one unified navigation: Discover, Build, Analyze, Optimize. Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) is seamless and coherent. For brands that do not have Intent Analyzer enabled Analyze and Discovery features will be “locked”.
-
+The Intent Manager homepage is where users can view key coverage and quality stats, and access the four key elements of Intent Management in one unified navigation: Discover, Build, Analyze, Optimize. Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) is seamless and coherent. For brands that do not have Intent Analyzer enabled Analyze and Discovery features will be “locked”.
 
 **Intent Builder** can be found under Intent Manager in the Conversational AI page, allowing brands to create your own intents and entities organized by domain.
 
