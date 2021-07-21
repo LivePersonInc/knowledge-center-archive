@@ -19,6 +19,16 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Reply feedback now sent out when the agent selects the smart suggest option
+### Type: Fix [Smart Suggestions]
+  
+Channels: All except for Chat
+
+Available to all customers? No, only for accounts with the Smart Suggestions feature
+
+Smart Suggestions used to call the Feedback API only when the agent actually sent the smart suggestion and not when the agent selected the suggestion. This has been updated and feedback is now sent once the agent selects the Smart Suggestion. 
+
+
 ## All Connections for Agents fails to Load 
 ### Type: Fix [Enhanced Agent Workspace]
 
@@ -48,5 +58,8 @@ The documentation describing the hotkeys available in both the Old Agent Workspa
 Channels: All channels
 
 The documentation describing [predefined content](https://knowledge.liveperson.com/agent-manager-workspace-workspace-configuration-predefined-content-overview.html)  has been updated to accurately reflect what predefined content displays when the conversation has no skill assigned to it. 
+
+## Add skill data for rollover 
+### Type: Fix [Messaging History (Interactions) API V 1.1.0.64]
 
 
