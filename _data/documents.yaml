@@ -17,7 +17,6 @@
     - subcategoryname: Test your Web Messaging experience
     - subcategoryname: Find your Conversational Cloud account number
 
-
 - categoryname: Messaging channels
   image: messaging-channels
   subcategories:
@@ -74,6 +73,7 @@
       pages:
         - pagename: Proactive Messaging overview
         - pagename: Proactive Messaging user guide
+        - pagename: Proactive Messaging for App Messaging
     - subcategoryname: Rich Conversations
       pages:
         - pagename: Rich Conversations overview
@@ -95,12 +95,6 @@
    - subcategoryname: Third Party Bot Connectors
    - subcategoryname: AI Annotator
    - subcategoryname: Conversation Orchestrator
-     pages:
-       - pagename: Overview
-       - pagename: Agent Assist
-       - pagename: Conversation Context Service
-       - pagename: Dynamic Routing
-       - pagename: Recommendation API
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
@@ -188,6 +182,7 @@
           level3:
             - level3name: The enhanced Agent Workspace
             - level3name: User guide
+            - level3name: Hotkeys
             - level3name: FAQs
             - level3name: Configuration
             - level3name: Training deck
@@ -223,6 +218,7 @@
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent Workspace for live chat
+        - pagename: Hotkeys
         - pagename: CoBrowse for live chat
     - subcategoryname: Manager tools for live chat
       pages:
@@ -276,6 +272,7 @@
         - pagename: Meaningful Conversation Score (MCS) Overview
         - pagename: Accessing the toolkit
         - pagename: Using the MCS toolkit
+    - subcategoryname: Meaningful Automated Conversation Score (MACS)
     - subcategoryname: Analytics Builder
       pages:
         - pagename: Analytics Builder overview
@@ -318,6 +315,7 @@
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
+    - subcategoryname: Management Console overview
     - subcategoryname: Product renaming overview
     - subcategoryname: Advanced security features
     - subcategoryname: Create and manage users
@@ -381,6 +379,8 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: April what's new
+    - subcategoryname: March what's new
     - subcategoryname: February what's new
     - subcategoryname: January what's new
     - subcategoryname: December what's new
@@ -388,7 +388,6 @@
     - subcategoryname: September what's new    
     - subcategoryname: August what's new    
     - subcategoryname: July what's new
-    - subcategoryname: June what's new
 
 - categoryname: Release notes
   image: release-notes
@@ -396,10 +395,27 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2021
       pages:
+        - pagename: July
+          level3:
+            - level3name: Week of July 12th
+            - level3name: Week of July 5th
+        - pagename: June
+          level3:
+            - level3name: Week of June 28th
+            - level3name: Week of June 21st 
+            - level3name: Week of June 14th
+            - level3name: Week of June 7th
+        - pagename: May
+          level3:
+            - level3name: Week of May 3rd
+            - level3name: Week of May 10th
+            - level3name: Week of May 17th 
+            - level3name: Week of May 24th
+            - level3name: Week of May 31st 
         - pagename: April
           level3:
             - level3name: Week of April 5th
-      pages:
+            - level3name: Week of April 19th
         - pagename: March
           level3:
             - level3name: Week of March 22nd
@@ -416,20 +432,7 @@
           level3:
             - level3name: Week of January 25th 
             - level3name: Week of January 18th 
-    - subcategoryname: 2020
-      pages:
-        - pagename: December
-          level3:
-            - level3name: Week of December 28th 
-            - level3name: Week of December 14th   
-            - level3name: Week of December 7th 
-            
-        - pagename: November
-          level3:
-            - level3name: Week of November 2nd 
-            - level3name: Week of November 9th         
-
-
+   
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
@@ -437,6 +440,9 @@
     - subcategoryname: Status page
     - subcategoryname: Status Dashboard push notifications
     - subcategoryname: 'Login & password'
+      pages:
+        - pagename: FAQ
+        - pagename: Find your Conversational Cloud account number
     - subcategoryname: Enable a user
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
@@ -455,4 +461,5 @@
   subcategories:
     - subcategoryname: 'Data & reporting'
     - subcategoryname: 'Surveys & window'
+    - subcategoryname: General
     - subcategoryname: Agent tools

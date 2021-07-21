@@ -1,30 +1,32 @@
 ---
 pagename: Find your Conversational Cloud account number
-categoryName: Getting started
-subCategoryName: ''
+categoryName: Troubleshooting
+subCategoryName: Login & password
 indicator: both
 subtitle: 
 level3: ''
-permalink: getting-started-find-your-conversational-cloud-account-number.html
+permalink: troubleshooting-login-password-find-your-conversational-cloud-account-number.html
 isTutorial: true
 isNew: false
 date: '2021-07-14T13:04:36.000+00:00'
 ---
 
-The Account Number, aka Account ID, is the primary identifier in the Conversational Cloud. It is one of the three mandatory fields that must be completed to successfully log in to your Conversational Cloud account, and should therefore be stored somewhere safe.
+The account number, also known as account id, is the primary identifier in the Conversational Cloud. It is one of the three mandatory fields that must be completed to successfully log in to your Conversational Cloud account, and should therefore be stored somewhere safe.
 
 ![](img/enter-your-credentials-login.png) 
  
 
-## How to find your account number:
+## How to find your account number
 
-**1. If you're the account owner**  
-Upon registration, an email was sent by LivePerson containing the Account Number. Search both the Inbox and the Spam folder of the account used to register for an email sent by **registration@liveperson.com**.
+Upon registration, an email was sent by LivePerson containing the account number. Search both the Inbox and the spam folder of the account used to register for an email sent by **registration@liveperson.com**.
 
 ![](img/account-registration-email.png)
 
-**2. If you’re not the account owner**  
-If no one at your company is able to provide a Conversational Cloud Account Number, and/or in case of an emergency, follow the steps outlined below in order to obtain the Conversational Cloud Account Number for your brand. For further guidance, please reference the GIF below which demonstrates these steps.
+If you can not find the registration email, please contact your administrator to assist or follow the instructions in the next section.
+
+## How to find your account number with no registration email 
+
+In order to obtain the Conversational Cloud account number for your brand, follow the steps outlined below. For further guidance, please reference the GIF below which demonstrates these steps.
 
 1. Navigate to your company website and enter a section/page where customers **can see** the messaging button.
 2. Open up the browser developer tools console. Reference the following links for browser-specific instructions:
@@ -36,5 +38,7 @@ If no one at your company is able to provide a Conversational Cloud Account Numb
 3. Search for a network file called: “tag.js”. 
 4. Extract the account number from the query param “site=<account_number>”. (e.g.,  tag.js?site=8367445)
 
-
 ![](img/find_your_account_number.gif) 
+
+## Still need help?
+Follow [these](https://knowledge.liveperson.com/troubleshooting-how-to-contact-support.html) instructions to contact support.
