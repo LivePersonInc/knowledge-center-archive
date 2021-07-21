@@ -8,7 +8,7 @@ level3: ''
 permalink: release-notes-2021-july-week-of-july-21st.html
 isTutorial: false
 isNew: false
-date: '2021-20-07'
+date: '2021-07-20'
 
 ---
 
