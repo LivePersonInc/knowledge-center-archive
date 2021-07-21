@@ -440,6 +440,9 @@
     - subcategoryname: Status page
     - subcategoryname: Status Dashboard push notifications
     - subcategoryname: 'Login & password'
+      pages:
+        - pagename: FAQ
+        - pagename: Find your Conversational Cloud account number
     - subcategoryname: Enable a user
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
