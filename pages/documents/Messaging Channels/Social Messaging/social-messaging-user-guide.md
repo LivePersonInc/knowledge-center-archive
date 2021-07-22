@@ -15,6 +15,9 @@ redirect:
 ---
 Social Messaging extends Liveperson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social media. Please follow instructions below to learn how more about using Social Messaging.
 
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/515803887?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
 ## Getting started
 
 Social Messaging can be accessed via the quick launch menu.
