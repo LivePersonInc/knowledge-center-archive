@@ -863,7 +863,7 @@ ul.mysidebar.nav > li:first-of-type {
 	display: flex;
 	align-items: center;
 	padding-left: 45px;
-	height: 20px;
+	/* height: 20px; */
 }
 
 .sidebarbutton {
