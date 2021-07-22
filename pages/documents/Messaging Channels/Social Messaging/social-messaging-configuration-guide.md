@@ -110,7 +110,7 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 
 ### Twitter
 
-**Note:** Currently, Social Messaging (PKA Social Messaging 2.0) will be enabled by your LivePerson account team.
+**Note:** Currently, Social Messaging (aka, Social Messaging 2.0) will be enabled by your LivePerson account team.
 
 ### Optional configuration steps (for all customers)
 
