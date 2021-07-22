@@ -15,7 +15,6 @@
     - subcategoryname: Getting started with intents
     - subcategoryname: Add the LivePerson tag to your website
     - subcategoryname: Test your Web Messaging experience
-    - subcategoryname: Find your Conversational Cloud account number
 
 - categoryname: Messaging channels
   image: messaging-channels
@@ -442,7 +441,7 @@
     - subcategoryname: 'Login & password'
       pages:
         - pagename: FAQ
-        - pagename: Find your Conversational Cloud account number
+        - pagename: Find your account number
     - subcategoryname: Enable a user
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
