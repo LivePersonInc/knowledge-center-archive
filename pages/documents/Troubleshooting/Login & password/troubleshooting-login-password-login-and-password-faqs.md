@@ -1,11 +1,11 @@
 ---
-pagename: FAQ
+pagename: Login and Password FAQs
 categoryName: Troubleshooting
 subCategoryName: Login & password
 indicator: both
-subtitle: Troubleshooting for all questions relating to logging in and passwords
+subtitle: Troubleshooting questions relating to login and passwords
 level3: ''
-permalink: troubleshooting-login-password-faq.html
+permalink: troubleshooting-login-password-login-and-password-faqs.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 12:34:43 +0000
