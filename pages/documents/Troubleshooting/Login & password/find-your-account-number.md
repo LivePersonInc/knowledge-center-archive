@@ -1,11 +1,11 @@
 ---
-pagename: Find your Conversational Cloud account number
+pagename: Find your account number
 categoryName: Troubleshooting
 subCategoryName: Login & password
 indicator: both
 subtitle: 
 level3: ''
-permalink: troubleshooting-login-password-find-your-conversational-cloud-account-number.html
+permalink: troubleshooting-login-password-find-your-account-number.html
 isTutorial: true
 isNew: false
 date: '2021-07-14T13:04:36.000+00:00'
@@ -22,7 +22,7 @@ Upon registration, an email was sent by LivePerson containing the account number
 
 ![](img/account-registration-email.png)
 
-If you can not find the registration email, please contact your administrator to assist or follow the instructions in the next section.
+If you can not find the registration email, please contact your administrator for assistance or follow the instructions in the next section.
 
 ## How to find your account number with no registration email 
 
