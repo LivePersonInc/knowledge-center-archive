@@ -11,6 +11,7 @@ isNew: false
 date: 2019-02-26 12:39:36 +0000
 
 ---
+
 ## Agent icon not aligned with first line of message on consumer iOS devices
 
 ### Cause:
@@ -160,6 +161,10 @@ When attempting to respond to a customer’s message via Apple Business Chat, th
 ### Solution:
 
 Consumer should not delete the iMessage thread on their device.
+
+## Why can't I see Facebook usernames?
+
+Due to EU privacy laws, Facebook has made changes to some of their features, including customer information. Consumer names and images from Facebook will not be shown in the Conversational Cloud. Each consumer name will be displayed as “Facebook User”.
 
 ## Why am I unable to deliver facebook messages?
 
