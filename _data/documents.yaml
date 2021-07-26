@@ -16,6 +16,7 @@
     - subcategoryname: Add the LivePerson tag to your website
     - subcategoryname: Test your Web Messaging experience
 
+
 - categoryname: Messaging channels
   image: messaging-channels
   subcategories:
@@ -434,7 +435,7 @@
     - subcategoryname: How to contact Support
     - subcategoryname: Status page
     - subcategoryname: Status Dashboard push notifications
-    - subcategoryname: Find your account number 
+    - subcategoryname: 'Login & password'
     - subcategoryname: Enable a user
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
@@ -451,7 +452,6 @@
 - categoryname: FAQs
   image: faqs
   subcategories:
-    - subcategoryname: 'Login & password'
     - subcategoryname: 'Data & reporting'
     - subcategoryname: 'Surveys & window'
     - subcategoryname: General
