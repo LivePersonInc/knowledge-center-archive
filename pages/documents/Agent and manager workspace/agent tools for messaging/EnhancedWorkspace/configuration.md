@@ -55,8 +55,11 @@ The enhanced Agent Workspace supports the two following improvements to assist a
 
 * If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), the Agent Workspace will automatically populate the visitor name’s in the My Conversations/All Conversations lists as well as the conversation header.
 
-{: .notice}
-This feature has a limitation: the population will be done only once the **agent clicks the conversation** and opens it. Until then, the visitor name will **not** be automatically updated.
+#### Limitations
+
+The visitor name is automatically updated when only once the **agent clicks the conversation** and opens it. Until then, the visitor name will **not** be automatically updated.
+
+Sometimes, the data on the visitor name arrives **after** the agent opens the conversation. In that case, the visitor name will not be updated automatically and the agent has the option to set it manually as detailed below.
 
 **Screenshots**
 
