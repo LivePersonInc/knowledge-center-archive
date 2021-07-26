@@ -39,8 +39,13 @@ The product will listen to:
 Agents will be able to respond with:
 
 * Public Replies to comments and posts including consumer mentions
+* Mention a consumer in a reply 
 * Private DMs through Facebook Messenger
+* Send internal (private) messages
 * Supported message types: text, text with link to initiate a DM conversation (Public only)
+* See an embedded view of the original public message at hand
+* View all mentions from a consumer on brand pages and post
+* Gain access to bot and automation support
 
 ### Twitter
 
@@ -54,5 +59,11 @@ Agents will be able to respond with:
 * Public Replies to Tweets
 * Private DMs
 * Supported message types: text, text with link to initiate a DM conversation (Public only)
+* See an embedded view of the original public message at hand
+* Send internal (private) messages
+* Choose which account to reply from with multiple accounts
+* Leverage Social Monitoring 
+* Gain access to bot and automation support
+
 
 For more information on Social Messaging and how to get started, please see the [user guide](messaging-channels-social-messaging-social-messaging-user-guide.html)

@@ -11,6 +11,7 @@ isNew: false
 date: 2019-02-26 12:39:36 +0000
 
 ---
+
 ## Agent icon not aligned with first line of message on consumer iOS devices
 
 ### Cause:
@@ -68,6 +69,20 @@ The agent sent the URL without the **http://** prefix ([www.mysite.com](http://w
 Always include the the **http:// prefix** in URLs that you send when messaging.
 
 ![](/img/troubleshooting-consumer-experience3.png)
+
+## App Messaging: Mobile App not displaying my conversations
+
+**In App messaging:** 
+There is a maximum supported length of messages a consumer or an agent can send, and the limit may have been surpassed. 
+You can find the character limitations here: https://knowledge.liveperson.com/messaging-channels-app-messaging-app-messaging-faqs.html#q-what-is-the-maximum-supported-message-length-a-consumer-or-an-agent-can-send-can-these-limits-be-configured
+
+**In Agent app:** 
+Agent app has limitations for unassigned skill conversation. The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the My Conversations or All Conversations list.
+
+
+
+
+
 
 ## App Messaging: double click doesn’t scroll to last message
 
@@ -146,6 +161,10 @@ When attempting to respond to a customer’s message via Apple Business Chat, th
 ### Solution:
 
 Consumer should not delete the iMessage thread on their device.
+
+## Why can't I see Facebook usernames?
+
+Due to EU privacy laws, Facebook has made changes to some of their features, including customer information. Consumer names and images from Facebook will not be shown in the Conversational Cloud. Each consumer name will be displayed as “Facebook User”.
 
 ## Why am I unable to deliver facebook messages?
 

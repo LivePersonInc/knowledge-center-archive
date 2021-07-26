@@ -155,3 +155,30 @@ Users with Agent permissions cannot see the list online agents. Only users with 
 3. Click on Action located in the upper right corner -> click on delete
 Please note that you can delete only one use at a time.
 
+
+## Why didn't the conversation auto close?
+
+This is expected behavior, and it is caused by the interval of which the auto close cycle runs.
+The autoclose cycle runs in a 25 minute interval and it is not constantly executed.
+This means that for a conversation to close, it is possible to take anywhere between the "configured time" and the "configured time" + 25 minutes.
+
+## How do I change Automatic Messages?
+1. Go to the Campaign tab.
+2. Go to "Automatic Messages" under the campaign list.
+3. Choose the message which needs to be changed.
+4. Click on the text area to edit it.
+5. Click on the "Save" button.
+
+## Why is there an error when I try to change a status?
+
+There are a few steps that need to be checked: 
+Check if the Agent's user has a max number of Live chats assigned, if they don’t have any please edit it - up to 1.
+Check if the Agent's user has an agent group assigned.
+Check if the Agent's user has an agent profile assigned.
+If the user is not assigned with the agent's profile, please contact your local administrator.
+
+
+## Why aren't conversations appearing on the agent's side?
+Difficulty loading a page or network issues can cause this behavior. Please ask the agent to clear their cache and cookies, and have them re-log. Trying a different browser and checking Internet connection could be helpful too. 
+
+

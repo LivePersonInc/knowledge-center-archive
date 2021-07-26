@@ -82,10 +82,10 @@ The score is calculated based on the presence of issues in the conversation, alo
 
 | Issue type | Description | Possible fixes |
 | :--- | :-- | :--- |
-| Around in circles | The consumer is stuck in an unintentional loop. | Improve the dialog/conversation flow<br><br>Escalate to agent |
+| Stuck in a loop | The consumer is stuck in an unintentional loop. | Improve the dialog/conversation flow<br><br>Escalate to agent |
 | Ignored consumer question | The bot doesn’t acknowledge the consumer's query and instead forces the consumer through a dialog flow. | Add intent detection (NLU)<br><br>Add menu options |
 | Doesn't understand | The bot fails to understand the consumer's intent and is not offering to repair the conversation. | Improve poor performing intents<br><br>Add intents<br><br>Move to a menu-based approach |
-| Bad transfer | The bot transfers the consumer to an agent, but this either leaves the consumer hanging or abruptly ends the conversation.<br><br>The bot might also fail to tell the consumer early enough in the conversation that there are no agents available at that hour. | Give a warning early in conversation that agents are near capacity<br><br>Check if agents are available before declaring the conversation will be escalated |
+| Poor transfer experience | The bot transfers the consumer to an agent, but this either leaves the consumer hanging or abruptly ends the conversation.<br><br>The bot might also fail to tell the consumer early enough in the conversation that there are no agents available at that hour. | Give a warning early in conversation that agents are near capacity<br><br>Check if agents are available before declaring the conversation will be escalated |
 
 {: .important}
 Currently, MACS is only calculated for closed conversations. Message-level support will be added in a future release.

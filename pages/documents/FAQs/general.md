@@ -95,7 +95,7 @@ For a full list of Supported Languages, please visit [this page](https://knowled
 
 ## How can I change the user's UI Language? 
 
-If the UI language has changed and you want to return it to the previous one, just open your profile tab and to go to "My details". 
+If the UI language has changed and you want to return it to the previous one, simply open your profile tab and go to "My details". 
 Scroll to the bottom where you will find their regional settings and adjust your user's language.
 
 ## How can I delete my account? 

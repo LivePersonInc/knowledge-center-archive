@@ -110,24 +110,7 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 
 ### Twitter
 
-1. Go to the Campaign Builder → “Data Sources” → “Social Messaging” (alternatively you can select “Social Messaging” from the Quick Launch Menu) 
-![](img/social-messaging-configuration-11.png)
-
-{:start="2"}
-2. Add new accounts by selecting the “Connect” button → Choose “Twitter account”
-![](img/social-messaging-configuration-12.png)
-
-{:start="3"}
-3. Log into Twitter utilizing the brand’s Twitter account credentials
-4. After logging in, select “Authorize App” to connect with Social Messaging
-![](img/social-messaging-configuration-13.png)
-
-{:start="5"}
-5. Once the authorization is done, all Twitter accounts associated with the provided login credentials will be automatically displayed on the “Social Accounts” page.
-6. Each consumer direct message to any of these accounts or a public Tweet which contains any of these accounts handles, will generate a conversation in the Conversational Cloud
-
-{: .important}
-**Note:** Do not use the Social Messaging connector for Facebook conversations.
+**Note:** Currently, Social Messaging (aka, Social Messaging 2.0) will be enabled by your LivePerson account team.
 
 ### Optional configuration steps (for all customers)
 

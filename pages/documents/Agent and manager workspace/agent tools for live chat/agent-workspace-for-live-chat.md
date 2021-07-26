@@ -43,7 +43,7 @@ To sort the visitors, simply click on the relevant parameter header.
 
 You can view more detailed information about your visitors, including the following:
 
-* **Visit info:** Which campaign the visitor is currently exposed to, along with the campaign’s main parameters (goal, target audience, and visitor behavior). You can also see more detailed information about the visit, including city and country, organization, operating system, browser, and more.
+* **Visit info:** Which campaign the visitor is currently exposed to, along with the campaign’s main parameters (goal, target audience, and behavioral targeting). You can also see more detailed information about the visit, including city and country, organization, operating system, browser, and more.
 * **Page navigation**: What page the visitor is currently browsing, as well as the pages previously visited.
 
 To view more detailed information about a visitor, simply click on the visitor’s name.

@@ -19,6 +19,49 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## New Version of Context Service 
+### Type: Upgrade [Context Service V2]
+
+Available to all customers? No - This is only available to brands that are using v2 of the Context Service. All accounts will gradually be migrated from v1 to v2 starting July 2021 through to the end of the year.
+
+We have released new versions of Context Service and Next Actions APIs. The new versions have the following additional benefits: 
+* Higher scalability
+* Visibility into Dynamic Routing policy execution logs
+* Better APIs i.e. update multiple context variables in a single call
+* Better data security through improved encryption & better authorization.
+ 
+**Enablement**
+Migration will be a seamless process that will be performed by the product team at LivePerson. Please talk to your LivePerson account executive if you want to be moved to v2 sooner. (You can know you are on v2 if you see OAuth 2.0 authentication on the API Authorization page).
+
+## Policy Logs for Dynamic Routing
+### Type: New Feature [Context Service V2]
+
+Available to all customers? No - This is only available to brands that are using v2 of the Context Service. All accounts will gradually be migrated from v1 to v2 starting July 2021through to the end of the year..
+
+Policy logs help you to understand how dynamic routing decisions are made. The tool helps trace routing outcomes back to policy configurations and context variables.
+* The benefits of using policy logs include:
+* Understanding why certain conversions were routed a specific way
+* Narrowing down root causes of errors to policy configurations and context variables
+* Diving deep to understand why certain policies execute more often than others
+
+Policy logs are available under Dynamic Routing and values of context-variables passed during policy execution can be viewed by hovering the mouse. This can be very useful for triaging issues or for making improvements.
+
+![](img/context-RN-1.png)
+
+**Enablement**
+Migration will be a seamless process that will be performed by the product team at LivePerson. Please talk to your LivePerson account executive if you want to be moved to v2 sooner. 
+
+## Search & manager large number of dynamic routing policies
+### Type: Enhancement [Context Service V2]
+
+Available to all customers? No - This is only available to brands that are using v2 of the Context Service. All accounts will gradually be migrated from v1 to v2 starting July 2021through to the end of the year.
+
+Brands can now search for policies. Pages load a lot quicker & pagination will help you manage a large number of  policies efficiently.
+![](img/context-rn-2.png)
+
+**Enablement**
+Migration will be a seamless process that will be performed by the product team at LivePerson. Please talk to your LivePerson account executive if you want to be moved to v2 sooner. 
+
 ## Unified navigation for Intent Builder and Intent Analyzer
 ### Type: Enhancement [Intent Manager 2.2]
 

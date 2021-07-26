@@ -496,3 +496,9 @@ Only users with Campaign Manager or Admin user profile can access the Proactive 
 #### Is a Proactive Campaign different from an inbound campaign?
 Yes. Inbound campaigns require the customers to initiate the conversation with the brand first before agents can engage. While Proactive campaigns (Outbound campaigns) send the first message to the customers rather than them initiating the conversation. 
 
+#### Why aren't my proactive messages going through?
+If you launch a campaign outside of its scheduled hours, then the messages will not be delivered to visitors until the next time it is within the campaign’s scheduled hours.  Additionally, if your campaign has phone numbers from multiple regions, then the messages won’t be delivered to each phone number until it is within the respective time zone of that particular number.  
+
+You can find the phone numbers in the ‘Scheduled state’ section from the campaign details page. Sometimes campaigns will be created on Sunday and expected to be triggered only on Friday; All the recipients will remain in a scheduled state till Friday.  If, after a week, your messages are still not delivered, contact a Liveperson Technical Support agent for further assistance.
+
+

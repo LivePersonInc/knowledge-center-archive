@@ -11,6 +11,9 @@ isNew: false
 date: 2019-02-26 12:03:37 +0000
 
 ---
+## For how long is the data stored?
+Operational data is stored for 13 months.
+
 ## Missing Excel export button in Analytics Builder and cannot export dashboards
 
 ### Cause:
@@ -179,7 +182,7 @@ Your API call could be failing for multiple reasons. Make sure to double check t
 * 500 Internal Server Error - This is a generic error response used when an unexpected condition was encountered and a more specific response did not fit.
 * 503 Service Unavailable - The server cannot handle the request due to being overloaded or maintenance. Try again later.
 
-For guidelines on retrying failed API calls, please refer to our Retry Policy Recommendations: https://developers.liveperson.com/api-guidelines-retry-policy-recommendations.html
+For guidelines on retrying failed API calls, please refer to our: [Retry Policy Recommendations](https://developers.liveperson.com/retry-policy-recommendations.html) for more information.
 
 ## I can't see Manager Workspace data
 

@@ -11,6 +11,9 @@ isNew: false
 date: 2019-02-25 13:14:06 +0000
 
 ---
+## Wrong time or date shown in workspace  
+In the Conversational Conversational, the displayed time is the same as the user's PC's timezone configurations. It can be different for two users in the same account, if they are currently located in different timezones or their local computer time is custom configured with a different one. 
+
 ## Agent is not getting audio notifications for incoming conversations
 
 ### Cause:

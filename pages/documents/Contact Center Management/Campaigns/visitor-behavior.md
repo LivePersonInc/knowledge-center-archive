@@ -1,5 +1,5 @@
 ---
-pagename: Visitor behavior
+pagename: Behavioral targeting
 categoryName: Contact center management
 subCategoryName: Campaigns
 indicator: both
@@ -15,7 +15,7 @@ redirect_from:
   - sections.html
 
 ---
-For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behavior rules.
+For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display by creating behavioral targeting rules.
 
 The default option, **All behaviors**, means that the button is displayed at all times and displays immediately when the page is loaded.
 
@@ -146,7 +146,7 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 
 ### How to define a new flow:
 
-1. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
+1. When adding a new engagement or editing an existing one, one of the steps you will come across is “Behavioral targeting library.” ​
 2. Under “Navigation” category choose “Flow.”
 
 ![](/img/visitor-behavior-6.png)
@@ -157,8 +157,8 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 
 {:start="5"}
 5. After saving the flow, it will appear in the flows list.
-6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-7. Click to save visitor behavior.
+6. Choose the desired behavioral targeting from the list (Abandoned or Back flow):
+7. Click to save behavioral targeting.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
@@ -175,15 +175,15 @@ If the visitor does not complete the desired flow, the visitor exhibits what we 
     Shopping Cart page > CheckOut page > Shopping Cart page
 
 <br/>
-To manage such scenarios, you can set the Conversational Cloud to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an engagement.
+To manage such scenarios, you can set the Conversational Cloud to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Behavioral Targeting for an engagement.
 
 To set up an Engagement for Visitor Back Flow:
 
 1. Log in to the Conversational Cloud as a Campaign Manager or Admin user.
 2. Go to the Campaign Builder.
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
-4. Under the engagement that you want to configure, click Visitor Behavior.
-5. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
+4. Under the engagement that you want to configure, click Behavioral Targeting.
+5. After accessing the Behavioral Targeting Library, choose to either to edit a rule or create a new behavioral targeting rule.
 6. Click Flow.
 7. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
 8. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
@@ -195,12 +195,12 @@ To set up an Engagement for Visitor Back Flow:
 When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and the Conversational Cloud does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, the Conversational Cloud will not trigger the engagement because the flow was already completed.
 </div>
 
-## Visitor behavior conditions
+## Behavioral targeting conditions
 
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
 {: .important}
-**Note:** Do not create a mobile app engagement assigned to an irrelevant visitor behavior, as this may be result in ineligible mobile engagements.
+**Note:** Do not create a mobile app engagement assigned to an unsupported behavioral targeting rule, as this may result in ineligible mobile engagements.
 
 | Conditions | Relevant source |
 | --- | --- |

@@ -45,7 +45,7 @@ For added efficiency when creating multiple campaigns, libraries save various el
 * Engagement Template Library
 * Engagement Window Library
 * Entry Point Library
-* Visitor Behavior Library
+* Behavioral Targeting Library
 
 <br/>
 When you design a new engagement window or a set of rules to determine target audience they will be saved in their respective libraries and you can select them again when creating or editing additional campaigns or engagements.

@@ -145,15 +145,15 @@ You will now reach the entry point library. An [entry point](contact-center-mana
 
 When you are finished defining your entry point, click **next**.
 
-### Visitor behavior
+### Behavioral targeting
 
-The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior.
+The next page is the behavioral targeting library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the behavioral targeting library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior.
 
 ![](/img/add-messaging-to-your-mobile-app-3.png)
 
 When selecting the condition, look for a mobile phone icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for mobile engagements. For more information on **creating a new behavior**, [click here](contact-center-management-campaigns-visitor-behavior.html).
 
-When you are finished defining your visitor behavior, click **next**.
+When you are finished defining your behavioral targeting, click **next**.
 
 ### Publishing your campaign
 

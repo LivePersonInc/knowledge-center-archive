@@ -40,11 +40,11 @@ Real-time inclusion of intent data into dashboards and reports enables brands to
 
 Automation and routing that is built on an understanding of customer intent is more efficient and enables smarter and more flexible experiences for customers. Tuning reports based on Intents enable brands to better prioritize automation investments
 
-## Intent management in LivePerson
+## Intent Manager in LivePerson
 
 In a contact center driven by intent, brands are able to build, maintain, and manage intents. LivePerson’s Intent-Driven Contact Center allows brands to make consumer intent the foundation of contact center management and automation.
 
-Brands are able to optimize their contact centers using consumer intent across a single “intent centric” management solution (ICMS), consisting of a portal to build and manage intents and a set of agent manager and agent experiences that allow the intents to be used to improve the contact center.
+Brands are able to optimize their contact centers using consumer intent across a single “intent centric” management solutiom, consisting of a portal to build and manage intents and a set of agent manager and agent experiences that allow the intents to be used to improve the contact center.
 
 Intents defined by the brand are visible in real-time and are available across all analytics products, enabling brands to understand the quality, goals/outcomes, and costs associated with individual intents.
 
@@ -84,13 +84,18 @@ Intents defined by the brand are visible in real-time and are available across a
 
 ## LivePerson Tools
 
-LivePerson provides intent management out-of-the-box, which are intents that the platform comes with preconfigured to help you detect, monitor and manage conversations. LivePerson also developed new tools to enable brands to investigate and discover their own intents that have specific meaning to them. These intents can be seeds for new chatbots or to/hone in on a specific customer problem like a network outage that you want to continuously monitor. After all, intent is one of the most important touch points between customers, agents and bots.
+LivePerson provides intent management out-of-the-box, which are intents that the platform comes with preconfigured to help you detect, monitor and manage conversations. LivePerson also developed new tools to enable brands to discover and analyze their own intents that have specific meaning to them. These intents can be seeds for new chatbots or to/hone in on a specific customer problem like a network outage that you want to continuously monitor. After all, intent is one of the most important touch points between customers, agents and bots.
 
 ## Where can you find intent management in LivePerson?
 
-**LivePerson's Intent Builder** can be found under Conversational AI, allowing brands to create your own intents and entities organized by domain.
+### Intent Manager
+In the Conversational AI section, an Intent Manager button serves as the single point of entry for all Intent Manager components, including Intent Builder and Intent Analyzer.
 
-**LivePerson's Intent Analyzer** integrates seamlessly with Intent Builder to provide a powerful unified system for intent modeling and management. When a brand subscribes to **LivePerson's Intent Analyzer**, it will also appear under the Conversational AI tab, giving brands the ability to augment the capabilities of their LivePerson reports, tools, and services.
+The Intent Manager homepage is where users can view key coverage and quality stats, and access the four key elements of Intent Management in one unified navigation: Discover, Build, Analyze, Optimize. Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) is seamless and coherent. For brands that do not have Intent Analyzer enabled Analyze and Discovery features will be “locked”.
+
+**Intent Builder** can be found under Intent Manager in the Conversational AI page, allowing brands to create your own intents and entities organized by domain.
+
+**Intent Analyzer** can be found under Intent Manager in the Conversational AI page. Intent Analyzer integrates seamlessly with Intent Builder to provide a powerful unified system for intent modeling and management. When a brand subscribes to **LivePerson's Intent Analyzer**, it will also appear under the Intent Manager section of the Conversational AI tab, giving brands the ability to augment the capabilities of their LivePerson reports, tools, and services.
 
 ![](img/IA-Optimize-11.png)
 
