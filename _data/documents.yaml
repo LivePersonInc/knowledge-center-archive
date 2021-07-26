@@ -438,10 +438,7 @@
     - subcategoryname: How to contact Support
     - subcategoryname: Status page
     - subcategoryname: Status Dashboard push notifications
-    - subcategoryname: 'Login & password'
-      pages:
-        - pagename: Login and password FAQs
-        - pagename: Find your account number
+    - subcategoryname: Find your account number 
     - subcategoryname: Enable a user
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
@@ -458,6 +455,7 @@
 - categoryname: FAQs
   image: faqs
   subcategories:
+    - subcategoryname: 'Login & password'
     - subcategoryname: 'Data & reporting'
     - subcategoryname: 'Surveys & window'
     - subcategoryname: General
