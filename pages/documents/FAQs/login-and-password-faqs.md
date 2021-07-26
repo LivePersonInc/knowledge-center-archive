@@ -11,6 +11,7 @@ isNew: false
 date: 2019-02-26 12:34:43 +0000
 redirect_from:
   - troubleshooting-login-password.html
+  
 ---
 
 You can log in to your account [here](https://authentication.liveperson.net/). To reset your password, please [click here](https://authentication.liveperson.net/forgotMyPassword.html). If you encounter any issues with resetting your password, please see the frequently asked questions below.
