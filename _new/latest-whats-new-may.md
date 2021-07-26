@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: Highlights of May 2021
 level3: ''
-permalink: whats-new-latest-whats-new.html
+permalink: whats-new-may-whats-new.html
 isTutorial: false
 isNew: false
 ---
