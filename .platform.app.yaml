@@ -1,6 +1,6 @@
 name: jekyll_app
 type: ruby:2.5
-disk: 1024
+disk: 2048
 web:
   locations:
     "/":
