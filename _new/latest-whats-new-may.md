@@ -1,5 +1,5 @@
 ---
-pagename: Latest what's new
+pagename: May what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
