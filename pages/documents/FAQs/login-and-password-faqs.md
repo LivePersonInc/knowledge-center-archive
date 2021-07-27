@@ -16,17 +16,13 @@ redirect_from:
 
 You can log in to your account [here](https://authentication.liveperson.net/). To reset your password, please [click here](https://authentication.liveperson.net/forgotMyPassword.html). If you encounter any issues with resetting your password, please see the frequently asked questions below.
 
-<<<<<<< HEAD:pages/documents/FAQs/login-and-password-faqs.md
-## Why am I getting a “process failed” error when trying to reset my password?
-=======
 ## Why do I keep getting logged out of the platform?
 
-* Network connectivity issues: check speeds and verify a more stable connection is available: https://www.speedtest.net/
-* You’re being timed out based on account configurations. Interact with a platform before agent inactivity period is met, or update the account configurations with the account team so the user has a bigger window of time before being logged out.
-* You're attempting to log in on another instance (i.e. Mobile App) and *only one session is allowed per user as a time* 
+* Network connectivity issues: check speeds at https://www.speedtest.net/ and verify whether a more stable connection is available.
+* You’re being timed out based on account configurations. To resolve this, you can either interact with the platform before the agent inactivity period is met, or update the account configurations with the account team so that the user has a bigger window of time before being logged out.
+* You're attempting to log in on another instance (e.g., Mobile App) and *only one session at a time is permitted per user.*
 
-## Why am I getting a “process failed” error when I try to reset my password?
->>>>>>> master:pages/documents/Troubleshooting/troubleshooting-login-password.md
+## Why am I getting a “process failed” error when trying to reset my password?
 
 If your user is disabled, you will get a “process failed” error when trying to reset your password. Before you can reset your password, your user must be re-enabled.
 
@@ -87,8 +83,9 @@ You will not be able to change the password until the 24-hour timeframe passes. 
 
 ## What timezone is being used in the workspace? 
  
-The timestamps visible in the Agent and Manager workspaces will reflect the time of the viewer’s device with which they are accessing the Conversational Cloud. 
+The timestamps visible in both the Agent and Manager workspaces will reflect the local time pertaining to the specific device with which the viewer is accessing the Conversational Cloud.
+
 * Report Builder - the timezone of the account
 * Web History - Local Computer Time
 * Campaign BI - the timezone of the account
-* Export Web History - GMT 
+* Export Web History - GMT
