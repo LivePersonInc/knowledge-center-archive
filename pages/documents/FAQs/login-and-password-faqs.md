@@ -83,7 +83,7 @@ You will not be able to change the password until the 24-hour timeframe passes. 
 
 ## What timezone is being used in the workspace? 
  
-The timestamps visible in both the Agent and Manager workspaces will reflect the local time pertaining to the specific device with which the viewer is accessing the Conversational Cloud.
+The timestamps visible in both the Agent and Manager workspaces will reflect the timezone relating to the specific device with which the viewer is accessing the Conversational Cloud.
 
 * Report Builder - the timezone of the account
 * Web History - Local Computer Time
