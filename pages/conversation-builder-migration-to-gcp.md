@@ -8,7 +8,9 @@ layout: homepage
 After careful consideration to expand to a robust global network, LivePerson has decided to move the Conversational Cloud to a secure, public cloud offering from Google - Google's Cloud Platform (GCP).
 
 The decision to move to the public cloud was made after considering customers' needs and the numerous benefits offered by expanding to an established robust global network.
-##Benefits:
+ 
+ ## Benefits:
+ 
   * Faster service - deployment to more geographic regions that are closer to agents and Brands .
   * Faster service - deployment to more geographic regions that are closer to agents and Brands
   * Increased stability & scalability - automatic scaling of services better able to accommodate peak times and seasonal events
