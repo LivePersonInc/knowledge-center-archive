@@ -6,8 +6,8 @@ layout: homepage
 
 <div class="header-label">
 LivePerson is transforming Conversational Cloud to Public Cloud        
-As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversation Builder to a secure public cloud offering from Google -  Google's Cloud Platform (GCP). 
- 
+As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversation Builder to a secure public cloud offering from Google -  Google's Cloud Platform (GCP). </div>
+
 ## FAQs
 **Note: If you were notified that your account was moving to the GCP Cloud, please carefully review the information below:**
 
@@ -24,4 +24,4 @@ During the maintenance window, you will not be able to see historical data but a
 No. There are no software updates and this is mainly an infrastructure change to a new environment.
 
   
-</div>
+
