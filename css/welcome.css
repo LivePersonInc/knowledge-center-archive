@@ -195,6 +195,19 @@ img.card-container {
   margin-top: 0;
 }
 
+.lists-header {
+  margin-top: 1.875rem;
+}
+
+.lists-header .lists ul {
+  list-style-type: none;
+  margin: 0.875rem 0;
+}
+
+.lists-header .lists ul li a{
+  color: #005ef4;
+}
+
 @media screen and (max-width: 1300px) {
   .homeContent {
     margin-left: 1.25rem !important;
