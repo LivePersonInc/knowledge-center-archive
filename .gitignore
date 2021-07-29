@@ -6,3 +6,5 @@ _pdf
 .DS_Store
 node_modules/
 vendor/
+.bundle/
+.ruby-version
