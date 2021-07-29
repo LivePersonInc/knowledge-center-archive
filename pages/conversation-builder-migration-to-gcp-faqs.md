@@ -14,13 +14,13 @@ As LivePerson continues to innovate and provide new capabilities that empower br
 #### Q: Will Brands experience any disruptions during the move?
 No. We do not expect any change in the experience for the Brands. The bot enablement on the new environment will be coordinated via an automation script to ensure no message is lost.
 
-#### Do I need to login using a different URL ?
+#### Q: Do I need to login using a different URL?
 No. We will automatically redirect the Brands’ users to the appropriate URL. If you have bookmarked deeplinks, we recommend that you update them.  The main login URL does not need to be changed.
 
-#### Will I see any loss in data from a reporting perspective?
+#### Q: Will I see any loss in data from a reporting perspective?
 During the maintenance window, you will not be able to see historical data but all data will be available immediately after the maintenance window closes which we expect will take approximately 10 hours from start to finish.
 
-#### Are any user experience changes expected for using Bot Builder tools?
+#### Q: Are any user experience changes expected for using Bot Builder tools?
 No. There are no software updates and this is mainly an infrastructure change to a new environment.
 
   
