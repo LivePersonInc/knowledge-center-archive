@@ -5,26 +5,16 @@ layout: homepage
 ---
 
 <div class="header-label">
-After careful consideration to expand to a robust global network, LivePerson has decided to move the Conversational Cloud to a secure, public cloud offering from Google - Google's Cloud Platform (GCP).
+After careful consideration, LivePerson has decided to **move the Conversational Cloud to a secure, public cloud offering from Google - Google's Cloud Platform (GCP)* in order to expand to a robust global network.
 
-The decision to move to the public cloud was made after considering customers' needs and the numerous benefits offered by expanding to an established robust global network.
+The decision to move to the public cloud was made after weighing customers' needs and the numerous benefits offered by expanding to an established robust global network.
  
- ## Benefits:
- 
-  * Faster service - deployment to more geographic regions that are closer to agents and Brands .
-  * Faster service - deployment to more geographic regions that are closer to agents and Brands
-  * Increased stability & scalability - automatic scaling of services better able to accommodate peak times and seasonal events
-  * Increased reporting performance - more timely access to key metrics. 
-  * Access to API utilization - for better planning and developer experience.
-
-
-Faster time to new products - Exclusive focus on innovation and differentiated features rather than infrastructure maintenance. 
-
-
-Faster access to LP testing sandboxes
-
-*
-*  
+ ## Top Benefits:
+  * **Faster service** - deployment to more geographic regions that are closer to agents and brands
+  * **Increased stability & scalability** - automatic scaling of services better able to accommodate peak times and seasonal events
+  * **Increased reporting performance** - more timely access to key metrics
+  * **Access to API utilization** - for better planning and developer experience
+  * **Faster time to new products** - Exclusive focus on innovation and differentiated features rather than infrastructure maintenance. 
   
 </div>
 
