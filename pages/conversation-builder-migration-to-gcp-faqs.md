@@ -1,6 +1,6 @@
 ---
 pagename: Conversation Builder Migration to GCP FAQs
-permalink: lp.html
+permalink: conversation-builder-migration-to-gco-faqs.html
 layout: homepage
 ---
 
