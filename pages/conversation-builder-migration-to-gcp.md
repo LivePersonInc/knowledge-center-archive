@@ -15,8 +15,6 @@ The decision to move to the public cloud was made after weighing customers' need
 * **Access to API utilization** - for better planning and developer experience.
 * **Faster time to new products**  - our focus is exclusively on innovation and richness of features instead of infrastructure maintenance. 
 * **Faster deployment** - leveraging the latest, most innovative infrastructure from Google
-* **Faster service** - deployment to more geographic regions that are closer to agents and brands
-
  
 ## The Process & Implications
 **Note: If you were notified that your account was moving to the GCP Cloud, please carefully review the information below:**
