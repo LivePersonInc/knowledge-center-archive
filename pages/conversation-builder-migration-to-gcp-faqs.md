@@ -1,12 +1,17 @@
 ---
 pagename: Conversation Builder Migration to GCP FAQs
 permalink: conversation-builder-migration-to-gco-faqs.html
-layout: homepage
+layout: page
 ---
 
-<div class="header-label">
+<div class="card-container">
+  <div id="success-stories" class="welcome-card lp-default" style="padding:2.375rem 2.625rem !important;">
+      <p class="success-stories-header">Conversation Builder Migration to GCP FAQs</p>
+  </div>
+</div>
+
 LivePerson is transforming Conversational Cloud to Public Cloud        
-As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversation Builder to a secure public cloud offering from Google -  Google's Cloud Platform (GCP). </div>
+As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversation Builder to a secure public cloud offering from Google -  Google's Cloud Platform (GCP).
 
 ## FAQs
 **Note: If you were notified that your account was moving to the GCP Cloud, please carefully review the information below:**
@@ -22,6 +27,3 @@ During the maintenance window, you will not be able to see historical data but a
 
 #### Q: Are any user experience changes expected for using Bot Builder tools?
 No. There are no software updates and this is mainly an infrastructure change to a new environment.
-
-  
-

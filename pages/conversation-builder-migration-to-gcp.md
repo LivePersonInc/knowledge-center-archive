@@ -1,13 +1,12 @@
 ---
 pagename: Conversation Builder Migration to GCP 
 permalink: conversation-builder-migration-to-gcp.html
-layout: homepage
+layout: page
 ---
+
 <div class="card-container">
-  <div id="success-stories" class="welcome-card" style="padding:58px 22px 58px 22px;">
-    <a href="/getting-started-the-liveperson-conversational-cloud.html">
-      <p class="success-stories-header">Learn more about the LivePerson Conversational Cloud</p>
-    </a>
+  <div id="success-stories" class="welcome-card lp-default" style="padding:2.375rem 2.625rem !important;">
+      <p class="success-stories-header">Conversation Builder Migration to GCP</p>
   </div>
 </div>
 
@@ -40,6 +39,6 @@ We will move all the reporting data for bots to the new environment, which can t
 There will be a minor inconvenience during the migration timeframe to the consumers having conversations with bots as these will be reset and the dialog will start at the beginning.
 
 
-[Check out our FAQ here](/conversation-builder-migration-to-gco-faqs.html.html).
+[Check out our FAQ here](/conversation-builder-migration-to-gco-faqs.html).
 
 

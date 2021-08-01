@@ -1,7 +1,7 @@
 ---
 pagename: Title of Landing page
 permalink: lp.html
-layout: homepage
+layout: default
 ---
 
 <div class="header-label">
