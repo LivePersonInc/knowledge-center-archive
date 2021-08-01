@@ -6,7 +6,7 @@ layout: homepage
 <div class="card-container">
   <div id="success-stories" class="welcome-card" style="padding:58px 22px 58px 22px;">
     <a href="/getting-started-the-liveperson-conversational-cloud.html">
-      <p class="success-stories-header">Learn more about the LivePerson Conversational Cloud</p>
+      <p class="success-stories-header">Transforming Conversational Cloud to Public Cloud </p>
     </a>
   </div>
 </div>
