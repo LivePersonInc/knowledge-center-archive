@@ -42,3 +42,8 @@ There will be a minor inconvenience during the migration timeframe to the consum
 [Check out our FAQ here](/conversation-builder-migration-to-gco-faqs.html).
 
 
+<style>
+nav.breadcrumbs {
+    display: none;
+}
+</style>

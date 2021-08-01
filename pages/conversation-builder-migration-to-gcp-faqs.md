@@ -27,3 +27,9 @@ During the maintenance window, you will not be able to see historical data but a
 
 #### Q: Are any user experience changes expected for using Bot Builder tools?
 No. There are no software updates and this is mainly an infrastructure change to a new environment.
+
+<style>
+nav.breadcrumbs {
+    display: none;
+}
+</style>
