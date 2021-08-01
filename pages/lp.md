@@ -1,28 +1,49 @@
 ---
 pagename: Title of Landing page
 permalink: lp.html
-layout: default
+layout: page
 ---
 
-<div class="header-label">
-lorem ipsum lorem ipsumloud helps brands build meaningful relationships with consumers. In the LivePerson Knowledge Center you can find user guides, tutorial videos, frequently asked questions, and more resources to help your brand build conversational solutions. Use the search to explore our documentation or start by choosing a topic below.
-</div>
-
 <div class="card-container">
-  <div id="success-stories" class="welcome-card" style="padding:58px 22px 58px 22px;">
-    <a href="/getting-started-the-liveperson-conversational-cloud.html">
-      <p class="success-stories-header">Learn more about the LivePerson Conversational Cloud</p>
-    </a>
+  <div id="success-stories" class="welcome-card lp-default">
+      <p class="success-stories-header">Conversation Builder Migration to GCP</p>
   </div>
 </div>
-<div class="header-label lists-header">
-Use the list to explore our lorem ipsum lorem ipsum or start by choosing a topic below.
-    <div class="lists">
-    <ul>
-    <li><a target="_blank" href="https://developers.liveperson.com/register.html">Link 1</a></li>
-    <li><a target="_blank" href="https://developers.liveperson.com/register.html">Link 2</a></li>
-    <li><a target="_blank" href="https://developers.liveperson.com/register.html">Link 3</a></li>
-    <li><a target="_blank" href="https://developers.liveperson.com/register.html">Link 4</a></li>
-    </ul>
-    </div>
-</div>
+
+After careful consideration, LivePerson has decided to move the Conversational Cloud to a secure, public cloud offering from Google - Google's Cloud Platform (GCP) in order to expand to a robust global network.
+
+The decision to move to the public cloud was made after weighing customers' needs and the numerous benefits offered by expanding to an established robust global network.
+ 
+## Top Benefits:
+* **Increased stability & scalability** - automatic scaling of services to meet peak times and seasonal events.
+* **Increased reporting performance**- more timely access to key metrics. 
+* **Access to API utilization** - for better planning and developer experience.
+* **Faster time to new products**  - our focus is exclusively on innovation and richness of features instead of infrastructure maintenance. 
+* **Faster deployment** - leveraging the latest, most innovative infrastructure from Google
+ 
+## The Process & Implications
+**Note: If you were notified that your account was moving to the GCP Cloud, please carefully review the information below:**
+
+As an initial step, the Liveperson Operations team will conduct maintenance on the Conversation Builder platform to begin to move accounts to the GCP public cloud environment.
+
+### No downtime expected; No data will be lost 
+During this move, we do not expect any downtime for bots. The bot migration is coordinated via an automation script to ensure a seamless transition of Bots, Intents, Knowledge Bases without any downtime.  
+
+### Actions
+We do request that you do not update any configuration related to bots, intents, and Knowledge bases during the maintenance window. If changes are made during the Migration Window, they will not be carried over to the new GCP environment.
+
+### Timeframe - Up to 8 hours
+We will move all the reporting data for bots to the new environment, which can take approximately 8 hours.  As a result, you will temporarily not be able to see reporting data for the day before the Maintenance Window; only the current day's reporting will be available. Once the data is migrated and verified, we will close the maintenance window (±10 hours), after which you can see all the reporting data from the previous day.
+
+### Impact
+There will be a minor inconvenience during the migration timeframe to the consumers having conversations with bots as these will be reset and the dialog will start at the beginning.
+
+
+[Check out our FAQ here](/conversation-builder-migration-to-gco-faqs.html).
+
+
+<style>
+nav.breadcrumbs {
+    display: none;
+}
+</style>
