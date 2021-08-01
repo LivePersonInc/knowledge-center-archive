@@ -5,7 +5,7 @@ layout: page
 ---
 
 <div class="card-container">
-  <div id="success-stories" class="welcome-card lp-default" style="padding:2.375rem 2.625rem !important;">
+  <div id="success-stories" class="welcome-card lp-default">
       <p class="success-stories-header">Conversation Builder Migration to GCP FAQs</p>
   </div>
 </div>

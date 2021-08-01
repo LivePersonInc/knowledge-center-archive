@@ -1628,6 +1628,13 @@ div#cookie-law {
 	margin-top: 48px;
 }
 
+/* start ok lp */
+div#post-content .card-container .lp-default {
+  padding:2.375rem 2.625rem !important;
+  margin-bottom: 24px;
+}
+/* end of lp */
+
 /* MODAL STUFF BELOW */
 /* The Modal (background) */
 .modal {
