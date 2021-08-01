@@ -180,8 +180,15 @@ With the configurations above done properly, a user with a “Management Console
 |Secure forms|No|Yes|
 |Consumer Identity Provider|No|Yes|
 |Instagram|Yes| |
-|Authenticated Web Messaging|Yes| |
 |AI Annotator|Yes| |
 |Set Manage Groups Field To Mandatory|Yes| |
 |Agent Manager Permissions Setup|Yes| |
 |Restrict LivePerson Administrator access|Yes| |
+|Audit Trail|Yes| |
+|IP Address Masking|Yes| |
+|Quick Launch Menu Button|Yes| |
+|Custom rings|Yes| |
+|My Account Billing Page|Yes| |
+|Image Blur in the Agent Workspace|Yes| |
+|Prevent transfer to same skill|Yes| |
+|Automotive lead generation|Yes| |
