@@ -3,11 +3,17 @@ pagename: Conversation Builder Migration to GCP
 permalink: conversation-builder-migration-to-gcp.html
 layout: homepage
 ---
+<div class="card-container">
+  <div id="success-stories" class="welcome-card" style="padding:58px 22px 58px 22px;">
+    <a href="/getting-started-the-liveperson-conversational-cloud.html">
+      <p class="success-stories-header">Learn more about the LivePerson Conversational Cloud</p>
+    </a>
+  </div>
+</div>
 
-<div class="header-label">
-After careful consideration, LivePerson has decided to **move the Conversational Cloud to a secure, public cloud offering from Google - Google's Cloud Platform (GCP)** in order to expand to a robust global network.
+After careful consideration, LivePerson has decided to move the Conversational Cloud to a secure, public cloud offering from Google - Google's Cloud Platform (GCP) in order to expand to a robust global network.
 
-The decision to move to the public cloud was made after weighing customers' needs and the numerous benefits offered by expanding to an established robust global network.</div>
+The decision to move to the public cloud was made after weighing customers' needs and the numerous benefits offered by expanding to an established robust global network.
  
 ## Top Benefits:
 * **Increased stability & scalability** - automatic scaling of services to meet peak times and seasonal events.
