@@ -9,7 +9,7 @@ After careful consideration, LivePerson has decided to **move the Conversational
 
 The decision to move to the public cloud was made after weighing customers' needs and the numerous benefits offered by expanding to an established robust global network.</div>
  
- ## Top Benefits:
+## Top Benefits:
 * **Increased stability & scalability** - automatic scaling of services to meet peak times and seasonal events.
 * **Increased reporting performance**- more timely access to key metrics. 
 * **Access to API utilization** - for better planning and developer experience.
