@@ -6,7 +6,7 @@ layout: page
 
 <div class="card-container">
   <div id="success-stories" class="welcome-card lp-default">
-      <p class="success-stories-header">Transforming Conversational Cloud to Public Cloud</p>
+    <p class="success-stories-header">Transforming Conversational Cloud <br></br> to Public Cloud</p>
   </div>
 </div>
 
