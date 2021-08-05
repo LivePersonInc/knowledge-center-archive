@@ -26,7 +26,9 @@ We request that you do not update any configuration related to bots, intents, an
 * The exact Migration Window timeframe was communicated to your brand via email from LivePerson, or directly from your Account Manager. 
 
 #### Q: How long will the Migration take?
-We will move all the reporting data for bots to the new environment, which can take **approximately 8 hours**.  As a result, you will temporarily not be able to see reporting data for the day before the Migration Window; only the current day's reporting will be available.  Once the data is migrated and verified, we will close the Migration Window (± 2 hours), after which you can see all the reporting data.
+We will move all the reporting data for bots to the new environment, which can take **approximately 8 hours** *.  As a result, you will temporarily not be able to see reporting data for the day before the Migration Window; only the current day's reporting will be available.  Once the data is migrated and verified, we will close the Migration Window (± 2 hours), after which you can see all the reporting data.
+
+* **Note:** While the actual migration of bots and their enablement requires a shorter timeframe, we will dedicate the time to ensuring all reporting data is loaded and validated flawlessley.
 
 #### Q: Do I need to login using a different URL?
 No. We will automatically redirect the Brands’ users to the appropriate URL. If you have bookmarked deeplinks, we recommend that you update them.  The main login URL does not need to be changed.
