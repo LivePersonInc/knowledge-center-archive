@@ -43,7 +43,7 @@ To sort the visitors, simply click on the relevant parameter header.
 
 You can view more detailed information about your visitors, including the following:
 
-* **Visit info:** Which campaign the visitor is currently exposed to, along with the campaign’s main parameters (goal, target audience, and visitor behavior). You can also see more detailed information about the visit, including city and country, organization, operating system, browser, and more.
+* **Visit info:** Which campaign the visitor is currently exposed to, along with the campaign’s main parameters (goal, target audience, and behavioral targeting). You can also see more detailed information about the visit, including city and country, organization, operating system, browser, and more.
 * **Page navigation**: What page the visitor is currently browsing, as well as the pages previously visited.
 
 To view more detailed information about a visitor, simply click on the visitor’s name.
@@ -106,7 +106,7 @@ The conversation is ended and the visitor receives a message in the chat window 
 
 At any given time in your shift as an agent, you are expected to handle multiple chats in a competent and efficient manner. By using predefined content in your chats, you can relieve some of the pressure on yourself, achieve your goals, and maintain your high standards. The use of [predefined content ](agent-manager-workspace-workspace-configuration-predefined-content-overview)saves time, and can ensure consistent, error-free responses and a professional “tone of voice”.
 
-You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys (shortcuts) to the most useful predefined responses, and you can save time and energy by using them.
+You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys to the most useful predefined responses, and you can save time and energy by using them.
 
 While you are chatting, you can quickly navigate through the categories and select the relevant response. Here are some examples of categorized predefined responses:
 
@@ -114,25 +114,9 @@ While you are chatting, you can quickly navigate through the categories and sele
 * **Conversational:** Thank you for waiting.
 * **Greeting:** Hello, How may I assist you?
 
-### Hot keys
+### Hotkeys
 
-Hot keys help agents manage multiple, simultaneous tasks, by providing shortcuts to easily move between tasks, such as opening the Visitor List, toggling your status, and transferring chats to other agents.
-
-There are seven hot keys available in the Agent Workspace. Open the hot keys menu by holding down the control and tilde keys (CTRL + \~).
-
-Select an action by pressing the applicable letter:
-
-* LOGOUT (L): to logout of the Agent Workspace
-* ACCEPT ENGAGEMENT (A): to accept a new incoming chat
-* VISITOR LIST (V): to access the list of your current visitors
-* STATUS (S): to toggle your status between Online, Back Soon and Away
-* END ENGAGEMENT (X): to end the current chat
-* INACTIVE LIST (I): to open the inactive chats list
-* TRANSFER ENGAGEMENT (T): to transfer the chat to another agent
-* RESPOND TO NEXT (N): navigate to the visitor who has been waiting the longest for a response from the agent
-
-{: .notice}
-The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor.
+See [this document](agent-manager-workspace-agent-tools-for-live-chat-shortcuts.html) for an updated list of shortcuts.
 
 ### Send a link
 

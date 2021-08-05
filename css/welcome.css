@@ -100,7 +100,7 @@ img.card-container {
 }
 
 #success-stories {
-  background-image: url("../img/bgkc.jpg");
+  background-image: url("//ce-sr.s3.eu-west-1.amazonaws.com/knowledge/img/bgkc.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -193,6 +193,19 @@ img.card-container {
 .mainHome .h1 {
   color: #5879df !important;
   margin-top: 0;
+}
+
+.lists-header {
+  margin-top: 1.875rem;
+}
+
+.lists-header .lists ul {
+  list-style-type: none;
+  margin: 0.875rem 0;
+}
+
+.lists-header .lists ul li a{
+  color: #005ef4;
 }
 
 @media screen and (max-width: 1300px) {

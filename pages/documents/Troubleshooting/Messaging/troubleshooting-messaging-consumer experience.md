@@ -11,6 +11,7 @@ isNew: false
 date: 2019-02-26 12:39:36 +0000
 
 ---
+
 ## Agent icon not aligned with first line of message on consumer iOS devices
 
 ### Cause:
@@ -68,6 +69,20 @@ The agent sent the URL without the **http://** prefix ([www.mysite.com](http://w
 Always include the the **http:// prefix** in URLs that you send when messaging.
 
 ![](/img/troubleshooting-consumer-experience3.png)
+
+## App Messaging: Mobile App not displaying my conversations
+
+**In App messaging:** 
+There is a maximum supported length of messages a consumer or an agent can send, and the limit may have been surpassed. 
+You can find the character limitations here: https://knowledge.liveperson.com/messaging-channels-app-messaging-app-messaging-faqs.html#q-what-is-the-maximum-supported-message-length-a-consumer-or-an-agent-can-send-can-these-limits-be-configured
+
+**In Agent app:** 
+Agent app has limitations for unassigned skill conversation. The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the My Conversations or All Conversations list.
+
+
+
+
+
 
 ## App Messaging: double click doesn’t scroll to last message
 
@@ -146,3 +161,46 @@ When attempting to respond to a customer’s message via Apple Business Chat, th
 ### Solution:
 
 Consumer should not delete the iMessage thread on their device.
+
+## Why can't I see Facebook usernames?
+
+Due to EU privacy laws, Facebook has made changes to some of their features, including customer information. Consumer names and images from Facebook will not be shown in the Conversational Cloud. Each consumer name will be displayed as “Facebook User”.
+
+## Why am I unable to deliver facebook messages?
+
+Please note that the brand Facebook Admin must do this on the Account, since you have to access the Facebook Page itself.
+Go to "Manage Campaigns and engagements"
+Access the "Data Sources" from the bottom of the Tab;
+Go to "Facebook Messenger" and click on "Edit";
+Click on "Next" and from here select the Subscribe Facebook Page option, there after logging in you need to first unsubscribe and then subscribe again to the Page.
+
+## How can agents see their previous conversations with a visitor?
+
+View the conversation history within the agent workspace.
+From within the agent workspace, open a conversation with the desired customer (whether active or closed) and scroll up within the conversation widget. All previous conversations held by the user will be available in the history of the customer.
+
+## How can agents see their previous conversations with a visitor?
+
+View the conversation history within the agent workspace.
+From within the agent workspace, open a conversation with the desired customer (whether active or closed) and scroll up within the conversation widget. All previous conversations held by the user will be available in the history of the customer.
+
+## Why aren't my Twilio messages delivered
+
+* Reach out to your LivePerson account team, so the proper account configurations can be set to enable Twilio messaging.
+* Make sure you are using a paid Twilio account or sending a message to a verified number. 
+* Check for Twilio outages on p [LivePerson Status Dashboard](https://status.liveperson.com/) or [Twilio Status Page](https://status.twilio.com/).
+* If the issue still continues, please contact support.
+
+## Why are my messages sent twice?
+
+1. Check network speeds to confirm there is no latency issue
+2. Visit https://www.speedtest.net/ and perform a speed test
+3. If speeds and ping look good, please confirm that you have a stable connection. Please note that 
+mobile connections can cause latency.
+4. If the issue still continues, please contact support
+
+## Why can’t I see the Analytics Builder Icon? 
+
+Please note that you need to have the Agent Manager or Campaign Manager roles assigned to you or Administrator permissions to resolve this issue.
+It could also be thay Analytics Builder has not been turned on for your account. Please contact your account team to enable the Analytics Builder.
+

@@ -46,7 +46,7 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 [Survey information](contact-center-management-live-chat-operations-surveys-with-live-chat.html) (pre-chat, post-chat and agent) and [engagement attributes](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#marketing-source) (eCommerce info, visitor info, visitor journey and more) can be viewed by the agent manager, with authenticated attributes marked with a blue checkmark.
 
 * Search Fields in visitor info, including country, city, browser, operating system, IP address and device, provide a greater understanding of your consumers requirements and the drivers behind their customer journey.
-* Detailed campaign information, including campaign name, goal name, Line of Business, engagement name and visitor behavior, is also available.
+* Detailed campaign information, including campaign name, goal name, Line of Business, engagement name and behavioral targeting, is also available.
 * In addition, the preview window presents the chat ID, a unique number used to search and locate the chat for troubleshooting and investigation purposes.
 
 ![](/img/web-history-2.png)

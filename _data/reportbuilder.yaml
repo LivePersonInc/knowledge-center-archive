@@ -4822,3 +4822,11 @@
   Description: "The percentage (%) of consumers who abandoned the queue out of all consumers that entered the queue"
   Dashboard: "Business for Live Chat,Operational & Staffing for Live Chat,Skill Activity for Live Chat"
   filteredBy: "Skill, Engagement, Campaign, LoB"
+- metricitem:
+  Metric: "BRAND EVENT ID"
+  analysisType: "-"
+  Channel: "Messaging"
+  formulaOptional: "SUM(GOAL_ACHIEVED)"
+  Description: "he ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE."
+  Dashboard: "Goals Tracker for Messaging"
+  filteredBy: 

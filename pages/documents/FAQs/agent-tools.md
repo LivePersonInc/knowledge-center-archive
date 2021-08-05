@@ -75,8 +75,6 @@ No. Installation or plug-ins are required as the LivePerson platform is HTML/Jav
 
 The browsers supported by LivePerson have built-in spell checking. When the browser’s spell checking is enabled, the spell checker will automatically run in the LivePerson Engagement Window as well as in other browser windows.
 
-In addition, you can add extensions (for example, _Grammarly_) to the browser that auto correct spelling and grammar.
-
 ## What is an actionable conversation?
 
 An actionable conversation can be any one of the following:
@@ -149,3 +147,38 @@ On the Conversation History tab, click an engagement to see its summary.
 ## Why don’t I see any agents in the agents list?
 
 Users with Agent permissions cannot see the list online agents. Only users with Agent Manager or Administrator permissions can see this list. If you access to the list of online Agents, please contact your account administrator.
+
+## How can I delete an agent? 
+
+1. Navigate to the Manage users and skills tab that is located in the left-hand side of the screen
+2. Click on the empty box located on the left of the users Name to select that user 
+3. Click on Action located in the upper right corner -> click on delete
+Please note that you can delete only one use at a time.
+
+
+## Why didn't the conversation auto close?
+
+This is expected behavior, and it is caused by the interval of which the auto close cycle runs.
+The autoclose cycle runs in a 25 minute interval and it is not constantly executed.
+This means that for a conversation to close, it is possible to take anywhere between the "configured time" and the "configured time" + 25 minutes.
+
+## How do I change Automatic Messages?
+1. Go to the Campaign tab.
+2. Go to "Automatic Messages" under the campaign list.
+3. Choose the message which needs to be changed.
+4. Click on the text area to edit it.
+5. Click on the "Save" button.
+
+## Why is there an error when I try to change a status?
+
+There are a few steps that need to be checked: 
+Check if the Agent's user has a max number of Live chats assigned, if they don’t have any please edit it - up to 1.
+Check if the Agent's user has an agent group assigned.
+Check if the Agent's user has an agent profile assigned.
+If the user is not assigned with the agent's profile, please contact your local administrator.
+
+
+## Why aren't conversations appearing on the agent's side?
+Difficulty loading a page or network issues can cause this behavior. Please ask the agent to clear their cache and cookies, and have them re-log. Trying a different browser and checking Internet connection could be helpful too. 
+
+

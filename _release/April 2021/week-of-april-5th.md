@@ -128,6 +128,12 @@ Agent state was evicted from cache after 5 minutes expiration after agent discon
 ### Type: Bug fix [Agent Matching release 4.6.0]
 There are agents that are connected but not subscribed. AM ACD is sending rings to those agents. Those rings eventually spend time in ‘pending’ state and are not assigned to any agent. Eventually the rings expired and returned to the queue. This bug is here in order to avoid rings to be sent to connected and not subscribed agents and avoiding ‘pending’ time where the ring is not assigned to any agent and not part of the queue.
 
- 
+ ## Added DialogFlow Cx as a new vendor (INT-1632)
+### Type: Enhancement [Third Party Bot Connectors 2.30]
+DialogFlow Cx is now available as an additional vendor that can be used by Third-Party Bots. 
+This new vendor has the same functionalities we have for other vendors like DialogFlow ES. Users can now create DialogFlow Cx bots in our UI wizard, test their functionality using the conversation Tester and check for conversation errors using our Conversation Error tab and check for the bot metris in our Dashboard.
+Further details and configuration guidelines can be found in the [Developers Community.](https://developers.liveperson.com/bot-connectors-microsoft-bot-framework.html)
+
+![](img/RN-bot-connectors-2.30.png)
 
 

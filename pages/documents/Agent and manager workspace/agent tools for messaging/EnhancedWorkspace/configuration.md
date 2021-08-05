@@ -54,7 +54,12 @@ The enhanced Agent Workspace supports the two following improvements to assist a
 ### Automatically rename ‘Visitor’, when “Personal info” engagement attribute has been reported
 
 * If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), the Agent Workspace will automatically populate the visitor name’s in the My Conversations/All Conversations lists as well as the conversation header.
-* The population will be done only once the **agent clicks the conversation** and opens it.
+
+#### Limitations
+
+The visitor name is automatically updated when only once the **agent clicks the conversation** and opens it. Until then, the visitor name will **not** be automatically updated.
+
+Sometimes, the data on the visitor name arrives **after** the agent opens the conversation. In that case, the visitor name will not be updated automatically and the agent has the option to set it manually as detailed below.
 
 **Screenshots**
 
@@ -109,7 +114,7 @@ On your LivePerson Conversational Cloud account, take the following steps:
 **A:** The manual rename takes precedence over the automatic visitor name population so that the name set by the agent is the one displayed.
 
 **Q:** Will the consumer get a notification indicating that his name has been changed by the agent?
-**A:** No - the changes are visible for Conversational Cloud users only and are not visible for consumers.
+**A:** No. While the change in name is visible to the visitor, they will not receive a notification that it has changed.
 
 **Q:** Will these capabilities be supported in the old workspace as well?
 **A:** No, the enhancements are supported for the enhanced Agent Workspace only.

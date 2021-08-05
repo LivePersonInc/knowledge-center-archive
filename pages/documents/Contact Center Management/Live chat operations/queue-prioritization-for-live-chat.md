@@ -25,7 +25,7 @@ In the ‘Set priority queue level’ section in the engagement settings area, b
 
 If the engagement is assigned a different priority level (between 1st and 10th), visitors exposed to this engagement will be served according to the engagement's queue priority level. If there are two conversations for the same skill waiting in the queue, the higher ranked conversation will be served first.
 
-For example, if you want to give consumers with a high cart value a faster service, you can set up an engagement that will mean they are routed right to the top of the queue. By selecting ‘1st’ priority level in the engagement settings, and specifying a high basket total under visitor behavior, you can ensure that these high value consumers will go straight to the top of the queue when they click on the engagement.
+For example, if you want to give consumers with a high cart value a faster service, you can set up an engagement that will mean they are routed right to the top of the queue. By selecting ‘1st’ priority level in the engagement settings, and specifying a high basket total under behavioral targeting, you can ensure that these high value consumers will go straight to the top of the queue when they click on the engagement.
 
 ### Account setup
 

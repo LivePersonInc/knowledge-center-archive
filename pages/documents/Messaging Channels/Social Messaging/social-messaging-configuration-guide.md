@@ -47,9 +47,9 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
   * European users: As part of Facebook’s efforts to comply with privacy rules in Europe, Facebook made changes to their APIs and restricted some information. European users will see the Social Messaging widget, however, the user information (Name, Image, Locale, Timezone) will not be shown.
   * In the new Social Messaging widget, there’s an option to Like a public comment/post of the consumer. If an agent is logged in with his private Facebook account is pressing the like button - it likes the post under his private account.
 * **Additional known issues:**
-* * Navigating to “All Conversations” list, then navigating back to “My Conversations” list, may cause the Social Messaging buttons disappear (buttons: public/private toggle, link to DM, mention consumer). This is solved on page refresh, or focusing on a different conversation. **Note:** If you experience this bug, refresh your page, or navigate to a different conversation, then back to the conversation you need to reply to.
-* * The public/private toggle button is not activated if the consumer has responded both publicly and privately in the conversation, until page refresh/select a different conversation and return to the current one.
-* * Conversation source is not presented under the “All Conversations” table for Twitter.
+ * Navigating to “All Conversations” list, then navigating back to “My Conversations” list, may cause the Social Messaging buttons disappear (buttons: public/private toggle, link to DM, mention consumer). This is solved on page refresh, or focusing on a different conversation. **Note:** If you experience this bug, refresh your page, or navigate to a different conversation, then back to the conversation you need to reply to.
+ * The public/private toggle button is not activated if the consumer has responded both publicly and privately in the conversation, until page refresh/select a different conversation and return to the current one.
+ * Conversation source is not presented under the “All Conversations” table for Twitter.
 
 * **Social Messaigng 1.0 customers:** 
   * The source icon displayed on the “My Conversations” list now displays the “Twitter” icon for all conversations, even conversations originating from Facebook. This is caused by the fact that the current Social Messaging connector will only be supporting Twitter conversations soon, and Social conversations on Facebook will be managed through the Facebook connector. 
@@ -110,45 +110,9 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 
 ### Twitter
 
-1. Go to the Campaign Builder → “Data Sources” → “Social Messaging” ((alternatively you can select “Social Messaging” from the Quick Launch Menu) 
-![](img/social-messaging-configuration-11.png)
-
-{:start="2"}
-2. Add new accounts by selecting the “Connect” button → Choose “Twitter account”
-![](img/social-messaging-configuration-12.png)
-
-{:start="3"}
-3. Log into Twitter utilizing the brand’s Twitter account credentials
-4. After logging in, select “Authorize App” to connect with Social Messaging
-![](img/social-messaging-configuration-13.png)
-
-{:start="5"}
-5. Once the authorization is done, all Twitter accounts associated with the provided login credentials will be automatically displayed on the “Social Accounts” page.
-6. Each consumer direct message to any of these accounts or a public Tweet which contains any of these accounts handles, will generate a conversation in the Conversational Cloud
-
-{: .important}
-**Note:** Do not use the Social Messaging connector for Facebook conversations.
+**Note:** Currently, Social Messaging (aka, Social Messaging 2.0) will be enabled by your LivePerson account team.
 
 ### Optional configuration steps (for all customers)
-
-#### Create Skills for Social Messaging
-
-1. CSM/Support Agents can gain admin rights for the customer account through supportal
-* Go to [https://supportal.lpnet.com /#/](https://supportal.lpnet.com/#/)
-* On left side put in customer account number, your LPA-<user>, and password
-* In Tools, select LPAdmin JSP
-* Enter your LPA username without LPA (ie: dsmith instead of LPA-dsmith)
-* This will provide your LPA accoun
-
-2. After gaining admin rights on the customer’s account, log into the customers account in order to create new skills
-* Select the “Users” tab
-* Select “+ Add skill” from bottom of the screen
-* Input “Social-FB” for the Name and Description
-* Select “+ Add skill” from bottom of the screen
-* Input “Social-TW” for the Name and Description
-* Select “Save”
-
-![](img/social-messaging-configuration-14.png)
 
 #### Configure Skill Routing
 

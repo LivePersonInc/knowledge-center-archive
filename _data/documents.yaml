@@ -7,6 +7,7 @@
         - pagename: Web Messaging quick start
         - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
+        - pagename: Instagram quick start
         - pagename: Twilio SMS quick start
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
@@ -101,12 +102,7 @@
    - subcategoryname: LivePerson Intent Manager
      pages:
        - pagename: The power of an intent-driven contact center
-       - pagename: Overview            
-       - pagename: Getting started
-       - pagename: Create and Optimize Intents
-       - pagename: Intent Discovery 
-       - pagename: Dashboard
-       - pagename: Intent Manager updates
+       - pagename: Overview
    - subcategoryname: Post-conversation surveys
      pages:
        - pagename: Post-Conversation Survey bot
@@ -166,7 +162,7 @@
         - pagename: Creating buttons and banners
         - pagename: Engagement window
         - pagename: Entry point
-        - pagename: Visitor behavior
+        - pagename: Behavioral targeting
         - pagename: Managing campaigns
         - pagename: Campaign settings
         - pagename: Campaign dashboard and data bar
@@ -378,6 +374,7 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: May what's new
     - subcategoryname: April what's new
     - subcategoryname: March what's new
     - subcategoryname: February what's new
@@ -386,7 +383,6 @@
     - subcategoryname: November what's new
     - subcategoryname: September what's new    
     - subcategoryname: August what's new    
-    - subcategoryname: July what's new
 
 - categoryname: Release notes
   image: release-notes
@@ -396,6 +392,7 @@
       pages:
         - pagename: July
           level3:
+            - level3name: Week of July 21st
             - level3name: Week of July 12th
             - level3name: Week of July 5th
         - pagename: June
@@ -460,3 +457,4 @@
     - subcategoryname: 'Surveys & window'
     - subcategoryname: General
     - subcategoryname: Agent tools
+    

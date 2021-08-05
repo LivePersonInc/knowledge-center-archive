@@ -106,13 +106,13 @@ Reporting feature presents a complete journey of conversation from beginning to 
 The webtool allows users to self-manage API configurations, WhatsApp Message Templates and account settings without having to depend on LivePerson staff. Brands who are on the C2M 2.0 API can access the webtool, only administrators and campaign managers can create and manage API handoffs, WhatsApp templates and skills enablement to do the conversation routing.
 
 Main components of the webtool are:
-* [Welcome page](messaging-channels-connect-to-messaging-user-guide.html#welcome-page)
-* [Settings](messaging-channels-connect-to-messaging-user-guide.html#settings)
+* [Welcome page](messaging-channels-connect-to-messaging-connect-to-messaging-user-guide.html#welcome-page)
+* [Settings](messaging-channels-connect-to-messaging-connect-to-messaging-user-guide.html#settings)
   * Channels
   * Device Check
   * Routing  
-* [API Configurations](messaging-channels-connect-to-messaging-user-guide.html#api-configurations-create-and-manage-api-handoff)
-* [WhatsApp Message Templates](messaging-channels-connect-to-messaging-user-guide.html#whatsapp-messaging-templates)
+* [API Configurations](messaging-channels-connect-to-messaging-connect-to-messaging-user-guide.html#api-configurations-create-and-manage-api-handoff)
+* [WhatsApp Message Templates](messaging-channels-connect-to-messaging-connect-to-messaging-user-guide.html#whatsapp-messaging-templates)
 
 ### Welcome page
 

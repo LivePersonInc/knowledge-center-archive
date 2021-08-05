@@ -47,5 +47,5 @@ To create a proactive campaign, follow these steps:
  8. In the Engagement Studio you can customize different aspects of the Engagement, adding your own branded design if preferred. Click _Save_.
  9. The Window Studio is next, giving you the chance to personalize your conversation window branding and configure surveys. Give your window a name and click _Save_.
 10. In the Location Library, you can choose where you would like your button to appear - as this is a proactive campaign, choose the page most appropriate for your engagement. Click _Next_.
-11. On the Visitor Behavior Library page, you can define which visitor actions on your website will trigger an engagement, which is important for a proactive campaign. Adjust the values under Navigation, eCommerce and Visitor Journey as required, such as for time spent on location, products in cart and visitor errors. Click _Done_.
+11. On the Behavioral Targeting Library page, you can define which visitor behaviors on your website will trigger an engagement, which is important for a proactive campaign. Adjust the values under Navigation, eCommerce and Visitor Journey as required, such as for time spent on page, products in cart and visitor errors. Click _Done_.
 12. Lastly, name your Engagement and click _Publish_ - your proactive engagement is now complete.

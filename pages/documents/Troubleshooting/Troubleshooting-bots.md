@@ -11,6 +11,20 @@ isNew: false
 date: 2019-02-26 10:10:05 +0000
 
 ---
+## Bot connector showing as offline when it has been set to online
+
+### Cause
+Bot users may be disabled due to multiple failed login attempts because of the account login policy which prevents users from logging in from unauthorized (non-whitelisted) IPs, or the connector may be offline due to an error.
+
+### Solution
+1. If the bot users are disabled due to multiple failed login attempts. 
+Due to the account login policy which prevented users from logging in from unauthorized (non-whitelisted) IPs. Please reach out to your LivePerson account team to add IP addresses used by the servers where bot services are running
+
+2. If the connector is offline click on the details to view the error 
+* **Failed connection**: In the event of a failed connection, wait some time, and then try to stop and restart the connector. If you still need assistance, please contact your LivePerson representative.
+* **401 "unauthorized" error**: This error can occur if you try to add an agent connector for a bot user that wasn't created by you. Either add the agent connector for a different bot user created by you, or have the creator of the bot user add the agent connector.
+
+
 ## Bot not responding to first message of conversation (for customer bots created with Node Agent SDK)
 
 When a consumer initiates a conversation, the conversation is assigned to the bot skill and assigned to the bot user. But on the back end the bot user doesn’t pick up the conversation and thus doesn’t respond to the conversation. The conversation stays in limbo in the Conversational Cloud without responding.
