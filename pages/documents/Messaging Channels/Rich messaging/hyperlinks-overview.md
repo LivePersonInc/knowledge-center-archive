@@ -78,6 +78,12 @@ For example:
 ```#md#[Liveperson Page](https://www.liveperson.com)#/md#```
 In runtime, the link will be displayed to the consumer as a clickable link.
 
+```#md#[Email](mailto:support@liveperson.com)#/md#```
+This link will open the default email client and suggests sending a message to the mentioned email address.
+
+```#md#[Telephone](tel:123 456 7890)#/md#```
+This will generate a clickable telephone link and provides calling option.
+
 ## Supported sources
 For now, the only supported source is Web and Mobile App Messaging, including mobile Web Messaging
 For consumers using connectors channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
