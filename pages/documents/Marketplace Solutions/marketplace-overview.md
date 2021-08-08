@@ -5,7 +5,7 @@ subCategoryName: Conversational Marketplace
 indicator: both
 subtitle: Invite consumers to message with digital engagements managed in campaigns
 level3: ''
-permalink: contact-center-management-campaigns-campaigns-overview.html
+permalink: marketplace-solutions-conversational-marketplace-marketplace-overview.html
 isTutorial: false
 isNew: false
 date: 2021-08-08 

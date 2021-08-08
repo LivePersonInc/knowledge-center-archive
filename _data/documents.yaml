@@ -307,18 +307,12 @@
         - pagename: Taxonomy guide
         - pagename: Insights FAQs
         
-- categoryname: Marketplace solutions
+- categoryname: "Marketplace solutions"
+  image: marketplace-solutions
   subcategories:
     - subcategoryname: Conversational Marketplace
       pages:
         - pagename: Marketplace overview
-        - pagename: Marketplace user guide
-        - pagename: Marketplace reporting
-        - pagename: Provisioning API
-   - subcategoryname: Conversation Rollover
-      pages:
-        - pagename: Conversation Rollover overview
-        - pagename: Conversational Rollover user guide
 
 - categoryname: "Admin & settings"
   image: admin-settings
