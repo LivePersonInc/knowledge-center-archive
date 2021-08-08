@@ -306,6 +306,19 @@
         - pagename: Unsupervised NLU Model
         - pagename: Taxonomy guide
         - pagename: Insights FAQs
+        
+- categoryname: Marketplace solutions
+  subcategories:
+    - subcategoryname: Conversational Marketplace
+      pages:
+        - pagename: Marketplace overview
+        - pagename: Marketplace user guide
+        - pagename: Marketplace reporting
+        - pagename: Provisioning API
+   - subcategoryname: Conversation Rollover
+      pages:
+        - pagename: Conversation Rollover overview
+        - pagename: Conversational Rollover user guide
 
 - categoryname: "Admin & settings"
   image: admin-settings
