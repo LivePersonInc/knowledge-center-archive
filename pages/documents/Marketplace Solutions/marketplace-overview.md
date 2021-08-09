@@ -3,7 +3,7 @@ pagename: Marketplace overview
 categoryName: Marketplace solutions
 subCategoryName: Conversational Marketplace
 indicator: both
-subtitle: Invite consumers to message with digital engagements managed in campaigns
+subtitle: Businesses can message directly with their consumers in a marketplace
 level3: ''
 permalink: marketplace-solutions-conversational-marketplace-marketplace-overview.html
 isTutorial: false
