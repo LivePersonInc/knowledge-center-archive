@@ -55,4 +55,4 @@ Increase stickiness by activating conversational entry points beyond your brandâ
 * Apple Business Chat
 * Twilio SMS
 * WhatsApp
-* Google My Business
+* Google My Business - coming soon
