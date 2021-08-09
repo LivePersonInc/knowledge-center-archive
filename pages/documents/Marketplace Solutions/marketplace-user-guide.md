@@ -30,7 +30,7 @@ Create a campaign and engagement to drive the Marketplace
 ### 3. Provider domain integration 
 
 * [Add the Conversational Cloud tag to your website ](/getting-started-add-the-liveperson-tag-to-your-website.html)
-* Provide a <div> container for each brand engagement 
+* Provide a container for each brand engagement 
 * Include the Marketplace metadata for each brand 
 
 ## Reporting Solutions for a Marketplace 
