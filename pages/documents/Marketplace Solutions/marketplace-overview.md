@@ -17,6 +17,9 @@ Conversational Marketplaces allows brands to leverage LivePerson’s Conversatio
 
 LivePerson’s Conversational Marketplaces allows brands to give businesses on their Marketplace and brand sites the ability to leverage LivePerson’s Conversational Commerce tools and message directly with their consumers, empowering them to provide higher customer satisfaction, increase lifetime value, generate leads, and drive revenue. 
 
+
+<iframe src="https://player.vimeo.com/video/536960269" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 See how a Conversational Marketplace works [here](https://vimeo.com/536960269/d581c57c1b)
 
 ## Benefits
