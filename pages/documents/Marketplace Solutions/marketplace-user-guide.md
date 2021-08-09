@@ -3,7 +3,7 @@ pagename: Marketplace user guide
 categoryName: Marketplace solutions
 subCategoryName: Conversational Marketplace
 indicator: both
-subtitle: Businesses can message directly with their consumers in a marketplace 
+subtitle: Basic configuration, accounts, and more on Marketplace
 level3: ''
 permalink: marketplace-solutions-conversational-marketplace-marketplace-user-guide.html
 isTutorial: false
