@@ -39,7 +39,7 @@ Increase stickiness by activating conversational entry points beyond your brand�
 
 * **Provider Account** — The Provider account is the Marketplace consumer’s account, which houses the configurations and will serve as the source of all conversations. Businesses that are part of the marketplace are subscribed to this account. Campaigns and Engagements are set-up in this account and will serve as the conversational entry points for your Marketplace.
 
-  * **Business Account** — These are the businesses, merchants, or customers that are within the Marketplaces.  The accounts are subscribed to other Any number of brands can be subscribed to a Marketplace and serve as the owners of the conversations. The brands that make up a Marketplace can be from many different customer segments: 
+* **Business Account** — These are the businesses, merchants, or customers that are within the Marketplaces.  The accounts are subscribed to other Any number of brands can be subscribed to a Marketplace and serve as the owners of the conversations. The brands that make up a Marketplace can be from many different customer segments: 
 
   * *Product and Service Listings*: Marketplaces that list products and services from independently-owned small to medium businesses and enterprise brands
 
