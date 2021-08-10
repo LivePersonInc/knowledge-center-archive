@@ -1,14 +1,14 @@
 ---
 pagename: Rollover overview
 categoryName: Contact center management
-subCategoryName: Conversation Rollover
+subCategoryName: Conversation rollover
 indicator: messaging
 subtitle: Allow customers to rollover conversations to have another account handle them on behalf of the brand 
 level3: ''
 permalink: contact-center-management-conversation-rollover-rollover-overview.html
 isTutorial: false
 isNew: false
-date: 2021-08-08 
+date: '2021-08-08' 
 
 ---
 Conversation Rollover allows managed service teams to answer conversations on behalf of SMBs/brands from a single account, enabling contact centers to have their conversations handled by another account (bot, contact center, or [marketplace](/marketplace-solutions-conversational-marketplace-marketplace-overview.html) on behalf of their brand.  
