@@ -30,3 +30,48 @@ Designated ‘Handler’, or Rollover accounts, can be configured to house autom
 * Conversation “Handler” — The Conversational Cloud account handling the conversation on behalf of the Owner account as the configured Rollover account.
 
 * Conversation “Rollback” — Enables an agent or bot on the Handler account to pass the conversation back to the Owner account based on the intent of the conversation. A conversation can be added back to the queue of the Owner account through the Rollback menu, where the agent/bot can also target a specific Skill to roll back the conversation. Likewise, a bot on the Handler account can be configured to send the conversation back to the queue of the Owner account. 
+
+### 4 Types of Conversation Rollover 
+There are four options of rollover settings, which can each also be unique by Skill on the Owner:
+
+* Fully Managed — All conversations will be routed to the configured handler account 24/7..
+ 
+* Co-Managed Backup — First, try the dealer’s agents (if they are online); if they do not accept the conversation, route the conversation to the Answering Service. 
+ 
+* Co-Managed Schedule — Route conversations to the answering service based on a specific schedule (e.g., off-hours, based on the account/skill shift schedule definition).
+ 
+* Co-Managed Hybrid — On schedule AND backup, even during the schedule when the dealer is supposed to answer, the conversation will be routed to the Answering Service if the dealer does not accept.
+ 
+## Conversation Rollover Use Case
+
+**Use Case: A conversation belongs to Owner A...but is answered by Handler Z. **
+
+#### Owner Account — Agent
+The conversation is answered by the Handler account. Therefore, there will be no visibility of the conversation in the Owner account to the agent, and it will not be in the queue or My Conversations section of the account.  
+
+#### Owner Account — Agent Manager
+The conversation is answered by the Handler account, but given the conversation still belongs to the Owner account, the conversation will be part of the Manager Workspace just as the conversation would be if answered by the Owner account.  
+ 
+* The Agent Manager can view the ongoing conversations.
+* The Agent Manager can join the ongoing conversations. 
+* The Agent Manager can private message the agent on the handler account. 
+
+#### Handler Account — Assigned Agent
+The assigned agent of the conversation on the Handler account will have the same experience as they would if they were on the Owner account, in addition to a few enhancements that have been made specific to a Handler account so the agent has a unique experience for each Brand they answer for. 
+The Brand Name of the Owner account is visible in the Agent Workspace in the conversation list and the messaging area. This allows the Rollover agent to know exactly whom they are answering the conversation on behalf of.
+
+The Skill of the conversation on the Owner account does not change after it is answered on the Rollover account. Rather, there are now two Skills: One for the actual Skill of the conversation (as designated by the Owner account) and the Skill the conversation was answered by on the Handler account. Both Skills are present in the Agent Workspace for the agent. 
+
+A unique custom widget can be configured for the Handler account to house very specific and custom content to represent the Owner account. This includes Brand Name, Brand URL, Brand logo, custom WYSIWYG editor, hours of operation, and key contacts. 
+
+#### Handler Account — Agent Manager
+
+The Agent Manager workspace on the Handler account displays all conversations being handled by the Rollover account. The Agent Manager workspace has been enhanced to bring in the Brand Name of the Owner account, so the Agent Manager knows the status of conversations that are a part of any program they are answering for at any time. The Agent Manager can do the same operations as the Owner account Agent Manager can:
+
+* The Agent Manager can view the ongoing conversations.
+* The Agent Manager can join the ongoing conversations. 
+* The Agent Manager can private message the agent on the handler account. 
+
+## Configuration
+Please contact your account manager for configuration support. 
+
