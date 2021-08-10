@@ -2,7 +2,7 @@
 pagename: Marketplace user guide
 categoryName: Marketplace solutions
 subCategoryName: Conversational Marketplace
-indicator: both
+indicator: messaging
 subtitle: Basic configuration, accounts, and more of your Marketplace
 level3: ''
 permalink: marketplace-solutions-conversational-marketplace-marketplace-user-guide.html
