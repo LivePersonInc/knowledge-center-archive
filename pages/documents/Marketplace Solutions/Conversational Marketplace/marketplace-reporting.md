@@ -2,7 +2,7 @@
 pagename: Marketplace reporting
 categoryName: Marketplace solutions
 subCategoryName: Conversational Marketplace
-indicator: both
+indicator: messaging
 subtitle: Out-of-the-box reporting dashboards for your Marketplace
 level3: ''
 permalink: marketplace-solutions-conversational-marketplace-marketplace-reporting.html
