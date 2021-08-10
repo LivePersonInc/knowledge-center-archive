@@ -167,6 +167,9 @@
         - pagename: Campaign settings
         - pagename: Campaign dashboard and data bar
         - pagename: Outbound campaigns for CM
+    - subcategoryname: Conversation Rollover
+      pages:
+        - pagename: Rollover overview
 
 - categoryname: "Agent & Manager Workspace"
   image: agent-manager
