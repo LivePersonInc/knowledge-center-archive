@@ -5,7 +5,7 @@ subCategoryName: Conversational Marketplace
 indicator: both
 subtitle: out-of-the-box reporting dashboards for your Marketplace
 level3: ''
-permalink: marketplace-solutions-conversational-marketplace-marketplace-overview.html
+permalink: marketplace-solutions-conversational-marketplace-marketplace-reporting.html
 isTutorial: false
 isNew: false
 date: 2021-08-08 

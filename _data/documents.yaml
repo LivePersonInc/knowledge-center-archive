@@ -313,6 +313,8 @@
     - subcategoryname: Conversational Marketplace
       pages:
         - pagename: Marketplace overview
+        - pagename: Marketplace reporting
+        - pagename: Marketplace user guide
 
 - categoryname: "Admin & settings"
   image: admin-settings
