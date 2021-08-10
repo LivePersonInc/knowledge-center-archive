@@ -11,7 +11,7 @@ isNew: false
 date: 2021-08-08 
 
 ---
-Conversation Rollover allows managed service teams to answer and handle conversations on behalf of SMBs/brands from a single account, enabling contact centers to have their conversations handled by another account (bot or other contact center) on behalf of their brand.  In this way, conversations can be handled by an account other than the account where conversation is owned by and originated from to leverage automation to increase availability without increasing staff, diversify skill sets, and more. 
+Conversation Rollover allows managed service teams to answer conversations on behalf of SMBs/brands from a single account, enabling contact centers to have their conversations handled by another account (bot or other contact center) on behalf of their brand.  In this way, conversations can be resolved by an account other than the account where conversation is owned by and originated from to leverage automation, increase availability without increasing staff, diversify skill sets, and more. 
 
 ## Common Use Cases
 * **Leverage automation to increase availability** A Brand wants to use the messaging features of the Conversational Cloud but is not staffed with agents to answer the conversations or positioned to have a bot built to answer. The Brand uses Rollover to enable a Contact Center to handle their conversations on behalf of the brand. 
