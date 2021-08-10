@@ -23,24 +23,26 @@ Conversation Rollover allows managed service teams to answer conversations on be
 ## Key Components
 Designated ‘Handler’, or Rollover accounts, can be configured to house automation and/or the human agents so they can answer the conversations on behalf of the brands. The account that originated the conversation is the “Owner,” and the account answering the conversation is the “Handler.” 
 
-* Rollover — The act of a conversation being added to the queue of a different account than the conversation belongs to. 
+* **Rollover** — The act of a conversation being added to the queue of a different account than the conversation belongs to. 
 
-* Conversation “Owner” — The Conversational Cloud account that the conversation belongs to. 
+* **Conversation “Owner”** — The Conversational Cloud account that the conversation belongs to. 
 
-* Conversation “Handler” — The Conversational Cloud account handling the conversation on behalf of the Owner account as the configured Rollover account.
+* **Conversation “Handler”** — The Conversational Cloud account handling the conversation on behalf of the Owner account as the configured Rollover account.
 
-* Conversation “Rollback” — Enables an agent or bot on the Handler account to pass the conversation back to the Owner account based on the intent of the conversation. A conversation can be added back to the queue of the Owner account through the Rollback menu, where the agent/bot can also target a specific Skill to roll back the conversation. Likewise, a bot on the Handler account can be configured to send the conversation back to the queue of the Owner account. 
+* **Conversation “Rollback”** — Enables an agent or bot on the Handler account to pass the conversation back to the Owner account based on the intent of the conversation. A conversation can be added back to the queue of the Owner account through the Rollback menu, where the agent/bot can also target a specific Skill to roll back the conversation. Likewise, a bot on the Handler account can be configured to send the conversation back to the queue of the Owner account. 
 
-### 4 Types of Conversation Rollover 
+![](/img/rollover-overview-1.png)
+
+### Four Types of Conversation Rollover 
 There are four options of rollover settings, which can each also be unique by Skill on the Owner:
 
-* Fully Managed — All conversations will be routed to the configured handler account 24/7..
+* **1. Fully Managed** — All conversations will be routed to the configured handler account 24/7..
  
-* Co-Managed Backup — First, try the dealer’s agents (if they are online); if they do not accept the conversation, route the conversation to the Answering Service. 
+* **2. Co-Managed Backup** — First, try the dealer’s agents (if they are online); if they do not accept the conversation, route the conversation to the Answering Service. 
  
-* Co-Managed Schedule — Route conversations to the answering service based on a specific schedule (e.g., off-hours, based on the account/skill shift schedule definition).
+* **3. Co-Managed Schedule** — Route conversations to the answering service based on a specific schedule (e.g., off-hours, based on the account/skill shift schedule definition).
  
-* Co-Managed Hybrid — On schedule AND backup, even during the schedule when the dealer is supposed to answer, the conversation will be routed to the Answering Service if the dealer does not accept.
+* **4. Co-Managed Hybrid** — On schedule AND backup, even during the schedule when the dealer is supposed to answer, the conversation will be routed to the Answering Service if the dealer does not accept.
  
 ## Conversation Rollover Use Case
 
