@@ -3,7 +3,7 @@ pagename: Rollover overview
 categoryName: Contact center management
 subCategoryName: Conversation Rollover
 indicator: messaging
-subtitle: Allow customers to rollover conversations to have another account handle them on behalf of the brand. 
+subtitle: Allow customers to rollover conversations to have another account handle them on behalf of the brand 
 level3: ''
 permalink: contact-center-management-conversation-rollover-rollover-overview.html
 isTutorial: false
