@@ -167,7 +167,7 @@
         - pagename: Campaign settings
         - pagename: Campaign dashboard and data bar
         - pagename: Outbound campaigns for CM
-    - subcategoryname: Conversation Rollover
+    - subcategoryname: Conversation rollover
       pages:
         - pagename: Rollover overview
 
