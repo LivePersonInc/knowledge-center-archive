@@ -13,7 +13,7 @@ date: 2021-08-08
 ---
 ## Conversational Marketplace Overview
 
-Conversational Marketplaces allows brands to leverage LivePerson’s Conversational Commerce tools by offering their customers - independent businesses, subsidiary companies, and franchise networks -  a seamless conversational experience within their network to converse with consumers.
+Conversational Marketplace allows brands to leverage LivePerson’s Conversational Commerce tools by offering their customers - independent businesses, subsidiary companies, and franchise networks -  a seamless conversational experience within their network to converse with consumers.
 
 LivePerson’s Conversational Marketplaces allows brands to give businesses on their Marketplace and brand sites the ability to leverage LivePerson’s Conversational Commerce tools and message directly with their consumers, empowering them to provide higher customer satisfaction, increase lifetime value, generate leads, and drive revenue. 
 
@@ -55,4 +55,4 @@ Increase stickiness by activating conversational entry points beyond your brand�
 * Apple Business Chat
 * Twilio SMS
 * WhatsApp
-* Google My Business - *coming soon
+* Google My Business - *coming soon*
