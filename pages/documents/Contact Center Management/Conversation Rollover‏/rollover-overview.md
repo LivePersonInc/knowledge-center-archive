@@ -11,7 +11,9 @@ isNew: false
 date: 2021-08-08 
 
 ---
-Conversation Rollover allows managed service teams to answer conversations on behalf of SMBs/brands from a single account, enabling contact centers to have their conversations handled by another account (bot or other contact center) on behalf of their brand.  In this way, conversations can be resolved by an account other than the account where conversation is owned by and originated from to leverage automation, increase availability without increasing staff, diversify skill sets, and more. 
+Conversation Rollover allows managed service teams to answer conversations on behalf of SMBs/brands from a single account, enabling contact centers to have their conversations handled by another account (bot, contact center, or [marketplace](/marketplace-solutions-conversational-marketplace-marketplace-overview.html) on behalf of their brand.  
+
+In this way, conversations can be resolved by an account other than the account where conversation is owned by and originated from to leverage automation, increase availability without increasing staff, diversify skill sets, and more. Check out our [Conversational Marketplace](/marketplace-solutions-conversational-marketplace-marketplace-overview.html) for information on markerplace solutions. 
 
 ## Common Use Cases
 * **Leverage automation to increase availability** A Brand wants to use the messaging features of the Conversational Cloud but is not staffed with agents to answer the conversations or positioned to have a bot built to answer. The Brand uses Rollover to enable a Contact Center to handle their conversations on behalf of the brand. 
@@ -46,7 +48,7 @@ There are four options of rollover settings, which can each also be unique by Sk
  
 ## Conversation Rollover Use Case
 
-**Use Case: A conversation belongs to Owner A...but is answered by Handler Z. **
+### Use Case: A conversation belongs to Owner A, but is answered by Handler Z
 
 #### Owner Account — Agent
 The conversation is answered by the Handler account. Therefore, there will be no visibility of the conversation in the Owner account to the agent, and it will not be in the queue or My Conversations section of the account.  
