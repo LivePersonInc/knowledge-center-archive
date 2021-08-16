@@ -126,3 +126,51 @@ All submitted Intent Annotations, including the consumer message and the suggest
 
 For information on this, see [here](https://developers.liveperson.com/intent-manager-optimize.html) in the Developer Center.
 
+## False Response Annotations
+**Please note:** This feature may require backend enablement. Please contact your LivePerson representative for more information.
+
+### False Response Annotation
+One common use case occurs when a bot provides an incorrect response to a consumer’s message. For example, in the event that a consumer says “I would like to change my flight seat”,  the bot may identify a “change flight” intent instead of a “change seat” intent. This will happen when the training phrases that comprise the brand’s intents are not yielding an identification of the incorrect response. It also may be that the intent recognition is done correctly, but that the information included in the response is outdated or inaccurate.
+
+Unlike the case where a bot does not recognize the user’s intent, the False Response cases are often difficult to discern, since inherently, the bot cannot report an issue it is not aware of. In case the bot is not successful in recovering from this situation,  the conversation may be escalated to an agent, who will handle the conversation.
+
+![](img/ai-annotator-false-1.png)
+
+The brand’s goal would then be to quickly spot this issue and correct it. For example, by tuning the intent or by tweaking the information included in the bot’s response. 
+
+AI Annotator False Response achieves this by providing users who view conversations with the ability to flag incorrect Bot Messages. Once a message is flagged, it will appear in the “AI Tasks” tab. A user with permissions to view the tab can then correct the issue.
+
+![](img/ai-annotator-false-2.gif)
+
+### Setting up AI Annotator False Response 
+
+**Step 1 - Providing users with permission to submit annotations**
+
+To enable users to view the False Response flag and be able to flag messages, turn on the permission “AI Annotator: Handle False Responses” via “Edit Profile” for the human users (e.g. agents, or bot tuners). This permission is available for the roles: “Agent” and  “Agent Manager” and is set to “Off” by default.
+
+![](img/ai-annotator-false-3.png)
+
+**Step 2 - providing users with permission to view submitted annotations**
+
+![](img/ai-annotator-false-6.png)
+
+*image: view the submitted annotations in the AI Tasks tab*
+
+
+The "AI Tasks" tab is an additional tab in the Agent Workspace which enables users to view, copy and export the submitted annotations in this tab. Turn on the permission "AI Annotator: View AI Tasks" via "Edit Profile" in Conversational Cloud.
+
+This permission is available for the roles: "Agent Manager" and "Admin", and is set to "Off" by default.
+
+![](img/ai-annotator-false-4.png)
+
+*image: view of the submitted annotations in Intent Analyzer*
+
+[Intent Analyzer](/https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-the-power-of-an-intent-driven-contact-center.html) is an Intent Management tool in Conversational Cloud. Brands who use this tool, may leverage it to display submitted annotations. 
+
+In order to view submitted annotations in Intent Analyzer, first follow the steps required to view submitted annotations in the AI Tasks tab. Secondly, Make sure that Intent Analyzer is configured for your account and that you have [permissions](/https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-getting-started.html#managing-user-access
+) to view it. 
+
+### Expected results
+With the configurations above done properly, a user with an "AI Annotator: handle False Responses" permission will be able to flag any bot response as incorrect, in conversations opened after the flag has been opened. In addition, users with the permission  “AI Annotator: View AI Tasks”, will be able to review, copy and export flagged messages. The users who performed the relevant configuration, will be able to view submitted annotations via Intent Analyzer. 
+
+![](img/ai-annotator-false-5.png)
