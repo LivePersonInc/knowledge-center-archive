@@ -47,7 +47,7 @@ The following values are recorded in the audit trail:
 
 ### Audit trail permission
 
-The audit trail can be accessed by clicking on the account settings menu to the top right of the Agent Workspace.
+The audit trail can be accessed by clicking on the user settings menu at the bottom left of the Agent Workspace.
 
 ![](/img/audit2.png)
 

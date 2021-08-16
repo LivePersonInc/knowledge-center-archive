@@ -190,6 +190,21 @@ The following types of Rich Conversations are being supported for the enhanced A
 
 Agent Assist uses LivePerson's Conversation Orchestrator to analyze consumer intent and recommend the next best action for you, saving time and improving efficiency. Agent Assist displays these recommendations inline in your messaging conversations to improve usability and engagement. Some of the actions of Agent Assist include suggesting an agent reply, adding a bot to the conversation, or sharing a relevant Knowledge Center article.
 
+### Input Sanitization
+
+For security reasons, any text which you input into the Agent Workspace will be sanitized on LivePerson's end before being sent to the consumer. This means that certain characters which are commonly used in code will not be sent to the consumer. In addition, any actual code you input into the text area (like HTML or JavaScript) might be deleted if our services deem it as malicious. Consumers will not be notified that this has occurred; the text will simply not show up for them. 
+
+Here are some examples of characters and text which will not be sent by LivePerson to a consumer:
+
+* Any onXXXXXXX attribute where XXXXXXX is any character (for example, the expression "onLoad" is blocked). These expressions tend to be key attributes in malicious code.
+* Any "javascript:", "data:", "mhtml:", "mask:", expressions. These expressions tend to be key attributes in malicious code.
+* Any SCRIPT, IFRAME, FRAME, OBJECT, EMBED, STYLE, LINK elements. These elements tend to be key attributes in malicious code.
+* Any dirname, srcdoc attributes. These elements tend to be key attributes in malicious code.
+* Any text sent in between triangle brackets (<>) will not be sent. This applies to square brackets as well ([]). These are often used to desribe code and can be used to potentially run malicious code.
+* Any unicode characters will not be translated to rich text and will appear "as is" to consumers (for example, &lt; will not show us a left triangle bracket but as &lt;).
+
+Note that the above list is not comprehensive since there exist thousands of malicious code examples and forms against which we check the text you input.
+
 ### Additional actions
 
 While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts.

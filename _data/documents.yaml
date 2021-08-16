@@ -167,6 +167,9 @@
         - pagename: Campaign settings
         - pagename: Campaign dashboard and data bar
         - pagename: Outbound campaigns for CM
+    - subcategoryname: Conversation rollover
+      pages:
+        - pagename: Rollover overview
 
 - categoryname: "Agent & Manager Workspace"
   image: agent-manager
@@ -306,6 +309,15 @@
         - pagename: Unsupervised NLU Model
         - pagename: Taxonomy guide
         - pagename: Insights FAQs
+        
+- categoryname: "Marketplace solutions"
+  image: marketplace-solutions
+  subcategories:
+    - subcategoryname: Conversational Marketplace
+      pages:
+        - pagename: Marketplace overview
+        - pagename: Marketplace user guide
+        - pagename: Marketplace reporting
 
 - categoryname: "Admin & settings"
   image: admin-settings

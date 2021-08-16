@@ -464,7 +464,7 @@ b) To upload more than 100 numbers at a time, please use the .csv upload option.
 
 2/ Uploading a list of recipients using .csv file is limited to 10k recipients. 
 
-3/ When Prioritized is selected as a channel, there is no opt-out text sent for SMS. For example, if brand configures WhatsApp as primary channel and SMS as fallback channel, when brand detects a consumer isn’t eligible for WhatsApp, we will attempt to send the same message to SMS channel, however there is no opt-out text included in the SMS text messaging being sent i.e. ‘To STOP receiving messages just reply STOP’
+3/ When Prioritized is selected as a channel, there is a standard opt-out text sent for SMS with no option to customize it. The standard opt-out text for SMS is ‘To STOP receiving messages just reply STOP. For help, reply HELP.’
 
 4/ Current WhatsApp Rich Text limitations
 a) WhatsApp Rich Message Templates will not be available for the Prioritized channel when creating Proactive Campaigns.

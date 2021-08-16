@@ -10,10 +10,13 @@ layout: page
   </div>
 </div>
   
-As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversation Builder to a secure public cloud offering from Google -  Google's Cloud Platform (GCP).
+As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversational Cloud to a secure public cloud offering from Google -  Google's Cloud Platform (GCP). 
 
 ## FAQs
 **Note: If you were notified that your account was moving to the GCP Cloud, please carefully review the information below:**
+
+#### Q: What exactly is moving and to where?
+LivePerson's Conversation Builder and we are replacing our Identity and Access Management solution with software of an award winning partner called Auth0 (via AWS). Both will be moving to the GCP.  
 
 #### Q: Will I experience any disruptions during the move?
 No. We do not expect any change in the experience for your brand. The bot enablement on the new environment will be coordinated via an automation script to ensure no message is lost. Consumers can continue to interact with your brand’s bots, but you may have to momentarily answer questions again from previous interactions.
@@ -26,7 +29,9 @@ We request that you do not update any configuration related to bots, intents, an
 * The exact Migration Window timeframe was communicated to your brand via email from LivePerson, or directly from your Account Manager. 
 
 #### Q: How long will the Migration take?
-We will move all the reporting data for bots to the new environment, which can take **approximately 8 hours**.  As a result, you will temporarily not be able to see reporting data for the day before the Migration Window; only the current day's reporting will be available.  Once the data is migrated and verified, we will close the Migration Window (± 2 hours), after which you can see all the reporting data.
+We will move all the reporting data for bots to the new environment, which can take **approximately 8 hours** *.  As a result, you will temporarily not be able to see reporting data for the day before the Migration Window; only the current day's reporting will be available.  Once the data is migrated and verified, we will close the Migration Window (± 2 hours), after which you can see all the reporting data.
+
+* **Note:** While the actual migration of bots and their enablement requires a shorter timeframe, we will dedicate the time to ensuring all reporting data is loaded and validated flawlessley.
 
 #### Q: Do I need to login using a different URL?
 No. We will automatically redirect the Brands’ users to the appropriate URL. If you have bookmarked deeplinks, we recommend that you update them.  The main login URL does not need to be changed.

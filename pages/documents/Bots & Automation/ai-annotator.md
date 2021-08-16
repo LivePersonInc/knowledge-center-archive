@@ -151,6 +151,9 @@ To enable users to view the False Response flag and be able to flag messages, tu
 ![](img/ai-annotator-false-3.png)
 
 **Step 2 - providing users with permission to view submitted annotations**
+
+![](img/ai-annotator-false-6.png)
+
 *image: view the submitted annotations in the AI Tasks tab*
 
 
@@ -168,6 +171,6 @@ In order to view submitted annotations in Intent Analyzer, first follow the step
 ) to view it. 
 
 ### Expected results
-With the configurations above done properly, a user with an “AI Annotator: handle False Responses'' permission will be able to flag any bot response as incorrect, in conversations opened after the flag has been opened. In addition, users with the permission  “AI Annotator: View AI Tasks”, will be able to review, copy and export flagged messages. The users who performed the relevant configuration, will be able to view submitted annotations via Intent Analyzer. 
+With the configurations above done properly, a user with an "AI Annotator: handle False Responses" permission will be able to flag any bot response as incorrect, in conversations opened after the flag has been opened. In addition, users with the permission  “AI Annotator: View AI Tasks”, will be able to review, copy and export flagged messages. The users who performed the relevant configuration, will be able to view submitted annotations via Intent Analyzer. 
 
 ![](img/ai-annotator-false-5.png)
