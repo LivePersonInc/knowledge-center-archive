@@ -10,10 +10,13 @@ layout: page
   </div>
 </div>
   
-As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversation Builder to a secure public cloud offering from Google -  Google's Cloud Platform (GCP).
+As LivePerson continues to innovate and provide new capabilities that empower brand-to-consumer conversations, we are migrating Conversational Cloud to a secure public cloud offering from Google -  Google's Cloud Platform (GCP). 
 
 ## FAQs
 **Note: If you were notified that your account was moving to the GCP Cloud, please carefully review the information below:**
+
+#### Q: What exactly is moving and to where?
+LivePerson's Conversation Builder and we are replacing our Identity and Access Management solution with software of an award winning partner called Auth0 (via AWS). Both will be moving to the GCP.  
 
 #### Q: Will I experience any disruptions during the move?
 No. We do not expect any change in the experience for your brand. The bot enablement on the new environment will be coordinated via an automation script to ensure no message is lost. Consumers can continue to interact with your brand’s bots, but you may have to momentarily answer questions again from previous interactions.
