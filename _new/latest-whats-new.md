@@ -68,7 +68,7 @@ Intent Manager 2.2 also introduces multiple intent domain support, making it pos
 ![](img/new-july-7.png) 
 
 
-##Dialogue Template Library: more verticals & use cases
+## Dialogue Template Library: more verticals & use cases
 
 To expedite quality bot development, prebuilt dialog templates were added to the library for new verticals and use cases:
 
