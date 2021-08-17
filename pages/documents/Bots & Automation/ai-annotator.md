@@ -170,7 +170,7 @@ This permission is available for the roles: "Agent Manager" and "Admin", and is 
 In order to view submitted annotations in Intent Analyzer, first follow the steps required to view submitted annotations in the AI Tasks tab. Secondly, Make sure that Intent Analyzer is configured for your account and that you have [permissions](/https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-getting-started.html#managing-user-access
 ) to view it. 
 
-## Expected results
+# Expected results
 With the configurations above done properly, a user with an "AI Annotator: handle False Responses" permission will be able to flag any bot response as incorrect, in conversations opened after the flag has been opened. In addition, users with the permission  “AI Annotator: View AI Tasks”, will be able to review, copy and export flagged messages. The users who performed the relevant configuration, will be able to view submitted annotations via Intent Analyzer. 
 
 ![](img/ai-annotator-false-5.png)
