@@ -21,16 +21,16 @@ With LivePerson’s Conversational Marketplaces, brand sites have the ability to
 
 ![](img/whats-new-august-1.png)
 
-* **Personalize your Marketplace for consumers’ preferences** 
+* **Personalize your Marketplace for consumers’ preferences**-
 Businesses on your Conversational Marketplace can quickly answer questions and transact with consumers as they research products and services — on your brand’s site, app or in familiar channels like: Apple Business Chat, WhatsApp, text messaging, and more.
 
-* **Drive more leads and sales with direct messaging** 
+* **Drive more leads and sales with direct messaging**
 Direct communication with businesses makes it easy for their consumers to finalize decisions, so brands can deliver more high-intent leads and sales attribution. 
 
-* **Boost conversions with in-channel integrations** 
+* **Boost conversions with in-channel integrations**
 Allow consumers to make appointments or complete transactions in these secure conversations — no channel switch required. Attribute that revenue to help prove your brand’s platform’s value.
 
-* **Expand discovery and strengthen retention** 
+* **Expand discovery and strengthen retention**
 Increase stickiness by activating conversational entry points beyond your brand’s site for merchants. All conversions will ultimately be attributed to your brand as the source of the conversation.
 
 ### Marketplace Capabilities:
