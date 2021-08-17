@@ -12,7 +12,7 @@ isNew: false
 
 Watch this short video to see an overview of all the top features that came out this Summer, and catch a preview of new features coming to LivePerson in the weeks ahead.
 
-<iframe src="https://player.vimeo.com/video/548771475" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/588339498" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ## Conversational Marketplaces
 LivePeron’s Conversational Marketplaces transform the way online marketplaces, their customers, and consumers engage in sales and customer care journeys. The Marketplace Solution allows brands to use LivePerson’s Conversational Commerce tools to create seamless conversational experiences between consumers and their customers - independent businesses, subsidiary companies, and franchise networks - on their digital storefronts. 
