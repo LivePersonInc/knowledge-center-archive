@@ -1,6 +1,8 @@
 ---
-pagename: Conversation Builder Migration to GCP 
-permalink: conversation-builder-migration-to-gcp.html
+pagename: Conversational Cloud Migration to GCP 
+permalink: conversational-cloud-migration-to-gcp.html
+redirect_from:
+  - conversation-builder-migration-to-gcp.html
 layout: page
 ---
 
