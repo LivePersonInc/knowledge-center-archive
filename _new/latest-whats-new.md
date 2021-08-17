@@ -19,7 +19,7 @@ LivePeron’s Conversational Marketplaces transform the way online marketplaces,
 
 With LivePerson’s Conversational Marketplaces, brand sites have the ability to directly message with their consumers, empowering them to provide higher customer satisfaction, increase lifetime value, generate leads, and drive revenue. 
 
-![](img/whats-new-august-1.png)
+![](img/whats-new-aug-1.png)
 
 * **Personalize your Marketplace for consumers’ preferences**-
 Businesses on your Conversational Marketplace can quickly answer questions and transact with consumers as they research products and services — on your brand’s site, app or in familiar channels like: Apple Business Chat, WhatsApp, text messaging, and more.
@@ -52,12 +52,12 @@ Increase stickiness by activating conversational entry points beyond your brand�
 ## Conversation Rollover Account 
 Conversation Rollover allows conversations to be handled by a different account than they are owned by. A Rollover account can be configured to handle conversations on behalf of the entire Marketplace provider in a single account, which is especially helpful for scaling the automation strategy of the Marketplace. A single bot can be enabled to handle the conversation volume across all brands with an escalation back to the built-in brand account as needed. 
 
-![](img/whats-new-august-2.png)
+![](img/whats-new-aug-2.png)
 
 ## Maven Pay - Early Access
 Integrate payments directly into a conversation with Maven Pay, and collect payment via Maven Pay within the Messaging Window, greatly increasing retention and revenue with new sales use cases.
 
-![](img/whats-new-august-3.png)
+![](img/whats-new-aug-3.png)
 
 ### Channels Available for Maven Pay Stripe integration Early Access:
 * SMS
