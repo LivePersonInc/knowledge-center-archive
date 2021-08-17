@@ -152,18 +152,11 @@ To enable users to view the False Response flag and be able to flag messages, tu
 
 **Step 2 - providing users with permission to view submitted annotations**
 
-![](img/ai-annotator-false-6.png)
-
-*image: view the submitted annotations in the AI Tasks tab*
-
-
 The "AI Tasks" tab is an additional tab in the Agent Workspace which enables users to view, copy and export the submitted annotations in this tab. Turn on the permission "AI Annotator: View AI Tasks" via "Edit Profile" in Conversational Cloud.
 
 This permission is available for the roles: "Agent Manager" and "Admin", and is set to "Off" by default.
 
 ![](img/ai-annotator-false-4.png)
-
-*image: view of the submitted annotations in Intent Analyzer*
 
 [Intent Analyzer](/https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-manager-the-power-of-an-intent-driven-contact-center.html) is an Intent Management tool in Conversational Cloud. Brands who use this tool, may leverage it to display submitted annotations. 
 
