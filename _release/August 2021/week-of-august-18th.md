@@ -20,9 +20,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## New look & feel, terminology alignment, and access points
 
-### Type: Enhancement
+### Type: Enhancement [Consumer Identity Provider]
 
-**Availability:** Everyone
+**Availability:** All brands
 
 **Channels:**
 
@@ -103,6 +103,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 2. Terminology alignment - We are aligning to the industry standards and changing the name of the page and its entities from ‘Authentication Server’ to ‘Consumer Identity Provider’.
 3. New ways to access - Accessing the Consumer Identity Provider page from the Management Console.
 
+
 **Enablement:** Available immediately to everyone.
 
 **Dependencies:** None
@@ -112,9 +113,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 ![](img/week-of-august-18th-1.png)
 
 ## Support for JWKS endpoint 
-### Type: Enhancement
+### Type: Enhancement [Consumer Identity Provider]
 
-**Availability:** Everyone
+**Availability:** All brands
 
 **Channels:**
 
@@ -193,6 +194,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 **Description**
 Introducing JWKS endpoint support. Brands can now choose between configuring their JWT Public Key for JWT validation or to provide a JWKS Endpoint (jwks_uri) for JWT key set discovery.
 Using [JWKS endpoint](https://datatracker.ietf.org/doc/html/rfc8414), brands are able to control their JWTs validation keys and certification dynamically without needing to update their Conversational Account on every certificate change.
+
 
 **Enablement:** Available immediately to everyone.
 
