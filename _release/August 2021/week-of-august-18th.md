@@ -104,7 +104,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 3. New ways to access - Accessing the Consumer Identity Provider page from the Management Console.
 
 
-**Enablement:** Available immediately to everyone.
+**Enablement:** Available immediately to all brands.
 
 **Dependencies:** None
 
@@ -196,7 +196,7 @@ Introducing JWKS endpoint support. Brands can now choose between configuring the
 Using [JWKS endpoint](https://datatracker.ietf.org/doc/html/rfc8414), brands are able to control their JWTs validation keys and certification dynamically without needing to update their Conversational Account on every certificate change.
 
 
-**Enablement:** Available immediately to everyone.
+**Enablement:** Available immediately to all brands.
 
 **Dependencies:** None
 
