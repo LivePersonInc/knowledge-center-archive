@@ -14,19 +14,44 @@ function upload(file) {
   const type = file.substr(file.length - 3)
   const data = fs.readFileSync(file);
   const parts = file.split('/')
-
+  const filename = parts[parts.length - 1]
 
   client.uploadBinaryFile()
     .withData({
       binaryData: data,
       contentLength: data.byteLength,
       contentType: `image/${type}`,
-      filename: parts[parts.length - 1]
+      filename: filename,
+      customObjectIdentifier: filename
     })
     .toPromise()
     .then((res) => {
-      console.log("uploaded: ", file)
-      console.log(res)
+
+      client.upsertAsset()
+        .byAssetExternalId(filename)
+        .withData(
+          {
+            file_reference: { id: res.data.id, type: res.data.type },
+            title: filename,
+            descriptions: [
+              {
+                language: {
+                  codename: 'en-US'
+                },
+                description: filename
+              }
+            ]
+          }
+        )
+        .toPromise()
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log('Error')
+          console.log(error)
+        })
+      console.log(res.data)
     })
     .catch((error) => {
       console.log(error)

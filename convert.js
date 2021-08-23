@@ -36,9 +36,10 @@ lineReader.eachLine('./_scripts/newFile.txt', function (file) {
     let res = matter(data)
     //removes extra spaces
     let body = res.content.replace(/(^[ \t]*\n)/gm, "")
-    //TODO regex to remove all chars befor {name}.png 
+    // remove all folder names and slashes to get only {name}.png
     body = body.replace(/(?<=\().*\/(.*)(jpg|jpeg|gif|png)(?=\))/g, '$1$2')
 
+    // Add a blank space after list, otherwise some items after are added to the last li 
     const lines = body.split(/\n/g)
     lines.forEach((line, i) => {
       if (i > 0 && lines[i - 1].substr(0, 1) === '*' && lines[i].substr(0, 1) !== '*') {

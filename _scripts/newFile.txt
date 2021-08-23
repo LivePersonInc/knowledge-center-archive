@@ -1,1 +1,462 @@
 ./_new/november-whats-new.md
+./_new/June-what's-new.md
+./_new/latest-whats-new-feb.md
+./_new/august-whats-new.md
+./_new/latest-whats-new-april.md
+./_new/latest-whats-new.md
+./_new/latest-whats-new-march.md
+./_new/September-whats-new.md
+./_new/latest-whats-new-dec.md
+./_new/whats-new-jan-2020.md
+./_new/Q2-whats-new.md
+./_new/July-whats-new.md
+./_new/April-what's-new.md
+./_new/latest-whats-new-may.md
+./_new/latest-whats-new-jan.md
+./_release/April 2021/week-of-april-19th.md
+./_release/April 2021/week-of-april-5th.md
+./_release/February 2021/week-of-february-22nd.md
+./_release/February 2021/week-of-february-1st.md
+./_release/February 2021/week-of-february-15th.md
+./_release/February 2021/week-of-february-8th.md
+./_release/April/week-of-april-15th.md
+./_release/April/Week of April 1st.md
+./_release/April/Week of April 29th.md
+./_release/April/week-of-april-22.md
+./_release/April/week-of-april-8th.md
+./_release/April 2020/week-of-april-1st.md
+./_release/April 2020/week-of-april-6th.md
+./_release/April 2020/week-of-april-13th.md
+./_release/April 2020/week-of-april-27th.md
+./_release/April 2020/week-of-April-20th.md
+./_release/August 2020/week-of-august-31st.md
+./_release/August 2020/week-of-august-3rd.md
+./_release/August 2020/week-of-aug-17.md
+./_release/August 2020/week-of-august-24th.md
+./_release/February 2020/week-of-february-24th.md
+./_release/February 2020/Week-of-feb-17th.md
+./_release/February 2020/week-of-feb-3rd.md
+./_release/June 2020/week-of-june-29th.md
+./_release/June 2020/week-of-june-15th.md
+./_release/June 2020/week-of-june-8th.md
+./_release/June 2020/Week of June 1st.md
+./_release/October/week-of-october-15th.md
+./_release/October/week-of-october-8th.md
+./_release/October/week-of-october-22nd.md
+./_release/October/week-of-oct-29th.md
+./_release/June 2021/week-of-june-28th.md
+./_release/June 2021/week-of-june-14th.md
+./_release/June 2021/week-of-june-7th.md
+./_release/June 2021/week-of-june-21st.md
+./_release/December/week-of-december-2nd.md
+./_release/December/week-of-dec-17.md
+./_release/February/week-of-february-18th.md
+./_release/February/week-of-february-4th.md
+./_release/February/week-of-february-11th.md
+./_release/October 2019/week of October 28th.md
+./_release/October 2019/Week of Oct 21st 2019.md
+./_release/June/Release-notes--week-of-june-9th.md
+./_release/June/week-of-june-3rd.md
+./_release/June/Week-of-june-17th.md
+./_release/December2020/week-of-dec-14th.md
+./_release/December2020/week-of-dec-28th.md
+./_release/December2020/week-of-dec-7th.md
+./_release/October 2020/week-of-oct-19th.md
+./_release/October 2020/week-of-oct-5th.md
+./_release/latest-release-notes.md
+./_release/July 2020/week-of-july-20th.md
+./_release/July 2020/week-of-july-27th.md
+./_release/July 2020/week-of-july-13th.md
+./_release/July/Release-notes-july-1.md
+./_release/July/Release-notes-2019-july-22.md
+./_release/July/week-of-july-29th.md
+./_release/September 2019/week-of-september-2nd.md
+./_release/September 2019/week-of-september-9th.md
+./_release/September 2019/Release-notes-sept-30th.md
+./_release/September 2019/week of Sept 23rd.md
+./_release/August/week-of-august-26th.md
+./_release/August/week-of-august-5th.md
+./_release/August/release-notes-aug-19th.md
+./_release/August/week-of-august-12th.md
+./_release/May/week-of-may-20th.md
+./_release/May/week-of-may-27th.md
+./_release/May/Week-of-May-13th.md
+./_release/May/Week-of-May-6th.md
+./_release/July 2021/week-of-july-21st.md
+./_release/July 2021/week-of-july-12th.md
+./_release/July 2021/week-of-july-5th.md
+./_release/September 2020/week-of-september-21st.md
+./_release/September 2020/week-of-sept-28th.md
+./_release/September 2020/week-of-september-14th.md
+./_release/September 2020/week-of-september-7th.md
+./_release/January 2021/week-of-jan-25th.md
+./_release/January 2021/week-of-jan-18th.md
+./_release/May 2021/week-of-may-17th.md
+./_release/May 2021/week-of-may-31st.md
+./_release/May 2021/week-of-may-10th.md
+./_release/May 2021/week-of-may-24th.md
+./_release/May 2021/week-of-may-3rd.md
+./_release/week of oct 14th 2019.md
+./_release/May 2020/week-of-may-4th.md
+./_release/May 2020/week-of-May-11.md
+./_release/May 2020/week-of-may-25th.md
+./_release/May 2020/week-of-may-18th.md
+./_release/January 2020/week-of-january-26th.md
+./_release/January 2020/week-of-january-20th.md
+./_release/January 2020/week-of-january-6th.md
+./_release/January 2020/week-of-january-13th.md
+./_release/January/week-of-january-20th.md
+./_release/January/week-of-january-14th.md
+./_release/January/week-of-january-28th.md
+./_release/March/week-of-march-11th.md
+./_release/March/week-of-march-4th.md
+./_release/March/week-of-march-25th.md
+./_release/December 2019/week-of-december-2nd.md
+./_release/December 2019/week-of-december-9th.md
+./_release/December 2019/week-of-december-16th.md
+./_release/December 2019/week-of-december-23rd.md
+./_release/November /week-of-november-19th.md
+./_release/November /week-of-november-5th.md
+./_release/March 2020/week-of-march-23rd.md
+./_release/March 2020/week-of-march-2nd.md
+./_release/November 2019/Week-of-november-18th.md
+./_release/November 2019/Release-notes-week-of-november-4th.md
+./_release/November 2019/week-of-november-25th.md
+./_release/November 2019/week-of-november-11th.md
+./_release/November 2020/week-of-november-9th.md
+./_release/November 2020/week-of-november-2nd.md
+./_release/November 2020/week-of-november-23rd.md
+./_release/March 2021/week-of-march-1st.md
+./_release/March 2021/Week-of-March-8th.md
+./_release/March 2021/week-of-march-15th.md
+./_release/March 2021/week-of-march-22nd.md
+./_release/September/week-of-september-9th.md
+./_release/September/week-of-september-17th.md
+./_release/September/week-of-september-24th.md
+./pages/lp.md
+./pages/index.md
+./pages/documents/Getting Started/test-your-web-messaging-experience.md
+./pages/documents/Getting Started/getting-started-with-live-chat.md
+./pages/documents/Getting Started/quick-start-guide.md
+./pages/documents/Getting Started/getting-started-with-intents.md
+./pages/documents/Getting Started/liveperson-tag.md
+./pages/documents/Getting Started/getting-started-with-bots.md
+./pages/documents/Getting Started/getting-started-with-messaging.md
+./pages/documents/Getting Started/casey.md
+./pages/documents/Getting Started/Quick-start/messaging-quick-start.md
+./pages/documents/Getting Started/Quick-start/quick-start-bots.md
+./pages/documents/Getting Started/Quick-start/twilio-sms-connector-setup.md
+./pages/documents/Getting Started/Quick-start/instagram-quick-start.md
+./pages/documents/Getting Started/Quick-start/facebook-quick-start.md
+./pages/documents/Getting Started/getting-started-with-proactive-messaging.md
+./pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
+./pages/documents/Contact Center Management/Messaging Operations/transfer-to-agent.md
+./pages/documents/Contact Center Management/Messaging Operations/private-messages-overview.md
+./pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
+./pages/documents/Contact Center Management/Messaging Operations/fallback configuration per skill.md
+./pages/documents/Contact Center Management/Messaging Operations/agent-survey-for-messaging.md
+./pages/documents/Contact Center Management/Messaging Operations/shift-scheduler-configuration-guide.md
+./pages/documents/Contact Center Management/Messaging Operations/routing-logic-overview.md
+./pages/documents/Contact Center Management/Messaging Operations/auto-close-for-messaging-conversations.md
+./pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
+./pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
+./pages/documents/Contact Center Management/Messaging Operations/smart-capacity-per-skill.md
+./pages/documents/Contact Center Management/Messaging Operations/automatically-unassign-conversations-from-agents.md
+./pages/documents/Contact Center Management/Messaging Operations/automatic-conversation-distribution-for-messaging.md
+./pages/documents/Contact Center Management/Messaging Operations/working-hours-management-best-practices.md
+./pages/documents/Contact Center Management/Messaging Operations/queue-prioritization-overview.md
+./pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
+./pages/documents/Contact Center Management/Messaging Operations/Capacity-management-Manual-sla.md
+./pages/documents/Contact Center Management/Messaging Operations/smarty-capacity-overview.md
+./pages/documents/Contact Center Management/Messaging Operations/load-balancing.md
+./pages/documents/Contact Center Management/Messaging Operations/managing-a-contact-center-that-messages.md
+./pages/documents/Contact Center Management/Messaging Operations/automatic-messages-configuration-guide.md
+./pages/documents/Contact Center Management/Messaging Operations/automatic-messages-overview.md
+./pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
+./pages/documents/Contact Center Management/Live chat operations/wrap-up-time.md
+./pages/documents/Contact Center Management/Live chat operations/surveys-with-live-chat.md
+./pages/documents/Contact Center Management/Live chat operations/agent-groups-workload-distribution.md
+./pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
+./pages/documents/Contact Center Management/Live chat operations/automatic-conversation-distribution.md
+./pages/documents/Contact Center Management/Live chat operations/automatic-messages-configuration-guide.md
+./pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
+./pages/documents/Contact Center Management/Chat to Messaging/Chat to Messaging Overview.md
+./pages/documents/Contact Center Management/Campaigns/target-audience.md
+./pages/documents/Contact Center Management/Campaigns/campaign-settings.md
+./pages/documents/Contact Center Management/Campaigns/visitor-behavior.md
+./pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
+./pages/documents/Contact Center Management/Campaigns/entry-point.md
+./pages/documents/Contact Center Management/Campaigns/time-frame.md
+./pages/documents/Contact Center Management/Campaigns/engagement-window.md
+./pages/documents/Contact Center Management/Campaigns/managing-campaigns.md
+./pages/documents/Contact Center Management/Campaigns/outbound-campaigns.md
+./pages/documents/Contact Center Management/Campaigns/campaign-goals.md
+./pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md
+./pages/documents/Contact Center Management/Campaigns/campaigns-overview.md
+./pages/documents/Contact Center Management/test.md
+./pages/documents/Troubleshooting/Contact support.md
+./pages/documents/Troubleshooting/enable-a-user.md
+./pages/documents/Troubleshooting/Troubleshooting-bots.md
+./pages/documents/Troubleshooting/troubleshooting-reporting.md
+./pages/documents/Troubleshooting/Troubleshooting-agent-workspace.md
+./pages/documents/Troubleshooting/Har-files-web-requests.md
+./pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
+./pages/documents/Troubleshooting/Support/Case-management-support.md
+./pages/documents/Troubleshooting/status-dashboard-push-notifications.md
+./pages/documents/Troubleshooting/LivePerson-Connect.md
+./pages/documents/Troubleshooting/status-page.md
+./pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
+./pages/documents/Troubleshooting/Messaging/Troubleshooting-agent-tools.md
+./pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-consumer experience.md
+./pages/documents/Troubleshooting/find-your-account-number.md
+./pages/documents/Troubleshooting/Troubleshooting-live-chat.md
+./pages/documents/Admin & Settings/management-console-overview.md
+./pages/documents/Admin & Settings/system-requirements.md
+./pages/documents/Admin & Settings/set-the-time-zone.md
+./pages/documents/Admin & Settings/Permissions/assign-permissions.md
+./pages/documents/Admin & Settings/Permissions/customize-permissions.md
+./pages/documents/Admin & Settings/product_renaming_overview.md
+./pages/documents/Admin & Settings/applications-campaign.md
+./pages/documents/Admin & Settings/create-manage-users.md
+./pages/documents/Admin & Settings/case-management-support.md
+./pages/documents/Admin & Settings/Skills & groups/operate-business-divisions-from-one-account.md
+./pages/documents/Admin & Settings/Skills & groups/connect-visitors-to-agents-by-skill.md
+./pages/documents/Admin & Settings/Skills & groups/lines-of-business.md
+./pages/documents/Admin & Settings/Skills & groups/set-the-agent-group-hierarchy.md
+./pages/documents/Admin & Settings/test.md
+./pages/documents/Admin & Settings/Supported-languages.md
+./pages/documents/Security & Regulations/Liveperson-support-policy.md
+./pages/documents/Security & Regulations/sso-unified-login.md
+./pages/documents/Security & Regulations/Historic-data-masking.md
+./pages/documents/Security & Regulations/audit-trails.md
+./pages/documents/Security & Regulations/Security/Protecting customer data.md
+./pages/documents/Security & Regulations/Security/ip-masking.md
+./pages/documents/Security & Regulations/Security/IP-restriction.md
+./pages/documents/Security & Regulations/Security/Protecting-customer-data.md
+./pages/documents/Security & Regulations/Security/ip-address-blocking.md
+./pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md
+./pages/documents/Security & Regulations/Security/configure-your-firewall.md
+./pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
+./pages/documents/Security & Regulations/Security/whitelist-your-domains.md
+./pages/documents/Security & Regulations/Security/account-security-recommendations.md
+./pages/documents/Security & Regulations/HIPAA.md
+./pages/documents/Security & Regulations/accessibilty-policy.md
+./pages/documents/Security & Regulations/MFA/overview.md
+./pages/documents/Security & Regulations/MFA/user-manual.md
+./pages/documents/Security & Regulations/samesite-cookies-chrome-80.md
+./pages/documents/Security & Regulations/LivePerson-Cookies.md
+./pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
+./pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
+./pages/documents/Security & Regulations/test.md
+./pages/documents/a-test-document.md
+./pages/documents/FAQs/reporting-data.md
+./pages/documents/FAQs/general.md
+./pages/documents/FAQs/login-and-password-faqs.md
+./pages/documents/FAQs/agent-tools.md
+./pages/documents/FAQs/surveys-window.md
+./pages/documents/Templates/articletemplate.md
+./pages/documents/Templates/test.md
+./pages/documents/developer-tools-overview.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/EnhancedManagerWorkspace/introducing.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/EnhancedManagerWorkspace/managers-all-connections-list.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/EnhancedManagerWorkspace/user-guide.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/EnhancedManagerWorkspace/whats-new-in-all-connections.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/EnhancedManagerWorkspace/new-agent-manager-experience.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/EnhancedManagerWorkspace/tutorial.md
+./pages/documents/Agent and manager workspace/manager tools for messaging/EnhancedManagerWorkspace/use-cases.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/working-with-asynchronous-messaging.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-basics.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/introducing.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/conversational-commands.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/userguide.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/faqs.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/video.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/releasenotes.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/quick-launch-menu.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/operational-readiness-checklist.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/shortcuts.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/configuration.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/the-enhanced-agent-workspace.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/blended-accounts.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/EnhancedWorkspace/downloaduserguide.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/voice-and-video-calls-overview.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/best-practices-for-messaging-agents.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/migrating-to-enhanced-agent-workspace.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
+./pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
+./pages/documents/Agent and manager workspace/LiveEngage App/iOS user guide.md
+./pages/documents/Agent and manager workspace/LiveEngage App/agent-app-user-guide.md
+./pages/documents/Agent and manager workspace/manager tools for live chat/the-all-agents-list.md
+./pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
+./pages/documents/Agent and manager workspace/Workspace configuration/importing-predefined-content.md
+./pages/documents/Agent and manager workspace/Workspace configuration/adding-your-own-widgets.md
+./pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
+./pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-best-practices-for-messaging.md
+./pages/documents/Agent and manager workspace/Workspace configuration/salesforce-integration.md
+./pages/documents/Agent and manager workspace/Workspace configuration/creating-predefined-content.md
+./pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
+./pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
+./pages/documents/Agent and manager workspace/agent tools for live chat/agent-workspace-for-live-chat.md
+./pages/documents/Agent and manager workspace/agent tools for live chat/hotkeys.md
+./pages/documents/Bots & Automation/Archive/LiveIntent-tips.md
+./pages/documents/Bots & Automation/Archive/next-actions-api-overview.md
+./pages/documents/Bots & Automation/Archive/bestPractices.md
+./pages/documents/Bots & Automation/Archive/Create-evaluate-optimize-intents.md
+./pages/documents/Bots & Automation/Archive/dashboard.md
+./pages/documents/Bots & Automation/Archive/Identify Opportunities.md
+./pages/documents/Bots & Automation/Archive/recommended-actions-with-maven.md
+./pages/documents/Bots & Automation/Archive/dynamic-routing-overview.md
+./pages/documents/Bots & Automation/Archive/Getting-started.md
+./pages/documents/Bots & Automation/Archive/ccs-overview.md
+./pages/documents/Bots & Automation/Archive/agent-assist-overview.md
+./pages/documents/Bots & Automation/Archive/Intent-discovery.md
+./pages/documents/Bots & Automation/Archive/Intent-Manager-updates.md
+./pages/documents/Bots & Automation/LiveIntent/LiveIntent.md
+./pages/documents/Bots & Automation/LiveIntent/Overview.md
+./pages/documents/Bots & Automation/Maven/Engagement-Controller.md
+./pages/documents/Bots & Automation/PostConversationSurvey/PostConversationSurvey.md
+./pages/documents/Bots & Automation/PostConversationSurvey/Legacy-Post-conversation-survey.md
+./pages/documents/Bots & Automation/PostConversationSurvey/MigratingToConversationBuilder.md
+./pages/documents/Bots & Automation/conversational-ai.md
+./pages/documents/Bots & Automation/ai-annotator.md
+./pages/documents/Bots & Automation/conversation-orchestrator.md
+./pages/documents/Bots & Automation/Conversation Builder/conversation-builder-overview.md
+./pages/documents/Bots & Automation/Conversation Builder/getting-started-tutorials.md
+./pages/documents/Bots & Automation/how-bots-work-with-liveperson.md
+./pages/documents/Bots & Automation/ai-powered-routing.md
+./pages/documents/Bots & Automation/Third Party Bot Connectors.md
+./pages/documents/Messaging Channels/Proactive messaging/Proactive-Messaging-for-App-Messaging.md
+./pages/documents/Messaging Channels/Proactive messaging/Proactive_messaging_overview.md
+./pages/documents/Messaging Channels/Proactive messaging/Proactive_messaging_user_guide.md
+./pages/documents/Messaging Channels/Live chat/add-chat-to-your-website.md
+./pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
+./pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
+./pages/documents/Messaging Channels/Connectors/google-business-messages.md
+./pages/documents/Messaging Channels/Connectors/facebook-messenger.md
+./pages/documents/Messaging Channels/Connectors/instagram-overview.md
+./pages/documents/Messaging Channels/Connectors/Apple Business Chat/setting-up-apple-business-chat.md
+./pages/documents/Messaging Channels/Connectors/Apple Business Chat/apple-business-chat-overview.md
+./pages/documents/Messaging Channels/Connectors/Apple Business Chat/business-chat-features.md
+./pages/documents/Messaging Channels/Connectors/Apple Business Chat/entry-points.md
+./pages/documents/Messaging Channels/Connectors/google-offerings-comparison.md
+./pages/documents/Messaging Channels/Connectors/wechat-business.md
+./pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
+./pages/documents/Messaging Channels/Connectors/line-connector.md
+./pages/documents/Messaging Channels/Connectors/whatsapp-business.md
+./pages/documents/Messaging Channels/email-connect.md
+./pages/documents/Messaging Channels/SMS/using-sms-with-twilio.md
+./pages/documents/Messaging Channels/SMS/generate-a-twilio-sms-number-with-liveperson.md
+./pages/documents/Messaging Channels/SMS/sms-connector.md
+./pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
+./pages/documents/Messaging Channels/SMS/sms-best-practices.md
+./pages/documents/Messaging Channels/messaging capabilities comparison.md
+./pages/documents/Messaging Channels/Rich messaging/rich-messaging.md
+./pages/documents/Messaging Channels/Rich messaging/hyperlinks-overview.md
+./pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
+./pages/documents/Messaging Channels/Rich messaging/structured-content-for-messaging-user-guide.md
+./pages/documents/Messaging Channels/Rich messaging/quick-replies-user-guide.md
+./pages/documents/Messaging Channels/Rich messaging/audio-messaging-user-guide.md
+./pages/documents/Messaging Channels/Rich messaging/structured-content-chat-user-guide.md
+./pages/documents/Messaging Channels/Rich messaging/photo-sharing-user-guide.md
+./pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
+./pages/documents/Messaging Channels/Social Messaging/social-messaging-configuration-guide.md
+./pages/documents/Messaging Channels/Social Messaging/social-messaging-user-guide.md
+./pages/documents/Messaging Channels/Social Messaging/social-messaging-overview.md
+./pages/documents/Messaging Channels/mobile app messaging/enhance-mobile-app-messaging.md
+./pages/documents/Messaging Channels/mobile app messaging/add-messaging-to-your-mobile-app.md
+./pages/documents/Messaging Channels/mobile app messaging/mobile-app-messaging-faqs.md
+./pages/documents/Messaging Channels/Connect to Messaging/connect-to-messaging-user-guide.md
+./pages/documents/Messaging Channels/Connect to Messaging/connect-to-app-messaging.md
+./pages/documents/Messaging Channels/Connect to Messaging/connect-to-messaging-overview.md
+./pages/documents/Messaging Channels/web messaging/proactive-engagements-for-web-messaging.md
+./pages/documents/Messaging Channels/web messaging/authenticated-web-messaging.md
+./pages/documents/Messaging Channels/web messaging/add-web-messaging-to-your-website.md
+./pages/documents/Messaging Channels/test.md
+./pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
+./pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
+./pages/documents/Data & Reporting/Live Chat/Chat dashboards/business-dashboard-grid-for-live-chat.md
+./pages/documents/Data & Reporting/Live Chat/Chat dashboards/survey-activity-dashboard.md
+./pages/documents/Data & Reporting/Live Chat/Chat dashboards/agent-activity-dashboard-chat.md
+./pages/documents/Data & Reporting/Live Chat/Chat dashboards/skills-dashboard-for-live-chat.md
+./pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
+./pages/documents/Data & Reporting/Live Chat/Real-time-data-for-chat.md
+./pages/documents/Data & Reporting/Insights/Insights_FAQs.md
+./pages/documents/Data & Reporting/Insights/Taxonomy-guide.md
+./pages/documents/Data & Reporting/Insights/3f. Unsupervised NLU Model.md
+./pages/documents/Data & Reporting/Insights/Insights-overview-dashboard-navigation.md
+./pages/documents/Data & Reporting/Insights/creating-new-widgets.md
+./pages/documents/Data & Reporting/Insights/Getting-Started-with-Insight.md
+./pages/documents/Data & Reporting/Insights/filtering.md
+./pages/documents/Data & Reporting/Insights/creating-dashboards.md
+./pages/documents/Data & Reporting/Insights/Grouping-attributes.md
+./pages/documents/Data & Reporting/Data Transporter/data-transporter.md
+./pages/documents/Data & Reporting/business reporting metrics.md
+./pages/documents/Data & Reporting/Performance Optimizer/Performance-Optimizer-user-guide.md
+./pages/documents/Data & Reporting/Performance Optimizer/Performance-Optimizer-overview.md
+./pages/documents/Data & Reporting/macs.md
+./pages/documents/Data & Reporting/Report Builder/introducing-the-enhanced-report-builder.md
+./pages/documents/Data & Reporting/Report Builder/report-builder-overview.md
+./pages/documents/Data & Reporting/Report Builder/Predefined-dashboards.md
+./pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
+./pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
+./pages/documents/Data & Reporting/Report Builder/Analytics-builder-permissions-update.md
+./pages/documents/Data & Reporting/Report Builder/report-builder-user-guide-standard.md
+./pages/documents/Data & Reporting/Report Builder/user-guide-customization-access.md
+./pages/documents/Data & Reporting/Report Builder/metrics.md
+./pages/documents/Data & Reporting/Meaningful Connection Score (MCS)/using-mcs-toolkit.md
+./pages/documents/Data & Reporting/Meaningful Connection Score (MCS)/accessing-the-mcs-toolkit.md
+./pages/documents/Data & Reporting/Meaningful Connection Score (MCS)/mcs-overview.md
+./pages/documents/Data & Reporting/test.md
+./pages/documents/Data & Reporting/Messaging/messaging-conversation-segments.md
+./pages/documents/Data & Reporting/Messaging/Real time data/real-time-messaging-dashboard.md
+./pages/documents/Data & Reporting/Messaging/Real time data/Real-time-data-for-messaging.md
+./pages/documents/Data & Reporting/Messaging/Messaging dashboards/bot-performance-messaging.md
+./pages/documents/Data & Reporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
+./pages/documents/Data & Reporting/Messaging/Messaging dashboards/performance-dashboard-messaging.md
+./pages/documents/Data & Reporting/Messaging/Messaging dashboards/Survey-dashboard-messaging.md
+./pages/documents/Data & Reporting/Messaging/Messaging dashboards/goal-tracker-report.md
+./pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-dashboard-messaging.md
+./pages/documents/Data & Reporting/Messaging/agent-manager-messaging-data.md
+./pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
+./pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
+./pages/documents/Data & Reporting/Engagement attributes/extracting-engagement-attributes-no-code.md
+./pages/documents/Data & Reporting/Engagement attributes/conversation-outcomes.md
+./pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
+./pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
+./pages/documents/Data & Reporting/Engagement attributes/setting-up-engagement-attributes.md
+./pages/documents/Data & Reporting/Engagement attributes/data-sources-engagement-attributes-overview.md
+./pages/documents/Data & Reporting/Analytics/Advanced messaging dashboard.md
+./pages/documents/newAgentWorkspace/conversationalAI/new-conversational-experience.md
+./pages/documents/newAgentWorkspace/chat-users.md
+./pages/documents/newAgentWorkspace/consumers/the-new-web-messaging-window.md
+./pages/documents/newAgentWorkspace/admins-campaign-managers.md
+./pages/documents/newAgentWorkspace/newexperiences.md
+./pages/documents/newAgentWorkspace/reportbuilder.md
+./pages/documents/newAgentWorkspace/MessagingAgents/introducing.md
+./pages/documents/newAgentWorkspace/MessagingAgents/conversational-commands.md
+./pages/documents/newAgentWorkspace/MessagingAgents/userguide.md
+./pages/documents/newAgentWorkspace/MessagingAgents/faqs.md
+./pages/documents/newAgentWorkspace/MessagingAgents/video.md
+./pages/documents/newAgentWorkspace/MessagingAgents/releasenotes.md
+./pages/documents/newAgentWorkspace/MessagingAgents/operational-readiness-checklist.md
+./pages/documents/newAgentWorkspace/MessagingAgents/roadmap.md
+./pages/documents/newAgentWorkspace/MessagingAgents/configuration.md
+./pages/documents/newAgentWorkspace/MessagingAgents/the-enhanced-agent-workspace.md
+./pages/documents/newAgentWorkspace/MessagingAgents/blended-accounts.md
+./pages/documents/newAgentWorkspace/MessagingAgents/downloaduserguide.md
+./pages/documents/newAgentWorkspace/MessagingManagers/introducing.md
+./pages/documents/newAgentWorkspace/MessagingManagers/managers-all-connections-list.md
+./pages/documents/newAgentWorkspace/MessagingManagers/user-guide.md
+./pages/documents/newAgentWorkspace/MessagingManagers/whats-new-in-all-connections.md
+./pages/documents/newAgentWorkspace/MessagingManagers/new-agent-manager-experience.md
+./pages/documents/newAgentWorkspace/MessagingManagers/tutorial.md
+./pages/documents/newAgentWorkspace/MessagingManagers/use-cases.md
+./pages/documents/Developer Tools/Functions/terms-of-use.md
+./pages/documents/Developer Tools/Functions/function-as-a-service-faas.md
+./pages/documents/Developer Tools/open-platform.md
+./pages/conversation-builder-migration-to-gcp.md
+./pages/conversation-builder-migration-to-gcp-faqs.md
