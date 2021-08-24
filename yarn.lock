@@ -2265,10 +2265,10 @@ markdown-to-html-converter@^1.0.4:
   resolved "http://tlvmvnrepository:80/artifactory/api/npm/lp-npm-virtual/markdown-to-html-converter/-/markdown-to-html-converter-1.0.4.tgz#2d60406e9a18ff0cbdba9410552b68abd4e61252"
   integrity sha1-LWBAbpoY/wy9upQQVStoq9TmElI=
 
-marked@^3.0.0:
-  version "3.0.0"
-  resolved "http://tlvmvnrepository:80/artifactory/api/npm/lp-npm-virtual/marked/-/marked-3.0.0.tgz#ac8369b7ddeef15fbbce870d14f321bdb20ca4e2"
-  integrity sha1-rINpt93u8V+7zocNFPMhvbIMpOI=
+marked@^3.0.1:
+  version "3.0.1"
+  resolved "http://tlvmvnrepository:80/artifactory/api/npm/lp-npm-virtual/marked/-/marked-3.0.1.tgz#fba5af166129771c60f4a7398ddcf35557dfe890"
+  integrity sha1-+6WvFmEpdxxg9Kc5jdzzVVff6JA=
 
 matchdep@^2.0.0:
   version "2.0.0"

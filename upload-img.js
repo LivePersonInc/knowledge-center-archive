@@ -22,7 +22,7 @@ function upload(file) {
       contentLength: data.byteLength,
       contentType: `image/${type}`,
       filename: filename,
-      customObjectIdentifier: filename
+      external_id: filename
     })
     .toPromise()
     .then((res) => {
