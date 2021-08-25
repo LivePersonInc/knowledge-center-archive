@@ -119,37 +119,9 @@ The Consumer Profile provides agents with the user’s channel-specific social n
 ## View Post/Tweet
 Under the consumer profile in the Social Messaging widget, agents can view the consumer post from within the Conversational Cloud in order to have a clear context of the conversation’s topic.
 Tapping on the post in the Social Widget opens the post in the native platform. 
-Note: If an agent is logged in with his private Facebook account on the native platform and is clicking the like button - it likes the post under his private account.
 
-
-### Private/Public message indicator 
-
-Indicators for each consumer message are available, stating whether it was a private message or a public post. The indicator will be displayed below each consumer message, containing the icon of the messaging channel, a “Public/Private” text indication, together with the consumer name, action, and timestamp. This will provide agents better visibility of the conversation flow.
-
-* Public indicates the message was sent through public Twitter or on the brand’s Facebook page
-* Private indicates the message was sent through Twitter Direct Message or Facebook Messenger
-
-### Private/Public toggle
-
-This toggle appears at the top of the transcript area and enables agents to switch between a public or private response. By default, the toggle will return to the state of the last consumer message. 
-
-* Facebook
-  * Public - respond to the last public message
-  * Private - respond to the last message received through Messenger
-  * Private Response - respond to a consumer that sent a public message through Messenger
-* Twitter
-  * Public - respond to the last public tweet
-  * Private - respond to the last message received through Direct Messages (DM)
-
-### Public to Private button
-
-Quickly transition conversations from public social media to private by clicking the “Public to Private” button, which sends a call to action button for the consumer to select on public Twitter and Facebook that will take the consumer to the brand’s private channel. 
-
-* When agent clicks the “Add Public to Private” button, the public to private URL is added to the transcript input section for the agent to send the URL to consumers
-* The consumer will receive a link or button inviting them to move to private messaging 
+**Note:** If an agent is logged in with his private Facebook account on the native platform and is clicking the like button - it likes the post under his private account.
 
 
 
-## Configuration
 
-Social Messaging will be enabled by your LivePerson account team. Brands can connect and configure Social media accounts they would like to receive public/private messages from. See our [Social Messaging configuration guide](messaging-channels-social-messaging-social-messaging-configuration-guide.html) for further details. 
