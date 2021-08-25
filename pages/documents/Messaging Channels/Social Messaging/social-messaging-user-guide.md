@@ -71,10 +71,14 @@ This toggle appears in the message composition area and enables agents to switch
 * **Facebook**: Public - respond to any public message in the conversation; Direct - continued response through Messenger
 * **Twitter**: Public - respond to any public message in the conversation; Direct - continued response through Direct Messages (DM)
 
+![](img/socialconnect-user-guide-new-5.png) 
+
 ### Invite to Direct Message
 Quickly transition conversations from public social media to direct message by clicking the “Link to DM” button, which sends a call to action button for the consumer to select on public Twitter and Facebook that will take the consumer to the brand’s direct messaging channel.
 * When agent clicks the “Link to DM” button, the public to private URL is added to the transcript input section for the agent to send the URL to consumers, just like a regular message
 * The consumer will receive a link or button inviting them to move to direct messaging
+
+![](img/socialconnect-user-guide-new-6.png) 
 
 Twitter:
 
