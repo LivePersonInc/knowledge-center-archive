@@ -316,7 +316,6 @@
     - subcategoryname: Conversational Marketplace
       pages:
         - pagename: Marketplace overview
-        - pagename: Marketplace user guide
         - pagename: Marketplace reporting
 
 - categoryname: "Admin & settings"
