@@ -25,17 +25,20 @@ Social Messaging enables brands to interact with consumers over Twitter and Face
 Social Messaging 2.0 includes the following [features and benefits](https://vimeo.com/515803887/3a9d55f92f): 
 * **Single interface for all messaging conversations:** Agents handle social media in the same easy way as they use Conversational Cloud for all other messaging conversations, meaning the same set of agents can support social media while they simultaneously support other messaging channels. 
 * **Channel indication:** The My Conversations list has been enhanced with a new icon with the conversation source, so that the agent will be able to identify the channel that the consumer is originating from.
-* **New Social Messaging widget:** A new core widget is now available for all Social Messaging conversations. 
+* **Social Messaging widget:** A new core widget is now available for all Social Messaging conversations. 
   * View Consumer Profile - View the publicly available social media profile of the consumer you’re interacting with from within Conversational Cloud
-  * Clear context for the conversation - View the consumer post from within the Conversational Cloud, nested under its parent post, to have a clear context about the consumer topic
+  * Clear context of the conversation - View the consumer post from within the Conversational Cloud to have a clear context about the conversation topic
 * **Reply to specific consumer messages:** Agents have the ability to reply to a specific consumer message, to ensure that consumers are getting relevant replies to each of their posts.
-* **Public to Private:** Quickly transition conversations from public social media to private by simply clicking the “Public to Private” button, which sends a call to action button for the consumer to select. 
+* * **Invite to Direct Message**: Transition conversations from public to direct messages by simply clicking the “Link to DM” button, which sends a call to action button on Twitter and as a link on Facebook for the consumer to accept and open a direct conversation with the brand.d.
+* **Toggle between public and direct messages**: Go from messaging a consumer in the public channel to direct message within the same conversation, and vice versa (if the consumer has already initiated a message on both channels).
 * **Mention consumer in reply:** Agents will be able to mention consumers with their Facebook username in their replies, so that consumers will get a notification that they have been mentioned by the brand in the native platform.
+* **Internal Messages (AKA Private Messages on Conversational Cloud)**: Agents can send private internal messages which cannot be viewed by consumers, to make notes for other agents regarding and within the same conversation
 
 ![](img/social-messaging-configuration-1.png)
 
 ## Considerations and limitations 
 
+* Sources currently supported: Twitter, Facebook
 * Supported sources: Twitter, Facebook
 * Once enabled on your Conversational Cloud account, the Social Messaging widget will appear for all Facebook/Twitter conversations - even if they originate from Facebook Messenger or Twitter direct messaging. 
 * **File sharing** is not officially supported in Social Messaging public conversations. **Note:** It is not recommended to use file sharing on Social conversations until officially supported.
@@ -45,7 +48,7 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
 * **Facebook limitations:** 
   * [Facebook Private Replies](https://developers.facebook.com/docs/messenger-platform/discovery/private-replies) are currently not supported.
   * European users: As part of Facebook’s efforts to comply with privacy rules in Europe, Facebook made changes to their APIs and restricted some information. European users will see the Social Messaging widget, however, the user information (Name, Image, Locale, Timezone) will not be shown.
-  * In the new Social Messaging widget, there’s an option to Like a public comment/post of the consumer. If an agent is logged in with his private Facebook account is pressing the like button - it likes the post under his private account.
+  * In the new Social Messaging widget, there’s an option to Like a public comment/post of the consumer. If an agent  is logged in with his private Facebook account on the native platform and is clicking the like button - it likes the post under his private account.
 * **Additional known issues:**
  * Navigating to “All Conversations” list, then navigating back to “My Conversations” list, may cause the Social Messaging buttons disappear (buttons: public/private toggle, link to DM, mention consumer). This is solved on page refresh, or focusing on a different conversation. **Note:** If you experience this bug, refresh your page, or navigate to a different conversation, then back to the conversation you need to reply to.
  * The public/private toggle button is not activated if the consumer has responded both publicly and privately in the conversation, until page refresh/select a different conversation and return to the current one.
