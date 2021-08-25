@@ -57,3 +57,24 @@ Allow consumers to make appointments or complete transactions in these secure co
 * Twilio SMS
 * WhatsApp
 * Google My Business - *coming soon*
+
+## Reporting Solutions for a Marketplace 
+### Analytics Builder — Marketplace Network Dashboard
+
+The Marketplace Network Dashboard has been introduced to Analytics Builder as a home base report for any Marketplace Provider who wants to get a better understanding of their network.  The report aggregates the performance across the subscriber networks and can break down the performance by brand.  
+
+Commonly, a Marketplace will be powered by automation to first handle incoming conversations. The Marketplace Network Dashboard has integrated automation metrics that can help the Marketplace understand the success of its automation strategy. 
+
+[Read more about Marketplace reporting here](/marketplace-solutions-conversational-marketplace-marketplace-reporting.html). 
+
+### Messaging Interactions API for Providers
+
+Commonly, Marketplace businesses are typically larger and more robust companies that have existing reporting strategies internal to their client systems. Therefore, a key Reporting API is enabled that can be configured to be sent to the Marketplace Provider where they can then digest the data into their reporting systems.  
+
+The Conversational Cloud [Messaging Interactions API](https://developers.liveperson.com/messaging-interactions-api-overview.html) retrieves the most up-to-date information available about contact center messaging interactions. This API makes it possible to search, filter, and analyze data and transcripts of open and closed conversations. The API returns the conversation’s transcripts and all of its related metadata; such as: start time, end time, Meaningful Conversation Score (MCS), CSAT, summary, participating agents, the reason the conversation was closed, and more. This API supports the HTTP POST functionality (data retrieval), and all data is returned in JSON format.
+
+{: .notice}
+**Note**: For enablement and access to API please reach out to account manager.
+
+
+
