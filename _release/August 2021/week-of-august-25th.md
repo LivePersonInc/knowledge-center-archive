@@ -103,7 +103,7 @@ Dynamic Routing enables intelligent routing of conversations to the most qualifi
 
 We’re super excited to announce a new code-free experience that will make intelligent routing effortless. This bot is a true powerhouse, as it significantly simplifies Dynamic Routing. Here are some major enhancements:
 
-* Use the **new Dynamic** Routing bot to set up and deploy Dynamic Routing within minutes
+* Use the **new Dynamic Routing bot** to set up and deploy Dynamic Routing within minutes
 * Place the **new Dynamic Routing interaction** anywhere in any bot to enable Dynamic Routing
 * Create and manage routing policies including fallbacks and failures with minimal effort
 * Enable routing by channel and intent out-of-the-box, and combine it with other data like structured data entities (SDEs) or context variables to create personalized journeys
