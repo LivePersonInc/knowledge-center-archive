@@ -23,6 +23,7 @@ Social Messaging enables brands to interact with consumers over Twitter and Face
 ## Social Messaging 2.0 Features
 
 Social Messaging 2.0 includes the following [features and benefits](https://vimeo.com/515803887/3a9d55f92f): 
+
 * **Single interface for all messaging conversations:** Agents handle social media in the same easy way as they use Conversational Cloud for all other messaging conversations, meaning the same set of agents can support social media while they simultaneously support other messaging channels. 
 * **Channel indication:** The My Conversations list has been enhanced with a new icon with the conversation source, so that the agent will be able to identify the channel that the consumer is originating from.
 * **Social Messaging widget:** A new core widget is now available for all Social Messaging conversations. 
@@ -130,12 +131,15 @@ Contact your LivePerson representative to define the routing rules.
  * Select “Data Sources”
  * Select “Integrations” tab
  * Select “Authentication Server - Configure” (skip if brand already has authentication)
-![](img/social-messaging-configuration-17.png)
+ 
+ ![](img/social-messaging-configuration-17.png)
 
-  * Select “oAuth 2.0 authentication (implicit)”
+ Select “oAuth 2.0 authentication (implicit)”:
+ 
 ![](img/social-messaging-configuration-18.png)
 
-  * Input fake data into fields
+ Input fake data into fields:
+ 
 ![](img/social-messaging-configuration-19.png)
 
   * Select “Save” on the bottom of the screen
@@ -150,30 +154,37 @@ Contact your LivePerson representative to define the routing rules.
 
 ### Edit/Unsubscribe from Facebook pages
 
-* Click on the Facebook login button, and authenticate
+1. Click on the Facebook login button, and authenticate:
+
 ![](img/social-messaging-configuration-21.png)
 
-* To edit account settings: Click on the “Edit settings” button
+To edit account settings: Click on the “Edit settings” button"
+
 ![](img/social-messaging-configuration-22.png)
 
-* Select the desired pages and press “Next”
+Select the desired pages and press “Next”:
+
 ![](img/social-messaging-configuration-23.png)
 
-* Enable/Disable permissions using the toggle button
+Enable/Disable permissions using the toggle button:
+
 ![](img/social-messaging-configuration-24.png)
 
-* Press Done. A window will be presented, with all connected Facebook accounts: 
+Press Done. A window will be presented, with all connected Facebook accounts: 
 ![](img/social-messaging-configuration-25.png)
 
-* To unsubscribe specific pages, simply click on the “Unsubscribe” button next to each Facebook page you wish to remove. 
+*To unsubscribe specific pages, simply click on the “Unsubscribe” button next to each Facebook page you wish to remove.*
 
 ### Edit/Unsubscribe from Twitter accounts
 
-* Edit each account’s settings by clicking on the pencil icon, at the right side of the page
+Edit each account’s settings by clicking on the pencil icon, at the right side of the page:
+
 ![](img/social-messaging-configuration-26.png)
+
 ![](img/social-messaging-configuration-27.png)
 
-* Disconnect specific accounts by clicking on the “Disconnect” button.
+Disconnect specific accounts by clicking on the “Disconnect” button:
+
 ![](img/social-messaging-configuration-28.png)
 
 {: .notice}
