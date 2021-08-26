@@ -39,18 +39,18 @@ The transcript view will be modified to show a “public” or “direct” sign
 
 There is a clear distinction between messages that are direct and those that are public comments (for facebook) or tweets (for Twitter). The metadata under each consumer message gives the agent information about the channel, consumer name and time the message was sent as per the consumer’s timezone.
 
-![](img/socialconnect-user-guide-new-1.png) 
+![](img/socialconnect-user-guide-new-1a.png) 
 
 *Actions on hover*
 When hovering over a public consumer message, the agent has the option to view the post in detail or reply specifically to that message in the conversation.
 
-![](img/socialconnect-user-guide-new-2.png) 
+![](img/socialconnect-user-guide-new-2a.png) 
 
 *Public and direct messages from agent - structure with metadata*
 
 Just like the consumer message in the transcript area, the agent can clearly see the distinction between his direct and public replies, along with his name, which brand account he is replying from and his local time. When replying to a specific public message, the agent’s message also shows a preview for the same. 
 
-![](img/socialconnect-user-guide-new-3.png) 
+![](img/socialconnect-user-guide-new-3a.png) 
 
 ## Social Messaging capabilities
 
