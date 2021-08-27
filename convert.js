@@ -11,6 +11,7 @@ const client = new management.ManagementClient({
   apiKey: 'ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjlkMGUxMWY5MzU2YTQzNWFhYzQxOTU5MTdmNmVjZDBkIiwNCiAgImlhdCI6ICIxNjI5MzE2NjY3IiwNCiAgImV4cCI6ICIxOTc0OTE2NjY3IiwNCiAgInByb2plY3RfaWQiOiAiMzUzNzU3ZWRjNGEwMDA2NWE5ZDlhZWU5N2FlMWQ5YjAiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1ZmQ4ZTliMzViZGRkMjAwNmU3OTcyOWUiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.xFWNh6-HrMdP-kTF5cf9GQewOINWt9hHvea1ndgztsI' // Content management API token
 });
 
+// ** this is an exampe for using overrides for node module called marked
 // // Override function
 // const renderer = {
 //   listitem(text) {
@@ -36,10 +37,9 @@ md = new MarkdownIt({
 });
 
 const aTagConverter = (content) => {
-  console.log(typeof content)
   let newContent = content.replace(/<a/g, '<object')
   newContent = newContent.replace(/a>/g, 'object>')
-  newContent = newContent.replace(/href/g, 'data-asset-external-id')
+  newContent = newContent.replace(/href/g, 'data-external-id')
   return newContent
 }
 const imgTagConverter = (content) => {
@@ -69,13 +69,10 @@ eachLine('./_scripts/newFile.txt', function (line) {
 });
 
 
-
 const upload =(file)=>{
-  console.log(file)
+  console.log(file);
   fs.readFile(`${file}`, 'utf8', function (err, data) {
-    console.log(data);
     let res = matter(data)
-  
     //removes extra spaces
     let body = res.content.replace(/(^[ \t]*\n)/gm, "")
 
@@ -98,6 +95,8 @@ const upload =(file)=>{
 
 
     body = lines.join("\r\n")
+
+
     fs.writeFile('testmd.html', body, err => {
       if (err) {
         console.error(err)
@@ -105,14 +104,21 @@ const upload =(file)=>{
       }
       //file written successfully
     })
+
+    //** this is when we translate from md to html **
+
     body = md.render(body);
+
     //removing breaks
     body = body.replace(/&lt;br&gt;/g, '')
 
     //moving images out of p and li tags so the api will accept it
     body = body.replace(/(<img[^>]src=\"([^\"]*)\"[^>]*>)(<\/p>)/g, '$3$1')
     body = body.replace(/(<img[^>]src=\"([^\"]*)\"[^>]*>)(<\/li>)/g, '$3$1')
-    
+
+    // th is not allowed in table
+    body = body.replace(/<th>/g, '<td')
+    body = body.replace(/<\/th>/g, 'td>')
     
     //removing thead as they are not allowed
     body = body.replace(/<tbody>/g, '')
@@ -141,20 +147,25 @@ const upload =(file)=>{
     // body = aTagConverter(body)
     // const regex = /[\"\(].+\.(jpg|png|gif|jpeg)[\"\)]/g; 
 
-    client
-      .addContentItem()
-      .withData(
-        {
-          name: res.data.pagename,
-          type: { codename: 'knowledge_center_markdown_page' },
-          // external_id: res.data.permalink
-        }
-      )
-      .toPromise()
-      .then(response => {
+    // client
+    //   .addContentItem()
+    //   .withData(
+    //     {
+    //       name: res.data.pagename,
+    //       type: { codename: 'knowledge_center_markdown_page' },
+    //       // external_id: res.data.permalink
+    //     }
+    //   )
+    //    .toPromise()
+    //    .then(response => {
 
+        //upsert start
         client.upsertLanguageVariant()
-          .byItemId(response.data.id)
+        //byItemExternalId(res.data.permalink)
+        //byItemId(response.data.id)
+        //
+
+          .byItemExternalId(res.data.permalink)
           .byLanguageCodename('en-US')
 
           .withData((builder) => [
@@ -241,13 +252,16 @@ const upload =(file)=>{
             console.log(error.originalError.response.data)
             return false;
           });
-
-      })
-      .catch(error => {
-        console.log("had an error")
-        console.log(error.response.data)
-        return false;
-      });
-
+      //upsert end
+      // })
+      // .catch(error => {
+      //   console.log("had an error")
+      //   console.log(error)
+      //   return false;
+      // });
+      // check if error
+      // if error add to array
+      //[{filename:filename,{id:response.data.id} }]
+      // print array
   })
 }

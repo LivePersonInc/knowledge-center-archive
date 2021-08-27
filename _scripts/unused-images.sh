@@ -1,3 +1,5 @@
+
+# THIS GRABS ALL MD FILES
 echo "Reading files"
 find ./_new -name "*.md"> ./_scripts/newFile.txt
 find ./_release -name "*.md">> ./_scripts/newFile.txt
@@ -6,6 +8,8 @@ find ./pages -name "*.md">> ./_scripts/newFile.txt
 input="./_scripts/newFile.txt"
 
 
+# THIS CREATE A LIST OF IMAGES 
+# this takes a long time
 find -L ./img -name '*.*'> ./_scripts/images.txt
 images="./_scripts/images.txt"
 
@@ -36,6 +40,8 @@ do
   done < "$clean"
 
 done < "$input"
+
+# this dedupes the images by diffing the files
 
 # echo created list 
 # echo creating diff file

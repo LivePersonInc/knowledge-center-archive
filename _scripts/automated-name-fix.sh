@@ -19,7 +19,7 @@ find ./pages/* -type d > ./_scripts/newFile.txt
 # Print all files that end in md.
 # Ignore Release notes folder
 # Write to file list
-find ./pages -name '*.md' -not -path "*/ReleaseNotes/*" -print > ./_scripts/flieList.txt
+find ./pages -name "*.md" -not -path "*/ReleaseNotes/*" -print > ./_scripts/flieList.txt
 input="./_scripts/flieList.txt"
 while IFS= read -r line
 do
