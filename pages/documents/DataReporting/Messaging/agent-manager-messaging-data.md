@@ -8,7 +8,6 @@ level3: ''
 permalink: data-reporting-messaging-agent-manager-historical-messaging-data.html
 isTutorial: false
 date: 2019-01-15 13:35:30 +0200
-level3: ''
 
 ---
 ## Agent manager data bar for messaging

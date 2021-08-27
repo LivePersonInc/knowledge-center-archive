@@ -2,7 +2,6 @@
 pagename: 'Agent Assist recommends next action'
 categoryName: Bots & automation
 subCategoryName: ''
-level3: ''
 indicator: both
 subtitle: A continuously-learning platform that orchestrates all conversational interactions to recommend the best outcomes
 level3: Getting started

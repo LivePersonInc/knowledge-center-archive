@@ -104,12 +104,6 @@
 ./pages/documents/SecurityRegulations/LivePerson-Cookies.md
 ./pages/documents/SecurityRegulations/SecureForms/secure-forms-messaging.md
 ./pages/documents/SecurityRegulations/SecureForms/secure-forms-for-chat.md
-./pages/documents/SecurityRegulations/test.md
-./pages/documents/MessagingChannels/Proactive messaging/Proactive-Messaging-for-App-Messaging.md
-./pages/documents/MessagingChannels/Proactive messaging/Proactive_messaging_overview.md
-./pages/documents/MessagingChannels/Proactive messaging/Proactive_messaging_user_guide.md
-./pages/documents/MessagingChannels/Live chat/add-chat-to-your-website.md
-./pages/documents/MessagingChannels/Live chat/displaying-chat-engagements.md
 ./pages/documents/MessagingChannels/Connectors/messaging-connectors-overview.md
 ./pages/documents/MessagingChannels/Connectors/google-business-messages.md
 ./pages/documents/MessagingChannels/Connectors/facebook-messenger.md
@@ -124,33 +118,38 @@
 ./pages/documents/MessagingChannels/Connectors/line-connector.md
 ./pages/documents/MessagingChannels/Connectors/whatsapp-business.md
 ./pages/documents/MessagingChannels/email-connect.md
+./pages/documents/MessagingChannels/ProactiveMessaging/Proactive-Messaging-for-App-Messaging.md
+./pages/documents/MessagingChannels/ProactiveMessaging/Proactive_messaging_overview.md
+./pages/documents/MessagingChannels/ProactiveMessaging/Proactive_messaging_user_guide.md
+./pages/documents/MessagingChannels/SocialMessaging/social-messaging-configuration-guide.md
+./pages/documents/MessagingChannels/SocialMessaging/social-messaging-user-guide.md
+./pages/documents/MessagingChannels/SocialMessaging/social-messaging-overview.md
 ./pages/documents/MessagingChannels/messagingCapabilitiesComparison.md
+./pages/documents/MessagingChannels/mobileAppMessaging/enhance-mobile-app-messaging.md
+./pages/documents/MessagingChannels/mobileAppMessaging/add-messaging-to-your-mobile-app.md
+./pages/documents/MessagingChannels/mobileAppMessaging/mobile-app-messaging-faqs.md
 ./pages/documents/MessagingChannels/SMS/using-sms-with-twilio.md
 ./pages/documents/MessagingChannels/SMS/generate-a-twilio-sms-number-with-liveperson.md
 ./pages/documents/MessagingChannels/SMS/sms-connector.md
 ./pages/documents/MessagingChannels/SMS/complying-with-sms-regulations.md
 ./pages/documents/MessagingChannels/SMS/sms-best-practices.md
-./pages/documents/MessagingChannels/Rich messaging/rich-messaging.md
-./pages/documents/MessagingChannels/Rich messaging/hyperlinks-overview.md
-./pages/documents/MessagingChannels/Rich messaging/agent-file-sharing-overview.md
-./pages/documents/MessagingChannels/Rich messaging/structured-content-for-messaging-user-guide.md
-./pages/documents/MessagingChannels/Rich messaging/quick-replies-user-guide.md
-./pages/documents/MessagingChannels/Rich messaging/audio-messaging-user-guide.md
-./pages/documents/MessagingChannels/Rich messaging/structured-content-chat-user-guide.md
-./pages/documents/MessagingChannels/Rich messaging/photo-sharing-user-guide.md
-./pages/documents/MessagingChannels/Rich messaging/engagement-window-widget-sdk.md
-./pages/documents/MessagingChannels/Social Messaging/social-messaging-configuration-guide.md
-./pages/documents/MessagingChannels/Social Messaging/social-messaging-user-guide.md
-./pages/documents/MessagingChannels/Social Messaging/social-messaging-overview.md
-./pages/documents/MessagingChannels/mobile app messaging/enhance-mobile-app-messaging.md
-./pages/documents/MessagingChannels/mobile app messaging/add-messaging-to-your-mobile-app.md
-./pages/documents/MessagingChannels/mobile app messaging/mobile-app-messaging-faqs.md
-./pages/documents/MessagingChannels/Connect to Messaging/connect-to-messaging-user-guide.md
-./pages/documents/MessagingChannels/Connect to Messaging/connect-to-app-messaging.md
-./pages/documents/MessagingChannels/Connect to Messaging/connect-to-messaging-overview.md
-./pages/documents/MessagingChannels/web messaging/proactive-engagements-for-web-messaging.md
-./pages/documents/MessagingChannels/web messaging/authenticated-web-messaging.md
-./pages/documents/MessagingChannels/web messaging/add-web-messaging-to-your-website.md
+./pages/documents/MessagingChannels/ConnectToMessaging/connect-to-messaging-user-guide.md
+./pages/documents/MessagingChannels/ConnectToMessaging/connect-to-app-messaging.md
+./pages/documents/MessagingChannels/ConnectToMessaging/connect-to-messaging-overview.md
+./pages/documents/MessagingChannels/LiveChat/add-chat-to-your-website.md
+./pages/documents/MessagingChannels/LiveChat/displaying-chat-engagements.md
+./pages/documents/MessagingChannels/RichMessaging/rich-messaging.md
+./pages/documents/MessagingChannels/RichMessaging/hyperlinks-overview.md
+./pages/documents/MessagingChannels/RichMessaging/agent-file-sharing-overview.md
+./pages/documents/MessagingChannels/RichMessaging/structured-content-for-messaging-user-guide.md
+./pages/documents/MessagingChannels/RichMessaging/quick-replies-user-guide.md
+./pages/documents/MessagingChannels/RichMessaging/audio-messaging-user-guide.md
+./pages/documents/MessagingChannels/RichMessaging/structured-content-chat-user-guide.md
+./pages/documents/MessagingChannels/RichMessaging/photo-sharing-user-guide.md
+./pages/documents/MessagingChannels/RichMessaging/engagement-window-widget-sdk.md
+./pages/documents/MessagingChannels/webMessaging/proactive-engagements-for-web-messaging.md
+./pages/documents/MessagingChannels/webMessaging/authenticated-web-messaging.md
+./pages/documents/MessagingChannels/webMessaging/add-web-messaging-to-your-website.md
 ./pages/documents/MessagingChannels/test.md
 ./pages/documents/BotsAutomation/Archive/LiveIntent-tips.md
 ./pages/documents/BotsAutomation/Archive/next-actions-api-overview.md
@@ -201,12 +200,12 @@
 ./pages/documents/DataReporting/DataTransporter/data-transporter.md
 ./pages/documents/DataReporting/macs.md
 ./pages/documents/DataReporting/LiveChat/how-to-export-100-000-chat.md
-./pages/documents/DataReporting/LiveChat/Chat dashboards/operational-staffing-dashboard.md
-./pages/documents/DataReporting/LiveChat/Chat dashboards/business-dashboard-grid-for-live-chat.md
-./pages/documents/DataReporting/LiveChat/Chat dashboards/survey-activity-dashboard.md
-./pages/documents/DataReporting/LiveChat/Chat dashboards/agent-activity-dashboard-chat.md
-./pages/documents/DataReporting/LiveChat/Chat dashboards/skills-dashboard-for-live-chat.md
-./pages/documents/DataReporting/LiveChat/Chat dashboards/goal-tracker-report.md
+./pages/documents/DataReporting/LiveChat/ChatDashboards/operational-staffing-dashboard.md
+./pages/documents/DataReporting/LiveChat/ChatDashboards/business-dashboard-grid-for-live-chat.md
+./pages/documents/DataReporting/LiveChat/ChatDashboards/survey-activity-dashboard.md
+./pages/documents/DataReporting/LiveChat/ChatDashboards/agent-activity-dashboard-chat.md
+./pages/documents/DataReporting/LiveChat/ChatDashboards/skills-dashboard-for-live-chat.md
+./pages/documents/DataReporting/LiveChat/ChatDashboards/goal-tracker-report.md
 ./pages/documents/DataReporting/LiveChat/Real-time-data-for-chat.md
 ./pages/documents/DataReporting/PerformanceOptimizer/Performance-Optimizer-user-guide.md
 ./pages/documents/DataReporting/PerformanceOptimizer/Performance-Optimizer-overview.md
@@ -222,15 +221,15 @@
 ./pages/documents/DataReporting/MeaningfulConnectionScore/accessing-the-mcs-toolkit.md
 ./pages/documents/DataReporting/MeaningfulConnectionScore/mcs-overview.md
 ./pages/documents/DataReporting/test.md
+./pages/documents/DataReporting/Messaging/MessagingDashboards/bot-performance-messaging.md
+./pages/documents/DataReporting/Messaging/MessagingDashboards/agent-activity-dashboard.md
+./pages/documents/DataReporting/Messaging/MessagingDashboards/performance-dashboard-messaging.md
+./pages/documents/DataReporting/Messaging/MessagingDashboards/Survey-dashboard-messaging.md
+./pages/documents/DataReporting/Messaging/MessagingDashboards/goal-tracker-report.md
+./pages/documents/DataReporting/Messaging/MessagingDashboards/business-dashboard-messaging.md
 ./pages/documents/DataReporting/Messaging/messaging-conversation-segments.md
 ./pages/documents/DataReporting/Messaging/Real time data/real-time-messaging-dashboard.md
 ./pages/documents/DataReporting/Messaging/Real time data/Real-time-data-for-messaging.md
-./pages/documents/DataReporting/Messaging/Messaging dashboards/bot-performance-messaging.md
-./pages/documents/DataReporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
-./pages/documents/DataReporting/Messaging/Messaging dashboards/performance-dashboard-messaging.md
-./pages/documents/DataReporting/Messaging/Messaging dashboards/Survey-dashboard-messaging.md
-./pages/documents/DataReporting/Messaging/Messaging dashboards/goal-tracker-report.md
-./pages/documents/DataReporting/Messaging/Messaging dashboards/business-dashboard-messaging.md
 ./pages/documents/DataReporting/Messaging/agent-manager-messaging-data.md
 ./pages/documents/DataReporting/Analytics/AdvancedMessagingDashboard.md
 ./pages/documents/Troubleshooting/enable-a-user.md
@@ -361,5 +360,4 @@
 ./pages/documents/DeveloperTools/Functions/terms-of-use.md
 ./pages/documents/DeveloperTools/Functions/function-as-a-service-faas.md
 ./pages/documents/DeveloperTools/open-platform.md
-./pages/conversation-builder-migration-to-gcp.md
 ./pages/conversation-builder-migration-to-gcp-faqs.md

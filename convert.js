@@ -54,7 +54,7 @@ ${p1}${encodeURI(p2)}${p3}
 ` 
 }
 const filesArray = []
-
+let errors = [];
 var eachLine = Promise.promisify(lineReader.eachLine);
 eachLine('./_scripts/newFile.txt', function (line) {
   filesArray.push(line)
@@ -117,8 +117,8 @@ const upload =(file)=>{
     body = body.replace(/(<img[^>]src=\"([^\"]*)\"[^>]*>)(<\/li>)/g, '$3$1')
 
     // th is not allowed in table
-    body = body.replace(/<th>/g, '<td')
-    body = body.replace(/<\/th>/g, 'td>')
+    body = body.replace(/<th>/g, '<td>')
+    body = body.replace(/<\/th>/g, '</td>')
     
     //removing thead as they are not allowed
     body = body.replace(/<tbody>/g, '')
@@ -135,7 +135,7 @@ const upload =(file)=>{
     body = body.replace(/(li>\n)(<p>)(.*)(<\/p>)/g, '$1$3')
     body = body.replace(/(<p>)(.*)(<\/p>)(\n<\/li)/g, '$2$4')
     
-
+ 
     
     fs.writeFile('test.html', body, err => {
       if (err) {
@@ -147,25 +147,27 @@ const upload =(file)=>{
     // body = aTagConverter(body)
     // const regex = /[\"\(].+\.(jpg|png|gif|jpeg)[\"\)]/g; 
 
-    // client
-    //   .addContentItem()
-    //   .withData(
-    //     {
-    //       name: res.data.pagename,
-    //       type: { codename: 'knowledge_center_markdown_page' },
-    //       // external_id: res.data.permalink
-    //     }
-    //   )
-    //    .toPromise()
-    //    .then(response => {
+    client
+      .addContentItem()
+      .withData(
+        {
+          name: res.data.pagename,
+          type: { codename: 'knowledge_center_markdown_page' },
+          // external_id: res.data.permalink
+        }
+      )
+       .toPromise()
+       .then(response => {
 
-        //upsert start
+      
+    
+      //byItemExternalId(res.data.permalink)
+      //byItemId(response.data.id)
+      
+      
+      //upsert start
         client.upsertLanguageVariant()
-        //byItemExternalId(res.data.permalink)
-        //byItemId(response.data.id)
-        //
-
-          .byItemExternalId(res.data.permalink)
+          .byItemId(response.data.id)
           .byLanguageCodename('en-US')
 
           .withData((builder) => [
@@ -243,25 +245,17 @@ const upload =(file)=>{
           .toPromise()
           .catch(error => {
             console.log("had an error")
-            fs.writeFile(`error/${res.data.pagename}.html`, body, err => {
-              if (err) {
-                console.error(err)
-                return
-              }
-            })
             console.log(error.originalError.response.data)
-            return false;
+            errors.push(file)
           });
       //upsert end
-      // })
-      // .catch(error => {
-      //   console.log("had an error")
-      //   console.log(error)
-      //   return false;
-      // });
-      // check if error
-      // if error add to array
-      //[{filename:filename,{id:response.data.id} }]
-      // print array
-  })
-}
+      })
+      .catch(error => {
+        console.log("had an error")
+        console.log(error)
+        errors.push(file)
+      });
+
+    })
+  console.log(errors)
+  }
