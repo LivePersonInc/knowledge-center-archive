@@ -8,38 +8,38 @@ find ./pages -name "*.md">> ./_scripts/newFile.txt
 input="./_scripts/newFile.txt"
 
 
-# THIS CREATE A LIST OF IMAGES 
-# this takes a long time
-find -L ./img -name '*.*'> ./_scripts/images.txt
-images="./_scripts/images.txt"
+# # THIS CREATE A LIST OF IMAGES 
+# # this takes a long time
+# find -L ./img -name '*.*'> ./_scripts/images.txt
+# images="./_scripts/images.txt"
 
-touch "./_scripts/images_clean.txt"
-clean="./_scripts/images_clean.txt"
-:>"$clean"
+# touch "./_scripts/images_clean.txt"
+# clean="./_scripts/images_clean.txt"
+# :>"$clean"
  
-while IFS= read -r image
-do
+# while IFS= read -r image
+# do
   
-echo "${image:2}" >>"$clean"
-done < "$images"
+# echo "${image:2}" >>"$clean"
+# done < "$images"
 
-rm "$images"
-touch "$images"
+# rm "$images"
+# touch "$images"
 
-while IFS= read -r  file
-do
-  while IFS= read -r line
-  do
-    # find if there is match in the file 
-    #if match remove that text from the file
-    if grep -q $line $file; then
-      #found
-      echo "$line" >> "$images"
+# while IFS= read -r  file
+# do
+#   while IFS= read -r line
+#   do
+#     # find if there is match in the file 
+#     #if match remove that text from the file
+#     if grep -q $line $file; then
+#       #found
+#       echo "$line" >> "$images"
        
-    fi
-  done < "$clean"
+#     fi
+#   done < "$clean"
 
-done < "$input"
+# done < "$input"
 
 # this dedupes the images by diffing the files
 
