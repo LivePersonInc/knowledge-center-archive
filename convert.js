@@ -56,7 +56,7 @@ ${p1}${encodeURI(p2)}${p3}
 const filesArray = []
 let errors = [];
 var eachLine = Promise.promisify(lineReader.eachLine);
-eachLine('./_scripts/newFile.txt', function (line) {
+eachLine('./_scripts/failingFiles.txt', function (line) {
   filesArray.push(line)
 }).then(function () {
   for (let index = 0; index < filesArray.length; index++) {
@@ -257,5 +257,5 @@ const upload =(file)=>{
       });
 
     })
-  console.log(errors)
+  // console.log(errors)
   }
