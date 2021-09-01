@@ -5,9 +5,10 @@ subCategoryName: New Agent Workspace
 indicator: both
 subtitle: Learn more about the new Agent Workspace
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-operational-readiness-checklist.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-operational-readiness-checklist.html
 redirect_from:
     - messaging-agents-operational-readiness-checklist.html
+    - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-operational-readiness-checklist.html
     
 ---
 
@@ -110,9 +111,9 @@ Some ideas of how you can use this information:
 
 **Training resources available to you:**
 
-* [Agent training deck](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html)
+* [Agent training deck](/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-training-deck.html)
 
-* [Agent training video](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html)
+* [Agent training video](/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tutorial.html)
 
 * [Manager training video](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-tutorial.html)
 
@@ -132,7 +133,7 @@ To get early access for testing, please contact your LivePerson account team.
 
 Best practices:
 
-**For blended accounts:** Because the enhanced agent and new Manager Workspaces are for messaging only, we recommend separating your messaging and live chat operations as a best practice. This means having either dedicated agents who handle only chat or only messaging conversations, or having agents with multiple logins who handle chat and messaging during different shifts. To learn more about working with blended accounts, [click here](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-blended-accounts.html).
+**For blended accounts:** Because the enhanced agent and new Manager Workspaces are for messaging only, we recommend separating your messaging and live chat operations as a best practice. This means having either dedicated agents who handle only chat or only messaging conversations, or having agents with multiple logins who handle chat and messaging during different shifts. To learn more about working with blended accounts, [click here](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-blended-accounts.html).
 
 **Implement auto accept.** Contact centers can choose whether to have conversations automatically assigned to agents or to have agents manually accept conversations that ring in their workspace. We recommend using auto accept as a best practice, because it helps to maximize agent capacity and ensure that conversation routing is as rapid and efficient as possible. To learn more about how conversations are distributed and accepted, [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-conversation-distribution.html#accepting-a-conversation).
 

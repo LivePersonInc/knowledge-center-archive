@@ -1,13 +1,15 @@
 ---
-pagename: Introducing the enhanced Agent Workspace
+pagename: Introducing the Agent Workspace
 categoryName: Agent & Manager Workspace
 subCategoryName: ''
 indicator: messaging
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-the-agent-workspace.html
+redirect:
+    - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-agent-workspace.html
 
 ---
-The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging.
+The Agent Workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging.
 
 ![alt text](/img/new-agent-workspace-5.png){:class="newagent"}
 

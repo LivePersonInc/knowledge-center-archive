@@ -10,7 +10,7 @@ isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 redirect_from:
-  - messaging-agents-the-enhanced-agent-workspace.html
+  - messaging-agents-the-agent-workspace.html
   - new-experiences.html
   - messaging-agents-roadmap.html
   - admins-campaign-managers-new-navigation.html

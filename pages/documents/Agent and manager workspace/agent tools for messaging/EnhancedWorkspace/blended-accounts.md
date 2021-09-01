@@ -5,12 +5,13 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-blended-accounts.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-blended-accounts.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 redirect_from:
   - messaging-agents-blended-accounts.html
+  - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-blended-accounts.html
 
 ---
 
@@ -43,7 +44,7 @@ This method is recommended by LivePerson as best practice for blended accounts.
 
 Only messaging agents that have the enhanced workspace enabled in permissions will see the enhanced Agent Workspace module. The Agent Workspace for chat will be available and will display: web visitors, web history and agents - based on the existing permission set for the agent.  
 
-For more information see the [messaging agents user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html).
+For more information see the [messaging agents user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-the-agent-workspace.html).
 
 ### Dedicated live chat agents
 

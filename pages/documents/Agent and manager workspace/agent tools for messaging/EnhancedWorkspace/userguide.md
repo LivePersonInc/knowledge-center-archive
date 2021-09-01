@@ -5,12 +5,13 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-user-guide.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-user-guide.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 redirect_from:
   - messaging-agents-user-guide.html
+  - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-user-guide.html
 ---
 
 ## Summary of enhancements
@@ -107,7 +108,7 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ### Shortcuts & hotkeys
 
-To view the shortcuts available in the Enhanced Agent Workspace, see [this link](agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-shortcuts.html).
+To view the shortcuts available in the Enhanced Agent Workspace, see [this link](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-shortcuts.html).
 
 ## Managing messaging conversations
 

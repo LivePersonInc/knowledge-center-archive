@@ -5,10 +5,12 @@ subCategoryName:
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-quick-launch-menu.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-quick-launch-menu.html
 isTutorial: false
 isNew: false
 date: 2019-01-31 08:52:22 +0000
+redirect:
+    - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-quick-launch-menu.html
 
 ---
 

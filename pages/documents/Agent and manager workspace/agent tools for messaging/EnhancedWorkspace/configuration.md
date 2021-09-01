@@ -5,12 +5,13 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-configuration.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-configuration.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 redirect_from:
   - messaging-agents-configuration.html
+  - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-configuration.html
 ---
 
 The Agent Workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
@@ -18,7 +19,7 @@ The Agent Workspace is tailored to the needs of messaging agents and was designe
 There are a few configurations that brands can elect to control for the agent experience as outlined below.  
 
 {: .notice}
-**Please notes:** Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-blended-accounts.html).
+**Please notes:** Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-blended-accounts.html).
 
 ## Enabling the enhanced workspace
 
