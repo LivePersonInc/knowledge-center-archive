@@ -21,15 +21,15 @@ There are a few configurations that brands can elect to control for the agent ex
 {: .notice}
 **Please notes:** Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-blended-accounts.html).
 
-## Enabling the enhanced workspace
+## Enabling the Agent Workspace
 
 Messaging agents can access the enhanced Agent Workspace starting on September 16th, but it is off by default and must be enabled in permissions.
 
-To do so, managers must go to the profiles tab in the users module. Select the name of the relevant profile, then under permissions toggle on 'Use enhanced Agent Workspace" and save the changes. This will give all users that have been assigned this profile access to the enhanced workspace.
+To do so, managers must go to the profiles tab in the users module. Select the name of the relevant profile, then under permissions toggle on 'Use enhanced Agent Workspace" and save the changes. This will give all users that have been assigned this profile access to the Agent Workspace.
 
 ![alt text](img/new-agent-workspace-10.png)
 
-In order to gradually transition your agents to the enhanced workspace you will need to create multiple profiles and assign the relevent users to each. Then, you can enable the permissions for the desired profile and the users assigned will be transitioned.
+In order to gradually transition your agents to the Agent Workspace you will need to create multiple profiles and assign the relevent users to each. Then, you can enable the permissions for the desired profile and the users assigned will be transitioned.
 
 ## Configuration from your LivePerson workspace
 
