@@ -5,9 +5,10 @@ subCategoryName: New Agent Workspace
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tutorial.html
 redirect_from:
   - messaging-agents-tutorial.html
+  - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html
   
 ---
 

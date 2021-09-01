@@ -5,15 +5,16 @@ subCategoryName: New Agent Workspace
 indicator: messaging
 subtitle: Learn more about the enhanced Agent Workspace
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-training-deck.html
 redirect_from:
   - messaging-agents-training-deck.html
+  - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html
   
 ---
 
 In order to help brands train agents on the new capabilities available in the workspace, the following training power point presentation is available.
 
-This presentation includes an overview of what agents need to know in order to use the enhanced workspace - including comparison between the 'old' and the 'new'.
+This presentation includes an overview of what agents need to know in order to use the Agent Workspace - including comparison between the 'old' and the 'new'.
 
 
-Click here to <a href="/resources/enhanced-agent-workspace.pptx" download>download</a> the training deck. (note: the presentation contains gifs that animate only in 'presentation mode')
+Click here to <a href="/resources/agent-workspace.pptx" download>download</a> the training deck. (note: the presentation contains gifs that animate only in 'presentation mode')
