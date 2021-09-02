@@ -16,25 +16,16 @@ redirect_from:
 
 The Agent Workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
 
-There are a few configurations that brands can elect to control for the agent experience as outlined below.  
+That being said, there are a few configurations that brands can elect to control for the agent experience as outlined below.  
 
 {: .notice}
-**Please notes:** Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-blended-accounts.html).
+**Please note:** Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-blended-accounts.html).
 
 ## Enabling the Agent Workspace
 
-Messaging agents can access the enhanced Agent Workspace starting on September 16th, but it is off by default and must be enabled in permissions.
+The Agent Workspace is enabled by default for all accounts. If your account is still using the Old Agent Workspace, you will need to contact your LivePerson account manager to enable the most recent version of the Agent Workspace.
 
-To do so, managers must go to the profiles tab in the users module. Select the name of the relevant profile, then under permissions toggle on 'Use enhanced Agent Workspace" and save the changes. This will give all users that have been assigned this profile access to the Agent Workspace.
-
-![alt text](img/new-agent-workspace-10.png)
-
-In order to gradually transition your agents to the Agent Workspace you will need to create multiple profiles and assign the relevent users to each. Then, you can enable the permissions for the desired profile and the users assigned will be transitioned.
-
-## Configuration from your LivePerson workspace
-
-{: .notice}
-**Please note:** If you have set up the below configurations for the existing Agent Workspace, you do not need to set them again - they will automatically apply.
+## Key configurations for your LivePerson workspace
 
 ### Auto accept
 
@@ -46,19 +37,19 @@ Set up:
 
 ![alt text](img/new-workspace-configuration.png)
 
-## Set consumer profile for unauthenticated flows
+### Set consumer profile for unauthenticated flows
 
-The **enhanced Agent Workspace** has been improved to support additional use cases for unauthenticated conversation flows. Up until now, whenever an unauthenticated conversation was initiated, the visitor displayed as “Visitor” in the My Conversations and All Conversations lists. In cases of multiple unauthenticated conversations, agents were confused since they had no ability to distinguish between conversations.
+In the past, whenever an unauthenticated conversation was initiated, the visitor displayed as “Visitor” in the My Conversations and All Conversations lists. In cases of multiple unauthenticated conversations, agents were confused since they had no ability to distinguish between conversations.
 
 The enhanced Agent Workspace supports the two following improvements to assist agents in distinguishing between unauthenticated conversations in the Agent Workspace:
 
-### Automatically rename ‘Visitor’, when “Personal info” engagement attribute has been reported
+#### Automatically rename ‘Visitor’, when “Personal info” engagement attribute has been reported
 
-* If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), the Agent Workspace will automatically populate the visitor name’s in the My Conversations/All Conversations lists as well as the conversation header.
+If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), the Agent Workspace will automatically populate the visitor name’s in the My Conversations/All Conversations lists as well as the conversation header. [See the Developers' Community for more information on enagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html).
 
-#### Limitations
+##### Limitations
 
-The visitor name is automatically updated when only once the **agent clicks the conversation** and opens it. Until then, the visitor name will **not** be automatically updated.
+The visitor name is automatically updated only once the **agent clicks the conversation** and opens it. Until then, the visitor name will **not** be automatically updated.
 
 Sometimes, the data on the visitor name arrives **after** the agent opens the conversation. In that case, the visitor name will not be updated automatically and the agent has the option to set it manually as detailed below.
 
@@ -72,7 +63,7 @@ Fig 2: The visitor name is automatically populated in the conversation list and 
 
 ![](img/set-consumer-profile-2.png)
 
-### Manually rename ‘Visitor’ for unauthenticated conversations
+#### Manually rename ‘Visitor’ for unauthenticated conversations
 
 The agent has the ability to manually rename the visitor’s first and last name (for unauthenticated conversations only).
 
@@ -91,10 +82,10 @@ The agent has the ability to manually rename the visitor’s first and last name
 
 ![](img/set-consumer-profile-6.png)
 
-### Enablement
+##### Enablement
 
 {: .notice}
-**Please note:** This feature requires enablement. For more information please contact your LivePerson representative for more information.
+**Please note:** This feature requires enablement. You can enable this feature, alongside its requisite permissions, in the Management Console. Simply search for "visitor name".
 
 On your LivePerson Conversational Cloud account, take the following steps:
 
@@ -106,10 +97,10 @@ On your LivePerson Conversational Cloud account, take the following steps:
 2. Save the profile.
 3. All agents assigned with this profile will now enjoy the improvements of unauthenticated conversations. If an agent is already logged in during the time the changes take effect, they will not see them until the next time they log in.
 
-### Q&A
+### FAQ
 
 **Q:** What happens if the conversation has been transferred to a different agent or returned to the queue?
-**A:** In case the visitor name has automatically populated be the personal info engagement attribute, or manually renamed by the agent, it will also appear with the new name after returning it to queue or transferring the conversation.
+**A:** In case the visitor name was automatically populated by the personal info engagement attribute, or manually renamed by the agent, it will also appear with the new name after returning it to queue or transferring the conversation.
 
 **Q:** What happens if the personal info engagement attribute has been reported and populated, and the agent renames the visitor manually?
 **A:** The manual rename takes precedence over the automatic visitor name population so that the name set by the agent is the one displayed.
