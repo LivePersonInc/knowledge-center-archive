@@ -125,11 +125,11 @@ p + ul {
 }
 
 /* Made all images the same size */
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
   #post-content p img {
     width: 91%;
   }
-}
+} */
 
 .tablecontainer {
   margin-bottom: 45px;
