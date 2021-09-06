@@ -53,8 +53,6 @@ Instagram is a hugely popular photo and video-sharing social media platform. Use
 {:start="2"}
 2. **Story Mention by the consumer** - Sending a private message to a consumer who posted a story and tagged the brand.
 
-![](img/instagram-overview-5.png)
-
 ![](img/instagram-overview-6.png)
 
 {:start="3"}
