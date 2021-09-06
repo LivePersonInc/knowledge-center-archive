@@ -20,13 +20,14 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 
 * [Facebook Messenger](messaging-channels-facebook-messenger.html)
 * [Twilio SMS](messaging-channels-sms-sms-connector.html)
-* [Apple Business Chat](messaging-channels-apple-business-chat-overview.html)
-* [Google RCS Business Messenger](messaging-channels-google-rcs-business-messaging.html)
-* [Google Business Messages](messaging-channels-google-business-messages.html)
+* [Apple Business Chat](messaging-channels-apple-business-chat-apple-business-chat-overview.html)
+* [Google RCS Business Messenger](messaging-channels-google-google-rcs-business-messaging.html)
+* [Google Business Messages](messaging-channels-google-google-business-messages.html)
 * [WhatsApp Business](messaging-channels-whatsapp-business.html)
 * [Instagram](messaging-channels-instagram.html)
 * [Twitter](messaging-channels-social-messaging-social-messaging-overview.html)
 * [LINE](messaging-channels-line-connector.html)
+* [Viber](messaging-channels-viber.html)
 * [WeChat Business](messaging-channels-wechat-business.html)
 
 ![](/img/messaging-connectors-overview-1.gif)

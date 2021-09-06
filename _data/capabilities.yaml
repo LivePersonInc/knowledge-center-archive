@@ -13,6 +13,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Typing indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -26,6 +27,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Read indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -39,6 +41,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Read indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -52,6 +55,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Delivered indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -65,6 +69,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Delivered indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -78,6 +83,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: In-thread new messages notification
     channels:
     - mobileAppMessaging: "Supported"
@@ -91,6 +97,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Hyperlinked regular expressions
     tooltip: 'For auto-linking of phone numbers, dates, url, etc.'
     channels:
@@ -105,6 +112,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Desktop application support
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -118,6 +126,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "N/A in Channel"
   - featureName: Continuity across devices
     channels:
     - mobileAppMessaging: "Supported (authenticated only)"
@@ -131,6 +140,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Consumer resolve conversation
     channels:
     - mobileAppMessaging: "Supported"
@@ -144,6 +154,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Window branding and customization
     channels:
     - mobileAppMessaging: "Supported"
@@ -157,6 +168,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Accessibility
     channels:
     - mobileAppMessaging: "Supported"
@@ -170,6 +182,7 @@
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
 
 
 - categoryName: Rich Messaging
@@ -188,6 +201,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Enlarged emojis
     channels:
     - mobileAppMessaging: "Supported"
@@ -201,6 +215,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Stickers - consumer to agent
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -214,6 +229,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Stickers - agent to consumer
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -227,6 +243,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Not Supported"
   - featureName: Photo Sharing - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -240,6 +257,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Photo Sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -253,6 +271,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: File sharing - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -266,6 +285,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: File sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -279,6 +299,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Voice/video calls
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -292,6 +313,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
+    - viber: "N/A in Channel"
   - featureName: GIF - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -305,6 +327,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Link previews
     channels:
     - mobileAppMessaging: "Supported"
@@ -318,6 +341,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Quick Replies
     channels:
     - mobileAppMessaging: "Supported"
@@ -331,6 +355,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Structured content cards
     channels:
     - mobileAppMessaging: "Supported"
@@ -344,6 +369,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Not Supported"
   - featureName: Structured content carousel
     channels:
     - mobileAppMessaging: "Supported"
@@ -357,6 +383,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Not Supported"
   - featureName: Structured content list
     channels:
     - mobileAppMessaging: "Supported"
@@ -370,6 +397,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Structured content time picker
     channels:
     - mobileAppMessaging: "Supported"
@@ -383,6 +411,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Audio Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -396,6 +425,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "N/A in Channel"
   - featureName: Payment
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -409,6 +439,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "N/A in Channel"
 
 - categoryName: Operations
   features:
@@ -425,6 +456,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Engagement Attributes
     channels:
     - mobileAppMessaging: "Supported"
@@ -438,6 +470,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Automatic Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -451,6 +484,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: CSAT question
     channels:
     - mobileAppMessaging: "Supported"
@@ -464,6 +498,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Agent survey
     channels:
     - mobileAppMessaging: "Supported"
@@ -477,6 +512,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: SmartConnect support
     tooltip: 'Brand initiated conversation.'
     channels:
@@ -491,6 +527,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
+    - viber: "Not Supported"
   - featureName: Encryption
     tooltip: 'As conversation is in transit.'
     channels:
@@ -505,6 +542,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "N/A in Channel"
   - featureName: Encryption at rest
     channels:
     - mobileAppMessaging: "Supported"
@@ -518,6 +556,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Authentication
     tooltip: 'Channel natively supports a way to verify that the consumer is "trusted."'
     channels:
@@ -532,6 +571,7 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Client side data masking
     channels:
     - mobileAppMessaging: "Supported"
@@ -545,6 +585,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Agent side historical data masking
     tooltip: 'For example, a credit card number.'
     channels:
@@ -559,6 +600,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Secure form
     channels:
     - mobileAppMessaging: "Supported"
@@ -572,6 +614,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Post conversation survey
     channels:
     - mobileAppMessaging: "Supported"
@@ -585,6 +628,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
 
 - categoryName: Automation
   features:
@@ -601,6 +645,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
 
 - categoryName: Consumer Profile
   features:
@@ -617,19 +662,21 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
-    - featureName: Consumer unique identifier
-      channels:
-      - mobileAppMessaging: "Supported"
-      - webMessaging: "Supported"
-      - appleBusinessChat: "Supported"
-      - sms: "Supported"
-      - facebook: "Supported"
-      - whatsapp: "Supported"
-      - googleRCS: "Supported"
-      - line: "Supported"
-      - messagingWindowAPI: "Supported"
-      - connectorAPI: "Supported"
+    - viber: "Supported"
+  - featureName: Consumer unique identifier
+    channels:
+    - mobileAppMessaging: "Supported"
+    - webMessaging: "Supported"
+    - appleBusinessChat: "Supported"
+    - sms: "Supported"
+    - facebook: "Supported"
+    - whatsapp: "Supported"
+    - googleRCS: "Supported"
+    - line: "Supported"
+    - messagingWindowAPI: "Supported"
+    - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Consumer image
     channels:
     - mobileAppMessaging: "Supported"
@@ -643,3 +690,4 @@
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"

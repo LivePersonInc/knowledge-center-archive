@@ -54,6 +54,7 @@
     - subcategoryname: WhatsApp Business
     - subcategoryname: Instagram
     - subcategoryname: LINE connector
+    - subcategoryname: Viber
     - subcategoryname: WeChat Business
     - subcategoryname: Social Messaging
       pages:
