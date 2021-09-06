@@ -47,7 +47,7 @@ published: true
         <td><img class="tableIcon" src="img/messaging-window-api.svg" /></td>
         <td><img class="tableIcon" src="img/connector-api.svg" /></td>
         <td><img class="tableIcon" src="img/WeChat-logo.png" /></td>
-        <td><img class="tableIcon" src="img/viber.png" /></td>
+        <td><img class="tableIcon" src="img/viber-icon.svg" /></td>
       </tr>
       {% for feature in category.features %}
       <tr>
