@@ -23,6 +23,7 @@ published: true
     <th>Apple Business chat</th>
     <th>SMS</th>
     <th>Facebook</th>
+    <th>Twitter</th>
     <th>WhatsApp</th>
     <th>Google RCS</th>
     <th>LINE</th>
@@ -41,6 +42,7 @@ published: true
         <td><img class="tableIcon" src="img/abc.svg" /></td>
         <td><img class="tableIcon" src="img/sms.svg" /></td>
         <td><img class="tableIcon" src="img/fb-messenger.svg" /></td>
+        <td><img class="tableIcon" src="img/twitter.svg" /></td>
         <td><img class="tableIcon" src="img/whatsapp.svg" /></td>
         <td><img class="tableIcon" src="img/google-rsc.svg" /></td>
         <td><img class="tableIcon" src="img/line.svg" /></td>
@@ -93,48 +95,55 @@ published: true
             {% endif %}
           {% endif %}
           {% if forloop.index == 6 %}
+            {% if channel.twitter == "Supported" %}
+            <td class="green">{{ channel.twitter }}</td>
+            {% else %}
+            <td>{{ channel.twitter }}</td>
+            {% endif %}
+          {% endif %}
+          {% if forloop.index == 7 %}
             {% if channel.whatsapp == "Supported" %}
             <td class="green">{{ channel.whatsapp }}</td>
             {% else %}
             <td>{{ channel.whatsapp }}</td>
             {% endif %}
           {% endif %}
-          {% if forloop.index == 7 %}
+          {% if forloop.index == 8 %}
             {% if channel.googleRCS == "Supported" %}
             <td class="green">{{ channel.googleRCS }}</td>
             {% else %}
             <td>{{ channel.googleRCS }}</td>
             {% endif %}
           {% endif %}
-          {% if forloop.index == 8 %}
+          {% if forloop.index == 9 %}
             {% if channel.line == "Supported" %}
             <td class="green">{{ channel.line }}</td>
             {% else %}
             <td>{{ channel.line }}</td>
             {% endif %}
           {% endif %}
-          {% if forloop.index == 9 %}
+          {% if forloop.index == 10 %}
             {% if channel.messagingWindowAPI == "Supported" %}
             <td class="green">{{ channel.messagingWindowAPI }}</td>
             {% else %}
             <td>{{ channel.messagingWindowAPI }}</td>
             {% endif %}
           {% endif %}
-          {% if forloop.index == 10 %}
+          {% if forloop.index == 11 %}
             {% if channel.connectorAPI == "Supported" %}
             <td class="green">{{ channel.connectorAPI }}</td>
             {% else %}
             <td>{{ channel.connectorAPI }}</td>
             {% endif %}
           {% endif %}
-          {% if forloop.index == 11 %}
+          {% if forloop.index == 12 %}
             {% if channel.weChat == "Supported" %}
             <td class="green">{{ channel.weChat }}</td>
             {% else %}
             <td>{{ channel.weChat }}</td>
             {% endif %}
           {% endif %}
-          {% if forloop.index == 12 %}
+          {% if forloop.index == 13 %}
             {% if channel.viber == "Supported" %}
             <td class="green">{{ channel.viber }}</td>
             {% else %}
