@@ -13,56 +13,29 @@ redirect_from:
   - messaging-agents-user-guide.html
   - agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-user-guide.html
 ---
-
-## Summary of enhancements
-
-Enhanced by automation and featuring an upgraded design, the Agent Workspace has been updated to boost your efficiency as an agent and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for you. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
-
-**Main enhancements to the Agent Workspace include:**
-
-**New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease.
-
-**Recommendation of next conversation to answer:** Dynamic conversation list features built-in automation that tells you which conversation to answer next, removing the need for decision making that can be time consuming and prone to human error.
-
-**Enhanced conversation summary:** The conversation summary widget has been enhanced to support the entering of multiple notes by several agents. When handling conversations that have been transferred and owned by several agents, this will allow you to see a log of comments for context.
-
-**History in transcript:** The conversation history now appears directly in the transcript so that you can easily access past conversations, rather than needing to navigate to a dedicated widget.
-
-**Closed conversation status filter:** Closed conversations can be filtered into the conversation list by status, allowing agents to ensure that all their documentation is in place when wrapping up their shift.
-
-**Idle conversation status and filter:** When a consumer hasn't responded within a certain time period (automatically determined by Smart Capactiy settings), a conversation is marked with the new idle status. You can filter these conversations out for a more focused conversation list.
-
 ## Workspace basics
 
-As an agent, your workspace is a centralized location for handling all of your conversations. When you login to the Conversational Cloud your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
+As an agent, your workspace is a centralized location for you to handle all of your conversations with. When you login to the Conversational Cloud, your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
 
-### Dynamic conversation list
+{: .notice}
 
-The new dynamic conversation list is sorted by SLA, or response time. Conversations with the shortest SLA are the most urgent, and are therefore sorted to the top of the list. The list updates automatically after every agent action or incoming conversation, ensuring that the most important conversations are always prioritized. This allows you to efficiently work through the conversation list by always focusing your attention on the conversation at the top of the list, rather than manually determining who to help next.
+Agents can enjoy a lighter and cleaner looking interface with the option to switch the Agent Workspace to light theme. Each agent is able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu.
+
+### My Conversations
+
+The My Conversations list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Conversations list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
+
+#### Dynamic conversation list
+
+The My Converations list is a dynamic conversation list which is automatically sorted by SLA, otherwise known as response time. Conversations with the shortest SLA are the most urgent and are therefore sorted to the top of the list. The list updates automatically after every agent action or incoming conversation, ensuring that the most important conversations are always prioritized. This allows you to efficiently work through the conversation list by always focusing your attention on the conversation at the top of the list, rather than manually determining who to help next.
 
 The conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Each conversation is assigned a color and a random icon to help you distinguish between consumers in the list. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
 
 ![alt text](img/new-agent-workspace-5.png){:class="newagent"}
 
-#### My Conversations
-The My Conversations list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Conversations list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
+#### Conversation status and filters
 
-#### All Conversations
-If you have permissions to view the All Conversations tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
-
-All Conversations can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript.
-
-**List mode:**
-
-![alt text](img/new-agent-workspace-all-connections-list-view.png){:class="newagent"}
-
-**Conversation mode:**
-
-![alt text](img/new-agent-workspace-all-connections-conversation-view.png){:class="newagent"}
-
-### Conversation status and filters
-
-The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. You will see at the top of the list a count of how many conversations with each status are currently in your workspace.
+The conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered in. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. You will see at the top of the list a count of how many conversations with each status are currently in your workspace.
 
 You can filter conversations in the list by status:
 
@@ -75,12 +48,19 @@ You can filter conversations in the list by status:
 
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
-{: .notice}
-**Please note:** The 'urgent' and '1st time consumer' statuses from the previous workspace no longer exist.
+### All Conversations
 
-### Light theme
+If you have permissions to view the All Conversations tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
 
-Agents can now enjoy a lighter and cleaner looking interface with the option to switch the Agent Workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu.
+All Conversations can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript.
+
+**List mode:**
+
+![alt text](img/new-agent-workspace-all-connections-list-view.png){:class="newagent"}
+
+**Conversation mode:**
+
+![alt text](img/new-agent-workspace-all-connections-conversation-view.png){:class="newagent"}
 
 ![](img/new-light-mode.png)
 
@@ -90,7 +70,7 @@ As you go about your shift, your own agent data bar will display on the top of y
 
 ![image alt text](img/databar.png){:class="newagent"}
 
-The data bar in your workspace will represent the queue data that is relevant only to you and your conversations for the current shift. Here you will see real-time data tracking the following:
+The data bar in your workspace represents the queue data that is relevant only to you and your conversations for the current shift. Here you will see real-time data, tracking the following:
 
 **OPEN:** number of current open conversations
 
@@ -108,7 +88,7 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ### Shortcuts & hotkeys
 
-To view the shortcuts available in the Enhanced Agent Workspace, see [this link](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-shortcuts.html).
+To view the shortcuts available in the Agent Workspace, see [this link](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-shortcuts.html).
 
 ## Managing messaging conversations
 
@@ -148,7 +128,7 @@ Conversations that reach your workplace have already undergone detailed analysis
 **Advanced mode:**
 ![image alt text](img/advancedaccept.png){:class="newagent"}
 
-### Understanding the context & history
+### Understanding the context & history of conversations
 
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
