@@ -78,18 +78,15 @@ Recommending answers and bots to agents:
 
 SmartReply and SmartCompose:
 ![](img/knowledgeai-4.png)
+![](img/knowledgeai-5.png)
 
 ## Next steps: Getting started
-* **Transform content into messaging ready answers.** Create answers to consumer questions using one or more CMS, Google Sheet, or csv. Get started.
+* **Transform content into messaging ready answers.** Create answers to consumer questions using one or more CMS, Google Sheet, or csv. [Get started here](https://developers.liveperson.com/knowledge-base-overview.html)
 
+* **Use content in automated conversations**. Answer consumer questions with confidence by matching questions to answers with NLU. Use content from your internal CMS in Conversation Builder bots to drive increased bot containment. [Get started here](https://developers.liveperson.com/conversation-builder-interactions-integrations.html#knowledge-ai-interactions)
 
-* **Use content in automated conversations**. Answer consumer questions with confidence by matching questions to answers with NLU. Use content from your internal CMS in Conversation Builder bots to drive increased bot containment. Get started.
+* **Recommend answers to agents**. Provide answers from your internal CMS to your agents inline within digital conversations to make the agents more effective and consistent. [Get started here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html)
 
+* **Recommend automations to agents**. Enable your agents to use recommended bot flows to manage repeatable activities, freeing the agents up for more meaningful conversations. [Get started here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html)
 
-Recommend answers to agents. Provide answers from your internal CMS to your agents inline within digital conversations to make the agents more effective and consistent. Get started.
-
-
-Recommend automations to agents. Enable your agents to use recommended bot flows to manage repeatable activities, freeing the agents up for more meaningful conversations. Get started.
-
-
-Set up SmartReply and SmartCompose. Talk to your LivePerson account representative for details.
+* **Set up SmartReply and SmartCompose.** Talk to your LivePerson account representative for details.
