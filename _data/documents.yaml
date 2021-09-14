@@ -102,7 +102,7 @@
         - pagename: Getting started tutorials
     - subcategoryname: KnowledgeAI
       pages:
-       - pagename: KnowledgeAI with Agent Assist Overview 
+        - pagename: KnowledgeAI with Agent Assist Overview
     - subcategoryname: LivePerson Intent Manager
       pages:
         - pagename: The power of an intent-driven contact center
@@ -405,6 +405,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2021
       pages:
+        - pagename: September
+          level3:
+            - level3name: Week of September 15th
         - pagename: August
           level3:
             - level3name: Week of August 25th
