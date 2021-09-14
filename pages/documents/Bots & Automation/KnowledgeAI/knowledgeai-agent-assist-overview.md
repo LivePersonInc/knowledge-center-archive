@@ -5,7 +5,7 @@ subCategoryName: KnowledgeAI
 indicator: messaging
 subtitle: LivePerson’s KnowledgeAI unifies and leverages content to automate effective consumer conversations at scale. 
 level3: KnowledgeAI
-permalink: ai-bots-automation-knowledgeai-knowledgeai-agent-assist-overview.html
+permalink: ai-bots-automation-knowledgeai-knowledgeai-with-agent-assist-overview.html
 isTutorial: true
 isNew: false
 date: 2021-09-12 9:03:55 
