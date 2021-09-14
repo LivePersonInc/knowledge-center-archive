@@ -107,7 +107,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Description
 The Conversational Cloud will support Viber Messenger as a new third-party messaging channel.  Support for this popular platform will enable brands to engage in messaging on a larger scale and to quickly meet the needs of contact center operations while utilizing the Conversation Cloud capabilities.
 
-### Enablement:
+### Enablement
 Please contact your LivePerson representative to set up the Viber channel on your account. 
 
 ## User profile
@@ -197,7 +197,7 @@ Please contact your LivePerson representative to set up the Viber channel on you
 ### Description
 Agents will be able to retrieve user profile information from Viber that can be used to personalize the experience of people interacting with your business. It will allow agents to see the consumer name and profile picture of the consumer that they are interacting with in the Agent Workspace.
 
-### Enablement:
+### Enablement
 Enabled by default.
 
 ![](img/week-of-september-15th-1.png)
@@ -297,7 +297,7 @@ The Viber Messaging channel supports image and file sharing from consumer to age
 4. [Forbidden file formats.](https://developers.viber.com/docs/api/rest-bot-api/#forbiddenFileFormats) 
 
 
-### Enablement:
+### Enablement
 Enabled by default.
 
 ![](img/week-of-september-15th-2.png)
