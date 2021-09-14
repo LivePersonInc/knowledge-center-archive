@@ -9,7 +9,7 @@ permalink: release-notes-2021-september-week-of-september-15th.html
 isTutorial: false
 isNew: false
 published: true
-date: '2021-09-15'
+date: '2021-09-14'
 ---
 
 These release notes include new features arriving September 2021. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -765,15 +765,11 @@ Enabled by default.
 * Reply Button messages must contain between 1 and 3 buttons.
 * Images that are sent as part of ReplyButtons must be whitelisted.
 
-
+<br>
 <div style="display:flex; gap: 20px">
 <img src="img/week-of-september-15th-7.png">
 <img src="img/week-of-september-15th-8.png">
 </div>
-<!-- 
-![](img/week-of-september-15th-7.png) 
-![](img/week-of-september-15th-8.png) -->
-
 
 ## Knowledge Base is now KnowledgeAI and features rich analytics
 ### Type: Enhancement [KnowledgeAI - Release 2021_10.0]
