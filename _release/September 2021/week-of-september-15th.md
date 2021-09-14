@@ -9,7 +9,7 @@ permalink: release-notes-2021-september-week-of-september-15th.html
 isTutorial: false
 isNew: false
 published: true
-date: 2021-08-25
+date: 2021-09-14
 ---
 
 These release notes include new features arriving September 2021. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
