@@ -1,10 +1,10 @@
 ---
 pagename: Week of September 15th
 categoryName: Release notes
-subCategoryName: '2021'
+subCategoryName: 
 indicator: both
 subtitle: ''
-level3: 'September 2021'
+level3:
 permalink: release-notes-2021-september-week-of-september-15th.html
 isTutorial: false
 isNew: false
