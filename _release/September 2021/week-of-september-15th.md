@@ -1,10 +1,10 @@
 ---
 pagename: Week of September 15th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: '2021'
 indicator: both
 subtitle: ''
-level3: ''
+level3: 'September 2021'
 permalink: release-notes-2021-september-week-of-september-15th.html
 isTutorial: false
 isNew: false
@@ -571,7 +571,7 @@ Enabled by default.
 **Availability:** All brands
 
 ### Description
-Welcome messages on Viber allow brands to define an initial message and options to reply. The welcome message will be shown to consumers once they follow a brand on Viber. 
+Welcome messages on Viber allow brands to define an initial message and response options for consumers. The welcome message will be shown to consumers once they follow a brand on Viber.
 
 ### Enablement:
 Please contact your LivePerson representative to enable this feature.
