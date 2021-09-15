@@ -1891,6 +1891,9 @@ div#post-content .card-container .lp-default {
   #logocontainer {
     flex-basis: 22%;
   }
+  #post-content {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 1260px) {
@@ -1925,6 +1928,9 @@ div#post-content .card-container .lp-default {
 }
 
 @media screen and (max-width: 800px) {
+  #post-content {
+    width: 90%;
+  }
   p img {
     width: 100%;
   }
