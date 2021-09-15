@@ -300,6 +300,11 @@ h4 {
 
 /* CSS-Grid Ends */
 
+.aligncenterz {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
 #maincontent {
   display: flex;
 }

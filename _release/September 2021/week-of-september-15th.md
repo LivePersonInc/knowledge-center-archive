@@ -779,7 +779,7 @@ Enabled by default.
 - Images that are sent as part of ReplyButtons must be whitelisted.
 
 <br>
-<div style="display:flex; gap: 20px">
+<div class="aligncenterz">
 <img src="img/week-of-september-15th-7.png">
 <img src="img/week-of-september-15th-8.png">
 </div>
