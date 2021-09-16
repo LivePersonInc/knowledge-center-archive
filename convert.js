@@ -56,6 +56,7 @@ ${p1}${encodeURI(p2)}${p3}
 const filesArray = []
 let errors = [];
 var eachLine = Promise.promisify(lineReader.eachLine);
+//change to new file on prod build
 eachLine('./_scripts/failingFiles.txt', function (line) {
   filesArray.push(line)
 }).then(function () {
@@ -202,11 +203,11 @@ const upload =(file)=>{
               value: res.data.subtitle || ''
             }),
 
-            builder.multipleChoiceElement({
+            builder.taxonomyElement({
               element: {
-                codename: 'indicator'
+                codename: 'channels_supported'
               },
-              value: res.data.indicator === 'both' ? [{ codename: 'messaging' }, { codename: 'chat' }] : [{ codename: res.data.indicator }]
+              value: res.data.indicator === 'both' ? [{ codename: 'messaging' }, { codename: 'chat_3566c51' }] : [{ codename: (res.data.indicator === chat) ? 'chat_3566c51' :res.data.indicator }]
             }),
 
             builder.textElement({
