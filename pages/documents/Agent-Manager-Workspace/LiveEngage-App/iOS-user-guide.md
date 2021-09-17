@@ -223,7 +223,7 @@ In case the conversation is no longer relevant and is not needed for future refe
 
 Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
 
-![](/img/agent action menu app.png)
+![](/img/agent-action-menu-app.png)
 
 ## Predefined content
 
