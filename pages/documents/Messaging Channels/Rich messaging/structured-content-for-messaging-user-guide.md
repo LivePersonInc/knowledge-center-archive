@@ -101,7 +101,7 @@ In order to enable structured content, please contact your LivePerson representa
   1. Journey flows - map out the flow for the structured content usage in case of a bot. This determines which cards to send first and the logic for follow-up cards based on consumer responses.
   2. Structured content format: cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
   3. JSON scaffolding  
-     You can set out the JSON structure that can be filled in with content from your backend systems. [Here’s a handy tool](https://agents-lp.github.io/strcutured-content-widget/index.html) for you to use in advance to build and render your structured content. For example, if you want to use three types of buttons, you’d first need to build their JSON skeleton. The same skeleton would apply for all use of the buttons, with only the content in each one changing from use case to use case.
+     You can set out the JSON structure that can be filled in with content from your backend systems. [Here’s a handy tool](https://agents-lp.github.io/structured-content-widget/index.html) for you to use in advance to build and render your structured content. For example, if you want to use three types of buttons, you’d first need to build their JSON skeleton. The same skeleton would apply for all use of the buttons, with only the content in each one changing from use case to use case.
 * Create a JSON builder component to populate your JSON scaffolding. This tool can be constructed using your preferred method of development but needs to adhere to our structured content schema and model. structured content elements are static and are presented in a JSON model. The JSON schema and dictionary can be found in the [Developers’ Community](https://developers.liveperson.com/structured-content-templates.html).
 * We recommend that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.
 * Plan your data model:
@@ -159,7 +159,7 @@ You cannot customize the branding of the structured content bubble in the web wi
 
 Structured content JSON playground - [https://livepersoninc.github.io/json-pollock/editor/](https://livepersoninc.github.io/json-pollock/editor/ "https://livepersoninc.github.io/json-pollock/editor/")
 
-Structured content taglet - [https://agents-lp.github.io/strcutured-content-widget/index.html](https://agents-lp.github.io/strcutured-content-widget/index.html "https://agents-lp.github.io/strcutured-content-widget/index.html")
+Structured content taglet - [https://agents-lp.github.io/structured-content-widget/index.html](https://agents-lp.github.io/structured-content-widget/index.html "https://agents-lp.github.io/structured-content-widget/index.html")
 
 Example content to JSON Scraper - [https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore](https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore "https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore")
 
