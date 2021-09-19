@@ -23,6 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: New feature [Conversation Builder Release 2021_7.0]
 
 **Available to all customers?** Yes
+
 **Channels**: This new feature is available for all channels supported by the Conversational Cloud platform.
 
 Conversation Builder introduces a new Universal interaction that offer your brand a way to add a cutting-edge interaction in a channel that you want to implement in your bot, and the ability to fast track its usage now, before support for it is added to the Statement and Question interactions in Conversation Builder.
