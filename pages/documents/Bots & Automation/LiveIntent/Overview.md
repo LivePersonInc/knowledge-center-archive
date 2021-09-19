@@ -26,7 +26,7 @@ Intent Manager starter packs are available to accelerate the development of Inte
 
 The Intent Manager homepage is where users can view key coverage and quality stats and can view the four key elements of Intent Management in one unified navigation: Discover, Build, Analyze, Optimize. Navigation between Intent Manager sections is seamless and coherent. 
 
-![](img/Getting-started-intent-manager-5.png)
+![](img/Getting-started-intent-manager-5-crop.png)
 
 ## Example Use Cases
 
