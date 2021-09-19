@@ -96,6 +96,23 @@ She creates a bot in Conversation Builder for handling these requests and create
 
 The company is able to greatly reduce the volume of agent conversations related to the policy change.
 
+## Where can you find intent management in LivePerson?
+
+### Intent Manager
+In the Conversational AI section, an Intent Manager button serves as the single point of entry for all Intent Manager components, including Intent Builder and Intent Analyzer.
+
+The Intent Manager homepage is where users can view key coverage and quality stats, and access the four key elements of Intent Management in one unified navigation: Discover, Build, Analyze, Optimize. Navigation between Intent Manager sections (Discover, Build, Optimize, Analyze) is seamless and coherent. For brands that do not have Intent Analyzer enabled Analyze and Discovery features will be “locked”.
+
+**Intent Builder** can be found under Intent Manager in the Conversational AI page, allowing brands to create your own intents and entities organized by domain.
+
+**Intent Analyzer** can be found under Intent Manager in the Conversational AI page. Intent Analyzer integrates seamlessly with Intent Builder to provide a powerful unified system for intent modeling and management. When a brand subscribes to **LivePerson's Intent Analyzer**, it will also appear under the Intent Manager section of the Conversational AI tab, giving brands the ability to augment the capabilities of their LivePerson reports, tools, and services.
+
+![](img/IA-Optimize-11.png)
+
+LivePerson's Intent Analyzer powers enhanced reporting and analytics for your bots and automation. Brands can leverage the consistent flow of data from LivePerson's Intent Analyzer to power next generation analytics, dynamically route conversations with the Conversation Orchestrator, and build effective automations with Conversation Builder.
+
+At LivePerson, we believe the most powerful customer contact center is delivered when a brand is able to successfully understand their customer's intent, and use this knowledge to continuously improve the consumer experience, operations and efficiency. The next evolution of managing messaging programs within a contact center is through intent.
+
 ## Next steps
 * For more information on the Intent Analyzer and getting started quickly with intents, click [here.](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html)
 * For a step by step guide of creating, evaluating and optimizing intents, click [here.](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize-intents.html)
