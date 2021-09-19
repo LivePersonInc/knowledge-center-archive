@@ -916,7 +916,7 @@ All copy within the interface (labels, error messages, etc.) is available in the
 
 To change the language, access your Conversational Cloud profile, click **My Details**, and change the **Language** setting.
 
-## Support Watson disambiguation response (INT-1650)
+## Support Watson disambiguation response 
 
 ### Type: New functionality [Bot Connectors 2.34]
 
@@ -929,7 +929,7 @@ How to enable it?: To use the Watson Disambiguation feature no further steps are
 
 ![](img/RN-sept-7-1.png)
 
-## Block PublicAPI usage of bot agents (INT-1624)
+## Block PublicAPI usage of bot agents 
 
 ### Type: Enhancement [Bot Connectors 2.34]
 
@@ -938,7 +938,7 @@ How to enable it?: To use the Watson Disambiguation feature no further steps are
 ### Description:
 With this feature any login requests to the PublicAPI endpoint which are using the same credentials as the bots configured and running via the ThirdPartyBots platform will be blocked. This is made to ensure the running bots will not be kicked out from within LivePersons Conversational Cloud since it only allows one concurrent agent session at time.
 
-## Allow Invocation of LivePerson Functions in the conversation tester (INT-1728)
+## Allow Invocation of LivePerson Functions in the conversation tester 
 
 ### Type: Enhancement [Bot Connectors 2.34]
 
@@ -958,7 +958,7 @@ Adds translations for spanish (Latin America), italian, japanese and brazilian p
 
 ![](img/RN-sept-7-2.png)
 
-## Show up-to-date agent details instead of original data (INT-1581)
+## Show up-to-date agent details instead of original data 
 
 ### Type: Fixes [Bot Connectors 2.34]
 
