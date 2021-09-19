@@ -99,9 +99,14 @@ The company is able to greatly reduce the volume of agent conversations related 
 ## Where can you find intent management in LivePerson?
 
 ### Intent Manager
-There’s a single “Intent Manager” entry point in the dashboard of Conversational AI applications. 
+There’s a single “Intent Manager” entry point in the dashboard of Conversational AI applications. The dashboard (or home page) is where you’re taken after you access the app. 
 
 ![](img/IA-new-location.png)
+
+For more details, check out Intent Manager articles on our Developer Community:
+* [Intent Manager Dashboard (homepage)](https://developers.liveperson.com/intent-manager-dashboard.html)
+* [Intent Manager Overview](https://developers.liveperson.com/intent-manager-overview.html)
+* [Intent Manager Getting Started](https://developers.liveperson.com/intent-manager-getting-started.html)
 
 At LivePerson, we believe the most powerful customer contact center is delivered when a brand is able to successfully understand their customer's intent, and use this knowledge to continuously improve the consumer experience, operations and efficiency. The next evolution of managing messaging programs within a contact center is through intent.
 
