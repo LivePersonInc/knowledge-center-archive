@@ -28,16 +28,6 @@ The Intent Manager homepage is where users can view key coverage and quality sta
 
 ![](img/Getting-started-intent-manager-5.png)
 
-## Terminology
-
-| Term | Definition  |  
-|------|-------------|
-| Intent | A customer’s desire to change  something to do with your brand from state A to state B|
-| Domain | Domain is a list of intents and entities, that can be matched to user training phrases (utterances) with an intent-recognition model|
-| Pre-built domain | A pre-built domain is a starting point for you to get going with Intents. The intent-recognition model is filled with predefined intents, that have been trained and activated for your convenience. The model has been developed using aggregated and anonymized data from several brands. While pre-built domains are functional, you will need to customize it for your specific needs to get the best performance.|
-| NLU | NLU stands for Natural Language processing. In this context NLU refers to the customized machine learning algorithms that are trained to understand the intent expressed in your conversations|
-| Training phrases (utterances) | Training phrases are example utterances for each intent in your custom taxonomy. Pre-built domains use generic training phrases to get you started. To improve your model you can replace these generic phrases with examples of real consumer messages from your conversation history.|
-
 ## Example Use Cases
 
 ### Business Analyst
@@ -106,6 +96,5 @@ At LivePerson, we believe the most powerful customer contact center is delivered
 
 ## Next steps
 * For more information on the Intent Manager and getting started quickly with intents, click [here.](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html)
-* For a step by step guide of creating, evaluating and optimizing intents, click [here.](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize-intents.html)
-* For more information on the Intent Builder, click [here](https://developers.liveperson.com/intent-builder-overview.html)
+* Intent Terminiology, key terms & concepts click [here.](https://developers.liveperson.com/intent-manager-key-terms-concepts.html)
 
