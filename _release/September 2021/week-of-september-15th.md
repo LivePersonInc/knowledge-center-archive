@@ -915,3 +915,56 @@ The following Conversation AI applications now make available a the user interfa
 All copy within the interface (labels, error messages, etc.) is available in the target language.
 
 To change the language, access your Conversational Cloud profile, click **My Details**, and change the **Language** setting.
+
+## Support Watson disambiguation response (INT-1650)
+
+### Type: New functionality [Bot Connectors 2.34]
+
+**Availability:** All brands.
+
+### Description
+With this feature, LivePerson will support the Watson Disambiguation feature for Watson V1 and Watson V2 bots.
+
+How to enable it?: To use the Watson Disambiguation feature no further steps are required in Third-Party bots. Follow the [Watson documentation](https://cloud.ibm.com/docs/assistant?topic=assistant-dialog-runtime#dialog-runtime-disambiguation) to enable the feature for your bot. Disambiguation responses will be rendered as quick replies.
+
+![](img/RN-sept-7-1.png)
+
+## Block PublicAPI usage of bot agents (INT-1624)
+
+### Type: Enhancement [Bot Connectors 2.34]
+
+**Availability:** All brands.
+
+### Description:
+With this feature any login requests to the PublicAPI endpoint which are using the same credentials as the bots configured and running via the ThirdPartyBots platform will be blocked. This is made to ensure the running bots will not be kicked out from within LivePersons Conversational Cloud since it only allows one concurrent agent session at time.
+
+## Allow Invocation of LivePerson Functions in the conversation tester (INT-1728)
+
+### Type: Enhancement [Bot Connectors 2.34]
+
+**Availability:** All brands.
+
+### Description:
+New validations were added. This enables the bots to respond with Function Invocation actions on all vendors in the Conversation Tester.
+
+## Four new translations added
+
+### Type: Enhancement [Bot Connectors 2.34]
+
+**Availability:** All brands.
+
+### Description:
+Adds translations for spanish (Latin America), italian, japanese and brazilian portuguese. 
+
+![](img/RN-sept-7-2.png)
+
+## Show up-to-date agent details instead of original data (INT-1581)
+
+### Type: Fixes [Bot Connectors 2.34]
+
+**Availability:** All brands.
+
+### Description:
+Thus far, information about the bot agent was stored directly in LivePerson's Database. Because of this we showed e.g. the original skill assignment even if the skills assigned to the bot agent were changed. With this fix, only the agent identifier will be stored and will always show up to date information fetched from ac-users.
+
+
