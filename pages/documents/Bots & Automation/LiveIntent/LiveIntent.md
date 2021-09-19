@@ -14,6 +14,9 @@ redirect_from:
   - ai-bots-automation-intent-analyzer-the-power-of-an-intent-driven-contact-center.html 
   - ai-bots-automation-liveperson-intent-analyzer-the-power-of-an-intent-driven-contact-center.html
 ---
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/497245668?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ### Technology around NLU and data science is opening the doors for brands to manage their contact centers more efficiently by better understanding consumer needs through intent.
 
 Until today, brands were forced to hardcode consumer needs by categorizing them by choices they’ve made from a drop-down menu, and then matching their input to agent skills or pre-defined journeys. Yet, within agent skills there is a vast array of different inquiries, each with its own nuance. Even with the best reporting, analytics, and website trafficking across a brand’s web, IVR and apps, brands are still left guessing what their consumers want.
