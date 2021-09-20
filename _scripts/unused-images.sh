@@ -10,13 +10,14 @@ input="./_scripts/newFile.txt"
 
 # # THIS CREATE A LIST OF IMAGES 
 # # this takes a long time
-# find -L ./img -name '*.*'> ./_scripts/images.txt
-# images="./_scripts/images.txt"
+find -L ./img -name '*.*'> ./_scripts/images.txt
+images="./_scripts/images.txt"
 
-# touch "./_scripts/images_clean.txt"
-# clean="./_scripts/images_clean.txt"
-# :>"$clean"
- 
+touch "./_scripts/images_clean.txt"
+clean="./_scripts/images_clean.txt"
+:>"$clean"
+# echo "Greping each file for images and adding those to a list"
+# echo "Note: This will take a long time"
 # while IFS= read -r image
 # do
   
@@ -40,11 +41,10 @@ input="./_scripts/newFile.txt"
 #   done < "$clean"
 
 # done < "$input"
+# echo "created list" 
 
-# this dedupes the images by diffing the files
-
-# echo created list 
-# echo creating diff file
+# # this dedupes the images by diffing the files
+# echo "creating diff file"
 # touch './_scripts/removeList.txt'
 # remove='./_scripts/removeList.txt'
 # : >'$remove'
@@ -57,7 +57,7 @@ input="./_scripts/newFile.txt"
 # while IFS= read -r item
 # do
   
-# echo "${item:1}" >> "$remove"
+# echo "${item:1}" >>'$remove' 
 # done < "$diff"
 
 

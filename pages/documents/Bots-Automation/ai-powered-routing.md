@@ -10,7 +10,8 @@ permalink: ai-bots-automation-dynamic-routing.html
 isTutorial: false
 isNew: false
 published: false
-redirect_from: ai-bots-automation-maven-ai-powered-routing.html
+redirect_from: 
+  - ai-bots-automation-maven-ai-powered-routing.html
 ---
 
 Typically, building custom routing requires extensive time and work that is both expensive and requires developers time to implement. With LivePerson, the Conversation Orchestrator uses dynamic routing & enables brands to create customized routing policies that uses AI and machine learning to dynamically route consumers to human or bot skill - solving customer requests as efficiently as possible.

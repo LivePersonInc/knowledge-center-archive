@@ -9,7 +9,8 @@ permalink: data-reporting-analytics-builder-analytics-builder-faqs.html
 isTutorial: false
 date: '2019-01-16T13:47:26.000+00:00'
 isNew: false
-redirect_from: data-reporting-report-builder-report-builder-faqs.html
+redirect_from: 
+   - data-reporting-report-builder-report-builder-faqs.html
 ---
 ### How can I access Analytics Builder?
 

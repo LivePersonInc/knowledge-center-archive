@@ -9,7 +9,8 @@ permalink: data-reporting-analytics-builder-data-availability-latency.html
 isTutorial: false
 date: 2019-01-17 09:37:53 +0000
 isNew: false
-redirect_from: data-reporting-report-builder-data-availability-latency.html
+redirect_from: 
+  - data-reporting-report-builder-data-availability-latency.html
 ---
 ## Data stored and updated in Analytics Builder
 

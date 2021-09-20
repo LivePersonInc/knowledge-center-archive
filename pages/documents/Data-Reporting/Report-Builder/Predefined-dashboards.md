@@ -8,7 +8,8 @@ level3: ''
 permalink: data-reporting-analytics-builder-predefined-dashboards.html
 isTutorial: false
 date: '2020-02-26'
-redirect_from: data-reporting-report-builder-predefined-dashboards.html
+redirect_from: 
+  - data-reporting-report-builder-predefined-dashboards.html
 ---
 
 ## Predefined dashboards

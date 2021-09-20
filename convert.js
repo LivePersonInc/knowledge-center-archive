@@ -5,10 +5,10 @@ const management = require('@kentico/kontent-management');
 const Promise = require('bluebird');
 
 
-const GAP_BETWEEN_UPLOADS = 500;
+const GAP_BETWEEN_UPLOADS = 1000;
 const client = new management.ManagementClient({
-  projectId: '353757ed-c4a0-0065-a9d9-aee97ae1d9b0', // id of your Kentico Kontent project
-  apiKey: 'ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjlkMGUxMWY5MzU2YTQzNWFhYzQxOTU5MTdmNmVjZDBkIiwNCiAgImlhdCI6ICIxNjI5MzE2NjY3IiwNCiAgImV4cCI6ICIxOTc0OTE2NjY3IiwNCiAgInByb2plY3RfaWQiOiAiMzUzNzU3ZWRjNGEwMDA2NWE5ZDlhZWU5N2FlMWQ5YjAiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1ZmQ4ZTliMzViZGRkMjAwNmU3OTcyOWUiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.xFWNh6-HrMdP-kTF5cf9GQewOINWt9hHvea1ndgztsI' // Content management API token
+  projectId: 'b85565b7-451d-0010-ff99-752ce381ad09', // id of your Kentico Kontent project
+  apiKey: 'ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogImE0NTA3MTAwMGJjYzRkOGU4NDExMzI3ZGRhMzcxYmZmIiwNCiAgImlhdCI6ICIxNjMyMTc2NjU0IiwNCiAgImV4cCI6ICIxOTc3Nzc2NjU0IiwNCiAgInByb2plY3RfaWQiOiAiYjg1NTY1Yjc0NTFkMDAxMGZmOTk3NTJjZTM4MWFkMDkiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1ZmQ4ZTliMzViZGRkMjAwNmU3OTcyOWUiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.gPUSQfC6EKpYPACiqeFwQ2TM5Rtx9cb-aBEZbh9qorg' // Content management API token
 });
 
 // ** this is an exampe for using overrides for node module called marked
@@ -57,7 +57,7 @@ const filesArray = []
 let errors = [];
 var eachLine = Promise.promisify(lineReader.eachLine);
 //change to new file on prod build
-eachLine('./_scripts/failingFiles.txt', function (line) {
+eachLine('./_scripts/newFile.txt', function (line) {
   filesArray.push(line)
 }).then(function () {
   for (let index = 0; index < filesArray.length; index++) {
@@ -147,102 +147,39 @@ const upload =(file)=>{
     })
     // body = aTagConverter(body)
     // const regex = /[\"\(].+\.(jpg|png|gif|jpeg)[\"\)]/g; 
+    // client
+    //   .addContentItem()
+    //   .withData(
+    //     {
+    //       name: res.data.pagename,
+    //       type: { codename: 'knowledge_center_markdown_page' },
+    //       external_id: res.data.permalink
+    //     }
+    //   )
+    //    .toPromise()
+    //    .then(response => {
 
-    client
-      .addContentItem()
-      .withData(
-        {
-          name: res.data.pagename,
-          type: { codename: 'knowledge_center_markdown_page' },
-          // external_id: res.data.permalink
-        }
-      )
-       .toPromise()
-       .then(response => {
-
-      
-    
       //byItemExternalId(res.data.permalink)
       //byItemId(response.data.id)
       
-      
       //upsert start
-        client.upsertLanguageVariant()
-          .byItemId(response.data.id)
-          .byLanguageCodename('en-US')
+    client.updateContentItem()
+          .byItemExternalId(res.data.permalink)
+          .withData({
+            name: res.data.pagename,
+            body:body,
+            pagename: res.data.pagename,
+            categoryname: res.data.categoryName || '',
+            subcategoryname: res.data.subCategoryName ? res.data.subCategoryName.toString() : '',
+            subtitle: res.data.subtitle || '',
+            channels_supported: res.data.indicator === 'both' ? [{ codename: 'messaging' }, { codename: 'chat_3566c51' }] : [{ codename: (res.data.indicator === 'chat') ? 'chat_3566c51' : res.data.indicator }],
+            level3: res.data.level3 || '',
+            permalink: res.data.permalink || '',
+            istutorial: (res.data.isTutorial) ? [{ codename: `${res.data.isTutorial}` }] : [{ codename: 'false' }],
+            isnew: (res.data.isnew) ? [{ codename: `${res.data.isNew}` }] : [{ codename: 'false' }],
+            redirects: res.data.redirect_from ? res.data.redirect_from.join() : '',
 
-          .withData((builder) => [
-            builder.richTextElement({
-              element: {
-                codename: 'body'
-              },
-              value: body
-            }),
-            builder.textElement({
-              element: {
-                codename: 'pagename'
-              },
-              value: res.data.pagename
-            }),
-            builder.textElement({
-              element: {
-                codename: 'categoryname'
-              },
-              value: res.data.categoryName || ''
-            }),
-            builder.textElement({
-              element: {
-                codename: 'subcategoryname'
-              },
-              value: res.data.subCategoryName ? res.data.subCategoryName.toString() : ''
-            }),
-            builder.textElement({
-              element: {
-                codename: 'subtitle'
-              },
-              value: res.data.subtitle || ''
-            }),
-
-            builder.taxonomyElement({
-              element: {
-                codename: 'channels_supported'
-              },
-              value: res.data.indicator === 'both' ? [{ codename: 'messaging' }, { codename: 'chat_3566c51' }] : [{ codename: (res.data.indicator === chat) ? 'chat_3566c51' :res.data.indicator }]
-            }),
-
-            builder.textElement({
-              element: {
-                codename: 'level3'
-              },
-              value: res.data.level3 || ''
-            }),
-            builder.urlSlugElement({
-              element: {
-                codename: 'permalink',
-
-              },
-              mode: 'custom',
-              value: res.data.permalink || ''
-            }),
-            builder.multipleChoiceElement({
-              element: {
-                codename: 'istutorial'
-              },
-              value: (res.data.isTutorial) ? [{ codename: `${res.data.isTutorial}` }] : [{ codename: 'false' }]
-            }),
-            builder.multipleChoiceElement({
-              element: {
-                codename: 'isnew'
-              },
-              value: (res.data.isnew) ? [{ codename: `${res.data.isNew}` }] : [{ codename: 'false'}]
-            }),
-            builder.richTextElement({
-              element: {
-                codename: 'redirects'
-              },
-              value: res.data.redirect_from ? res.data.redirect_from.join() : ''
-            })
-          ])
+          })
           .toPromise()
           .catch(error => {
             console.log("had an error")
@@ -250,13 +187,13 @@ const upload =(file)=>{
             errors.push(file)
           });
       //upsert end
-      })
-      .catch(error => {
-        console.log("had an error")
-        console.log(error)
-        errors.push(file)
-      });
+      // })
+      // .catch(error => {
+      //   console.log("had an error")
+      //   console.log(error.originalError.response.data)
+      //   errors.push(file)
+      // });
 
     })
-  // console.log(errors)
+  console.log(errors)
   }

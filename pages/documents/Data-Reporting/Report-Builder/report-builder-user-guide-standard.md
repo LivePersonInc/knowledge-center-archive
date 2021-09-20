@@ -8,7 +8,8 @@ level3: ''
 permalink: data-reporting-analytics-builder-analytics-builder-user-guide-(standard).html
 isTutorial: false
 date: '2019-01-10T09:10:56.000+00:00'
-redirect_from: data-reporting-report-builder-report-builder-user-guide-(standard).html
+redirect_from: 
+   - data-reporting-report-builder-report-builder-user-guide-(standard).html
 ---
 ## Accessing Analytics Builder
 

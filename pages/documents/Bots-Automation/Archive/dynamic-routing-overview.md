@@ -11,7 +11,8 @@ isTutorial: false
 isNew: false
 date: '2019-03-14T11:31:44.000+00:00'
 published: true
-redirect_from: ai-bots-automation-maven-ai-powered-routing.html
+redirect_from: 
+  - ai-bots-automation-maven-ai-powered-routing.html
 ---
 
 ## What is Dynamic Routing?

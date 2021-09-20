@@ -8,7 +8,8 @@ level3: ''
 permalink: Reporting-&-data-analytics-builder-metrics
 isTutorial: false
 date: 2019-01-09 12:53:18 +0000
-redirect_from: Reporting-&-data-report-builder-metrics
+redirect_from: 
+  - Reporting-&-data-report-builder-metrics
 ---
 The table below outlines all of the data metrics available in the Analytics Builder, with their definition and location within the different dashboards. More information on the Analytics Builder can be found [here](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html).
 

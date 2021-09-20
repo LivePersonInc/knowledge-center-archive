@@ -35,6 +35,7 @@
 -img/new-may-1 .png
 -img/week-of-february-22nd-7.png
 -img/week-of-june-17th-8.png
+-img/Jan2020_whats_new_6.png
 -img/week-of-november-25th-26.png
 -img/week-of-march-15th-1.png
 -img/week-of-april-1st-2.png
@@ -91,6 +92,7 @@
 -img/sp-push-notifications-6.png
 -img/Release-notes-week-of-january-20.png
 -img/test-your-web-messaging-experience-5.png
+-img/week-of-february-15th-9.png
 -img/admin-settings.svg
 -img/Week of Dec 17th-5.png
 -img/Agent-profile.png
@@ -103,6 +105,7 @@
 -img/beaut_kb_2.png
 -img/permissions1.png
 -img/whatsnew_april20_3.png
+-img/week-of-february-15th-8.png
 -img/test-your-web-messaging-experience-4.png
 -img/quick-replies (1).gif
 -img/access.png
@@ -148,7 +151,8 @@
 -img/troubleshooting-agentworkspace.png
 -img/creating-predefined-content-5.png
 -img/socialconnect-user-guide-9.png
--img/Proactive to App Messaging.gif
+-img/week-of-april-1st-11.png
+-img/week-of-april-1st-3.png
 -img/apple-business-chat-entry-points-8.png
 -img/c9.png
 -img/week-of-june-17th-9.png
@@ -166,6 +170,7 @@
 -img/assignperm2.png
 -img/voiceandvideodemo720p.gif
 -img/accesspoli2.png
+-img/RNMaven1.png
 -img/IA-Optimize-14.png
 -img/add-chat-to-your-website-2.png
 -img/maven-overview-4-1.png
@@ -207,9 +212,9 @@
 -img/ic_robot.svg
 -img/new-agent-workspace-screenshot-3.png
 -img/automatic-messages-chat-9.png
+-img/RNMaven3.png
 -img/CBMarch1.png
 -img/week-of-november-11th-33.png
--img/Next Best Conversation.gif
 -img/week-of-february-8th-2.png
 -img/week-of-september-24th-1.png
 -img/usecases-insights-part2-5.png
@@ -223,8 +228,8 @@
 -img/ivr-deflection.svg
 -img/week-of-march-15th-2.png
 -img/week-of-april-1st-1.png
--img/Jan2020_whats_new_5.png
 -img/week-of-november-25th-25.png
+-img/viber-icon.svg
 -img/shift-scheduler-CG-6.png
 -img/week-of-february-11th-2.png
 -img/week-of-november-25th-19.png
@@ -238,6 +243,7 @@
 -img/Getting-started-intent-manager-2.png
 -img/stopwords-insights5.png
 -img/User-Guide-(standard)2.png
+-img/week-of-august-31-8.png
 -img/chat_settings.png
 -img/automatic-messages-chat-1b.png
 -img/automatic-messages-messaging-5b.png
@@ -276,6 +282,7 @@
 -img/whats_new_dec_6.png
 -img/data-transporter4.png
 -img/sp-push-notifications-5.png
+-img/week-of-february-18th-1.png
 -img/operational-staffing-dashboard3.png
 -img/week-of-september-2nd-18.png
 -img/whatsnew_april20_1.png
@@ -338,8 +345,8 @@
 -img/shift-scheduler-CG-7.png
 -img/creating-predefined-content-6.png
 -img/week-of-february-11th-3.png
+-img/week-of-february-4th.png
 -img/week-of-november-25th-24.png
--img/Jan2020_whats_new_4.png
 -img/week-of-january-26th-hotfix.png
 -img/understandagentperf2.png
 -img/week-of-november-25th-30.png
@@ -347,7 +354,6 @@
 -img/intent-context-policies.png
 -img/smart-capacity-overview-2b-1.png
 -img/new-agent-workspace-21.png
--img/week-of-february-22nd-5.png
 -img/mpd3.png
 -img/week-of-november-11th-26.png
 -img/week-of-february-8th-3.png
@@ -362,6 +368,7 @@
 -img/Email Connect 8.JPG.jpg
 -img/new-agent-workspace-screenshot-2.png
 -img/Week-of-October-29th-1.jpg
+-img/week-of-june-17th-18.png
 -img/SC_QR_app.png
 -img/favicon.ico
 -img/acd-3.png
@@ -420,12 +427,10 @@
 -img/IA-Optimize-13.png
 -img/RNMaven6.png
 -img/ba_dashboard_release_notes_dec7.png
--img/week-of-february-22nd-1.png
 -img/icon_ellipsisVertical_int.png
 -img/reporting-data-faqs-1.png
 -img/CBMarch4.png
 -img/managing-messaging-conversations-10.png
--img/week-of-february-8th-7.png
 -img/Agent-Activity-agent-performance.jpg
 -img/AgentPage1.png
 -img/week-of-november-11th-22.png
@@ -449,6 +454,7 @@
 -img/pasted image 0 (4).png
 -img/Messaging.png
 -img/troubleshooting-reporting2.png
+-img/RN-sept-7-1.png
 -img/Taxonomy-insights-10.png
 -img/week-of-may-6th-5.png
 -img/step12-emailconnect3.png
@@ -562,7 +568,6 @@
 -img/macs_ex_conv.png
 -img/week-of-december-2nd-2.png
 -img/usecases-insights-part2-1.png
--img/week-of-february-8th-6.png
 -img/AWS APP.gif
 -img/CBMarch5.png
 -img/Consumer push notification.png
@@ -579,7 +584,6 @@
 -img/Validate-identity-consumers-during-conversations3.png
 -img/RN-May3rd-2.png
 -img/sla.png
--img/week-of-february-8th-10.png
 -img/Fair.jpg
 -img/ai-annotator-9.png
 -img/conversational-commands-2.png
@@ -594,7 +598,6 @@
 -img/agent-file-sharing-13.png
 -img/RTMD9.png
 -img/outbound-campaigns-4.png
--img/week-of-february-8th-12.png
 -img/max-wait-time-2.png
 -img/WhatsApp Click to chat Gif .gif
 -img/auto-close-2.png
@@ -613,7 +616,6 @@
 -img/Business-activity-Grid.jpg
 -img/week-of-november-11th-21.png
 -img/CBMarch7.png
--img/week-of-february-8th-4.png
 -img/usecases-insights-part2-3.png
 -img/reporting-data-faqs-2.png
 -img/private-messages-for-messaging-1.png
@@ -633,6 +635,7 @@
 -img/Getting-started-intent-manager-4.png
 -img/stopwords-insights3.png
 -img/real-time-messaging-dashboard-overview3.png
+-img/RN-sept-7-2.png
 -img/FAQ2RB-2-1.png
 -img/line connector 2.png
 -img/google-rsc.svg
@@ -728,7 +731,6 @@
 -img/EmailConnect_new_UI1.png
 -img/smart-capacity-overview-3-2.png
 -img/week-of-april-1st-14.png
--img/week-of-february-8th-5.png
 -img/photosharinf16 (1).png
 -img/CBMarch6.png
 -img/usecases-insights-part2-2.png
@@ -891,7 +893,6 @@
 -img/transfer-agent-8.png
 -img/SC-per-skill-1.png
 -img/WhatsApp Click to chat1 Gif -1.gif
--img/AB4.11-RN-4.png
 -img/SSecure-form-messaging-userguide6-1.png
 -img/google-business-messages-4.png
 -img/abc-davids-chat-suggest.png
@@ -942,6 +943,7 @@
 -img/RN-week-of-June-27th-1.png
 -img/WhatsApp Click to chat Gif-1.gif
 -img/week-of-january-20th-1.png
+-img/knowledgeai-3.png
 -img/week-of-september-9th-15.png
 -img/17mayRN2.png
 -img/assign-permissions5.png
@@ -989,6 +991,7 @@
 -img/smart-capacity-overview-5b.png
 -img/week-of-august-5th-8.png
 -img/week-of-september-9th-5.png
+-img/ai-annotator-false-6.png
 -img/Jan2020_whats_new_16.png
 -img/Step 7-PM.jpeg
 -img/insights_2.png
@@ -1033,7 +1036,6 @@
 -img/SC6 (1).jpg
 -img/google-business-messages-5.png
 -img/week-of-september-14-1.png
--img/AB4.11-RN-5.png
 -img/transfer-agent-9.png
 -img/blendedImage_4.png
 -img/week-of-june-3rd-8.png
@@ -1064,6 +1066,7 @@
 -img/Status filter (1).png
 -img/week-of-november-2nd-2.png
 -img/SC5.gif
+-img/week-of-september-15th-8.png
 -img/V&V.gif
 -img/Proactive_userguide8.png
 -img/RTMD13.png
@@ -1091,6 +1094,7 @@
 -img/creating-new-widget-insight3.png
 -img/entry-point-5.png
 -img/whatsapp connector 1.png
+-img/AB_permissions_3.png
 -img/new-agent-workspace-6.png
 -img/week-of-may-20th-1.png
 -img/User-guide6.png
@@ -1114,6 +1118,7 @@
 -img/management-console-overview-11.png
 -img/Setting-up-engagement-attributes1.png
 -img/Jan2020_whats_new_14.png
+-img/ai-annotator-false-4.png
 -img/Screen Shot 2019-07-09 at 10.44.24 AM.png
 -img/SSecure-form-messaging-userguide6.png
 -img/week-of-september-9th-7.png
@@ -1138,14 +1143,16 @@
 -img/photosharing20.png
 -img/Business_activity_grid.jpg
 -img/V1-Android-agent-app-2.png
--img/EC2.png
+-img/week-of-july-22-6.png
 -img/displaying-chat-engagements-3.png
 -img/new-nav.svg
+-img/socialconnect-user-guide-new-2a.png
 -img/wrap-up-time-chats-2b.png
 -img/RB4.3_1.png
 -img/displaying-chat-engagements-2.png
 -img/week-of-june-8th-1.png
 -img/cb_call_to_action.png
+-img/week-of-july-22-7.png
 -img/faas-use-case-agent-retention-offers.png
 -img/V1-Android-agent-app-3.png
 -img/new-look-and-feel.png
@@ -1159,25 +1166,27 @@
 -img/engagement-window-1.png
 -img/Secure-form-messaging-userguide9-1.png
 -img/wrap-up-time-chats-3.jpg
+-img/knowledgeai-1.png
 -img/undertandagentperf1.png
 -img/week-of-january-20th-3.png
 -img/post-conversation-survey-user-guide8.png
 -img/Agent-activity-dashboard-1.png
 -img/Business-activity-grid-image1.png
 -img/unsupervised-nlu-model-10.png
--img/RN15March-1.png
 -img/groupfilter.png
 -img/week-of-september-9th-17.png
 -img/week-of-february-1st-17.png
 -img/rbug7.png
 -img/lp-conversational-cloud-3.png
 -img/loadbalancing3.png
+-img/week-of-september-30th-21.png
 -img/week-of-october-8th-10-1.png
 -img/Conversation_Builder_RN_Nov11.png
 -img/insights_1.png
 -img/PM-may18-3.png
 -img/Jan2020_whats_new_15.png
 -img/week-of-september-9th-6.png
+-img/ai-annotator-false-5.png
 -img/automatic-messages-messaging-2.png
 -img/c2m-user-guide-43.png
 -img/management-console-overview-10.png
@@ -1205,6 +1214,7 @@
 -img/entry-point-4.png
 -img/creating-new-widget-insight2.png
 -img/transfer-to-agent-13.png
+-img/week-of-august-5th-19.png
 -img/twilio-sms-connector-setup-2.png
 -img/IM-updates-4.png
 -img/photosharing1 (1).png
@@ -1216,11 +1226,12 @@
 -img/filtering-insights9.png
 -img/RTMD12.png
 -img/Proactive_userguide9.png
+-img/Model-tester-RN.png
 -img/whats_new_dec_10.png
+-img/week-of-september-15th-9.png
 -img/agent-workspace-basics-1.png
 -img/agent-manager-messaging-data-1.png
 -img/rt-data.svg
--img/week-of-november-2nd-3.png
 -img/photosharing3.png
 -img/getting-started-with-chat-1.png
 -img/week-of-may-4th-7.png
@@ -1236,12 +1247,12 @@
 -img/PM-may18-12.png
 -img/Proactive_userguide10.png
 -img/transfer-skill-routing.png
+-img/IM2.0_9.png
 -img/week-of-may-4th-3.png
 -img/multicurrency2.png
 -img/MW-july-5-9.png
 -img/cobrowse-chat-9.png
 -img/photosharing7.png
--img/week-of-november-2nd-7.png
 -img/structured-content-inapp-list.png
 -img/week-of-january-28th-1.png
 -img/PM-may18-16.png
@@ -1264,6 +1275,7 @@
 -img/icon_users.png
 -img/creating-new-widget-insight6.png
 -img/RB4.4_1_April20.png
+-img/RN_Jan18_1.png
 -img/OP-SD-live-chat-staffing-summary.jpg
 -img/week-of-february-17th-9.png
 -img/week-of-august-5th-21.png
@@ -1277,7 +1289,6 @@
 -img/troubleshooting-web-visitors-list.png
 -img/Engagement window widget Gif -1.gif
 -img/creating-buttons-and-banners-1.png
--img/AB_permissions_6.png
 -img/beaut_cb_2.png
 -img/week-of-november-11th-8.png
 -img/agent-workspace-for-chat-9.png
@@ -1324,16 +1335,18 @@
 -img/ipad3 (1).png
 -img/surveyBot_open.png
 -img/RM1.png
+-img/IM2.0_10.png
 -img/week-of-september-9th-13.png
 -img/troubleshooting-password1.png
 -img/week-of-may-20th-10.png
+-img/17mayRN4.png
 -img/week-of-january-6th-4.png
+-img/knowledgeai-5.png
 -img/V1-Android-agent-app-7.png
 -img/week-of-july-22-3.png
 -img/managing-cc-that-messages-1.gif
 -img/week-of-june-8th-5.png
 -img/Android-Agent-AppVideo3.jpg
--img/c2m-user-guide-8.png
 -img/real-time-messaging-dashboard-overview13.png
 -img/displaying-chat-engagements-6.png
 -img/photosharing19.png
@@ -1352,12 +1365,13 @@
 -img/photosharing18.png
 -img/faas-ui-1.png
 -img/real-time-messaging-dashboard-overview12.png
--img/c2m-user-guide-9.png
 -img/week-of-july-22-2.png
 -img/V1-Android-agent-app-6.png
 -img/New Agent work space GIF1.gif
 -img/week-of-june-8th-4.png
 -img/agent-app-android-v271.png
+-img/socialconnect-user-guide-new-3a.png
+-img/knowledgeai-4.png
 -img/Secure-form-messaging-userguide14-1.png
 -img/getting-started-with-messaging-1-1.png
 -img/week-of-september-9th-12.png
@@ -1374,7 +1388,6 @@
 -img/socialconnect-user-guide-17.png
 -img/insights_4.png
 -img/left-arrow.svg
--img/PM-may18-6.png
 -img/week-of-february-1st-12.png
 -img/rbug2.png
 -img/week-of-february-1st-9.png
@@ -1384,10 +1397,12 @@
 -img/Service_status_page_contact_support.png
 -img/week-of-september-9th-3.png
 -img/Jan2020_whats_new_10.png
+-img/week-of-may-25th-8.png
 -img/agent-survey-for-messaging-14.png
 -img/5_AM Dynamic text2.png
 -img/week-of-april-5th-1.png
 -img/rcs connector 1-3.gif
+-img/RN_may25_1.png
 -img/EmailConnect_Reporting1.png
 -img/agent-workspace-for-chat-10.png
 -img/IA-Optimize-intents-2.png
@@ -1405,7 +1420,9 @@
 -img/new-agent-workspace-2.png
 -img/agent-workspace-for-chat-8.png
 -img/new-agent-workspace-all-connections-conversation-view.png
+-img/week-of-november-11th-9.png
 -img/Image-1 (1).jpg
+-img/marketplace-reporting-1.png
 -img/usingmcs6.png
 -img/Secure-form-messaging-userguide12.png
 -img/Performance-Dashboard-messaging-summary.jpg
@@ -1433,26 +1450,25 @@
 -img/week-of-january-13th-9.png
 -img/release-notes.svg
 -img/CSCB6.png
--img/PM-may18-17.png
 -img/beaut_bac_1.png
 -img/cobrowse-for-messaging-1.png
 -img/Quick-filters-whats-new.png
 -img/MultiBackToQueue.png
 -img/cb_agent_connector_2.png
+-img/week-of-november-2nd-6.png
 -img/week-of-may-4th-2.png
 -img/IM2.0_8.png
 -img/photosharing6.png
 -img/cobrowse-chat-8.png
 -img/MW-july-5-8.png
+-img/week-of-november-2nd-4.png
 -img/photosharing4.png
--img/Step8-pm.png
 -img/CSCB4.png
 -img/week-of-october-8th-2018-3-1.png
 -img/cobrowse-for-messaging-3.png
 -img/ageny segments new2.png
 -img/ivr-to-app-messaging-1.png
 -img/chat-users-screenshot.png
--img/PM-may18-15.png
 -img/agnet filter.png
 -img/blendedImage_0.png
 -img/AB4.11-RN-1.png
@@ -1469,6 +1485,7 @@
 -img/entry-point-3.png
 -img/security-regulations.svg
 -img/managing-campaigns-7.png
+-img/week-of-march-8th-1.png
 -img/IM-updates-3.png
 -img/twilio-sms-connector-setup-5.png
 -img/voice-and-video-mobile-2.png
@@ -1480,6 +1497,7 @@
 -img/week-of-august-5th-22.png
 -img/SCC6 (1).jpg
 -img/creating-buttons-and-banners-2.png
+-img/IA-new-location.png
 -img/f2.png
 -img/new-may-2 .gif
 -img/post-conversation-survey-user-guide6-1.png
@@ -1507,11 +1525,11 @@
 -img/fallback skill.png
 -img/lp-conversational-cloud-4.png
 -img/week-of-february-1st-10.png
--img/PM-may18-4.png
 -img/insights_6.png
 -img/Agent_goal_tracker_report.jpg
 -img/CB-RN-June7-2.png
 -img/Jan2020_whats_new_12.png
+-img/week-of-september-9th-1.png
 -img/management-console-overview-9.png
 -img/automatic-messages-messaging-5.png
 -img/how-bots-work-2.png
@@ -1532,6 +1550,7 @@
 -img/week-of-november-25th-14.jpeg
 -img/agent-activity-dashboard 1.png
 -img/salesforce-integration-guide-8.png
+-img/CB-RN-June7-add1.png
 -img/salesforce-integration-guide-9.png
 -img/data-transporter3a.png
 -img/Photo sharing Gif-1.gif
@@ -1567,6 +1586,7 @@
 -img/users-regular@2x.png
 -img/management-console-overview-8.png
 -img/smart-capacity-overview-2-1.png
+-img/ai-annotator-false-3.png
 -img/manager-workspace-regular@2x.png
 -img/week-of-february-1st-11.png
 -img/rbug1.png
@@ -1574,7 +1594,6 @@
 -img/lp-conversational-cloud-5.png
 -img/week-of-september-30th-27.png
 -img/insights_7.png
--img/PM-may18-5.png
 -img/agent-workspace-for-chat-13.png
 -img/foreverOption_RN.png
 -img/RN_may25_2.png
@@ -1595,6 +1614,7 @@
 -img/new-agent-workspace-1.png
 -img/week-of-january-20th-3b.png
 -img/faqs.svg
+-img/marketplace-reporting-2.png
 -img/blended-just-chat.png
 -img/creating-buttons-and-banners-3.png
 -img/C_Small.png
@@ -1624,14 +1644,13 @@
 -img/night-vision-hover@2x.png
 -img/blendedImage_1.png
 -img/cobrowse-for-messaging-2.png
--img/PM-may18-14.png
 -img/week-of-june-17th-17.gif
 -img/wrap-up-time-1.png
--img/SMS-Handoff-1.png
 -img/business-chat-features-1.png
 -img/CSCB5.png
 -img/pasted image 0.png
 -img/week-of-may-4th-1.png
+-img/cb_agent_connector_1.png
 -img/week-of-november-2nd-5.png
 -img/service_incident.PNG
 -img/week-of-january-25th-5.png
@@ -1640,6 +1659,7 @@
 -img/WNJune Data transporter.png
 -img/Status filter.png
 -img/MW-july-5-6.png
+-img/cb_bot_conversation.png
 -img/createuser2.png
 -img/IM2.0_6.png
 -img/week-of-november-2nd-8.png
@@ -1657,7 +1677,9 @@
 -img/transfer-to-agent-3.png
 -img/google-business-messages-14.png
 -img/Data transporter RN1.png
+-img/transfer-agent-1.png
 -img/image_2.png
+-img/week-of-september-15th-2.png
 -img/unsupervised-nlu-model-1.png
 -img/RNDec16_2.png
 -img/filtering-insights2.png
@@ -1676,6 +1698,7 @@
 -img/setting-up-apple-business-chat-1.png
 -img/week-of-february-17th-6.png
 -img/week-of-march-25th-4.png
+-img/agent-workspace.png
 -img/messaging-survey-dashboard5.png
 -img/Survey_messaging5.png
 -img/DR1.png
@@ -1694,6 +1717,7 @@
 -img/secure-form-chat3.png
 -img/week-of-november-11th-7.png
 -img/agent-workspace-for-chat-6.png
+-img/target-audience-6.png
 -img/timezone2.png
 -img/lp-logo.svg
 -img/predefinedcontent.png
@@ -1707,6 +1731,7 @@
 -img/Troubleshooting-live-chat1.png
 -img/email-connect-1a.png
 -img/queue-prior-chat-CG-2.png
+-img/visitor-behavior-5.png
 -img/LP-applications-4.png
 -img/survey4.jpg
 -img/Email Connect 5.JPG
@@ -1721,11 +1746,11 @@
 -img/Sept-whats-new-2.png
 -img/week-of-february-1st-7.png
 -img/lp-conversational-cloud-8.png
--img/PM-may18-8.png
 -img/faas-use-case-routing.png
 -img/socialconnect-user-guide-19.png
 -img/IA-Optimize-2.png
 -img/add-web-messaging-to-your-website-1-2.png
+-img/week-of-september-30th-16.png
 -img/Davina's Focus template.png
 -img/week-of-february-1st-20.png
 -img/automatic-messages-messaging-9.png
@@ -1743,6 +1768,7 @@
 -img/smart-capacity-overview-5.png
 -img/V1-Android-agent-app-8.png
 -img/protecting-customer-data-4.jpg
+-img/socialconnect-user-guide-new-6.png
 -img/understanding-agent-performance-1-1.png
 -img/salesforce-integration-guide-4.png
 -img/EngTemp2-1.png
@@ -1769,13 +1795,13 @@
 -img/week-of-september-9th-21.png
 -img/automatic-messages-messaging-8.png
 -img/week-of-february-1st-21.png
+-img/week-of-september-30th-17.png
 -img/Social-Messaging-2.0-1.png
 -img/Routing-logic-1overview-1.png
 -img/socialconnect-user-guide-18.png
 -img/IA-Optimize-3.png
 -img/lp-conversational-cloud-9.png
 -img/week-of-february-1st-6.png
--img/PM-may18-9.png
 -img/Audio_messaging_Gif.gif
 -img/week-of-may-25th-7.png
 -img/access-policy1.png
@@ -1796,6 +1822,7 @@
 -img/welcome-page-2.png
 -img/Pre_Post_Error_Hooks2.png
 -img/new-agent-manager-experience-8.png
+-img/enable-users-3.png
 -img/automatic-messages-messaging-14.png
 -img/all-connections-4.jpg
 -img/auto-close-for-messaging-conversations-2.png
@@ -1804,6 +1831,7 @@
 -img/target-audience-7.png
 -img/week-of-november-11th-6.png
 -img/Proactive-Oct-19-RN-1.png
+-img/sp-push-notifications-11.png
 -img/secure-form-chat2.png
 -img/QuickR2 (1).png
 -img/OP_SD_ livechat_Demand_proccesing.jpg
@@ -1816,11 +1844,11 @@
 -img/messaging-survey-dashboard4.png
 -img/locked.png
 -img/week-of-february-17th-7.png
+-img/Administrator-profile.png
 -img/launchpad.png
 -img/creating-new-widget-insight8.png
 -img/manager-workspace-icon-4.png
 -img/week-of-august-5th-13.png
--img/sizelimit.png
 -img/RTMD18.png
 -img/Proactive_userguide3.png
 -img/locked.jpg
@@ -1828,7 +1856,9 @@
 -img/FB connector 1.png
 -img/generate-a-twilio-sms-number-with-liveperson-3.png
 -img/workload-distribution-between-agent-groups-1.png
+-img/Filtering.gif
 -img/data-sources1.png
+-img/week-of-september-15th-3.png
 -img/WhatsApp IVR Gif-2.gif
 -img/week-of-june-3rd-1.png
 -img/google-business-messages-15.png
@@ -1841,9 +1871,7 @@
 -img/CSCB9.png
 -img/week-of-october-8th-9-1.jpg
 -img/Web_Messaging.png
--img/PM-may18-18.png
 -img/week-of-november-2nd-9.png
--img/authenticated-web-messaging-3.png
 -img/wechat-1.jpg
 -img/MW-july-5-7.png
 -img/photosharing9.png
@@ -1853,19 +1881,17 @@
 -img/add-web-messaging-to-your-website-1.png
 -img/createuser3.png
 -img/wechat-3.jpg
--img/authenticated-web-messaging-1.png
 -img/moving-from-BI-RB2.png
 -img/surveyBot_export1.png
 -img/createuser1.png
--img/add-web-messaging-to-your-website-3.png
 -img/IM2.0_5.png
 -img/Week_of_Dec_17th-6.png
 -img/MW-july-5-5.png
 -img/week-of-january-13th-4.png
--img/co_ccs_namespace.png
 -img/context-rn-2.png
 -img/June-15th-RN-1.png
 -img/transfer-agent-2.png
+-img/image_1.png
 -img/S_Small.png
 -img/week-of-june-3rd-3.png
 -img/automatic-messages-library.png
@@ -1876,6 +1902,7 @@
 -img/filtering-insights1.png
 -img/Proactive_userguide1.png
 -img/RNDec16_1.png
+-img/week-of-september-15th-1.png
 -img/unsupervised-nlu-model-2.png
 -img/salesforce-integration-guide-14.png
 -img/LivePerson-disaster-recovery1.png
@@ -1916,7 +1943,6 @@
 -img/week-of-february-1st-4.png
 -img/chataw5.png
 -img/management-console-overview-6.png
--img/week-of-august-5th-3.png
 -img/WhatsApp Click to chat Gif.gif
 -img/week-of-july-13th-3.png
 -img/socialconnect-user-guide-26.png
@@ -1941,9 +1967,11 @@
 -img/photosharing15.png
 -img/cobrowse-for-live-chat-4.png
 -img/ea3.png
+-img/socialconnect-user-guide-new-5.png
 -img/salesforce-integration-guide-7.png
 -img/V1-Android-agent-app-4a.png
 -img/salesforce-integration-guide-6.png
+-img/socialconnect-user-guide-new-4.png
 -img/fb-messenger.svg
 -img/cobrowse-for-live-chat-5.png
 -img/RA-join-bot-1.png
@@ -1988,6 +2016,7 @@
 -img/Pre_Post_Error_Hooks1.png
 -img/Proactive-Oct-19-RN-2.png
 -img/week-of-november-11th-5.png
+-img/CB-RN-June7-add.gif
 -img/Screen Shot 2019-07-07 at 3.21.57 PM.png
 -img/target-audience-4.png
 -img/video_and_voice_calls_via_Connectors.gif
@@ -2003,6 +2032,8 @@
 -img/setting-up-apple-business-chat-3.png
 -img/1111.jpg
 -img/facebook.svg
+-img/convohistory.png
+-img/marketplace-solutions.svg
 -img/instagram_quickstart_4.png
 -img/RB3.3-1.png
 -img/Survey_messaging7.png
@@ -2015,6 +2046,7 @@
 -img/salesforce-integration-guide-15.png
 -img/404.gif
 -img/data-sources2.png
+-img/new-light-mode.png
 -img/unsupervised-nlu-model-3.png
 -img/FB connector 2.png
 -img/workload-distribution-between-agent-groups-2.png
@@ -2037,6 +2069,7 @@
 -img/week-of-march-4th-1.png
 -img/add-web-messaging-to-your-website-2.png
 -img/MW-july-5-4.png
+-img/agent-workspace-icons-messaging-2b.png
 -img/cobrowse-chat-4.png
 -img/wechat-2.jpg
 -img/week-of-march-4th-5.png
@@ -2044,6 +2077,7 @@
 -img/week-of-january-13th-1.png
 -img/enahncemobileapp1.png
 -img/fail login pop-up.png
+-img/agent-workspace-icons-messaging-3b.png
 -img/M_Small.png
 -img/authenticated-web-messaging-4.png
 -img/week-of-january-25th-3.png
@@ -2056,7 +2090,9 @@
 -img/workload-distribution-between-agent-groups-6.png
 -img/generate-a-twilio-sms-number-with-liveperson-4.png
 -img/unsupervised-nlu-model-7.png
+-img/week-of-september-15th-4.png
 -img/twilio-quick-start-1.png
+-img/week-of-august-25th-3.png
 -img/Proactive_userguide.png
 -img/auto-accept.png
 -img/transfer-to-agent-5.png
@@ -2076,6 +2112,7 @@
 -img/week-of-february-18th-12.png
 -img/Manager all tab-1.png
 -img/new-agent-workspace-5-1.jpg
+-img/salesforce-integration-guide-11.png
 -img/inqueue2.png
 -img/line connector 2-1.png
 -img/manager-workspace-icon-3.png
@@ -2093,7 +2130,6 @@
 -img/Poor.jpg
 -img/whatsapp.svg
 -img/RB4.4_3_April20.png
--img/new-manager-workspace-use-case-2.png
 -img/SocialConnect_agentworkspace.jpg
 -img/google my business 1.png
 -img/LP-applications-2.png
@@ -2128,7 +2164,9 @@
 -img/quick-launch-menu-1.png
 -img/cobrowse-for-live-chat-1.png
 -img/wrap-up-time-chats-1b.png
+-img/socialconnect-user-guide-new-1a.png
 -img/engagementsettings.png
+-img/salesforce-integration-guide-2.png
 -img/support-icon.svg
 -img/attribution-model3.png
 -img/c2m-user-guide-1.png
@@ -2142,6 +2180,8 @@
 -img/smart-capacity-overview-2.png
 -img/photosharing11.png
 -img/icon_ellipsis_vertical.png
+-img/socialconnect-user-guide-new-1.png
+-img/salesforce-integration-guide-3.png
 -img/conversational-commerce-conversation-intelligence-b.png
 -img/developer-tools.svg
 -img/surveys-window-faq-4.png
@@ -2172,13 +2212,13 @@
 -img/User-guide-4.png
 -img/automatic-messages-messaging-12.png
 -img/week-of-october-22nd-1.png
+-img/agent-workspace-for-chat-19.png
 -img/survey3.jpg
 -img/Engagement window widget Gif .gif
 -img/visitor-behavior-2.png
 -img/LP-applications-3.png
 -img/Email Connect 2.jpg
 -img/RM4 (1).png
--img/new-manager-workspace-use-case-3.png
 -img/groups-filter-whats-new.png
 -img/instagram-overview-6.png
 -img/abc-pickers.png
@@ -2186,6 +2226,7 @@
 -img/QuickR2.png
 -img/chataw11.png
 -img/creating-buttons-and-banners-9.png
+-img/agent-workspace-for-chat-1.png
 -img/target-audience-1.png
 -img/week-of-august-5th-15.png
 -img/manager-workspace-icon-2.png
@@ -2205,18 +2246,24 @@
 -img/managing-cc-that-messages.png
 -img/week-of-april-15th-2.png
 -img/CA1.png
+-img/week-of-september-15th-5.png
 -img/unsupervised-nlu-model-6.png
 -img/icon_preview.png
+-img/week-of-august-25th-2.png
+-img/inapp-agent-workspace.png
+-img/Proactive_userguide5.png
 -img/filtering-insights5.png
 -img/Bot connectors dashboard.png
 -img/IDP_SAML.png
 -img/MW-july-5-1.png
 -img/week-of-january-25th-2.png
 -img/cobrowse-chat-1.png
+-img/PM-may18-22.png
 -img/IM2.0_1.png
 -img/structured-content-multi-select.png
 -img/week-of-march-4th-4.png
 -img/inapp-outboundapi.png
+-img/Click Next-PM.png
 -img/workload-distribution-between-agent-groups-2b.png
 -img/survey-activity-dashboard-2.png
 -img/inisght_3.png
@@ -2226,10 +2273,12 @@
 -img/week-of-may-4th-9.png
 -img/edit-automatic-message.png
 -img/IM2.0_3.png
+-img/PM-may18-20.png
 -img/Bot_connectors_RN2.13_2.png
 -img/MW-july-5-3.png
 -img/unsupervised-nlu-model-4.png
 -img/macs_ba_dashboard.png
+-img/week-of-september-15th-7.png
 -img/twilio-quick-start-2.png
 -img/workload-distribution-between-agent-groups-5.png
 -img/RN-4.8-2.png
@@ -2257,6 +2306,7 @@
 -img/photo27.jpg
 -img/week-of-november-11th-2.png
 -img/target-audience-3.png
+-img/Tips-for-proactive.png
 -img/ongoing-conversation-status.png
 -img/skill load balancing.png
 -img/agent-workspace-for-chat-3.png
@@ -2281,7 +2331,6 @@
 -img/queue-prior-chat-CG-1b.png
 -img/IA-Optimize-7.png
 -img/askmaven-use-case.png
--img/chat-with-new-nav.png
 -img/Routing-logic-1overview-5.png
 -img/cb_campaigns_icon.png
 -img/week-of-september-30th-13.png
@@ -2307,7 +2356,7 @@
 -img/userAutoLogout.png
 -img/macs_sentiment_good.png
 -img/salesforce-integration-guide-1.png
--img/cobrowse-for-live-chat-2.png
+-img/socialconnect-user-guide-new-3.png
 -img/agent-assist-overview1.png
 -img/conversational-commerce-3c.png
 -img/SC3 (1).png
@@ -2327,7 +2376,7 @@
 -img/Proactive_Overview1.jpg
 -img/mobile-app-messaging.svg
 -img/Transcripts-Conversation-Widget.png
--img/cobrowse-for-live-chat-3.png
+-img/socialconnect-user-guide-new-2.png
 -img/Secure-form-messaging-userguide4png.png
 -img/week-of-september-9th-24.png
 -img/permissions3 (2).png
@@ -2370,7 +2419,6 @@
 -img/assign-permissions5-1.png
 -img/target-audience-2.png
 -img/Goal-tracker-report2.png
--img/agent-workspace-for-chat-2.png
 -img/NAW_Paper.jpg
 -img/week-of-november-11th-3.png
 -img/AI-Annotator-whats-new.gif
@@ -2379,7 +2427,6 @@
 -img/recommended-actions-add-bot.png
 -img/Whats-new-jan-2020-1.jpg
 -img/survey-1.jpg
--img/manager-workspace-icon-1.png
 -img/week-of-august-5th-16.png
 -img/google-business-messages-9.png
 -img/instagram_quickstart_2.png
@@ -2400,16 +2447,20 @@
 -img/FB connector 4.png
 -img/workload-distribution-between-agent-groups-4.png
 -img/recommended-actions-with-maven-2-1.png
+-img/Proactive_userguide6.png
 -img/filtering-insights6.png
+-img/week-of-august-25th-1.png
 -img/post-conversation-survey-user-guide7 (1).png
 -img/week-of-april-15th-1.png
 -img/twilio-quick-start-3.png
 -img/CA2.png
+-img/week-of-september-15th-6.png
 -img/unsupervised-nlu-model-5.png
 -img/mobileappmessaging.svg
 -img/datasources1.png
 -img/Troubleshooting-chat2.png
 -img/instagram-overview-5.jpg
+-img/PM-may18-21.png
 -img/IM2.0_2.png
 -img/week-of-may-4th-8.png
 -img/MW-july-5-2.png
@@ -2424,6 +2475,7 @@
 -img/ai-powered-routing-4-1.png
 -img/week-of-september-6-2.png
 -img/SCC2__1_.png
+-img/week-of-august-18th-2.png
 -img/ai-annotator-11.png
 -img/hyperlinks-overview-2.png
 -img/new-july-2.png
@@ -2479,12 +2531,12 @@
 -img/Validate-identity-consumers-during-conversations4-1.png
 -img/week-of-may-18th-1.png
 -img/whatsapp-business-overview-1.png
+-img/New Handoff.png
 -img/week-of-september-22-1.png
 -img/metricswidget.png
 -img/agent-survey-for-messaging-3.png
 -img/managing-cc-that-messages-1b.gif
 -img/c2m-user-guide-17.png
--img/adding-your-own-widgets-3.png
 -img/time-frame-6.png
 -img/survey-activity-dashboard1.png
 -img/week-of-march-1st-2.png
@@ -2502,6 +2554,7 @@
 -img/RB4_3.png
 -img/insights_18.png
 -img/CSCB20.png
+-img/whats-new-aug-3.png
 -img/creating_dashboards_insights13.png
 -img/Release-notes-week-of-january-20-2.png
 -img/Agent-activity-agent-performance_chat.jpg
@@ -2523,6 +2576,8 @@
 -img/IA-Optimize-intents-16.png
 -img/week-of-february-15th-1.png
 -img/new-manager-workspace-15.png
+-img/apple-business-chat-entry-points-11.png
+-img/knowledgeai-2.gif
 -img/newxHome3.png
 -img/response-time-2.png
 -img/accessibility-policy2.png
@@ -2543,6 +2598,7 @@
 -img/week-of-october-8th-8-2.jpg
 -img/faas-ui.png
 -img/creating_dashboards_insights12.png
+-img/whats-new-aug-2.png
 -img/creating_dashboards_insights8.png
 -img/week-of-august-31st-0.png
 -img/RN-May10th-4.png
@@ -2552,7 +2608,6 @@
 -img/week-of-november-25th-2.png
 -img/datatransporter1.png
 -img/ybank_fraud_bank_mockup_secure_form.png
--img/adding-your-own-widgets-2.png
 -img/OTK Code.png
 -img/week-of-march-1st-3.png
 -img/blended-chat-and-messaging.png
@@ -2571,6 +2626,7 @@
 -img/Secure-form-messaging-userguide7.png
 -img/EngTemp1-1.png
 -img/Newsletter March GIF-1.gif
+-img/apple-business-chat-entry-points-1.png
 -img/meaningful-connection-score-(MCS)-overview4.png
 -img/CoBrowseFullScreen-1.gif
 -img/week-of-november-25th-12.png
@@ -2581,7 +2637,6 @@
 -img/week-of-october-15th-2018-7.png
 -img/Dev_Center_Redesign.png
 -img/Step12_emailconnect1.png
--img/multiple-away-states-5.png
 -img/consumer-experience.svg
 -img/week-of-february-8th-9.png
 -img/photos28 (2).jpg
@@ -2610,6 +2665,7 @@
 -img/SCC4.png
 -img/week-of-may-27th-1.png
 -img/managing-campaigns-10.png
+-img/week-of-august-18th-1.png
 -img/visitors-regular@2x.png
 -img/email-connect-5.png
 -img/social-messaging-configuration-18.png
@@ -2643,7 +2699,6 @@
 -img/connect-visitors-agent-skills3.png
 -img/week-of-october-15th-2018-5.png
 -img/Engagement_Controller.gif
--img/multiple-away-states-7.png
 -img/CBMarch8.png
 -img/Datasource-whats-new.png
 -img/insights-usecase-4.png
@@ -2655,16 +2710,14 @@
 -img/week-of-september-2nd-2.png
 -img/socialconnect-user-guide-2.png
 -img/week-of-june-17th-2.png
--img/facebook-messenger-2.png
 -img/troubleshooting-consumer-experience4.png
--img/Facebook Messenger quick start-1.png
 -img/week-of-april-1st-8.png
 -img/conversationalTab.jpg
 -img/c2.png
+-img/apple-business-chat-entry-points-3.png
 -img/RL 7.jpg
 -img/Taxonomy-insights-20.png
 -img/Light mode banner (1).gif
--img/getting-started-with-proactive-3.png
 -img/automatic-messages-messaging-6b-1.png
 -img/Secure-form-messaging-userguide5.png
 -img/week-of-august-31-1.png
@@ -2674,7 +2727,7 @@
 -img/inapp-prmsg-create-select.png
 -img/fjsadjlf.png
 -img/whats-new-july2.png
--img/shift-scheduler-CG-6b.png
+-img/twitter.svg
 -img/Recommended-actions1.png
 -img/Secure-form-messaging-userguide2-1.png
 -img/c2m-user-guide-14.png
@@ -2686,8 +2739,6 @@
 -img/c2m-user-guide-28.png
 -img/week-of-march-1st-1.png
 -img/load-balancing.png
--img/smart-capacity-overview-1b.png
--img/time-frame-5.png
 -img/add-messaging-to-your-mobile-app-4.png
 -img/new-kpi-widget.png
 -img/faas-use-case-csat-1.png
@@ -2736,6 +2787,7 @@
 -img/HyperlinksSDK.png
 -img/creating_dashboards_insights11.png
 -img/faas-use-case-routing-1.png
+-img/whats-new-aug-1.png
 -img/CSCB22.png
 -img/RB4_1.png
 -img/week-of-october-8th-5.png
@@ -2752,7 +2804,6 @@
 -img/photosharin5.png
 -img/add-messaging-to-your-mobile-app-5.png
 -img/c2m-user-guide-29.png
--img/time-frame-4.png
 -img/adding-your-own-widgets-1.png
 -img/inapp-prmsg-create-1.png
 -img/non_responsive_agents.png
@@ -2773,12 +2824,12 @@
 -img/Manager actions.png
 -img/servuce_status_dashboard_contact_support.png
 -img/week-of-july-29-6.png
--img/Taxonomy-insights-21.png
 -img/automatic-messages-messaging-15b.png
 -img/getting-started-with-proactive-2.png
 -img/sso-unified-login1.png
 -img/Rollover-whats-new-1.png
 -img/week-of-april-1st-9.png
+-img/apple-business-chat-entry-points-2.png
 -img/c3.png
 -img/facebook-messenger-3.png
 -img/Admin.png
@@ -2789,7 +2840,6 @@
 -img/Webex2.png
 -img/socialconnect-user-guide-3.png
 -img/agents-managers.svg
--img/insights-usecase-5.png
 -img/CoBrowseFullScreen-2.gif
 -img/week-of-november-25th-11.png
 -img/LoginScreen.png
@@ -2825,17 +2875,20 @@
 -img/week-of-february-4th-b.png
 -img/RTMD7.png
 -img/WhatsApp Click to chat1 Gif .gif
+-img/social-messaging-configuration-25.png
 -img/RL 6.png
 -img/ai-annotator-5.png
 -img/week-of-may-27th-2.png
 -img/SCC7.png
 -img/managing-campaigns-13.png
+-img/social-messaging-configuration-19.png
 -img/nov-whats-new-report-builder.png
 -img/email-connect-4.png
 -img/Set-the-time-zone2.png
 -img/wechat.png
 -img/ai-annotator-1.png
 -img/RL 2.png
+-img/social-messaging-configuration-21.png
 -img/RTMD3.png
 -img/Intent-discovery.png
 -img/hyperlinks-overview-4.png
@@ -2853,6 +2906,7 @@
 -img/SCC3.png
 -img/week-of-may-27th-6.png
 -img/managemess8.png
+-img/week-of-september-15th-12.png
 -img/web-history-1.png
 -img/google-business-messaging-3.png
 -img/automatic-messages-chat-5.png
@@ -2866,8 +2920,6 @@
 -img/creating-buttons-and-banners-1.gif
 -img/photos25 (1).jpg
 -img/multiple-away-states-2.png
--img/usecases-insights-part2-9.png
--img/usecases-insights-part2-11.png
 -img/new-agent-workspace-10.png
 -img/new-manager-workspace-permissions.png
 -img/campaign-goals-1.png
@@ -2888,10 +2940,9 @@
 -img/meaningful-connection-score-(MCS)-overview3.png
 -img/feedback.png
 -img/campaign-dashboard-and-data-bar-2.png
--img/insights-usecase-1.png
+-img/socialconnect-user-guide-7.png
 -img/week-of-september-2nd-7.png
 -img/newsletter-march-gif.gif
--img/stopwords-insights9.png
 -img/agent-file-sharing-6.png
 -img/Security_IP_masking1.png
 -img/Taxonomy-insights-19.png
@@ -2901,15 +2952,19 @@
 -img/automatic-messages-chat-2b.png
 -img/automatic-messages-messaging-6b.png
 -img/set-the-agent-group-hierarchy5.png
+-img/Getting-started-intent-manager-5-crop.png
 -img/week-of-july-29-2.png
 -img/week-of-august-31-4.png
 -img/campaigns-regular@2x.png
 -img/Secure-form-messaging-userguide4png-1.png
 -img/week-of-march-1st-4.png
 -img/Screen Shot 2019-01-27 at 1.56.29 PM.png
+-img/add-messaging-to-your-mobile-app-1.png
+-img/c2m-user-guide-39.png
 -img/dialogs_import1.png
 -img/agent-survey-for-messaging-5.png
 -img/drawer menu ipad (1).png
+-img/c2m-user-guide-11.png
 -img/conversation-builder-btest-1.jpg
 -img/conv-ai-1.png
 -img/RB4_5.png
@@ -2922,18 +2977,17 @@
 -img/RN-May10th-3.png
 -img/CSCB32.png
 -img/Email-connect-step-8.png
--img/agent action menu app.png
+-img/agent-action-menu-app.png
+-img/insights_22.png
 -img/week-of-november-25th-5.png
 -img/Troubleshooting.svg
 -img/week-of-september-30th-5.png
 -img/audit5-1.png
--img/Using-the-msc-toolkit2.png
 -img/config-response-times-6.png
 -img/sp-push-notifications-9.png
 -img/data-transporter8.png
 -img/week-of-february-15th-6.png
 -img/IA-Optimize-intents-11.png
--img/data-transporter7a.png
 -img/admins-campaigns.svg
 -img/new-manager-workspace-12.png
 -img/bot dashboard1.png
@@ -2949,10 +3003,10 @@
 -img/IA-Optimize-intents-10.png
 -img/week-of-february-15th-7.png
 -img/Week-of-Dec-17th-4.png
--img/Agent_Activity_agent_activity_dashboard.jpg
 -img/data-transporter9.png
 -img/sp-push-notifications-8.png
 -img/config-response-times-7.png
+-img/insights_23.png
 -img/week-of-september-30th-4.png
 -img/week-of-november-25th-4.png
 -img/RN-May10th-2.png
@@ -2983,7 +3037,6 @@
 -img/set-the-agent-group-hierarchy4.png
 -img/week-of-july-29-3.png
 -img/week-of-september-17th-3.png
--img/real-time-messaging-dashboard-overview8.png
 -img/the-messaging-agents-list-2.png
 -img/lp-conversational-cloud-6.gif
 -img/Taxonomy-insights-18.png
@@ -3012,7 +3065,8 @@
 -img/whats-new-sept-vv.gif
 -img/multiple-away-states-3.png
 -img/Agent menu open.png
--img/agent-chat-data4.png
+-img/usecases-insights-part2-10.png
+-img/usecases-insights-part2-8.png
 -img/c15.png
 -img/week-of-june-17th-14.png
 -img/LOB3.png
@@ -3039,7 +3093,6 @@
 -img/RTMD2.png
 -img/RL 3.png
 -img/social-messaging-configuration-20.png
--img/enter-your-credentials-login 2.png
 -img/ai-annotator-14.png
 -img/new-july-7.png
 -img/week-of-january-13th-10.png
@@ -3047,6 +3100,7 @@
 -img/ai-annotator-2.png
 -img/social-messaging-configuration-22.png
 -img/RL 1.png
+-img/week-of-september-15th-11.png
 -img/Payments using Apple Pay.gif
 -img/email-connect-3.png
 -img/Group-29.png
@@ -3062,6 +3116,7 @@
 -img/automatically-unassign-1.png
 -img/automatic-messages-chat-6.png
 -img/LoB1.png
+-img/usecases-insights-part2-12.png
 -img/favicon.svg
 -img/multiple-away-states-1.png
 -img/week-of-november-11th-28.png
@@ -3069,7 +3124,6 @@
 -img/creating-buttons-and-banners-2.gif
 -img/week-of-october-15th-2018-3.png
 -img/Business-activity-dashboard4b.png
--img/agent-chat-data6.png
 -img/100,000chat1.jpg
 -img/Agentgroups2.png
 -img/campaign-goals-2.png
@@ -3082,12 +3136,14 @@
 -img/facebook-messenger-4.png
 -img/troubleshooting-consumer-experience2.png
 -img/week-of-september-2nd-4.png
--img/protecting-customer-data1.png
 -img/shift-scheduler-CG-9.png
 -img/socialconnect-user-guide-4.png
 -img/google-business-messages-1.gif
 -img/campaign-dashboard-and-data-bar-1.png
+-img/insights-usecase-2.png
 -img/week-of-november-25th-16.png
+-img/ai-annotator-false-2.gif
+-img/rollover-overview-1.png
 -img/week-of-september-17th-1.png
 -img/Secure-form-messaging-userguide3.png
 -img/week-of-august-31-7.png
@@ -3108,19 +3164,23 @@
 -img/01_InProductThumb_Mai19.jpg
 -img/c2m-user-guide-12.png
 -img/agent-survey-for-messaging-6.png
+-img/grouping-attributes-insights8.png
 -img/CSCB31.png
 -img/refresh.jpg
+-img/performance-optimizer16.png
 -img/managing-messaging-conversations-9.png
 -img/wsicons3.png
+-img/performance-optimizer9.png
+-img/Using_MCS-toolkit3.png
 -img/week-of-october-8th-2.png
 -img/RB4_6.png
 -img/skillsact1.png
 -img/CSCB25.png
--img/IP_address_blocking2.jpg
 -img/FaaS-secret-storage.png
 -img/sept-newsletter-5.png
 -img/week-of-march-22nd-3.png
 -img/crm-integrations.svg
+-img/realtime_data_bar.png
 -img/week-of-may-3-4.png
 -img/week-of-november-25th-6.png
 -img/week-of-september-30th-6.png
@@ -3143,8 +3203,10 @@
 -img/week-of-september-2nd-17.png
 -img/Managing-a-contact-center-that-messages-1.png
 -img/mcs-toolkit.svg
+-img/new-manager-workspace-11.png
 -img/post-conversation-survey4.png
 -img/image (6).png
+-img/new-manager-workspace-10.png
 -img/week-of-september-2nd-16.png
 -img/week-of-march-11th-4.png
 -img/Intent-manager-customer-experience3.png
@@ -3196,10 +3258,8 @@
 -img/set-the-agent-group-hierarchy7.png
 -img/getting-started-with-proactive-4.png
 -img/Agent-Activity-Grid.jpg
--img/Secure-form-messaging-userguide2.png
 -img/cb_campaign.png
 -img/skills-activity-dashboard-2.png
--img/Secure_form-messaging-user-guide1.png
 -img/week-of-august-31-6.png
 -img/agent-file-sharing-4.png
 -img/ybank_fraud_bank_mockup_lockscreen.png
@@ -3235,6 +3295,7 @@
 -img/web-history-3.png
 -img/new-may-1.png
 -img/email-connect-2.png
+-img/week-of-september-15th-10.png
 -img/business-activity-grid2.png
 -img/SCC1.png
 -img/week-of-may-27th-4.png
