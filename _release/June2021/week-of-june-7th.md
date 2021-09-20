@@ -19,6 +19,31 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## A new Universal interaction (Beta)
+### Type: New feature [Conversation Builder Release 2021_7.0]
+
+**Available to all customers?** Yes
+
+**Channels**: This new feature is available for all channels supported by the Conversational Cloud platform.
+
+Conversation Builder introduces a new Universal interaction that offer your brand a way to add a cutting-edge interaction in a channel that you want to implement in your bot, and the ability to fast track its usage now, before support for it is added to the Statement and Question interactions in Conversation Builder.
+
+**Note**: The Universal interaction is in Beta release, and currently it’s only available for the Web messaging channel.
+
+Designed for advanced bot developers, the Universal interaction is a flexible, channel-agnostic, code-based interaction that brands can customize to render any conversational response from the bot.
+
+![](img/CB-RN-June7-add.png)
+
+This powerful, new interaction opens up many more opportunities to achieve the exact layout and styling that your brand requires. For example, add a vertical card layout or perhaps a button question that uses just buttons (images) without button labels (text).
+
+To use this code interaction, add it to your brand's bot, and enter the appropriate JSON code within it. You are limited only by what’s supported by the Conversational Cloud, as the JSON must adhere to the Conversational Cloud rich message format. Templates that you can quickly copy are provided to accelerate your coding efforts.
+
+![](img/CB-RN-June7-add1.png)
+
+To fully test a Universal interaction, use a deployed bot.
+
+**Note**: The Universal interaction isn’t intended to replace the Statement and Question interactions in Conversation Builder. For fast and easy bot development, LivePerson recommends that you always use them whenever they meet your requirements.
+
 ## More flexibility when sending post-conversation surveys
 ### Type: Enhancement [Conversation Builder Release 2021_7.0]
 
