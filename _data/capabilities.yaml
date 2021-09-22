@@ -7,12 +7,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Not Supported"
+    - twitter: "Not Supported"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Supported"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Typing indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -20,12 +22,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Supported"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Read indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -33,12 +37,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "Not Supported"
+    - twitter: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Read indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -46,12 +52,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Delivered indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -59,12 +67,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Delivered indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -72,12 +82,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: In-thread new messages notification
     channels:
     - mobileAppMessaging: "Supported"
@@ -85,12 +97,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Hyperlinked regular expressions
     tooltip: 'For auto-linking of phone numbers, dates, url, etc.'
     channels:
@@ -99,12 +113,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Desktop application support
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -112,12 +128,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "N/A in Channel"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "N/A in Channel"
   - featureName: Continuity across devices
     channels:
     - mobileAppMessaging: "Supported (authenticated only)"
@@ -125,12 +143,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Consumer resolve conversation
     channels:
     - mobileAppMessaging: "Supported"
@@ -138,12 +158,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Window branding and customization
     channels:
     - mobileAppMessaging: "Supported"
@@ -151,12 +173,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Accessibility
     channels:
     - mobileAppMessaging: "Supported"
@@ -164,12 +188,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
 
 
 - categoryName: Rich Messaging
@@ -182,12 +208,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Enlarged emojis
     channels:
     - mobileAppMessaging: "Supported"
@@ -195,12 +223,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "N/A in Channel"
+    - twitter: "N/A in Channel"
     - whatsapp: "Supported"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Stickers - consumer to agent
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -208,12 +238,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Stickers - agent to consumer
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -221,12 +253,14 @@
     - appleBusinessChat: "Not Supported"
     - sms: "N/A in Channel"
     - facebook: "Not Supported"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Not Supported"
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Not Supported"
   - featureName: Photo Sharing - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -234,12 +268,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Photo Sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -247,12 +283,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Not Supported"
     - facebook: "Not Supported"
+    - twitter: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Not Supported"
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: File sharing - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -260,12 +298,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Not Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: File sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -273,12 +313,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Not Supported"
+    - twitter: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Not Supported"
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Voice/video calls
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -286,12 +328,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
+    - viber: "N/A in Channel"
   - featureName: GIF - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -299,12 +343,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Not Supported"
     - facebook: "Supported"
+    - twitter: "Not Supported"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Link previews
     channels:
     - mobileAppMessaging: "Supported"
@@ -312,12 +358,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Quick Replies
     channels:
     - mobileAppMessaging: "Supported"
@@ -325,12 +373,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Not Supported"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
   - featureName: Structured content cards
     channels:
     - mobileAppMessaging: "Supported"
@@ -338,12 +388,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Not Supported"
   - featureName: Structured content carousel
     channels:
     - mobileAppMessaging: "Supported"
@@ -351,12 +403,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "Not Supported"
   - featureName: Structured content list
     channels:
     - mobileAppMessaging: "Supported"
@@ -364,12 +418,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Structured content time picker
     channels:
     - mobileAppMessaging: "Supported"
@@ -377,12 +433,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Audio Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -390,12 +448,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "N/A in Channel"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "N/A in Channel"
   - featureName: Payment
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -403,12 +463,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Not Supported"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "Not Supported"
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "N/A in Channel"
 
 - categoryName: Operations
   features:
@@ -419,12 +481,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Engagement Attributes
     channels:
     - mobileAppMessaging: "Supported"
@@ -432,12 +496,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Not Supported"
     - facebook: "Not Supported"
+    - twitter: "Supported (Tweets Only)"
     - whatsapp: "Not Supported"
     - googleRCS: "Not Supported"
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "Supported"
   - featureName: Automatic Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -445,12 +511,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported (Direct Message Only)"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: CSAT question
     channels:
     - mobileAppMessaging: "Supported"
@@ -458,12 +526,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Agent survey
     channels:
     - mobileAppMessaging: "Supported"
@@ -471,12 +541,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: SmartConnect support
     tooltip: 'Brand initiated conversation.'
     channels:
@@ -485,12 +557,14 @@
     - appleBusinessChat: "Not Supported"
     - sms: "Supported"
     - facebook: "Not Supported"
+    - twitter: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Not Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
+    - viber: "Not Supported"
   - featureName: Encryption
     tooltip: 'As conversation is in transit.'
     channels:
@@ -499,12 +573,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Not Supported"
     - facebook: "Not Supported"
+    - twitter: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
+    - viber: "N/A in Channel"
   - featureName: Encryption at rest
     channels:
     - mobileAppMessaging: "Supported"
@@ -512,12 +588,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Authentication
     tooltip: 'Channel natively supports a way to verify that the consumer is "trusted."'
     channels:
@@ -526,12 +604,14 @@
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Client side data masking
     channels:
     - mobileAppMessaging: "Supported"
@@ -539,12 +619,14 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
+    - twitter: "N/A in Channel"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
+    - viber: "N/A in Channel"
   - featureName: Agent side historical data masking
     tooltip: 'For example, a credit card number.'
     channels:
@@ -553,12 +635,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Secure form
     channels:
     - mobileAppMessaging: "Supported"
@@ -566,12 +650,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Post conversation survey
     channels:
     - mobileAppMessaging: "Supported"
@@ -579,12 +665,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
 
 - categoryName: Automation
   features:
@@ -595,12 +683,14 @@
     - appleBusinessChat: "Supported"
     - sms: "Supported"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
 
 - categoryName: Consumer Profile
   features:
@@ -611,25 +701,29 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
-    - featureName: Consumer unique identifier
-      channels:
-      - mobileAppMessaging: "Supported"
-      - webMessaging: "Supported"
-      - appleBusinessChat: "Supported"
-      - sms: "Supported"
-      - facebook: "Supported"
-      - whatsapp: "Supported"
-      - googleRCS: "Supported"
-      - line: "Supported"
-      - messagingWindowAPI: "Supported"
-      - connectorAPI: "Supported"
+    - viber: "Supported"
+  - featureName: Consumer unique identifier
+    channels:
+    - mobileAppMessaging: "Supported"
+    - webMessaging: "Supported"
+    - appleBusinessChat: "Supported"
+    - sms: "Supported"
+    - facebook: "Supported"
+    - twitter: "Supported"
+    - whatsapp: "Supported"
+    - googleRCS: "Supported"
+    - line: "Supported"
+    - messagingWindowAPI: "Supported"
+    - connectorAPI: "Supported"
     - weChat: "Supported"
+    - viber: "Supported"
   - featureName: Consumer image
     channels:
     - mobileAppMessaging: "Supported"
@@ -637,9 +731,11 @@
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "Supported"
+    - twitter: "Supported"
     - whatsapp: "N/A in Channel"
     - googleRCS: "N/A in Channel"
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "N/A in Channel"
+    - viber: "Supported"
