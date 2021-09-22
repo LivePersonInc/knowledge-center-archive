@@ -320,8 +320,6 @@ Search for LivePerson Agent App on the Google Play Store or Apple App Store and 
 
 </div>
 
-Note: Twillio, Google RCS, Google My Business, CM, and WeChat may work, they just haven’t been tested.
-
 **Availability:** All brands.
 
 ### Description
