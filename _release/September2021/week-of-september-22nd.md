@@ -20,7 +20,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 
-## WhatsApp Reply Button Templates
+## Engagement Controller version 1.2.2
 
 ### Type: New Feature [Engagement Controller]
 
