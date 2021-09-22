@@ -112,8 +112,10 @@ Enable Feature in AC Features Common.Messaging_Agent_Availability
 
 ### Dependencies
 
-**User Interface:** The Engagement Controller UI is within Conversation Orchestrator
+**User Interface:** The Engagement Controller UI is within Conversation Orchestrator.
+
 **Backend:** The Engagement Controller is consuming its metrics from internal systems such as UMS and sending events to the Campaign Builder. 
+
 **Reporting:** The Engagement Controller contributes to the Messaging Business Dashboard, allowing tracking of web messaging engagements and identification of missed opportunities on a daily basis. 
 Please add additional requirements through the feature request form.
 
@@ -234,4 +236,5 @@ Agent App v2.7.5 includes:
 Search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app.
 
 [Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
+
 [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
