@@ -129,3 +129,109 @@ Please add additional requirements through the feature request form.
 
 ![](img/week_of_september_22nd_release_notes_1.png)
 ![](img/week_of_september_22nd_release_notes_2.png)
+
+## Agent App - v2.7.5
+
+### Type: New Features [Agent App]
+
+* Social widget now supports Facebook profiles
+* Character count for public Twitter messages
+* Unsent messages now show warning message
+* Click to open hyperlinks / emails
+* Video over WhatsApp / Twitter DM
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Note: Twillio, Google RCS, Google My Business, CM, and WeChat may work, they just haven’t been tested.
+
+**Availability:** All brands.
+
+### Description
+
+Agent App v2.7.5 includes:
+* Social widget now supports Facebook profiles
+* Character count for public Twitter messages
+* Video call support for WhatsApp, Twitter
+* Unsent messages now show warning message
+* Click to open hyperlinks / emails
+* Bug fixes
+
+
+### Enablement
+
+Search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app.
+
+[Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
+[Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
