@@ -1,0 +1,131 @@
+---
+pagename: Week of September 22nd
+categoryName: Release notes
+subCategoryName: "2021"
+indicator: messaging
+subtitle: ""
+level3: September 2021
+permalink: release-notes-2021-september-week-of-september-22nd.html
+isTutorial: false
+isNew: false
+published: true
+date: "2021-09-22"
+---
+
+These release notes include new features arriving September 2021. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+
+Please contact your LivePerson account team for the exact dates on which you will have access to the features.
+
+{: .important}  
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
+
+## WhatsApp Reply Button Templates
+
+### Type: New Feature [Engagement Controller]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Availability:** All brands.
+
+### Description
+
+The Engagement Controller is a feature that enables brands to control the incoming flow of conversations in Web Messaging.
+This dynamic feature is an addition to the existing Campaign Builder settings. It allows brands to use welcome bots to start conversations and will show or hide Web Messaging engagements based on skill availability. Campaign Builder settings such as ‘enable’ or ‘disable’ engagements or ‘Campaign time frame’ will always have higher priority than Engagement Controller settings.
+Users are able to set up rules within the Conversation Orchestrator UI that contain conditions which check skill availability based on the queue size and the wait time metrics, as well as actions to show or hide engagements. Rules can be set up on the campaign or engagement level. Rules on campaign level will affect all engagements in the campaign.
+
+### Enablement
+
+Enable Feature in AC Features Common.Messaging_Agent_Availability
+
+### Dependencies
+
+**User Interface:** The Engagement Controller UI is within Conversation Orchestrator
+**Backend:** The Engagement Controller is consuming its metrics from internal systems such as UMS and sending events to the Campaign Builder. 
+**Reporting:** The Engagement Controller contributes to the Messaging Business Dashboard, allowing tracking of web messaging engagements and identification of missed opportunities on a daily basis. 
+Please add additional requirements through the feature request form.
+
+
+### Limitations
+
+* Using Engagement Controller in Web Messaging can create a synchronous, chat-like experience with limited wait times. This doesn’t allow for the advantages of an asynchronous Messaging journey for brands to always be available to their customers. 
+* When assigning conversations to agents, it is possible that certain skills will have no online agents that can receive the conversation and therefore a fallback skill can be assigned in Conversational Cloud which assigns conversations to other skills. The Engagement Controller feature only checks the availability of the skill set in the rule within the feature. It does not consider settings in the fallback skill when checking for availability.
+* Conversational Cloud functionality to auto close inactive conversations after a set period of time (default 90 days) works independently of the Engagement Controller feature. Inactive conversations closed by the auto close functionality are not displayed to a returning customer if a rule in the Engagement Controller is applied to hide the engagement window.
+* The Engagement Controller interface is currently available in English only. Other languages will be added in the future.
+* The Engagement Controller interface is currently available in the Dark theme only. Light theme will be added in the future.
+* The Engagement Controller feature does not support bot flows which transfer to multiple skills.
+
+![](img/week_of_september_22nd_release_notes_1.png)
+![](img/week_of_september_22nd_release_notes_2.png)
