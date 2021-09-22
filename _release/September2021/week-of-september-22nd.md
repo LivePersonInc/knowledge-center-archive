@@ -238,3 +238,97 @@ Search for LivePerson Agent App on the Google Play Store or Apple App Store and 
 [Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
 
 [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
+
+
+
+
+## Twilio Connector - Consumer Name Update
+
+### Type: Enhancement [Twilio]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Note: Twillio, Google RCS, Google My Business, CM, and WeChat may work, they just haven’t been tested.
+
+**Availability:** All brands.
+
+### Description
+
+Consumers that start a conversation via the LivePerson Twilio SMS Connector will now be shown as “SMS User {5-digit-number}” in the Agent workspace to align with other 3rd party channels. This provides a better overview for Agents and helps them to understand the channel from which consumers are messaging. The new format replaces the full consumer phone number that was previously used as consumer name.
+
+
+### Enablement
+
+Enabled by default.
