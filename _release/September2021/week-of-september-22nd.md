@@ -246,12 +246,6 @@ Search for LivePerson Agent App on the Google Play Store or Apple App Store and 
 
 ### Type: Enhancement [Twilio]
 
-* Social widget now supports Facebook profiles
-* Character count for public Twitter messages
-* Unsent messages now show warning message
-* Click to open hyperlinks / emails
-* Video over WhatsApp / Twitter DM
-
 **Channels:**
 
 <div class="tablecontainer">
