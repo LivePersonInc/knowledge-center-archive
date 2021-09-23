@@ -26,7 +26,6 @@ The regulations in the US and other countries, such as the UK and Canada, requir
 
 In order to incorporate these guidelines, we work with the international accessibility consulting organization - “Deque Systems”. Deque Systems have completed a thorough assessment of the Conversational Cloud accessibility, and have subsequently awarded LivePerson the official accessibility stamp. The assessment included working closely with people with disabilities who reviewed and operated our products. This practice enables us to implement, first-hand, the beneficial suggestions made by impaired individuals who understand our product.
 
-View LivePerson’s [certification of conformance](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Accessibility_ConformanceStatement.pdf)
 
 For more information on Deque Systems, refer to [http://www.deque.com.](http://www.deque.com. "http://www.deque.com.")
 
@@ -349,17 +348,17 @@ If voice over functionality is enabled on a device, the iOS .lib file is able to
 
 To summarize, these various accessibility services are designed to complement one another, so each visitor can find the right combination of features to best accommodate their level of limitation. By using Mobile Web accessibility options, brands can cater to the needs of an extended user audience and increase engagement reach.
 
-## Web Accessibility Conformance Statements
+## Conversational Cloud Accessibility Conformance Statements
 Please see the web accessibility conformance statements for the following:
-* [Mobile SDK iOS](https://ce-sr.s3-eu-west-1.amazonaws.com/LivePerson+Mobile+App+iOS+Conformance+Report.pdf)
-* [Mobile SDK Android](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/LivePerson+Mobile+App+Android+Conformance+Report.pdf)
+* [Mobile SDK iOS WCAG 2.1 A/AA Certification Letter](https://ce-sr.s3-eu-west-1.amazonaws.com/LivePerson+Mobile+App+iOS+Conformance+Report.pdf)
+* [Mobile SDK Android WCAG 2.1 A/AA Certification Letter](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/LivePerson+Mobile+App+Android+Conformance+Report.pdf)
 
 {: .notice}
 Please note that this certficate was issued prior to rebranding the platform to the Conversational Cloud.
 
-[Web Messaging Window](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Accessibility_ConformanceStatement.pdf)
-[Manager Workspace](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/LivePerson+-+VPAT2.4RevWCAG+2.1-Sept_2020.V2.pdf)
-
+* [Web Messaging WCAG 2.1 AA Certification Letter](https://ce-sr.s3.eu-west-1.amazonaws.com/knowledge/pdf/LivePerson+WCAG+2.1+AA+Certification+for+Web+Messaging.pdf)
+* [Agent and Agent Manager WCAG2.1AA Certification Letter](https://ce-sr.s3.eu-west-1.amazonaws.com/knowledge/pdf/LivePerson+Agent+and+Manager+WS+-+VPAT2.4RevWCAG+2.1-Sept_2020.V2.pdf)
 ## Recommended reading
 
 [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
