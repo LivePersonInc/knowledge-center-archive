@@ -358,6 +358,7 @@ Please note that this certficate was issued prior to rebranding the platform to 
 
 * [Web Messaging WCAG 2.1 AA Certification Letter](https://ce-sr.s3.eu-west-1.amazonaws.com/knowledge/pdf/LivePerson+WCAG+2.1+AA+Certification+for+Web+Messaging.pdf)
 * [Agent and Agent Manager WCAG2.1AA Certification Letter](https://ce-sr.s3.eu-west-1.amazonaws.com/knowledge/pdf/LivePerson+Agent+and+Manager+WS+-+VPAT2.4RevWCAG+2.1-Sept_2020.V2.pdf)
+
 ## Recommended reading
 
 [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/)
