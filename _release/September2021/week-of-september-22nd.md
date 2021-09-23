@@ -108,7 +108,7 @@ Users are able to set up rules within the Conversation Orchestrator UI that cont
 
 ### Enablement
 
-Enabled by default. 
+This can be enabled by the LP team upon request.
 
 ### Dependencies
 
