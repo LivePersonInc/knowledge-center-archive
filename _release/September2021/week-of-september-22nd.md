@@ -114,7 +114,7 @@ Enable Feature in AC Features Common.Messaging_Agent_Availability
 
 **User Interface:** The Engagement Controller UI is within Conversation Orchestrator.
 
-**Backend:** The Engagement Controller is consuming its metrics from internal systems such as UMS and sending events to the Campaign Builder. 
+**Backend:** The Engagement Controller is consuming its metrics from internal systems and sending events to the Campaign Builder. 
 
 **Reporting:** The Engagement Controller contributes to the Messaging Business Dashboard, allowing tracking of web messaging engagements and identification of missed opportunities on a daily basis. 
 Please add additional requirements through the feature request form.
