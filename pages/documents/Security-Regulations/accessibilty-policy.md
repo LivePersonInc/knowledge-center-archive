@@ -356,7 +356,7 @@ Please see the web accessibility conformance statements for the following:
 {: .notice}
 Please note that this certficate was issued prior to rebranding the platform to the Conversational Cloud.
 
-* [Web Messaging WCAG 2.1 AA Certification Letter](https://ce-sr.s3.eu-west-1.amazonaws.com/knowledge/pdf/LivePerson+WCAG+2.1+AA+Certification+for+Web+Messaging.pdf)
+* [Web Messaging WCAG 2.1 AA Certification Letter (Sept. 2021 update)](https://ce-sr.s3.eu-west-1.amazonaws.com/knowledge/pdf/LivePerson+WCAG+2.1+AA+Certification+for+Web+Messaging.pdf)
 * [Agent and Agent Manager WCAG2.1AA Certification Letter](https://ce-sr.s3.eu-west-1.amazonaws.com/knowledge/pdf/LivePerson+Agent+and+Manager+WS+-+VPAT2.4RevWCAG+2.1-Sept_2020.V2.pdf)
 
 ## Recommended reading
