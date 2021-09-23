@@ -108,7 +108,7 @@ Users are able to set up rules within the Conversation Orchestrator UI that cont
 
 ### Enablement
 
-Enable Feature in AC Features Common.Messaging_Agent_Availability
+Enabled by default. 
 
 ### Dependencies
 
