@@ -358,4 +358,3 @@ Please see the web accessibility conformance statements for the following:
 ## Recommended reading
 
 [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/)
-
