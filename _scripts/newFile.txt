@@ -94,7 +94,6 @@
 ./pages/documents/Messaging-Channels/mobile-app-messaging/enhance-mobile-app-messaging.md
 ./pages/documents/Messaging-Channels/mobile-app-messaging/add-messaging-to-your-mobile-app.md
 ./pages/documents/Messaging-Channels/mobile-app-messaging/mobile-app-messaging-faqs.md
-./pages/documents/Messaging-Channels/test.md
 ./pages/documents/Messaging-Channels/Social-Messaging/social-messaging-configuration-guide.md
 ./pages/documents/Messaging-Channels/Social-Messaging/social-messaging-user-guide.md
 ./pages/documents/Messaging-Channels/Social-Messaging/social-messaging-overview.md
@@ -273,7 +272,6 @@
 ./pages/documents/Contact-Center-Management/Campaigns/campaign-goals.md
 ./pages/documents/Contact-Center-Management/Campaigns/campaign-dashboard-and-data-bar.md
 ./pages/documents/Contact-Center-Management/Campaigns/campaigns-overview.md
-./pages/documents/Contact-Center-Management/test.md
 ./pages/documents/Contact-Center-Management/Live-chat-operations/queue-prioritization-for-live-chat.md
 ./pages/documents/Contact-Center-Management/Live-chat-operations/wrap-up-time.md
 ./pages/documents/Contact-Center-Management/Live-chat-operations/surveys-with-live-chat.md
@@ -310,7 +308,6 @@
 ./pages/documents/Data-Reporting/business-reporting-metrics.md
 ./pages/documents/Data-Reporting/Data-Transporter/data-transporter.md
 ./pages/documents/Data-Reporting/macs.md
-./pages/documents/Data-Reporting/test.md
 ./pages/documents/Data-Reporting/Messaging/messaging-conversation-segments.md
 ./pages/documents/Data-Reporting/Messaging/Messaging-dashboards/bot-performance-messaging.md
 ./pages/documents/Data-Reporting/Messaging/Messaging-dashboards/agent-activity-dashboard.md
@@ -357,7 +354,6 @@
 ./pages/documents/Security-Regulations/MFA/user-manual.md
 ./pages/documents/Security-Regulations/samesite-cookies-chrome-80.md
 ./pages/documents/Security-Regulations/LivePerson-Cookies.md
-./pages/documents/Security-Regulations/test.md
 ./pages/documents/Security-Regulations/Secure-forms/secure-forms-messaging.md
 ./pages/documents/Security-Regulations/Secure-forms/secure-forms-for-chat.md
 ./pages/documents/Developer-Tools/Functions/terms-of-use.md
@@ -376,7 +372,6 @@
 ./pages/documents/Admin-Settings/applications-campaign.md
 ./pages/documents/Admin-Settings/create-manage-users.md
 ./pages/documents/Admin-Settings/case-management-support.md
-./pages/documents/Admin-Settings/test.md
 ./pages/documents/Admin-Settings/Supported-languages.md
 ./pages/conversation-builder-migration-to-gcp.md
 ./pages/conversation-builder-migration-to-gcp-faqs.md

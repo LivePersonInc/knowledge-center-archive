@@ -7,8 +7,8 @@ const Promise = require('bluebird');
 
 const GAP_BETWEEN_UPLOADS = 1000;
 const client = new management.ManagementClient({
-  projectId: 'b85565b7-451d-0010-ff99-752ce381ad09', // id of your Kentico Kontent project
-  apiKey: 'ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogImE0NTA3MTAwMGJjYzRkOGU4NDExMzI3ZGRhMzcxYmZmIiwNCiAgImlhdCI6ICIxNjMyMTc2NjU0IiwNCiAgImV4cCI6ICIxOTc3Nzc2NjU0IiwNCiAgInByb2plY3RfaWQiOiAiYjg1NTY1Yjc0NTFkMDAxMGZmOTk3NTJjZTM4MWFkMDkiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1ZmQ4ZTliMzViZGRkMjAwNmU3OTcyOWUiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.gPUSQfC6EKpYPACiqeFwQ2TM5Rtx9cb-aBEZbh9qorg' // Content management API token
+  projectId: '4f67b96c-d078-0081-e1c3-7a8478c0bfb9', // id of your Kentico Kontent project
+  apiKey: 'ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjBjOWRiYjA0OGRjMTQ0NjRiMmMzYzg3NmU3ZDAxZTFmIiwNCiAgImlhdCI6ICIxNjMyMjQxOTEzIiwNCiAgImV4cCI6ICIxOTc3ODQxOTEzIiwNCiAgInByb2plY3RfaWQiOiAiNGY2N2I5NmNkMDc4MDA4MWUxYzM3YTg0NzhjMGJmYjkiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1ZmQ4ZTliMzViZGRkMjAwNmU3OTcyOWUiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.RvTolI-S9kUz5ixSfEbsYUJFkbaIDtQSQpa5NX6VxC8' // Content management API token
 });
 
 // ** this is an exampe for using overrides for node module called marked
@@ -57,7 +57,7 @@ const filesArray = []
 let errors = [];
 var eachLine = Promise.promisify(lineReader.eachLine);
 //change to new file on prod build
-eachLine('./_scripts/newFile.txt', function (line) {
+eachLine('./_scripts/failingFiles.txt', function (line) {
   filesArray.push(line)
 }).then(function () {
   for (let index = 0; index < filesArray.length; index++) {
@@ -159,40 +159,94 @@ const upload =(file)=>{
     //    .toPromise()
     //    .then(response => {
 
-      //byItemExternalId(res.data.permalink)
-      //byItemId(response.data.id)
+    //   //byItemExternalId(res.data.permalink)
+    //   //byItemId(response.data.id)
       
       //upsert start
-    client.updateContentItem()
+    client.upsertLanguageVariant()
           .byItemExternalId(res.data.permalink)
-          .withData({
-            name: res.data.pagename,
-            body:body,
-            pagename: res.data.pagename,
-            categoryname: res.data.categoryName || '',
-            subcategoryname: res.data.subCategoryName ? res.data.subCategoryName.toString() : '',
-            subtitle: res.data.subtitle || '',
-            channels_supported: res.data.indicator === 'both' ? [{ codename: 'messaging' }, { codename: 'chat_3566c51' }] : [{ codename: (res.data.indicator === 'chat') ? 'chat_3566c51' : res.data.indicator }],
-            level3: res.data.level3 || '',
-            permalink: res.data.permalink || '',
-            istutorial: (res.data.isTutorial) ? [{ codename: `${res.data.isTutorial}` }] : [{ codename: 'false' }],
-            isnew: (res.data.isnew) ? [{ codename: `${res.data.isNew}` }] : [{ codename: 'false' }],
-            redirects: res.data.redirect_from ? res.data.redirect_from.join() : '',
+          .byLanguageCodename('en-US')
+          .withData((builder) => [
+            builder.textElement({
+              element: {
+                codename: 'pagename'
+              },
+              value: res.data.pagename
+            }),
+            builder.textElement({
+              element: {
+                codename: 'categoryname'
+              },
+              value: res.data.categoryName || ''
+            }),
+            builder.textElement({
+              element: {
+                codename: 'subcategoryname'
+              },
+              value: res.data.subCategoryName ? res.data.subCategoryName.toString() : ''
+            }),
+            builder.textElement({
+              element: {
+                codename: 'subtitle'
+              },
+              value: res.data.subtitle || ''
+            }),
 
-          })
+            builder.taxonomyElement({
+              element: {
+                codename: 'channels_supported'
+              },
+              value: res.data.indicator === 'both' ? [{ codename: 'messaging' }, { codename: 'chat_3566c51' }] : [{ codename: (res.data.indicator === 'chat') ? 'chat_3566c51' :res.data.indicator }]
+            }),
+
+            builder.textElement({
+              element: {
+                codename: 'level3'
+              },
+              value: res.data.level3 || ''
+            }),
+            builder.urlSlugElement({
+              element: {
+                codename: 'permalink',
+
+              },
+              mode: 'custom',
+              value: res.data.permalink || ''
+            }),
+            builder.multipleChoiceElement({
+              element: {
+                codename: 'istutorial'
+              },
+              value: (res.data.isTutorial) ? [{ codename: `${res.data.isTutorial}` }] : [{ codename: 'false' }]
+            }),
+            builder.multipleChoiceElement({
+              element: {
+                codename: 'isnew'
+              },
+              value: (res.data.isnew) ? [{ codename: `${res.data.isNew}` }] : [{ codename: 'false'}]
+            }),
+            builder.richTextElement({
+              element: {
+                codename: 'redirect_from'
+              },
+              value: res.data.redirect_from ? res.data.redirect_from.join() : ''
+            })
+          ])
           .toPromise()
           .catch(error => {
             console.log("had an error")
             console.log(error.originalError.response.data)
             errors.push(file)
           });
-      //upsert end
-      // })
-      // .catch(error => {
-      //   console.log("had an error")
-      //   console.log(error.originalError.response.data)
-      //   errors.push(file)
-      // });
+    //   //upsert end
+    //   })
+     
+    
+    // .catch(error => {
+    //     console.log("had an error")
+    //     console.log(error.originalError.response.data)
+    //     errors.push(file)
+    //   });
 
     })
   console.log(errors)

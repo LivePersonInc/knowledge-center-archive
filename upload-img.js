@@ -4,8 +4,8 @@ const Promise = require('bluebird');
 const fs = require('fs');
 
 const client = new management.ManagementClient({
-  projectId: 'b85565b7-451d-0010-ff99-752ce381ad09', // id of your Kentico Kontent project
-  apiKey: 'ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjNhMjdlNjU4YzkzYzQxYjk4Y2NkYzM5ZTI1NTUyZTJlIiwNCiAgImlhdCI6ICIxNjMwNTE5ODU4IiwNCiAgImV4cCI6ICIxOTc2MTE5ODU4IiwNCiAgInByb2plY3RfaWQiOiAiYjg1NTY1Yjc0NTFkMDAxMGZmOTk3NTJjZTM4MWFkMDkiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1ZmQ4ZTliMzViZGRkMjAwNmU3OTcyOWUiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.xfRNkSjJEQxjXoDnJycFE9HQtw18sASJLldjTHyR7EE',
+  projectId: '4f67b96c-d078-0081-e1c3-7a8478c0bfb9', // id of your Kentico Kontent project
+  apiKey: 'ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjBjOWRiYjA0OGRjMTQ0NjRiMmMzYzg3NmU3ZDAxZTFmIiwNCiAgImlhdCI6ICIxNjMyMjQxOTEzIiwNCiAgImV4cCI6ICIxOTc3ODQxOTEzIiwNCiAgInByb2plY3RfaWQiOiAiNGY2N2I5NmNkMDc4MDA4MWUxYzM3YTg0NzhjMGJmYjkiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1ZmQ4ZTliMzViZGRkMjAwNmU3OTcyOWUiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.RvTolI-S9kUz5ixSfEbsYUJFkbaIDtQSQpa5NX6VxC8',
 });
 
 const GAP_BETWEEN_UPLOADS = 500;
