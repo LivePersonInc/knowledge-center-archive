@@ -17,18 +17,18 @@ Connect WhatsApp to the Conversational Cloud.
 
 1. You must have a verified Facebook Business. To learn more about business verification click [here](https://www.facebook.com/business/help/2058515294227817?id=180505742745347). In case you business is not yet verified you can only send test messages in a trial experience to a limited range of number.
 2. Have the phone number ready that you plan to use for WhatsApp Business. This number should not yet be registered on WhatsApp messsenger or the WhatsApp Business App. In case it was registered on the WhatsApp Business app, please follow [this guide](https://developers.facebook.com/docs/whatsapp/guides/phone-number#migrate).
-3. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business.
+3. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. Incase you are unable to receive the call or SMS for verification please fill out the <a href="https://www.liveperson.com/whatsapp-form/">WhatsApp Registration and Setup Form</a>
 
 
 ## Step 1: Setup WhatsApp as a data source
 
 Login to the [Conversational Cloud](https://authentication.liveperson.net/) and click on the **Campaign Builder** tab located in the left navigation bar. Click on **Data Sources** in the Campaign Builder footnote.
 
-![](img/Facebook Messenger quick start-1.png)
+![](img/whatsapp-campaign-screen.png)
 
 Click **Connect** in the WhatsApp tile.
 
-TODO image
+![](img/whatsapp-data-sources.png)
 
 ## Step 2: Follow the Embedded SignUp Process
 
@@ -36,13 +36,13 @@ Click on the **Add New Number** button and log in to Facebook. If you are alread
 
 Please follow the instructions in the pop-up window to create a new Facebook business or to select an existing one. After that, you'll be asked to create a new WhatsApp Business Account. In the last step, you will have to create a new WhatsApp Business Profile during which you'll have to verify the phone number that you plan to use for WhatsApp. Once the process was completed, the pop-up closes and a dialog will be presented that asks you to confirm the phone number and to select the main language of the account. Click on **Next** to complete the setup.
 
-TODO image
+![](img/whatsapp-number-language-list.png)
 
 
 ## Step 3: Configure your business profile
-Lookup your number in the table and click on "Edit" in order to configure the Business profile that consumers will see in the WhatsApp app when messaging with your business.
+Lookup your number in the table and click on "Edit Profile" in order to configure the Business profile that consumers will see in the WhatsApp app when messaging with your business.
 
-TODO image
+![](img/whatsapp-edit-profile.png)
 
 ## Step 4: Configure additional settings
 Lookup your number in the table and click on "Settings" in order to configure the following settings:
@@ -52,7 +52,9 @@ Lookup your number in the table and click on "Settings" in order to configure th
 
 In addition to that, you can configure automated responses that are sent back to consumers.
 
-TODO image
+![](img/whatsapp-edit-settings.png)
 
 ## Step 5: Send and receive messages from WhatsApp
-You can now test the setup by sending a WhatsApp message to the WhatsApp number that you connected to Conversational Cloud. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in the WhatsApp App. Note that you can only send numbers to a limited range of numbers until your Facebook Business, Whatsapp Business account and display name have been approved. You can review the status of the WhatsApp Business account and the display name when you hover over the phone number entry in the table. To review the status of the Facebook Business verification, please log in to the Facebook Business Manager. 
+Look up your number in the table and click on "Test Utilities" to open a popup containing link and QR to open the chat with the number. You can now test the setup by sending a WhatsApp message to the WhatsApp number that you connected to Conversational Cloud. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in the WhatsApp App. Note that you can only send numbers to a limited range of numbers until your Facebook Business, Whatsapp Business account and display name have been approved. You can review the status of the WhatsApp Business account and the display name when you hover over the phone number entry in the table. To review the status of the Facebook Business verification, please log in to the Facebook Business Manager. 
+
+![](img/whatsapp-test-utilities.png)
