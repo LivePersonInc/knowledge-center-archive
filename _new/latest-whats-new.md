@@ -3,76 +3,77 @@ pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Highlights of August 2021
+subtitle: Highlights of September 2021
 level3: ''
 permalink: whats-new-latest-whats-new.html
 isTutorial: false
 isNew: false
 ---
 
-Watch this short video to see an overview of all the top features that came out this Summer, and catch a preview of new features coming to LivePerson in the weeks ahead.
+Watch this short video to see an overview of all the top features that came out this September, and catch a preview of new features coming to LivePerson in the weeks ahead.
 
-<iframe src="https://player.vimeo.com/video/588339498" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="LINK" allowfullscreen></iframe>
 
-## Conversational Marketplaces
-LivePerson’s Conversational Marketplaces transform the way online marketplaces, their customers, and consumers engage in sales and customer care journeys. The Marketplace Solution allows brands to use LivePerson’s Conversational Commerce tools to create seamless conversational experiences between consumers and their customers - independent businesses, subsidiary companies, and franchise networks - on their digital storefronts. 
+## KnowledgeAI
 
-With LivePerson’s Conversational Marketplaces, brand sites have the ability to directly message with their consumers, empowering them to provide higher customer satisfaction, increase lifetime value, generate leads, and drive revenue. 
+This month, LivePerson is excited to introduce KnowledgeAI, our Conversational AI application that unifies your brand’s content by transforming it’s resources into messaging-ready answers to power conversations with agents and bots.
 
-![](img/whats-new-aug-1.png)
+![](img/whats-new-sept-1.png)
 
-* **Personalize your Marketplace for consumers’ preferences**-
-Businesses on your Conversational Marketplace can quickly answer questions and transact with consumers as they research products and services — on your brand’s site, app or in familiar channels like: Apple Business Chat, WhatsApp, text messaging, and more.
+Leverage content from a variety of sources (CMS, Google Sheets, and CSVs) to equip agents and bots with time-saving, AI-powered answers to seamlessly respond to consumer questions. KnowledgeAI can automate answers across channels using LivePerson’s Conversational Cloud, giving brands the ability to:
+ 
+* Power bot-to-consumer conversations
+* Recommend knowledge answers to agents, increasing their efficiency and availability. 
 
-* **Drive more leads and sales with direct messaging**
-Direct communication with businesses makes it easy for their consumers to finalize decisions, so brands can deliver more high-intent leads and sales attribution. 
+![](img/whats-new-sept-2.png)
 
-* **Boost conversions with in-channel integrations**
-Allow consumers to make appointments or complete transactions in these secure conversations — no channel switch required. Attribute that revenue to help prove your brand’s platform’s value.
+Simply assign the appropriate human agent skills to the knowledge bases in Conversation Assist, and turn on the recommendations setting. If the conversation’s skill is a match to the knowledge base, recommendations from the knowledge base will be served when appropriate.
 
-* **Expand discovery and strengthen retention**
-Increase stickiness by activating conversational entry points beyond your brand’s site for merchants. All conversions will ultimately be attributed to your brand as the source of the conversation.
+## Agent App
+The past two quarters, our Agent App received a series of rich updates with new features and functionalities that include:
 
-### Marketplace Capabilities:
+* Additional filters
+* Click to open Hyperlinks / Emails
+* ‘Authenticated conversation’ check marks
+* Custom away states
+* Send files
+* Change agent pictures (managers)
+* ‘First-time consumer’ indicator
+* Warning for unsent / failed messages
+* Video for WhatsApp / Twitter / SMS
 
-* **Account Provisioning APIs** - get SMBs up and running quickly
+![](img/whats-new-sept-3.png)
 
-* **Conversational AI & Routing** - scale bots to manage conversations for 1,000s of SMBs from a Marketplace account, with escalations to SMB / Gainshare
+**Social Connector support**
+* Social Widget
+* Twitter and Facebook
+* Public / Private switch
+* Twitter character count
+* Open in native Twitter app link
+* Video supported
 
-* **Managed Service/Gainshare Agent & Manager Workspaces** - manage convos on behalf of SMBs & Marketplaces with reporting
+![](img/whats-new-sept-3a.png)
+ 
+**Widgets:**
+* Consumer Info Widget
+* Summary Widget
+* Social Widget
+![](img/whats-new-sept-4.png)
 
-### Channels Available for Marketplaces 
+##Maven Pay updates - now in Early Access
 
-* Web Messaging 
-* Apple Business Chat
-* Twilio SMS
-* WhatsApp
-* Google Business Messaging (coming soon)
+Exciting new Maven Pay updates include:
+* **Proactive Conversational Bill Pay**: Automate bill pay and collection use cases through a combination of Maven Pay, Proactive Messaging and iHub.
+* **New plug and play options**: Additional payment gateways and Workato (iHub)
+* **Integration Payments into Maven Messenger**: Brands using Messenger can complete Maven Pay requests in the Maven for Consumer mobile app
+* **New Payment Form UI**
 
-## Conversation Rollover Account 
-Conversation Rollover allows conversations to be handled by a different account than they are owned by. A Rollover account can be configured to handle conversations on behalf of the entire Marketplace provider in a single account, which is especially helpful for scaling the automation strategy of the Marketplace. A single bot can be enabled to handle the conversation volume across all brands with an escalation back to the built-in brand account as needed. 
+![](img/whats-new-sept-5.png)
 
-![](img/whats-new-aug-2.png)
+## MACS available to all in English
+LivePerson’s Meaningful Automated Conversation Score, or MACS, a new way to measure the quality of bot conversations, is available in English to all customers.
 
-## Maven Pay - Early Access
-Integrate payments directly into a conversation with Maven Pay, and collect payment via Maven Pay within the Messaging Window, greatly increasing retention and revenue with new sales use cases.
+![](img/whats-new-sept-6.png)
 
-![](img/whats-new-aug-3.png)
-
-### Channels Available for Maven Pay Stripe integration Early Access:
-* SMS
-* Web Messaging
-* Apple Business Chat
-* WhatsApp
-* Google Business Messaging
-* Facebook Messenger (EA)
-
-### Maven Pay Capabilities:
-Integrated credit card and address storage into Maven Messenger Consumer Profile
-Proactive Bill Pay - automate bill pay and bill collection use cases through combination of Maven Pay, Proactive Messaging and iHub  - Coming soon
-New plug and play options include new payment gateways and Workato (iHub) - Coming soon
-
-
-
-
-
+## WCAG 2.1 AA certification
+Our Conversational Cloud officially holds a WCAG 2.1 AA certification for Web Messaging, ensuring our solution is accessible to everyone. 
