@@ -11,8 +11,9 @@ isNew: false
 
 ---
 
-This article guides you through setup and common tasks to get started with Connect to Messaging (C2M) — an IVR deflection solution within the conversational cloud, including:
+This article guides you through setup and common tasks to get started with Connect to Messaging (C2M) — an IVR deflection solution within the conversational cloud. 
 
+Please follow the steps listed below:
 1. Enable C2M for your account
 2. Configure C2M in the the Web Tool 
 3. Use C2M APIs in your IVR solution to start deflecting voice calls to messages

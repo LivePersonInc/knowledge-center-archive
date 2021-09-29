@@ -51,7 +51,7 @@ When a voice call is deflected to an SMS channel, the consumer receives a push n
 ![](img/C2M_Overview-1.png)
 
 ### IVR deflection to In-App channel
-When a voice call is deflected to an In-App channel, the consumer receives a push notification. When the consumer taps on the notification, the message is opened in the messaging window of the In-App channel, and consumers can continue their conversation with the brand. Note: If the consumer has turned off their App push notification then they will not receive the deflected message. 
+When a voice call is deflected to an In-App channel, the consumer receives a push notification. When the consumer taps on the notification, the message is opened in the messaging window of the In-App channel, and consumers can continue their conversation with the brand. Note: If the consumer has turned off their app push notification then they will not receive the deflected message. For further details on In-App setup and limitations please refer [here](https://knowledge.liveperson.com/messaging-channels-connect-to-messaging-connect-to-app-messaging.html). 
 
 
 ![](img/C2M_Overview-2.png)
@@ -66,3 +66,10 @@ When a voice call is deflected to the ABC channel, the consumer receives an SMS 
 Note: If the receiving consumer is on an Android phone and taps on the ABC link, then they will be redirected back to SMS to continue the conversation with the brand. 
 
 ![](img/C2M_Overview-4.png)
+
+### Limitations
+* In the event that the consumer has an open conversation with the brand, the outbound message will not be sent to the consumer. 
+* Rate limit: Currently there is a rate limit of 30 req/ sec for all the channels per account. 
+* The first outbound App message will be displayed to the agent in the new CX Agent Widget on the Agent Workspace (this will not affect the consumer view of the outbound message in the messaging interface). It will not show up in the agent conversation transcript window.
+* WhatsApp Rich Message Templates are not supported.
+* For In-App messaging limitations please refer here. 
