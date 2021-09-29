@@ -75,7 +75,7 @@ Exciting new Maven Pay updates include:
 ## MACS available in North American for all English bots
 LivePerson’s Meaningful Automated Conversation Score, or MACS, a new way to measure the quality of bot conversations, is available in English to all customers in NA region. Contact your LivePerson account repreentative to enables MACS outside of the NA region. 
 
-![](img/whats-new-sept-6.png)
+![](img/WNS-6.png)
 
 ## WCAG 2.1 AA certification
 Our Conversational Cloud officially holds a WCAG 2.1 AA certification for Web Messaging, ensuring our solution is accessible to everyone. 
