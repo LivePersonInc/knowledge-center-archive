@@ -406,6 +406,105 @@ Connect to messaging supports the ABC channel. Brands can now set up their IVR d
 ### Description
 The Reporting dashboard includes a new chart for the following funnel metrics: number of messages attempted, eligible, delivered, read, conversation started and conversation closed. 
 
-
 ![](img/week-of-september-29th-8.png)
+
+## Add complex evaluations and time based criteria to your dynamic routing policies
+
+### Type: Enhancement [Dynamic Routing]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+### Description
+Dynamic Routing now includes a new expression editor that brands can use to configure complex routing policies that require complex evaluations or time and date based criteria. 
+
+**Examples:**
+1. Routing VIP consumers to specific agents or skills within business hours. 
+2. Routing conversations from certain channels with critical intents during the busiest months or weeks.
+3. Combining multiple complex evaluation criteria to arrive at a logical decision for routing.
+
+**Available actions:**
+* Logical Operations: AND, OR & NOT
+* Mathematical Operations: +, -, *, ^, %, sqrt
+* Nested Conditions
+* Dates, Times, Days of the week
+
+**Availability:** The expression editor is available to all brands who have been upgraded to Context Service v2.
+
+### Enablement
+To use this feature, launch Conversation Orchestrator from the applications menu in the Conversational Cloud and then switch to “Write an expression” when creating a new Dynamic routing policy.
+
+![](img/week-of-september-29th-9.png)
+
 
