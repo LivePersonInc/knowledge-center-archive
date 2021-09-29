@@ -43,7 +43,7 @@ The past two quarters, our Agent App received a series of rich updates with new 
 * Warning for unsent / failed messages
 * Video for WhatsApp / Twitter / SMS
 
-![](img/WNS-3.png)
+![](img/WNS-3a.png)
 
 **Social Connector support**
 * Social Widget
@@ -53,14 +53,14 @@ The past two quarters, our Agent App received a series of rich updates with new 
 * Open in native Twitter app link
 * Video supported
 
-![](img/WNS-4A.png)
+![](img/WNS-4c.png)
 
 **Widgets:**
 * Consumer Info Widget
 * Summary Widget
 * Social Widget
 
-![](img/WNS-4.png)
+![](img/WNS-4b.png)
 
 ##Maven Pay updates - now in Early Access
 
