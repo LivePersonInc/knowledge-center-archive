@@ -24,8 +24,8 @@ Please follow the steps listed below:
 Brand campaign managers or administrators can request to enable the service by following these steps:
 <div><ol type="a">
   <li>Open the Conversational Cloud platform.</li>
-  <li>Click on the quick launch button on the bottom left corner of the screen. 
-  <img src="/img/c2m_user_guide_1.png" alt="C2M"/> </li> 
+  <li>Click on the quick launch button on the bottom left corner of the screen. </li>
+    <img src="/img/c2m_user_guide_1.png" alt="C2M"/>  
   <li>Click on the “Connect to Messaging” icon.</li>
   <li>When on the ‘Welcome’ screen — click on the ‘Contact Us’ button. This will open a new tab where the user will provide the information listed in the <a href="https://docs.google.com/forms/d/e/1FAIpQLScTClhEWoHlQ0gvz3d51RowfBFaA2fjude9WQrI5kECk3KMgA/viewform" target="_blank">Onboarding request form.</a></li>
 </ol></div>
