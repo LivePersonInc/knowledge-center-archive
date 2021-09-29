@@ -404,6 +404,7 @@
       pages:
         - pagename: September
           level3:
+            - level3name: Week of September 29th
             - level3name: Week of September 22nd
             - level3name: Week of September 15th
         - pagename: August
