@@ -500,11 +500,9 @@ Dynamic Routing now includes a new expression editor that brands can use to conf
 * Nested Conditions
 * Dates, Times, Days of the week
 
-**Availability:** The expression editor is available to all brands who have been upgraded to Context Service v2.
+**Availability:** This is only available to brands that are on v2 of the Context Service. All accounts will gradually be migrated from v1 to v2 by the end of 2021. Migration will be a seamless process that will be performed by the product team and brands don’t need to worry about it. Please talk to your LivePerson account executive if you want to be moved to v2 sooner. The v1 APIs will be deprecated on December 31, 2022. 
 
 ### Enablement
-To use this feature, launch Conversation Orchestrator from the applications menu in the Conversational Cloud and then switch to “Write an expression” when creating a new Dynamic routing policy.
+The expression editor is available to all brands who have been upgraded to Context Service v2. To use this feature, launch Conversation Orchestrator from the applications menu in the Conversational Cloud and then switch to “Write an expression” when creating a new Dynamic routing policy.
 
 ![](img/week-of-september-29th-9.png)
-
-
