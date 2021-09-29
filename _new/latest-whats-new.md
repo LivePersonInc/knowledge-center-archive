@@ -12,7 +12,7 @@ isNew: false
 
 Watch this short video to see an overview of all the top features that came out this September, and catch a preview of new features coming to LivePerson in the weeks ahead.
 
-<iframe src="LINK" allowfullscreen></iframe>
+<iframe src="https://vimeo.com/616347541" allowfullscreen></iframe>
 
 ## KnowledgeAI
 
