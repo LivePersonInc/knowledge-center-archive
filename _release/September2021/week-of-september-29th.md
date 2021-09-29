@@ -494,7 +494,7 @@ Dynamic Routing now includes a new expression editor that brands can use to conf
 2. Routing conversations from certain channels with critical intents during the busiest months or weeks.
 3. Combining multiple complex evaluation criteria to arrive at a logical decision for routing.
 
-**Available actions:**
+**Available actions**
 * Logical Operations: AND, OR & NOT
 * Mathematical Operations: +, -, *, ^, %, sqrt
 * Nested Conditions
