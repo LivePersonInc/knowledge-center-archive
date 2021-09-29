@@ -78,6 +78,6 @@ LivePerson’s Meaningful Automated Conversation Score, or MACS, a new way to me
 ![](img/whats-new-sept-6.png)
 
 ## WCAG 2.1 AA certification
-Our Conversational Cloud officially holds a WCAG 2.1 AA certification for Web Messaging, ensuring our solution is accessible to everyone. 
+Our Conversational Cloud officially holds a WCAG 2.1 AA certification for Web Messaging, ensuring our solution is accessible to everyone. Read more about our accessibility [here]( https://knowledge.liveperson.com/security-regulations-accessibility-policy.html#conversational-cloud-accessibility-conformance-statements).
 
 ![](img/WNS-6.png)
