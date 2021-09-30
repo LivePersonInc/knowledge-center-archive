@@ -12,24 +12,25 @@ date: 2021-09-12 9:03:55
 
 ---
 ## Overview
-Leveraging your brand’s knowledge and content helps quickly solve problems and offer answers, while minimizing the need for the involvement of a human agent. 
 
-KnowledgeAI, our Conversational AI application, unifies and leverages brand’s curated content to provide fast answers to common questions and issues, and effectively automate consumer conversations at scale. KnowledgeAI allows brands to seamlessly insert their own content into consumer messages to give accurate answers and engage in rich, automated conversations with consumers, letting brands direct consumers to the right information when they need it.
-
+KnowledgeAI unifies and leverages your brand’s content to provide fast answers to common questions and issues, and effectively automate consumer conversations at scale. Using KnowledgeAI, brands can ingest and transform existing content into messaging-ready answers and seamlessly answer consumer questions in rich, automated conversations.
+ 
 ### Challenges:
-Brands often face challanges that include:
-* Fragmented and inconsistent content across multiple data sources
-* Expensive and painful migration processes
-* Content that is hard transform and adapt to rich, automated conversations
-* Content that is not generated from your consumer conversations
+**Automating answers at scale:**
+* Content is often scattered across multiple sources
+* Relevant, accurate answers are hard to pick out of content
+* Answers are often too long or otherwise not yet ready for use with messaging
+* Answers aren’t in the right form to use across channels
+
 
 ### Key features and capabilities:
-
-* Transform content into messaging-ready answers to help consumers across channels: Web, SMS, Apple Business Chat, and more.
+**KnowledgeAI makes automating answers easy and self-serve**:
+* Ingest  content from a variety of sources, like CMSs, Google Sheets, and CSVs
+* Transform content into messaging-ready answers to help consumers across channels: Web, SMS, Apple Business Chat, and more
+* Use AI to answer the question the consumer asked in any language supported by our NLU or supported third-party NLU engines
 * Automate AI-powered answers to consumer questions
-* Equip agents with time-saving, AI-powered answers.
-* Improve results through analysis of historical answer performance and testing.
-* Connect content to all languages supported by LivePerson’s NLU engine, as well as third-party NLU engines as defined in our NLU documentation.
+* Equip agents with time-saving, AI-powered answers
+* Improve results through analysis of historical answer performance and testing
 
 ## Benefits
 ### Unify knowledge from multiple sources
@@ -42,7 +43,7 @@ Brands often face challanges that include:
 
 ### Offer the right answers at the right time
 * Answer the consumer’s question using powerful Natural Language Understanding (NLU) technology
-* Measure, quantify, and understand the helpfulness of answers
+* Use powerful analytics to measure and improve the impact of answers
 * Track and improve efficiency of your answers and automations
 
 ### Automate answers 
@@ -51,34 +52,26 @@ Use the same content source to:
 * Recommend answers to agents within Conversational Cloud’s agent workspace
 
 ### Equip agents with a toolbelt of easy-to-use responses
-* Contextually curate answers and automations available to consumers and agents.
-* Help agents quickly assist consumers with intently recommended answers and automations.
-* Make messaging even more convenient for your agents with SmartCompose and SmartSuggestions. Includes out-of-the-box integration with Google.
-
-### Optimize answers
-* Automatically improve and tune recommendations based off of feedback and usage reports
-* Identify intents and content for improvement with powerful analytics
+* Use intents to recommend answers and automations to agents when they need them
+* Start recommending answers from KnowledgeAI in just a few clicks
+* Save agent time
 
 ## How KnowledgeAI Works
 The diagram below illustrates how you can unify and leverage your content to:
 * Power intelligent answers via Conversation Builder bots
 * Recommend answers to agents via Agent Assist
-* Get answers directly via APIs
+* Get answers directly via APIs (coming soon)
 
-![](img/knowledgeai-1.png)
+![](img/KAI-1.png)
 
 {: .notice}
 KnowledgeAI works with LivePerson’s NLU engine and those from other providers. LivePerson’s own NLU engine supports several, different languages, with more languages being added often.
 
 Using your content in an automated conversation: 
-![](img/knowledgeai-2.png)
+![](img/KAI-2.gif)
 
 Recommending answers and bots to agents:
 ![](img/knowledgeai-3.png)
-
-SmartReply and SmartCompose:
-![](img/knowledgeai-4.png)
-![](img/knowledgeai-5.png)
 
 ## Next steps: Getting started
 * **Transform content into messaging ready answers.** Create answers to consumer questions using one or more CMS, Google Sheet, or csv. [Get started here](https://developers.liveperson.com/knowledge-base-overview.html)
