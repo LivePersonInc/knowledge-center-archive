@@ -1,10 +1,10 @@
 ---
 pagename: KnowledgeAI with Agent Assist 
 categoryName: AI, Bots & Automation
-subCategoryName: KnowledgeAI
+subCategoryName: ''
 indicator: messaging
 subtitle: LivePerson’s KnowledgeAI unifies and leverages content to automate effective consumer conversations at scale. 
-level3: KnowledgeAI
+level3: ''
 permalink: ai-bots-automation-knowledgeai-with-agent-assist.html
 isTutorial: true
 isNew: false
