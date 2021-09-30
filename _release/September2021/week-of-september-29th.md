@@ -1,15 +1,15 @@
 ---
-pagename: Week of September 22nd
+pagename: Week of September 29th
 categoryName: Release notes
 subCategoryName: "2021"
 indicator: messaging
 subtitle: ""
 level3: September 2021
-permalink: release-notes-2021-september-week-of-september-22nd.html
+permalink: release-notes-2021-september-week-of-september-29th.html
 isTutorial: false
 isNew: false
 published: true
-date: "2021-09-22"
+date: "2021-09-29"
 ---
 
 These release notes include new features arriving September 2021. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
