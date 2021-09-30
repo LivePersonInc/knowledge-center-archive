@@ -5,7 +5,7 @@ subCategoryName: KnowledgeAI
 indicator: messaging
 subtitle: LivePerson’s KnowledgeAI unifies and leverages content to automate effective consumer conversations at scale. 
 level3: KnowledgeAI
-permalink: ai-bots-automation-knowledgeai-knowledgeai-with-agent-assist-overview.html
+permalink: ai-bots-automation-knowledgeai-with-agent-assist.html
 isTutorial: true
 isNew: false
 date: 2021-09-12 9:03:55 
@@ -71,7 +71,7 @@ Using your content in an automated conversation:
 ![](img/KAI-2.gif)
 
 Recommending answers and bots to agents:
-![](img/knowledgeai-3.png)
+![](img/KAI-3.png)
 
 ## Next steps: Getting started
 * **Transform content into messaging ready answers.** Create answers to consumer questions using one or more CMS, Google Sheet, or csv. [Get started here](https://developers.liveperson.com/knowledge-base-overview.html)
