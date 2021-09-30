@@ -57,7 +57,6 @@ Brands select the skills to use for C2M routing. All the skills need to be set u
 ![](img/c2m_user_guide_5.png)
 
 ### Create new API handoffs
-#### LPA users enabling the service
 Before you can call the C2M APIs, brands will need to first create API handoff(s) in the Web Tool. 
 
 An API handoff is a logical grouping of a set of configurations, such as: different channels, the priority of the channels (if more than one channel is selected) and more. When calling the C2M 2.0 eligibility endpoint, brands can pass this API handoff id and the API will leverage these configurations to send the IVR deflection outbound message.
@@ -67,9 +66,12 @@ Brands can click on the “New Handoff” button to start creating a new handoff
 ![](img/c2m_user_guide_6.png)
 
 The following are special considerations specific to a select few channels:
-**WhatsApp:** When selecting WhatsApp as the channel, brands first have to create WhatsApp template(s) and submit them to the Facebook team for approval. Brands can create and submit these WhatsApp templates via the “Message Templates” option in the Web Tool. 
 
-**App Messaging:** Refer to [this](https://knowledge.liveperson.com/messaging-channels-connect-to-messaging-connect-to-app-messaging.html) article for more details on configuration for the App Messaging channel.
+  **WhatsApp:** 
+  When selecting WhatsApp as the channel, brands first have to create WhatsApp template(s) and submit them to the Facebook team for approval. Brands can create and submit these WhatsApp templates via the “Message Templates” option in the Web Tool. 
+
+  **App Messaging:** 
+  Refer to [this](https://knowledge.liveperson.com/messaging-channels-connect-to-messaging-connect-to-app-messaging.html) article for more details on configuration for the App Messaging channel.
 
 ## 3. Use C2M APIs in your IVR solution to start deflecting voice calls to messages
 Now that C2M is activated and configured, brands are ready to start using the C2M APIs in their IVR system to deflect the call.
