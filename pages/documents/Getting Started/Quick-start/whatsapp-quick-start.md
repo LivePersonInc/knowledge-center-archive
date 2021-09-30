@@ -7,7 +7,7 @@ subtitle: Connect with consumers on WhatsApp
 level3: ''
 permalink: getting-started-quick-start-guides-whatsapp-quick-start.html
 isTutorial: true
-date: '2021-07-14T09:10:07.000+00:00'
+date: '2021-10-12T00:00:00.000+00:00'
 isNew: true
 ---
 
@@ -15,9 +15,9 @@ Connect WhatsApp to the Conversational Cloud.
 
 ## Requirements:
 
-1. You must have a verified Facebook Business. To learn more about business verification click [here](https://www.facebook.com/business/help/2058515294227817?id=180505742745347). In case you business is not yet verified you can only send test messages in a trial experience to a limited range of number.
+1. You must have a verified Facebook Business. To learn more about business verification click [here](https://www.facebook.com/business/help/2058515294227817?id=180505742745347). In case you business is not yet verified you can only send test messages in a trial experience to a limited range of numbers.
 2. Have the phone number ready that you plan to use for WhatsApp Business. This number should not yet be registered on WhatsApp messsenger or the WhatsApp Business App. In case it was registered on the WhatsApp Business app, please follow [this guide](https://developers.facebook.com/docs/whatsapp/guides/phone-number#migrate).
-3. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. Incase you are unable to receive the call or SMS for verification please fill out the <a href="https://www.liveperson.com/whatsapp-form/">WhatsApp Registration and Setup Form</a>
+3. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. Incase you are unable to receive the call or SMS for verification, please fill out the <a href="https://www.liveperson.com/whatsapp-form/">WhatsApp Registration and Setup Form</a>
 
 
 ## Step 1: Setup WhatsApp as a data source
@@ -26,7 +26,7 @@ Login to the [Conversational Cloud](https://authentication.liveperson.net/) and 
 
 ![](img/whatsapp-campaign-screen.png)
 
-Click **Connect** in the WhatsApp tile.
+Click **Connect** in the WhatsApp Business tile.
 
 ![](img/whatsapp-data-sources.png)
 
@@ -34,10 +34,13 @@ Click **Connect** in the WhatsApp tile.
 
 Click on the **Add New Number** button and log in to Facebook. If you are already logged in, a window will pop-up asking if you would like to "Continue as `<your name>`"? Click to proceed.
 
-Please follow the instructions in the pop-up window to create a new Facebook business or to select an existing one. After that, you'll be asked to create a new WhatsApp Business Account. In the last step, you will have to create a new WhatsApp Business Profile during which you'll have to verify the phone number that you plan to use for WhatsApp. Once the process was completed, the pop-up closes and a dialog will be presented that asks you to confirm the phone number and to select the main language of the account. Click on **Next** to complete the setup.
+Please follow the instructions in the pop-up window to create a new Facebook business or to select an existing one. After that, you'll be asked to create a new WhatsApp Business Account. In the last step, you will have to create a new WhatsApp Business Profile during which you'll have to verify the phone number that you plan to use for WhatsApp. Once the process is completed, the pop-up closes and a dialog will be presented that asks you to confirm the phone number and to select the main language of the account. Click on **Next** to complete the setup.
 
 ![](img/whatsapp-number-language-list.png)
 
+It can take upto 10 minutes to deploy and configure the WhatsApp connector, the status is shown with a loading spinner. 
+
+![](img/whatsapp-deployment.png)
 
 ## Step 3: Configure your business profile
 Lookup your number in the table and click on "Edit Profile" in order to configure the Business profile that consumers will see in the WhatsApp app when messaging with your business.
@@ -55,6 +58,9 @@ In addition to that, you can configure automated responses that are sent back to
 ![](img/whatsapp-edit-settings.png)
 
 ## Step 5: Send and receive messages from WhatsApp
-Look up your number in the table and click on "Test Utilities" to open a popup containing link and QR to open the chat with the number. You can now test the setup by sending a WhatsApp message to the WhatsApp number that you connected to Conversational Cloud. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in the WhatsApp App. Note that you can only send numbers to a limited range of numbers until your Facebook Business, Whatsapp Business account and display name have been approved. You can review the status of the WhatsApp Business account and the display name when you hover over the phone number entry in the table. To review the status of the Facebook Business verification, please log in to the Facebook Business Manager. 
+Look up your number in the table and click on "Test Utilities" to open a popup containing link and QR to open the chat with the number. You can now test the setup by sending a WhatsApp message to the WhatsApp number that you connected to Conversational Cloud. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in the WhatsApp App. 
+
+
+Note that you can only send numbers to a limited range of numbers until your Facebook Business, Whatsapp Business account and display name have been approved. You can review the status of the WhatsApp Business account and the display name when you hover over the phone number entry in the table. To review the status of the Facebook Business verification, please log in to the Facebook Business Manager. 
 
 ![](img/whatsapp-test-utilities.png)

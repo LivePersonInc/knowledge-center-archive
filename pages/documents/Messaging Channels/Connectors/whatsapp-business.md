@@ -18,7 +18,7 @@ redirect_from:
 WhatsApp is popular in 104 countries around the world, making it an excellent channel for brands to adopt. The WhatsApp Business connector allows brands to communicate with consumers using their favorite messaging channel. With LivePerson, brands have access to the premiere enterprise messaging platform for effectively managing WhatsApp conversations at scale.
 
 {: .notice}
-**Please note:** The WhatsApp Business Connector for the Conversational Cloud can be made available to selected brands that have been approved by WhatsApp to participate in the program. Brands that are interested in the WhatsApp Business product can following this [**Whatsapp Quick Start**](/getting-started-quick-start-guides-whatsapp-quick-start.html) guide to onboard a number.
+**Please note:** A WhatsApp Business Connector can easily be created via the Conversational Cloud. To get started, please follow this guide: [**Whatsapp Quick Start**](/getting-started-quick-start-guides-whatsapp-quick-start.html).
 
 
 ## Why use WhatsApp to connect with your consumers?
