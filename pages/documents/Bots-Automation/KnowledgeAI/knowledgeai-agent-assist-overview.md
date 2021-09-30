@@ -81,5 +81,3 @@ Recommending answers and bots to agents:
 * **Recommend answers to agents**. Provide answers from your internal CMS to your agents inline within digital conversations to make the agents more effective and consistent. [Get started here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html)
 
 * **Recommend automations to agents**. Enable your agents to use recommended bot flows to manage repeatable activities, freeing the agents up for more meaningful conversations. [Get started here](https://developers.liveperson.com/conversation-orchestrator-agent-assist-overview.html)
-
-* **Set up SmartReply and SmartCompose.** Talk to your LivePerson account representative for details.
