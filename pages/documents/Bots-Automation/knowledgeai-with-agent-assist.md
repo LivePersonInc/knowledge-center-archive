@@ -62,7 +62,7 @@ The diagram below illustrates how you can unify and leverage your content to:
 * Recommend answers to agents via Agent Assist
 * Get answers directly via APIs (coming soon)
 
-![](img/KAI-1.png)
+![](img/KAI-1.jpeg)
 
 {: .notice}
 KnowledgeAI works with LivePerson’s NLU engine and those from other providers. LivePerson’s own NLU engine supports several, different languages, with more languages being added often.
