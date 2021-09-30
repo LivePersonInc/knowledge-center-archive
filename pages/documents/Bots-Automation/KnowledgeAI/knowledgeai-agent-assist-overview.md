@@ -71,7 +71,7 @@ Using your content in an automated conversation:
 ![](img/KAI-2.gif)
 
 Recommending answers and bots to agents:
-![](img/knowledgeai-3.png)
+![](img/KAI-3.png)
 
 ## Next steps: Getting started
 * **Transform content into messaging ready answers.** Create answers to consumer questions using one or more CMS, Google Sheet, or csv. [Get started here](https://developers.liveperson.com/knowledge-base-overview.html)
