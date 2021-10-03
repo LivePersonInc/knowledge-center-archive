@@ -96,10 +96,13 @@
     - subcategoryname: Third Party Bot Connectors
     - subcategoryname: AI Annotator
     - subcategoryname: Conversation Orchestrator
+      pages:
+        - pagename: Conversation Orchestrator overview
+        - pagename: Engagement Controller
     - subcategoryname: Conversation Builder
       pages:
         - pagename: Conversation Builder overview
-        - pagename: Getting started tutorials   
+        - pagename: Getting started tutorials
     - subcategoryname: KnowledgeAI with Agent Assist
     - subcategoryname: LivePerson Intent Manager
       pages:
@@ -394,7 +397,6 @@
     - subcategoryname: January what's new
     - subcategoryname: December what's new
     - subcategoryname: November what's new
-
 
 - categoryname: Release notes
   image: release-notes
