@@ -99,7 +99,8 @@
     - subcategoryname: Conversation Builder
       pages:
         - pagename: Conversation Builder overview
-        - pagename: Getting started tutorials
+        - pagename: Getting started tutorials   
+    - subcategoryname: KnowledgeAI with Agent Assist
     - subcategoryname: LivePerson Intent Manager
       pages:
         - pagename: The power of an intent-driven contact center
@@ -385,7 +386,7 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
-    - subcategoryname: July what's new
+    - subcategoryname: Summer edition what's new
     - subcategoryname: May what's new
     - subcategoryname: April what's new
     - subcategoryname: March what's new
@@ -393,8 +394,7 @@
     - subcategoryname: January what's new
     - subcategoryname: December what's new
     - subcategoryname: November what's new
-    - subcategoryname: September what's new
-    - subcategoryname: August what's new
+
 
 - categoryname: Release notes
   image: release-notes
@@ -404,6 +404,8 @@
       pages:
         - pagename: September
           level3:
+            - level3name: Week of September 29th
+            - level3name: Week of September 22nd
             - level3name: Week of September 15th
         - pagename: August
           level3:
