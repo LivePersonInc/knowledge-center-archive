@@ -135,3 +135,5 @@ Note: After using the ‘Pause all rules’ button, it can take up to five minut
 * The Engagement Controller interface is currently available in English only. Other languages will be added in the future.
 * The Engagement Controller interface is currently available in a ‘Dark’ theme only. A ‘Light’ theme will be added in the future.
 * The Engagement Controller allows you to use a welcome bot for the engagement setup in the Campaign Builder. The feature will check the availability of one human skill per rule, but it does not support checking the availability of multiple skills throughout an entire bot journey. This functionality will be supported in the future.
+
+test
