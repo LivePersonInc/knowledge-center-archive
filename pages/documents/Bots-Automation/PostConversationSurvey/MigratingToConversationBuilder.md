@@ -114,13 +114,13 @@ After migration of your bot, if you experience duplicate bot responses, do the f
 Use the Bots Status application to perform several migration-related tasks:
 
 * Migrate to Conversation Builder (see below)
-* Troubleshooting - Roll back to Bot Studio (see below)
-* Troubleshooting - Refresh the survey bot connector (see [here](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html) in the Developer Center)
+* Troubleshooting - Refresh the survey bot connector (see below)
 * Troubleshooting - Refresh the surveys (see [here](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html) in the Developer Center)
 
     *In a migration scenario in particular*, you might need to refresh the surveys as a troubleshooting technique if, after the migration, you find that some or all survey bots are missing on the **PCS Connector** page in Bots Status. Also, you might need to do so if you find that one of the connectors is “red” (bot agent connector, Conversational Cloud connector, Bot Server connection).
 
 * Troubleshooting - Redeploy the survey bot connector (see [here](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html) in the Developer Center)
+* Troubleshooting - Roll back to Bot Studio (see below)
 
 As you work in Bots Status, be aware of the following:
  
@@ -142,6 +142,16 @@ If you currently use Bot Studio to trigger surveys, you must *manually switch* t
     A confirmation message appears to indicate that the account has been migrated to Conversation Builder. Subsequently, the page is refreshed. You should see each survey bot listed individually with a "Deployed" indicator.
  
      <img style="width:800px" src="img/surveyBot_monitoring5.png">
+
+### Troubleshooting - Refresh the connector
+
+If you've just migrated from Bot Studio to Conversation Builder, but things don't seem to be working, use this procedure as a troubleshooting technique. Refreshing the connector toggles an underlying system setting to put things in sync.
+
+**To refresh the connector**
+ 
+1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
+2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
+3. Click the 3-dot icon beside the agent connector, and select **Refresh Connector**.
 
 ### Troubleshooting - Roll back to Bot Studio
  
