@@ -34,6 +34,9 @@ This only applies to eligible customers as part of their CSO package.
 
 Only Agent Managers and Administrators can open a ticket.
 
+{: .notice}
+This channel is useful for Medium or Low priority issues that don't require immediate attention. For high-priority issues that require immediate attention please use Messaging.
+
 ### How to open a ticket
 
 1. Log into the Conversational Cloud.
