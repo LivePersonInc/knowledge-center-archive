@@ -14,6 +14,6 @@ redirect_from:
   - agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-tutorial.html
 ---
 
-Check out the video below for a comprehensive tutorial of the New Manager Workspace. You can also [view the video directly at this link](https://vimeo.com/619071253).
+Check out the video below for a comprehensive tutorial of the New Manager Workspace. You can also [view the video directly at this link](https://vimeo.com/358055055/d830be4007).
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/619071253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/358055055" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
