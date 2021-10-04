@@ -14,4 +14,4 @@ redirect_from:
 
 Check out the video below for a comprehensive tutorial of the enhanced agent workspace. 
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/357193087" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/619071253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
