@@ -21,7 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## Agent App - v2.7.6
 
-### Type: New Features [Agent App]
+### Type: New Feature [Agent App]
 
 **Channels:**
 
