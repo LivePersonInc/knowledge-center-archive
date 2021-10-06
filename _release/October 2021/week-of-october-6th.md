@@ -116,3 +116,29 @@ Search for LivePerson Agent App on the Google Play Store or Apple App Store and 
 [Agent App on Apple App Store](https://apps.apple.com/us/app/liveperson-agent-app/id1533849048)
 
 [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
+
+
+## Upgrade button on the Releases page in Conversation Builder is disabled for some brands
+
+### Type: Fix [Conversation Builder]
+
+**Channels:** Impact all channels 
+
+**Availability:** All brand
+
+### Description
+
+In Release 2021_10.0 of Conversation Builder, we introduced an underlying change that can result in the disablement of the Upgrade button on the Releases page for some, but not all, brands. This existing feature allows you to upgrade bots to new releases.
+
+### Enablement
+
+If you find that your Upgrade button is disabled in Conversation Builder, you can enable it by doing the following:
+
+1. Access the Bot Accounts application.
+2. Select your organization name.
+3. On the Account Details page, toggle any setting on and then off. Or, toggle any setting off and then on. Any setting will suffice; it’s just necessary that you toggle a setting.
+4. Log out of Conversational Cloud, then log back in.
+In Conversation Builder, the Upgrade button is now enabled for use. 
+
+**Note: This issue will be automatically resolved in the next release of Conversation Builder.**
+
