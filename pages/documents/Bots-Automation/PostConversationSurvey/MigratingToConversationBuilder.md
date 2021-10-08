@@ -13,156 +13,327 @@ redirect_from:
 
 ---
 
-## High-level migration workflow
+## Migration at a glance
 
-1. In your *Production* environment:
+Prepare to migrate
 
-    1. In **Bot Studio**, perform pre-requisite steps and verification checks on the survey bot. Then export the bot. If you have multiple bots, you can export them all at once if desired.
+* Step 1 - Export your survey bots from Bot Studio
+* Step 2 - Import your survey bots into Conversation Builder
+* Step 3 - Review and test your imported bots in Conversation Builder
+* Step 4 - Update custom survey reporting in Analytics Builder
 
-2. In your *Test* environment:
-    
-    1. In **Bots Status**, migrate your Test account from Bot Studio to Conversation Builder.
-    2. In **Conversation Builder**, import the survey bot that you exported from Bot Studio. Configure it and fix any errors. Preview the bot, test it via the target channel, and test related reporting. Export the verified bot.
+Migrate
 
-3. In your *Production* environment:
+* Step 5 - Disconnect Bot Studio survey bots from skills
+* Step 6 - Assign skills to Conversation Builder survey bots
+* Step 7 - Click **Migrate to Conversation Builder**
+* Step 8 - Test your survey bots in actual conversations
+* Step 9 - Verify survey reporting
+* Step 10 - (Optional) Enrich the survey bots with Conversation Builder-only features
 
-    1. In **Bots Status**, migrate your Production account from Bot Studio to Conversation Builder.
-    2. In **Conversation Builder**, import the verified bot. Configure the bot as needed. Preview and test again.
+## Migration tips
 
-**Note:**
-* An account can’t serve surveys from Bot Studio and Conversation Builder at the same time. Once you migrate to Conversation Builder, it must be used. However, if necessary, you can roll back the account to using Bot Studio. This is described farther below.
-* You don't manually deploy a Conversation Builder survey bot. There exists an underlying agent connector that's deployed automatically and is shared by all survey bots. *Therefore, once the survey bot is created and assigned a skill in Conversation Builder, it is active and can receive conversations.*
+* Before you start the migration, export your bots in Bots Studio format as a back-up.
+* The migration from one system to another is going to cause some downtime, so perform the migration during the less-loaded/non-working hours.
+* To shorten the downtime and avoid issues, prepare and test everything prior to migration.
+* To minimize conversations that are stuck in "Survey in progress," turn off Bot Studio 2-3 hours before the migration (by deleting skills from the survey bots).
+* The best way to test bots before the migration is to migrate and test them on a test account first if you have one. If you have a test account, you can then test on all necessary channels. If you don't have a test account, check the converted bots via Conversation Builder's Preview tool before the migration.
+* Make sure you are ready to migrate to Conversation Builder before you click the **Migrate to Conversation Builder** button. Once you migrate, only Conversation Builder survey bots will be active, and all Bot Studio bots will no longer work.
+* If you're using custom reporting, you need to update the IDs (survey, question and answer), as they will be regenerated. You can do this before the migration. For this, please import the bot into Conversation Builder, and then download the report via the **Bot Settings** page.
 
-## Detailed migration workflow
+## Detailed migration steps
 
-### Step 1: In your Production environment
+### Prepare to migrate
 
-#### Perform prerequisite steps in Bot Studio
-At runtime, the name of the survey bot agent that's shown to the consumer in the messaging window is drawn from Bot Studio if it is set there. Before migrating to Conversation Builder, use Bot Studio to remove this bot agent name. This allows the default name of "Survey Bot" to be used instead.
+Steps to prepare for migration are not time-sensitive and will not impact your current survey operations with Bot Studio.
 
-#### Perform verification checks in Bot Studio
-In Bot Studio, verify that the possible answers to all survey questions don’t contain any extra space characters. When these are converted to answer choices in the Conversation Builder bot, extra spaces can negatively affect recognition of the consumer’s response when they provide it through text input.
+### STEP 1 - Export your survey bots from Bot Studio 
 
-#### Export the bot from Bot Studio
-While you’re still in Bot Studio, export the survey bots bot to Conversation Builder.
+**Outcome of this step**: You will have survey bot definitions ready to import into Conversation Builder.  All Bot Studio survey bots will continue to work without disruption.  
 
-You can download active survey bots all at once using the **Export All Active** button. This creates a ZIP file that contains one JSON file for each bot.
+1. Go to Bot Studio.
+2. Click **Export All Active**. This downloads all active survey bots definitions in Bot Studio and formats them for Conversation Builder.
 
-<img style="width:350px" src="img/surveyBot_export1.png">
+    <img style="width:800px" src="img/pcsmigrate1.png">
 
-Or, you can download an active or inactive survey bot individually using the **Export to Conversation Builder format** menu option. This creates a JSON file for the selected bot.
+    If you want to download survey bot definitions one at a time, you can do so by clicking **Export to Conversation Builder format** in a survey bot’s settings.
 
-<img style="width:300px" src="img/surveyBot_export2.png">
+    <img style="width:800px" src="img/pcsmigrate2.png">
 
-Download the files and save them as a back-up. 
-
-Later, you’ll import the JSON files into Conversation Builder.
+    If any survey bot cannot be exported to Conversation Builder format, then the export will fail for that bot alone. If this happens, you'll need to manually recreate the bot in Conversation Builder. Typically, failures happen when the bot has a custom payload, i.e. you modified the bot via the AC API rather than the Bot Studio UI.
 
 {: .important}
-If you attempt to export a survey bot that can’t be processed by the export tool, export of only this bot will fail. You are notified with a message when this happens. You’ll need to manually recreate the bot in Conversation Builder instead. An export failure can happen if the bot has a custom payload (i.e., you’ve modified the bot directly via the AC API, not using the Bot Studio UI) or if it uses an older format. 
+If you want to create a back-up of all the bots in Bot Studio format, you must download each bot separately using the “Export Survey” functionality, shown below.
 
-### Step 2: In your Test environment
+<img style="width:400px" src="img/pcsmigrate3.png">
 
-#### Migrate your account to Conversation Builder
-Access the **Bots Status** application, and migrate your Test account from Bot Studio to Conversation Builder. For help with this step, see *Migration tasks performed in Bots Status > Migrate to Conversation Builder*, which is farther below.
+### STEP 2 - Import your survey bots into Conversation Builder
 
-#### Import the survey bot
-Switch to the **Conversation Builder** application, and [import the survey bot](https://developers.liveperson.com/conversation-builder-bots-bot-basics.html#import-a-bot) that you exported from Bot Studio.
+**Outcome of this step**: You will have survey bots in Conversation Builder. **Do not assign skills to your survey bots in Conversation Builder until Step 6**. All Bot Studio survey bots will continue to work without disruption.
 
-#### Configure the bot and fix errors
-Within Conversation Builder, in the bot’s **Bot Settings**, configure the following:
+1. Go to Conversation Builder.
+2. [Import](https://developers.liveperson.com/conversation-builder-bots-bot-basics.html#import-a-bot) your survey bots into Conversation Builder using the bot definitions you downloaded in Step 1. The survey bots need to be imported one at a time.
 
-* **Skill**: Select the skills that will trigger the survey bot. A skill can be assigned to only one survey bot. (You can add skills in Conversational Cloud.)
-* **Name**: Change the bot name if desired. By default, the name is the original name from Bot Studio plus the timestamp of the import. 
+    <img style="width:800px" src="img/pcsmigrate4.png">
 
-Review the bot’s structure and overall configuration to ensure they meet your requirements. Noteworthy items that might need changing include:
+### STEP 3 - Review and test your imported bots in Conversation Builder
 
-* **Session Length bot setting**: If the original duration doesn’t match one of the options available in Conversation Builder, the Session Length is rounded up to an available option. Additionally, Conversation Builder has a maximum value of 12 hours; this is enforced.
-* **Interaction Delay interaction setting**: Conversation Builder has a maximum value of 10000 milliseconds (10 seconds); this is enforced.
-* **Email Transition**: If you used this Bot Studio brick to add support for emailing a transcript of the main conversation to the consumer at the end of the survey, this brick is converted to a Conversation Builder [Email Transcript interaction](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#adding-support-for-emailed-transcripts), which is configured accordingly. Please check this interaction’s settings to ensure they are as you require. For example, you might want to change the label for the Decline button.
-* **Thank You message**: If you manually added a Thank You message, you’ll need to reimplement this using Conversation Builder functionality. For help with this, see the discussion on [adding support for a Thank You message](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#adding-support-for-a-thank-you-message) in the Developer Center.
+**Outcome of this step**: You will verify your bot in Conversation Builder’s preview and fix any issues that you discover. Do this for each survey bot you import to Conversation Builder.  All Bot Studio survey bots will continue to work without disruption.
 
-Also check the bot for displayed yellow warning indicators and red error messages. Not every custom implementation of a Bot Studio survey bot can be converted cleanly to Conversation Builder. As a result, you might need to manually resolve some errors.
-
-#### Preview and test
-Preview the bot’s flow. Then test it via the target channel, and test related reporting. 
-
-#### Export the verified bot
-Export the verified bot.
-
-### Step 3: In your Production environment
-
-#### Migrate your account to Conversation Builder
-Access the **Bots Status** application, and migrate your Production account from Bot Studio to Conversation Builder. For help with this step, see *Migration tasks performed in Bots Status > Migrate to Conversation Builder*, which is farther below.
-
-#### Import the verified bot
-Change to the **Conversation Builder** application, and import the verified bot that you exported from your test environment.
-
-#### Configure the bot and test again
-Configure the bot as needed: Here again, in the **Bot Settings**, configure the skills that will trigger the survey bot and adjust the bot name (remove the timestamp). Then preview and test again.
-
-### Troubleshooting
-
-After migration of your bot, if you experience duplicate bot responses, do the following:
-
-1. In Bot Studio, export all necessary surveys in Bot Studio format. Do this is a back-up measure.
-2. Still in Bot Studio, delete the survey bot.
-3. In Bots Status, [redeploy the agent connector](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#troubleshooting---redeploy-the-connector) for the Conversation Builder survey bots.
-
-## Migration tasks performed in Bots Status
-
-Use the Bots Status application to perform several migration-related tasks:
-
-* Migrate to Conversation Builder (see below)
-* Troubleshooting - Refresh the survey bot connector (see below)
-* Troubleshooting - Refresh the surveys (see [here](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html) in the Developer Center)
-
-    *In a migration scenario in particular*, you might need to refresh the surveys as a troubleshooting technique if, after the migration, you find that some or all survey bots are missing on the **PCS Connector** page in Bots Status. Also, you might need to do so if you find that one of the connectors is “red” (bot agent connector, Conversational Cloud connector, Bot Server connection).
-
-* Troubleshooting - Redeploy the survey bot connector (see [here](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html) in the Developer Center)
-* Troubleshooting - Roll back to Bot Studio (see below)
-
-As you work in Bots Status, be aware of the following:
- 
-* While each survey bot is listed individually in the dashboard, they all share a single agent connector. This means that performing any Bots Status operation on the agent connector affects all the survey bots.
-* Successfully deployed survey bots display "Deployed" beneath the bot name.
- 
-<img style="width:1000px" src="img/surveyBot_monitoring1.png">
- 
-### Migrate to Conversation Builder
- 
-If you currently use Bot Studio to trigger surveys, you must *manually switch* to triggering surveys from Conversation Builder. Follow this procedure after you've finished with survey development and testing using Conversation Builder. This operation deploys the underlying agent connector that's shared by all Conversation Builder survey bots.
- 
-**To migrate to Conversation Builder**
- 
-1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
-3. Click the 3-dot icon beside the agent connector, and select **Migrate to Conversation Builder**.
- 
-    A confirmation message appears to indicate that the account has been migrated to Conversation Builder. Subsequently, the page is refreshed. You should see each survey bot listed individually with a "Deployed" indicator.
- 
-     <img style="width:800px" src="img/surveyBot_monitoring5.png">
-
-### Troubleshooting - Refresh the connector
-
-If you've just migrated from Bot Studio to Conversation Builder, but things don't seem to be working, use this procedure as a troubleshooting technique. Refreshing the connector toggles an underlying system setting to put things in sync.
-
-**To refresh the connector**
- 
-1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
-3. Click the 3-dot icon beside the agent connector, and select **Refresh Connector**.
-
-### Troubleshooting - Roll back to Bot Studio
- 
-Rolling back to Bot Studio reverts your account to triggering surveys from Bot Studio instead of Conversation Builder. This undeploys the survey connector in Conversation Builder.
- 
-**To roll back to Bot Studio**
- 
-1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Click **Bot Agents** in the upper-left corner, and then click the **PCS Connector** tab.
-3. Click the 3-dot icon beside the agent connector, and select **Roll back to Bot Studio**.
+1. Go to Conversation Builder.
+2. Select a survey bot.
+3. Review all interactions in the selected survey bot.
+    * Repair discovered issues, and configure any rules as needed.
     
-    A confirmation message appears to indicate that the account has been rolled back to Bot Studio. Subsequently, the page is refreshed. You should see an undeployed agent connector.
+    **Note**: You will see the warning below. For migrated bots, you can ignore this if you don’t have any changes in the interaction rules after the migration.
+
+    <img style="width:600px" src="img/pcsmigrate5.png">
+
+    * Review the Interaction Delay setting in the interactions.
+
+4. Review the [survey bot settings](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#configuring-the-survey-bots-settings), specifically:
+    * Session Length
+    * Email Transcript
+    * Thank You message
+    * Fallback message
+5. Test the survey bot in Conversation Builder’s [Preview tool](https://developers.liveperson.com/conversation-builder-testing-deployment-previewing.html).
+
+    <img style="width:800px" src="img/pcsmigrate6.png">
+
+6. Repeat this process for each survey bot.
+
+### STEP 4 - Update custom survey reports in Analytics Builder
+
+**If you do not have any custom surveys, you can skip this step.**
+
+**Outcome of this step**: You will review any custom survey reports in Analytics Builder, and make any necessary updates to the reports. Custom reports need to be updated primarily for two reasons: 
+
+* As a part of migration to Conversation Builder, survey and question IDs will change and need to be updated.
+* Custom, closed-ended survey question reporting is based off of answer position rather than answer value. Update the reports to use the right answer value for column headers; these should be in the same order as the survey response options. 
+
+When making updates to custom reports, make new copies of the reports so that survey reporting is not impacted until you are ready to migrate. All Bot Studio survey bots will continue to work without disruption.
+
+1. Go to Conversation Builder. For each survey bot with custom reporting, access the **Bot Settings**, scroll down to **Generate IDs report**, and click the **Download** icon. This provides a mapping between Bot Studio and Conversation Build IDs. This report is only available for bots imported starting from Oct. 1.
+2. Go to Analytics Builder, and open your first custom survey report.
+3. Create a copy of the custom report so that you can make updates without breaking Bot Studio reporting.
+4. Update any hard-coded survey and question IDs in the report.
+5. Update the survey logic for any custom, closed-ended question to apply the appropriate labels for answer positions.
+6. Repeat this process for all custom surveys.
+
+**YOU’VE NOW COMPLETED ALL REQUIRED PREPARATION, AND ARE NOW READY TO MIGRATE**
+
+**STOP: BEFORE CONTINUING, VERIFY THAT...**
+
+* You have successfully completed all steps up to this point, including verifying your survey bots and updating custom reporting.
+* You are ready to migrate survey traffic to Conversation Builder.
+
+### Migrate
+
+Steps to migrate are time-sensitive and will redirect survey traffic from Bot Studio to Conversation Builder.
+
+### STEP 5 - Disconnect Bot Studio survey bots from skills
+
+**Outcome of this step**: You will stop Bot Studio from sending surveys to consumers.  It’s important to do this before assigning skills to Conversation Builder survey bots so that consumers do not get duplicate survey messages.
+
+1. Go to Bot Studio.
+2. Select a survey bot, and remove all skills assigned to it:
+    1. Go to **Edit details** for the bot.
+
+        <img style="width:800px" src="img/pcsmigrate7.png">
+
+    2. Click **Assign to skill**.
+    3. Click **Clear all**.
+
+        <img style="width:800px" src="img/pcsmigrate8.png">
+
+    4. Click **Publish**.
+
+    <img style="width:500px" src="img/pcsmigrate9.png">
+
+3. Repeat step 2 for all survey bots in Bot Studio.
+
+{: .important}
+**For best results**: Ensure that you have 2-3 hours **between** completing this step and Step 7. Conversations that are already active before removing all skills from Bot Studio survey bots need to finish before proceeding. If your session expiration time is set for a longer period of time (e.g., 12 hours), you might need a longer wait period.
+
+### STEP 6 - Assign skills to Conversation Builder survey bots
+
+**Outcome of this step**: Survey bots will be mapped to selected skills. You will **not** start sending surveys from Conversation Builder until **Step 7**.
+
+1. Go to Conversation Builder.
+2. Select a survey bot, and assign all desired skills to it:
+    1. Go to **Bot Settings** for the bot.
+
+        <img style="width:800px" src="img/pcsmigrate10.png">
+
+    2. Find the **Skills** setting.
+
+        <img style="width:800px" src="img/pcsmigrate11.png">
+
+    3. Assign each desired skill to the bot.
+3. Repeat step 2 for each survey bot.
+
+### STEP 7 - Click "Migrate to Conversation Builder"
+
+**Outcome of this step**: Conversation Builder will start sending surveys to consumers.
+
+1. Go to Conversational AI applications.
+2. Go to the **Bot Status** application.
+
+    <img style="width:800px" src="img/pcsmigrate12.png">
+
+3. Select **Bot Agents**.
+
+    <img style="width:800px" src="img/pcsmigrate13.png">
+
+4. Go to **PCS Connector**.
+
+    <img style="width:800px" src="img/pcsmigrate14.png">
+
+5. Click the 3-dot menu to the right, and click **Migrate to Conversation Builder**.
+
+    <img style="width:800px" src="img/pcsmigrate15.png">
+
+6. After the migration success message is displayed (this might take a few seconds), refresh the page, and verify that you see a "green" connected status and the list of your survey bots. This means that migration was successful.
+
+    <img style="width:800px" src="img/pcsmigrate16.png">
+    <img style="width:800px" src="img/pcsmigrate17.png">
+
+{: .important}
+If one or more connector indicators are still red after migrating to Conversation Builder, [refresh surveys](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#refresh-surveys) and [redeploy the connectors](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#redeploy-the-connector), using the same menu in which you used "Migrate to Conversation Builder."
+
+### STEP 8 - Test your survey bots in actual conversations
+
+**Outcome of this step**: You will verify that your survey bots work as expected in actual consumer conversations.
+
+1. Start a conversation on a skill with a survey bot.
+2. End the dialog, either by closing the conversation as an agent or through completing the bot flow.
+3. Complete the survey dialog.
+4. Take note of your survey responses and conversation IDs; you will use those later to verify reporting.
+5. Repeat these to verify migration for each survey bot.
+
+Issues that might appear:
+
+* The survey wasn't triggered- You need to reassign skills.
+* The survey started but with no or 1 message closed
+* Duplicates and messages from Bot Studio
+* Some questions are missing - You need to check the interaction.
+
+For help with these issues, see *Troubleshooting* farther below.
+
+### STEP 9 - Verify survey reporting 
+
+**Outcome of this step**: You will verify that survey reporting works as expected. This includes: 
+
+* Standard survey reporting
+* Custom survey reporting
+* Survey data in messaging history
+
+{: .important}
+It takes approximately 24 hours for survey data to become available in Analytics Builder.
+
+1. Check the survey data in the messaging history. Things are good if you see all questions and answers.
+
+    <img style="width:800px" src="img/pcsmigrate18.png">
+
+2. Review the survey data in MCS Toolkit: Using the conversation IDs from **Step 8**, verify that the conversations have the expected survey values.
+3. Go to Analytics Builder.
+    1. Review the standard survey reports (available after 24 hours).
+        * Verify that they are showing results.
+        * Pay attention to trends in reporting before and after migration to look for anomalies.
+    2. Review the custom survey reports.
+        * Verify that they are showing results.
+        * Pay attention to trends in reporting before and after migration to look for anomalies.
+
+If you do not see survey data, [refresh the surveys](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#refresh-surveys) to reload your survey configurations. If you still have issues after this, contact your account team or Support.
+
+### STEP 10 - (Optional) Enrich survey bot with Conversation Builder-only features
+
+**Outcome of this optional step**: You might add additional capabilities to your survey bots that don’t exist in Bot Studio, such as:
+
+* Add support for survey sampling
+* Target interactive conversations
+* Specify a survey Request Interval
  
-     <img style="width:1000px" src="img/surveyBot_monitoring3.png">
+These features/account-level settings are discussed [here](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#configure-account-level-settings).
+
+
+## Troubleshooting
+
+### Why do I see duplicate survey messages?
+
+Message duplication occurs when the survey bot in Conversation builder is assigned to the same skills that were used by the survey bot in Bot Studio, and in Bot Studio, the skills were not deleted prior the migration (see Step 5).
+
+**How it looks**:
+
+<img style="width:400px" src="img/pcsmigrate19.png">
+
+**How to avoid the issue**:
+
+Before the migration, delete all skills from all surveys in Bot Studio (see Step 5).
+
+**How to solve the issue**:
+
+1. In Bot Studio:
+    1. For back-up purposes, export all surveys from Bot Studio (in Bot Studio format).
+    2. Delete the existing survey bot.
+
+        <img style="width:700px" src="img/pcsmigrate20.png">
+
+2. In Conversation Builder, [redeploy the connector](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#troubleshooting---redeploy-the-connector).
+
+### Why are my conversations stuck in “Survey in progress?”
+
+Conversations that were already open during Step 5 (Disconnect Bot Studio) did not redirect to Conversation Builder automatically following migration in Step 7. These conversations won’t be closed and will be stuck in “Survey in progress.” 
+
+**How to avoid / mitigate the issue**:
+
+* To avoid a large number of conversations with  this issue, we recommend that you perform the migration during less-loaded/non-working hours.
+* We also recommend turning off Bot Studio 2-3 hours prior to the migration. If you do this, all open survey conversations will be finalized and closed, and for remaining conversations, the surey conversation won’t be started.
+
+**How to solve the issue**:
+
+If you have conversations in this state, contact your account team or Support for help.
+
+### Why is the message "Survey in progress" displayed for the conversation in Conversational Cloud, but the survey doesn't start for the consumer?
+
+The skill mapping configuration for the survey bot(s) was corrupted during the migration process.
+
+**How to solve the issue**:
+
+Unassign all assigned skills from the bot, reassign them again, and then test. If this doesn't resolve things, contact your account team or Support for help.
+
+### Why is the connector status still RED after migration?
+
+The survey bots weren’t correctly initialized as part of the migration, or the survey configurations weren’t properly loaded.
+
+**How to solve the issue**: 
+
+[Refresh the surveys](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#refresh-surveys) and [redeploy the connectors](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#redeploy-the-connector) to reinitialize and repair the survey configuration. If issues persist, contact your account team or Support for help.
+
+{: .important}
+When you refresh the surveys, the survey IDs will be regenerated. After this, you will need to change the IDs everywhere you use them, for example, in custom reporting.
+
+<img style="width:800px" src="img/pcsmigrate21.png">
+
+### I completed migration. However, the survey is not triggering, the survey data is absent, or the survey bots don’t show up in the PCS connector status page. 
+
+**How to solve the issue**:
+
+[Refresh the surveys](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#refresh-surveys) and [redeploy the connectors](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#redeploy-the-connector) to reinitialize and repair the survey configuration. If issues persist, contact your account team or Support for help.
+
+{: .important}
+When you refresh the surveys, the survey IDs will be regenerated. After this, you will need to change the IDs everywhere you use them, for example, in custom reporting.
+
+### Conversations stuck in “Survey in progress” status and some questions are missing during the testing via webview
+
+The bot is migrated and was tested via the Preview tool, but during the testing via the Web view:
+
+1. The bot is stuck in “survey in progress” and continues working only after entering something and/or
+2. Some questions are missing
+
+**How to solve the issue**:
+
+1. [Redeploy the connector](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#redeploy-the-connector) and retest. If the issue is not fixed go to #2 below.
+2. Check whether the “missing” interaction is correct.
+3. Even if the "missing" interaction is correct, make a minor change and then save the interaction. After saving, you can change it back to how it was and save again.
+
