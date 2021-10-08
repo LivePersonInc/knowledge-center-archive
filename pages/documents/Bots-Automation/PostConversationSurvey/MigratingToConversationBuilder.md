@@ -34,12 +34,12 @@ Migrate
 ## Migration tips
 
 * Before you start the migration, export your bots in Bots Studio format as a back-up.
-* The migration from one system to another is going to cause some downtime, so perform the migration during the less-loaded/non-working hours.
+* The migration from one system to another leads to some downtime, so perform the migration during the less-loaded/non-working hours.
 * To shorten the downtime and avoid issues, prepare and test everything prior to migration.
 * To minimize conversations that are stuck in "Survey in progress," turn off Bot Studio 2-3 hours before the migration (by deleting skills from the survey bots).
-* The best way to test bots before the migration is to migrate and test them on a test account first if you have one. If you have a test account, you can then test on all necessary channels. If you don't have a test account, check the converted bots via Conversation Builder's Preview tool before the migration.
+* Before the migration, the best way to test the bots is to migrate and test them on a test account first, if you have one. With a test account, you can test on all necessary channels. If you don't have a test account, check the converted bots via Conversation Builder's Preview tool before the migration.
 * Make sure you are ready to migrate to Conversation Builder before you click the **Migrate to Conversation Builder** button. Once you migrate, only Conversation Builder survey bots will be active, and all Bot Studio bots will no longer work.
-* If you're using custom reporting, you need to update the IDs (survey, question and answer), as they will be regenerated. You can do this before the migration. For this, please import the bot into Conversation Builder, and then download the report via the **Bot Settings** page.
+* If you're using custom reporting, you need to update the IDs (survey, question and answer), as they will be regenerated. You can do this before the migration: Import the bot into Conversation Builder, and then download the report via the **Bot Settings** page.
 
 ## Detailed migration steps
 
@@ -63,7 +63,7 @@ Steps to prepare for migration are not time-sensitive and will not impact your c
     If any survey bot cannot be exported to Conversation Builder format, then the export will fail for that bot alone. If this happens, you'll need to manually recreate the bot in Conversation Builder. Typically, failures happen when the bot has a custom payload, i.e. you modified the bot via the AC API rather than the Bot Studio UI.
 
 {: .important}
-If you want to create a back-up of all the bots in Bot Studio format, you must download each bot separately using the “Export Survey” functionality, shown below.
+If you want to create a back-up of all the bots in Bot Studio format, you must download each bot separately using the “Export Survey” functionality shown below.
 
 <img style="width:400px" src="img/pcsmigrate3.png">
 
@@ -78,7 +78,7 @@ If you want to create a back-up of all the bots in Bot Studio format, you must d
 
 ### STEP 3 - Review and test your imported bots in Conversation Builder
 
-**Outcome of this step**: You will verify your bot in Conversation Builder’s preview and fix any issues that you discover. Do this for each survey bot you import to Conversation Builder.  All Bot Studio survey bots will continue to work without disruption.
+**Outcome of this step**: You will verify your bot in Conversation Builder’s Preview tool and fix any issues that you discover. Do this for each survey bot you import into Conversation Builder.  All Bot Studio survey bots will continue to work without disruption.
 
 1. Go to Conversation Builder.
 2. Select a survey bot.
@@ -91,7 +91,7 @@ If you want to create a back-up of all the bots in Bot Studio format, you must d
 
     * Review the Interaction Delay setting in the interactions.
 
-4. Review the [survey bot settings](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#configuring-the-survey-bots-settings), specifically:
+4. Review the survey bot's [bot settings](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#configuring-the-survey-bots-settings), specifically:
     * Session Length
     * Email Transcript
     * Thank You message
@@ -104,7 +104,7 @@ If you want to create a back-up of all the bots in Bot Studio format, you must d
 
 ### STEP 4 - Update custom survey reports in Analytics Builder
 
-**If you do not have any custom surveys, you can skip this step.**
+**If you do not have any custom survey reports, you can skip this step.**
 
 **Outcome of this step**: You will review any custom survey reports in Analytics Builder, and make any necessary updates to the reports. Custom reports need to be updated primarily for two reasons: 
 
@@ -113,16 +113,16 @@ If you want to create a back-up of all the bots in Bot Studio format, you must d
 
 When making updates to custom reports, make new copies of the reports so that survey reporting is not impacted until you are ready to migrate. All Bot Studio survey bots will continue to work without disruption.
 
-1. Go to Conversation Builder. For each survey bot with custom reporting, access the **Bot Settings**, scroll down to **Generate IDs report**, and click the **Download** icon. This provides a mapping between Bot Studio and Conversation Build IDs. This report is only available for bots imported starting from Oct. 1.
+1. Go to Conversation Builder. For each survey bot with custom reporting, access the **Bot Settings**, scroll down to **Generate IDs report**, and click the **Download** icon. This provides a mapping between Bot Studio and Conversation Build IDs. This report is only available for bots imported starting from October 1, 2021.
 2. Go to Analytics Builder, and open your first custom survey report.
 3. Create a copy of the custom report so that you can make updates without breaking Bot Studio reporting.
 4. Update any hard-coded survey and question IDs in the report.
 5. Update the survey logic for any custom, closed-ended question to apply the appropriate labels for answer positions.
 6. Repeat this process for all custom surveys.
 
-**YOU’VE NOW COMPLETED ALL REQUIRED PREPARATION, AND ARE NOW READY TO MIGRATE**
+**YOU’VE NOW COMPLETED ALL REQUIRED PREPARATION AND ARE NOW READY TO MIGRATE.**
 
-**STOP: BEFORE CONTINUING, VERIFY THAT...**
+**BEFORE CONTINUING, VERIFY THAT...**
 
 * You have successfully completed all steps up to this point, including verifying your survey bots and updating custom reporting.
 * You are ready to migrate survey traffic to Conversation Builder.
@@ -153,7 +153,7 @@ Steps to migrate are time-sensitive and will redirect survey traffic from Bot St
 3. Repeat step 2 for all survey bots in Bot Studio.
 
 {: .important}
-**For best results**: Ensure that you have 2-3 hours **between** completing this step and Step 7. Conversations that are already active before removing all skills from Bot Studio survey bots need to finish before proceeding. If your session expiration time is set for a longer period of time (e.g., 12 hours), you might need a longer wait period.
+**For best results**: Ensure that you have 2-3 hours **between** completing this step and performing Step 7. Conversations that are already active before removing all skills from Bot Studio survey bots need to finish before you actually migrate. If your session expiration time is set for a longer period of time (e.g., 12 hours), you might need a longer wait period.
 
 ### STEP 6 - Assign skills to Conversation Builder survey bots
 
@@ -199,7 +199,7 @@ Steps to migrate are time-sensitive and will redirect survey traffic from Bot St
     <img style="width:800px" src="img/pcsmigrate17.png">
 
 {: .important}
-If one or more connector indicators are still red after migrating to Conversation Builder, [refresh surveys](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#refresh-surveys) and [redeploy the connectors](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#redeploy-the-connector), using the same menu in which you used "Migrate to Conversation Builder."
+If one or more connector indicators are still red after migrating to Conversation Builder, [refresh the surveys](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#refresh-surveys) and [redeploy the connectors](https://developers.liveperson.com/bots-status-managing-post-conversation-survey-bots.html#redeploy-the-connector), using the same menu in which you used "Migrate to Conversation Builder."
 
 ### STEP 8 - Test your survey bots in actual conversations
 
@@ -211,13 +211,14 @@ If one or more connector indicators are still red after migrating to Conversatio
 4. Take note of your survey responses and conversation IDs; you will use those later to verify reporting.
 5. Repeat these to verify migration for each survey bot.
 
-Issues that might appear:
+**Issues that might appear**:
 
-* The survey wasn't triggered- You need to reassign skills.
+* The survey wasn't triggered - You need to reassign skills.
 * The survey started but with no or 1 message closed
-* Duplicates and messages from Bot Studio
+* There are duplicates and messages from Bot Studio
 * Some questions are missing - You need to check the interaction.
 
+{: .important}
 For help with these issues, see *Troubleshooting* farther below.
 
 ### STEP 9 - Verify survey reporting 
@@ -248,11 +249,11 @@ If you do not see survey data, [refresh the surveys](https://developers.livepers
 
 ### STEP 10 - (Optional) Enrich survey bot with Conversation Builder-only features
 
-**Outcome of this optional step**: You might add additional capabilities to your survey bots that don’t exist in Bot Studio, such as:
+**Outcome of this optional step**: You might add to your survey bots additional capabilities that don’t exist in Bot Studio, such as:
 
-* Add support for survey sampling
-* Target interactive conversations
-* Specify a survey Request Interval
+* Support for survey sampling
+* Targeting of interactive conversations
+* Specifying a survey request interval
  
 These features/account-level settings are discussed [here](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html#configure-account-level-settings).
 
@@ -285,10 +286,10 @@ Before the migration, delete all skills from all surveys in Bot Studio (see Step
 
 Conversations that were already open during Step 5 (Disconnect Bot Studio) did not redirect to Conversation Builder automatically following migration in Step 7. These conversations won’t be closed and will be stuck in “Survey in progress.” 
 
-**How to avoid / mitigate the issue**:
+**How to avoid/mitigate the issue**:
 
 * To avoid a large number of conversations with  this issue, we recommend that you perform the migration during less-loaded/non-working hours.
-* We also recommend turning off Bot Studio 2-3 hours prior to the migration. If you do this, all open survey conversations will be finalized and closed, and for remaining conversations, the surey conversation won’t be started.
+* We also recommend turning off Bot Studio 2-3 hours prior to the migration. If you do this, all open survey conversations will be finalized and closed, and for remaining conversations, the survey conversation won’t be started.
 
 **How to solve the issue**:
 
@@ -324,9 +325,9 @@ When you refresh the surveys, the survey IDs will be regenerated. After this, yo
 {: .important}
 When you refresh the surveys, the survey IDs will be regenerated. After this, you will need to change the IDs everywhere you use them, for example, in custom reporting.
 
-### Conversations stuck in “Survey in progress” status and some questions are missing during the testing via webview
+### Conversations are stuck in “Survey in progress” status, and some questions are missing during testing via webview.
 
-The bot is migrated and was tested via the Preview tool, but during the testing via the Web view:
+The bot is migrated and was tested via the Preview tool, but during the testing via the webview:
 
 1. The bot is stuck in “survey in progress” and continues working only after entering something and/or
 2. Some questions are missing
