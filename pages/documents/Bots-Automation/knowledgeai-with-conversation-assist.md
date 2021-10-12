@@ -1,14 +1,16 @@
 ---
-pagename: KnowledgeAI with Agent Assist 
+pagename: KnowledgeAI with Conversation Assist 
 categoryName: AI, Bots & Automation
 subCategoryName: ''
 indicator: messaging
 subtitle: LivePerson’s KnowledgeAI unifies and leverages content to automate effective consumer conversations at scale. 
 level3: ''
-permalink: ai-bots-automation-knowledgeai-with-agent-assist.html
+permalink: ai-bots-automation-knowledgeai-with-conversation-assist.html
 isTutorial: true
 isNew: false
-date: 2021-09-12 9:03:55 
+date: 2021-09-12 9:03:55
+redirect_from:
+    - ai-bots-automation-knowledgeai-with-agent-assist.html
 
 ---
 ## Overview
@@ -25,7 +27,7 @@ KnowledgeAI unifies and leverages your brand’s content to provide fast answers
 
 ### Key features and capabilities:
 **KnowledgeAI makes automating answers easy and self-serve**:
-* Ingest  content from a variety of sources, like CMSs, Google Sheets, and CSVs
+* Ingest content from a variety of sources, like CMSs, Google Sheets, and CSVs
 * Transform content into messaging-ready answers to help consumers across channels: Web, SMS, Apple Business Chat, and more
 * Use AI to answer the question the consumer asked in any language supported by our NLU or supported third-party NLU engines
 * Automate AI-powered answers to consumer questions
@@ -59,10 +61,10 @@ Use the same content source to:
 ## How KnowledgeAI Works
 The diagram below illustrates how you can unify and leverage your content to:
 * Power intelligent answers via Conversation Builder bots
-* Recommend answers to agents via Agent Assist
+* Recommend answers to agents via Conversation Assist
 * Get answers directly via APIs (coming soon)
 
-![](img/KAI-1.jpeg)
+<img style="width:800px" src="img/KAI-1.png">
 
 {: .notice}
 KnowledgeAI works with LivePerson’s NLU engine and those from other providers. LivePerson’s own NLU engine supports several, different languages, with more languages being added often.

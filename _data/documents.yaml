@@ -103,7 +103,7 @@
       pages:
         - pagename: Conversation Builder overview
         - pagename: Getting started tutorials
-    - subcategoryname: KnowledgeAI with Agent Assist
+    - subcategoryname: KnowledgeAI with Conversation Assist
     - subcategoryname: LivePerson Intent Manager
       pages:
         - pagename: The power of an intent-driven contact center
