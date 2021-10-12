@@ -72,7 +72,7 @@ KnowledgeAI works with LivePerson’s NLU engine and those from other providers.
 Using your content in an automated conversation: 
 ![](img/KAI-2.gif)
 
-Recommending answers and bots to agents:
+Recommending answers and bots to human agents:
 ![](img/KAI-3.png)
 
 ## Next steps: Getting started
