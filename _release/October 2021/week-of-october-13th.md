@@ -112,6 +112,8 @@ Conversation Builder
 #### Limitations
 Open Questions only
 
+![](img/week-of-october-13th-3.png)
+
 ## Secure forms on Twitter
 
 ### Type: New Feature [Social Messaging]
@@ -203,7 +205,7 @@ Open Questions only
 
 ![](img/week-of-october-13th-1.png)
 
-## Availability of Engagement Attributed for Public Twitter
+## Availability of Engagement Attributes for Public Twitter
 
 ### Type: Enhancement [Social Messaging]
 
