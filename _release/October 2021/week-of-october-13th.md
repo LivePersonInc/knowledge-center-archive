@@ -299,3 +299,73 @@ Public Twitter & Social Monitoring can now take advantage of Campaigns for Messa
 
 ![](img/week-of-october-13th-2.png)
 
+## Rename Country labels into Country/Region
+
+### Type: Enhancement [Old Agent Workspace]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>SMS</th>
+
+<th>Facebook</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Availability:** All brands.
+
+### Description
+To ensure that labels are neutral in all aspects of system operation, we have added the ability to change the “Country” column’s title to “Country/Region”. This feature can be configured by a brand’s account team and will take effect for all agents once turned on and the agents log out and log back into the Agent Workspace.
