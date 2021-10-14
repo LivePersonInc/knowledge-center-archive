@@ -389,7 +389,7 @@
     - sms: "N/A in Channel"
     - facebook: "Supported"
     - twitter: "N/A in Channel"
-    - whatsapp: "N/A in Channel"
+    - whatsapp: "Supported"
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "Supported"
