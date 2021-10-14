@@ -19,7 +19,7 @@ Connect WhatsApp to the Conversational Cloud.
 2. The user adding the number in Conversational Cloud must have the Campaign Manager or Administrator roles.
 3. The user adding the number must be a manager of the Facebook Business.
 4. Have the phone number ready that you plan to use for WhatsApp Business. This number should not yet be registered on WhatsApp messsenger or the WhatsApp Business App. In case it was registered on the WhatsApp Business app, please either follow [this guide](https://developers.facebook.com/docs/whatsapp/guides/phone-number#migrate), or request manual onbarding using the [WhatsApp Registration and Setup Form](https://www.liveperson.com/whatsapp-form/).
-5. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. Incase you are unable to receive the call or SMS for verification, please fill out the <a href="https://www.liveperson.com/whatsapp-form/">WhatsApp Registration and Setup Form</a>
+5. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. Incase you are unable to receive the call or SMS for verification, please fill out the [WhatsApp Registration and Setup Form](https://www.liveperson.com/whatsapp-form/).
 
 
 ## Step 1: Setup WhatsApp as a data source
