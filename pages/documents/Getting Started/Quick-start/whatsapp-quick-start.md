@@ -16,8 +16,10 @@ Connect WhatsApp to the Conversational Cloud.
 ## Requirements:
 
 1. You must have a verified Facebook Business. To learn more about business verification click [here](https://www.facebook.com/business/help/2058515294227817?id=180505742745347). In case you business is not yet verified you can only send test messages in a trial experience to a limited range of numbers.
-2. Have the phone number ready that you plan to use for WhatsApp Business. This number should not yet be registered on WhatsApp messsenger or the WhatsApp Business App. In case it was registered on the WhatsApp Business app, please follow [this guide](https://developers.facebook.com/docs/whatsapp/guides/phone-number#migrate).
-3. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. Incase you are unable to receive the call or SMS for verification, please fill out the <a href="https://www.liveperson.com/whatsapp-form/">WhatsApp Registration and Setup Form</a>
+2. The user adding the number in Conversational Cloud must have the Campaign Manager or Administrator roles.
+3. The user adding the number must be a manager of the Facebook Business.
+4. Have the phone number ready that you plan to use for WhatsApp Business. This number should not yet be registered on WhatsApp messsenger or the WhatsApp Business App. In case it was registered on the WhatsApp Business app, please follow [this guide](https://developers.facebook.com/docs/whatsapp/guides/phone-number#migrate).
+5. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. Incase you are unable to receive the call or SMS for verification, please fill out the <a href="https://www.liveperson.com/whatsapp-form/">WhatsApp Registration and Setup Form</a>
 
 
 ## Step 1: Setup WhatsApp as a data source
