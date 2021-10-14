@@ -33,7 +33,7 @@ Click **Connect** in the WhatsApp Business tile.
 
 ![](img/whatsapp-data-sources.png)
 
-## Step 2: Follow the Embedded Sign Up Process
+## Step 2: Follow the embedded sign up process
 
 Click on the **Add New Number** button and log in to Facebook. If you are already logged in, a window will pop-up asking if you would like to "Continue as `<your name>`"? Click to proceed.
 
