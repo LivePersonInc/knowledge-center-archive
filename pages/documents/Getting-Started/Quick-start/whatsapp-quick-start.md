@@ -46,7 +46,7 @@ Once the process is completed, the pop-up closes and a dialog will be presented 
 
 ![](img/whatsapp-number-language-list.png)
 
-It can take upto 10 minutes to deploy and configure the WhatsApp connector, the status is shown with a loading spinner. 
+It can take upto 10 minutes to deploy and configure the WhatsApp connector, the status is shown with a loading spinner. If any error occurs while onboarding your number, you can wait an extra 5 minutes, refresh the page and try again. But please contact [our WhatsApp team](mailto:whatsapp-lp@liveperson.com) if you have concerns or further problems. 
 
 ![](img/whatsapp-deployment.png)
 
