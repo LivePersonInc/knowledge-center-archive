@@ -51,12 +51,12 @@ It can take upto 10 minutes to deploy and configure the WhatsApp connector, the 
 ![](img/whatsapp-deployment.png)
 
 ## Step 3: Configure your business profile
-Lookup your number in the table and click on "Edit Profile" in order to configure the Business profile that consumers will see in the WhatsApp app when messaging with your business.
+Look up your number in the table and click on "Edit Profile" in order to configure the Business profile that consumers will see in the WhatsApp app when messaging with your business.
 
 ![](img/whatsapp-edit-profile.png)
 
 ## Step 4: Configure additional settings
-Lookup your number in the table and click on "Settings" in order to configure the following settings:
+Look up your number in the table and click on "Settings" in order to configure the following settings:
 
 - **Show Customer Profile:** Show the customers profile (Name and profile picture) in the Conversational Cloud
 - **Show Agent Name:** Show the name of the agent on the consumer side as part of every agent message
