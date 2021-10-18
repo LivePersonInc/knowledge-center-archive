@@ -40,7 +40,7 @@ Click on the **Add New Number** button and log in to Facebook. If you are alread
 
 ![](img/whatsapp-embedded-signup.png)
 
-Please follow the instructions in the pop-up window to create a new Facebook business or to select an existing one. After that, you'll be asked to create a new WhatsApp Business Account. In the last step, you will have to create a new WhatsApp Business Profile during which you'll have to verify the phone number that you plan to use for WhatsApp. Please note that it is not possible to change the display name yourself after it has been created. If it does ever needs to be changed, a support ticket must be raised to WhatsApp.  
+Please follow the instructions in the pop-up window to create a new Facebook business or to select an existing one. After that, you'll be asked to create a new WhatsApp Business Account. In the last step, you will have to create a new WhatsApp Business Profile during which you'll have to verify the phone number that you plan to use for WhatsApp. Please note that if you ever need to change your display name, please contact [our WhatsApp team](mailto:whatsapp-lp@liveperson.com) because a support ticket must be raised to WhatsApp.  
 
 Once the process is completed, the pop-up closes and a dialog will be presented that asks you to confirm the phone number and to select the main language of the account. Click on **Next** to complete the setup.
 
