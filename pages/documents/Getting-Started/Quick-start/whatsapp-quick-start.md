@@ -15,7 +15,7 @@ The following instructions will guide you through connecting [WhatsApp Business]
 
 ## Requirements:
 
-1. You must have a verified Facebook Business. To learn more about business verification click [here](https://www.facebook.com/business/help/2058515294227817?id=180505742745347). In case you business is not yet verified you can only send test messages in a trial experience to a limited range of numbers.
+1. You must have a verified Facebook Business. To learn more about business verification click [here](https://www.facebook.com/business/help/2058515294227817?id=180505742745347). In case your business is not yet verified you can only send test messages in a trial experience to a limited range of numbers.
 2. The user adding the number in Conversational Cloud must have the Campaign Manager or Administrator roles.
 3. The user adding the number must be a manager of the Facebook Business.
 4. Have the phone number ready that you plan to use for WhatsApp Business. This number should not yet be registered on WhatsApp messsenger or the WhatsApp Business App. In case it was already registered on the WhatsApp Business app, please either contact [our WhatsApp team](mailto:whatsapp-lp@liveperson.com) for further instructions, or request manual onbarding using the [WhatsApp Registration and Setup Form](https://www.liveperson.com/whatsapp-form/).
