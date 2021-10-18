@@ -11,7 +11,7 @@ date: '2021-10-12T00:00:00.000+00:00'
 isNew: true
 ---
 
-Connect WhatsApp to the Conversational Cloud.
+The following instructions will guide you through connecting [WhatsApp Business](/messaging-channels-whatsapp-business.html) to the Conversational Cloud. Please observe the requirements carefully. If you have any questions, please feel free to contact our WhatsApp team by email: [whatsapp-lp@liveperson.com](mailto:whatsapp-lp@liveperson.com).
 
 ## Requirements:
 
