@@ -133,10 +133,13 @@ function linkclick(event, that) {
 		return false;
 	} else if (!event.isTrigger) {
 		// console.log('clickrun');
+        //grab the url to which the link is pointing
+        let url = $(that).attr('href');
+        if (url && url.startsWith && url.startsWith("mailto:")) {
+            return true;
+        }
 		//prevent the link from actually navigating to the url
 		event.preventDefault();
-		//grab the url to which the link is pointing
-		let url = $(that).attr('href');
 		// call the navigateContent function and pass that url to it
 		navigateContent(url);
 		window.history.pushState(
