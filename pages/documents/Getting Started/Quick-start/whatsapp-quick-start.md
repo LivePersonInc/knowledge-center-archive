@@ -20,7 +20,8 @@ The following instructions will guide you through connecting [WhatsApp Business]
 3. The user adding the number must be a manager of the Facebook Business.
 4. Have the phone number ready that you plan to use for WhatsApp Business. This number should not yet be registered on WhatsApp messsenger or the WhatsApp Business App. In case it was already registered on the WhatsApp Business app, please either contact [our WhatsApp team](mailto:whatsapp-lp@liveperson.com) for further instructions, or request manual onbarding using the [WhatsApp Registration and Setup Form](https://www.liveperson.com/whatsapp-form/).
 5. You must be able to receive phone calls or SMS on the phone number that you plan to use for WhatsApp Business. For example, routing the call may not be possible for some IVR (Interactive Voice Response) systems. In the case that you are unable to receive the call or SMS for verification, please fill out the [WhatsApp Registration and Setup Form](https://www.liveperson.com/whatsapp-form/) and we will assist you in using documented proof of ownership for the number.
-6. Adding a number is not possible on trial accounts of Conversational Cloud.
+6. If your number was purchased through Twilio, please contact [our WhatsApp team](mailto:whatsapp-lp@liveperson.com) for further instructions. 
+7. Adding a number is not possible on trial accounts of Conversational Cloud.
 
 
 ## Step 1: Setup WhatsApp as a data source
