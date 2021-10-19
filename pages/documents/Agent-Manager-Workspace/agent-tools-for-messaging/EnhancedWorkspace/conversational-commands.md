@@ -23,17 +23,17 @@ With Conversational Commands, the automated function is simply triggered by the 
 
 ## Use Cases
 
-In general, it is possible to create any command that can be invoked in the context of a conversation. Brands can create commands according to their individual needs. Here are some examples of possible use cases:
+In general, it is possible to create any command that might be invoked in the context of a conversation. Brands can create commands according to their individual needs. Here are some examples of possible use cases:
 
 ### Create a case in SalesForce
 
-Agents can create cases in SalesForce or any other CRM while conversing with the customer by typing “/createCase Customer experiences outages”. These cases allow support agents to deliver a better service experience by quickly addressing the consumer’s issue.
+The "/createCase Customer experiences outages" command is developed. Agents can then create cases in SalesForce or any other CRM while conversing with the customer by typing “/createCase Customer experiences outages”. These cases allow support agents to deliver a better service experience by quickly addressing the consumer’s issue.
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/377548526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Send transcript via email
 
-Agents can send the content of the current conversation transcript via email (i.e. to the agent manager) by typing “/sendTranscriptTo myAgentManager@brand.com”. This improves communication between agents and managers and also helps the manager to keep track of issues in the communications between brands and consumers. By using this functionality, agents decide which conversations are of interest for the agent manager, reducing noise in the agent manager’s inbox.
+The "/sendTranscriptTo myAgentManager@brand.com" is developed. Agents can then send the content of the current conversation transcript via email (i.e. to the agent manager) by typing “/sendTranscriptTo myAgentManager@brand.com”. This improves communication between agents and managers and also helps the manager to keep track of issues in the communication between brands and consumers. By using this functionality, agents decide which conversations are of interest for the agent manager, reducing noise in the agent manager’s inbox.
 
 ![](img/conversational-commands-4.png)
 
