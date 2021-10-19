@@ -49,7 +49,7 @@ A user can override his/her language from ״my details״ page, which is accessed
 
 ![](img/oct-13-rn-3.png)
 
-## New Rollover Dashboard
+## New Rollover Dashboard 
 
 ### Type: Enhancement [Analytics Builder 4.12]
 
@@ -82,7 +82,16 @@ The report contains three sections:
 
 ![](img/oct-13-rn-6.png)
 
-### Enablement
+## New Agent Operations Dashboard
+
+### Type: Enhancement [Analytics Builder 4.12]
+
+**Channels:** All
+
+#### Availability: All brands with enablement Analytics Builder
+
+### Description
+
 A new separate report will be added to the Predefined Dashboards focused on agent performance. The report will contain the following information:
 
 **HIGH LEVEL OPERATIONS**
