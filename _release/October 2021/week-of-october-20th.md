@@ -226,7 +226,7 @@ Available to all brands, excluding free trial accounts.
 See the [WhatsApp Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-whatsapp-quick-start.html) guide for instructions on how to onboard a number onto WhatsApp. This feature is not available on trial accounts because of the charges associated with WhatsApp messaging.
 
 #### Limitations
-It must be possible to receive a call or an SMS on the number so that WhatsApp can verify ownership of the number. In other scenarios, the previous onboarding flow is still available, during which documented proof of number ownership can be used.
+It must be possible to receive a call or an SMS on the device in question so that WhatsApp can verify ownership of the number. In other scenarios, the previous onboarding flow is still available, during which documented proof of number ownership can be used.
 
 ![](img/week-of-october-20th-8.png)
 ![](img/week-of-october-20th-9.png)
