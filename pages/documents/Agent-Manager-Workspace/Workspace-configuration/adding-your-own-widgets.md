@@ -14,7 +14,8 @@ redirect_from:
   - webagent-integration.html
   - iframe-integration.html
 ---
-Agents often need to access external systems while they are working in the Agent Workspace, and to do so, they need to open additional tabs or browsers. Now, you can integrate external systems right into the Agent Workspace, allotting them their own widget next to the standard widgets. Widgets can be set to appear alongside chats associated with a particular skill or skills - agents handling chats assigned only to that skill will be able to view the widget.
+
+Agents often need to access external systems while they are working in the Agent Workspace, and to do so, they need to open additional tabs or browsers. However, you can integrate external systems right into the Agent Workspace, allotting them their own widget next to the standard widgets.
 
 To ensure your agents are focused on the tools most relevant for them, admins have the option of assigning widgets to one or more skill. The widget will subsequently only appear to agents handling chats associated with that skill. Widgets not assigned to specific skills will still appear to all agents handling any chat.
 
@@ -28,9 +29,10 @@ Since every contact center is different, widget reordering allows brands to full
 
 ### **To reorder widgets:**
 
-1. From the visitors page, click on the Night Vision icon.
+1. From the visitors page, click on the Night Vision icon at the top right corner.
 
    ![](/img/adding-your-own-widgets-6.png)
+
 2. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the workspace, by clicking **Hide**.
 
 ![](/img/adding-your-own-widgets-1.png)
@@ -47,7 +49,7 @@ Since every contact center is different, widget reordering allows brands to full
 {:start="5"}
 
 1. Select the desired width of the new widget; single (the same width as the default widgets), double, triple, or quadruple, so your widget is compatible to the external webpage that you want to display.
-2. If you would like the widget to appear alongside chats associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
+2. If you would like the widget to appear alongside conversations associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
 3. Enter the URL of the webpage or external application that you wish to display within the widget.
 
 ![](/img/adding-your-own-widgets-4.png)
@@ -74,6 +76,8 @@ Agents can share a variety of interactive content in the Agent window, such as i
 
 In the same way, consumers can upload content - such as a product’s web page, a screenshot of an error message - that will instantly be displayed to the Agent, enabling them to provide a more effective and efficient service. Moreover, the flexibility of this framework opens the door for integrations with other engagement tools, such as live video connection.
 
+For more information on how to set up this connectivity between the two SDKs, please refer to their respective documentations in the Developer Center.
+
 ## Why don’t I see my customized widget?
 
 **For a successful integration, please note the following:**
@@ -84,7 +88,7 @@ In the same way, consumers can upload content - such as a product’s web page, 
 * **Automatic focus management may be problematic**: Applications with focus stealing can cause issues in the user interface of the Agent Workspace.
 
 {: .notice}
-**Note**: To integrate with your **Salesforce** application, open a ticket to Salesforce support and request the removal of the X-Frame option from your organization’s Salesforce pages. This will allow you to open Salesforce in the widget. Agents must log into Salesforce in a separate browser tab (or through SSO) prior to accepting chats. Make sure that the application that you are trying to integrate meets the above requirements and try again.
+To integrate with your **Salesforce** application, open a ticket to Salesforce support and request the removal of the X-Frame option from your organization’s Salesforce pages. This will allow you to open Salesforce in the widget. Agents must log into Salesforce in a separate browser tab (or through SSO) prior to accepting chats. Make sure that the application that you are trying to integrate meets the above requirements and try again.
 
 ## Widget notifications
 
