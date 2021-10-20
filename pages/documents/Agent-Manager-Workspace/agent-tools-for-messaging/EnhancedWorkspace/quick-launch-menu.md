@@ -14,7 +14,7 @@ redirect:
 
 ---
 
-LivePerson’s Quick launch menu provides users with a quick and easy way to launch applications from within the platform using the new waffle menu button that has been added to the UI.
+LivePerson’s Quick launch menu provides users with a quick and easy way to launch applications from within the platform using the waffle menu button.
 
 ![](img/Quick_launch_man_workspace1.png)
 
@@ -30,14 +30,14 @@ Navigation between LivePerson’s applications has never been easier. If a user 
 
 ### Allow users to see and launch only the apps that are available to them based on their role and profile
 
-Each user will be exposed only to the relevant Conversational Cloud Apps for them, based on their role and profile. Once the developer decides which role can use this LE-App, the Quick launch menu presents the app only for users with the relevant roles and profiles. This means that users within the same brand will see different apps based on their role.
+Each user will be exposed only to the relevant Conversational Cloud Apps for them, based on their role and profile. Once the developer decides which role can use a certain application, the Quick launch menu presents the app only for users with the relevant roles and profiles. This means that users within the same brand will see different apps based on their role.
 
 ## Enablement
 
 Below is information for how to enable user permissions for the Quick launch menu:
 
-**Roles:** With Roles, a developer defines what kind of user roles can potentially use/launch the LE-App. When allowing the app to be exposed over the Quick launch menu, the developer can allow only a specific role or roles to access it. Also, the developer is able to enable the application for all profiles within the selected roles by default.
+**Roles:** With Roles, a developer defines what kind of user roles can potentially use/launch an application. When allowing the app to be exposed over the Quick launch menu, the developer can allow only a specific role or roles to access it. Also, the developer is able to enable the application for all profiles within the selected roles by default.
 
-**Profiles:** When allowing an LE-App to be exposed over the Quick launch menu, the brand’s admin can allow sub-groups to use the app. With Profiles, the account admin (or any other LE-User with App Provisioning permissions) can define the sub-group of users (only profiles from the above group of roles) who can use the app.
+**Profiles:** When allowing an application to be exposed over the Quick launch menu, the brand’s admin can allow sub-groups to use the app. With Profiles, the account admin (or any other user with App Provisioning permissions) can define the sub-group of users (only profiles from the above group of roles) who can use the app.
 
 This document contains an overview of LivePerson's Quick launch menu. If you are a developer looking for more in-depth, technical documentation about working with LivePerson’s Quick launch menu, please see our [Roles and Profiles Documentation](https://developers.liveperson.com/liveengage-applications-what-is-a-liveengage-application.html#quicklaunch-menu) in the Developer Center.
