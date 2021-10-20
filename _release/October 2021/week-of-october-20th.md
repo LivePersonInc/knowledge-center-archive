@@ -76,7 +76,7 @@ The column is not scrollable or filterable in this version.
 
 ![](img/week-of-october-20th-3.png)
 
-## Conversations/Bots/Skills Widgets - Select number of items in page
+## Conversations/Bots/Skills Widgets - Select Number of Items Per Page
 
 ### Type: Enhancement [Manager Workspace]
 
@@ -138,3 +138,96 @@ Fixed an issue where if a client had Away Reasons configured on their account - 
 #### Availability
 Brands using the manager workspace.
 
+## WhatsApp Self-Service Onboarding
+
+### Type: New Feature [WhatsApp Self-Service Onboarding]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook</th>
+
+<th>Twitter</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>RCS Business Messaging</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+#### Description
+WhatsApp Self-Service Onboarding gives brands the ability to connect WhatsApp with the Conversational Cloud in a matter of minutes. Follow the intuitive steps which guide you through the configuration of a brand’s Facebook Business account, WhatsApp Business account and WhatsApp phone number. The user interface also includes self-service of WhatsApp profiles, self-service of other settings and a QR code for testing WhatsApp messages end-to-end.
+
+#### Availability
+Available to all brands, excluding free trial accounts.
+
+#### Enablement
+See the [WhatsApp Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-whatsapp-quick-start.html) guide for instructions on how to onboard a number onto WhatsApp. This feature is not available on trial accounts because of the charges associated with WhatsApp messaging.
+
+#### Limitations
+It must be possible to receive a call or an SMS on the number so that WhatsApp can verify ownership of the number. In other scenarios, the previous onboarding flow is still available, during which documented proof of number ownership can be used.
+
+![](img/week-of-october-20th-8.png)
+![](img/week-of-october-20th-9.png)
+![](img/week-of-october-20th-10.png)
