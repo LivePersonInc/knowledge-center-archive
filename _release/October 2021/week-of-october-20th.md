@@ -231,3 +231,273 @@ It must be possible to receive a call or an SMS on the device in question so tha
 ![](img/week-of-october-20th-8.png)
 ![](img/week-of-october-20th-9.png)
 ![](img/week-of-october-20th-10.png)
+
+## Add support for Viber Connector
+
+### Type: Enhancement [Enhanced Agent Workspace]
+
+#### Description
+The Viber connector has been added to the Data Sources screen. Brands can now enable and configure the Viber connector via this screen.
+
+#### Availability: 
+All brands.
+
+## Lazy Loading for Conversation Messages
+
+### Type: Enhancement [Enhanced Agent Workspace]
+
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>SMS</th>
+
+<th>Facebook</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+#### Description
+Until today, all messages in a conversation were rendered once they were opened by an agent, regardless of the number of messages. This creates an unnecessary load, since all retrieved messages are rendered, even if the user will never view them. This could lead to long load times when opening a conversation.
+
+This feature changes the way the New Agent Workspace (NAW) renders messages. With this new method of rendering, all of the messages in a conversation will be retrieved as normal but only a fixed amount of messages will be rendered when the conversation is opened. Once the user has read those messages, they will be able to load more messages in the conversation by pressing a “load more message” button.
+
+#### Availability: 
+All brands.
+
+## Lazy Loading for Conversation Messages
+
+### Type: Enhancement [Enhanced Agent Workspace]
+
+**Channels:**
+Web messaging.
+
+#### Description
+<u>Facebook dark posts</u><br>
+Dark posts are targeted ads on Facebook that do not appear on the Brand’s page. To give even more context to the agent about what kind of post the comment is coming from, dark posts will have specific metadata to signify this difference from regular posts.
+
+<u>Facebook widget design</u><br>
+A new design update to the Facebook Widget will allow Agents to see a specific selected comment under the parent post. Clicking on this comment will direct the agent to the comment on the native platform where it will appear highlighted.
+
+#### Availability: 
+All brands.
+
+![](img/week-of-october-20th-11.png)
+![](img/week-of-october-20th-12.png)
+
+## Expand Input Area
+
+### Type: Enhancement [Enhanced Agent Workspace]
+
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>SMS</th>
+
+<th>Facebook</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+#### Description
+When this feature is turned on, agents will have the ability to expand the input area and the transcript area by pressing a new icon (see screenshot below). This will allow agents to more easily write longer messages as well as read any potentially long messages sent by the consumer.
+
+#### Availability
+All brands. Note that this feature is **turned off by default**.
+
+#### Enablement
+This feature is **turned off** by default. Please contact your LivePerson account team to enable it.
+
+![](img/week-of-october-20th-13.png)
+
+## Twitter selects wrong handle after switching conversation
+
+### Type: Fix [Social Messaging]
+
+**Channels:**
+Web messaging.
+
+#### Description
+When more than one conversation is opened in the Enhanced Agent Workspace and as agent the handle for one the conversation is changed and used to send a message, when you switch to the other conversation the selected handle on previous conversation is used to send the message (if nothing is changed on the handle selection). This issue has now been resolved.
+
+#### Availability: 
+All brands.
+
+
+## Agent resumes conversation from web and is unable to find "co-browse" icon
+
+### Type: Fix [Enhanced Agent Workspace]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>SMS</th>
+
+<th>Facebook</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+#### Description
+Fixed an issue where the agent would close and then resume a conversation but wouldn’t be able to find the “Co-browse” icon. The icon will now display as expected.
+
+#### Availability: 
+All brands.
