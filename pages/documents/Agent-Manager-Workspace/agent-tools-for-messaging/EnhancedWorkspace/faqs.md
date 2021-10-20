@@ -20,31 +20,23 @@ redirect_from:
 
 If there is a very active conversation, you can tell the customer you are taking a break. You can give them the option to wait, or to be transferred to another agent.
 
-Note: due to the SLA and general demand, transferring to another agent may include a longer wait time for the customer before he is served.
-
-### What should I do once I have set a manual SLA?
-
-Once this has been met, you should return to default.
+**Note**: taking into consideration SLAs and the current demand on the contact center, transferring to another agent may include a longer wait time for the customer before they are served.
 
 ### I want to go on a lunch break, which is a 45-minute break. Should I tell my customers?
 
-For your active conversations, you should let them know that you are going on a break and give them the option to wait or to be transferred to another agent. It’s not always necessary to tell all your customers you are going on break, be aware of which customers this is relevant to. Apply common sense approach.
+For your active conversations, you should let them know that you are going on a break and give them the option to wait or to be transferred to another agent. It’s not always necessary to tell all your customers you are going on break, be aware of which customers this is relevant to (for example, very active conversations which might also last into your break).
 
 ## Managing messaging conversations
 
-### It feels like my active conversations are more than I should have. Should I change my status to away?
+### It feels like I have more active conversations than I should. Should I change my status to away?
 
-Please do not change your status to away. This will confuse the system that is working very hard to ensure that you are not overloaded.
-
-Messaging is designed to have you handle multiple conversations at once. There is a smart algorithm working in the background to try and ensure that you are not overloaded. You’ll have a mixture of active and inactive conversations.
-
-It can feel like you are taking on too many conversations at one time, especially because it is new. It is normal to have a large amount of conversations throughout the day, and this will take some getting used to. You should go on away for lunch and breaks only, not to control the queue.
+Changing your status to away is not recommended. LivePerson's systems are constantly balancing contact center loading, making sure that each agent has the appropriate amount. Messaging is designed to have you handle multiple conversations at once. There is a smart algorithm working in the background to try and ensure that you are not overloaded. If you still feel like you are overloaded, approach your agent manager and see if they recommend you set your status to away or if any tweaking needs to be performed on how the Conversational Cloud is balancing load.
 
 ### What do I do if I get a conversation in my queue that my colleague handled yesterday? Do I transfer it to them?
 
-No, please do not transfer the conversation. We want to avoid transferring as much as possible. The only case where this is considered within the same skill is if the customer specifically asks for the previous agent. Even then, this needs to be for a very good reason.  Always offer to help instead. In most cases, you should have the messaging history of that customer.
+No, there's no need to transfer the conversation. We want to avoid transferring as much as possible. The only case where you might consider transferring the conversation is if the customer specifically asks for the previous agent. Even then, this needs to be for a very good reason. Always offer to help instead. In most cases, you should have the messaging history of that customer.
 
-The system will automatically do its best to route the conversation to the last agent who dealt with it, but if they are not available, due to shift patterns or load percentage, then the system has decided that you have the better capacity to handle this conversation.
+The system will automatically do its best to route the conversation to the last agent who dealt with it, but if they are not available, due to shift patterns or load balancing, then the system has decided that you have the better capacity to handle this conversation.
 
 ### What should I do if a customer tells me that they’ll come back in a few hours? Should I change my manual SLA?
 
@@ -52,15 +44,15 @@ Once you have responded to the customer (the conversation is then no longer pend
 
 ### When should I return a customer to the queue?
 
-Your brand should decide with your LivePerson representative when this is best for them. Some brands decide that this should be the case at the end of your working day. This is so that your customer can continue to get the help they may need after you have finished your shift. If you fall ill, or are not scheduled to be in the next shift, someone else can help your customer complete their query. Please speak to your team manager for more information.
+Your brand should decide with your LivePerson representative when this it is best to return customers to the queue. Some brands decide that this should be the case at the end of your working day. This is so that your customer can continue to get the help they may need after you have finished your shift. If you fall ill, or are not scheduled to be in the next shift, someone else can help your customer complete their query. Please speak to your team manager for more information.
 
 ### Should I ask the customer to ping me when they’re back and ready, or should I be chasing them?
 
-You should always ask the customer to ‘ping’ you when they’re back, so that the conversation is shown as active on your system. However, if it has been a while since you have expected to hear from your customer, then it may be worth checking if they still need help.
+You should always ask the customer to ‘ping’ you when they’re back, so that the conversation is shown as active on your system. However, if it has been a while since you expected to hear from your customer, then it may be worth checking if they still need help.
 
 ### What should I do if I don’t hear from my customer in a few hours?
 
-You should check if the customer is still available or wanting to talk. If not, after a reasonable amount of time has passed, you can close the conversation. The customer can always open the conversation again easily, and you should make this clear in your closing predefined content.
+You should check if the customer is still available or wanting to talk. If not, after a reasonable amount of time has passed, you can close the conversation. The customer can always open the conversation again easily, and you should make this clear in your closing message (whether predefined or not).
 
 ### What should I do if a customer wants to speak to the manager?
 
@@ -72,7 +64,7 @@ We suggest that you transfer to your team manager. This way, it removes the conv
 
 When a customer confirms a resolution, or when you have waited the appropriate amount of time after checking if they are still present.
 
-Remember, they can always restart the conversation. You won’t always have a customer confirm a resolution, and you may have customers who call in and complete the query with another channel. If you have an unresponsive customer over a certain period of time, the system will close this for you.
+Remember, they can always restart the conversation. You won’t always have a customer confirm a resolution, and you may have customers who call in and complete the query with another channel. If you have an unresponsive customer over a certain period of time, the system will close this conversation for you.
 
 ### Do we close a conversation if the customer comes back in over 12 hours?
 
@@ -84,7 +76,7 @@ There are other skills available on messaging. Speak to your team manager to und
 
 ### We’ve been asked to respond to the first customer within a minute. How can I do that when I have so many conversations?
 
-Messaging is designed to allow you to multitask. You should be able to click the new conversation, send the first response which is a hot-key, and return to your current message. It will take some time to get used to prioritizing and multitasking.
+Messaging is designed to allow you to multitask. You should be able to click the new conversation, send the first response (using a hot-key or a predefined response), and return to your current message.
 
 ### Is there a predefined response that explains that the customer is being transferred to a new team?
 
@@ -92,7 +84,7 @@ If not, we can draw one up for you. Speak to your Team Manager if you feel that 
 
 ### What should I fill out in the conversation summary, and should I fill this out every time?
 
-Yes, a conversation summary should be filled out every time.  A summary should include information that stood out about the chat, a quick summary would be really useful for the next person who deals with this customer again. It saves them from having to read the whole transcript. Keep the summary short and concise.
+Yes, a conversation summary should be filled out every time.  A summary should include information that stood out about the chat. This quick summary would be really useful for the next person who deals with this customer again. It saves them from having to read the whole transcript. Keep the summary short and concise.
 
 ### Should I ask customers to fill in feedback at the end of a conversation?
 
@@ -102,7 +94,7 @@ The system will automatically send out the exit survey. Sometimes it is good for
 
 ### When I login, I get lots of messaging conversations straight away. Is that normal?
 
-This can be normal, depending on the time that you start a shift. If there are a lot of customers in the queue from the night before, you may be busy from when you first login.
+This can be normal, depending on the time that you start a shift. If there are a lot of customers in the queue from the night before, you may be busy when you first login.
 
 ### What will the visitor see once I set a new SLA?
 

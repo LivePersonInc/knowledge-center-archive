@@ -82,7 +82,7 @@ The agent has the ability to manually rename the visitor’s first and last name
 
 ![](img/set-consumer-profile-6.png)
 
-##### Enablement
+#### Enablement
 
 {: .notice}
 **Please note:** This feature requires enablement. You can enable this feature, alongside its requisite permissions, in the Management Console. Simply search for "visitor name".

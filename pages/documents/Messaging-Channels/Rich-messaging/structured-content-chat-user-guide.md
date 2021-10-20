@@ -94,7 +94,7 @@ This feature requires backend enablement, please contact your LivePerson represe
 
 Structured content JSON playground - [https://livepersoninc.github.io/json-pollock/editor/](https://livepersoninc.github.io/json-pollock/editor/ "https://livepersoninc.github.io/json-pollock/editor/")
 
-Structured content taglet - [https://agents-lp.github.io/strcutured-content-widget/index.html](https://agents-lp.github.io/strcutured-content-widget/index.html "https://agents-lp.github.io/strcutured-content-widget/index.html")
+Structured content taglet - [https://agents-lp.github.io/structured-content-widget/index.html](https://agents-lp.github.io/structured-content-widget/index.html "https://agents-lp.github.io/structured-content-widget/index.html")
 
 Example content to JSON Scraper - [https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore](https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore "https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore")
 

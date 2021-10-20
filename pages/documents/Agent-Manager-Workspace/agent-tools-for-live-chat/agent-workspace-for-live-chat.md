@@ -11,15 +11,16 @@ date: 2019-01-21 12:19:13 +0000
 redirect_from:
   - live-chat-agents-managers-new-navigation-status-button.html
 ---
+
 ## Login and status
 
-The Agent Workspace acts as a centralized location for agents to manage all of their chat conversations simultaneously.In order to begin chatting, you first need to complete the following steps:
+The Agent Workspace acts as a centralized location for agents to manage all of their chat conversations simultaneously. In order to begin chatting, you first need to complete the following steps:
 
 1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website. For instructions on how to get the code, [click here.](getting-started-getting-started-with-live-chat.html)
 
 2. Create users for the agents that will be taking the conversations. To learn how to set up users, [click here](getting-started-getting-started-with-live-chat.html).
 
-3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
+3. Once the code is up and an agent is logged into the system, they must change their status to ‘online’. Doing so will automatically enable the chat button on the website and they can begin to accept incoming chats.
 
 ## The visitors list
 
