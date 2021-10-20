@@ -423,7 +423,7 @@ This feature is **turned off** by default. Please contact your LivePerson accoun
 Web messaging.
 
 #### Description
-When more than one conversation is opened in the Enhanced Agent Workspace and as agent the handle for one the conversation is changed and used to send a message, when you switch to the other conversation the selected handle on previous conversation is used to send the message (if nothing is changed on the handle selection). This issue has now been resolved.
+When more than one Twitter Conversation was opened in the Enhanced Agent Workspace and the option with multiple twitter account handles was enabled, the Twitter account handle dropdown could be misleadingly selected. This issue has since been resolved.
 
 #### Availability: 
 All brands.
