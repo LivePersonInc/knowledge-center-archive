@@ -317,9 +317,9 @@ This feature changes the way the New Agent Workspace (NAW) renders messages. Wit
 #### Availability: 
 All brands.
 
-## Lazy Loading for Conversation Messages
+## Support for FB dark posts and FB Social Widget design update
 
-### Type: Enhancement [Enhanced Agent Workspace]
+### Type: Enhancement [Social Messaging]
 
 **Channels:**
 Web messaging.
@@ -427,7 +427,6 @@ When more than one conversation is opened in the Enhanced Agent Workspace and as
 
 #### Availability: 
 All brands.
-
 
 ## Agent resumes conversation from web and is unable to find "co-browse" icon
 
