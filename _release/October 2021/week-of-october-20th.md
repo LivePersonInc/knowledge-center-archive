@@ -103,7 +103,7 @@ The column is not scrollable or filterable in this version.
 Until today, the Queue Summary Widget showed all skills, even if there were no agents connected to it and 0 conversations in queue. In addition, there was no paging in this widget, but rather a long scrollable list. 
 The Manager Workspace queue summary widget will now present only skills with the following conditions:
 * There are existing conversations in the queue (queue size>0)
-    **OR**
+    <br>**OR**<br>
 * There are agents assigned to the skills that are logged in
 In addition to the above, the widget will now include paging.
 
