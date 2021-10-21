@@ -390,14 +390,13 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: September what's new
     - subcategoryname: Summer edition what's new
     - subcategoryname: May what's new
     - subcategoryname: April what's new
     - subcategoryname: March what's new
     - subcategoryname: February what's new
     - subcategoryname: January what's new
-    - subcategoryname: December what's new
-    - subcategoryname: November what's new
 
 - categoryname: Release notes
   image: release-notes
