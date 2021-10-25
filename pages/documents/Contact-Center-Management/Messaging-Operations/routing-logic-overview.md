@@ -46,9 +46,12 @@ As part of the authentication flow, the authentication server can provide inform
 
 The following engagement attributes are currently supported for skill selection:
 
-* Customer info ("ctmrinfo") attributes:
-* Customer type (“ctype”)
-* Company branch (“companyBranch”)
+* Customer info ("ctmrInfo") attributes:
+  * Customer type (“ctype”)
+  * Company branch (“companyBranch”)
+* Personal info ("personal") attributes:
+  * Gender (“gender”)
+  * Language (“language”)
 
 Once a conversation is initiated, the routing engine will receive a skill notification based on the consumer profile identified during the authentication process. The system will then route the conversation to an appropriate agent assigned to that skill.
 
