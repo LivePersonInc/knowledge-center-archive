@@ -19,6 +19,17 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Support Medallia Survey Bots
+
+### Type: New Feature [Bot Connectors - Release 2.36]
+
+**Availability:** All brands
+
+**Enablement:** An additional step was added in the beginning of the Third-Party Bots wizard, named Choose Bot Type,  where users are able to choose between two bot types: Survey and Agent . By choosing 'Agent' the known flow will be executed. When choosing 'Survey' the user is able to select Medallia as Vendor for the last step. 
+
+### Description
+Support Survey Bots using the Medallia vendor and allow a Medallia Bot to join selected conversations and start a survey with the customer. Answers will be forwarded back to Medallia. One of Medallia’s key features is helping companies collect customer feedback and then analyzing them to improve customer care. 
+
 ## Conversation Builder bots now prevent consumer interruptions
 
 ### Type: Enhancement [Conversation Builder - Release 2021_11.0]
