@@ -30,7 +30,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 **Enablement:** This behavior is enabled by default. All new and existing bots now block “interrupt” messages from the consumer. No action or manual change by you is required to add support.
 
 ### Description
-In this release of Conversation Builder, we make a change to all bots to prevent consumer interruptions. This means that, while a bot is responding to a consumer’s message, it now blocks(ignores) additional messages from the consumer until it has finished or until the default timeout of 15 seconds passes, whichever happens first. During this time, the bot doesn’t acknowledge any “interrupt” messages from the consumer. You can optionally configure a bot message to send in response, for example, “Please wait. I’m still responding to your last message. Thanks for your patience.”
+In this release of Conversation Builder, we make a change to all bots to prevent consumer interruptions. This means that, while a bot is responding to a consumer’s message, it now blocks (ignores) additional messages from the consumer until it has finished or until the default timeout of 15 seconds passes, whichever happens first. During this time, the bot doesn’t acknowledge any “interrupt” messages from the consumer. You can optionally configure a bot message to send in response, for example, “Please wait. I’m still responding to your last message. Thanks for your patience.”
 
 Prior to this release, you had the option to stop consumer interruptions through a configuration change. Any bots that are already configured to handle interruptions will continue to work as they did previously. In this release, we simply change things so that this is the default behavior of all bots, both new and existing.
 
@@ -49,7 +49,7 @@ Yes. To customize the behavior:
 1. Add an environment that stores a set of **environment variables** for the bot. If the bot is already linked to an existing environment, skip this step and append the variables to the existing environment.
 2. In the environment, add these three system environment variables:<br>
     **Name:** system_handleIntermediateUserMessage<br>
-    **Description:** If true, the bot blocks(ignores) consumer messages while the bot is responding to the consumer’s last message. Keep this set to “true.”<br>
+    **Description:** If true, the bot blocks (ignores) consumer messages while the bot is responding to the consumer’s last message. Keep this set to “true.”<br>
     **Type:** Boolean<br>
     **Default value:** true<br>
 
@@ -59,7 +59,7 @@ Yes. To customize the behavior:
     **Default value:** 15000<br>
 
     **Name:** system_intermediateBotMessage<br>
-    **Description:** By default, while the bot blocks(ignores) consumer messages, it doesn’t acknowledge  them (i.e., this default value is BLANK_MESSAGE). Use this to specify a bot message to send in response to each consumer “interrupt” message, for example, “Please wait. I’m still responding to your last message. Thanks for your patience.”<br>
+    **Description:** By default, while the bot blocks (ignores) consumer messages, it doesn’t acknowledge  them (i.e., this default value is BLANK_MESSAGE). Use this to specify a bot message to send in response to each consumer “interrupt” message, for example, “Please wait. I’m still responding to your last message. Thanks for your patience.”<br>
     **Type:** string<br>
     **Default value:** BLANK_MESSAGE<br>
     **Note:** If you want to customize the timeout period or bot message, you must add all three variables. In this case of customization, you can use all the default values or specify your own values, but not a mix of both.<br>
@@ -73,7 +73,7 @@ To disable the blocking behavior:
 1. Add an environment that stores a set of **environment variables** for the bot. If the bot is already linked to an existing environment, skip this step and append the variable to the existing environment.
 2. In the environment, add just this one environment variable:<br>
     **Name:** system_handleIntermediateUserMessage<br>
-    **Description:** If true, the bot blocks(ignores) consumer messages while the bot is responding to the consumer’s last message. To disable the blocking behavior, set this to “false.” If false, every consumer message is processed by the bot for matching intents and patterns.<br>
+    **Description:** If true, the bot blocks (ignores) consumer messages while the bot is responding to the consumer’s last message. To disable the blocking behavior, set this to “false.” If false, every consumer message is processed by the bot for matching intents and patterns.<br>
     **Type:** Boolean<br>
     **Default value:** true<br>
 3. Link the environment to the bot if it isn’t already linked.
