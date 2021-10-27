@@ -1,7 +1,7 @@
 ---
 pagename: Week of October 27th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: "2021"
 indicator: both
 subtitle: ''
 level3: October 2021
