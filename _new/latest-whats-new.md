@@ -12,7 +12,6 @@ isNew: false
 
 Watch this short video to see an overview of all the new features and capabilities that came out this October and in the weeks ahead.
 
-<iframe src="COMING SOON" allowfullscreen></iframe>
 
 ## Integration Hub (IHUB)
 
