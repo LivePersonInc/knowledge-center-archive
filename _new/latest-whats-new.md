@@ -34,10 +34,12 @@ All Medallia CX platform users can now leverage our Medallia Post Conversational
 ##Sales Attribution from Shared Links- Early Access
 Track conversions in 3rd-party channels for better attribution. When the agent directs consumers to a branded website, Sales Attribution from shared links is able to attribute cross-session sales that occur after the initial conversation
 
+![](img/whats-new-oct-2.png)
+
 ##Dynamic Actions MLP
 With our real time action framework, you can use different AI signals, such as intent and sentiment, to steer conversations, initiate workflows, and provide better conversational experiences. Automatically react to intents emanating from conversations to trigger a FAAS in real time and maintain uber control to override any automation. Dynamic Actions simplifies and accelerates the process to build advanced automations.
 
-![](img/whats-new-oct-2.png)
+![](img/whats-new-oct-3.png)
 
 Add an interaction to any bot that needs Dynamic Routing within its flow. Simply drop the interaction in the spot where Dynamic Routing should occur for simple setup or use Dynamic Routing bot template to deploy Dynamic Routing to any bot with none-to-minimal coding.
 
@@ -55,7 +57,7 @@ Failure to deliver indicator when messages fail to be sent - *new
 Social connector widget supports Facebook - *new
 Japanese language support - *new
 
-![](img/whats-new-oct-3.png)
+![](img/whats-new-oct-4.png)
 
 **Coming soon**:
 Click-to-call phone numbers within messages
