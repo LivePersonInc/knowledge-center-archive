@@ -4,7 +4,7 @@ categoryName: Release notes
 subCategoryName: 
 indicator: both
 subtitle: ''
-level3:
+level3: October 2021
 permalink: release-notes-2021-october-week-of-october-27th.html
 isTutorial: false
 isNew: false
@@ -81,4 +81,89 @@ To disable the blocking behavior:
 #### Previously, I enabled this behavior by manually adding the environment variables discussed above to an environment. Does my implementation still work?
 Yes. As mentioned above, in previous releases, the blocking behavior was existing functionality that you could manually enable by adding system_handleIntermediateUserMessage, system_intermediateBotMessage, and system_intermediateBotResponseTimeout to the environment that’s linked to your bot. If this is your case, your implementation still works, and no change is required by you. Your custom values for the variables are simply used to control the behavior. The feature will work as it did previously.
 
+## Twitter self-service - Management console
 
+### Type: New Feature [Social Messaging]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook</th>
+
+<th>Twitter</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>RCS Business Messaging</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+#### Description
+Twitter configuration is now self-serviced via the Management Console. 
+
+#### Availability: 
+All brands.
+
+![](img/week-of-october-27th-1.png)
+![](img/week-of-october-27th-2.png)

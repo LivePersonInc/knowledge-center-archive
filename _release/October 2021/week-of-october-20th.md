@@ -4,7 +4,7 @@ categoryName: Release notes
 subCategoryName: 
 indicator: both
 subtitle: ''
-level3:
+level3: October 2021
 permalink: release-notes-2021-october-week-of-october-20th.html
 isTutorial: false
 isNew: false
