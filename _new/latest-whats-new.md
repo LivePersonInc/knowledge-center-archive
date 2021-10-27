@@ -23,7 +23,7 @@ Use Analytics, and four integration components:
 * Partner Integrations
 * Agent Widget Marketplace
 
-![](img/whats-new-oct-1.png)
+![](img/whats-new-oct-1a.png)
 
 Dedicated integration templates for popular use cases in commerce, sales & marketing allow brands to speed up delivery time. Leverage the ability to re-use integrations across multiple internal products and services. Similarly, Integration Hub includes access to more than a thousand out-of-the-box connectors.
 
@@ -39,7 +39,7 @@ Track conversions in 3rd-party channels for better attribution. When the agent d
 ##Dynamic Actions MLP
 With our real time action framework, you can use different AI signals, such as intent and sentiment, to steer conversations, initiate workflows, and provide better conversational experiences. Automatically react to intents emanating from conversations to trigger a FAAS in real time and maintain uber control to override any automation. Dynamic Actions simplifies and accelerates the process to build advanced automations.
 
-![](img/whats-new-oct-3.png)
+![](img/whats-new-oct-3a.png)
 
 Add an interaction to any bot that needs Dynamic Routing within its flow. Simply drop the interaction in the spot where Dynamic Routing should occur for simple setup or use Dynamic Routing bot template to deploy Dynamic Routing to any bot with none-to-minimal coding.
 
