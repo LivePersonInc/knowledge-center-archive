@@ -1,7 +1,7 @@
 ---
 pagename: Week of October 20th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: "2021"
 indicator: both
 subtitle: ''
 level3: October 2021
@@ -24,17 +24,21 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: Enhancement [Manager Workspace]
 
 #### Description
+
 The Manager Workspace agent widget was enhanced with a new metric which is now available to agent managers: Transfer Rate.
 The transfer rate metric represents the number of transfer conversations (to agent or skill) out of the total concluded conversations. Concluded = all transfer types (including B2Q and Takeover) + closed.
 
 #### Availability
+
 Brands using the manager workspace.
 
 #### Enablement
+
 The metrics are ‘on’ by default and will be automatically added to the widget. If the user wishes to remove/disable the feature, they can do so from the Widgets Personalization area.
 
 #### Limitations
-The column is not scrollable or filterable in this release. 
+
+The column is not scrollable or filterable in this release.
 
 ![](img/week-of-october-20th-1.png)
 
@@ -43,17 +47,21 @@ The column is not scrollable or filterable in this release.
 ### Type: Enhancement [Manager Workspace]
 
 #### Description
+
 The Manager Workspace queue summary widget has a new additional metric which is now available to agent managers: Resolution Time.
 The metric represents the average handling time of **closed** conversations in the selected timeframe. Handling time is counted for assigned conversations from the conversation start time.
 
 #### Availability
+
 Brands using the manager workspace.
 
 #### Enablement
+
 The metrics are ‘on’ by default and will be automatically added to the widget. If the user wishes to remove/disable this feature, they can do so from the Widgets Personalization area.
 
 #### Limitations
-The column is not scrollable or filterable in this release. 
+
+The column is not scrollable or filterable in this release.
 
 ![](img/week-of-october-20th-2.png)
 
@@ -62,16 +70,20 @@ The column is not scrollable or filterable in this release.
 ### Type: Enhancement [Manager Workspace]
 
 #### Description
+
 The Manager Workspace conversations widget was extended with a new metric which is now available for closed conversations: Closed by metric.
 The metric indicates by whom/what each conversation was closed: Consumer, Agent, Timeout, System.
 
 #### Availability
+
 Brands using the manager workspace.
 
 #### Enablement
+
 The metric is ‘on’ by default and will be automatically added to the widget. If the user wishes to remove/disable the metric, they can do so from the Widgets Personalization area.
 
 #### Limitations
+
 The column is not scrollable or filterable in this version.
 
 ![](img/week-of-october-20th-3.png)
@@ -81,15 +93,19 @@ The column is not scrollable or filterable in this version.
 ### Type: Enhancement [Manager Workspace]
 
 #### Description
+
 In order to align with the ‘Agent Performance’ widget, the Manager Workspace conversations, skills and bot performance widgets were extended with the ability to decide how many conversations will appear in each page of the widget: 10, 25 or 50 conversations per page.
 
 #### Availability
+
 Brands using the manager workspace.
 
 #### Enablement
+
 This functionality is on by default and cannot be removed.
 
 #### Limitations
+
 The column is not scrollable or filterable in this version.
 
 ![](img/week-of-october-20th-4.png)
@@ -100,17 +116,21 @@ The column is not scrollable or filterable in this version.
 ### Type: Enhancement [Manager Workspace]
 
 #### Description
-Until today, the Queue Summary Widget showed all skills, even if there were no agents connected to it and 0 conversations in queue. In addition, there was no paging in this widget, but rather a long scrollable list. 
+
+Until today, the Queue Summary Widget showed all skills, even if there were no agents connected to it and 0 conversations in queue. In addition, there was no paging in this widget, but rather a long scrollable list.
 The Manager Workspace queue summary widget will now present only skills with the following conditions:
+
 * There are existing conversations in the queue (queue size>0)
     <br>**OR**<br>
 * There are agents assigned to the skills that are logged in
 In addition to the above, the widget will now include paging.
 
 #### Availability
+
 Brands using the manager workspace.
 
 #### Enablement
+
 This functionality is on by default and cannot be removed.
 
 ![](img/week-of-october-20th-6.png)
@@ -120,10 +140,12 @@ This functionality is on by default and cannot be removed.
 ### Type: Enhancement [Manager Workspace]
 
 #### Description
+
 The Manager Workspace activity summary widget now supports another metric and therefore when choosing to enable all metrics, the structure of the tiles is reactive to the number of metrics.
 In addition, some of the icons were updated with new ones, and their location has moved next to the metric name.
 
 #### Availability
+
 Brands using the manager workspace.
 
 ![](img/week-of-october-20th-7.png)
@@ -133,9 +155,11 @@ Brands using the manager workspace.
 ### Type: Fix [Manager Workspace]
 
 #### Description
-Fixed an issue where if a client had Away Reasons configured on their account - the status duration alert wasn’t working as intended in some cases. This issue is now resolved. 
+
+Fixed an issue where if a client had Away Reasons configured on their account - the status duration alert wasn’t working as intended in some cases. This issue is now resolved.
 
 #### Availability
+
 Brands using the manager workspace.
 
 ## WhatsApp Self-Service Onboarding
@@ -217,15 +241,19 @@ Brands using the manager workspace.
 </div>
 
 #### Description
+
 WhatsApp Self-Service Onboarding gives brands the ability to connect WhatsApp with the Conversational Cloud in a matter of minutes. Follow the intuitive steps which guide you through the configuration of a brand’s Facebook Business account, WhatsApp Business account and WhatsApp phone number. The user interface also includes self-service of WhatsApp profiles, self-service of other settings and a QR code for testing WhatsApp messages end-to-end.
 
 #### Availability
+
 Available to all brands, excluding free trial accounts.
 
 #### Enablement
+
 See the [WhatsApp Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-whatsapp-quick-start.html) guide for instructions on how to onboard a number onto WhatsApp. This feature is not available on trial accounts because of the charges associated with WhatsApp messaging.
 
 #### Limitations
+
 It must be possible to receive a call or an SMS on the device in question so that WhatsApp can verify ownership of the number. In other scenarios, the previous onboarding flow is still available, during which documented proof of number ownership can be used.
 
 ![](img/week-of-october-20th-8.png)
@@ -237,15 +265,16 @@ It must be possible to receive a call or an SMS on the device in question so tha
 ### Type: Enhancement [Enhanced Agent Workspace]
 
 #### Description
+
 The Viber connector has been added to the Data Sources screen. Brands can now enable and configure the Viber connector via this screen.
 
-#### Availability: 
+#### Availability
+
 All brands.
 
 ## Lazy Loading for Conversation Messages
 
 ### Type: Enhancement [Enhanced Agent Workspace]
-
 
 **Channels:**
 
@@ -310,11 +339,13 @@ All brands.
 </div>
 
 #### Description
+
 Until today, all messages in a conversation were rendered once they were opened by an agent, regardless of the number of messages. This creates an unnecessary load, since all retrieved messages are rendered, even if the user will never view them. This could lead to long load times when opening a conversation.
 
 This feature changes the way the New Agent Workspace (NAW) renders messages. With this new method of rendering, all of the messages in a conversation will be retrieved as normal but only a fixed amount of messages will be rendered when the conversation is opened. Once the user has read those messages, they will be able to load more messages in the conversation by pressing a “load more message” button.
 
-#### Availability: 
+#### Availability
+
 All brands.
 
 ## Support for FB dark posts and FB Social Widget design update
@@ -325,13 +356,15 @@ All brands.
 Web messaging.
 
 #### Description
+
 <u>Facebook dark posts</u><br>
 Dark posts are targeted ads on Facebook that do not appear on the Brand’s page. To give even more context to the agent about what kind of post the comment is coming from, dark posts will have specific metadata to signify this difference from regular posts.
 
 <u>Facebook widget design</u><br>
 A new design update to the Facebook Widget will allow Agents to see a specific selected comment under the parent post. Clicking on this comment will direct the agent to the comment on the native platform where it will appear highlighted.
 
-#### Availability: 
+#### Availability
+
 All brands.
 
 ![](img/week-of-october-20th-11.png)
@@ -340,7 +373,6 @@ All brands.
 ## Expand Input Area
 
 ### Type: Enhancement [Enhanced Agent Workspace]
-
 
 **Channels:**
 
@@ -405,12 +437,15 @@ All brands.
 </div>
 
 #### Description
+
 When this feature is turned on, agents will have the ability to expand the input area and the transcript area by pressing a new icon (see screenshot below). This will allow agents to more easily write longer messages as well as read any potentially long messages sent by the consumer.
 
 #### Availability
+
 All brands. Note that this feature is **turned off by default**.
 
 #### Enablement
+
 This feature is **turned off** by default. Please contact your LivePerson account team to enable it.
 
 ![](img/week-of-october-20th-13.png)
@@ -423,9 +458,11 @@ This feature is **turned off** by default. Please contact your LivePerson accoun
 Web messaging.
 
 #### Description
+
 When more than one Twitter Conversation was opened in the Enhanced Agent Workspace and the option with multiple twitter account handles was enabled, the Twitter account handle dropdown could be misleadingly selected. This issue has since been resolved.
 
-#### Availability: 
+#### Availability
+
 All brands.
 
 ## Agent resumes conversation from web and is unable to find "co-browse" icon
@@ -494,9 +531,10 @@ All brands.
 
 </div>
 
-
 #### Description
+
 Fixed an issue where the agent would close and then resume a conversation but wouldn’t be able to find the “Co-browse” icon. The icon will now display as expected.
 
-#### Availability: 
+#### Availability
+
 All brands.

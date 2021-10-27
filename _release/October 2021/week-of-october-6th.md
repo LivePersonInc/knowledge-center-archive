@@ -1,10 +1,10 @@
 ---
 pagename: Week of October 6th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: "2021"
 indicator: both
 subtitle: ''
-level3:
+level3: October 2021
 permalink: release-notes-2021-october-week-of-october-6th.html
 isTutorial: false
 isNew: false
@@ -108,7 +108,6 @@ Agent App v2.7.6 includes:
 * Ringing conversations now play sound on tablets
 * Japanese localization
 
-
 ### Enablement
 
 Search for LivePerson Agent App on the Google Play Store or Apple App Store and download the app.
@@ -117,12 +116,11 @@ Search for LivePerson Agent App on the Google Play Store or Apple App Store and 
 
 [Agent App on Google Play Store](https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging)
 
-
 ## Upgrade button on the Releases page in Conversation Builder is disabled for some brands
 
 ### Type: Fix [Conversation Builder]
 
-**Channels:** Impact all channels 
+**Channels:** Impact all channels
 
 **Availability:** All brand
 
@@ -138,7 +136,6 @@ If you find that your Upgrade button is disabled in Conversation Builder, you ca
 2. Select your organization name.
 3. On the Account Details page, toggle any setting on and then off. Or, toggle any setting off and then on. Any setting will suffice; it’s just necessary that you toggle a setting.
 4. Log out of Conversational Cloud, then log back in.
-In Conversation Builder, the Upgrade button is now enabled for use. 
+In Conversation Builder, the Upgrade button is now enabled for use.
 
 **Note: This issue will be automatically resolved in the next release of Conversation Builder.**
-

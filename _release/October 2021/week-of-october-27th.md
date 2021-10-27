@@ -1,7 +1,7 @@
 ---
 pagename: Week of October 27th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: "2021"
 indicator: both
 subtitle: ''
 level3: October 2021
@@ -30,6 +30,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 **Enablement:** This behavior is enabled by default. All new and existing bots now block “interrupt” messages from the consumer. No action or manual change by you is required to add support.
 
 ### Description
+
 In this release of Conversation Builder, we make a change to all bots to prevent consumer interruptions. This means that, while a bot is responding to a consumer’s message, it now blocks additional messages from the consumer until it has finished or until the default timeout of 15 seconds passes, whichever happens first. During this time, the bot doesn’t acknowledge any “interrupt” messages from the consumer. You can optionally configure a bot message to send in response, for example, “Please wait. I’m still responding to your last message. Thanks for your patience.”
 
 Prior to this release, you had the option to stop consumer interruptions through a configuration change. Any bots that are already configured to handle interruptions will continue to work as they did previously. In this release, we simply change things so that this is the default behavior of all bots, both new and existing.
@@ -45,7 +46,9 @@ We are making this change so that a bot is given sufficient time to send its res
 Using this blocking behavior will help conversations stay the course and not get derailed inadvertently.
 
 #### Can I customize the behavior?
+
 Yes. To customize the behavior:
+
 1. Add an environment that stores a set of **environment variables** for the bot. If the bot is already linked to an existing environment, skip this step and append the variables to the existing environment.
 2. In the environment, add these three system environment variables:<br>
     **Name:** system_handleIntermediateUserMessage<br>
@@ -66,6 +69,7 @@ Yes. To customize the behavior:
 3. Link the environment to the bot if it isn’t already linked.
 
 #### Can I disable the behavior?
+
 Yes. To prevent the consumer’s context from changing inadvertently, LivePerson recommends that you keep the blocking behavior enabled. However, you can disable it if you want.
 
 To disable the blocking behavior:
@@ -79,6 +83,7 @@ To disable the blocking behavior:
 3. Link the environment to the bot if it isn’t already linked.
 
 #### Previously, I enabled this behavior by manually adding the environment variables discussed above to an environment. Does my implementation still work?
+
 Yes. As mentioned above, in previous releases, the blocking behavior was existing functionality that you could manually enable by adding system_handleIntermediateUserMessage, system_intermediateBotMessage, and system_intermediateBotResponseTimeout to the environment that’s linked to your bot. If this is your case, your implementation still works, and no change is required by you. Your custom values for the variables are simply used to control the behavior. The feature will work as it did previously.
 
 ## Twitter self-service - Management console
@@ -160,9 +165,11 @@ Yes. As mentioned above, in previous releases, the blocking behavior was existin
 </div>
 
 #### Description
-Twitter configuration is now self-serviced via the Management Console. 
 
-#### Availability: 
+Twitter configuration is now self-serviced via the Management Console.
+
+#### Availability
+
 All brands.
 
 ![](img/week-of-october-27th-1.png)

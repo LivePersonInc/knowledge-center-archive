@@ -1,10 +1,10 @@
 ---
 pagename: Week of October 13th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: "2021"
 indicator: both
 subtitle: ''
-level3:
+level3: October 2021
 permalink: release-notes-2021-october-week-of-october-13th.html
 isTutorial: false
 isNew: false
@@ -32,13 +32,15 @@ The timing and scope of these features or functionalities remain at the sole dis
 Today, Analytics builder translation is limited to the analytics builder tool’s texting only ( i.e “Shared Reports”, “My reports”, “Export” etc), while the names of the metrics, attributes, descriptions and datasets are not translated.
 
 With this release, the full translation of the following languages is implemented:
+
 * Japanese
 * Portuguese (Brazil)
-* Spanish (Latin) 
+* Spanish (Latin)
 
-Additional languages are planned to be supported within the next releases. 
+Additional languages are planned to be supported within the next releases.
 
 ### Enablement
+
 The configuration of an account’s Conversational Cloud UI language setting is currently performed in the Users Model footnotes.
 
 ![](img/oct-13-rn-1.png)
@@ -49,7 +51,7 @@ A user can override his/her language from ״my details״ page, which is accessed
 
 ![](img/oct-13-rn-3.png)
 
-## New Rollover Dashboard 
+## New Rollover Dashboard
 
 ### Type: Enhancement [Analytics Builder 4.12]
 
@@ -60,8 +62,8 @@ A user can override his/her language from ״my details״ page, which is accessed
 ### Description
 
 Rollover feature enables a configured “Handler” (rollover) account to answer conversations on behalf of other Conversational Cloud accounts.  
- 
-Today’s reporting solution most often only looks at the activity on the individual account itself. 
+
+Today’s reporting solution most often only looks at the activity on the individual account itself.
 A new dashboard is now available for the Rollover accounts under:
 
 Shared reports>LE predefined dashboard>Rollover dashboard
@@ -78,7 +80,7 @@ The report contains three sections:
 
 ![](img/oct-13-rn-5.png)
 
-3. **Details by agent** - agent level grids to track the performance of specific agents. 
+3. **Details by agent** - agent level grids to track the performance of specific agents.
 
 ![](img/oct-13-rn-6.png)
 
@@ -122,7 +124,6 @@ This report displays a grid on the left side that is sortable by the Repeat Cont
 **DETAILED DATA GRID**
 The DETAILED DATA GRID repeats many of the metrics seen in the other tabs in a grid format, along with some additional metrics. The manager also has an AWAY DETAILS grid to display time spent in Custom Away States if the manager prefers to see the data in this format.
 
-
 ## SLA reports
 
 ### Type: Enhancement [Analytics Builder 4.12]
@@ -132,24 +133,27 @@ The DETAILED DATA GRID repeats many of the metrics seen in the other tabs in a g
 #### Availability: All brands with enablement Analytics Builder
 
 ### Description
-A new report  “SLA REPORT” is now available under the “Messaging Performance Dashboard”. (Shared reports>LE predefined dashboard>Performance Dashboard for Messaging>Brand level) 
 
-The report allows brands to view the number of agent responses and the percentage of agent responses which met the advertised SLA. It contains two skill level daily grids: 
+A new report  “SLA REPORT” is now available under the “Messaging Performance Dashboard”. (Shared reports>LE predefined dashboard>Performance Dashboard for Messaging>Brand level)
 
-* First message SLA Grid -  aimed to analyze the SLA of the first response to the customer. 
-* Other messages SLA Grid - aimed to analyze the SLA of all responses, excluding the first one. 
+The report allows brands to view the number of agent responses and the percentage of agent responses which met the advertised SLA. It contains two skill level daily grids:
+
+* First message SLA Grid -  aimed to analyze the SLA of the first response to the customer.
+* Other messages SLA Grid - aimed to analyze the SLA of all responses, excluding the first one.
 
 Each one of the Grids holds the following metrics, which were computed for different pre-defined SLA buckets:
 
-* The total number of agent responses answered within X minutes. 
+* The total number of agent responses answered within X minutes.
 * The percentage of agent responses answered within X minutes out of all agent responses.
 
 The available pre-defined SLA’s are:
+
 * Immediate SLAs:
-* 5 minutes 
-* 10 minutes 
- 
+* 5 minutes
+* 10 minutes
+
 Non-immediate SLAs:
+
 * 30 minutes
 * 1 hour
 * 3 hours
@@ -158,7 +162,7 @@ Non-immediate SLAs:
 
 For the “Other messages Grid”, the counter of the number of responses is raised per the segment average. I.e, an average of the agent response time within a segment (except for the first message) is attributed once to the relevant time bucket . For example, in case the average of all agent responses within the skill segment is 4 minutes,  the 5 minutes SLA bucket will rise by 1
 
-![](img/oct-13-rn-7.png) 
+![](img/oct-13-rn-7.png)
 
 ## Change Analytics Builder default prompt to “last 10 days”
 
@@ -174,7 +178,6 @@ As of today, the Analytics Builder default prompt is set to “Last 60 days”, 
 
 Starting this version, the default prompt will be “Last 10 days”. There is always an option to change it to any other option before running the Dossier.
 
-
 ## Hide Agent Details from Agent Manager (Italy)
 
 ### Type: Enhancement [Analytics Builder 4.12]
@@ -185,8 +188,7 @@ Starting this version, the default prompt will be “Last 10 days”. There is a
 
 ### Description
 
-Regulations in some countries restrict managers from viewing the performance of a single user. This enhancement enables you to mask all agents’ personal information. 
-
+Regulations in some countries restrict managers from viewing the performance of a single user. This enhancement enables you to mask all agents’ personal information.
 
 ## Adding "Deleted Agent Indicator" to Performance Dashboard for Messaging
 
@@ -198,8 +200,7 @@ Regulations in some countries restrict managers from viewing the performance of 
 
 ### Description
 
-Allow brands to filter deleted agents from the Analytics Builder predefined dashboards.  This change will allow brands, who often delete agents, to better understand their team performance by removing the agents who are no longer part of the team. This change will not affect the existing default data and visualizations. 
-
+Allow brands to filter deleted agents from the Analytics Builder predefined dashboards.  This change will allow brands, who often delete agents, to better understand their team performance by removing the agents who are no longer part of the team. This change will not affect the existing default data and visualizations.
 
 ## 'Assigned Conversations' works properly in Business Dashboard for Messaging
 
@@ -210,8 +211,8 @@ Allow brands to filter deleted agents from the Analytics Builder predefined dash
 #### Availability: All brands with enablement Analytics Builder
 
 ### Description
-When adding the metric “ASSIGNED CONVERSATIONS” to the different grids under the “Business activity dashboard”, the metric value always resulted in 0. This issue is now resolved. 
 
+When adding the metric “ASSIGNED CONVERSATIONS” to the different grids under the “Business activity dashboard”, the metric value always resulted in 0. This issue is now resolved.
 
 ## Post conversation survey for Twitter
 
@@ -291,9 +292,10 @@ When adding the metric “ASSIGNED CONVERSATIONS” to the different grids under
 
 </div>
 
-#### Availability: All brands.
+#### Availability: All brands
 
 ### Description
+
 Social Messaging for Twitter now supports post-conversation survey bots via the direct channel. A post-conversation survey bot is a bot that is triggered at the end of a conversation with an agent or custom bot. It can be used to obtain feedback from the consumer on the consumer's experience with a brand.
 
 ### Enablement
@@ -301,9 +303,11 @@ Social Messaging for Twitter now supports post-conversation survey bots via the 
 [Conversation Builder - Post-Conversation Survey Bots](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html)
 
 #### Dependencies
+
 Conversation Builder
 
 #### Limitations
+
 Open Questions only
 
 ![](img/week-of-october-13th-3.png)
@@ -386,15 +390,18 @@ Open Questions only
 
 </div>
 
-#### Availability: All brands.
+#### Availability: All brands
 
 ### Description
+
 Social Messaging for Twitter now supports secure forms via the direct channel. The secure form dedicates a "secure tunnel" within the Twitter conversation for exchanging Personal Identifiable Information (PII), Cardholder Data (CHD), and other sensitive identity validation data like answers to verification questions and PINs. Agents continue to operate in the same Agent Workspace environment as data is sent from the visitor to the agent in a safe, PCI compliant interaction.
 
 #### Dependencies
+
 Conversation Builder
 
 #### Limitations
+
 Open Questions only
 
 ![](img/week-of-october-13th-1.png)
@@ -477,19 +484,23 @@ Open Questions only
 
 </div>
 
-#### Availability: All brands.
+#### Availability: All brands
 
 ### Description
-Public Twitter & Social Monitoring can now take advantage of Campaigns for Messaging. 
+
+Public Twitter & Social Monitoring can now take advantage of Campaigns for Messaging.
 
 ### Enablement
+
 [Campaigns for Messaging - Twitter Public & Social Monitoring](https://docs.google.com/document/d/1CrMOi6exLPjXYSWVJvkvnwPNsUQaCUKsmP3OILAZTk8/edit#heading=h.cldpqf8fys3zhtml)
 
 #### Dependencies
+
 * Social Monitoring Rules - Configured by R&D
 * Social Monitoring App Installation - Configured by R&D
 
 #### Limitations
+
 * If the consumer is eligible for more than one engagement the engagement will be picked at random.
 * It is considered best practice to carefully create engagements which do not conflict.
 
@@ -564,4 +575,5 @@ Public Twitter & Social Monitoring can now take advantage of Campaigns for Messa
 **Availability:** All brands.
 
 ### Description
+
 To ensure that labels are neutral in all aspects of system operation, we have added the ability to change the “Country” column’s title to “Country/Region”. This feature can be configured by a brand’s account team and will take effect for all agents once turned on and the agents log out and log back into the Agent Workspace.
