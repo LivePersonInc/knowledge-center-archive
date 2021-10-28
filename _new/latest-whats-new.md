@@ -32,7 +32,7 @@ Dedicated integration templates for popular use cases in commerce, sales & marke
 
 All Medallia CX platform users can now leverage our Medallia Post Conversational Survey to trigger a Medallia survey after a LivePerson Conversation, within the same channel the customer is interacting on. Drive up response rates and create rules in Medallia to ensure the same customer is not surveyed more than once within a given time span.
 
-##Sales Attribution from Shared Links- Early Access
+## Sales Attribution from Shared Links- Early Access
 Track conversions in 3rd-party channels for better attribution. When the agent directs consumers to a branded website, Sales Attribution from shared links is able to attribute cross-session sales that occur after the initial conversation
 
 ![](img/whats-new-oct-2.png)
