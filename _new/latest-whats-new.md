@@ -51,17 +51,17 @@ Route conversations based on the consumer’s intent, channel, and more, to quic
 ## Agent App
 The past two quarters, our Agent App received a series of rich updates with new features and functionalities that include:
 
-Click-to-open hyperlinks within messages - *new
-Agent survey filters - *new
-Failure to deliver indicator when messages fail to be sent - *new
-Social connector widget supports Facebook - *new
-Japanese language support - *new
+* Click-to-open hyperlinks within messages - *new
+* Agent survey filters - *new
+* Failure to deliver indicator when messages fail to be sent - *new
+* Social connector widget supports Facebook - *new
+* Japanese language support - *new
 
 ![](img/whats-new-oct-4.png)
 
 **Coming soon**:
-Click-to-call phone numbers within messages
-Send files from predefined content
-View past Agent Surveys
+* Click-to-call phone numbers within messages
+* Send files from predefined content
+* View past Agent Surveys
 
 
