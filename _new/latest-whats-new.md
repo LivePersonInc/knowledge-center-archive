@@ -24,7 +24,7 @@ Use Analytics, and four integration components:
 * Partner Integrations
 * Agent Widget Marketplace
 
-![](img/whats-new-oct-1b.png)
+![](img/whats-new-oct-1b.jpg)
 
 Dedicated integration templates for popular use cases in commerce, sales & marketing allow brands to speed up delivery time. Leverage the ability to re-use integrations across multiple internal products and services. Similarly, Integration Hub includes access to more than a thousand out-of-the-box connectors.
 
