@@ -97,7 +97,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 
 **Coding**
 
-* Custom bot implementations can use javascript code to write logic
+* Custom bot implementations can use JavaScript code to write logic
 * Ability to inject code at every step of the interaction and also for processing user responses
 
 **Channels**

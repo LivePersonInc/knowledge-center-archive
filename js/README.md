@@ -4,7 +4,7 @@ A JavaScript wrapper for the LiveEngage Messaging Window API.
 
 ## Introduction
 
-This JavaScript SDK for the LiveEngage Messaging Window API will make building custom messaging windows and javascript applications efficient and stable.
+This JavaScript SDK for the LiveEngage Messaging Window API will make building custom messaging windows and JavaScript applications efficient and stable.
 
 This library requires only an active LiveEngage account #.
 
