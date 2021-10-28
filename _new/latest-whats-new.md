@@ -11,6 +11,7 @@ isNew: false
 ---
 
 Watch this short video to see an overview of all the new features and capabilities that came out this October and in the weeks ahead.
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/640064277?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
 ## Integration Hub (IHUB)
@@ -36,10 +37,7 @@ Track conversions in 3rd-party channels for better attribution. When the agent d
 
 ![](img/whats-new-oct-2.png)
 
-##Dynamic Actions MLP
-With our real time action framework, you can use different AI signals, such as intent and sentiment, to steer conversations, initiate workflows, and provide better conversational experiences. Automatically react to intents emanating from conversations to trigger a FAAS in real time and maintain uber control to override any automation. Dynamic Actions simplifies and accelerates the process to build advanced automations.
-
-![](img/whats-new-oct-3a.png)
+##Dynamic Routing
 
 Add an interaction to any bot that needs Dynamic Routing within its flow. Simply drop the interaction in the spot where Dynamic Routing should occur for simple setup or use Dynamic Routing bot template to deploy Dynamic Routing to any bot with none-to-minimal coding.
 
