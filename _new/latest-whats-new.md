@@ -24,7 +24,7 @@ Use Analytics, and four integration components:
 * Partner Integrations
 * Agent Widget Marketplace
 
-![](img/whats-new-oct-1a.png)
+![](img/whats-new-oct-1b.png)
 
 Dedicated integration templates for popular use cases in commerce, sales & marketing allow brands to speed up delivery time. Leverage the ability to re-use integrations across multiple internal products and services. Similarly, Integration Hub includes access to more than a thousand out-of-the-box connectors.
 
@@ -40,6 +40,8 @@ Track conversions in 3rd-party channels for better attribution. When the agent d
 ## Dynamic Routing
 
 Add an interaction to any bot that needs Dynamic Routing within its flow. Simply drop the interaction in the spot where Dynamic Routing should occur for simple setup or use Dynamic Routing bot template to deploy Dynamic Routing to any bot with none-to-minimal coding.
+
+![](img/whats-new-oct-3b.png)
 
 Customize complex routing policies that require evaluations or time and date based criteria using Expression editor to route on specific dates/ time ranges / days of the weeks!
 
