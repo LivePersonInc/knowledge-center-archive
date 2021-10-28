@@ -41,8 +41,6 @@ Track conversions in 3rd-party channels for better attribution. When the agent d
 
 Add an interaction to any bot that needs Dynamic Routing within its flow. Simply drop the interaction in the spot where Dynamic Routing should occur for simple setup or use Dynamic Routing bot template to deploy Dynamic Routing to any bot with none-to-minimal coding.
 
-![](img/whats-new-oct-3b.png)
-
 Customize complex routing policies that require evaluations or time and date based criteria using Expression editor to route on specific dates/ time ranges / days of the weeks!
 
 Route conversations based on the consumer’s intent, channel, and more, to quickly take care of any failures. All complex routing has step-by-step guides to build, deploy, test and debug it’s experience. 
