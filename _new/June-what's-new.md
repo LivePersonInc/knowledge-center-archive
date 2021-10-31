@@ -102,7 +102,7 @@ Response time metrics will be added to the “Activity summary” widget, allowi
 The Agent App offers agents working from home or on-the-go a full range of messaging capabilities, so they can continue to serve customers with complete efficiency.  The Agent App will soon be available for Android tablets. Other updates include; agents being able to initiate video calls from the app and Managers will have the ability to join a conversation.
 
 ## Analytics Builder updates
-The Survey Messaging dashboard will be enhanced to include attribution of messaging survey results to include bots. We also are enabling reporting on Collaboration channels ( such as CoBrowse, Video, Voice) in messaging as well as on PCI Secure Forms in messaging. This means users will have greater visibility & transparency in payments and allows brands to measure return on investment.
+The Survey Messaging dashboard will be enhanced to include attribution of messaging survey results to include bots. We also are enabling reporting on Collaboration channels (such as CoBrowse, Video, Voice) in messaging as well as on PCI Secure Forms in messaging. This means users will have greater visibility & transparency in payments and allows brands to measure return on investment.
 
 ## Accessibility
 The Conversational Cloud Engagement Window and Engagement Invitations will be validated by WCAG 2.1 AA standards, and then certified for compliance.

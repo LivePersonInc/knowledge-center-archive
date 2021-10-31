@@ -24,7 +24,7 @@ LivePerson is constantly expanding its matrix of supported operating systems and
 <br/>
 We have two primary levels of support for the items listed in the tables below:
 
-**Supported:** Items marked with an asterisk ( * ) meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
+**Supported:** Items marked with an asterisk (* ) meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
 
 **Certified:** Unmarked items have been tested thoroughly by LivePerson. We are committed to resolving any bugs or issues based on the SLAs defined across the Conversational Cloud.
 

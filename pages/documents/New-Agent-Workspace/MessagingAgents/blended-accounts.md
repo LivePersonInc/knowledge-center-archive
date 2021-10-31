@@ -24,7 +24,7 @@ When referring to blended accounts, or brands that elect to offer both live chat
 
 * [Dedicated agents](#dedicated-agents) - Completely separate agents for messaging and for live chat, sharing  the same account. Each agent has an individual login.
 
-* [Dedicated agents per shift/time period](#dedicated-agents-per-shift) - Agents that are capable of handling both live chats and messaging, but focus only on one channel per shift/dedicated time period ( not handling chat and messaging conversations simultaneously). Typically these agents will have two separate logins for chat and messaging.
+* [Dedicated agents per shift/time period](#dedicated-agents-per-shift) - Agents that are capable of handling both live chats and messaging, but focus only on one channel per shift/dedicated time period (not handling chat and messaging conversations simultaneously). Typically these agents will have two separate logins for chat and messaging.
 
 * [Blended agents within a single shift](#blended-agents-within-the-same-shift) - Agents handling both live chat and messaging conversations simultaneously within a single shift, with a single login.
 

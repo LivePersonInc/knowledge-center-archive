@@ -37,7 +37,7 @@ The widget displays:
 
 * The previous date value data
 
-* Trend Indicator ( X%) which shows the trend between the previous date and the current date. The color will be green to reflect an improvement in the KPI and  red to reflect a negative change.
+* Trend Indicator (X%) which shows the trend between the previous date and the current date. The color will be green to reflect an improvement in the KPI and  red to reflect a negative change.
 
 * Trend Graph which shows the trend for the filtered date range.
 

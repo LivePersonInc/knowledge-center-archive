@@ -66,7 +66,7 @@ The new report will show data at the Brand, Agent and Skills level, alongside co
 
 **Please note:** 
 The existing ‘Goals Tracker Report’ will be renamed to ‘Goals Tracker for Live Chat’ and will include messaging data only for the next 6 months. It can be used for settings of First/Last agent only.
-The Dashboard will show data only for sources that supports campaign in LiveEngage ( Web messaging and in app messaging)
+The Dashboard will show data only for sources that supports campaign in LiveEngage (Web messaging and in app messaging)
 
 ### How to enable
 The new Dashboard is enabled OOTB.

@@ -207,7 +207,7 @@ Every rule is producing a 'velocity' for conversation. Conversations with higher
 Transfer rule is made in order to give higher priority to conversations that are 'During Transfer'. A conversation is 'During Transfer' if :
 
 1. The last message before the transfer is from an Agent
-2. A transfer was made from Skill1 to Skill2 ( Skill1 can be equal to Skill 2 or different)
+2. A transfer was made from Skill1 to Skill2 (Skill1 can be equal to Skill 2 or different)
 3. After the transfer action, no message was written on the conversation (No message from Agent or No message From Consumer)
 
 **Transfer Rule Types:**
@@ -222,7 +222,7 @@ Transfer rule is made in order to give higher priority to conversations that are
 | SourceDestination | Defining a velocity in case a conversation had transferred from 'source' skill to 'destination' skillWe can define either only source, only destination or both. | sourceSkilldestinationSkillvelocity | sourceSkilldestinationSkill | velocity | 'sourceSkill' , 'destinationSkill' : String'velocity' :1 <= Positive Decimal number <= 5 | | Threshold | Defining a velocity in case of numbers of transfers.We can define a different velocity for number of transfers | numberOfTransfersvelocity | All Mandatory | numberOfTransfersvelocity | 'numberOfTransfers' : Positive Number => 1'velocity' : 1 <= Positive Decimal number <= 5 |
 
 * In case no rule match is defined on the conversation, default velocity will be 1
-* If inside a rule there are few overlapping conditions, the first condition wins. ( see examples below )
+* If inside a rule there are few overlapping conditions, the first condition wins. (see examples below )
 * Every rule will produce a velocity, a conversation will have an aggregation of velocities from all rules
 
 **Transfer rules examples**

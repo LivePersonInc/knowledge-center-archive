@@ -54,7 +54,7 @@ The URLs of the two pages the visitor moved between belong to **different domain
 
 ### Solution:
 
-The brand should enable monitored domains/cross domains on their account ( (from the Web Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist.) For further instructions, see Whitelist Your Domains for LP Monitoring.
+The brand should enable monitored domains/cross domains on their account (from the Web Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist). For further instructions, see Whitelist Your Domains for LP Monitoring.
 
 ## Chat tab is displayed incorrectly on iPhones using Safari
 

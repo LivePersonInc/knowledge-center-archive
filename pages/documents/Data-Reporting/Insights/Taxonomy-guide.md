@@ -16,7 +16,7 @@ Taxonomies are used to group and organize the topics in your transcript data. On
 There are two main types of data in your Insights program, structured (grouping conversations based upon the structured data associated with them) and unstructured (grouping conversations based upon what is discussed in them). 
 
 ## Creating a taxonomy
-Note: You may find it helpful to first run an NLU ( also known as machine learning is designed to automatically analyze large textual datasets and discover topics and themes.)  model against the verbatim type that you wish to create a taxonomy for. This will allow you to understand the types of words and phrases that appear in the verbatim before actually modeling. It is helpful in terms of identifying areas that you may want to focus your attention in creating taxonomy categories. 
+Note: You may find it helpful to first run an NLU (also known as machine learning is designed to automatically analyze large textual datasets and discover topics and themes.)  model against the verbatim type that you wish to create a taxonomy for. This will allow you to understand the types of words and phrases that appear in the verbatim before actually modeling. It is helpful in terms of identifying areas that you may want to focus your attention in creating taxonomy categories. 
 
 1. Go to the advanced menu and click on taxonomies.
 ![](img/Taxonomy-insights-1.png)

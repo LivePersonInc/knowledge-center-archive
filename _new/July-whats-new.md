@@ -66,7 +66,7 @@ The Conversational Cloud Engagement Window and Engagement Invitations will be va
 Agent & Agent Managers will be able to use accessibility features on both themes (Dark & Light): Updates include a screen reader, keyboard navigation, focus outline, accessible color contrast, adjusted font size and more.
 
 ## Analytics Builder Updates
-The Survey Messaging dashboard will be enhanced to include attribution of messaging survey results to include bots. We also are enabling reporting on Collaboration channels ( such as CoBrowse, Video, Voice) in messaging as well as on PCI Secure Forms in messaging. This means users will have greater visibility & transparency in payments and allows brands to measure return on investment.
+The Survey Messaging dashboard will be enhanced to include attribution of messaging survey results to include bots. We also are enabling reporting on Collaboration channels (such as CoBrowse, Video, Voice) in messaging as well as on PCI Secure Forms in messaging. This means users will have greater visibility & transparency in payments and allows brands to measure return on investment.
 
 ## Key Messaging Metrics API
 Real- time messaging metrics API that exposes key messaging metrics such as: response time, agents load, closed conversations,  The API will be available  at skill & group levels.

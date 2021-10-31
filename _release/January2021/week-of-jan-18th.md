@@ -26,9 +26,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 To reduce network latency of the Dialogflow AI, Google introduced a new feature to create agents in different locations. Third-Party Bots supports this now and it is possible to select the agent region in the Connect to A.I step while configuring a Dialogflow v2 bot. 
 
 The following dialogflow agent locations are now supported:
-* europe-west2 ( London )
+* europe-west2 (London)
 * asia-northeast1 (Tokyo)
-* australia-southeast1 ( Sydney )
+* australia-southeast1 (Sydney)
 * US
 
 ### How to enable

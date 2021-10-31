@@ -228,7 +228,7 @@ The report builder can be accessed through the quick launch menu which is locate
 
 #### New look and feel with a modern and bright color scheme
 
-All Predefined dossiers have been enriched to include new data visualizations with a bright color-theme ( see screenshot below).  
+All Predefined dossiers have been enriched to include new data visualizations with a bright color-theme (see screenshot below).  
 ![](img/RB4_2.png)
 
 #### Navigation
@@ -244,7 +244,7 @@ New KPI Widget which will provide a quick visual snapshot of the current value o
 ![](img/RB4_4.png)
 
 1. Previous date value data
-2. Trend Indicator ( X%) - shows the trend between Previous date and current. The color will be green to reflect an improvement in KPI and red for a negative change.
+2. Trend Indicator (X%) - shows the trend between Previous date and current. The color will be green to reflect an improvement in KPI and red for a negative change.
 3. Trend Graph- shows the trend for the filtered date range.
 4. Tooltips when hovering over the trend graph to see the date and value
 
@@ -264,7 +264,7 @@ New visualization types for creating custom dossiers (histogram, waterfall chart
 
 Export dossiers to a formatted PDF file, including visualizations and advanced formatting options:
 
-1. layout ( Automatic, Portrait, Landscape)
+1. layout (Automatic, Portrait, Landscape)
 2. Advanced mode to export the visualizations individually on separate pages to include all data.
 
 ![](img/RB4_6.png)

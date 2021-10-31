@@ -66,7 +66,7 @@ To learn more about engagement attributes, [click here](data-reporting-engagemen
 
 The grid spreads out all the relevant metrics in a granular view so any member on the account may easily download the grid or receive scheduled copies to their email.
 
-Perform the analysis and customization you need using an offline copy, in excel using the complete grid. You can choose the document type ( based on your needed timeframe. The data is presented at the brand, campaign and engagement level.
+Perform the analysis and customization you need using an offline copy, in excel using the complete grid. You can choose the document type based on your needed timeframe. The data is presented at the brand, campaign and engagement level.
 
 ## Metrics:
 
