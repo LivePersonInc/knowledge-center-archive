@@ -385,9 +385,9 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Japanese</td>
@@ -439,9 +439,9 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Spanish (Latin American)</td>
@@ -506,7 +506,7 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
       <tr>
         <td>Italian</td>
         <td>✔️</td>
-        <td></td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Japanese</td>
