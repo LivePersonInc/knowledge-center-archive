@@ -1,7 +1,7 @@
 ---
 pagename: Week of November 3rd
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: "2021"
 indicator: both
 subtitle: ''
 level3: November 2021
