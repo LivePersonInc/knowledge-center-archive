@@ -630,7 +630,7 @@ In this release, Intent Manager includes the following Natural Language Understa
 * If you’ve deployed your own NLU engine built on the Rasa open source NLU framework, you can now use it for NLU intelligence within LivePerson’s Conversational Cloud. Importantly, this lets you keep the investment that you’ve made in your own NLU solution.
 
 ## Conversational AI applications are now available in French, German and Indonesian
-### Type: Enhancement [Conversation Builder - Conversational Applicaitons 11.0]
+### Type: Enhancement [Conversation Builder - Conversational Applications 11.0]
 
 **Channels**: Available for all channels supported by the Conversational Cloud platform.
 
