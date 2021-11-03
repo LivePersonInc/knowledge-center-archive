@@ -19,6 +19,7 @@ $(document).ready(function () {
 		$('#maincontent').addClass('page-no-right-sidebar');
 		loadData();
 	}
+	redirectIntegrationPage();
 	$(document).ready(function () {
 		scrollToHash(1000);
 		if (checkCookie(window.cookieName) != window.cookieValue) {
@@ -59,6 +60,7 @@ function navigateContent(url) {
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
+			redirectIntegrationPage();
 			replaceTitle();
 			if (url.includes('/data-reporting-reporting-metrics.html')) {
 				$('#maincontent').addClass('page-no-right-sidebar');
@@ -133,11 +135,11 @@ function linkclick(event, that) {
 		return false;
 	} else if (!event.isTrigger) {
 		// console.log('clickrun');
-        //grab the url to which the link is pointing
-        let url = $(that).attr('href');
-        if (url && url.startsWith && url.startsWith("mailto:")) {
-            return true;
-        }
+		//grab the url to which the link is pointing
+		let url = $(that).attr('href');
+		if (url && url.startsWith && url.startsWith("mailto:")) {
+			return true;
+		}
 		//prevent the link from actually navigating to the url
 		event.preventDefault();
 		// call the navigateContent function and pass that url to it
@@ -225,10 +227,10 @@ function populateAnchors() {
 		$.each(anchorlinks, function () {
 			$(anchorlist).append(
 				'<li><a class="anchoritem" data-scroll href="#' +
-					$(this).attr('id') +
-					'">' +
-					$(this).text() +
-					'</a></li>'
+				$(this).attr('id') +
+				'">' +
+				$(this).text() +
+				'</a></li>'
 			);
 		});
 	}
@@ -612,6 +614,16 @@ function capabilitiesSearch() {
 				}
 			}
 		});
+	}
+}
+
+function redirectIntegrationPage() {
+	if (
+		window.location.href.indexOf(
+			"agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html"
+		) > -1
+	) {
+		window.location.replace("https://developers.liveperson.com/crm-integrations-salesforce.html")
 	}
 }
 
