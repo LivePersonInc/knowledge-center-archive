@@ -102,9 +102,6 @@ All brands.
 #### Description
 Files can now be sent as predefined content, using the predefined content widget.
 
-#### Enablement
-Visit [this guide](https://confluence.liveperson.com/display/MobileApps/Files+in+Predefined+Content).
-
 #### Dependencies
 None.
 
