@@ -470,3 +470,28 @@ In the Proactive Web tool, for the SMS channel, brands can now create a new API 
 
 ![](img/week-of-november-3rd-2021-5.png) 
 
+**Proactive messaging API request payload**
+
+```
+{
+  "campaignName":"{{Add campaign name}}",
+  "skill":"{{Add skill which is added in LE for this account}}",
+  "templateId":"{{Add handoff id}}",// for example : H341116584310386
+  "consumers":[ 
+   {
+        "consumerContent": {"wa": "{{Add recipient number}}", "sms": "{{Add recipient number to whom we send sms message}}"},
+        "variables":{
+           "1":"testVariable1",
+           "2":"testVariable2",
+        }
+     },
+    {
+        "consumerContent": {"wa": "1469XXXXXXX", "sms": "1469XXXXXXX"},
+        "variables":{
+           "1":"hello”,
+	    “2”:“hello2”         }
+     },  
+  ],
+  "consent":true
+}
+```
