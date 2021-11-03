@@ -96,18 +96,19 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 </div>
 
-**Availability:** All brands.
+#### Availability 
+All brands.
 
-### Description
+#### Description
 Files can now be sent as predefined content, using the predefined content widget.
 
-### Enablement
+#### Enablement
 Visit [this guide](https://confluence.liveperson.com/display/MobileApps/Files+in+Predefined+Content).
 
-### Dependencies
+#### Dependencies
 None.
 
-### Limitations
+#### Limitations
 None.
 
 ![](img/week-of-november-3rd-2021-1.png)
@@ -189,20 +190,21 @@ None.
 
 </div>
 
-**Availability:** All brands.
+#### Availability 
+All brands.
 
-### Description
+#### Description
 
 Agent Survey Widget has been implemented.
 
-### Enablement
+#### Enablement
 
 Nothing needs to be done to enable this.
 
-### Dependencies
+#### Dependencies
 None.
 
-### Limitations
+#### Limitations
 None.
 
 ![](img/week-of-november-3rd-2021-2.png)
@@ -284,18 +286,19 @@ None.
 
 </div>
 
-**Availability:** All brands.
+#### Availability 
+All brands.
 
-### Description
+#### Description
 Phone numbers sent in a conversation will be tappable and will open the user’s default phone dialer application.
 
-### Enablement
+#### Enablement
 Nothing needs to be done to enable this.
 
-### Dependencies
+#### Dependencies
 None.
 
-### Limitations
+#### Limitations
 None.
 
 ![](img/week-of-november-3rd-2021-3.png)
@@ -377,9 +380,10 @@ None.
 
 </div>
 
-**Availability:** All brands.
+#### Availability 
+All brands.
 
-### Description
+#### Description
 Brands no longer need to go through their CSM/CP contacts for creating a rich WhatsApp template. Brands can create a new WhatsApp template with rich media such as header, footer, call to action or quick replies in the Proactive Web tool. Brands can click on “Message templates” in the top menu option, create new rich WhatsApp templates and submit it to WhatsApp for approval, all right from the Web tool.
 
 Once the WA template is approved it can be used to send messages. 
@@ -463,9 +467,10 @@ Once the WA template is approved it can be used to send messages.
 
 </div>
 
-**Availability:** All brands.
+#### Availability 
+All brands.
 
-### Description
+#### Description
 In the Proactive Web tool, for the SMS channel, brands can now create a new API handoff with  multiple variables in the main body massage. Once the API handoff is defined, brand’s developers can use Proactive Messaging APIs to substitute the variables defined in the body text. 
 
 ![](img/week-of-november-3rd-2021-5.png) 
@@ -495,3 +500,12 @@ In the Proactive Web tool, for the SMS channel, brands can now create a new API 
   "consent":true
 }
 ```
+
+## Localized languages German and French
+### Type: Enhancement [Proactive Messaging]
+
+#### Availability 
+All brands.
+
+#### Description
+Proactive web tool now is localized for additional two languages German and French.
