@@ -99,11 +99,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 **Availability:** All brands.
 
 ### Description
-
 Files can now be sent as predefined content, using the predefined content widget.
 
 ### Enablement
-
 Visit [this guide](https://confluence.liveperson.com/display/MobileApps/Files+in+Predefined+Content).
 
 ### Dependencies
@@ -209,9 +207,6 @@ None.
 
 ![](img/week-of-november-3rd-2021-2.png)
 
-
-
-
 ## Click to Call
 ### Type: Feature [Agent App v2.7.7]
 
@@ -292,11 +287,9 @@ None.
 **Availability:** All brands.
 
 ### Description
-
 Phone numbers sent in a conversation will be tappable and will open the user’s default phone dialer application.
 
 ### Enablement
-
 Nothing needs to be done to enable this.
 
 ### Dependencies
@@ -306,3 +299,174 @@ None.
 None.
 
 ![](img/week-of-november-3rd-2021-3.png)
+
+## Self service for creating WhatsApp rich template in Proactive Web tool
+### Type: Enhancement [Proactive Messaging]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Availability:** All brands.
+
+### Description
+Brands no longer need to go through their CSM/CP contacts for creating a rich WhatsApp template. Brands can create a new WhatsApp template with rich media such as header, footer, call to action or quick replies in the Proactive Web tool. Brands can click on “Message templates” in the top menu option, create new rich WhatsApp templates and submit it to WhatsApp for approval, all right from the Web tool.
+
+Once the WA template is approved it can be used to send messages. 
+
+![](img/week-of-november-3rd-2021-4.png)
+
+## Proactive SMS channel now supports multiples variables via APIs
+### Type: Enhancement [Proactive Messaging]
+
+**Channels:**
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Availability:** All brands.
+
+### Description
+In the Proactive Web tool, for the SMS channel, brands can now create a new API handoff with  multiple variables in the main body massage. Once the API handoff is defined, brand’s developers can use Proactive Messaging APIs to substitute the variables defined in the body text. 
+
+![](img/week-of-november-3rd-2021-5.png) 
+
