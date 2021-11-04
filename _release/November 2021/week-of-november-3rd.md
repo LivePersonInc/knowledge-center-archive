@@ -544,7 +544,7 @@ All brands.
 #### Description
 You can now add comments to an interaction to annotate your solution, i.e., to describe what the interaction is for, what it does, and what it needs.
 
-![](img/week-of-november-3rd-2021-5.png)
+![](img/week-of-november-3rd-2021-5a.png)
 
 Use comments to quickly explain things. They are particularly helpful when you work in a collaborative context that includes multiple bot builders, and when the person maintaining the bot isn’t the one who built it originally. In a comment, a maximum of 240 characters are allowed. HTML tags are not allowed.
 
