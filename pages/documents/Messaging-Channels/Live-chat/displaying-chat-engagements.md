@@ -33,7 +33,7 @@ A control group is a random number of visitors to your website who do not receiv
 
 There are three states for a chat engagement: Online, Busy and Offline. Each state is related to the status of the agents, as well as the maximum wait time. When consumers are browsing between several windows, pages can remain static for long periods of time without being refreshed. This can affect the state of your engagements.
 
-With button refresh, brands have the ability to refresh the state of the engagement at configurable intervals, ensuring the engagement on the page accurately reflects the availability of the agents. The default setting for this feature is disabled. When enabled, the default setting is 120 seconds. Brands can configure the engagement to refresh at the following interval settings: 30, 60, 90, 120, 150, 180, 240 and 300 seconds.
+With button refresh, brands have the ability to refresh the state of the engagement at configurable intervals, ensuring the engagement on the page accurately reflects the availability of the agents. The default setting for this feature is disabled. When enabled, the default setting is 120 seconds.  Brands can configure the engagement to refresh at the following interval settings: 60, 90, 120, 150, 180, 240 and 300 seconds. 
 
 **Note:**
 1. Refresh engagement is not available for proactive/offsite/messaging engagements.
