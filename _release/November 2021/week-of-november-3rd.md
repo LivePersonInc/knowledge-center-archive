@@ -548,45 +548,6 @@ You can now add comments to an interaction to annotate your solution, i.e., to d
 
 Use comments to quickly explain things. They are particularly helpful when you work in a collaborative context that includes multiple bot builders, and when the person maintaining the bot isn’t the one who built it originally. In a comment, a maximum of 240 characters are allowed. HTML tags are not allowed.
 
-
-## Bot Analytics unveils new metrics for containment, disengagement and transfers
-### Type: Enhancement [Conversation Builder - Bot Analytics 11.0]
-**Channels**: Available for all channels supported by the Conversational Cloud platform.
-
-#### Availability 
-All brands. 
-
-#### Description
-Bot Analytics now includes several new metrics that help you assess the success or failure of your bot conversations. You can use the new metrics to review transcripts more efficiently, so you can quickly move to bot tuning where needed.
-
-**Note:** These new metrics are hidden by default. To show these metrics, please contact your LivePerson representative, so they can make this configuration change.
-
-The new metrics include:
-* **Bot disengaged**: This metric is the number of conversations where the consumer was left hanging past the bot session timeout because the bot never responded to their last message.
-* **Consumer disengaged**: This metric is the number of conversations where the bot was left hanging past the bot session timeout because the consumer never responded to its last message.
-* **Intended transfer**: This metric is the number of conversations transferred from the bot to a human agent as designed, i.e., via an Agent Transfer interaction or a LivePerson Agent Escalation integration. For example, you might want to transfer to a human agent for the purpose of collecting credit card information from the consumer. Intended transfers can be used to identify missed opportunities for automation.
-* **Unintended transfer**: This metric is the number of conversations transferred from the bot to a human agent due to an automatic escalation. If this metric is high, evaluate whether the bot was equipped with all the resources needed to satisfy the consumer’s intent.
-* **Bot contained**: This metric is the number of conversations that were received and handled by the bot, where the conversation was never transferred to a human agent, and where neither the bot nor the consumer disengaged.
-
-For quick, high-level insight into where things aren’t working, the Bot disengaged and Consumer disengaged metrics have been added to the account-level dashboard. 
-
-Find all the new metrics on the bot-level Overview page:
-![](img/week-of-november-3rd-2021-6.png)
-
-Finally, we’ve likewise incorporated the new metrics into a Conversations page. This page is new in this release. It displays conversation status data for a specified date range.
-
-![](img/week-of-november-3rd-2021-7.png)
-
-On the Conversations page, use the Date filter and Metrics filter to identify a date range to examine more closely. Then, in the table below, select a link to display a list of conversations with a given conversation status, such as “Bot Disengaged,” on a given date.
-
-On the resulting page, you can then click a conversation ID link to view the transcript.
-
-![](img/week-of-november-3rd-2021-8.png)
-
-Overall, take advantage of the new metrics to perform a targeted review—not a random review—of bot conversation transcripts. This makes it faster and easier to identify opportunities for bot tuning.
-
-![](img/week-of-november-3rd-2021-9.png)
-
 ## Intent Manager introduces a Commerce: Purchase Product domain
 ### Type: Enhancement [Conversation Builder - Intent Manager 11.0]
 
