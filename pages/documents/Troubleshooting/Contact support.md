@@ -29,16 +29,13 @@ This channel is specifically useful for high priority issues that requires immed
 
 ## Open a ticket
 
-{: .notice}
-This only applies to eligible customers as part of their CSO package.
-
-Only Agent Managers and Administrators can open a ticket.
+Only Agent Managers and Administrators can open a ticket. Ticket submission is a useful channel for Medium or Low priority issues that don't require immediate attention. For high-priority issues that require immediate attention please use Messaging. Before contacting Support, please review the Troubleshooting section of the knowledge center in entirety as it may have the answer to your question.
 
 {: .notice}
-This channel is useful for Medium or Low priority issues that don't require immediate attention. For high-priority issues that require immediate attention please use Messaging.
+This only applies to eligible customers as part of their CSO package. 
 
 {: .important}
-Before contacting Support, please see the Troubleshooting section of the knowledge center as it may have the answer to your question.
+Prior to submitting a ticket, please review the section below on "Required information to open a livePerson support ticket" in order to understand what information is required in order to submit a ticket (case) with LivePerson Support. 
 
 ### How to open a ticket
 
@@ -49,10 +46,7 @@ Before contacting Support, please see the Troubleshooting section of the knowled
 
 ![](img/Contact_support2.png)
 
-{: .important}
-Prior to submitting a ticket, please eeview the next section below on "Required information to open a livePerson support ticket" in order to understand what information is required in order to submit a ticket (case) with LivePerson Support. 
-
-### Required Information to Open a LivePerson Support Ticket
+### Required information to open a LivePerson Support Ticket
 
 Before approaching LivePerson Support, we do recommend collecting the following information to shorten handling times and allow the LivePerson technical teams to initiate the investigation as soon as it is reported. Gathering all the necessary information for the engineer will expedite the investigation and may allow an engineer from our team to move forward towards a resolution without the need to reach out for additional information.
 
