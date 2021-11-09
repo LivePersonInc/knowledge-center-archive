@@ -105,7 +105,7 @@ For cases related to SDKs, please provide the following information:
    * Upload screenshots / videos
    * Related code
    * Access to customer app download 
-   * Network traffic recording (Fiddler, when applicable) 
+   * Network traffic recording ([Fiddler](https://knowledge.liveperson.com/troubleshooting-har-files-web-requests-and-web-traffic.html), when applicable) 
 
 #### Cases Related to APIs
 
@@ -118,13 +118,14 @@ For cases related to APIs, please provide the following information:
    * Response code 
 
 * In the attachment area: 
-   * Network traffic recording (Fiddler)
+   * Network traffic recording [Fiddler](https://knowledge.liveperson.com/troubleshooting-har-files-web-requests-and-web-traffic.html)
 
 #### Cases Related to Web Messaging
 
 For cases related to Web Messaging, please provide the following information: 
 
 * In the comment area:
+
 **Consumer-side issues - Web**
    * Browser type and version
    * Related campaign and engagement
@@ -140,38 +141,43 @@ For cases related to Web Messaging, please provide the following information:
    * Affected agent IDs 
 
 * In the attachment area: 
+
 **Consumer-side Issues - Web**
    * Screenshots/screen recording
-   * Network traffic recording (Fiddler)
+   * Network traffic recording [Fiddler](https://knowledge.liveperson.com/troubleshooting-har-files-web-requests-and-web-traffic.html)
    * Agent-side Issues - Web
    * Screenshots/screen recording video clip
-   * Network traffic recording (Fiddler)
+   * Network traffic recording [Fiddler](https://knowledge.liveperson.com/troubleshooting-har-files-web-requests-and-web-traffic.html)
 
 #### Cases Related to In-App Messaging
 
 For cases related to Web Messaging, please provide the following information: 
 
 * In the comment area:
+
 **Consumer-side issues - App**
    * Device model and iOS / Android version
-   * SDK versions used (3 digits: 2.X.X / 3.X.X / ...)
+   * SDK versions used (3 digits: 2.X.X / 3.X.X / etc)
    * Consumer id if authenticated messaging
    * Test credentials (if needed)
    * Related campaign and engagement
    * Conversation IDs for good and failing conversations
+
 **Agent-side Issues - Web**
    * Browser type and version
-   * Custom desktops (Citrix, firewall, …)
+   * Custom desktops (Citrix, firewall, etc)
    * Related widgets (when applicable) 
    * Affected agent IDs 
 
 * In the attachment area: 
+
 **Consumer-side Issues - App**
    * Screenshots/screen recording
    * Logs - application, device, crash. If needed, activate debug logs.
+ 
 **Agent-side Issues - Web**
    * Screenshots/screen recording video clip
-   * Network traffic recording (Fiddler)
+   * Network traffic recording [Fiddler](https://knowledge.liveperson.com/troubleshooting-har-files-web-requests-and-web-traffic.html)
 
 
 
