@@ -108,3 +108,6 @@ Manual Response Time timers can only be reset manually. If it was not reset when
 
 ## How long is data retained? 
 The Conversational Cloud saves historical data for the last 13 months.
+
+## How do I submit a LivePerson support ticket?
+Check out our dedicated [How to Contact Support article](https://knowledge.liveperson.com/troubleshooting-how-to-contact-support.html) that explains how and when to sumbit a ticket.
