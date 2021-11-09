@@ -53,6 +53,7 @@ Before contacting Support, please see the Troubleshooting section of the knowled
 Prior to submitting a ticket, please eeview the next section below on "Required information to open a livePerson support ticket" in order to understand what information is required in order to submit a ticket (case) with LivePerson Support. 
 
 ### Required Information to Open a LivePerson Support Ticket
+
 Before approaching LivePerson Support, we do recommend collecting the following information to shorten handling times and allow the LivePerson technical teams to initiate the investigation as soon as it is reported. Gathering all the necessary information for the engineer will expedite the investigation and may allow an engineer from our team to move forward towards a resolution without the need to reach out for additional information.
 
 #### List of Required information:
@@ -71,13 +72,16 @@ Before approaching LivePerson Support, we do recommend collecting the following 
 * Error messages displayed on the screen
 
 #### Cases Related to Conversational Cloud
+
 When you open a Conversational Cloud (formerly LiveEngage) Support Case, please follow these best practices for the fastest results.
 1. Describe your request clearly
 2. Include all relevant information in as much detail as possible 
 3. Attach all related logs, documents, screenshots, etc.
 
 ####  Cases Related to Bots
+
 For cases related to Bots, please provide the following information:
+
 * In the comment box: 
    * Bot type (Watson / LivePerson SDK)
    * JS framework (optional)
@@ -86,84 +90,88 @@ For cases related to Bots, please provide the following information:
    * Related code
 
 #### Cases Related to SDKs 
-
 For cases related to SDKs, please provide the following information: 
 
-In the comment box:
-LivePerson SDK version
-Affected OS versions
-Affected device models
-Device connection type (wifi/data)
-Network status (bad connection rate/network disconnection)
-Percentage of clients affected
-In the attachment area: 
-Upload device logs/application logs
-Upload screenshots / videos
-Related code
-Access to customer app download 
-Network traffic recording (Fiddler, when applicable) 
+* In the comment box:
+   * LivePerson SDK version
+   * Affected OS versions
+   * Affected device models
+   * Device connection type (WiFi/data)
+   * Network status (bad connection rate/network disconnection)
+   * Percentage of clients affected
 
-Cases Related to APIs
+* In the attachment area: 
+   * Upload device logs/application logs
+   * Upload screenshots / videos
+   * Related code
+   * Access to customer app download 
+   * Network traffic recording (Fiddler, when applicable) 
+
+#### Cases Related to APIs
 
 For cases related to APIs, please provide the following information: 
  
-In the comment box:
-Request URL 
-Request headers (including authorization) 
-Request body (when applicable) 
-Response code 
-In the attachment area: 
-Network traffic recording (Fiddler)
+* In the comment box:
+   * Request URL 
+   * Request headers (including authorization) 
+   * Request body (when applicable) 
+   * Response code 
 
-Cases Related to Web Messaging
+* In the attachment area: 
+   * Network traffic recording (Fiddler)
 
-For cases related to Web Messaging, please provide the following information: 
-
-In the comment area:
-Consumer-side issues - Web
-Browser type and version
-Related campaign and engagement
-Custom taglets (when applicable) 
-Custom window (when applicable) 
-Access to customer web page
-Test credentials (if needed)
-Agent-side Issues - Web
-Browser type and version
-Custom desktops (Citrix, firewall, …)
-Related widgets (when applicable) 
-Affected agent IDs 
-2. In the attachment area: 
-Consumer-side Issues - Web
-Screenshots/screen recording
-Network traffic recording (Fiddler)
-Agent-side Issues - Web
-Screenshots/screen recording video clip
-Network traffic recording (Fiddler)
-
-Cases Related to In-App Messaging
+#### Cases Related to Web Messaging
 
 For cases related to Web Messaging, please provide the following information: 
 
-In the comment area:
-Consumer-side issues - App
-Device model and iOS / Android version
-SDK versions used (3 digits: 2.X.X / 3.X.X / ...)
-Consumer id if authenticated messaging
-Test credentials (if needed)
-Related campaign and engagement
-Conversation IDs for good and failing conversations
-Agent-side Issues - Web
-Browser type and version
-Custom desktops (Citrix, firewall, …)
-Related widgets (when applicable) 
-Affected agent IDs 
-2. In the attachment area: 
-Consumer-side Issues - App
-Screenshots/screen recording
-Logs - application, device, crash. If needed, activate debug logs.
-Agent-side Issues - Web
-Screenshots/screen recording video clip
-Network traffic recording (Fiddler)
+* In the comment area:
+**Consumer-side issues - Web**
+   * Browser type and version
+   * Related campaign and engagement
+   * Custom taglets (when applicable) 
+   * Custom window (when applicable) 
+   * Access to customer web page
+   * Test credentials (if needed)
+
+**Agent-side Issues - Web**
+   * Browser type and version
+   * Custom desktops (Citrix, firewall, …)
+   * Related widgets (when applicable) 
+   * Affected agent IDs 
+
+* In the attachment area: 
+**Consumer-side Issues - Web**
+   * Screenshots/screen recording
+   * Network traffic recording (Fiddler)
+   * Agent-side Issues - Web
+   * Screenshots/screen recording video clip
+   * Network traffic recording (Fiddler)
+
+#### Cases Related to In-App Messaging
+
+For cases related to Web Messaging, please provide the following information: 
+
+* In the comment area:
+**Consumer-side issues - App**
+   * Device model and iOS / Android version
+   * SDK versions used (3 digits: 2.X.X / 3.X.X / ...)
+   * Consumer id if authenticated messaging
+   * Test credentials (if needed)
+   * Related campaign and engagement
+   * Conversation IDs for good and failing conversations
+**Agent-side Issues - Web**
+   * Browser type and version
+   * Custom desktops (Citrix, firewall, …)
+   * Related widgets (when applicable) 
+   * Affected agent IDs 
+
+* In the attachment area: 
+**Consumer-side Issues - App**
+   * Screenshots/screen recording
+   * Logs - application, device, crash. If needed, activate debug logs.
+**Agent-side Issues - Web**
+   * Screenshots/screen recording video clip
+   * Network traffic recording (Fiddler)
 
 
 
