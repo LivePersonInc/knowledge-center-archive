@@ -32,11 +32,10 @@ All brands.
 The Integration Hub (iHub) enables brand admins and LivePerson admins to explore, configure and enable integrations in a self-serve manner. It is a one stop shop where brand admins will discover, activate, configure and monitor integrations that power their conversational commerce journey.
 
 ![](img/week-of-november-10th-2021-1.png)
-
 #### Enablement:
 Brand admins can access iHub in the left navigation of Conversational Cloud. 
 
-## Name change: 'Agent Assist' is now 'Conversation Assist' and comes with new rich analytics
+## Agent Assist' is now 'Conversation Assist' and comes with new rich analytics
 ### Type: New feature [Conversation Assist]
 
 #### Availability:
