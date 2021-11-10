@@ -35,14 +35,14 @@ The Integration Hub (iHub) enables brand admins and LivePerson admins to explore
 #### Enablement:
 Brand admins can access iHub in the left navigation of Conversational Cloud. 
 
-## Agent Assist' is now 'Conversation Assist' and comes with new rich analytics
+## Agent Assist' is now 'Conversation Assist' and comes with rich analytics
 ### Type: New feature [Conversation Assist]
 
 #### Availability:
 All brands.
 
 #### Description:
-The Agent Assist application is now called Conversation Assist, and introduces several exciting changes to make it easier to set up recommendations and evaluate how well they are serving your agents.
+The Agent Assist application is now called Conversation Assist, and comes with several exciting changes to make it easier to set up recommendations and evaluate how well they are serving your agents with new, rich analytics.
 
 ![](img width="400" src="week-of-november-10th-2021-2.gif" align="left" style="margin: 0px 25px 0px 0px;")
 
