@@ -343,6 +343,11 @@
     - subcategoryname: Set the time zone
     - subcategoryname: Supported languages
     - subcategoryname: System requirements
+    - subcategoryname: Integration Hub (iHub)
+      pages:
+        - pagename: iHub overview
+        - pagename: Medallia user guide
+        - pagename: Workato user guide
 
 - categoryname: "Security & regulations"
   image: security-regulations
