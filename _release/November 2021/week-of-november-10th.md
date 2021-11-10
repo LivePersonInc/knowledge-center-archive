@@ -44,7 +44,7 @@ All brands.
 #### Description:
 The Agent Assist application is now called Conversation Assist, and comes with several exciting changes to make it easier to set up recommendations and evaluate how well they are serving your agents with new, rich analytics.
 
-![](<img width="400" src="week-of-november-10th-2021-2.gif" align="left" style="margin: 0px 25px 0px 0px;">)
+<img width="400" src="week-of-november-10th-2021-2.gif" align="left" style="margin: 0px 25px 0px 0px;">
 
 Conversation Assists is faster to access, as you can now do so directly from the Conversational AI applications page.
 
