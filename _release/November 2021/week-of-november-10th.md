@@ -33,4 +33,4 @@ The Integration Hub (iHub) enables brand admins and LivePerson admins to explore
 
 ![](img/week-of-november-10th-2021-1.png)
 
-Brand admins can access iHub in the left navigation of Conversational Cloud. Access Integration Hub now!
+Brand admins can access iHub in the left navigation of Conversational Cloud. Access Integration Hub today!
