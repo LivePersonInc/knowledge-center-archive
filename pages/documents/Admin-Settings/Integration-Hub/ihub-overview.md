@@ -87,6 +87,4 @@ This Partner integration allows brands that use both Medallia and Liveperson to 
 ### Powered by Workato
 LivePerson now offers an embedded Workato experience within iHub. Workato allows brands with access to pre-built connectors to 1000s of applications, databases and APIs. With Workflow, brands can integrate and automate workflows across cloud-based and on-premise systems to drive real time proactive messages and outcomes from business events.There is no coding required, and the platform utilizes Machine Learning and patented technology to make the creation and implementation of automations 10 times faster than traditional platforms. Brands can set up triggers from existing enterprise systems (i.e. Salesforce leads, Shopify cart abandonment etc.) that are used to take necessary actions to send Proactive messages based on those triggers. For more information, please reference the following [detailed document](https://knowledge.liveperson.com/admin-settings-integration-hub-(ihub)-workato-user-guide.html).
 
-<!-- please go back here and add medallia link once it is ready instead of placeholder-->
-
 ![](img/ihub-overview3.png)
