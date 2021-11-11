@@ -135,8 +135,8 @@ Email is not supported or intended to be used for Conversational surveys.
 
 Brands using the **Messaging Window API** (instead of the in-app SDK) will need to make the relevant adjustments to support the new survey.
 
-#### Agent/Consumer Experience
-### Agent Experience
+### Agent/Consumer Experience
+#### Agent Experience
 While the survey is being answered by the consumer, the agent/agent manager is unable to perform any action on the conversation, including the following actions: 
 * Resume
 * Transfer
@@ -154,7 +154,7 @@ In the event that the brand does not want the agent to see the survey questions 
 **Agent Widget SDK:**
 Survey conversation lines will be available via the widget SDK, so that the widget can bind to get the full transcript lines that will include the survey questions and answers.
 
-### Consumer Experience
+#### Consumer Experience
 The survey experience is seamless to the end consumer. The consumer will be presented with questions and acceptable responses that can be entered or typed in manually. Consumers will be able to provide text and emoji input if Medallia is configured to receive such feedback. Images are currently not supported.
 
 ### Configuration
