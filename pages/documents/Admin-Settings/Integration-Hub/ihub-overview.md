@@ -11,7 +11,7 @@ isNew: true
 date: 2021-11-10 12:01:13 +0000
 ---
 
-## Now introducing: Integration Hub (iHub)
+## Now introducing Integration Hub (iHub)
 Integration Hub (iHub) enables brand admins and LivePerson admins to explore, configure and enable integrations in a self-serve manner. It is a one-stop-shop where brand admins will discover, activate, configure and monitor integrations that power their conversational commerce journey. Integration Hub has three product arms; each arm solves a specific integration need.
 
 * **Workflow** - Unlock the power of Workflow to drive higher conversion rates, save your sales team time from having to follow up with every lead manually, drive timely payments, reduce cart abandonment and improve overall efficiency in your organization. The use cases are abundant. Workflow embeds Workato, a leading Enterprise Automation Platform, inside Conversational Cloud. Workato comes with prebuilt connectors to 1000s of applications, databases, and APIs. Brands can integrate and automate workflows across cloud and on-premise systems to drive real-time outcomes from business events. There is no coding required, and the platform utilizes Machine Learning and patented technology to make the creation and implementation of automation 10 times faster than traditional platforms.
