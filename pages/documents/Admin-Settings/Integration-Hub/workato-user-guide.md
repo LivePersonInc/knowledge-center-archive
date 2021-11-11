@@ -3,14 +3,16 @@ pagename: Workato user guide
 categoryName: Admin & settings
 subCategoryName: Integration Hub (iHub)
 indicator: both
-subtitle: iHub Workflow Powered by Workato user guide
+subtitle: Introducing Workato
 level3: ''
 permalink: admin-settings-integration-hub-(ihub)-workato-user-guide.html
 isTutorial: false
 isNew: true
 date: 2021-11-10 12:01:13 +0000
 ---
-## How to access Workflow Powered by Workato
+
+## iHub Workflow Powered by Workato user guide
+### How to access Workflow Powered by Workato
 Workflow Powered by Workato is a solution that resides within the Integration Hub (iHub). iHub can be accessed via the left navigation bar and is only visible to brand admins. 
 
 ### Workflow tab
@@ -54,7 +56,7 @@ Brand admins will get administrator permissions which includes full recipe devel
       </tr>
       <tr>
         <td>Tools</td>
-        <td>Workato provides a more advanced set of tools to make your recipes even more powerful. Find more details on tools [here](https://docs.workato.com/tools.html#building-recipes).</td>
+        <td>Workato provides a more advanced set of tools to make your recipes even more powerful. Find more details on tools <a href="https://docs.workato.com/tools.html#building-recipes">here.</a></td>
       </tr>
       <tr>
         <td>Dashboard</td>
@@ -75,6 +77,7 @@ The “Workflow” page, powered by Workato, provides brands with a completely e
 
 ### Why use Workflow?
 Brands can now seamlessly integrate and automate workflows across cloud-based and on-premise systems to LivePerson’s Conversational Cloud platform. While there are abundant use cases that are relevant to power up conversational journeys with customers, here are some examples of how brands can utilize Workflow.
+
 Examples:  
 * Brands can drive up conversion rates by creating triggers or business events based on cart abandonment actions that initiate messaging conversations with customers.
 * Brands can save sales teams time from having to follow up with every lead manually by creating meaningful conversations with prospects.
@@ -124,6 +127,7 @@ When you first create your recipe, choose the starting point “Trigger from an 
 ![](img/workato-user-guide9.png)
 
 **Step 3: Create an action to enable a Proactive message.** 
+
 The final step would be to define the action required. Brands can select the LivePerson connector “LP Proactive Messaging 2.0” to enable Proactive messaging.
 
 ![](img/workato-user-guide10.png)
@@ -150,6 +154,7 @@ Let’s walk through an example of how to create a workflow. Say you want to aut
 
 **Step 1: Create and name your recipe. Then select “Build callable recipe” as the starting point.**
 ![](img/workato-user-guide12.png)
+
 **Step 2: Set up the recipe with the Input and Response Schemas.**
 For more information on setting up the Workato callable recipes, please reference the following [documentation](https://docs.workato.com/features/callable-recipes.html#callable-recipes
 ).
