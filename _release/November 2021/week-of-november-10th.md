@@ -19,8 +19,8 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Now introducing Integration Hub
-### Type: Feature [iHub]
+## Integration Hub (iHub)
+### Type: New feature [iHub]
 
 #### Channels: 
 Available for all channels supported by the Conversational Cloud platform.
@@ -33,4 +33,5 @@ The Integration Hub (iHub) enables brand admins and LivePerson admins to explore
 
 ![](img/week-of-november-10th-2021-1.png)
 
-Brand admins can access iHub in the left navigation of Conversational Cloud. Access Integration Hub today!
+#### Enablement:
+Brand admins can access iHub in the left navigation of Conversational Cloud.
