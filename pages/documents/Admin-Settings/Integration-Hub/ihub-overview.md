@@ -77,7 +77,7 @@ While iHub will be available to all brands, not every user will be able to view 
   </table>
 </div>
 
-## Partner Integrations 
+## Integrations 
 ### Medallia
 This Partner integration allows brands that use both Medallia and Liveperson to enable Medallia surveys after Liveperson agent or bot interactions. Brands can choose to use Medallia’s Conversational surveys or include a one-way Medallia web survey (URL) that could be sent within the same messaging channel to the customer. Brands will need to click on “setup” to complete the necessary request so that LivePerson and Medallia PS teams can enable this integration. For more information, reference the following [detailed document](https://knowledge.liveperson.com/admin-settings-integration-hub-(ihub)-medallia-user-guide.html).
 
