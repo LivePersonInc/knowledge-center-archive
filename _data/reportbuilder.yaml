@@ -2,7 +2,7 @@
   Metric: "WAIT TIME FOR AGENT ASSIGNMENT - 90TH PERCENTILE"
   analysisType: "Queue Health"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The 90th percentile of time (mm:ss) a conversation remains in queue until assigned to an agent. Measured from the time the conversation was opened until the time it was assigned to an agent."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -10,7 +10,7 @@
   Metric: "WAIT TIME FOR AGENT ASSIGNMENT - 50TH PERCENTILE"
   analysisType: "Queue Health"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The median time (mm:ss) a conversation remains in queue until assigned to an agent. Measured from the time the conversation was opened until the time it was assigned to an agent."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -45,13 +45,13 @@
   formulaOptional: "MAX(TRANSACTION_TOTAL)"
   Description: "The Total Transaction value extracted from the Transaction SDE sent by the brand to LE."
   Dashboard: "Goals Tracker for Messaging"
-  filteredBy: 
+  filteredBy:
 - metricitem:
   Metric: "TOTAL SELF SERVICE EXPOSED REVENUE"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "SELF SERVICE EXPOSED CROSS SESSION REVENUE+SELF SERVICE EXPOSED IN SESSION REVENUE"
-  Description: "Total revenue achieved after consumer exposed to an engagement and did not initiate a chat with an agent.  Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Total revenue achieved after consumer exposed to an engagement and did not initiate a chat with an agent.  Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
@@ -59,15 +59,15 @@
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
   formulaOptional: "SELF SERVICE EXPOSED IN SESSION REVENUE + SELF SERVICE EXPOSED CROSS SESSION REVENUE"
-  Description: "Total revenue achieved after the consumer was exposed to an engagement and did not initiate a messaging conversation with an agent. Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  Description: "Total revenue achieved after the consumer was exposed to an engagement and did not initiate a messaging conversation with an agent. Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "TOTAL SELF SERVICE EXPOSED CONVERSIONS"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "SELF SERVICE EXPOSED CROSS SESSION CONVERSIONS+SELF SERVICE EXPOSED IN SESSION CONVERSIONS"
-  Description: "Total number of conversions achieved after consumer exposed to an engagement and did not initiate a chat with an agent.  Self service visitors , Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat."
+  Description: "Total number of conversions achieved after consumer exposed to an engagement and did not initiate a chat with an agent.  Self service visitors , Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
@@ -75,15 +75,15 @@
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
   formulaOptional: "SELF SERVICE EXPOSED IN SESSION CONVERSIONS +  SELF SERVICE EXPOSED CROSS SESSION CONVERSIONS"
-  Description: "Total number of conversions achieved after the consumer was exposed to an engagement and did not initiate a messaging conversation with an agent. Self service visitors , Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation."
+  Description: "Total number of conversions achieved after the consumer was exposed to an engagement and did not initiate a messaging conversation with an agent. Self service visitors , Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "TOTAL SELF SERVICE EXPOSED CONVERSION RATE"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "TOTAL SELF SERVICE EXPOSED CONVERSIONS/CHAT EXPOSED (SKILL)"
-  Description: "Percentage of TOTAL SELF SERVICE EXPOSED CONVERSIONS out of  total chat exposed.  Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Percentage of TOTAL SELF SERVICE EXPOSED CONVERSIONS out of  total chat exposed.  Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
@@ -91,15 +91,15 @@
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
   formulaOptional: "TOTAL SELF SERVICE EXPOSED CONVERSIONS/EXPOSED (CAMP)"
-  Description: "Percentage of TOTAL SELF SERVICE EXPOSED CONVERSIONS out of total messaging exposed. Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  Description: "Percentage of TOTAL SELF SERVICE EXPOSED CONVERSIONS out of total messaging exposed. Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "TOTAL SELF SERVICE EXPOSED AOV"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "TOTAL SELF SERVICE EXPOSED REVENUE/TOTAL SELF SERVICE EXPOSED CONVERSIONS"
-  Description: "Average revenue achieved for  Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Average revenue achieved for  Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
@@ -107,7 +107,7 @@
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
   formulaOptional: "TOTAL SELF SERVICE EXPOSED REVENUE/TOTAL SELF SERVICE EXPOSED CONVERSIONS"
-  Description: "Average revenue achieved for Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  Description: "Average revenue achieved for Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
@@ -161,7 +161,7 @@
 - metricitem:
   Metric: "TOTAL NO. OF MESSAGES SENT BY HUMAN"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Total number of messages sent by the human agents for open and closed conversations."
   Dashboard: "Network Manager Dashboard"
@@ -185,7 +185,7 @@
 - metricitem:
   Metric: "TOTAL NO. OF MESSAGES SENT BY CONSUMER"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Number of messages sent by consumers, including unassigned conversations."
   Dashboard: "Network Manager Dashboard"
@@ -193,7 +193,7 @@
 - metricitem:
   Metric: "TOTAL NO. OF MESSAGES SENT BY BOT"
   analysisType: "Bot Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Total number of messages sent by the bots."
   Dashboard: "Network Manager Dashboard"
@@ -617,7 +617,7 @@
 - metricitem:
   Metric: "TOTAL CONTROL GROUP REVENUE"
   analysisType: "Control Group Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "CONTROL GROUP IN SESSION REVENUE+CONTROL GROUP CROSS SESSION REVENUE"
   Description: "Total revenue achieved by control group visitors, Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Operational & Staffing for Live Chat"
@@ -633,7 +633,7 @@
 - metricitem:
   Metric: "TOTAL CONTROL GROUP CONVERSIONS"
   analysisType: "Control Group Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "CONTROL GROUP IN SESSION CONVERSIONS+CONTROL GROUP CROSS SESSION REVENUE"
   Description: "Total conversions achieved by visitors in the Control group visitors, Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Operational & Staffing for Live Chat"
@@ -649,7 +649,7 @@
 - metricitem:
   Metric: "TOTAL CONTROL GROUP CONVERSION RATE"
   analysisType: "Control Group Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "TOTAL CONTROL GROUP CONVERSIONS/(CHAT PROSPECTS (SKILL)*0.1)"
   Description: "Conversion rate of Control group visitors -  Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Operational & Staffing for Live Chat"
@@ -665,7 +665,7 @@
 - metricitem:
   Metric: "TOTAL CONTROL GROUP AOV"
   analysisType: "Control Group Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "TOTAL CONTROL GROUP REVENUE/TOTAL CONTROL GROUP CONVERSIONS"
   Description: "Average order value of in-session and cross-session conversions for Control group visitors -  Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Operational & Staffing for Live Chat"
@@ -709,7 +709,7 @@
   formulaOptional: "SUM(TIME_ASSIGNED)"
   Description: "The time the agent participated in the conversation (measured only for the time the agent was assigned to the conversation)."
   Dashboard: "Goals Tracker for Messaging"
-  filteredBy: 
+  filteredBy:
 - metricitem:
   Metric: "TAKEOVERS FROM AGENT"
   analysisType: "Agent Productivity"
@@ -771,7 +771,7 @@
   analysisType: "Agent Survey"
   Channel: "Messaging"
   formulaOptional: "SUBMITTED AGENT SURVEY / OFFERED AGENT SURVEYS"
-  Description: "The percentage (%) of submitted survey forms ( partial or complete) out of the number of opened survey forms"
+  Description: "The percentage (%) of submitted survey forms (partial or complete) out of the number of opened survey forms"
   Dashboard: "Survey for Messaging"
   filteredBy: "Agent, Group,Skill"
 - metricitem:
@@ -779,7 +779,7 @@
   analysisType: "Agent Productivity"
   Channel: "Standalone"
   formulaOptional: "-"
-  Description: "The total duration of standalone collaboration sessions ( CoBrowse for Voice)"
+  Description: "The total duration of standalone collaboration sessions (CoBrowse for Voice)"
   Dashboard: "Agent Activity"
   filteredBy: "Agent, Group, Skill, Engagement, Campaign, LoB, Source type"
 - metricitem:
@@ -810,7 +810,7 @@
   Metric: "SKILL SEGMENTS"
   analysisType: "Skill Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of times conversations were assigned to a skill. Measured for conversations that were opened to the skill or transffered to it. A conversation may be assigned more than once to a given skill."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -833,41 +833,41 @@
 - metricitem:
   Metric: "SELF SERVICE EXPOSED IN SESSION REVENUE"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "-"
-  Description: "Revenue achieved after exposure, where exposure and purchase event occur in the same session for  the Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Revenue achieved after exposure, where exposure and purchase event occur in the same session for  the Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED IN SESSION REVENUE"
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
-  formulaOptional: 
-  Description: "Revenue achieved after exposure, where exposure and purchase event occur in the same session for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  formulaOptional:
+  Description: "Revenue achieved after exposure, where exposure and purchase event occur in the same session for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED IN SESSION CONVERSIONS"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "-"
-  Description: "Number of conversions achieved after an exposure in the same session for  Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Number of conversions achieved after an exposure in the same session for  Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED IN SESSION CONVERSIONS"
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
-  formulaOptional: 
-  Description: "Number of conversions achieved after an exposure in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  formulaOptional:
+  Description: "Number of conversions achieved after an exposure in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED IN SESSION AOV"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "SELF SERVICE EXPOSED IN SESSION REVENUE/SELF SERVICE EXPOSED IN SESSION CONVERSIONS"
-  Description: "Average of the revenue achieved after exposures out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in the same session for Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Average of the revenue achieved after exposures out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in the same session for Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
@@ -875,47 +875,47 @@
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
   formulaOptional: "SELF SERVICE EXPOSED IN SESSION REVENUE/SELF SERVICE EXPOSED IN SESSION CONVERSIONS"
-  Description: "Average of the revenue achieved after exposures out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  Description: "Average of the revenue achieved after exposures out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED CROSS SESSION REVENUE"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "-"
-  Description: "Revenue achieved after an invite exposure occurred in a previous visit to the site for the  Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Revenue achieved after an invite exposure occurred in a previous visit to the site for the  Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED CROSS SESSION REVENUE"
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
-  formulaOptional: 
-  Description: "Revenue achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  formulaOptional:
+  Description: "Revenue achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED CROSS SESSION CONVERSIONS"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "-"
-  Description: "Number of conversions achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Number of conversions achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED CROSS SESSION CONVERSIONS"
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
-  formulaOptional: 
-  Description: "Number of conversions achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  formulaOptional:
+  Description: "Number of conversions achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "SELF SERVICE EXPOSED CROSS SESSION AOV"
   analysisType: "Self Service Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "-"
-  Description: "Average revenue achieved after exposure out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in different sessions for Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)."
+  Description: "Average revenue achieved after exposure out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in different sessions for Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)."
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Skill"
 - metricitem:
@@ -923,14 +923,14 @@
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
   formulaOptional: "SELF SERVICE EXPOSED CROSS SESSION REVENUE/SELF SERVICE EXPOSED CROSS SESSION CONVERSIONS"
-  Description: "Average revenue achieved after exposure out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in different sessions for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation)."
+  Description: "Average revenue achieved after exposure out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in different sessions for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site (they might have clicked on content but they didn't start a messaging conversation)."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "SEGMENTS WITH NON RESPONSIVE CONSUMERS (SKILL)"
   analysisType: "Skill Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of skill-segments which ended in a transfer to another skill or closed with no response from the consumer to an agent? message."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -938,7 +938,7 @@
   Metric: "SEGMENTS WITH NON RESPONSIVE CONSUMERS (AGENT)"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -946,7 +946,7 @@
   Metric: "SEGMENTS WITH NON RESPONSIVE AGENTS (SKILL)"
   analysisType: "Skill Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of skill-segments which ended in a transfer to another skill or closed by agent/system with no message from an agent."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -954,7 +954,7 @@
   Metric: "SEGMENTS WITH NON RESPONSIVE AGENTS (AGENT)"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of agent-segments which ended in a transfer or closed by agent or system with no message from an agent."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -1018,7 +1018,7 @@
   Metric: "REPEAT SOURCE TYPE"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation within the same source."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1026,7 +1026,7 @@
   Metric: "REPEAT SKILL"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation with the same skill between 0-30 days"
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1042,7 +1042,7 @@
   Metric: "REPEAT 7 DAYS"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation between 3 day and 7 days. This RCR measurement is mutually exclusive, meaning RCR 3 days (for example) is not included."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1058,7 +1058,7 @@
   Metric: "REPEAT 3 DAYS"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 day and 3 days. This RCR measurement is mutually exclusive, meaning RCR 1 day (for example) is not included."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1066,7 +1066,7 @@
   Metric: "REPEAT 30 DAYS"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation between 14 day and 30 days. This RCR measurement is mutually exclusive, meaning RCR 14 days (for example) is not included."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1074,7 +1074,7 @@
   Metric: "REPEAT 1 HOUR"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation within 1 hour. This measurement is a prime indicator of conversations that are closed prematurely."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1082,7 +1082,7 @@
   Metric: "REPEAT 1 DAY"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 hour and 1 day. This RCR measurement is mutually exclusive, meaning RCR 1 hour (for example) is not included."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1090,7 +1090,7 @@
   Metric: "REPEAT 14 DAYS"
   analysisType: "Repeat Contact Rate"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Total number of Closed Conversations where the same ConsumerID opened a subsequent conversation between 7 day and 14 days. This RCR measurement is mutually exclusive, meaning RCR 7 days  (for example) is not included."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, Campaign, Source Type"
@@ -1657,15 +1657,15 @@
 - metricitem:
   Metric: "NPS FOR TANGO"
   analysisType: "Survey results"
-  Channel: 
-  formulaOptional: 
+  Channel:
+  formulaOptional:
   Description: "The Net Promoter Score for conversations handled by human or bot agents."
   Dashboard: "Network Manager Dashboard"
   filteredBy: "Merchant, Subscriber"
 - metricitem:
   Metric: "NPS FOR BOT"
   analysisType: "Survey results"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "The Net Promoter Score for conversations handled by bot only."
   Dashboard: "Network Manager Dashboard"
@@ -1689,7 +1689,7 @@
 - metricitem:
   Metric: "NPS"
   analysisType: "Survey results"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "The Net Promoter Score for all conversation types."
   Dashboard: "Network Manager Dashboard"
@@ -1739,7 +1739,7 @@
   analysisType: "Agent Productivity"
   Channel: "Standalone"
   formulaOptional: "-"
-  Description: "Number of standalone collaboration sessions ( CoBrowse for Voice)"
+  Description: "Number of standalone collaboration sessions (CoBrowse for Voice)"
   Dashboard: "Agent Activity"
   filteredBy: "Agent, Group, Skill, Engagement, Campaign, LoB, Source type"
 - metricitem:
@@ -1747,7 +1747,7 @@
   analysisType: "Agent Productivity"
   Channel: "Standalone"
   formulaOptional: "-"
-  Description: "Number of Interactive standalone collaboration sessions ( CoBrowse for Voice) .An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more"
+  Description: "Number of Interactive standalone collaboration sessions (CoBrowse for Voice) .An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more"
   Dashboard: "Agent Activity"
   filteredBy: "Agent, Group, Skill, Engagement, Campaign, LoB, Source type"
 - metricitem:
@@ -1857,7 +1857,7 @@
 - metricitem:
   Metric: "NO. OF OPENED CONVERSATIONS"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "NO. OF CONVERSATIONS OPENED BY CONSUMER + NO. OF CONVERSATIONS OPENED BY AGENT"
   Description: "Number of opened conversations by either agents or consumers."
   Dashboard: "Network Manager Dashboard"
@@ -1897,7 +1897,7 @@
 - metricitem:
   Metric: "NO. OF INTERACTIVE CONVERSATIONS HANDLED BY HUMAN"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Number of conversations during which the consumers responded at least once to an human agent message."
   Dashboard: "Network Manager Dashboard"
@@ -1905,7 +1905,7 @@
 - metricitem:
   Metric: "NO. OF INTERACTIVE CONVERSATIONS HANDLED BY BOT"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Number of conversations during which the consumers responded at least once to an bot message."
   Dashboard: "Network Manager Dashboard"
@@ -1913,7 +1913,7 @@
 - metricitem:
   Metric: "NO. OF CONVERSATIONS WITH NO RESPONSE FROM HUMAN"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "The number of conversations which were transferred by the bot and included no human agent message."
   Dashboard: "Network Manager Dashboard"
@@ -1921,7 +1921,7 @@
 - metricitem:
   Metric: "NO. OF CONVERSATIONS WITH HUMAN RESPONSE"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "COUNT DISTINCT CONVERSATIONS"
   Description: "The number of conversations that were transferred to human agents with at least 1 response from a human to consumer."
   Dashboard: "Network Manager Dashboard"
@@ -1929,7 +1929,7 @@
 - metricitem:
   Metric: "NO. OF CONVERSATIONS TRANSFERRED BY BOT"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Number of conversations transferred by bot to another skill or agent (not including B2Q & TakeOver)."
   Dashboard: "Network Manager Dashboard"
@@ -1945,7 +1945,7 @@
 - metricitem:
   Metric: "NO. OF CONVERSATIONS OPENED BY CONSUMER"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Number of conversations opened by consumers."
   Dashboard: "Network Manager Dashboard"
@@ -1961,7 +1961,7 @@
 - metricitem:
   Metric: "NO. OF CONVERSATIONS OPENED BY AGENT"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Number of conversations resumed (opened) by agents."
   Dashboard: "Network Manager Dashboard"
@@ -1969,7 +1969,7 @@
 - metricitem:
   Metric: "NO. OF CONVERSATIONS HANDLED BY BOT"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Total number of conversations handled by the bot only. Closed Conversions answered by Bot and was not escalated to human."
   Dashboard: "Network Manager Dashboard"
@@ -2089,17 +2089,17 @@
 - metricitem:
   Metric: "MCS FOR TANGO"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "-"
-  Description: "MCS for conversations handled by agents and bots ( MCS is Meaningful Conversation Score,  an automated, real time measurement of consumer sentiment)"
+  Description: "MCS for conversations handled by agents and bots (MCS is Meaningful Conversation Score,  an automated, real time measurement of consumer sentiment)"
   Dashboard: "Network Manager Dashboard"
   filteredBy: "Merchant, Subscriber"
 - metricitem:
   Metric: "MCS FOR BOT"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "-"
-  Description: "MCS for conversations handled by bot only. ( MCS is Meaningful Conversation Score ,  an automated,  real time measurement of consumer sentiment)"
+  Description: "MCS for conversations handled by bot only. (MCS is Meaningful Conversation Score ,  an automated,  real time measurement of consumer sentiment)"
   Dashboard: "Network Manager Dashboard"
   filteredBy: "Merchant, Subscriber"
 - metricitem:
@@ -2121,7 +2121,7 @@
 - metricitem:
   Metric: "MCS"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "MCS_SUM/ MCS_COUNT"
   Description: "Meaningful Conversation Score (MCS - an automated, real time measurement of consumer sentiment) for closed conversations, including unassigned conversations."
   Dashboard: "Network Manager Dashboard"
@@ -2138,7 +2138,7 @@
   Metric: "MAX. WAIT TIME FOR AGENT ASSIGNMENT"
   analysisType: "Queue Health"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The maximum time (mm:ss) a conversation remains in queue until assigned to an agent. Measured from the time the conversation was opened until the time it was assigned to an agent."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -2181,7 +2181,7 @@
   formulaOptional: "MAX(LEAD_VALUE)"
   Description: "The Lead value extracted from the LEAD SDE sent by the brand to LE."
   Dashboard: "Goals Tracker for Messaging"
-  filteredBy: 
+  filteredBy:
 - metricitem:
   Metric: "LABOR TIME RATE"
   analysisType: "Agent Status"
@@ -2218,7 +2218,7 @@
   Metric: "INTERACTIVE SEGMENTS (SKILL)"
   analysisType: "Skill Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of skill-segments with at least one response from a consumer to a skilled-agent? message. Measured from the first message sent by an agent in a new skill-segment."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -2226,7 +2226,7 @@
   Metric: "INTERACTIVE SEGMENTS (AGENT)"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of agent-segments which included at least one response from the consumer to an agent? message."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -2469,7 +2469,7 @@
   formulaOptional: "-"
   Description: "The number  of total Conversions that may not have otherwise occurred (Incremental Conversion) (calculated at the Engagement level)"
   Dashboard: "Business Activity for Messaging"
-  filteredBy: 
+  filteredBy:
 - metricitem:
   Metric: "INCREMENTAL CONVERSIONS (CAMP)"
   analysisType: "Campaign Conversions"
@@ -2539,7 +2539,7 @@
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
   formulaOptional: "INCREMENTAL CONVERSIONS (BRAND) / TOTAL CONVERSIONS AFTER ENGAGEMENT"
-  Description: "The percentage (%) of the total Conversations that may not have otherwise occured (Incremental Conversion ( calculated at the Brand Level)"
+  Description: "The percentage (%) of the total Conversations that may not have otherwise occured (Incremental Conversion (calculated at the Brand Level)"
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Goal Type, Group , Source Type"
 - metricitem:
@@ -2553,7 +2553,7 @@
 - metricitem:
   Metric: "HUMAN RESPONSE RATE % TO CONSUMER MESSAGE"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "NO. OF CONVERSATIONS WITH HUMAN RESPONSE/NO. OF CONVERSATION TRANSFERRED BY BOT"
   Description: "The percentage of conversations answered by human agents out of the total conversations that was escalated to a human."
   Dashboard: "Network Manager Dashboard"
@@ -2585,7 +2585,7 @@
 - metricitem:
   Metric: "HANDLED CONVERSATIONS"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "COUNT DISTINCT CONVERSATIONS"
   Description: "The number of conversations in which any agent (bot or human) sent at least 1 message during the selected timeframe."
   Dashboard: "Network Manager Dashboard"
@@ -2601,7 +2601,7 @@
 - metricitem:
   Metric: "HANDLED CONSUMERS"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "COUNT DISTINCT CONSUMERS"
   Description: "The number of consumers who received a message from any agent (bot or human) during the selected timeframe."
   Dashboard: "Network Manager Dashboard"
@@ -3309,7 +3309,7 @@
   formulaOptional: "SUM(GOAL_ACHIEVED)"
   Description: "An Indication (1/0)  whether the goal was reported as success."
   Dashboard: "Goals Tracker for Messaging"
-  filteredBy: 
+  filteredBy:
 - metricitem:
   Metric: "CONVERSATION OPEN RATE"
   analysisType: "Agent Productivity"
@@ -3321,7 +3321,7 @@
 - metricitem:
   Metric: "CONTROL GROUP IN SESSION REVENUE"
   analysisType: "Control Group Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Revenue from conversions by control Group visitors purposely never exposed to chat invites, occurring during a visitor session.  Control group visitors -  Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Operational & Staffing for Live Chat"
@@ -3330,14 +3330,14 @@
   Metric: "CONTROL GROUP IN SESSION REVENUE"
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Revenue from conversions by control Group visitors purposely never exposed to messaging invites, occurring during a visitor session. Control group visitors - Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "CONTROL GROUP IN SESSION CONVERSIONS"
   analysisType: "Control Group Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Conversions by control group visitors purposely never exposed to chat invites occurring during a visitor session.  Control group visitors , visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Operational & Staffing for Live Chat"
@@ -3346,14 +3346,14 @@
   Metric: "CONTROL GROUP IN SESSION CONVERSIONS"
   analysisType: "Campaign Conversions"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Conversions by control group visitors purposely never exposed to messaging conversation invites occurring during a visitor session. Control group visitors , visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Business Activity for Messaging"
   filteredBy: "Date, Initial Device, Source Type, Campaign Name"
 - metricitem:
   Metric: "CONTROL GROUP IN SESSION AOV"
   analysisType: "Control Group Conversions"
-  Channel: 
+  Channel:
   formulaOptional: "CONTROL GROUP IN SESSION REVENUE/CONTROL GROUP IN SESSION CONVERSIONS"
   Description: "Average order value of conversions from control group visitors during their visitor sessions. Control group visitors, visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites."
   Dashboard: "Operational & Staffing for Live Chat"
@@ -3545,7 +3545,7 @@
 - metricitem:
   Metric: "CLOSED CONVERSATIONS"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "NO. OF CONVERSATIONS CLOSED BY AGENT + NO. OF CONVERSATIONS CLOSED BY CONSUMER + NO. OF CONVERSATIONS CLOSED BY SYSTEM"
   Description: "Number of conversations closed by agent, consumer or the system."
   Dashboard: "Network Manager Dashboard"
@@ -4081,7 +4081,7 @@
 - metricitem:
   Metric: "AVG. WAIT TIME FOR FIRST HUMAN AGENT RESPONSE"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "FIRST HUMAN MESSAGE DUR DAYS / TOTAL NO OF FIRST HUMAN MESSAGE"
   Description: "The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation."
   Dashboard: "Network Manager Dashboard"
@@ -4089,7 +4089,7 @@
 - metricitem:
   Metric: "AVG. WAIT TIME FOR FIRST BOT RESPONSE"
   analysisType: "Bot Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "BOT AGENT FIRST RESPONSE TIME / TOTAL NO. OF FIRST RESPONSES"
   Description: "The time on average a consumer waits for a the first bot response to the first message the consumer sent in a conversation. Measured from the time the first message was sent by the consumer, to the first response provided by an bot in the conversation."
   Dashboard: "Network Manager Dashboard"
@@ -4114,7 +4114,7 @@
   Metric: "AVG. WAIT TIME FOR AGENT ASSIGNMENT"
   analysisType: "Queue Health"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The time (mm:ss) on average a new conversation remains in queue until assigned to an agent. Measured from the time the conversation was opened until the time it was assigned to an agent."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -4130,7 +4130,7 @@
   Metric: "AVG. TIME TO RESPONSE IN SEGMENT"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The average time (mm:ss) taken by an agent to respond to the consumer in an agent-segment (an agent segment is defined as the part of the conversation in which the agent was assigned. Measured from the time the agent is assigned until she is not longer assigned)."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -4154,7 +4154,7 @@
   Metric: "AVG. TIME TO FIRST RESPONSE IN SEGMENT"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The average time (mm:ss) taken by an agent to respond for the first time to the consumer in an agent-segment (an agent segment is defined as the part of the conversation in which the agent was assigned. Measured from the time the agent is assigned until she is not longer assigned)."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -4202,7 +4202,7 @@
   Metric: "AVG. SEGMENT DURATION (SKILL)"
   analysisType: "Skill Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Average duration of skill-segments. Measured from the time the conversation was assigned to the skill until it was closed or transferred to another skill."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -4210,7 +4210,7 @@
   Metric: "AVG. SEGMENT DURATION (AGENT)"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Average duration (mm:ss) of an agent-segment. Measured from the time the conversation was assigned to the agent until it was closed or transferred. Attributed to the assigned agent, group and skill."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -4257,7 +4257,7 @@
 - metricitem:
   Metric: "AVG. NO. OF HUMAN AGENT RESPONSES PER CONVERSATION"
   analysisType: "Agent Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "TOTAL NO. OF HUMAN RESPONSES / CLOSED CONVERSATIONS"
   Description: "Average number of human agent responses per conversation."
   Dashboard: "Network Manager Dashboard"
@@ -4266,14 +4266,14 @@
   Metric: "AVG. NO. OF CONSUMER RESPONSES IN SEGMENT (AGENT)"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Average number of responses provided by consumers to an agent's message during an agent-segment"
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
 - metricitem:
   Metric: "AVG. NO. OF BOT RESPONSES PER CONVERSATION"
   analysisType: "Bot Productivity"
-  Channel: 
+  Channel:
   formulaOptional: "TOTAL NO. OF BOT RESPONSES / CLOSED CONVERSATIONS"
   Description: "Average number of bot agent responses per conversation."
   Dashboard: "Network Manager Dashboard"
@@ -4282,7 +4282,7 @@
   Metric: "AVG. NO. OF AGENT RESPONSES IN SEGMENT (AGENT)"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "Average number of responses provided by agent during an agent-segment"
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -4610,7 +4610,7 @@
   Metric: "AGENT SEGMENTS"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of times conversations were assigned to an agent. A conversation may be assigned more than once to a given agent."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -4629,7 +4629,7 @@
   formulaOptional: "SUM(AGENT_RESPONSES)"
   Description: "The number of responses given by the agent to a consumer. A response is a set of consecutive messages sent from a participant following a message sent from the another participant in the same conversation."
   Dashboard: "Goals Tracker for Messaging"
-  filteredBy: 
+  filteredBy:
 - metricitem:
   Metric: "AGENT OR CONSUMER CLOSE RATE"
   analysisType: "Repeat Contact Rate"
@@ -4645,7 +4645,7 @@
   formulaOptional: "SUM(AGENT_MESSAGES)"
   Description: "The number of messages sent by the agent in the conversation."
   Dashboard: "Goals Tracker for Messaging"
-  filteredBy: 
+  filteredBy:
 - metricitem:
   Metric: "AGENT ASSIGNMENT RATE"
   analysisType: "Agent Segments"
@@ -4657,7 +4657,7 @@
 - metricitem:
   Metric: "ACTIVE SUBSCRIBERS"
   analysisType: "Network Manager"
-  Channel: 
+  Channel:
   formulaOptional: "COUNT DISTINCT SUBSCRIBERS"
   Description: "No of network manager subscribers who have sent at least 1 message to a consumer. A Merchant may have more than one subscriber."
   Dashboard: "Network Manager Dashboard"
@@ -4665,7 +4665,7 @@
 - metricitem:
   Metric: "ACTIVE MERCHANTS"
   analysisType: "Network Manager"
-  Channel: 
+  Channel:
   formulaOptional: "COUNT DISTINCT MERCHANTS"
   Description: "No of network manager merchants (accounts) who have sent at least 1 message to a consumer."
   Dashboard: "Network Manager Dashboard"
@@ -4689,7 +4689,7 @@
 - metricitem:
   Metric: "ACTIVE CONSUMERS"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "COUNT DISTINCT CONSUMERS"
   Description: "The number of consumers who were active during a selected timeframe. A consumer is marked as active if at least one of the following occurred:1) Consumer opened a conversation2) Consumer sent a message in a conversation3) Consumer closed the conversation"
   Dashboard: "Network Manager Dashboard"
@@ -4746,7 +4746,7 @@
   Metric: "ABANDONED SEGMENTS - IN QUEUE (SKILL)"
   analysisType: "Skill Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of conversations closed by a consumer which included no agent message since no agent was assigned. Measured during the last skill-segment of the conversation, and is unaffected by the agent activity from previous skill-segments."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -4754,7 +4754,7 @@
   Metric: "ABANDONED SEGMENTS (SKILL)"
   analysisType: "Skill Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments."
   Dashboard: "Performance for Messaging"
   filteredBy: "Skill, Skill Segment Start Reason, Skill Segment End Reason, Engagement, Campaign, End-Point (Source Type), Source, Consumer Device"
@@ -4762,7 +4762,7 @@
   Metric: "ABANDONED SEGMENTS (AGENT)"
   analysisType: "Agent Segments"
   Channel: "Messaging"
-  formulaOptional: 
+  formulaOptional:
   Description: "The number of conversations closed by a consumer which included no agent message. Measured during the last agent-segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent assigned to the conversation."
   Dashboard: "Performance for Messaging"
   filteredBy: "Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device"
@@ -4801,7 +4801,7 @@
 - metricitem:
   Metric: "ABANDONED CONVERSATIONS"
   analysisType: "Consumer Experience"
-  Channel: 
+  Channel:
   formulaOptional: "-"
   Description: "Number of conversations during which an agent (human or bot)  did not respond to a consumer message. Conversations in which the agent is the first to message (resume) can't be marked as abandoned, even if the consumer did not respond to an agent message."
   Dashboard: "Network Manager Dashboard"
@@ -4829,4 +4829,4 @@
   formulaOptional: "SUM(GOAL_ACHIEVED)"
   Description: "he ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE."
   Dashboard: "Goals Tracker for Messaging"
-  filteredBy: 
+  filteredBy:

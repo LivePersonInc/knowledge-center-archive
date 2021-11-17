@@ -25,7 +25,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 **Available to all customers?** Y (Analytics Builder enabled) 
 **Channels:** Web Messaging, Mobile App messaging
 
-The Analytics Builder predefined dashboards: Agent Activity, Business Activity for Messaging and the Performance Dashboard For Messaging were enhanced to allow brands to measure the Collaboration channels ( Co Browse,Voice, video) ) usage and ROI. Brands can now track their daily usage and correlation of the feature usage vs. performance KPIs such as conversion, revenue, CSAT at brand, skill and agent level.
+The Analytics Builder predefined dashboards: Agent Activity, Business Activity for Messaging and the Performance Dashboard For Messaging were enhanced to allow brands to measure the Collaboration channels (CoBrowse, Voice, video) usage and ROI. Brands can now track their daily usage and correlation of the feature usage vs. performance KPIs such as conversion, revenue, CSAT at brand, skill and agent level.
 
 ### Agent Activity:
 In the agent Activity, the COBROWSE chat metrics were exposed: 
@@ -39,9 +39,9 @@ In the agent Activity, the COBROWSE chat metrics were exposed:
 
 | Metric name  | Description | 
 |--------------|-------------|
-| STANDALONE COBROWSE DURATION (SEC)) | The total duration of standalone collaboration sessions ( CoBrowse for Voice). | 
-| NO. OF STANDALONE COBROWSE SESSIONS | Number of standalone collaboration sessions ( CoBrowse for Voice) | 
-| NO. OF STANDALONE COBROWSE INTERACTIVE SESSIONS | Number of Interactive standalone collaboration sessions ( CoBrowse for Voice). An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more.
+| STANDALONE COBROWSE DURATION (SEC)) | The total duration of standalone collaboration sessions (CoBrowse for Voice). | 
+| NO. OF STANDALONE COBROWSE SESSIONS | Number of standalone collaboration sessions (CoBrowse for Voice) | 
+| NO. OF STANDALONE COBROWSE INTERACTIVE SESSIONS | Number of Interactive standalone collaboration sessions (CoBrowse for Voice). An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more.
 | MESSAGING COLLABORATION DURATION (SEC) | The total duration of messaging collaboration sessions. | 
 | NO. OF MESSAGING COLLABORATION SESSIONS | Number of collaboration sessions. Interactive and non interactive sessions. | 
 | NO. OF MESSAGING COLLABORATION INTERACTIVE SESSIONS | Number of Interactive messaging collaboration sessions. An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more |

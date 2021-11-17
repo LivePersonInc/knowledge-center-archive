@@ -77,7 +77,7 @@ Image 2: A private message displayed within the conversation area, with a “PRI
 
 The ‘Operational & Staffing for Live Chat’ was enhanced to allow brands to analyze the converted consumers versus the control group and self served visitors groups.
 
-Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site ( they might clicked on content but they didn't start a chat)
+Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/chat  and converted on the web site (they might have clicked on content but they didn't start a chat)
 Control group visitors -  Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.
 
 Previously,  the report  included only Chat group metrics for visitors that end up in interactive chats. In this version we added the following groups.
@@ -106,34 +106,34 @@ Total conversions achieved by visitors in the Control group visitors, Visitors w
 Total revenue achieved by control group visitors, Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.
 
 **TOTAL SELF SERVICE EXPOSED AOV**
-Average revenue achieved for Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Average revenue achieved for Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **TOTAL SELF SERVICE EXPOSED CONVERSION RATE**
-Percentage of TOTAL SELF SERVICE EXPOSED CONVERSIONS out of total chat exposed. Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Percentage of TOTAL SELF SERVICE EXPOSED CONVERSIONS out of total chat exposed. Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **TOTAL SELF SERVICE EXPOSED CONVERSIONS**
-Total number of conversions achieved after the consumer was exposed to an engagement and did not initiate a chat with an agent. Self service visitors , Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat.
+Total number of conversions achieved after the consumer was exposed to an engagement and did not initiate a chat with an agent. Self service visitors , Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat.
 
 **TOTAL SELF SERVICE EXPOSED REVENUE**
-Total revenue achieved after the consumer was exposed to an engagement and did not initiate a chat with an agent. Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Total revenue achieved after the consumer was exposed to an engagement and did not initiate a chat with an agent. Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **SELF SERVICE EXPOSED CROSS SESSION AOV**
-Average revenue achieved after exposure out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in different sessions for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Average revenue achieved after exposure out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in different sessions for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **SELF SERVICE EXPOSED CROSS SESSION CONVERSIONS**
-Number of conversions achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Number of conversions achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **SELF SERVICE EXPOSED CROSS SESSION REVENUE**
-Revenue achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Revenue achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **SELF SERVICE EXPOSED IN SESSION AOV**
-Average of the revenue achieved after exposures out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Average of the revenue achieved after exposures out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **SELF SERVICE EXPOSED IN SESSION CONVERSIONS**
-Number of conversions achieved after an exposure in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Number of conversions achieved after an exposure in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 **SELF SERVICE EXPOSED IN SESSION REVENUE**
-Revenue achieved after exposure, where exposure and purchase event occur in the same session for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site ( they might clicked on content but they didn't start a chat).
+Revenue achieved after exposure, where exposure and purchase event occur in the same session for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/chat and converted on the web site (they might have clicked on content but they didn't start a chat).
 
 ## Revenue metrics in Business Dashboard for messaging  
 ### Type: Bug fix (Report Builder 4.5)

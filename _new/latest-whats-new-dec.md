@@ -117,7 +117,7 @@ Enables brands to invite consumers to initiate an SMS conversation from a deskto
 Provide a more inviting experience to consumers by enabling the consumer to type in and send their first message directly from the engagement.
 
 We also released some updates to Reporting, including:
-Secure Form ( PCI) for messaging Reporting
+Secure Form (PCI) for messaging Reporting
 Brands using Secure Forms in messaging have greater visibility/transparency in payments and are able to measure the ROI. It also allows users to cross examine with other metrics such as CSAT and Conversions, to see how the feature is performing and impacting customer satisfaction and revenue generation.
 
 ## Announcements

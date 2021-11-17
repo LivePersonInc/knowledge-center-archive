@@ -29,7 +29,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Description
 
-Today, Analytics builder translation is limited to the analytics builder tool’s texting only ( i.e “Shared Reports”, “My reports”, “Export” etc), while the names of the metrics, attributes, descriptions and datasets are not translated.
+Today, Analytics builder translation is limited to the analytics builder tool’s texting only (i.e “Shared Reports”, “My reports”, “Export” etc), while the names of the metrics, attributes, descriptions and datasets are not translated.
 
 With this release, the full translation of the following languages is implemented:
 

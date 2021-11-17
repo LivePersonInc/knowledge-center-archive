@@ -328,7 +328,7 @@ An Agent Survey form is opened once an agent is assigned to a conversation with 
 
 If the conversation is transferred from the agent to another skill, The next assigned agent will be able to fill the survey if defined for the conversation’s skill.
 
-When conversation is transferred from agent to agent on the same skill ( or if agent return the conversation into the queue and the system assigned the conversation to another agent from the same skill), then the Survey will be opened for the 2d  agent as well and will be counted twice in the open Surveys Metrics,  the 2nd agent can submit the survey as well and it will be counted as well for this conversation.
+When conversation is transferred from agent to agent on the same skill (or if agent return the conversation into the queue and the system assigned the conversation to another agent from the same skill), then the Survey will be opened for the 2d  agent as well and will be counted twice in the open Surveys Metrics,  the 2nd agent can submit the survey as well and it will be counted as well for this conversation.
 
 Conversation may have 2 survey results counted, for example:  The conversation starts with skill Billing and assigned to the agent A, then transferred to skill Retention and Agent B submit another Survey.
 At each skill an agent was assigned and submitted the skill survey, in this scenario the report will count 2 Surveys results and will count twice the opened and completed surveys
@@ -365,7 +365,7 @@ The sheet contains five Pages in a single sheet
 * Agent Survey summary - high level  brand and skill survey completion analysis
 * Survey Funnel - Weekly & Daily Survey completion analysis
 * Survey Level -Daily Survey Completion analysis
-* Answer Distribution ( Brand) 
+* Answer Distribution (Brand) 
 * Answer Distribution( Agent and Skill) - Answer distribution by Agent and Skill
 
 ### Main Page: Agent Survey summary 
@@ -380,7 +380,7 @@ The main page provides an analysis of the overall survey activity, focused on Su
 ### Page 3: Survey Funnel - Daily Survey Completion analysis by Survey Outcome
 ![](img/Survey_messaging4.png)
 
-### Page 4: Answer Distribution ( Brand)
+### Page 4: Answer Distribution (Brand)
 This page lists every configured question and answer-option, including a count of times an answer was selected.
 ![](img/Survey_messaging5.png)
 
@@ -406,7 +406,7 @@ If a conversation had 2 agents submitting surveys, The report will show both of 
 * **TRANSFERRED SURVEYS** - The number of survey forms transferred to another skill before the survey form submitted.
 * **TIME OUT SURVEYS** - The number of open survey forms that are automatically closed based on brand specific survey timeout.
 * **DISMISSED SURVEYS** - The number of survey forms dismissed by an agent. This is only applicable if the survey has non-required questions.
-* **SUBMISSION RATE** - The percentage (%) of submitted survey forms ( partial or complete) out of the number of opened survey forms
+* **SUBMISSION RATE** - The percentage (%) of submitted survey forms (partial or complete) out of the number of opened survey forms
 
 ### Survey Answers Metrics
 
@@ -423,7 +423,7 @@ questions. Calculated at the Brand level.
 ### Survey attributes
 
 * **SURVEY TYPE** - Type of survey form. Values include: Post-Chat, Agent Survey.
-* **PREDEFINED QUESTION NAME** - Agent Survey Predefined question ( Conversation topic, conversation outcome, engagement attributes).
+* **PREDEFINED QUESTION NAME** - Agent Survey Predefined question (conversation topic, conversation outcome, engagement attributes).
 
 ### Limitations
 

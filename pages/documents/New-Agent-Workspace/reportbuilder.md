@@ -53,7 +53,7 @@ The widget displays:
 
 * The previous date value data
 
-* Trend Indicator ( X%) which shows the trend between the previous date and the current date. The color will be green to reflect an improvement in the KPI and  red to reflect a negative change.
+* Trend Indicator (X%) which shows the trend between the previous date and the current date. The color will be green to reflect an improvement in the KPI and  red to reflect a negative change.
 
 * Trend Graph which shows the trend for the filtered date range.
 
@@ -71,7 +71,7 @@ New visualization types for creating custom dossiers (histogram, waterfall chart
 
 ### Exporting to PDF
 Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
-layout ( Automatic, Portalit, Landscape)
+layout (Automatic, Portalit, Landscape)
 Advanced mode to export the visualizations individually on separate pages to include all data.
 
 ![](img/export-to-pdf.png)
