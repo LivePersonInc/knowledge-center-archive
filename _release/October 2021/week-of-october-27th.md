@@ -19,11 +19,11 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Support Medallia Survey Bots
+## Support Medallia Survey Bots - EARLY ACCESS
 
 ### Type: New Feature [Bot Connectors - Release 2.36]
 
-**Availability:** All brands
+**Availability:** All brands can join Early Access - please contact LivePerson account manager to join
 
 **Enablement:** An additional step was added at the beginning of the Third-Party Bots wizard, called 'Choose Bot Type',  where users are able to choose between two bot types: Survey and Agent. By choosing 'Agent' the known flow will be executed. When choosing 'Survey' the user is able to select Medallia as Vendor.
 
