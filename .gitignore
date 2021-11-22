@@ -8,3 +8,4 @@ node_modules/
 vendor/
 .bundle/
 .ruby-version
+.settings.json
