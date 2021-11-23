@@ -9,10 +9,7 @@ permalink: whats-new-latest-whats-new.html
 isTutorial: false
 isNew: false
 ---
-
-Watch this short video to see an overview of all the new features and capabilities that came out this November and in the weeks ahead.
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/640064277?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+Check out our overview of all the new features and capabilities that came out this November and in the weeks ahead:
 
 ## Structured Content DatePicker and AppointmentList (Self-Service)
 
