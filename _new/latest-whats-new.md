@@ -3,61 +3,57 @@ pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Highlights of October 2021
+subtitle: Highlights of November 2021
 level3: ''
 permalink: whats-new-latest-whats-new.html
 isTutorial: false
 isNew: false
 ---
 
-Watch this short video to see an overview of all the new features and capabilities that came out this October and in the weeks ahead.
+Watch this short video to see an overview of all the new features and capabilities that came out this November and in the weeks ahead.
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/640064277?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-## Integration Hub (iHub)
+## Structured Content DatePicker and AppointmentList (Self-Service)
 
-LivePerson’s Integration Hub gives brands one central hub for all integration setup and configurations Easily integrate your brand’s backend, 3rd-party or partner systems like Salesforce, Zendesk, Shopify, Adobe with LivePerson. 
+LivePerson’s new Structured Content DatePicker and AppointmentList allows your consumers to select dates and appointments slots. Simply schedule Structured Content’s DatePicker and AppointmentList for Web and In-app Messaging to serve date and appointment time selections to consumers in an embedded and seamless scheduling experience. Supported in automations via Universal Tile.
 
-Use Analytics, and four integration components:
-* API integration
-* LivePerson Workflows
-* Partner Integrations
-* Agent Widget Marketplace
+* DataPicker
+  * Single and Date Range selections
+  * Min/Max Dates to ensure consumers make realistic selections (i.e., future dates for travel, past dates for reports)
 
-![](img/whats-new-oct-1b.jpg)
-
-Dedicated integration templates for popular use cases in commerce, sales & marketing allow brands to speed up delivery time. Leverage the ability to re-use integrations across multiple internal products and services. Similarly, Integration Hub includes access to more than a thousand out-of-the-box connectors.
-
-### Medallia Post Conversational Survey (iHub)
-
-All Medallia CX platform users can now leverage our Medallia Post Conversational Survey to trigger a Medallia survey after a LivePerson Conversation, within the same channel the customer is interacting on. Drive up response rates and create rules in Medallia to ensure the same customer is not surveyed more than once within a given time span.
-
-## Sales Attribution from Shared Links- Early Access
-Track conversions in 3rd-party channels for better attribution. When the agent directs consumers to a branded website, Sales Attribution from shared links is able to attribute cross-session sales that occur after the initial conversation
-
-![](img/whats-new-oct-2.png)
-
-## Dynamic Routing
-
-Add an interaction to any bot that needs Dynamic Routing within its flow. Simply drop the interaction in the spot where Dynamic Routing should occur for simple setup or use Dynamic Routing bot template to deploy Dynamic Routing to any bot with none-to-minimal coding.
-
-Customize complex routing policies that require evaluations or time and date based criteria using Expression editor to route on specific dates/ time ranges / days of the weeks. You'll gain the ability to route conversations based on the consumer’s intent, channel, and more, to quickly take care of any failures. All complex routing has step-by-step guides to build, deploy, test and debug it’s experience. 
+* Appointment List:
+  * Consumers can navigate and select from single time slots to multiple time slots per day
+  * Native UI on in-app messaging
 
 
-## Agent App
-The past two quarters, our Agent App received a series of rich updates with new features and functionalities that include:
+![](img/whats-new-nov-1.jpg)
 
-* Click-to-open hyperlinks within messages 
-* Agent survey filters 
-* Failure to deliver indicator when messages fail to be sent 
-* Social connector widget supports Facebook  
-* Japanese language support 
+Get more information [DatePicker]( https://developers.liveperson.com/mobile-sdk-and-web-templates-date-picker-template.html) and [AppointmentList]( https://developers.liveperson.com/mobile-sdk-and-web-templates-schedule-slot-list-template.html)  in our Developer Center
 
-![](img/whats-new-oct-4.png)
+### Next Best Conversation™ with Adobe
 
-**Coming soon**:
-* Click-to-call phone numbers within messages
-* Send files from predefined content
-* View past Agent Surveys
+Set rules based on Adobe events to deliver personalized engagements using Next Best Conversation™  with Adobe. 
+
+Triggered by real-time Adobe Target and/or Analytics events during the consumer’s journey on the webpage, you can easily configure multiple, personalized engagement text and optional first messages with quick replies in one or many rule-sets - completely self-service. The more relevant text increases click-rates and number of initiated conversations.
+
+You can also provide dynamic routing based on the rule-set triggered so that the consumer is connected to the most relevant agent/bot
+
+![](img/whats-new-nov-2.jpg)
+
+**Enablement: please contact your LivePerson Account Representative**
+
+## Intent Manager for Marketplace
+
+Marketplace providers can now leverage the power of Intent Manager for Marketplace. Providers can visualize and analyze aggregated performance data by intent to uncover marketplace trends  and opportunities for operational improvement - essentially creating a centralized NLU Domains for their own Marketplace.
+
+![](img/whats-new-nov-3.jpg)
+
+## Agent App 2.7.8
+The Agent App this month version 2.7.8 includes a new Manager Workspace tab that gives both agents and agent managers great functionality - similar to the rich desktop version. 
+
+![](img/whats-new-nov-4.png)
+
+The Manager Workspace Queue Summary is the first feature implemented in the Manager Workspace tab this month, with full functionality of Manager Workspace coming in 2022, including features like Agent Status, Conversation List, and more.
 
 
