@@ -23,12 +23,11 @@ LivePerson’s new Structured Content DatePicker and AppointmentList allows your
   * Consumers can navigate and select from single time slots to multiple time slots per day
   * Native UI on in-app messaging
 
-
 ![](img/whats-new-nov-1.jpg)
 
 Get more information [DatePicker]( https://developers.liveperson.com/mobile-sdk-and-web-templates-date-picker-template.html) and [AppointmentList]( https://developers.liveperson.com/mobile-sdk-and-web-templates-schedule-slot-list-template.html)  in our Developer Center
 
-### Next Best Conversation™ with Adobe
+## Next Best Conversation™ with Adobe
 
 Set rules based on Adobe events to deliver personalized engagements using Next Best Conversation™  with Adobe. 
 
