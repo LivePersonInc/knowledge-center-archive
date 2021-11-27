@@ -217,7 +217,7 @@ Choose group to see metrics for that specific group.
 Can choose multiple groups and will see aggregated data on those groups.
 It is possible to filter for both skills and groups.
 
-**Last 24 Hour/ “Today, from” filters**: these filters allow you to filter by time range according to the following options:
+**Last 24 Hour / “Today, from” filters**: these filters allow you to filter by time range according to the following options:
 
 1. **Today from a specific hour**: choose a specific hour to filter from
 2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.

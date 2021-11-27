@@ -63,7 +63,7 @@ The following table includes new Intent Annotation metrics that can be tracked i
 | SUBMITTED ANNOTATIONS WITH AN INTENT | Agents Annotation | - | Number of annotations that were completed and got submitted with any intent |
 | SUBMITTED ANNOTATIONS WITH AN INTENT RATE | Agents Annotation | SUBMITTED ANNOTATIONS WITH AN INTENT / NO. OF SUBMITTED ANNOTATIONS | Number of annotations submitted with intent out of the submitted annotations |
 | SUBMITTED ANNOTATIONS WITH NO INTENT | Agents Annotation | - | Number of annotations that were completed and got submitted as "I don't know" |
-| SUBMITTED ANNOTATIONS WITH NO INTENT RATE | Agents Annotation | SUBMITTED ANNOTATIONS WITH NO INTENT/ NO. OF SUBMITTED ANNOTATIONS | Number of annotations submitted with no intent out of the submitted annotations | 
+| SUBMITTED ANNOTATIONS WITH NO INTENT RATE | Agents Annotation | SUBMITTED ANNOTATIONS WITH NO INTENT / NO. OF SUBMITTED ANNOTATIONS | Number of annotations submitted with no intent out of the submitted annotations | 
 
 ## Messaging Intents activity
 

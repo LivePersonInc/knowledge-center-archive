@@ -112,7 +112,7 @@ _Agent level data export grid (panel 3)_
  8. TOTAL NO. OF TRANSFERS
  9. LOGGED IN TIME
 10. ONLINE / AWAY / BACK SOON (time)
-11. ONLINE / AWAY/ BACK SOON RATE
+11. ONLINE / AWAY / BACK SOON RATE
 
 ## Brand level data sheet - main panel
 

@@ -86,7 +86,7 @@ The Performance Dashboard for Messaging was enhanced to expose the numerator and
 
 The metrics will be exposed as hidden fields, which LivePerson CSMs or brands with customization features can unhide and use  in the dashboard.
 Exposed metrics:
-For metric AVG. WAIT TIME FOR FIRST HUMAN AGENT RESPONSE (= FIRST HUMAN MESSAGE DUR DAYS/ TOTAL NO OF FIRST HUMAN MESSAGE DUR DAYS)
+For metric AVG. WAIT TIME FOR FIRST HUMAN AGENT RESPONSE (= FIRST HUMAN MESSAGE DUR DAYS / TOTAL NO OF FIRST HUMAN MESSAGE DUR DAYS)
 For metric AVG. TIME TO FIRST RESPONSE FROM AGENT ASSIGNMENT (-  NullToZero(([FIRST RESPONSE FROM AGENT ASSIGNMENT] / [TOTAL NO OF FIRST RESPONSE FROM AGENT ASSIGNMENT]))
  
 ## [Analytics Builder]  Customer Type and Customer Status attributes were added to the Messaging Performance Dashboard.

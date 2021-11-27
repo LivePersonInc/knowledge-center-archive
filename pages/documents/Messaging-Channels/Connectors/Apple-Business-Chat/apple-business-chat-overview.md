@@ -29,7 +29,7 @@ Apple Business Chat enables brands to help customers resolve issues, schedule ap
 * **Rich Experiences** - With interactive messages, customers can communicate with brands in dynamic, visual ways within the Message app.
 
   * Interactive capabilities native to iOS include Apple Pay for payments, iMessage apps to display business app features within the conversation, pickers to prompt customers to choose an item or timeslot, etc. 
-  * LivePerson solutions can also be leveraged such as automatic messages, secure forms, post conversation surveys and file/ image/ audio sharing. 
+  * LivePerson solutions can also be leveraged such as automatic messages, secure forms, post conversation surveys and file/image/audio sharing. 
 
 
 ## How conversations start: Entry Points

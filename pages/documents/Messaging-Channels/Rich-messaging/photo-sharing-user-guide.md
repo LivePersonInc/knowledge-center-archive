@@ -155,7 +155,7 @@ When the agent receives the shared photo, it appears as a thumbnail in the conve
 * Storage: In-App storage is up to 20 images (configurable).
 * User cannot remove a single image that they have shared (clear history will clear local device image only).
 * Send button from photo preview is always enabled.
-* No actions on photo (copy/ delete etc.).
+* No actions on photo (copy/delete etc.).
 * Supported image formats: png, jpg, jpeg and gif (non-animated).
 
 ### Behavior

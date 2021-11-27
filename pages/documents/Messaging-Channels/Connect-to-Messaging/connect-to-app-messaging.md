@@ -71,7 +71,7 @@ App Messaging is a new channel available for the Connect to Messaging (IVR defle
 
 * Only brand campaign managers or administrator have the privileges can access the webtool and create In-App API Handoff's.  
 * In the event that the consumer has an open conversation with the brand, the outbound message will not be sent to the consumer.
-* Currently there is a rate limit of 3 req/ sec, the brand must control this rate limit. More requests per second will fail. 
+* Currently there is a rate limit of 3 req/sec, the brand must control this rate limit. More requests per second will fail. 
 * In the event that the consumer never logged into the brand’s app (not even one time) the consumer will not be able to receive the proactive push notifications.
 * If a Welcome Message is enabled on the account and a Proactive Message was sent, the Welcome Message will not be displayed. 
 * This version will support sending only text messages (including text and emojis). Rich content (images, docs etc.) and Structured Content (quick replies, cards etc.) will be supported in future releases.

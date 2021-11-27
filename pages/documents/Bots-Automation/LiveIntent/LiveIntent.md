@@ -25,7 +25,7 @@ Conversational commerce, when brands enable consumers to ask questions, purchase
 
 ## What is intent in a contact center?
 
-Whenever a customer is initiating a conversation with a brand, whether it be with a bot or human agent, the customer comes with an intent and the ultimate goal of the customer is to fulfill this intent. A customer intent can be defined as a customers desire to change their state/ relationship with a brand.
+Whenever a customer is initiating a conversation with a brand, whether it be with a bot or human agent, the customer comes with an intent and the ultimate goal of the customer is to fulfill this intent. A customer intent can be defined as a customers desire to change their state/relationship with a brand.
 
 The ability to accurately identify intent and provide the relevant service for the intent is at the forefront of building an efficient contact center. Through the combination of machine learning and human intelligence, LivePerson is building intent recognition and analysis tools to help brands identity and manage consumer needs. Using consumer intent as a driving force, brands can better track what is happening in a contact center and make fast progress in improving operations and automating customer interactions.
 
@@ -87,6 +87,4 @@ Intents defined by the brand are visible in real-time and are available across a
 
 ## LivePerson Tools
 
-LivePerson provides intent management out-of-the-box, which are intents that the platform comes with preconfigured to help you detect, monitor and manage conversations. LivePerson also developed new tools to enable brands to discover and analyze their own intents that have specific meaning to them. These intents can be seeds for new chatbots or to/hone in on a specific customer problem like a network outage that you want to continuously monitor. After all, intent is one of the most important touch points between customers, agents and bots.
-
-
+LivePerson provides intent management out-of-the-box, which are intents that the platform comes with preconfigured to help you detect, monitor and manage conversations. LivePerson also developed new tools to enable brands to discover and analyze their own intents that have specific meaning to them. These intents can be seeds for new chatbots or to hone in on a specific customer problem like a network outage that you want to continuously monitor. After all, intent is one of the most important touch points between customers, agents and bots.

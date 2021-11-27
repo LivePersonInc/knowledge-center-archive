@@ -58,7 +58,7 @@ Brands can customize the dashboard to utilize the metrics that are most importan
 Brands can configure their customer queuing logic to prioritize specified high value intents. For more information on Queue Prioritization, click [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html)
 
 ## Dialog Templates 
-LivePerson are continuing investment in to pre-built, fully functional dialog templates for common intents that help bot developers build high quality conversations. Examples include escalation/ frustration models, resolution/completion models, sentiment models (MCS), and improved statement of intent classifiers.
+LivePerson are continuing investment in to pre-built, fully functional dialog templates for common intents that help bot developers build high quality conversations. Examples include escalation/frustration models, resolution/completion models, sentiment models (MCS), and improved statement of intent classifiers.
 
 ## Pre Built domains
 To get you quickly up and running with intents, LivePerson now provides a set of prebuilt domains that can easily be added to the Intent Builder environment. A “prebuilt domain” is a ready-made, pretrained domain that includes a set of well-defined intents. No prior conversations are needed to get started (unlike the starter pack).

@@ -186,7 +186,7 @@ For guidelines on retrying failed API calls, please refer to our: [Retry Policy 
 
 ## I can't see Manager Workspace data
 
-The Agent Manager must have the relevant Agent Group assigned to him/ The Agent Manager must manage the appropriate groups in order to view data.
+The Agent Manager must have the relevant Agent Group assigned to him / The Agent Manager must manage the appropriate groups in order to view data.
 1. Select the “Manage users and skills” tab from the navigation bar on the left.
 2. Select the user you want to edit
 3. Assign the relevant Agent Group and click Save.

@@ -38,7 +38,7 @@ Note: if someone else on your account has made a taxonomy but has not shared it,
 When you have finished adding and creating rules, click save.
 
 ## Syntax and rule structure
-The way to specify rules is important. Rules are set up as a combination of ANY/OR/AND/ NONE/ ALL conditions. 
+The way to specify rules is important. Rules are set up as a combination of ANY/OR/AND/NONE/ALL conditions. 
 ![](img/Taxonomy-insights-6.png)
 
 **ANY:** at least one of the rules listed in the box is matched

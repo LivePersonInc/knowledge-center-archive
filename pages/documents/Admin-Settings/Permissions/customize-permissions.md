@@ -39,10 +39,10 @@ To ensure small and medium-sized businesses also have flexibility within their u
 
 To further empower agent managers, there will be an additional option to grant this role limited user management permissions, including:
 
-* Create /edit users of agent and agent manager roles within their group’s structure
-* Create /edit agent groups within group’s structure
-* Create /edit agent and agent manager’s profiles
-* Create /edit skills
+* Create/edit users of agent and agent manager roles within their group’s structure
+* Create/edit agent groups within group’s structure
+* Create/edit agent and agent manager’s profiles
+* Create/edit skills
 
 {: .notice}  
 Profiles and users can only be configured by admins and agent managers with special permissions.

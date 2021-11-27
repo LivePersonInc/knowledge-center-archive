@@ -27,7 +27,7 @@ Messaging is a two-way communication medium, meaning that both parties - the con
 * Never send unsolicited phone calls or messages to customers as this violates the TCPA (Telephone Consumer Protection Act).
 * The brand must get unambiguous prior written consent before sending telemarketing calls or text messages via automatic telephone dialing systems (ATDS).
 * Established business relationships with consumers may no longer relieve brands of the requirement for prior written consent.
-* Prior to purchasing a prepaid mobile number, some country laws may require the collection (from you or your organization) of your business identification information/ identification document (e.g., excerpts from the trade register, a corporation’s founding documents, or other comparable documents).
+* Prior to purchasing a prepaid mobile number, some country laws may require the collection (from you or your organization) of your business identification information / identification document (e.g., excerpts from the trade register, a corporation’s founding documents, or other comparable documents).
 
 ## Regulations for brands
 

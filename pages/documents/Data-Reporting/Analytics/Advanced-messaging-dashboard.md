@@ -230,7 +230,7 @@ Do any of the above metrics differ based on day of week or operating hours?
 | Metric Name | Metric formula | Definition |
 | --- | --- | --- |
 | Assignment Rate | ASSIGNED CONVERSATIONS / CONVERSATIONS IN QUEUE |Percentage of Conversations In Queue that are assigned.|
-| Post Assign Abandon Rate | POST ASSIGN ABANDONS /CONVERSATIONS ASSIGNED TO SKILL | Percentage of Conversations Assigned to Skill that are abandoned after being assigned, meaning the conversation was closed before an Agent message was sent. |
+| Post Assign Abandon Rate | POST ASSIGN ABANDONS / CONVERSATIONS ASSIGNED TO SKILL | Percentage of Conversations Assigned to Skill that are abandoned after being assigned, meaning the conversation was closed before an Agent message was sent. |
 | Interactive Transfer Rate | INTERACTIVE TRANSFERS / CONVERSATIONS ASSIGNED TO SKILL | Percentage of Conversations Assigned to Skill that result in an agent message and a subsequent consumer response.|
 | Transfer From Skill = NONE | n/a | Skill was transferred from the queue and did not have a previous skill assigned. |
 | Transfer To Skill = NONE | n/a | Skill was transferred to the queue.|

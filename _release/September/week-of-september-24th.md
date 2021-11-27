@@ -59,7 +59,7 @@ Agent Load KPIs have been added to the predefined Messaging Performance Dashboar
 
 These KPIs give agent managers a view of how productive their agents are and help them understand whether agents are over or under capacity in order to help agent optimization and efficiency.
 
-Agent Load metrics can be used for staffing plans - for example; agent managers set the max capacity to X concurrent conversations per agent, and can therefore understand how well agents are being utilized/ if they are meeting their capacity.
+Agent Load metrics can be used for staffing plans - for example; agent managers set the max capacity to X concurrent conversations per agent, and can therefore understand how well agents are being utilized if they are meeting their capacity.
 
 **New attributes**
 

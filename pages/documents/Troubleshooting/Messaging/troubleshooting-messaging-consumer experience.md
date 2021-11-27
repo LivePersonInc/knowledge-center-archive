@@ -88,7 +88,7 @@ Agent app has limitations for unassigned skill conversation. The app filters out
 
 ### Cause:
 
-This is expected behavior on Android devices. When there is an unread message counter (red badge) on the scroll down indicator /shortcut in the Messaging window, the consumer needs to tap on the indicator twice to reach the latest message. They should be able to tap once to reach the latest message.
+This is expected behavior on Android devices. When there is an unread message counter (red badge) on the scroll down indicator/shortcut in the Messaging window, the consumer needs to tap on the indicator twice to reach the latest message. They should be able to tap once to reach the latest message.
 
 ### Solution:
 
