@@ -96,7 +96,5 @@ At LivePerson, we believe the most powerful customer contact center is delivered
 
 ## Next steps
 * For more information on getting started with the intents using the Intent Manager, click [here.](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html)
-* Intent Terminiology, key terms & concepts click [here.](https://developers.liveperson.com/intent-manager-key-terms-concepts.html)
-* ml)
+* For Intent Manager terminology, key terms and concepts click [here.](https://developers.liveperson.com/intent-manager-key-terms-concepts.html)
 * For more details on the Intent Manager, check our the Developer Community overview article [here](https://developers.liveperson.com/intent-manager-overview.html)
-
