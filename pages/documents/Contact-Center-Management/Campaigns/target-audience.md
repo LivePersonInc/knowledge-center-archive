@@ -44,6 +44,11 @@ The Conversational Cloud will track your customers according to their status and
 
 1. **Search keywords:** Target and/or exclude consumers who enter your website by searching for keywords within a search engine. The keywords used can either be manually entered (multiple keywords can be entered in this section and if any of them are used by the consumer this condition will be applicable) or imported from a Google AdWords campaign. Keywords passed from Google only apply to paid search referrals. To learn more about targeting users by keyword, [click here](contact-center-management-campaigns-target-audience.html#target-consumers-by-keyword).
 2. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
+{: .notice}
+**Note:** Temporarily, campaigns with IP address-targeting rules are not showing on the mobile safari browsers on iOS 15.0. This is due to Apple's latest security feature that allows consumers to voluntarily "Hide their IP address". This setting is "On" by default for Safari on iOS15 and prevents LivePerson from receiving IP addresses which in turn hides campaigns that have IP address-targeting rules. **This does not affect consumers who are on previous versions of iOS**. Here are two solutions:
+* (1) Brands can adjust the campaign's settings to remove these IP-address targeting rules
+* (2) Brands can ask their consumers to turn OFF "Hide IP address" on their phones through a prompt or message
+
 
 ![](/img/target-audience-2.png)
 
@@ -189,3 +194,4 @@ Do not create a mobile app engagement assigned to an irrelevant target audience,
 | Gender | Web,Mobile |
 | Store zip code | Web,Mobile |
 | Store number | Web,Mobile |
+
