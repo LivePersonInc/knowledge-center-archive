@@ -358,27 +358,27 @@ LivePerson supports up to 44 languages and dialects for consumer experiences and
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>German</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Indonesian</td>
         <td>✔️</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>✔️</td>
       </tr>
       <tr>
         <td>Italian</td>
