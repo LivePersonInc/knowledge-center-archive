@@ -400,9 +400,9 @@ Once a consumer authenticates, no new conversations will be created for the same
 </table>
 </div>
 
-When configuring authenticated web messaging, brands must send the consumer’s ID through javascript on the web page. The consumer’s ID might be considered as sensitive data. The problem with this is that this data is sent as plain text.
+When configuring authenticated web messaging, brands must send the consumer’s ID through JavaScript on the web page. The consumer’s ID might be considered as sensitive data. The problem with this is that this data is sent as plain text.
 
-**Fix:** Instead of providing the consumer ID, the brand will provide the encrypted JWT through javascript on the web page.
+**Fix:** Instead of providing the consumer ID, the brand will provide the encrypted JWT through JavaScript on the web page.
 
 The brand will provide the encrypted JWT (aka - JWE) in a new attribute of consumer “identity” json:
 

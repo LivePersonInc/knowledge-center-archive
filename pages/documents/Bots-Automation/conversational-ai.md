@@ -97,7 +97,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 
 **Coding**
 
-* Custom bot implementations can use javascript code to write logic
+* Custom bot implementations can use JavaScript code to write logic
 * Ability to inject code at every step of the interaction and also for processing user responses
 
 **Channels**
@@ -169,7 +169,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 * Create custom attributes with Functions as a Service variables (e.g, CRM integrations via FaaS)
 * Carry over custom context through conversational journey
 
-**Recommendation API **
+**Recommendation API**
 * REST API to Conversation Orchestrator that exposes next action to concierge bot/LOB app for routing decisions
 
 **Conversation Orchestrator Concierge Bot**
