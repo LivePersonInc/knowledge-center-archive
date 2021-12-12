@@ -68,7 +68,7 @@ What to expect after enabling this feature?
 * Wait time for low priority skills would increase
 * Average time to resolve issues would be reduced
 * Number of handled conversations would increase
-* CSAT/ MCS of prioritized customers increase
+* CSAT/MCS of prioritized customers increase
 * CSAT/MCS of other customers may decrease
 
 ## Arriving at the desired configuration

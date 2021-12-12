@@ -113,7 +113,7 @@ This feature will be enabled by default.
 ## An Enhanced Intent Trends dashboard with Customizable Metrics & KPIs
 
 The ability to analyze and track key performance indicators by intent is a key value proposition of the Intent Powered business. There are seven new intent correlated metrics to the Intent Trends dashboard that are aligned to the LivePerson 4E Framework. The release also adds a new configuration panel that enables brands to select which metrics to include in summary cards, charts and graphs, and data tables in the Intent Trends dashboard. By clicking the gear icon in the top right corner you can configure which metrics show where. 
-This enables brands to remove empty/ extraneous information and to tune the Intent Analyzer dashboard for use with specific personas and use cases. 
+This enables brands to remove empty/extraneous information and to tune the Intent Analyzer dashboard for use with specific personas and use cases. 
 
 Intent Trends now includes the following metrics:
 

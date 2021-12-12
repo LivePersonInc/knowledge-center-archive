@@ -44,7 +44,7 @@ Starter packs use a highly tuned Machine Learning model to extract brand specifi
 To get started with starter packs, please contact your LivePerson account team.
 
 ### Permissions
-LivePerson's Intent Analyzer (part of Intent Manager) inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, LivePerson's Intent Analyzer also requires Conversation Builder permissions to be turned ON in Administrator Profile, if not already done so.
+LivePerson's Intent Analyzer (part of Intent Manager) inherits its permission structure from Conversation Builder, as the primary admin/configuration work is related to setting up intents and training models in Intent Builder. Therefore, LivePerson's Intent Analyzer also requires Conversation Builder permissions to be turned ON in Administrator Profile, if not already done so.
 
 Access to LivePerson's Intent Analyzer dashboard is currently granted to the following roles:
 * CB_VIEW_ANALYTICS

@@ -50,15 +50,15 @@ Goals are categorized either as _Business_ goals or _Assisting_ goals.
 
 This widget displays the comparison between _exposures_, _engagements_ and _goals reached_ over time. Expect to see _goals reached/conversions (depends on the goal type of the campaign)_ trending with a similar slope to those of the _exposures_ and _engagements._
 
-### Goal reached /conversion rates (depending on the goal type of the campaign)
+### Goal reached/conversion rates (depending on the goal type of the campaign)
 
 Conversion rates of the different channels:
 
-* Chat goal reached/conversion rate - goal reached /conversion rate after interactive chat
+* Chat goal reached/conversion rate - goal reached/conversion rate after interactive chat
 * Content goal reached/conversion rate - goal reached/conversion rate after content exposures
 * Control group - goal reached/conversion rate of the control group
 
-This widget compares the trend of goal reached/conversion rates of chats, view-through goal reached/conversion rates for content, and click-through goal reached/conversion rates for content, over time. Here you can see which channel is giving you the best goal reached/conversion rates. Since costs of channels differ, you want to make sure that you are using the most cost-effective channel in your campaigns. Here you can also see the effectiveness of the channels that are used by comparing the chat and content goal reached /conversion rates to those of the control group.
+This widget compares the trend of goal reached/conversion rates of chats, view-through goal reached/conversion rates for content, and click-through goal reached/conversion rates for content, over time. Here you can see which channel is giving you the best goal reached/conversion rates. Since costs of channels differ, you want to make sure that you are using the most cost-effective channel in your campaigns. Here you can also see the effectiveness of the channels that are used by comparing the chat and content goal reached/conversion rates to those of the control group.
 
 ### **Conversion/goal reached rate: campaign vs. goal type**
 

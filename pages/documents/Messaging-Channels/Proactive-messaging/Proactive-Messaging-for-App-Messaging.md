@@ -107,7 +107,7 @@ For getting detailed analytics for the campaigns please refer to the outbound re
 ## Feature Limitations
 * Brands have to create API handoff in the webtool and use outbound API to schedule the proactive campaigns. Brands cannot send In-App campaigns directly from the webtool. Only users who have campaign managers or administrator privileges can access the webtool.   
 * New outbound messages will NOT be sent if an open conversation currently exists between the brand and the consumer.
-* Currently, there’s a rate limit of 10 req/ sec, the brands need to manage this limit on their end. 
+* Currently, there’s a rate limit of 10 req/sec, the brands need to manage this limit on their end. 
 * In case the consumer never logged into the brand’s app (not even one time) the consumer will not be able to receive the push notifications 
 * If a welcome message is enabled on the account and an outbound message was sent, the welcome message will not be displayed. 
 * We support sending only text messages (including text and emojis). 

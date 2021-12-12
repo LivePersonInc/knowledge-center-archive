@@ -274,12 +274,12 @@ In order to display a Business Chat button on one of the native entry points, yo
 ![](img/apple-business-chat-entry-points-8.gif)
 
 **Spotlight Search**
-* No ability to add intentID/ groupID
+* No ability to add intentID/groupID
 
 ![](img/apple-business-chat-entry-points-9.png)
 
 **Siri**
-* No ability to add intentID/ groupID
+* No ability to add intentID/groupID
 
 ![](img/apple-business-chat-entry-points-10.png)
 

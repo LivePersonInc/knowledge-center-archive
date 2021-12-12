@@ -61,7 +61,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 Available to all customers? Y (Analytics Builder enabled) 
 
-The Performance Dashboard For Messaging was enhanced to allow brands to analyze the sales metrics (Sales Revenue/ Sales AVO and Sales Conversion) by in session and cross session segregation. Before this change, the metrics includes the total of in session and cross session only.
+The Performance Dashboard For Messaging was enhanced to allow brands to analyze the sales metrics (Sales Revenue / Sales AVO and Sales Conversion) by in session and cross session segregation. Before this change, the metrics includes the total of in session and cross session only.
 
 New Metrics:
 

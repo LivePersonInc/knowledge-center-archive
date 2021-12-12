@@ -69,7 +69,7 @@ Note: If the receiving consumer is on an Android phone and taps on the ABC link,
 
 ### Limitations
 * In the event that the consumer has an open conversation with the brand, the outbound message will not be sent to the consumer. 
-* Rate limit: Currently there is a rate limit of 30 req/ sec for all the channels per account. 
+* Rate limit: Currently there is a rate limit of 30 req/sec for all the channels per account. 
 * The first outbound App message will be displayed to the agent in the new CX Agent Widget on the Agent Workspace (this will not affect the consumer view of the outbound message in the messaging interface). It will not show up in the agent conversation transcript window.
 * WhatsApp Rich Message Templates are not supported.
 * For In-App messaging limitations please refer here. 

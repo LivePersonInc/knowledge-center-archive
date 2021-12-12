@@ -1384,7 +1384,7 @@
     "ELEMENT_NAME": "SUBMITTED ANNOTATIONS WITH NO INTENT RATE",
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agents Annotation",
-    "FORMULA": "SUBMITTED ANNOTATIONS WITH NO INTENT/ NO. OF SUBMITTED ANNOTATIONS",
+    "FORMULA": "SUBMITTED ANNOTATIONS WITH NO INTENT / NO. OF SUBMITTED ANNOTATIONS",
     "DESCRIPTION": "Number if annotations submitted with no Intent out of the submitted annotations.",
     "FILTERED_BY": "<null>",
     "CHANNEL": "Messaging"
@@ -1614,7 +1614,7 @@
     "ELEMENT_NAME": "CLOSED BY AGENT RATE",
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
-    "FORMULA": "NO. OF CONVERSATIONS CLOSED BY AGENT/ CLOSED CONVERSATIONS",
+    "FORMULA": "NO. OF CONVERSATIONS CLOSED BY AGENT / CLOSED CONVERSATIONS",
     "DESCRIPTION": "The percentage (%) of conversations closed by the agent compared to the total number of closed conversations",
     "FILTERED_BY": "Date, Initial Device, Goal Type, Group , Source Type",
     "CHANNEL": "Messaging"
@@ -1624,7 +1624,7 @@
     "ELEMENT_NAME": "CLOSED BY CONSUMER RATE",
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
-    "FORMULA": "NO. OF CONVERSATIONS CLOSED BY CONSUMER/ CLOSED CONVERSATIONS",
+    "FORMULA": "NO. OF CONVERSATIONS CLOSED BY CONSUMER / CLOSED CONVERSATIONS",
     "DESCRIPTION": "The percentage (%) of conversations closed by the consumer compared to the total number of closed conversations",
     "FILTERED_BY": "Date, Initial Device, Goal Type, Group , Source Type",
     "CHANNEL": "Messaging"
@@ -1634,7 +1634,7 @@
     "ELEMENT_NAME": "CLOSED BY SYSTEM RATE",
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
-    "FORMULA": "NO. OF CONVERSATIONS CLOSED BY SYSTEM/ CLOSED CONVERSATIONS",
+    "FORMULA": "NO. OF CONVERSATIONS CLOSED BY SYSTEM / CLOSED CONVERSATIONS",
     "DESCRIPTION": "The percentage (%) of conversations closed by the system compared to the total number of closed conversations",
     "FILTERED_BY": "Date, Initial Device, Goal Type, Group , Source Type",
     "CHANNEL": "Messaging"
@@ -2634,7 +2634,7 @@
     "ELEMENT_NAME": "TOTAL DIRECT REVENUE AFTER EXPOSURE NOT ENGAGEMENT",
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Campaign Conversions",
-    "FORMULA": "TOTAL DIRECT REVENUE AFTER EXPOSURE/ TOTAL DIRECT REVENUE AFTER EXPOSURE - TOTAL DIRECT REVENUE AFTER ENGAGEMENT",
+    "FORMULA": "TOTAL DIRECT REVENUE AFTER EXPOSURE / TOTAL DIRECT REVENUE AFTER EXPOSURE - TOTAL DIRECT REVENUE AFTER ENGAGEMENT",
     "DESCRIPTION": "Total direct revenue achieved from all campaigns after exposure but without engagement",
     "FILTERED_BY": "Date, Initial Device, Goal Type, Group , Source Type",
     "CHANNEL": "Messaging"
@@ -4974,7 +4974,7 @@
     "ELEMENT_NAME": "MCS",
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
-    "FORMULA": "MCS_SUM/ MCS_COUNT",
+    "FORMULA": "MCS_SUM / MCS_COUNT",
     "DESCRIPTION": "Meaningful Conversation Score (MCS - an automated, real time measurement of consumer sentiment) for closed conversations, including unassigned conversations. This metric is attributed only to the last assigned agent in the conversation.",
     "FILTERED_BY": "Merchant, Subscriber,Agent Conversation Type",
     "CHANNEL": "Messaging"

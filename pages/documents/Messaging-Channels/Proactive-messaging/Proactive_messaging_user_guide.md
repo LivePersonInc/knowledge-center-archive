@@ -472,7 +472,7 @@ b) WhatsApp Rich Message Templates will not be available as an option when creat
 c) Creating WhatsApp Rich Message Templates directly from the Proactive self-service tool is not available.
 d) WhatsApp Rich Message Header field will not support image Id and text values.
 e) No support for call-to-action button for WhatsApp Rich Message. 
-f) Only whitelisted image URLs will be allowed for WhatsApp Rich Message Templates messages. (Root URL/ domain has to be whitelisted,  please reach out to your LivePerson representative to get the domain whitelisted via internal LivePerson configuration
+f) Only whitelisted image URLs will be allowed for WhatsApp Rich Message Templates messages. (Root URL/domain has to be whitelisted, please reach out to your LivePerson representative to get the domain whitelisted via internal LivePerson configuration
 g) If the domain is not whitelisted and a message is sent, conversation creation will fail when the consumer responds, so we validate whitelisting in the first place in Proactive. This is only applicable for image headers).
 h) Only https urls are supported.
 i) Size limitations:

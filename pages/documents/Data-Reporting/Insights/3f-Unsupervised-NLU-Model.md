@@ -64,7 +64,7 @@ Unsupervised NLU (Natural Language Understanding) model is designed to automatic
 * unigrams - A textual array of single words within the data stream. Stratifyd calculates the total number of words and the number of unique values. Useful in a word cloud viewed with filters on average sentiment.
 * Data - A table containing all of the original data from the data stream, plus all of the analyzed data from the model.
 
-The default visual is the topic wheel which shows the most common word pairings that it was used during a chat/ conversation (this visualization can be created by selecting the ‘topic’ option under the Unsupervised NLU model in Widget editor)
+The default visual is the topic wheel which shows the most common word pairings that it was used during a chat/conversation (this visualization can be created by selecting the ‘topic’ option under the Unsupervised NLU model in Widget editor)
 ![](img/unsupervised-nlu-model-9.png)
 To add a word cloud or a list of words besides the topic wheel, go to the right side and look at the drop down menu under Key-N-Grams
 
@@ -75,7 +75,7 @@ To add a word cloud or a list of words besides the topic wheel, go to the right 
 ![](img/unsupervised-nlu-model-11.png)
 
 Once a visual is decided, click Save and widget will be added to the dashboard
-The Unsupervised NLU Model will show the most commonly used words that a customer, agent or bot used during a chat/ conversation. This can be used to identify the most common topics and themes and help tune or create a taxonomy. 
+The Unsupervised NLU Model will show the most commonly used words that a customer, agent or bot used during a chat/conversation. This can be used to identify the most common topics and themes and help tune or create a taxonomy. 
 
 ![](img/unsupervised-nlu-model-12.png)
 
