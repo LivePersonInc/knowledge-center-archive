@@ -23,7 +23,7 @@ LivePersonâ€™s new Structured Content DatePicker and AppointmentList allows your
   * Consumers can navigate and select from single time slots to multiple time slots per day
   * Native UI on in-app messaging
 
-![](img/whats-new-nov-1.jpg)
+![](img/whats-new-nov-1.png)
 
 Get more information [DatePicker]( https://developers.liveperson.com/mobile-sdk-and-web-templates-date-picker-template.html) and [AppointmentList]( https://developers.liveperson.com/mobile-sdk-and-web-templates-schedule-slot-list-template.html)  in our Developer Center
 
@@ -35,7 +35,7 @@ Triggered by real-time Adobe Target and/or Analytics events during the consumerâ
 
 You can also provide dynamic routing based on the rule-set triggered so that the consumer is connected to the most relevant agent/bot
 
-![](img/whats-new-nov-2.jpg)
+![](img/whats-new-nov-2.png)
 
 **Enablement: please contact your LivePerson Account Representative**
 
@@ -43,7 +43,7 @@ You can also provide dynamic routing based on the rule-set triggered so that the
 
 Marketplace providers can now leverage the power of Intent Manager for Marketplace. Providers can visualize and analyze aggregated performance data by intent to uncover marketplace trends  and opportunities for operational improvement - essentially creating a centralized NLU Domains for their own Marketplace.
 
-![](img/whats-new-nov-3.jpg)
+![](img/whats-new-nov-3.png)
 
 ## Agent App 2.7.8
 The Agent App this month version 2.7.8 includes a new Manager Workspace tab that gives both agents and agent managers great functionality - similar to the rich desktop version. 
