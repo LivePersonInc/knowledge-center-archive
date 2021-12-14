@@ -3,13 +3,13 @@ pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: December product updates
+subtitle: Updates on Apache Log4j vulnerability
 level3: ''
 permalink: whats-new-latest-whats-new.html
 isTutorial: false
 isNew: false
 ---
-## Updates on Apache Log4j vulnerability
+## Apache Log4j vulnerability
 
 LivePerson, like the majority of the technology industry, is actively engaged in the remediation of [CVE-2021-44228](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-44228), referred to as Apache Log4j vulnerability. This vulnerability has active exploits available, called the Log4Shell or LogJam exploit. 
 
