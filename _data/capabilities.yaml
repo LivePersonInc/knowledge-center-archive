@@ -15,6 +15,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Typing indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -30,6 +32,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Read indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -45,6 +49,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "Not Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Read indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -60,6 +66,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Delivered indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -75,6 +83,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Delivered indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -90,6 +100,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: In-thread new messages notification
     channels:
     - mobileAppMessaging: "Supported"
@@ -105,6 +117,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Hyperlinked regular expressions
     tooltip: 'For auto-linking of phone numbers, dates, url, etc.'
     channels:
@@ -121,6 +135,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Desktop application support
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -136,6 +152,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "Supported"
   - featureName: Continuity across devices
     channels:
     - mobileAppMessaging: "Supported (authenticated only)"
@@ -151,6 +169,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Consumer resolve conversation
     channels:
     - mobileAppMessaging: "Supported"
@@ -166,6 +186,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Window branding and customization
     channels:
     - mobileAppMessaging: "Supported"
@@ -181,6 +203,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Accessibility
     channels:
     - mobileAppMessaging: "Supported"
@@ -196,7 +220,8 @@
     - connectorAPI: "N/A in Channel"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
-
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
 
 - categoryName: Rich Messaging
   features:
@@ -216,6 +241,8 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Enlarged emojis
     channels:
     - mobileAppMessaging: "Supported"
@@ -231,6 +258,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Stickers - consumer to agent
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -246,6 +275,8 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Stickers - agent to consumer
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -261,6 +292,8 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
     - viber: "Not Supported"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Photo Sharing - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -276,6 +309,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Photo Sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -291,6 +326,8 @@
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Not Supported"
+    - kakaoTalk: "Supported"
   - featureName: File sharing - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -306,6 +343,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "Not Supported"
   - featureName: File sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -321,6 +360,8 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "Supported (PDF only)"
   - featureName: Voice/video calls
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -336,6 +377,8 @@
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "Not Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: GIF - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -351,6 +394,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Link previews
     channels:
     - mobileAppMessaging: "Supported"
@@ -366,6 +411,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "Supported"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "Supported"
   - featureName: Quick Replies
     channels:
     - mobileAppMessaging: "Supported"
@@ -381,6 +428,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Structured content cards
     channels:
     - mobileAppMessaging: "Supported"
@@ -396,6 +445,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "Not Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Structured content carousel
     channels:
     - mobileAppMessaging: "Supported"
@@ -411,6 +462,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "Not Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Structured content list
     channels:
     - mobileAppMessaging: "Supported"
@@ -426,6 +479,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Structured content time picker
     channels:
     - mobileAppMessaging: "Supported"
@@ -441,6 +496,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Audio Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -456,6 +513,10 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "Supported"
   - featureName: Payment
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -471,7 +532,8 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
     - viber: "N/A in Channel"
-
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
 - categoryName: Operations
   features:
   - featureName: Skill routing
@@ -489,6 +551,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Engagement Attributes
     channels:
     - mobileAppMessaging: "Supported"
@@ -504,6 +568,8 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Automatic Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -519,6 +585,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: CSAT question
     channels:
     - mobileAppMessaging: "Supported"
@@ -534,6 +602,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Agent survey
     channels:
     - mobileAppMessaging: "Supported"
@@ -549,6 +619,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: SmartConnect support
     tooltip: 'Brand initiated conversation.'
     channels:
@@ -565,6 +637,8 @@
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
     - viber: "Not Supported"
+    - googleBusinessMessaging: "Not Supported"
+    - kakaoTalk: "Not Supported"
   - featureName: Encryption
     tooltip: 'As conversation is in transit.'
     channels:
@@ -581,6 +655,8 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "Not Supported"
   - featureName: Encryption at rest
     channels:
     - mobileAppMessaging: "Supported"
@@ -596,6 +672,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Authentication
     tooltip: 'Channel natively supports a way to verify that the consumer is "trusted."'
     channels:
@@ -612,6 +690,8 @@
     - connectorAPI: "Not Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "Not Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Client side data masking
     channels:
     - mobileAppMessaging: "Supported"
@@ -627,6 +707,8 @@
     - connectorAPI: "Supported"
     - weChat: "N/A in Channel"
     - viber: "N/A in Channel"
+    - googleBusinessMessaging: "N/A in Channel"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Agent side historical data masking
     tooltip: 'For example, a credit card number.'
     channels:
@@ -643,6 +725,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Secure form
     channels:
     - mobileAppMessaging: "Supported"
@@ -658,6 +742,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Post conversation survey
     channels:
     - mobileAppMessaging: "Supported"
@@ -673,6 +759,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
 
 - categoryName: Automation
   features:
@@ -691,6 +779,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
 
 - categoryName: Consumer Profile
   features:
@@ -709,6 +799,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "N/A in Channel"
   - featureName: Consumer unique identifier
     channels:
     - mobileAppMessaging: "Supported"
@@ -724,6 +816,8 @@
     - connectorAPI: "Supported"
     - weChat: "Supported"
     - viber: "Supported"
+    - googleBusinessMessaging: "Supported"
+    - kakaoTalk: "Supported"
   - featureName: Consumer image
     channels:
     - mobileAppMessaging: "Supported"
@@ -739,3 +833,5 @@
     - connectorAPI: "Not Supported"
     - weChat: "N/A in Channel"
     - viber: "Supported"
+    - googleBusinessMessaging: "Not Supported"
+    - kakaoTalk: "N/A in Channel"
