@@ -14,4 +14,4 @@ The holiday season is here and 2021 is nearly behind us! While we slow down and 
 
 Watch this two-minute video to see the product highlights of 2021.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/659733216?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/660497285?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
