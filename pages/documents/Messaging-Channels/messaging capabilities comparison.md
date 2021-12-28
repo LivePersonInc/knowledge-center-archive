@@ -31,6 +31,8 @@ published: true
     <th>Connector API</th>
     <th>WeChat</th>
     <th>Viber</th>
+    <th>Google Business Messaging</th>
+    <th>KakaoTalk</th>
   </tr>
   </thead>
   <tbody>
@@ -50,6 +52,8 @@ published: true
         <td><img class="tableIcon" src="img/connector-api.svg" /></td>
         <td><img class="tableIcon" src="img/WeChat-logo.png" /></td>
         <td><img class="tableIcon" src="img/viber-icon.svg" /></td>
+        <td><img class="tableIcon" src="img/kak.png" /></td>
+        <td><img class="tableIcon" src="img/gc.png" /></td>
       </tr>
       {% for feature in category.features %}
       <tr>
@@ -148,6 +152,20 @@ published: true
             <td class="green">{{ channel.viber }}</td>
             {% else %}
             <td>{{ channel.viber }}</td>
+            {% endif %}
+          {% endif %}
+          {% if forloop.index == 14 %}
+            {% if channel.googleBusinessMessaging == "Supported" %}
+            <td class="green">{{ channel.googleBusinessMessaging }}</td>
+            {% else %}
+            <td>{{ channel.googleBusinessMessaging }}</td>
+            {% endif %}
+          {% endif %}
+          {% if forloop.index == 15 %}
+            {% if channel.kakaoTalk == "Supported" %}
+            <td class="green">{{ channel.kakaoTalk }}</td>
+            {% else %}
+            <td>{{ channel.kakaoTalk }}</td>
             {% endif %}
           {% endif %}
         {% endfor %}
