@@ -49,7 +49,7 @@ p + ul {
   list-style-type: lower-roman;
 }
 
-#post-content table {
+#post-content table:not(#featureContainer table) {
   width: 100%;
   max-width: 130%;
   margin-top: 10px;
@@ -1470,7 +1470,15 @@ div#cookie-law {
   -moz-transform: scaleY(-1);
   -o-transform: scaleY(-1);
   transform: scaleY(-1);
-  width: 135%;
+  width: 100%;
+}
+
+#post-content #featureContainer table {
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
 }
 
 /* adding getting started from DC */
