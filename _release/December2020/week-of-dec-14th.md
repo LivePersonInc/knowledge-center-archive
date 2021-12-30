@@ -58,7 +58,7 @@ In the agent Activity, the COBROWSE chat metrics were exposed:
 |--------------|-------------|
 | MESSAGING COLLABORATION DURATION (SEC) | The total duration of messaging collaboration sessions.|
 | NO. OF MESSAGING COLLABORATION SESSIONS | Number of messaging collaboration sessions for all session types.|
-| NO. OF MESSAGING COLLABORATION INTERACTIVE SESSIONS | Number of Interactive messaging collaboration sessions.An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more
+| NO. OF MESSAGING COLLABORATION INTERACTIVE SESSIONS | Number of Interactive messaging collaboration sessions. An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more
 
 #### New attributes
 

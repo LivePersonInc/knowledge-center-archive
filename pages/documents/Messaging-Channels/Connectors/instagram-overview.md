@@ -25,7 +25,7 @@ Instagram is a hugely popular photo and video-sharing social media platform. Use
 
 ### Rich Functionalities
 
-* **Instagram Stories** — Instagram Stories have a slideshow format that includes photos or videos, and they remain live for a fixed period of 24 hours.This short-lived nature of content drives urgency. Stories enjoy a lot of visibility, displayed right under the Instagram logo at the top of a follower’s timeline.
+* **Instagram Stories** — Instagram Stories have a slideshow format that includes photos or videos, and they remain live for a fixed period of 24 hours. This short-lived nature of content drives urgency. Stories enjoy a lot of visibility, displayed right under the Instagram logo at the top of a follower’s timeline.
 * **Photo and video sharing** — Photo and video sharing will empower consumers to share images with agents to explain complex issues or requests quicker and more accurately. 
 
 ![](img/instagram-overview-1.png)

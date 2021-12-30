@@ -301,7 +301,7 @@ Structured Content allows brands to send messages to customers in a variety of w
 
 **GBM Rich Conversation capabilities include:**
 
-1. **Quick Replies** - Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers. It creates an easier, faster way for consumers to respond to messages.You can add up to 13 quick replies while having a conversation from agent to consumer.
+1. **Quick Replies** - Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers. It creates an easier, faster way for consumers to respond to messages. You can add up to 13 quick replies while having a conversation from agent to consumer.
 
 2. **Rich Cards** - Rich cards allow the agent to send multiple units of information in a single message. Rich cards can contain the following items:.
  Media (JPG, JPEG, or PNG, maximum 5 MB)

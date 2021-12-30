@@ -19,11 +19,11 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Assessing the same secure form multiple times
+## Assessing the same secure form multiple times
 ### Type: Enhancement (Secure Forms)
 The option to assess the same form multiple times is configurable (specifically for Web). 
 Brands can define how many times a consumer will be able to reopen the same secure form prior to submitting it. 
-This is useful for brands to allow consumers to broswe back and forth different pages (e.g. collecting customer ID) during the conversation while filling out the secure form while keeping it accessible.In order to configure, please contact your LivePerson account team.
+This is useful for brands to allow consumers to broswe back and forth different pages (e.g. collecting customer ID) during the conversation while filling out the secure form while keeping it accessible. In order to configure, please contact your LivePerson account team.
 For more information, click [here](https://knowledge.liveperson.com/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html#accessing-the-same-form-multiple-times)
 
 ## Return source name in the response 

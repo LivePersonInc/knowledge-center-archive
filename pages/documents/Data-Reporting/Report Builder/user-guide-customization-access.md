@@ -190,7 +190,7 @@ There are two types of filters available:
 
 ### Add an attribute filter to the filters panel
 
-1. From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel.You can place the attribute above or below the filters already displayed in the panel.
+1. From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel. You can place the attribute above or below the filters already displayed in the panel.
 2. Hover the cursor over the name of the filter you just added, then click the arrow icon. A list of options will display.
 3. Click on display style, then select the style you want to use to display the filter. The options are:
    * Check boxes

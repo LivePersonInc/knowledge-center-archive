@@ -293,7 +293,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 1. Preview image before sending (LE-87380, LE-87381) - After selecting an image to send or taking an image with the device’s camera, the user can preview the image before sending to the agent, to ensure that this is the correct image.
 2. Add caption to image (LE-87382) - In the image preview, the user can add a caption to the image, which will be displayed in the conversation on the same bubble of the image.
 3. Retry sending image on bad connection (LE-87386) - When the user has a bad connection, the window will try to resend the images two additional times (on top of the original send) before showing the user the retry icon to resend manually when the connection is restored.
-4. Drag and drop image to send (LE-88210) - Users on a desktop computer can drag images, and drop them in the window to send to agent. This action replaces the selection of images from the file system.After the image is dropped, the image preview will be shown to the user.
+4. Drag and drop image to send (LE-88210) - Users on a desktop computer can drag images, and drop them in the window to send to agent. This action replaces the selection of images from the file system. After the image is dropped, the image preview will be shown to the user.
 5. Resize image before sending (LE-91170) - In order to reduce the loading time and storage size, images that are larger than the defined size limit will be automatically resized. The default size limit is 800 pixel of the image’s longer dimension. Brands can change the limit by setting it on the "resizeImage" taglet configuration.
 
 ## Bug fixes

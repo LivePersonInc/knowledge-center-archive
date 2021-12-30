@@ -12,7 +12,7 @@ date: '2020-06-01'
 ---
 
 ## Overview
-Unsupervised NLU (Natural Language Understanding) model is designed to automatically analyze large textual datasets and discover topics and themes.It is a grouping of keywords that agent, bot or customer uses during chat or messaging transcripts. This can be used to help start creating a taxonomy. 
+Unsupervised NLU (Natural Language Understanding) model is designed to automatically analyze large textual datasets and discover topics and themes. It is a grouping of keywords that agent, bot or customer uses during chat or messaging transcripts. This can be used to help start creating a taxonomy. 
 
 ### How to add NLU model to dashboards:
 - Choose dashboard for analysis and open it

@@ -35,7 +35,7 @@ In order to evaluate the effectiveness and performance of campaigns (and your ac
 
 ![](/img/managing-campaigns-2.png)
 
-A control group is a random number of visitors to your website who do not receive any type of engagement from a campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. This data can be seen in select metrics listed in the data bar and data dashboard.
+A control group is a random number of visitors to your website who do not receive any type of engagement from a campaign. The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. This data can be seen in select metrics listed in the data bar and data dashboard.
 
 A control group can be set per account or per campaign to any integer between 0% to 25%. Increasing the percentage means less visitors will be exposed to campaigns, however the data is more statistically accurate. 0% means that the control group feature is switched off.
 
