@@ -1,10 +1,10 @@
 ---
 pagename: Week of January 12th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName: "2022"
 indicator: both
 subtitle: ''
-level3: ''
+level3: January 2022
 permalink: release-notes-2022-january-week-of-january-12th.html
 isTutorial: false
 isNew: false
