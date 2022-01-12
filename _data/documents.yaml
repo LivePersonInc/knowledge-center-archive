@@ -408,6 +408,12 @@
   image: release-notes
   subcategories:
     - subcategoryname: Latest Release Notes
+    - subcategoryname: 2022
+      pages:
+        - pagename: January
+          level3:
+            - level3name: Week of January 12th
+
     - subcategoryname: 2021
       pages:
         - pagename: November
