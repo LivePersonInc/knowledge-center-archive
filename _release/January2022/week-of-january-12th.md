@@ -1,14 +1,14 @@
 ---
-pagename: Week of June 7th
+pagename: Week of January 12th
 categoryName: Release notes
 subCategoryName: 
 indicator: both
 subtitle: ''
 level3: ''
-permalink: release-notes-2021-june-week-of-june-7th.html
+permalink: release-notes-2022-january-week-of-january-12th.html
 isTutorial: false
 isNew: false
-date: '2021-06-02'
+date: '2022-01-11'
 
 ---
 
