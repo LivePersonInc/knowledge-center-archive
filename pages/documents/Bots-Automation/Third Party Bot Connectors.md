@@ -90,6 +90,6 @@ The dashboard can be accessed by clicking on the bot's name.
 ## Limitations
 
 * Currently the connectors only support text input from the customer.
-* The third-party Bot connectors support only Liveperson’ [rich content](https://developers.liveperson.com/getting-started-with-rich-messaging-rich-messaging-channel-capabilities.html) structure.
+* The third-party Bot connectors only support the Liveperson [Rich Content](https://developers.liveperson.com/getting-started-with-rich-messaging-rich-messaging-channel-capabilities.html) structure.
 
 For more information, please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-getting-started.html#limitations)
