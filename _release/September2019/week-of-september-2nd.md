@@ -424,7 +424,7 @@ When a consumer blocks or deletes an official brand, the brands can no longer se
 </table>
 </div>
 
-Bot Connectors now support “Custom Integration.” This allows the customer to write a custom vendor connector or bot implementation using LivePerson’s Functions (FaaS). The response to the customer can be customized using FaaS. This is acheived by the bot sending all messages and events it receives to the FaaS services, where they can be manipulated and then sent back to the customer.
+Bot Connectors now support “FaaS Integration.” This allows the customer to write a custom vendor connector or bot implementation using LivePerson’s Functions (FaaS). The response to the customer can be customized using FaaS. This is acheived by the bot sending all messages and events it receives to the FaaS services, where they can be manipulated and then sent back to the customer.
 
 **Dependencies:** LivePerson FaaS including customized events and templates
 

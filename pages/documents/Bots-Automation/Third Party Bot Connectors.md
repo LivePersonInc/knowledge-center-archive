@@ -17,7 +17,7 @@ Bots can have a dramatic impact on contact center operations, helping brands to 
 
 LivePerson allows for external Bot Vendors and Bot builders to be enabled and managed through the Conversational Cloud just like a normal human agent.
 
-Using Third-Party Bots Connectors, brands can provision and enable Bots from IBM Watson, Google Dialogflow, Amazon Lex, Microsoft Bot Framework or leverage LivePerson Functions with the Custom Integrations Option.
+Using Third-Party Bots Connectors, brands can provision and enable Bots from IBM Watson, Google Dialogflow, Amazon Lex, Microsoft Bot Framework or leverage LivePerson Functions with the FaaS Integrations Option.
 
 Each connector provides the functionality to
 
@@ -27,7 +27,7 @@ Each connector provides the functionality to
 * change Time To Response for a messaging conversation
 * close a conversation
 
-Some connectors may provide more or less functionality depending on the specifics of the product to which it is connecting. You have the option to send the bot consumer information that the bot will be able to leverage as part of its logic during the conversation. If you need to connect an external bot that does not have a pre-built connector, see [this document](https://developers.liveperson.com/third-party-bots-custom-integration.html) for instructions.
+Some connectors may provide more or less functionality depending on the specifics of the product to which it is connecting. You have the option to send the bot consumer information that the bot will be able to leverage as part of its logic during the conversation. If you need to connect an external bot that does not have a pre-built connector, see [this document](https://developers.liveperson.com/third-party-bots-faas-integration.html) for instructions.
 
 Each bot has a [dashboard](https://developers.liveperson.com/third-party-bots-bot-status-dashboard.html) so you can monitor its activity in real-time along with some key operational metrics (see below).
 
@@ -45,21 +45,21 @@ There are four steps to onboarding a bot.
    4. [Google Dialogflow CX](https://developers.liveperson.com/third-party-bots-google-dialogflow-cx.html)
    5. [Amazon Lex](https://developers.liveperson.com/bot-connectors-amazon-lex.html)
    6. [Microsoft Direct Line](https://developers.liveperson.com/third-party-bots-microsoft-direct-line-introduction.html)
-   7. [Custom Integration](https://developers.liveperson.com/third-party-bots-custom-integration.html)
+   7. [FaaS Integration](https://developers.liveperson.com/third-party-bots-faas-integration.html)
 
 For more information and detailed steps of how to onboard - please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
 ![](img/bot_status_select.png)
 
-## Custom integration
+## FaaS integration
 
-Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to the Conversational Cloud. In order to achieve this, you will need to implement a LivePerson Functions **Custom Integration**.
+Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to the Conversational Cloud. In order to achieve this, you will need to implement a LivePerson Functions **FaaS Integration**.
 
-To connect to a third-party bot with the custom integration, you will need to write code using Node.JS from LivePerson’s Functions platform.
+To connect to a third-party bot with the FaaS integration, you will need to write code using Node.JS from LivePerson’s Functions platform.
 
 Whenever a message is sent from the consumer into LE, the custom connector takes that message and triggers the function you develop to link to your Bot provider and sends the message.
 
-### **Steps for custom integration**
+### **Steps for FaaS integration**
 
 #### Step 1 - Create a function
 
@@ -75,7 +75,7 @@ Adjust the default Function code from the function template, according to your n
 
 After completing the code, deploy the function to our functions cloud and have the integration ready to work with your bot in a matter of seconds.
 
-For more detailed information, please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-custom-integration.html)
+For more detailed information, please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-faas-integration.html)
 
 ## Third-party bot status dashboard
 
