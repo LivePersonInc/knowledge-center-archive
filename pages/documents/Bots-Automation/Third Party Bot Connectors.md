@@ -51,7 +51,7 @@ For more information and detailed steps of how to onboard - please visit the [De
 
 ![](img/bot_status_select.png)
 
-## FaaS integration
+## FaaS Integration
 
 Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to the Conversational Cloud. In order to achieve this, you will need to implement a LivePerson Functions **FaaS Integration**.
 
