@@ -17,7 +17,7 @@ Bots can have a dramatic impact on contact center operations, helping brands to 
 
 LivePerson allows for external Bot Vendors and Bot builders to be enabled and managed through the Conversational Cloud just like a normal human agent.
 
-Using Third-Party Bots Connectors, brands can provision and enable Bots from IBM Watson, Google Dialogflow, Amazon Lex, Microsoft Bot Framework or leverage LivePerson Functions with the FaaS Integrations Option.
+Using Third-Party Bots Connectors, brands can provision and enable Bots from IBM Watson, Google Dialogflow, Amazon Lex, Microsoft Bot Framework or LivePerson Functions Option.
 
 Each connector provides the functionality to
 
@@ -45,21 +45,21 @@ There are four steps to onboarding a bot.
    4. [Google Dialogflow CX](https://developers.liveperson.com/third-party-bots-google-dialogflow-cx.html)
    5. [Amazon Lex](https://developers.liveperson.com/bot-connectors-amazon-lex.html)
    6. [Microsoft Direct Line](https://developers.liveperson.com/third-party-bots-microsoft-direct-line-introduction.html)
-   7. [FaaS Integration](https://developers.liveperson.com/third-party-bots-faas-integration.html)
+   7. [Liveperson Functions](https://developers.liveperson.com/third-party-bots-liveperson-functions.html)
 
 For more information and detailed steps of how to onboard - please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
 ![](img/bot_status_select.png)
 
-## FaaS Integration
+## Liveperson Functions
 
-Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to the Conversational Cloud. In order to achieve this, you will need to implement a LivePerson Functions **FaaS Integration**.
+Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to the Conversational Cloud. In order to achieve this, you will need to implement a LivePerson Function **FaaS**.
 
-To connect to a third-party bot with the FaaS integration, you will need to write code using Node.JS from LivePerson’s Functions platform.
+To connect to a third-party bot with the Liveperson Functions, you will need to write code using Node.JS from LivePerson’s Functions platform.
 
 Whenever a message is sent from the consumer into LE, the custom connector takes that message and triggers the function you develop to link to your Bot provider and sends the message.
 
-### **Steps for FaaS integration**
+### **Steps for Liveperson Functions integration**
 
 #### Step 1 - Create a function
 
