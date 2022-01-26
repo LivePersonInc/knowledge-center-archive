@@ -19,8 +19,8 @@ To help manage consumer expectations around the time they should expect to wait 
 
 Response times can be configured at the account level and by skill for three types of conversations:
 
-* Default  (all conversations)
-* Urgent  - where the consumer marked the conversation as urgent
+* Default (all conversations)
+* Urgent - where the consumer marked the conversation as urgent
 * First time - When it is the very first time the consumer has initiated a conversation with the brand. A first-time consumer will get the first time response time throughout their first conversation with the brand and not only on the first message.
 
 {: .notice}
@@ -34,7 +34,7 @@ The conversation’s priority in the queue is decided based on the response time
 
 The ability to set different response times for different skills gives brands greater control over messaging queue prioritization, as well as enabling them to offer a better service to consumers by providing a more accurate response time (SLA).
 
-For example, the “Loan request_”_ skill’s default response time may be 1 hour while the _”Lost credit card”_ skill’s default response time could be 5 minutes since it requires a prompt response.
+For example, the _“Loan request”_ skill’s default response time may be 1 hour while the _”Lost credit card”_ skill’s default response time could be 5 minutes since it requires a prompt response.
 
 When an agent transfers a conversation to a different skill, its response time is recalculated based on the configuration of its new skill.
 
@@ -86,7 +86,7 @@ Note: Auto close for messaging conversations can also be configured here. For fu
 1. From the skills management view, click on the skill that you want to edit.
 2. Under _Messaging Response time_ select **Custom settings**.
 3. Adjust the response times for each conversation type as required. Time units are available in minutes, hours and days.
-4. Click **Save**.  
+4. Click **Save**.
    Notes:
    * Changes in configuration will only apply to new conversations or after the conversation has been transferred to a different skill.
    * For conversations which are are not assigned to a skill, the account level configuration will be applied.
