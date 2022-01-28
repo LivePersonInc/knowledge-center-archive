@@ -413,7 +413,7 @@ If a conversation had 2 agents submitting surveys, The report will show both of 
 * **AGENT SURVEY ANSWER COUNT (Agent Skill)** - The number of times an Agent provided answers to questions. Calculated at the Agent and Skill level
 * **AGENT SURVEY ANSWER COUNT (Brand)** - The number of times an Agent provided answers to 
 questions. Calculated at the Brand level.
-* **AGENT SURVEY ANSWER RATIO (Agent Skill) ** - The percentage (%) of questions answered by an agent out of the total questions answered.Calculated at the Agent and Skill level.
+* **AGENT SURVEY ANSWER RATIO (Agent Skill) ** - The percentage (%) of questions answered by an agent out of the total questions answered. Calculated at the Agent and Skill level.
 * **AGENT SURVEY ANSWER RATIO (Brand)** - The percentage (%) of questions answered by an agent out of the total questions answered. Calculated at the Brand level.
 * **AGENT SURVEY CLOSED SURVEY** - The number of survey forms that were closed (1.Submitted - The agent submitted the survey at least once. 2. Partially submitted - Only some of the answers were completed and the survey was submitted by the agent, 3. Time Out - Agent did not complete any answers and there was a time out by the system. The agent did not submit the survey AND did not click the Dismiss Button . 4. Conversation transferred - Agent performed transfer to skill option which closes the survey and opens a new one, no matter what the previous Agent did, 5. Dismissed - The agent pressed the dismiss button, in a non-mandatory survey).
 * **AGENT SURVEY CLOSED SURVEY RATE** - The percentage (%) of survey forms closed with a specific outcome. Supported by the Survey Outcome attribute (filter).

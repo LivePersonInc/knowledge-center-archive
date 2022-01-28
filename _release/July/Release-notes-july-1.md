@@ -132,15 +132,15 @@ The following metrics and attributes are added to a new panel named ‘Agent seg
 
 | Metric | Definition |
 | --- | --- |
-| Agent Segments | The number of times conversations were assigned to an agent.A conversation may be assigned more than once to a given agent. |
-| Agent Assignment Rate | The percentage of assignments to agent out of the total assignments to the agent’s skill.Formula: Agent Segments / Assignments to Skill |
+| Agent Segments | The number of times conversations were assigned to an agent. A conversation may be assigned more than once to a given agent. |
+| Agent Assignment Rate | The percentage of assignments to agent out of the total assignments to the agent’s skill. Formula: Agent Segments / Assignments to Skill |
 | AVG. No. of Agent Responses in Segment (Agent) | Average number of responses provided by agent during an agent-segment |
 | AVG. No. of Consumer Responses in Segment (Agent) | Average number of responses provided by consumers to an agent's message during an agent-segment |
 | Avg. Segment Duration (Agent) | Average duration of an agent-segment. Measured from the time the conversation was assigned to the agent until it was closed or transferred. Attributed to the assigned agent, group and skill. |
 | Interactive Segments (Agent) | The number of agent-segments which included at least one response from the consumer to an agent’s message. |
-| Interactive Segments Rate (Agent) | The percentage of interactive segments out of the total segments assigned to the agent.Formula: Interactive Segments (Agent) / Agent Segments |
+| Interactive Segments Rate (Agent) | The percentage of interactive segments out of the total segments assigned to the agent. Formula: Interactive Segments (Agent) / Agent Segments |
 | Abandoned Segments (Agent) | The number of conversations closed by a consumer which included no agent message. Measured during the last agent-segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent assigned to the conversation. |
-| Abandoned Segments Rate (Agent) | The percentage of abandoned segments out of the total segments assigned to the agent.Formula:Abandoned Segments (Agent) / Agent Segments |
+| Abandoned Segments Rate (Agent) | The percentage of abandoned segments out of the total segments assigned to the agent. Formula:Abandoned Segments (Agent) / Agent Segments |
 | Segments with Non Responsive Consumers (Agent) | The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation. |
 | Segments with Non Responsive Agents (Agent) | The number of agent-segments which ended in a transfer or closed by agent or system with no message from an agent. |
 | Avg. Time to Response in Segment | The average time taken by an agent to respond to the consumer in an agent-segment (an agent segment is defined as the part of the conversation in which the agent was assigned. Measured from the time the agent is assigned until s\\he is not longer assigned). |

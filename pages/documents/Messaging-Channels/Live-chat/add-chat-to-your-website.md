@@ -129,4 +129,4 @@ When you are finished defining your behavioral targeting, click **next**.
 
 ## 5. Publishing your campaign
 
-Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).
+Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).

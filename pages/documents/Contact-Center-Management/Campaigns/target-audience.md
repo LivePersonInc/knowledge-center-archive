@@ -34,7 +34,7 @@ To learn how to collect information about your visitors, let’s look at an exam
 
 The Conversational Cloud will track your customers according to their status and type, allowing you to offer each customer an appropriate messaging or chat experience. Decide when to display engagements by selecting the conditions you wish to use for the target audience. Here is a list of the currently available conditions:
 
-1. **External referral:** Target consumers who arrived at your website from other web pages.The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced). It is possible to add multiple rules for external referral; if a consumer is arriving from any one of these URLs then this condition will be applicable.
+1. **External referral:** Target consumers who arrived at your website from other web pages. The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced). It is possible to add multiple rules for external referral; if a consumer is arriving from any one of these URLs then this condition will be applicable.
 
    **Note:** this attribute is currently only supported for web engagements.
 

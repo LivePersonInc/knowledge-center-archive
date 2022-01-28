@@ -193,7 +193,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ](contact-center-management-messaging-operations-transfer-to-agent.html#fallback-to-skill)section.
 3. Define who can perform the transfer-to-agent operation as described in the [Permissions](contact-center-management-messaging-operations-transfer-to-agent.html#permissions) section.
 4. Define consumer experience as described in the [Auto Messages](contact-center-management-messaging-operations-transfer-to-agent.html#auto-messages) section.
-5. Consider - Assigning a priority for transfer-to-agent conversations as described in the [Queue prioritization](contact-center-management-messaging-operations-transfer-to-agent.html#queue-prioritization) section.To configure this please contact your LivePerson representative.
+5. Consider - Assigning a priority for transfer-to-agent conversations as described in the [Queue prioritization](contact-center-management-messaging-operations-transfer-to-agent.html#queue-prioritization) section. To configure this please contact your LivePerson representative.
 6. To use the transfer-to-agent API, upgrade to UMS connection version 2.1. Details described in the [Transfer to agent API](contact-center-management-messaging-operations-transfer-to-agent.html#implementing-transfer-to-agent-bot-logic-using-apis) section.
 
 ### Limitations:

@@ -26,7 +26,7 @@ The Messenger platform supports the passing of an arbitrary parameter via these 
 
 ![](img/week-of-september-14-7.png)
 
-Based on the consumer intent, it will enable brands to pass the "ref" parameter into the conversation.This can then be used for routing or shown to an agent as ‘status’ SDE in the consumer info for reference.
+Based on the consumer intent, it will enable brands to pass the "ref" parameter into the conversation. This can then be used for routing or shown to an agent as ‘status’ SDE in the consumer info for reference.
 
 **How to enable:**
 The brand must resubscribe to the Facebook page again in order to use this feature.
