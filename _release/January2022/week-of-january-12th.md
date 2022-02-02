@@ -29,7 +29,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 The KakaoTalk connector will allow brands to integrate their KakaoTalk channel into the Conversational Cloud and manage KakaoTalk conversations at scale. Once configured, brands are able to leverage their agents and handle conversations via Conversational Cloud.
 
-![](img/KakaoTalk-1.png)
 
 ## Enablement
 To enable KakaoTalk connector please contact your LivePerson Account Manager.
