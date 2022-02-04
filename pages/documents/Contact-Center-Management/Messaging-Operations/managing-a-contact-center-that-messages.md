@@ -84,7 +84,7 @@ Dynamic Capacity splits conversations into active and inactive conversations to 
 
 **How does it work?**
 
-LivePerson’s proprietary Dynamic Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity.This ensures that agent capacity is optimized without impacting customer satisfaction.
+LivePerson’s proprietary Dynamic Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity. This ensures that agent capacity is optimized without impacting customer satisfaction.
 
 ### Autoclose - the agent ‘pause’
 

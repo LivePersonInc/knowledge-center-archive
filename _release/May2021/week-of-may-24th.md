@@ -75,7 +75,7 @@ Website URLs set in Predefined Content, Automatic Messages and messages delivere
 
 #### How to Enable:
 Automated rich link support is disabled for all accounts by default. Please reach out to your LP representative for enablement.
-The enablement of Rich Link configuration additionally provides the ability to set default fallback image and text by simply adding a url  in case it’s not present in the original og tag property.Internal LP support representative should be able to help you with that.
+The enablement of Rich Link configuration additionally provides the ability to set default fallback image and text by simply adding a url  in case it’s not present in the original og tag property. Internal LP support representative should be able to help you with that.
 
 #### Limitations:
 If an agent sends a web URL without an OG (open graph) tag enabled for images or videos and a title, the rich link will display the fallback image or title. To learn more about open graph protocols, visit https://ogp.me/. 

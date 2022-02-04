@@ -59,7 +59,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </table>
 </div>
 
-WhatsApp conversation source will lead to a new and more streamlined onboarding form.The current WhatsApp conversation source includes a short form, after which the WhatsApp Solution Team reaches out to the client to fill out another form to provide more info. The new solution will consolidate the two forms into one, having the client provide all the required set up info (and agreeing to the Terms Of Service) in a single page. The page will be external to the LivePerson product, is managed by the WhatsApp Solution Team, and feeds directly into Salesforce.
+WhatsApp conversation source will lead to a new and more streamlined onboarding form. The current WhatsApp conversation source includes a short form, after which the WhatsApp Solution Team reaches out to the client to fill out another form to provide more info. The new solution will consolidate the two forms into one, having the client provide all the required set up info (and agreeing to the Terms Of Service) in a single page. The page will be external to the LivePerson product, is managed by the WhatsApp Solution Team, and feeds directly into Salesforce.
 
 ![](img/week-of-may-4th-1.png)
 

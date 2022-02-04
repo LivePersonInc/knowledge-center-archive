@@ -74,7 +74,7 @@ This features provides the ability for an account to set wrap ip time at the acc
 ## [Get All Users API] Response changes
 ### Type: Enhancement (5.11.0.18)
 
-A change was made for security purposes affecting the response returned from the Get All Users API. This change will only affect calls made with OAuth2 authentication (Bearer authentication) made by agents.Calls made using OAuth1 authentication, or calls made by admins will remain unchanged.
+A change was made for security purposes affecting the response returned from the Get All Users API. This change will only affect calls made with OAuth2 authentication (Bearer authentication) made by agents. Calls made using OAuth1 authentication, or calls made by admins will remain unchanged.
 
 The fields that are returned in the new response are:
 id, 

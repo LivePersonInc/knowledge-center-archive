@@ -219,7 +219,7 @@ Transfer rule is made in order to give higher priority to conversations that are
 
 | Transfer Rule Name | Description | Fields | Optional Fields | Mandatory Fields | Valid Values |  
 | --- | --- | --- | --- | --- | --- ||  
-| SourceDestination | Defining a velocity in case a conversation had transferred from 'source' skill to 'destination' skillWe can define either only source, only destination or both. | sourceSkilldestinationSkillvelocity | sourceSkilldestinationSkill | velocity | 'sourceSkill' , 'destinationSkill' : String'velocity' :1 <= Positive Decimal number <= 5 | | Threshold | Defining a velocity in case of numbers of transfers.We can define a different velocity for number of transfers | numberOfTransfersvelocity | All Mandatory | numberOfTransfersvelocity | 'numberOfTransfers' : Positive Number => 1'velocity' : 1 <= Positive Decimal number <= 5 |
+| SourceDestination | Defining a velocity in case a conversation had transferred from 'source' skill to 'destination' skillWe can define either only source, only destination or both. | sourceSkilldestinationSkillvelocity | sourceSkilldestinationSkill | velocity | 'sourceSkill' , 'destinationSkill' : String'velocity' :1 <= Positive Decimal number <= 5 | | Threshold | Defining a velocity in case of numbers of transfers. We can define a different velocity for number of transfers | numberOfTransfersvelocity | All Mandatory | numberOfTransfersvelocity | 'numberOfTransfers' : Positive Number => 1'velocity' : 1 <= Positive Decimal number <= 5 |
 
 * In case no rule match is defined on the conversation, default velocity will be 1
 * If inside a rule there are few overlapping conditions, the first condition wins. (see examples below )

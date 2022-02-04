@@ -140,7 +140,7 @@ A bug has been discovered within the enhanced Agent Workspace in the All Connect
 ## [Enhanced Agent Workspace] Hyperlink behavior broken
 ### Type: Bug fix (NAW 1.13)
 
-A bug has been discovered within the enhanced Agent Workspace in the transcript area, which allowed agents to send hyperlinks for mobile or unauthorized conversations, even though they shouldn’t be able to do so.This bug has been fixed.
+A bug has been discovered within the enhanced Agent Workspace in the transcript area, which allowed agents to send hyperlinks for mobile or unauthorized conversations, even though they shouldn’t be able to do so. This bug has been fixed.
 
 ## [Enhanced Agent Workspace] Editor’s text - line breaks not working in custom widgets
 ### Type: Bug fix (NAW 1.13)

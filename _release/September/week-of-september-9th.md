@@ -160,7 +160,7 @@ Brands can configure one survey and apply it for all channels or they can config
 ![](/img/week-of-september-9th-11-1.png)
 
 {: .notice}
-**Please note:** This feature requires enablement - please contact your LivePerson account team.This feature requires enablement - please contact your LivePerson account team.
+**Please note:** This feature requires enablement - please contact your LivePerson account team. This feature requires enablement - please contact your LivePerson account team.
 
 **Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
 

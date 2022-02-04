@@ -208,7 +208,7 @@ The transfer to agent capability enables agents, agent managers and bots to tran
 **Available to all customers -** Yes
 
 **Description**  
-Agent file sharing enables agents and bots to share files with consumers.At this phase, only photos can be shared via web-messaging. In the future, more file formats will be supported.
+Agent file sharing enables agents and bots to share files with consumers. At this phase, only photos can be shared via web-messaging. In the future, more file formats will be supported.
 
 Agents will now be able to share photos with consumers in order to answer questions that can be better explained using images. For example, a screenshot for tech support or a product photo for sales use cases.
 
