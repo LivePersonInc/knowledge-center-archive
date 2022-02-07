@@ -250,7 +250,6 @@
         - pagename: Real time data
           level3:
             - level3name: Real time data for messaging
-            - level3name: Real time messaging dashboard
         - pagename: Messaging dashboards
           level3:
             - level3name: Performance dashboard for messaging
