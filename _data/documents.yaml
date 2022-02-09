@@ -409,6 +409,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2022
       pages:
+        - pagename: Febuary
+          level3:
+            - level3name: Week of Febuary 9th      
         - pagename: January
           level3:
             - level3name: Week of January 12th
