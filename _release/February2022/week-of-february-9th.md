@@ -113,7 +113,6 @@ Find settings that impact all your recommendation sources on a redesigned Settin
 
 ### Type: New feature [Conversation Builder]
 
-Watch this short, 45-second video to learn how to send us feedback on the Conversation Builder documentation. It's quick and easy. We value your feedback, so thank you in advance: 
+Watch this short, 45-second video to learn how to send us feedback on the Conversation Builder documentation. It's quick and easy. We value your feedback, so thank you in advance: https://player.vimeo.com/video/673282819
 
-<iframe style="max-width: 750px;" src="673282819" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
