@@ -73,3 +73,46 @@ The list of available agents in the wizard has been showing already assigned age
 **Available to all customers?** Yes
 
 The consumer profile data can contain multiple SDEs of the same type. When merging these entries Third-Party Bots has accepted ‘null’ values as valid data in the past. With this fix ‘null’ values will no longer override properties of another SDE entry of the same type.
+
+
+## Agent Assist' is now 'Conversation Assist' and comes with rich analytics
+
+### Type: New feature [Conversation Assist]
+
+**Available to all customers?** Yes
+
+The Agent Assist application is now called Conversation Assist, and comes with several exciting changes to make it easier to set up recommendations and evaluate how well they are serving your agents with new, rich analytics.
+
+<img width="400" src="week-of-november-10th-2021-2.gif" align="left" style="margin: 0px 25px 0px 0px;">
+
+Conversation Assists is faster to access, as you can now do so directly from the Conversational AI applications page.
+
+![](img/week-of-november-10th-2021-3.png)
+The Agent Assist application—now called Conversation Assist—introduces several exciting changes to make it easier to set up recommendations and evaluate how well they are serving your agents.
+
+![](img/week-of-november-10th-2021-4.png)
+
+Conversation Assist’s new home page includes a dashboard of rich, diagnostic analytics. Use the dashboard to get an at-a-glance, holistic understanding of when and how recommendations are offered and used.
+
+![](img/week-of-november-10th-2021-5.png)
+
+The UI has been redesigned to make it more intuitive: You’ll find your knowledge bases and bots on two different tabs of the new Recommendation Sources page. From here you can easily turn these sources on and off and assign skills to them.
+
+Find settings that impact all your recommendation sources on a redesigned Settings page. Use this page to:
+
+* Temporarily suspend all recommendations if you need to.
+
+* Configure the maximum number of recommendations to serve at one time.
+
+* Set the minimum scores that answers and bots should have for them to be offered as recommendations.
+
+* Customize the messages sent to the consumer when a bot is added to and removed from a conversation.
+
+![](img/week-of-november-10th-2021-6.png)
+
+## Sending Doc Feedback
+
+### Type: New feature [Conversation Builder]
+
+Watch this short, 45-second video to learn how to send us feedback on the Conversation Builder documentation. It's quick and easy. We value your feedback, so thank you in advance: https://player.vimeo.com/video/673282819
+
