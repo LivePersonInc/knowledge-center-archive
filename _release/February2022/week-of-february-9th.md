@@ -83,11 +83,13 @@ The consumer profile data can contain multiple SDEs of the same type. When mergi
 
 The Agent Assist application is now called Conversation Assist, and comes with several exciting changes to make it easier to set up recommendations and evaluate how well they are serving your agents with new, rich analytics.
 
+
 <img width="400" src="week-of-november-10th-2021-2.gif" align="left" style="margin: 0px 25px 0px 0px;">
 
 Conversation Assists is faster to access, as you can now do so directly from the Conversational AI applications page.
 
 ![](img/week-of-november-10th-2021-3.png)
+
 The Agent Assist application—now called Conversation Assist—introduces several exciting changes to make it easier to set up recommendations and evaluate how well they are serving your agents.
 
 ![](img/week-of-november-10th-2021-4.png)
@@ -114,5 +116,5 @@ Find settings that impact all your recommendation sources on a redesigned Settin
 
 ### Type: New feature [Conversation Builder]
 
-Watch this short, 45-second video to learn how to send us feedback on the Conversation Builder documentation. It's quick and easy. We value your feedback, so thank you in advance: https://player.vimeo.com/video/673282819
+Watch this short, 45-second video to learn how to send us feedback on the Conversation Builder documentation. It's quick and easy. We value your feedback, so thank you in advance: <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/673282819?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> 
 
