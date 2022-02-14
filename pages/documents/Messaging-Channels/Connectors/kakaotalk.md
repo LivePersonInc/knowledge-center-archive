@@ -19,8 +19,6 @@ Set up is easy and allows your agents to create ongoing connections with valuabl
 ## Why use KakaoTalk to connect with your consumers?
 * Available in over 130 countries
 * 100,000,000+ installs via Google Play Store
-* KakaoTalk released an emoticon monthly fixed-rate service. "Emoticon Plus" is a service that allows unlimited use of Kakao's selected collection of emoticons for ₩3,900 per month
-* After subscribing to 'KakaoTalk Wallet', users can purchase the ticket through their own payment.
 * Messages sent on KakaoTalk reach 11 billion on average per day.
 
 ## Rich Functionalities
