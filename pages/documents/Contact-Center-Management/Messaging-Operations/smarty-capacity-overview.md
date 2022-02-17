@@ -35,7 +35,7 @@ This can trigger several possible issues:
 
 * **Underutilized agents** - with routing based on concurrency, the agents’ time is not being optimized.
 * **Cut off conversations** - in order to free up their concurrency, agents may close conversations before an issue is fully resolved.
-* **CSAT fal**l - if conversations are closed prematurely, consumers may provide a negative CSAT rating.
+* **CSAT fall** - if conversations are closed prematurely, consumers may provide a negative CSAT rating.
 * **Long wait times** - during busy periods, a large number of agents at maximum concurrency can lead to longer queue times.
 
 ## How LivePerson's Dynamic Capacity works
@@ -80,8 +80,8 @@ Dynamic Capacity keeps an extra 0.5 slot to enable the assignment of new convers
 For example:
 
 * An agent has a configured capacity of 3 slots.
-* He currently has 2 'active' conversations which consume a full slot each, and one 'inactive' conversation which consumes 0.1 of a slot. In total he has 2.1 "busy" slots.
-* He will still be able to receive an additional incoming 'active' conversation due to the extra 0.5 slot.
+* He currently has 2 "active" conversations which consume a full slot each, and one "inactive" conversation which consumes 0.1 of a slot. In total he has 2.1 "busy" slots.
+* He will still be able to receive an additional incoming "active" conversation due to the extra 0.5 slot.
 * After accepting the incoming conversation his busy slots count will be 3.1 - exceeding the maximum configured number of slots.
 
 ## KPIs & measurements
@@ -112,4 +112,4 @@ To maximize agent capacity and ensure conversation routing is as rapid and effic
 
 ## Dynamic Capacity per skill
 
-Dynamic Capacity enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Dynamic Capacity Per Skill, brands can now customize  Dynamic Capacity's settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see [Dynamic Capacity per skill](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
+Dynamic Capacity enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Dynamic Capacity Per Skill, brands can now customize  Dynamic Capacity's settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see [Dynamic Capacity per skill](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
