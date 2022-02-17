@@ -67,7 +67,7 @@ For more information on Conversation Outcomes and the Conversation summary widge
 
 ### Cause:
 
-Sometimes latency issues are experienced by users, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc.The affected agents were working in unsupported browser versions.
+Sometimes latency issues are experienced by users, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc. The affected agents were working in unsupported browser versions.
 
 ### Solution:
 

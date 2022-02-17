@@ -28,6 +28,6 @@ This information is also available in the [Engagement History API](https://devel
 | Transfer - reassignment to skill | The agent transferred the chat to a skill. |
 | Rep stopped chat | The agent clicked the End Chat button and ended the chat. |
 | Rep disconnected | The agent was disconnected from the internet (usually as a result of local internet connectivity). |
-| Visitor disconnected | The visitor was disconnected due to connectivity issues on their side. If a chat is disrupted or fails due to connectivity issues, the system will wait for 40 seconds before it defines the chat as inactive and will end it.Note:  After clicking the Close button,  the visitor may still be able to submit the Exit Survey. |
+| Visitor disconnected | The visitor was disconnected due to connectivity issues on their side. If a chat is disrupted or fails due to connectivity issues, the system will wait for 40 seconds before it defines the chat as inactive and will end it. Note: After clicking the Close button, the visitor may still be able to submit the Exit Survey. |
 | Visitor was no longer in chat | For visitors who are disconnected and the connection was not terminated, a cleaning process clears those chat connections |
 | Visitor closed chat | The visitor closed the chat by clicking End Chat or clicking the X button of the engagement window. |

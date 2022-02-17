@@ -149,7 +149,7 @@ After the fix: hot keys are aligned to the right side of the widget
 ## [Enhanced agent workspace] Predefined Content widget: "Search" function behavior is incorrect
 ### Bug fix (NAW 1.12)
 
-A bug was found in the Predefined Content widget search bar. While In the old workspace, agents were able to abbreviate the searched text, type keywords, and the results would be displayed. In the enhanced agent workspace, agents must write the exact substring in order for results to come up.This bug was fixed, and the results are now coming up as expected.
+A bug was found in the Predefined Content widget search bar. While In the old workspace, agents were able to abbreviate the searched text, type keywords, and the results would be displayed. In the enhanced agent workspace, agents must write the exact substring in order for results to come up. This bug was fixed, and the results are now coming up as expected.
 
 Search results after bug fix:
 

@@ -16,7 +16,7 @@ date: 2019-02-26 12:39:36 +0000
 
 ### Cause:
 
-The Agent icons are not aligned with first line of messages on consumer iOS devices. Instead the icons are located at/aligned with the bottom line of the messages.This issue occurs on iOS devices only. On Android devices the agents icons are aligned with the first line of the messages.
+The Agent icons are not aligned with first line of messages on consumer iOS devices. Instead the icons are located at/aligned with the bottom line of the messages. This issue occurs on iOS devices only. On Android devices the agents icons are aligned with the first line of the messages.
 
 ### Solution:
 

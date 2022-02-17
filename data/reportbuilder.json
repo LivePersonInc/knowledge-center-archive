@@ -595,7 +595,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of Interactive messaging collaboration sessions.An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
+    "DESCRIPTION": "Number of Interactive messaging collaboration sessions. An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, Source type",
     "CHANNEL": "Messaging"
   },
@@ -1475,7 +1475,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "Average of the time ([mm]:ss) taken by consumers to respond to an agent? message.In case of multiple consecutive agent messages, the time will be measured from the first message. In case of multiple consecutive consumer responses, the time will be measured until the first response.This KPI is not assigned to an Agent",
+    "DESCRIPTION": "Average of the time ([mm]:ss) taken by consumers to respond to an agent? message. In case of multiple consecutive agent messages, the time will be measured from the first message. In case of multiple consecutive consumer responses, the time will be measured until the first response. This KPI is not assigned to an Agent",
     "FILTERED_BY": "Date, Initial Device, Goal Type, Group , Source Type",
     "CHANNEL": "Messaging"
   },
@@ -2165,7 +2165,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of Interactive messaging collaboration sessions.An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
+    "DESCRIPTION": "Number of Interactive messaging collaboration sessions. An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, Source type",
     "CHANNEL": "Messaging"
   },
@@ -3615,7 +3615,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Campaign Funnel",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of times each engagement was offered to a consumer.If the engagement was displayed multiple times within one session, it will be counted as one exposure",
+    "DESCRIPTION": "Number of times each engagement was offered to a consumer. If the engagement was displayed multiple times within one session, it will be counted as one exposure",
     "FILTERED_BY": "End-Point (Source Type)",
     "CHANNEL": "Chat"
   },
@@ -4925,7 +4925,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
     "FORMULA": "FIRST HUMAN MESSAGE DUR DAYS / TOTAL NO OF FIRST HUMAN MESSAGE",
-    "DESCRIPTION": "The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation.",
+    "DESCRIPTION": "The time on average a consumer waits for a response from the first human agent assigned to the conversation. If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation.",
     "FILTERED_BY": "Merchant, Subscriber",
     "CHANNEL": "Messaging"
   },
@@ -6685,7 +6685,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of conversations during which an agent did not respond to a consumer message.Conversations in which the Agent is the first to message (Resume) cannot be marked as abandoned, even if the consumer did not respond to an agent message",
+    "DESCRIPTION": "Number of conversations during which an agent did not respond to a consumer message. Conversations in which the Agent is the first to message (Resume) cannot be marked as abandoned, even if the consumer did not respond to an agent message",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -6755,7 +6755,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "COUNT DISTINCT CONSUMERS",
-    "DESCRIPTION": "The number of consumers who were active during a selected timeframe.A consumer is marked as active if at least one of the following occurred:1) Consumer opened a conversation2) Consumer sent a message in a conversation3) Consumer closed the conversation",
+    "DESCRIPTION": "The number of consumers who were active during a selected timeframe. A consumer is marked as active if at least one of the following occurred:1) Consumer opened a conversation2) Consumer sent a message in a conversation3) Consumer closed the conversation",
     "FILTERED_BY": "Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -6845,7 +6845,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -6855,7 +6855,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because the last message in the conversation was sent by the consumer.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because the last message in the conversation was sent by the consumer. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -6865,7 +6865,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because these conversations were transferred into the queue by an agent.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because these conversations were transferred into the queue by an agent. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -6875,7 +6875,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because an agent set a manual TTR (SLA) on these conversation.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because an agent set a manual TTR (SLA) on these conversation. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -6895,7 +6895,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "Average of the time ([mm]:ss) taken by consumers to respond to an agent? message.In case of multiple consecutive agent messages, the time will be measured from the first message. In case of multiple consecutive consumer responses, the time will be measured until the first response.This KPI is not assigned to an Agent",
+    "DESCRIPTION": "Average of the time ([mm]:ss) taken by consumers to respond to an agent? message. In case of multiple consecutive agent messages, the time will be measured from the first message. In case of multiple consecutive consumer responses, the time will be measured until the first response. This KPI is not assigned to an Agent",
     "FILTERED_BY": "Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -6955,7 +6955,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of not-actionable conversation in queue.Filterable by Skill.",
+    "DESCRIPTION": "The average number of not-actionable conversation in queue. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -6965,7 +6965,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those that were transferred by an agent into the queue. Conversations in-queue and in-transfer are considered actionable by default, unless the brand chooses to change the queue management configuration.Filterable by Skill.",
+    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those that were transferred by an agent into the queue. Conversations in-queue and in-transfer are considered actionable by default, unless the brand chooses to change the queue management configuration. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -6975,7 +6975,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those in which an agent set a manual TTR (SLA). Conversations in-queue and set with manual TTR are considered actionable by default, unless the brand chooses to change the queue management configuration.Filterable by Skill.",
+    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those in which an agent set a manual TTR (SLA). Conversations in-queue and set with manual TTR are considered actionable by default, unless the brand chooses to change the queue management configuration. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -7115,7 +7115,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation.",
+    "DESCRIPTION": "The time on average a consumer waits for a response from the first human agent assigned to the conversation. If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation.",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -7585,7 +7585,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of Interactive messaging collaboration sessions.An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
+    "DESCRIPTION": "Number of Interactive messaging collaboration sessions. An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, Source type",
     "CHANNEL": "Messaging"
   },
@@ -7645,7 +7645,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of conversations during which the consumers did not respond to an agent message.Conversations in which the Agent is the first to message (Resume), and do not include a consumer response to the agent message, are considered Non Interactive (and not abandoned)",
+    "DESCRIPTION": "Number of conversations during which the consumers did not respond to an agent message. Conversations in which the Agent is the first to message (Resume), and do not include a consumer response to the agent message, are considered Non Interactive (and not abandoned)",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -8085,7 +8085,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
     "FORMULA": "-",
-    "DESCRIPTION": "The number of times another agent (user) takesover conversations from a given agent.Used to analyse how many time conversations were taken over FROM a bot or human agent (Example- How many conversations were takenover from Concierge-Bot agent/user?).",
+    "DESCRIPTION": "The number of times another agent (user) takesover conversations from a given agent. Used to analyse how many time conversations were taken over FROM a bot or human agent (Example- How many conversations were takenover from Concierge-Bot agent/user?).",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -8605,7 +8605,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Survey",
     "FORMULA": "AGENT SURVEY ANSWER COUNT (Agent Skill) / AGENT SURVEY ANSWER COUNT (Agent and Skill) question level",
-    "DESCRIPTION": "The percentage (%) of questions answered by an agent out of the total questions answered.Calculated at the Agent and Skill level.",
+    "DESCRIPTION": "The percentage (%) of questions answered by an agent out of the total questions answered. Calculated at the Agent and Skill level.",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -8705,7 +8705,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Surveys",
     "FORMULA": "-",
-    "DESCRIPTION": "The average time a survey is available to the consumer. During this time, the consumer may respond to presented questions. Measured from the time the survey is offered by the Survey Bot till the time the survey is closed.Attributed to the Date/Hour during which the survey was offered (not close time of the survey). Format- [h]:mm:ss",
+    "DESCRIPTION": "The average time a survey is available to the consumer. During this time, the consumer may respond to presented questions. Measured from the time the survey is offered by the Survey Bot till the time the survey is closed. Attributed to the Date/Hour during which the survey was offered (not close time of the survey). Format- [h]:mm:ss",
     "FILTERED_BY": "Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -9455,7 +9455,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation.",
+    "DESCRIPTION": "The time on average a consumer waits for a response from the first human agent assigned to the conversation. If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation.",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -9715,7 +9715,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of conversations during which the consumers did not respond to an agent message.Conversations in which the Agent is the first to message (Resume), and do not include a consumer response to the agent message, are considered Non Interactive (and not abandoned)",
+    "DESCRIPTION": "Number of conversations during which the consumers did not respond to an agent message. Conversations in which the Agent is the first to message (Resume), and do not include a consumer response to the agent message, are considered Non Interactive (and not abandoned)",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -9795,7 +9795,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
     "FORMULA": "-",
-    "DESCRIPTION": "The number of times another agent (user) takesover conversations from a given agent.Used to analyse how many time conversations were taken over FROM a bot or human agent (Example- How many conversations were takenover from Concierge-Bot agent/user?).",
+    "DESCRIPTION": "The number of times another agent (user) takesover conversations from a given agent. Used to analyse how many time conversations were taken over FROM a bot or human agent (Example- How many conversations were takenover from Concierge-Bot agent/user?).",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -9965,7 +9965,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Consumer Experience",
     "FORMULA": "-",
-    "DESCRIPTION": "Average of the time ([mm]:ss) taken by consumers to respond to an agent? message.In case of multiple consecutive agent messages, the time will be measured from the first message. In case of multiple consecutive consumer responses, the time will be measured until the first response.This KPI is not assigned to an Agent",
+    "DESCRIPTION": "Average of the time ([mm]:ss) taken by consumers to respond to an agent? message. In case of multiple consecutive agent messages, the time will be measured from the first message. In case of multiple consecutive consumer responses, the time will be measured until the first response. This KPI is not assigned to an Agent",
     "FILTERED_BY": "Skill, Engagement, Campaign, LoB, End-Point (Source Type)",
     "CHANNEL": "Messaging"
   },
@@ -10025,7 +10025,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -10035,7 +10035,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because the last message in the conversation was sent by the consumer.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because the last message in the conversation was sent by the consumer. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -10045,7 +10045,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because these conversations were transferred into the queue by an agent.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because these conversations were transferred into the queue by an agent. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -10055,7 +10055,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because an agent set a manual TTR (SLA) on these conversation.Filterable by Skill.",
+    "DESCRIPTION": "The average number of actionable conversation in queue. These conversations are actionable because an agent set a manual TTR (SLA) on these conversation. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -10065,7 +10065,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of not-actionable conversation in queue.Filterable by Skill.",
+    "DESCRIPTION": "The average number of not-actionable conversation in queue. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -10075,7 +10075,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those that were transferred by an agent into the queue. Conversations in-queue and in-transfer are considered actionable by default, unless the brand chooses to change the queue management configuration.Filterable by Skill.",
+    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those that were transferred by an agent into the queue. Conversations in-queue and in-transfer are considered actionable by default, unless the brand chooses to change the queue management configuration. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -10085,7 +10085,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Queue Health",
     "FORMULA": "AN HOURLY AVERAGE OF A frequent SNAPSHOT OF EACH SKILL-QUEUE. EACH SNAPSHOT REPORTS ON THE NUMBER OF CONVERSATIONS IN QUEUE.",
-    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those in which an agent set a manual TTR (SLA). Conversations in-queue and set with manual TTR are considered actionable by default, unless the brand chooses to change the queue management configuration.Filterable by Skill.",
+    "DESCRIPTION": "The average number of not-actionable conversations in queue. These conversations include those in which an agent set a manual TTR (SLA). Conversations in-queue and set with manual TTR are considered actionable by default, unless the brand chooses to change the queue management configuration. Filterable by Skill.",
     "FILTERED_BY": "Skill",
     "CHANNEL": "Messaging"
   },
@@ -11105,7 +11105,7 @@
     "ELEMENT": "Metric",
     "ANALYSIS_TYPE": "Agent Productivity",
     "FORMULA": "-",
-    "DESCRIPTION": "Number of Interactive messaging collaboration sessions.An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
+    "DESCRIPTION": "Number of Interactive messaging collaboration sessions. An interactive session involves participation of both agent and consumer, and lasts 60 seconds or more",
     "FILTERED_BY": "Agent, Group, Skill, Engagement, Campaign, LoB, Source type",
     "CHANNEL": "Messaging"
   },

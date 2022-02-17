@@ -197,7 +197,7 @@ The LOB Detail panel will display all 4E metrics, primary and secondary, startin
 
 ### 4E Summary Panel 
 Using the overall 4E score, the 4E Summary panel enables users to view a calculated overall score by each 4E category. Each of the 4E scores incorporate all the primary and secondary 4E metrics for that 4E category, and weights those metrics based on level of impact. The score is then calculated to provide a singular score to represent the 4E category. The graphic below shows the brand’s overall Efficiency score at 55% and its Effectiveness at 17%.  
-Industry benchmarks are displayed in 25% percentile increments and are color-coded: Red indicates the bottom 25th percentile, and green indicates the 75th percentile.The user is able to compare their overall 4E scores against the industry benchmark. As an example, the brand’s efficiency score of 55% is within the 50-75th percentile of their industry.
+Industry benchmarks are displayed in 25% percentile increments and are color-coded: Red indicates the bottom 25th percentile, and green indicates the 75th percentile. The user is able to compare their overall 4E scores against the industry benchmark. As an example, the brand’s efficiency score of 55% is within the 50-75th percentile of their industry.
 
 ![](img/performance-optimizer20.png)
 

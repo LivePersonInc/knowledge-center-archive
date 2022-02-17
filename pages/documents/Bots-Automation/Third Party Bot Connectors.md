@@ -55,7 +55,7 @@ For more information and detailed steps of how to onboard - please visit the [De
 
 Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to the Conversational Cloud. In order to achieve this, you will need to implement a LivePerson Functions **Custom Integration**.
 
-To connect to a third-party bot with the custom integration, you will need to write code using Node.JS from LivePerson’s Functions platform.
+To connect to a third-party bot with the custom integration, you will need to write code using Node.js from LivePerson’s Functions platform.
 
 Whenever a message is sent from the consumer into LE, the custom connector takes that message and triggers the function you develop to link to your Bot provider and sends the message.
 
