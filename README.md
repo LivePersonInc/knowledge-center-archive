@@ -1,6 +1,6 @@
 ## LivePerson Knowledge Center
 
-This repository generates LivePerson's Knowledge Center, which can be found at [knowledge.liveperson.com](https://knowledge.liveperson.com/). The site is generated using [Jekyll](https://jekyllrb.com/). If you find an issue with the documentation, site structure, meta or anything else, please open an issue and we'll respond as soon as possible!
+**Note**: This repo is deprecated as of February 15th 2022. Knowledge.liveperson.com is now built by this repo [https://github.com/LivePersonInc/Kontent-helpcenter](https://github.com/LivePersonInc/Kontent-helpcenter). If you have an issue with content on the website, please use the feedback button on the right side of the screen.
 
 **This site is maintained by the Product Communications and Experience team. Please contact lmart@liveperson.com for issues, questions, and the such**.
 
