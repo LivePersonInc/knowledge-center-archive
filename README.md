@@ -2,7 +2,7 @@
 
 **Note**: This repo is deprecated as of February 15th 2022. Knowledge.liveperson.com is now built by this repo [https://github.com/LivePersonInc/Kontent-helpcenter](https://github.com/LivePersonInc/Kontent-helpcenter). If you have an issue with content on the website, please use the feedback button on the right side of the screen.
 
-**This site is maintained by the Product Communications and Experience team. Please contact lmart@liveperson.com for issues, questions, and the such**.
+**This site is maintained by the Product Communications and Experience team. Please contact ihaephrati@liveperson.com for issues, questions, and the such**.
 
 ### Building the Site Locally
 
