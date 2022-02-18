@@ -51,6 +51,13 @@ For supported iOS and Android versions of our Mobile Messaging Window SDK, other
 | Safari | Latest available version | Latest available version | Latest available version (N)* , Version N-1 |
 | Chrome | Latest available version | Latest available version | Latest available version (N)* , Version N-1 |
 
+### WebView
+
+{: .important}
+iOS/Android WebViews are not officially supported by the web messaging product. We recommend implementing the mobile SDK into the mobile app for full support.
+
+iOS and Android **in-app browsers**, or **WebViews** consistently have technical limitations that affect the ability of the LivePerson web messaging experience to function properly (engagements, web messaging window, etc.), and are currently **not** supported.
+
 ## Visitor side: desktop requirements
 
 The tables below list the browsers LivePerson supports for visitors on desktop web assets.
